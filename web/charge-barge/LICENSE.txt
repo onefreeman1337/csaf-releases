@@ -1,0 +1,26 @@
+CHARGE BARGE
+Copyright (c) 2026 Corey Gallant and Stephanie Thomason (CSAF).
+All rights reserved.
+
+FREE TO PLAY
+------------
+This game is distributed free of charge. You may play it, link to it, stream it,
+record it, and write about it — including monetised video and streaming — without
+asking permission and without owing anything.
+
+WHAT YOU MAY NOT DO
+-------------------
+  · Sell it, or include it in anything sold.
+  · Re-upload or re-host it as your own work, on itch.io or anywhere else.
+  · Remove or alter the attribution above.
+
+SOURCE
+------
+This is a browser game, so its source is readable by anyone who opens the page —
+that is a property of the medium, not a grant of licence. You are welcome to read
+it and learn from it; you may not republish it.
+
+THIRD-PARTY NOTICES
+-------------------
+js/sound.js vendors ZzFXMicro (c) 2019 Frank Force, MIT licence — the full
+notice is retained in that file's header, as the MIT licence requires.
