@@ -1,0 +1,166 @@
+COLOSSEUM CORE COMMERCIAL ASSET LICENCE
+Colosseum Core — The Championship Layer for RPG Maker MZ
+Version 1.0.0
+
+Copyright (c) 2026. All rights reserved.
+
+================================================================================
+PLAIN-ENGLISH SUMMARY (the full terms below are what legally apply)
+================================================================================
+
+  YOU MAY:
+    - Use this plugin in unlimited games, commercial or free, forever.
+    - Keep 100% of your revenue. No royalties, no revenue share, ever.
+    - Modify the source however you like for your own projects.
+    - Ship your game on any platform or storefront.
+    - Use it on any number of your own machines.
+
+  YOU MAY NOT:
+    - Resell, redistribute, or give away the plugin file itself.
+    - Publish the source code publicly, in whole or in substantial part.
+    - Include it in an asset pack, template, or starter kit for distribution.
+    - Claim you wrote it.
+
+  In short: ship as many games with it as you want. Just don't resell the tool.
+
+================================================================================
+1. GRANT OF LICENCE
+================================================================================
+
+Upon purchase, you ("the Licensee") are granted a perpetual, worldwide,
+non-exclusive, non-transferable licence to use, modify, and incorporate this
+software ("the Software") into interactive digital works ("Games") that you
+create.
+
+This licence is granted to a single individual, or to a single legal entity of
+any size. Where the Licensee is an entity, all employees and contractors of that
+entity may use the Software on that entity's projects.
+
+================================================================================
+2. PERMITTED USE
+================================================================================
+
+2.1  You may incorporate the Software into an unlimited number of Games.
+
+2.2  You may distribute and sell those Games on any platform, storefront, or
+     medium, with no royalty, revenue share, or additional fee owed.
+
+2.3  You may modify, extend, adapt, or refactor the source code freely for use
+     within your own Games.
+
+2.4  You may install and use the Software on any number of machines that you
+     personally own or control.
+
+2.5  You may share the Software confidentially with contractors, collaborators,
+     or employees working directly on your Game, provided they use it solely for
+     that Game and are bound by these terms.
+
+2.6  You may include the compiled or packaged output of your Game containing the
+     Software, in whole or in part, as a necessary component of that Game.
+
+================================================================================
+3. RESTRICTIONS
+================================================================================
+
+3.1  You may NOT sell, sublicense, rent, lease, lend, or otherwise distribute
+     the Software as a standalone product or as part of any collection of
+     development tools, assets, templates, frameworks, or starter kits.
+
+3.2  You may NOT publish the source code of the Software, or any substantial
+     portion of it, in any publicly accessible location, including but not
+     limited to public code repositories, forums, tutorials, or file hosts.
+     This restriction applies equally to modified versions.
+
+3.3  You may NOT remove, obscure, or alter the copyright notice, licence header,
+     or authorship attribution contained in the Software's source files.
+
+3.4  You may NOT represent yourself as the author or originator of the Software.
+
+3.5  You may NOT use the Software to create a product whose primary purpose is
+     to compete with the Software as a development tool.
+
+3.6  Distribution of the Software within a Game is permitted only where the
+     Software is a functional component of that Game, and not where the Game
+     serves principally as a vehicle for redistributing the Software.
+
+================================================================================
+4. OWNERSHIP
+================================================================================
+
+4.1  The Software is licensed, not sold. All right, title, and interest in the
+     Software remain with the copyright holder.
+
+4.2  You retain all rights to the Games you create using the Software, including
+     all original content, code, and assets you author.
+
+4.3  Modifications you make to the Software remain subject to this licence.
+
+================================================================================
+5. NO WARRANTY
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+You are solely responsible for testing the Software's suitability for your
+project before release.
+
+================================================================================
+6. SUPPORT AND UPDATES
+================================================================================
+
+6.1  Updates within the same major version (1.x) are provided free of charge to
+     purchasers, distributed through the original point of purchase.
+
+6.2  Support is provided on a best-effort basis and is not guaranteed by this
+     licence.
+
+6.3  No obligation to provide future updates, features, or continued
+     compatibility with future engine versions is created by this licence.
+
+================================================================================
+7. TERMINATION
+================================================================================
+
+7.1  This licence terminates automatically if you materially breach any of its
+     terms.
+
+7.2  Upon termination you must cease all use of the Software and destroy all
+     copies in your possession.
+
+7.3  Games already released prior to termination may continue to be distributed.
+     You will not be required to recall, patch, or withdraw shipped Games.
+
+================================================================================
+8. ATTRIBUTION
+================================================================================
+
+Credit is appreciated but not required. If you choose to credit, the preferred
+form is:
+
+     "Colosseum Core — The Championship Layer for RPG Maker MZ"
+
+================================================================================
+9. GENERAL
+================================================================================
+
+9.1  If any provision of this licence is held unenforceable, the remaining
+     provisions remain in full force.
+
+9.2  This licence constitutes the entire agreement regarding the Software and
+     supersedes any prior communications.
+
+9.3  Failure to enforce any provision does not constitute a waiver of it.
+
+================================================================================
+
+By installing or using the Software, you accept these terms.
+
+Questions about licensing for a use case not covered here? Contact the seller
+through the original point of purchase before proceeding.
