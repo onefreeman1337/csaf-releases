@@ -1,0 +1,41 @@
+{
+  "product": "Starchart",
+  "builtAt": "2026-08-17T02:51:54.850Z",
+  "files": [
+    {
+      "file": "LICENSE.txt",
+      "bytes": 1342,
+      "sha256": "ab06a395db475353596c6e7ecda07e509e90fb5e36d08fb0130472e966e91ff7"
+    },
+    {
+      "file": "Readme_for_Users.md",
+      "bytes": 5052,
+      "sha256": "1620f433f303ffc6a9613726a045b99310f47ac8b0021f8560d59e519bcf1d52"
+    },
+    {
+      "file": "index.html",
+      "bytes": 689,
+      "sha256": "b590e8193a355e11f6a1d8c68ec30de007f737287c26122497d189679fb3f5d8"
+    },
+    {
+      "file": "js/atlas.js",
+      "bytes": 19044,
+      "sha256": "800a4f23d234ebadd86eb3b980a75f2b0e67345895356dba9b793b40fe65ba76"
+    },
+    {
+      "file": "js/game.js",
+      "bytes": 33988,
+      "sha256": "5b7eb13bc176a6a10ea10ee878e85912a15973edd59a3e2211bc8c175971e188"
+    },
+    {
+      "file": "js/marks.js",
+      "bytes": 16655,
+      "sha256": "9d5c450a20df5e05e8fe80adfe3580a6e7201479add59d4bf4492341700cf5b3"
+    },
+    {
+      "file": "js/sound.js",
+      "bytes": 7741,
+      "sha256": "27788ba7622a96db6c714da88f99456021d25e9f5336a93f30cd2726c68e903c"
+    }
+  ]
+}
