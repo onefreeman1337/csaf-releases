@@ -1,0 +1,56 @@
+<p><strong>A sprite sheet cannot connect two things that move.</strong> The moment a bolt has to start at a wand and end at whichever enemy is currently closest, pre-rendered lightning has to stretch to an arbitrary length and rotate to an arbitrary angle &mdash; and stretched lightning reads as stretched lightning. Chain arcs that jump between four live targets, a leash that sags between two moving instances, a trail that follows an actual flight path: none of them have a fixed length or a fixed angle, so none of them can be a fixed image.</p>
+
+<p><strong>Beacon generates the light instead, in pure GML.</strong> Lightning, beams, lasers, chains, tethers and motion trails are built as geometry every frame from a handful of primitives &mdash; no atlas to re-export, no resolution to outgrow, and a colourway you change by assigning a struct field.</p>
+
+<h3>Six verbs, one system</h3>
+
+<p><code>bolt &middot; beam &middot; laser &middot; chain &middot; tether &middot; trail</code></p>
+
+<p>This is the part that makes it a system rather than six snippets: <strong>every effect compiles to the same intermediate</strong> &mdash; a <code>BeaconPath</code> &mdash; and <strong>one renderer draws them all</strong>. Retune the renderer and every effect in your game changes together. Write a new generator that emits a <code>BeaconPath</code> and it inherits the entire look for free.</p>
+
+<h3>Layered additive light, not a coloured line</h3>
+
+<p>Each path draws in three passes as triangle-strip ribbons: a wide faint <em>halo</em>, a saturated <em>glow</em>, and a thin near-white <em>core</em>. The three widths sum into a falloff the eye reads as energy &mdash; which is the whole difference between a lightning effect and a debug polyline. Beams carry travelling pulses and an aperture bloom at the emitter; the demo's holy pillar lands an impact flare where it meets geometry.</p>
+
+<p>Four authored colourways ship &mdash; <em>Arc</em> (electric blue-white), <em>Plasma</em> (magenta-violet), <em>Holy</em> (gold-white) and <em>Void</em> (toxic green) &mdash; and every number in them is a plain struct field, so retuning is direct rather than a setter API to learn.</p>
+
+<h3>Deterministic on purpose</h3>
+
+<p><strong>There is no <code>random()</code> anywhere in Beacon.</strong> Every spark comes from a 32-bit hash of <code>(seed, node, time-bucket)</code>. Two runs are byte-identical, which means captures reproduce, replays stay in sync, and lockstep multiplayer cannot desync on cosmetics &mdash; a real failure mode for anyone who has tried to add screen-shake-grade VFX to a deterministic build.</p>
+
+<p>It also buys the look: a bolt <em>holds</em> one shape for its hold window and then re-rolls, so lightning flickers on a cadence instead of boiling every frame. Displacement is bounded by a geometric series, so arcs jitter without ever wandering off toward the corner of the room.</p>
+
+<h3>Tethers sag by equation</h3>
+
+<p>A leash is a closed-form parabola with a sway term &mdash; no verlet chain, no physics step, no accumulated state to explode after an alt-tab. Attach it to two instances and it tracks them for as long as they both live. If one is destroyed the effect simply stops drawing; chain targets are dropped one at a time the same way, so an arc through four enemies keeps working as they die.</p>
+
+<h3>Built to be read</h3>
+
+<ul>
+<li><strong>Pure GML.</strong> No native extension, no DLL, no dependency &mdash; nothing to break on a runtime update.</li>
+<li><strong>The generators are engine-free.</strong> <code>beacon_core</code> takes coordinates, a time in milliseconds and a config struct, and returns a path. No engine calls at all, so the half that can be wrong is the half you can read.</li>
+<li><strong>Blend state is saved and restored</strong> around every draw, including the <code>_ext</code> form. A renderer that leaks <code>bm_add</code> into your pipeline is a support ticket you cannot debug remotely; nothing you draw afterwards washes out.</li>
+<li><strong>One conversion, one place.</strong> <code>delta_time</code> is microseconds and Beacon's clocks are milliseconds &mdash; the single conversion lives on one commented line.</li>
+<li><strong>Namespaced.</strong> Everything is <code>beacon_</code> / <code>__beacon_</code>. GML's global namespace is flat; nothing here collides with your project.</li>
+<li><strong>A runnable 5-page demo room</strong> ships beside the library, so you can evaluate every claim on this page in two minutes.</li>
+</ul>
+
+<h3>The API, in three lines</h3>
+
+<pre>fx = beacon_fx_create("bolt", beacon_pt(100, 100),
+                      beacon_anchor(obj_enemy), beacon_preset_arc());
+beacon_fx_tick(fx);   // Step
+beacon_fx_draw(fx);   // Draw</pre>
+
+<p>Endpoints are fixed points or live instances, mixed freely. A chain reads its route from <code>fx.targets</code>; a trail follows its own endpoint's history.</p>
+
+<h3>What's in the download</h3>
+
+<ul>
+<li><code>Beacon.yymps</code> &mdash; import via <em>Tools &rsaquo; Import Local Package</em></li>
+<li>The full raw project &mdash; readable, commented source, no minification</li>
+<li>4 scripts (the generators zero-engine-call), the demo object, the demo room, 2 fonts</li>
+<li>Readme with quickstart, the full API, and limits stated plainly</li>
+</ul>
+
+<p><em>Built and verified on the stable GameMaker 2024.x runtime. GMRT is not a dependency and is not claimed. 2D only &mdash; Beacon draws the light between two points; damage, targeting and cooldowns stay yours.</em></p>
