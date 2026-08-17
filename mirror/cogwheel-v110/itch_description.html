@@ -1,0 +1,79 @@
+<p><strong>Cogwheel turns dungeon objects into a property of the event, not a program inside it.</strong> Put <code>&lt;cog:block&gt;</code> in an event's note box and it is a pushable block — with the whole interaction matrix behind it, <strong>and its own drawn body</strong>: since v1.1.0 the dungeon draws itself, from an atlas of <strong>46 procedural marks</strong> with no image files anywhere in the product.</p>
+
+<h3>The problem it removes</h3>
+
+<p>One pushable block, evented properly, is a page of work: check the tile ahead, check what is on it, check the terrain, move the event, set a self-switch, handle the hole, handle the corner that makes the room unsolvable. Then copy that page for every block in the dungeon — and change it everywhere when the rule changes.</p>
+
+<p>Cogwheel replaces all of it with a notetag and three region colours.</p>
+
+<h3>Every shove is previewed before you commit</h3>
+
+<p>Face an object and the readout names what the push will do — <em>moves</em>, <em>slides four tiles</em>, <em>falls and bridges</em>, <em>sinks</em>, <em>shatters</em>, <em>blocked</em> — with the reason underneath, and the destination cell boxed on the map.</p>
+
+<p>The preview runs the <strong>real</strong> resolver and restores the state, so what it promises and what happens cannot disagree. That is not a UI nicety. A puzzle where a wrong shove silently ruins the room is a puzzle players quit.</p>
+
+<h3>What you author</h3>
+
+<p><strong>Paint terrain with regions:</strong></p>
+<ul>
+<li><strong>hole</strong> — things fall in, and a block pushed in fills it <em>permanently</em> and becomes floor</li>
+<li><strong>ice</strong> — things slide until the ice ends, stopping where the ice stops rather than where you wanted</li>
+<li><strong>water</strong> — things sink, and become a crossing</li>
+</ul>
+
+<p>Walls need no region at all — Cogwheel asks the tileset the same passability question the engine does, so a wall you already drew is already a wall.</p>
+
+<p><strong>Then put a notetag on an event:</strong></p>
+<ul>
+<li><code>&lt;cog:block&gt;</code> — pushable block. Name a material — <code>&lt;cog:block wood&gt;</code>, iron, gild, rune, ice — and both its body and the crossing it leaves behind are drawn in it</li>
+<li><code>&lt;cog:boulder&gt;</code> — rolls until stopped, and <strong>shatters</strong> against a wall; granite, <code>amber</code> or <code>obsidian</code></li>
+<li><code>&lt;cog:mirror /&gt;</code> and <code>&lt;cog:mirror \&gt;</code> — pushable mirrors that fold a beam through 90°</li>
+<li><code>&lt;cog:plate switch=5&gt;</code> — pressure plate, flush with the floor, driving switch 5</li>
+<li><code>&lt;cog:receiver switch=6&gt;</code> — lit when a beam reaches it</li>
+<li><code>&lt;cog:emitter 2&gt;</code> — emits a beam downward</li>
+</ul>
+
+<p>Everything else — what happens when a boulder rolls across ice toward a hole with a plate under it — is the matrix's problem, not yours.</p>
+
+<h3>It draws itself — 46 marks, zero image files</h3>
+
+<p><strong>Leave a Cogwheel event's graphic blank and the plugin draws it</strong>: blocks in six materials, boulders in three, silvered mirrors, plates that sink and light, receivers whose iris floods open when the beam arrives. A spent block is redrawn as what it became — timber planks over a pit, an inlaid gilded deck, a ford closing over in the water, shards where a boulder shattered. Give an event your own art and Cogwheel steps aside; the atlas never overrides you.</p>
+
+<p><strong>And press TAB for the Blueprint Lens:</strong> the whole room redrawn as Cogwheel's own instrument — surveyed floor, hatched matter, open pits with depth rings, faceted sheet ice, your player as a surveyor's reticle. The puzzle exactly as the machine reads it, and a readability tool players keep switched on.</p>
+
+<p>Cogwheel draws <strong>no RPG Maker windows at all</strong>. The beam is an additive PIXI layer with a bloom at the emitter and a flooded iris at the receiver; every glyph, body, ground cell and icon is the product's own drawing.</p>
+
+<h3>Built to live in a real project</h3>
+
+<ul>
+<li><strong>No core method is replaced.</strong> Every engine method it extends saves the original and calls it — enforced by a test that reads the shipped source against the real MZ source.</li>
+<li><strong>Lossless, versioned saves.</strong> A room stores a small mutation record; beams, links and bridge state are recomputed on load. The live runtime object is never serialised.</li>
+<li><strong>Nothing allocated in the per-frame path</strong> — enforced by a static scan that is itself proven to fire against a deliberately sabotaged copy.</li>
+<li><strong>Raw, readable JavaScript</strong> with full JSDoc. No minification, ever.</li>
+<li><strong>Room reset</strong> un-fills every bridge and safely returns a stranded player to the entrance.</li>
+</ul>
+
+<h3>Verified, with numbers</h3>
+
+<ul>
+<li><strong>221/221 checks green</strong> across five suites — the interaction matrix cell by cell, the atlas (all 46 marks proven distinct, deterministic and non-trivial), the notetag parser, the zero-allocation scan, and the patch-discipline guard.</li>
+<li><strong>In-engine verified</strong>, not merely unit-tested: 47/47 checks inside a real running MZ engine — bodies tracking their events to the pixel, the lens building one drawn cell per tile — with 0 page errors.</li>
+<li><strong>All four demo rooms proven solvable by exhaustive search</strong>, with room reset proven to recover every reachable dead end.</li>
+<li><strong>Frame cost measured in that engine, lens on:</strong> this plugin's own code costs <strong>0.15 ms per frame</strong> against a 2 ms budget, with 15 draw calls and <strong>zero</strong> texture uploads, bitmap redraws or window refreshes.</li>
+</ul>
+
+<h3>⚠️ Before you buy</h3>
+
+<p><strong>Cogwheel is grid-native.</strong> It resolves pushes in whole tiles against the tile grid, so it is <strong>not compatible with pixel-movement plugins or action-battle systems</strong> that move the player off the grid. Said here rather than discovered later.</p>
+
+<p><strong>Not in this version:</strong> cranks, and lift / carry / throw — the kit is push-based.</p>
+
+<h3>What you get</h3>
+
+<p>Four plugins — <code>CogwheelCore.js</code> (the rules engine, pure logic), <code>CogwheelAtlas.js</code> (the artwork, as code), <code>CogwheelMap.js</code> (the RPG Maker bridge), <code>CogwheelInspector.js</code> (the bodies, lens, overlay and readout) — plus four worked demo rooms and a full user guide.</p>
+
+<hr>
+
+<p><strong>More RPG Maker MZ systems from CSAF:</strong><br>
+<a href="https://csaf.itch.io/township">Township</a> — NPC daily routines and living towns<br>
+<a href="https://csaf.itch.io/aperture-core">Aperture Core</a> · <a href="https://csaf.itch.io/bazaar-core">Bazaar Core</a> · <a href="https://csaf.itch.io/chronicle-core">Chronicle Core</a> · <a href="https://csaf.itch.io/verdict-core">Verdict Core</a> · <a href="https://csaf.itch.io/sigil-core">Sigil Core</a> · <a href="https://csaf.itch.io/loop-core">Loop Core</a> · <a href="https://csaf.itch.io/voyage-core">Voyage Core</a> · <a href="https://csaf.itch.io/colosseum-core">Colosseum Core</a> · <a href="https://csaf.itch.io/cipher-core">Cipher Core</a></p>
