@@ -1,0 +1,149 @@
+{
+  "package": "Panoply_GameMaker.zip",
+  "builtAt": "2026-08-17T11:54:07.818Z",
+  "bytes": 546227,
+  "sha256": "602ad572a062ef5b60d6742bb306ef00023405bc1e582549215956f31d9f5e26",
+  "fileCount": 28,
+  "files": [
+    {
+      "file": "Panoply.yymps",
+      "bytes": 293639,
+      "sha256": "7a704e7635cbd989a4a2c39d08df52bd65bb2929103a782fedfee24ee3ae2ede"
+    },
+    {
+      "file": "Readme_for_Users.md",
+      "bytes": 6151,
+      "sha256": "16013867bdf251b476a5e824b4f48327a2322d3ad225959efcc5123f66883f8d"
+    },
+    {
+      "file": "LICENSE.txt",
+      "bytes": 8369,
+      "sha256": "345849dc6f23490adcf37b179930818b3f87502257f4624782258e572cc3356b"
+    },
+    {
+      "file": "Panoply/fonts/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply/fnt_panoply.glyphs.txt",
+      "bytes": 7472,
+      "sha256": "a7628bc092dc02f89593d81cb8df0679564ea06d77203bafeeb9077753cad602"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply/fnt_panoply.png",
+      "bytes": 6022,
+      "sha256": "5d365733c27027e2cc322b68d322f25af28b3fb55ba544ae310877a2a63e19e7"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply/fnt_panoply.yy",
+      "bytes": 8355,
+      "sha256": "bb311e661f2d2b1497df8dd0a80c8d0567b55c38bc042ac0385d2daab95a63fc"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply/OpenSans-Regular.ttf",
+      "bytes": 217360,
+      "sha256": "e64e508b2aa2880f907e470c4550980ec4c0694d103a43f36150ac3f93189bee"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply_title/fnt_panoply_title.glyphs.txt",
+      "bytes": 7575,
+      "sha256": "81cabcd0c0a7c267882b24c35c96da6c8ea0a898d66f682e8c04dfd7235d993b"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply_title/fnt_panoply_title.png",
+      "bytes": 13153,
+      "sha256": "148c160cbad64788dd892e0bd192843b62163b030f1540202667d72a3c611532"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply_title/fnt_panoply_title.yy",
+      "bytes": 8467,
+      "sha256": "56aad6db839428d46d1d0170034daf42f5c020a592fe4e48c035c866fc7b468a"
+    },
+    {
+      "file": "Panoply/fonts/fnt_panoply_title/OpenSans-Bold.ttf",
+      "bytes": 224592,
+      "sha256": "5894a3649b213cf5b2d673b6e7a871815fd1d120fa68a463592f27db14eae323"
+    },
+    {
+      "file": "Panoply/fonts/THIRD-PARTY-NOTICES.txt",
+      "bytes": 1582,
+      "sha256": "62bd8341ef95301fa34b77cb0fed5efda9dae5968d69ceb1fda97d99dbe9d876"
+    },
+    {
+      "file": "Panoply/objects/obj_panoply_demo/CleanUp_0.gml",
+      "bytes": 318,
+      "sha256": "6fd92e6d2bdd4efb2ab276e20c1dbab1494bb9928be4019eab65f16727008255"
+    },
+    {
+      "file": "Panoply/objects/obj_panoply_demo/Create_0.gml",
+      "bytes": 6048,
+      "sha256": "b65ca79afd65932383d92e664f2433b9540a9610fb50ede81ea787cdef507957"
+    },
+    {
+      "file": "Panoply/objects/obj_panoply_demo/Draw_64.gml",
+      "bytes": 11430,
+      "sha256": "ccfba94c18ca898e2fc2c1a18415e0e81596a23d3cf4998c81b1f6e36f6e2c26"
+    },
+    {
+      "file": "Panoply/objects/obj_panoply_demo/obj_panoply_demo.yy",
+      "bytes": 1374,
+      "sha256": "e33f0beaf7d346244a5f822f0749d331376583e9784e1e2db3f3f4dbd1745c5b"
+    },
+    {
+      "file": "Panoply/objects/obj_panoply_demo/Step_0.gml",
+      "bytes": 1769,
+      "sha256": "f882f53dec1f87da58927d94d7c1b07b7db903ebace62978bf028bb8cfd4c063"
+    },
+    {
+      "file": "Panoply/Panoply.yyp",
+      "bytes": 2345,
+      "sha256": "e666220d9082a3c90d9721289a8185f4fff839c407fe545cf314a563d7388c95"
+    },
+    {
+      "file": "Panoply/rooms/rm_panoply_demo/rm_panoply_demo.yy",
+      "bytes": 4081,
+      "sha256": "947f9e0077ca42b0205f0fcb4f3c4b5b467ad670eb95c9d57dceef3946da584b"
+    },
+    {
+      "file": "Panoply/scripts/panoply_bind/panoply_bind.gml",
+      "bytes": 8456,
+      "sha256": "7f0b950dc8b87a5371e01cdd3335798ae2c63bf3b4e94d08f84eb7c076f7c7f3"
+    },
+    {
+      "file": "Panoply/scripts/panoply_bind/panoply_bind.yy",
+      "bytes": 248,
+      "sha256": "ae3b11c305ae80ba4e409665a6553e4b918d4a6a2b85bc77a62564bcf3f51ba6"
+    },
+    {
+      "file": "Panoply/scripts/panoply_core/panoply_core.gml",
+      "bytes": 35679,
+      "sha256": "80d051e6b1e80f9e01e3d487d88361f4b0f548b99ce58c65cde9a58144b9e4db"
+    },
+    {
+      "file": "Panoply/scripts/panoply_core/panoply_core.yy",
+      "bytes": 248,
+      "sha256": "2acd1655a911ad011b6a4ba20da02640d41e376f0c7e50346da037fbb184e5e6"
+    },
+    {
+      "file": "Panoply/scripts/panoply_preset/panoply_preset.gml",
+      "bytes": 4325,
+      "sha256": "ff3f30a82485b73ae847f47e41afc7dd5a1656b4998732d40f7486c12fb83a22"
+    },
+    {
+      "file": "Panoply/scripts/panoply_preset/panoply_preset.yy",
+      "bytes": 252,
+      "sha256": "d9006a6a8baa6520fa430bd033b574f3d6665a8b9122e96b53075dc44c335d2e"
+    },
+    {
+      "file": "Panoply/scripts/panoply_render/panoply_render.gml",
+      "bytes": 17598,
+      "sha256": "4d564792727009609aef64445ba5cf79214f2feec1702b38ca5d9861017d894c"
+    },
+    {
+      "file": "Panoply/scripts/panoply_render/panoply_render.yy",
+      "bytes": 252,
+      "sha256": "d562799d6294e6c84ca9d9fd9ea2dda3156b3526934a726c527d9ae7547a5c2f"
+    }
+  ]
+}
