@@ -1,0 +1,45 @@
+{
+  "slug": "colosseum-core",
+  "version": "0.1.0",
+  "builtAt": "2026-08-17T10:39:27.288Z",
+  "files": [
+    {
+      "file": "LICENSE.txt",
+      "bytes": 7413,
+      "sha256": "203094b7d33819ffd3bcbbf5ff9e63ce09a14d2d592e370576951af3e3592f82"
+    },
+    {
+      "file": "Readme_for_Users.md",
+      "bytes": 7148,
+      "sha256": "699773a011890dd60638de1f3f8860e063559cb6842ea05fa608dea6715c0f93"
+    },
+    {
+      "file": "js/plugins/ColosseumBracket.js",
+      "bytes": 30643,
+      "sha256": "13f96484f2b766485aafa4c6f7127feca86ac1e1ee51fb830b6e0e8f1e7a295a"
+    },
+    {
+      "file": "js/plugins/ColosseumCore.js",
+      "bytes": 66022,
+      "sha256": "d99c30d126e2d78b4f018a5b4eb0052e008c2d028576a7194559db2706993dbd"
+    },
+    {
+      "file": "js/plugins/ColosseumSeason.js",
+      "bytes": 40982,
+      "sha256": "a197c666a06a44ac5421eff69a80b7812678f8a22a0ec3b4da1ee4df08911d87"
+    }
+  ],
+  "zip": {
+    "file": "colosseum-core-plugin.zip",
+    "bytes": 47474,
+    "sha256": "19401bd5e59d7d9e0b54715b2f2e1ee6473ca3b7ca83843c5e0ba6efa4120aa7",
+    "entryCount": 5,
+    "entries": [
+      "LICENSE.txt",
+      "Readme_for_Users.md",
+      "js/plugins/ColosseumBracket.js",
+      "js/plugins/ColosseumCore.js",
+      "js/plugins/ColosseumSeason.js"
+    ]
+  }
+}
