@@ -7,7 +7,7 @@ Find what an engine upgrade silently broke — before your players do.
 against, and it is the only one claimed. See [Platform support](#platform-support).
 
 - Store page: <https://csaf.itch.io/migration-ledger>
-- Support: <https://csaf.itch.io/migration-ledger> (comments) — CSAF, Corey and Stephanie's Asset Factory
+- Support: <https://csaf.itch.io/migration-ledger> (comments) — CSAF, Core Systems Asset Factory
 
 ---
 
