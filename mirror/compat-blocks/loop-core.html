@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>LoopCore.js</code> — The time-loop engine. The world resets, the player does not. Anchors, rewinds, carried knowledge and loop-gated events.</li>
+<li><code>LoopLedger.js</code> — The Loop Ledger scene. Every loop a ring, every divergence a pin, everything known a constellation.</li>
+<li><code>LoopRewind.js</code> — The rewind. A full-screen time-collapse shader that plays while the world snaps back to the anchor.</li>
+</ol>
+<p><code>LoopCore</code> is required; <code>LoopLedger</code> and <code>LoopRewind</code> are optional and can be switched off without breaking the loop.</p>
+<p><strong>Core methods extended — all 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_System.prototype.onAfterLoad</code>.</p>
+<p>Because nothing is clobbered, Loop Core co-exists with other plugins that patch the same seams, including large suites.</p>
