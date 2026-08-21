@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ChronicleCore.js</code> — A quest ENGINE, not a journal: branching outcomes that</li>
+<li><code>ChronicleJournalUI.js</code> — The scene for ChronicleCore: open quests, finished ones,</li>
+<li><code>CSAF_Theme.js</code> — CSAF visual layer — procedural window frames, type scale, easing and a bloom filter. Makes a plugin stop looking like RPG Maker.</li>
+</ol>
+<p><code>ChronicleCore</code> must come before <code>ChronicleJournalUI</code>. <code>CSAF_Theme</code> is adopted at boot, so its position does not matter.</p>
+<p><strong>Core methods extended — all 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>, <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>, <code>Scene_Base.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Chronicle Core co-exists with other plugins that patch the same seams, including large suites.</p>
