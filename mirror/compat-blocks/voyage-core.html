@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>VoyageCore.js</code> — Sea travel as gameplay. Wind, points of sail, cargo weight, spoilage, storms and ports whose prices move because you sailed there.</li>
+<li><code>VoyageChart.js</code> — The sea chart. Hand-drawn parchment, live wind, a course you ink in as you sail it. Requires VoyageCore.</li>
+<li><code>VoyageManifest.js</code> — The cargo manifest: a ruled ship's ledger with wax seals, keeping-time bars and a weight beam. Requires VoyageCore.</li>
+</ol>
+<p><code>VoyageCore</code> is required; <code>VoyageChart</code> and <code>VoyageManifest</code> are optional scenes.</p>
+<p><strong>Core methods extended — all 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_System.prototype.onAfterLoad</code>.</p>
+<p>Because nothing is clobbered, Voyage Core co-exists with other plugins that patch the same seams, including large suites.</p>
