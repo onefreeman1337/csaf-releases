@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PRISMHORN</title>
+<style>
+/* Every byte here ships. No external fonts, no CDN — js13k rule II.
+   NOTE: there is deliberately NO page-level HUD element. itch serves an HTML5
+   game at exactly the embed size the listing declares, so anything positioned
+   against the page bottom lands ON TOP of the game. (Measured on THE LAST FLOCK,
+   live, for every player, across two versions — wing CLAUDE.md 3d.) All HUD is
+   drawn inside the canvas, where it cannot collide with anything. */
+html,body{margin:0;height:100%;background:#07050f;color:#e8e2f2;
+  font:14px/1.4 ui-monospace,Menlo,Consolas,monospace;overflow:hidden}
+#w{display:flex;align-items:center;justify-content:center;height:100%}
+canvas{background:#07050f;touch-action:none;max-width:100%;max-height:100%;
+  image-rendering:auto}
+</style>
+</head>
+<body>
+<div id="w"><canvas id="c" width="960" height="600"></canvas></div>
+<script src="g.js"></script>
+</body>
+</html>
