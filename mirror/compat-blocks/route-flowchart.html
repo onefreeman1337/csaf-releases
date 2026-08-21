@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ThreadsMotifs.js</code> — Threads — the ending-emblem motif corpus. 48 hand-authored marks in six families. Load BEFORE Threads.js.</li>
+<li><code>Threads.js</code> — Threads — a player-facing story flowchart, ending gallery and branch jump. Requires ThreadsMotifs.js above it.</li>
+<li><code>ThreadsUI.js</code> — Threads — the chart scene, the ending gallery and the emblem renderer. Load BELOW Threads.js.</li>
+</ol>
+<p>Threads resolves its dependencies lazily, so a wrong order will not silently break it — but this is the order to use.</p>
+<p><strong>It extends exactly one core method, by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>.</p>
+<p>Because nothing is clobbered, Threads (player-facing story flowchart & branch jump) co-exists with other plugins that patch the same seams, including large suites.</p>
