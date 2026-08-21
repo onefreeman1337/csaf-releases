@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ApertureCore.js</code> — The camera your player actually aims. Viewfinder, focus, framing score, and an album of developed prints.</li>
+<li><code>ApertureLens.js</code> — The look of Aperture Core: viewfinder chrome, real depth-of-field blur, focus peaking, the shutter, and developed prints.</li>
+<li><code>ApertureAlbum.js</code> — The camera and the album, as playable scenes. Binds Aperture Core to RPG Maker.</li>
+</ol>
+<p><code>ApertureLens</code> and <code>ApertureAlbum</code> both declare <code>ApertureCore</code> as their base, so the editor itself warns you if the order is wrong.</p>
+<p><strong>It extends exactly one core method, by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Aperture Core co-exists with other plugins that patch the same seams, including large suites.</p>
