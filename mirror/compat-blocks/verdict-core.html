@@ -1,0 +1,11 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>VerdictCore.js</code> — Investigation &amp; deduction engine — exhibits establish facts, testimony carries claims, and presenting the wrong one costs you.</li>
+<li><code>VerdictCaseFile.js</code> — Verdict Core's look — the Case File, the Cross-Examination and the corkboard Case Board. Nothing here uses a windowskin.</li>
+</ol>
+<p><code>VerdictCore</code> must come before <code>VerdictCaseFile</code>.</p>
+<p><strong>Core methods extended — all 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>, <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Verdict Core co-exists with other plugins that patch the same seams, including large suites.</p>
