@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ChimeraField.js</code> — Biome spawn tables with rarity tiers, level bands, time and</li>
+<li><code>ChimeraDexUI.js</code> — Field Guide scene for Chimera Field. Species log driven by</li>
+<li><code>CSAF_Theme.js</code> — CSAF visual layer — procedural window frames, type scale, easing and a bloom filter. Makes a plugin stop looking like RPG Maker.</li>
+</ol>
+<p>Order matters only in that <code>ChimeraDexUI</code> must come after <code>ChimeraField</code>. <code>CSAF_Theme</code> is adopted at boot rather than at load, so it can go anywhere in your list.</p>
+<p><strong>Core methods extended — all 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>, <code>Scene_Boot.prototype.start</code>, <code>Game_Map.prototype.setup</code>, <code>Game_System.prototype.initialize</code>, <code>Game_Player.prototype.makeEncounterTroopId</code>, <code>Scene_Base.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Chimera Field co-exists with other plugins that patch the same seams, including large suites.</p>
