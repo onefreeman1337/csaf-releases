@@ -5,7 +5,8 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Shadow Thrash Fixer  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-08-23
+**Docs published:** 2026-08-23  
+**Revised:** 2026-08-25 — added the first-time test walkthrough and the renderer/materials note
 
 
 ---
@@ -14,6 +15,69 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Unreal Engine 5.8** · Windows · Editor plugin + headless commandlet
 Core Systems Asset Factory
+
+---
+
+## First-time test (2 minutes)
+
+> **Is this a command-line tool?** Yes. Shadow Thrash Fixer is a **headless commandlet**. It has
+> **no editor panel, no toolbar button and no console command.** The dark interface you see in the
+> store screenshots is not a window inside Unreal — it is the **proof sheet the tool writes**, a
+> self-contained HTML file you open in any browser.
+>
+> That is deliberate. A tool that rewrites actors in a level you are going to ship has to run on a
+> build machine, on a branch, and produce output a reviewer can diff. That is a commandlet, not a
+> window somebody clicks once on a Friday.
+
+**1. Install.** Copy the `ShadowThrashFixer` folder into your project's `Plugins` directory, so you
+have `<YourProject>/Plugins/ShadowThrashFixer/`. Restart the editor and accept the rebuild prompt.
+Confirm it is enabled in **Edit → Plugins → Editor → Shadow Thrash Fixer** — that checkbox is the
+only place this product appears anywhere in the editor interface.
+
+**2. Run the read-only scan.** Close the editor. Open a command prompt in your engine's
+`Engine\Binaries\Win64` folder and run this, substituting your own project path:
+
+```
+UnrealEditor-Cmd.exe "C:\Path\To\YourProject.uproject" -run=STF -unattended -nopause -nosplash
+```
+
+It writes no levels and changes nothing, so it is safe to run against any project.
+
+**3. Read what it printed.** Two lines near the end of the log name the files it just wrote:
+
+```
+Plan written: ...\YourProject\Saved\ShadowThrashFixer\plan.json
+Proof sheet written: ...\YourProject\Saved\ShadowThrashFixer\report.html
+```
+
+**4. Open `report.html` in any browser.** That page is the interface in the screenshots. There is
+nothing to open inside Unreal.
+
+**5. Read a result in 60 seconds.** Every row is one actor that was Movable and casting a dynamic
+shadow. The six marks are the six movement mechanisms the tool established were **absent**:
+
+| column | what it means was absent |
+| --- | --- |
+| **MOV** | a movement component |
+| **PHY** | simulated physics |
+| **SEQ** | a Sequencer binding |
+| **BP** | a Blueprint writing its transform |
+| **ATT** | a movable parent |
+| **PWN** | a pawn archetype |
+
+All six must be filled before a single byte is written. Anything the tool could **not** establish is
+listed separately as a **refusal**, naming the exact signal that was missing. **Read the refusals
+first** — they are the part to judge this product on.
+
+**6. When you want it to change the project**, add `-Apply` for a dry run that re-proves every actor
+and still writes nothing, then `-Apply -Execute` to write, save and re-scan:
+
+```
+UnrealEditor-Cmd.exe "C:\Path\To\YourProject.uproject" -run=STF -Apply -Execute -unattended -nopause -nosplash
+```
+
+Run that on a clean source-control working tree and review the diff before committing. A version
+control diff is the one check that does not depend on this plugin being correct about itself.
 
 ---
 
@@ -102,14 +166,7 @@ UnrealEditor-Cmd.exe <Project.uproject> -run=STF [switches]
 Exit codes: 0 ok · 1 over budget · 2 failed · 3 bad arguments.
 ```
 
-**A suggested first run**, which cannot change anything:
-
-```
-UnrealEditor-Cmd.exe MyGame.uproject -run=STF -unattended -nopause -nosplash
-```
-
-Then open the proof sheet it names in the log and read the refusal list before you read anything
-else.
+For a step-by-step first run, see **First-time test** at the top of this document.
 
 ## The proving re-scan
 
@@ -145,12 +202,16 @@ The plan is written as JSON beside the report, so a build step can read it witho
   inspected, so they are reported as **unloaded** rather than clean — the report distinguishes the
   two.
 - No third-party dependencies. Every module it links is an Epic engine module.
+- **Renderer and materials.** This plugin ships **no materials, no meshes and no content assets of
+  any kind** — it is C++ only, so it is renderer-agnostic and behaves identically under DirectX 12,
+  DirectX 11 and Vulkan. If your project uses **Substrate**, note that Substrate itself requires
+  **Default RHI = DirectX 12** in Project Settings; that is a requirement Epic places on your
+  project, and this plugin neither introduces it nor changes your renderer settings.
 
 ## Installing
 
-1. Copy `ShadowThrashFixer/` into your project's `Plugins/` folder.
-2. Restart the editor and enable it in **Edit → Plugins** if it is not already on.
-3. Run the command above.
+See **First-time test** at the top of this document — it is the two-minute version, and it is the
+fastest way to see the tool work on your own project.
 
 The full C++ source ships with the plugin, unminified, so you can read exactly what it does before
 you let it write to a level.
@@ -164,10 +225,3 @@ Through the marketplace support channel for the store you purchased from.
 Copyright (c) 2026 Core Systems Asset Factory. All Rights Reserved.
 Unreal® and Unreal Engine® are trademarks of Epic Games, Inc. Not affiliated with or endorsed by
 Epic Games, Inc.
-
-
----
-
-## Support
-
-Questions or a problem with this product? Open an issue on the release repository and we will answer.
