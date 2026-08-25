@@ -152,6 +152,26 @@ and why this tool acts only where **no pairing argument is needed at all**. Ever
 refused by name with the signal that could not be established. A signal that was not measured is
 never treated as an absent one.
 
+### Components a Blueprint construction script builds are refused too
+
+A component added by a Blueprint **construction script** is regenerated from the Blueprint every time
+the level loads. Clearing the flag on the placed instance writes a value the next load discards, so
+the component would come back flagged and you would have been told it was fixed.
+
+Overlap Warden refuses those by name — *"Created by a Blueprint construction script, so it is rebuilt
+on every load and clearing the flag here would not persist — fix it on the Blueprint"* — and points
+you at the Blueprint, where the change actually sticks.
+
+It asks the engine which components those are, reading `CreationMethod`, rather than matching the
+`NODE_` name prefix such components happen to carry. A naming convention is not a fact.
+
+**This refusal exists because the tool's own proving re-scan caught it.** An apply pass reported 65
+components cleared and 0 failures, and the independent re-scan that runs afterwards answered that 48
+were still flagged. A cold scan in a fresh process confirmed the same 48. Every one of them was a
+construction-script component; all 17 that persisted were plain ones. That is precisely the failure
+the second, independent pass exists to catch — a count produced by the code that did the work is a
+claim, not evidence.
+
 ### The one thing it does not claim
 
 The safety argument above is about **behaviour the engine can reach**. It is not a claim that nothing
