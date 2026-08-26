@@ -1,0 +1,100 @@
+<p><strong>Illustrated creature pages, composed from the stat blocks you already have.</strong></p>
+<p>Your bestiary screen is probably a portrait, a name and a wall of numbers. Bestiary Codex takes the</p>
+<p>same row of data and composes a page out of it: your own creature sprite mounted on a designed</p>
+<p>plate, with a threat rosette whose shape changes with the tier, an elemental rose, a generated</p>
+<p>habitat landscape behind the creature, a scale rule with a human figure standing next to it for</p>
+<p>comparison, a wax discovery seal, and a strip of trait glyphs chosen from the trait words you</p>
+<p>already wrote.</p>
+<p>Raise that wyvern from threat 3 to threat 7 and the rosette grows teeth. Move it from the coast to</p>
+<p>the ash wastes and the landscape behind it is redrawn. Mark it undiscovered and the whole page is</p>
+<p>sealed and redacted. <strong>Nothing about that is a re-import — it is a re-read of your data.</strong></p>
+<p>That is the part a pack of beautiful hand-drawn bestiary frames cannot do at any price: the frames</p>
+<p>in it do not know your creature table exists, so a single frame has to serve the rat and the god.</p>
+<p><strong>This does not generate the creature.</strong> You already have creature art you chose, and it is the part</p>
+<p>of the screen your players look at. Bestiary Codex generates everything *around* it and composites</p>
+<p>your sprite into the middle at whatever size the creature's size class calls for.</p>
+<p>Every derivation is reported back to you in plain English, per creature, so you can see exactly which</p>
+<p>of your own words chose each glyph — and override any of it when you disagree. A designer who has</p>
+<p>typed a trait name has made a decision, and the generator does not overrule it.</p>
+<h2>Getting Started</h2>
+<ul>
+<li>Import the package. Everything lands under <code>Assets/CSAF/BestiaryCodex/</code>.</li>
+<li>Open <code>Assets/CSAF/BestiaryCodex/Demo/BestiaryCodexDemo.unity</code> and press <strong>Play</strong>. A worked fourteen-creature shelf renders as composed pages — page it with <strong>Left / Right</strong>.</li>
+<li>Open the tool window: <strong>Window &gt; CSAF &gt; Bestiary Codex</strong>. Pick a creature in the list, then read the derivation panel beside the preview — that panel is the whole derivation, stated per creature. <strong>Export PNG</strong> writes the page you are looking at; <strong>Export All</strong> writes the catalogue.</li>
+<li>Point it at your own data:</li>
+</ul>
+<pre><code>using CSAF.BestiaryCodex;
+
+CodexPage page = CodexComposer.Compose(new BestiaryEntry
+{
+    Id          = "wyvern.ashen",
+    DisplayName = "Ashen Wyvern",
+    Element     = Element.Ember,
+    Habitat     = Habitat.Ashfall,
+    ThreatTier  = 7,
+    Size        = SizeClass.Massive,
+    Discovery   = Discovery.Engaged,
+    Traits      = new[] { "membrane wings", "serrated maw", "lashing tail" },
+    Portrait    = myCreatureSprite,      // your art, composited into the plate
+});
+
+myRawImage.texture = page.Texture;</code></pre>
+<ul>
+<li>The result is a plain <code>Texture2D</code> on <code>page.Texture</code>. Put it on a <code>RawImage</code>, a UI Toolkit background, a quad or a sprite — or bake it straight to PNG from the tool window. <code>page.NamePlate</code> and <code>page.NotePlate</code> are the rectangles to lay your own text over, in top-left coordinates.</li>
+</ul>
+<p>You almost certainly already have a creature type with fifty fields on it. Do not migrate it — write</p>
+<p>four lines that project it into a <code>BestiaryEntry</code> at call time and keep your own type as the source</p>
+<p>of truth. <code>Runtime/Model/SampleBestiary.cs</code> is the same thing at full size and is worth reading as</p>
+<p>the API documentation.</p>
+<h2>What this is not</h2>
+<p>It is <strong>not a collection or capture system</strong>. If you need encounter tracking, capture rates or party</p>
+<p>rosters, buy a collection kit — several exist, in pure C# with no art, and the two run happily side</p>
+<p>by side. This is the illustrated half: it draws the page, it does not manage the collection.</p>
+<h2>Technical Information</h2>
+<p><strong>Features</strong></p>
+<ul>
+<li>Illustrated creature pages composed entirely at run time from your own stat block</li>
+<li><strong>48 hand-authored trait glyphs across eight families</strong> — maw, horn, limb, hide, wing, tail, bloom and aura — six to a family, all plain readable C# you can extend</li>
+<li><strong>44 further generated marks</strong>: 10 threat rosettes, 10 elemental roses, 12 habitat bands and 12 discovery seals — 92 distinct generated entities, none of them an imported image</li>
+<li>Your own sprite is composited into the plate, scaled by the creature's size class, with a scale rule and human reference figure beside it</li>
+<li>Trait glyphs chosen from your own trait words by whole-word match, falling back to a deterministic derivation when your data says nothing — and the page shows which happened, per glyph</li>
+<li>Per-creature plain-English explanation of every derived choice, in the editor window</li>
+<li>Redaction: an unrecorded creature renders as a sealed, redacted page rather than a blank one</li>
+<li>Deterministic: every jitter is seeded from the creature's own id, so a given creature always draws identically, on every machine, offline</li>
+<li>Export any page, or the whole catalogue, to PNG from the editor window</li>
+</ul>
+<p><strong>Code Modules</strong></p>
+<ul>
+<li><code>CSAF.BestiaryCodex.Runtime</code> — model, reading, glyph corpus, marks and software rasteriser</li>
+<li><code>CSAF.BestiaryCodex.Editor</code> — the Bestiary Codex window and the PNG baker (editor only)</li>
+<li><code>CSAF.BestiaryCodex.Demo</code> — the demo scene's <code>CodexShelf</code> component</li>
+</ul>
+<p><strong>Number of .cs Scripts:</strong> 27 (MEASURED, not estimated — 27 <code>.cs</code> files across three assembly</p>
+<p>definitions in <code>Product_Release/Assets/CSAF/BestiaryCodex/</code>)</p>
+<p><strong>Supported Development Platforms:</strong> Windows, macOS, Linux</p>
+<p><strong>Supported Target Build Platforms:</strong> all platforms — the runtime assembly is platform-agnostic and</p>
+<p>takes no native dependency</p>
+<p><strong>Supported Unity Pipelines:</strong> Built-in, URP and HDRP — all three. The art path is a CPU software</p>
+<p>rasteriser that writes into a <code>Texture2D</code>, so it never touches a render pipeline and cannot break</p>
+<p>when you change one. There is no shader, no material and no ScriptableRendererFeature in the package.</p>
+<p><strong>Engine Compatibility:</strong> Unity 2022.3 LTS and newer; built and gated against Unity 6 (6000.5.7f1)</p>
+<p>with warnings treated as errors.</p>
+<p><strong>Dependencies:</strong> none. No uGUI requirement, no TextMeshPro, no URP requirement, no <code>Resources/</code></p>
+<p>folder, and no network access at any point.</p>
+<p><strong>Example Project:</strong> included. <code>Assets/CSAF/BestiaryCodex/Demo/BestiaryCodexDemo.unity</code> is a</p>
+<p>runnable scene — open it and press Play. It builds a worked fourteen-creature bestiary from</p>
+<p><code>SampleBestiary.cs</code> at run time and pages through the composed pages with Left/Right. The demo lives</p>
+<p>in its own platform-constrained assembly (<code>CSAF.BestiaryCodex.Demo</code>) so it can be deleted without</p>
+<p>touching the runtime.</p>
+<p><strong>Versioning:</strong> 1.0.0 — first public release. Semantic versioning from here: patch for glyph and</p>
+<p>rendering fixes, minor for new glyphs, families or API surface, major only for a breaking API</p>
+<p>change. The shipped source is raw and readable, so any change is auditable in a diff.</p>
+<p><strong>Support:</strong> open an issue at <a href="https://github.com/onefreeman1337/csaf-releases/issues,">https://github.com/onefreeman1337/csaf-releases/issues,</a> or use the</p>
+<p>Fab listing's own question thread. The documentation link below answers integration questions first.</p>
+<h2>Documentation</h2>
+<p><a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/bestiary-codex/README.md">https://github.com/onefreeman1337/csaf-releases/blob/main/docs/bestiary-codex/README.md</a></p>
+<h2>AI disclosure</h2>
+<p>The source code and the store imagery were produced with AI assistance, declared truthfully.</p>
+<p><strong>No image model touched this product at any point.</strong> Every page in every screenshot is a headless</p>
+<p>Unity render of the software rasteriser that ships inside the package, from source in this</p>
+<p>repository. There is no diffusion model and no network call anywhere in the art path.</p>
