@@ -1,0 +1,58 @@
+<p><strong>Illustrated creature pages, composed from the stat blocks you already have.</strong></p>
+<p>Your bestiary screen is probably a portrait, a name and a wall of numbers. Bestiary Codex takes the</p>
+<p>same row of data and composes a page out of it: your own creature sprite mounted on a designed</p>
+<p>plate, with a threat rosette whose shape changes with the tier, an elemental rose, a generated</p>
+<p>habitat landscape behind the creature, a scale rule with a human figure standing next to it for</p>
+<p>comparison, a wax discovery seal, and a strip of trait glyphs chosen from the trait words you</p>
+<p>already wrote.</p>
+<p>Raise that wyvern from threat 3 to threat 7 and the rosette grows teeth. Move it from the coast to</p>
+<p>the ash wastes and the landscape behind it is redrawn. Mark it undiscovered and the whole page is</p>
+<p>sealed and redacted. <strong>None of that is a re-import — it is a re-read of your data.</strong></p>
+<p>That is the thing a pack of beautiful hand-drawn bestiary frames cannot do at any price: the frames</p>
+<p>in it do not know your creature table exists, so a single frame has to serve the rat and the god.</p>
+<h2>Your sprite stays yours</h2>
+<p>This does not generate the creature. You already have creature art you chose, and it is the part of</p>
+<p>the screen your players actually look at. Bestiary Codex generates everything *around* it — the</p>
+<p>plate, the furniture, the marks that carry the numbers — and composites your sprite into the middle</p>
+<p>at whatever size the creature's size class calls for.</p>
+<h2>What you get</h2>
+<ul>
+<li><strong>48 hand-authored trait glyphs</strong> across eight families — maw, horn, limb, hide, wing, tail, bloom and aura. Six silhouettes each, drawn in code, no atlas anywhere.</li>
+<li><strong>44 more generated marks</strong> that carry the numbers: 10 threat rosettes, 10 elemental roses, 12 habitat bands and 12 discovery seals — 92 distinct generated entities in total.</li>
+<li><strong>A derivation you can read.</strong> Every page reports, in plain English, exactly which of your words chose each glyph and which were derived because your data said nothing. A designer who typed a trait name has made a decision and the generator does not overrule it.</li>
+<li><strong>An editor window</strong> to page through your catalogue, inspect any creature's derivation, and export a PNG of one page or of the whole catalogue.</li>
+<li><strong>A demo scene</strong> with a worked fourteen-creature shelf — open it, press Play, arrow along the wall.</li>
+<li><strong>Full C# source</strong>, raw and readable. Three assemblies, all in named `.asmdef`s, no `Resources/` folder, no network calls, no third-party dependencies.</li>
+</ul>
+<h2>Bring your own data</h2>
+<p>You almost certainly already have a creature type with fifty fields on it. Do not migrate it. Write</p>
+<p>four lines that project it into a `BestiaryEntry` at call time and keep your own type as the source</p>
+<p>of truth. There is a `ScriptableObject` catalogue in the box if you would rather start there.</p>
+<h2>What this is not</h2>
+<p><strong>It is not a collection or capture system.</strong> If you need the plumbing — encounter tracking, capture</p>
+<p>rates, party rosters — *Creature Collector &amp; Companion Kit* sells exactly that, in pure C# with no</p>
+<p>art, and the two run happily side by side. This is the illustrated half: it draws the page, it does</p>
+<p>not manage the collection.</p>
+<p><strong>It does not draw your creatures.</strong> Bring your own sprites.</p>
+<h2>Compatibility</h2>
+<ul>
+<li><strong>Unity 2022.3 LTS and newer.</strong> Built and gated against Unity 6 (6000.5.7f1), warnings-as-errors.</li>
+<li><strong>Every render pipeline</strong> — Built-in, URP and HDRP. The art path is a CPU rasteriser writing to a `Texture2D`, so it does not care which pipeline you use.</li>
+<li><strong>Every target platform.</strong> The runtime assembly is platform-agnostic and takes no native dependency.</li>
+<li><strong>No dependencies at all</strong> — no uGUI requirement, no TextMeshPro, no `Resources/`, no network access at any point.</li>
+</ul>
+<h2>Documentation</h2>
+<p>The complete user guide is readable before you buy:</p>
+<p><a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/bestiary-codex/README.md">https://github.com/onefreeman1337/csaf-releases/blob/main/docs/bestiary-codex/README.md</a></p>
+<h2>From the same workshop</h2>
+<ul>
+<li><strong>Provenance Atlas</strong> — armoury plates derived from where your equipment came from. <a href="https://csaf.itch.io/provenance-atlas">https://csaf.itch.io/provenance-atlas</a></li>
+<li><strong>Synthesis Web</strong> — the same derivation idea applied to crafting recipes. <a href="https://csaf.itch.io/synthesis-web">https://csaf.itch.io/synthesis-web</a></li>
+<li><strong>Constellation Atlas</strong> — generated star-chart skill trees. <a href="https://csaf.itch.io/constellation-atlas">https://csaf.itch.io/constellation-atlas</a></li>
+<li><strong>Boughwright</strong> — generated skill-tree node marks. <a href="https://csaf.itch.io/boughwright">https://csaf.itch.io/boughwright</a></li>
+</ul>
+<h2>AI disclosure</h2>
+<p>The source code and the store imagery were produced with AI assistance, declared truthfully.</p>
+<p><strong>No image model touched this product at any point.</strong> Every page in every screenshot is a headless</p>
+<p>Unity render of the software rasteriser that ships inside the package, from source in this</p>
+<p>repository. There is no diffusion model and no network call anywhere in the art path.</p>
