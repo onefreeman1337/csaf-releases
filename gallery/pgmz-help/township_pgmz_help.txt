@@ -1,0 +1,63 @@
+============================================================================
+Township — a living town, not a list of waypoints
+============================================================================
+
+WHY THE OVERNIGHT CASE WORKS
+
+Most routine plugins store a schedule as spans: "work from 08:00 to 17:00".
+That representation breaks the moment a shift crosses midnight, because
+`now >= start && now < end` is false for EVERY minute when start is 22:00
+and end is 07:00 — so no entry is active, the NPC has no destination, and
+it disappears.
+
+Township stores no end times at all. A schedule is a ring of transition
+points, and the active entry is simply the last one at or before now,
+wrapping to the end of the day. An overnight shift is not a special case;
+it is the ordinary case. The broken state cannot be represented.
+
+Because of that, where an NPC is depends only on the time — never on
+accumulated state. So NPCs are always correct after a map transfer, talking
+to one cannot corrupt its movement, and the routine board can scrub to any
+time and show you the truth.
+
+----------------------------------------------------------------------------
+SETTING UP A TOWN
+----------------------------------------------------------------------------
+
+1. PLACES. Drop an event where you want an NPC to stand and put this in its
+   note box:            <township_place:oven>
+   The event needs no pages and no graphic — it is a marker.
+
+2. DOORS. Mark where NPCs enter and leave a map:
+                        <township_door:bakery_front>
+
+3. NPCs. Give the event that represents a townsperson:
+                        <township:baker>
+   ...and define the "baker" actor and their schedule in a town definition
+   plugin. TownshipDemo_Millbrook.js is a complete worked example — copy it
+   and edit it.
+
+4. Open the routine board with the OpenBoard plugin command to see every
+   NPC's day, scrub time, and jump the world to any hour.
+
+----------------------------------------------------------------------------
+COMPATIBILITY
+----------------------------------------------------------------------------
+
+Township uses GRID movement, the same as RPG Maker's own events. It is not
+compatible with pixel-movement or action-battle plugins that replace event
+movement wholesale. It is stated here rather than discovered later.
+
+Every core method is patched by prototype extension with the original saved
+and called, so other plugins that patch the same methods keep working.
+
+If you already own a day/night plugin, set "Clock source" to "variables" and
+point Township at the variables it writes. Township will follow your clock
+instead of running its own.
+
+----------------------------------------------------------------------------
+TERMS
+----------------------------------------------------------------------------
+Free for use in commercial and non-commercial RPG Maker MZ projects.
+Credit "CSAF" appreciated but not required. Do not redistribute or resell
+the plugin itself. See LICENSE.txt.
