@@ -99,7 +99,7 @@ the property migration off entirely.
 ### MARK
 
 ```
--Class=/Script/Engine.StaticMeshActor -AddTags=Reviewed -RemoveTags=TODO -Folder=/Props/Audited
+-Class=/Script/Engine.StaticMeshActor -AddTags=Reviewed -RemoveTags=Blockout -Folder=/Props/Audited
 ```
 
 ---
