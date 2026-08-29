@@ -1,0 +1,36 @@
+<p>**Point it at your characters, their parents, their marriages and the dates things happened to them, and it composes the finished illuminated descent chart.** Every person is a cartouche carrying a device chosen from their own calling. Every descent is drawn in the hand of the relationship. Every life event is marked along the line with its own generated glyph. Nothing in that picture is a stored image: there is no PNG, no atlas, no sprite sheet, no shader and no material anywhere in the package.</p>
+<hr>
+<h3>What your players see</h3>
+<p>A page. Not a debug view, not an inspector window, not a report — a drawn chart your players open, composed at runtime from a list you already have.</p>
+<ul><li><strong>62 hand-authored forms.</strong> 24 life-event marks, 16 cartouche devices, 8 descent-line treatments,</li></ul>
+<p>  8 border hands, 6 generation registers. Times 8 tinctures.</p>
+<ul><li><strong>The lines are the product.</strong> A descent chart is mostly line: twenty cartouches and a hundred</li></ul>
+<p>  segments between them, so the lines cover more of the page than every glyph combined. Direct,   cadet, adopted, natural, uncertain, extinct, collateral, restored — each a property of the line's   whole length rather than a symbol at its midpoint, so none of them vanishes on a two-sibling gap.</p>
+<ul><li><strong>Colour is house identity.</strong> A house resolves to a tincture and a border, so one dynasty frames</li></ul>
+<p>  and tints alike in every chart you ever draw, with nothing to configure.</p>
+<h3>It reads your words, not our enum</h3>
+<p><code>Calling</code>, <code>Descent</code> and each event's <code>Kind</code> are free strings on purpose. You already have a word for these things, and renaming your fields to fit somebody else's enum is the friction that stops a tool getting used. Write <code>abbess</code> and you get the mitre. Write <code>shipmaster</code> and you get the ship.</p>
+<p>Matching is whole-word and handles camelCase, SCREAMING_SNAKE and kebab-case.</p>
+<p>When a word is not recognised it falls back to a stable derived mark **and the editor window tells you which of your words fell through**, so it is never a silent guess.</p>
+<h3>The layout is the hard part, and it is solved</h3>
+<p>A genealogy is not a tree. Everyone has two parents, so the graph has diamonds. Spouses have to share a row or a marriage cannot be drawn as a horizontal. People marry twice and have children by both. Cousins marry, which closes loops. All of that is ordinary in a generated dynasty and all of it breaks a naive recursive walk.</p>
+<ul><li>Generations solved by longest path, then <strong>spouse levelling</strong> so a married pair shares a band,</li></ul>
+<p>  with descendants re-propagated.</p>
+<ul><li><strong>A twice-married person sits between both spouses</strong> — the only arrangement where neither</li></ul>
+<p>  marriage tie crosses the other.</p>
+<ul><li>Crossings reduced by barycentre sweeps that keep the <strong>best measured</strong> arrangement, not the last</li></ul>
+<p>  one, so the result is never worse than where it started.</p>
+<ul><li>Descents routed orthogonally through <strong>a bus lane per union</strong>, which is what guarantees no line</li></ul>
+<p>  ever runs through a cartouche.</p>
+<p>Invalid data is refused with every fault named — duplicate ids, dangling parents, and the one that hangs a naive layout: cycles.</p>
+<h3>Honest about speed</h3>
+<p>A software rasteriser costs pixels, so the numbers are measured on every compose and handed back to you rather than printed in a document. On the machine this was built on, a fifteen-person chart at 1436×924 composes in about <strong>13 seconds</strong>, and recomposing the same chart with a warm tile cache takes about <strong>3.5</strong>. Cartouches are cached by their derivation, so two brothers of one house with one calling cost a single rasterisation. Compose once, cache the texture, recompose when the roster changes — which is exactly what the demo scene does, lazily, after the first frame.</p>
+<h3>What is in the box</h3>
+<ul><li>Full readable C# source. The corpus <strong>is</strong> the product; it is meant to be extended.</li><li>A demo scene you press Play on, and an editor window with a derivation panel and a PNG export.</li><li>Three named assembly definitions, no <code>Resources/</code> folder, no package dependencies.</li><li>Unity 2022.3+. The art is drawn on the CPU, so it is identical on Built-in, URP and HDRP.</li></ul>
+<h3>Lettering</h3>
+<p>The chart deliberately draws no text — your font, your language, your point size. What you get instead is a real drawn recess on every cartouche and a UV rect telling you where it is, so you can lay a label straight onto it.</p>
+<hr>
+<p><strong>More from the Unity wing:</strong> <a href="https://csaf.itch.io/escutcheon">Escutcheon</a> — illustrated character sheets from your stat block · <a href="https://csaf.itch.io/bestiary-codex">Bestiary Codex</a> — bestiary pages from your creature rows · <a href="https://csaf.itch.io/boughwright">Boughwright</a> — generated skill trees · <a href="https://csaf.itch.io/constellation-atlas">Constellation Atlas</a> · <a href="https://csaf.itch.io/provenance-atlas">Provenance</a> · <a href="https://csaf.itch.io/synthesis-web">Synthesis Web</a></p>
+<hr>
+<p><strong>AI disclosure.</strong> The source code and the store imagery were produced with AI assistance, and that is declared truthfully here and on every storefront. The narrower and stronger claim: **no image model touched anything you can see.** The cover, every gallery frame and every mark in the product are drawn in C# by the rasteriser that ships inside the package, from 62 hand-authored forms you can read and edit, with no network call anywhere in the art path. The package contains no audio, and it draws no text.</p>
+<p>© 2026 Core Systems Asset Factory.</p>
