@@ -1,0 +1,84 @@
+<p><strong>Point it at a quest your game already knows about, and it draws the finished illuminated journal page.</strong></p>
+
+<p>The errand gets its own device. The region gets its own painted roundel, and tints the whole sheet. The giver's faction is pressed into wax at the foot. The title's first letter becomes an illuminated initial on gold. The difficulty decides what the border actually is. And whether the quest is offered, in hand, discharged, lost or abandoned repaints the entire page.</p>
+
+<p>Nothing in that picture is a stored image. There is no PNG, no atlas, no sprite sheet, no shader and no material anywhere in the package &mdash; 80 hand-authored forms, all drawn in C# you can read.</p>
+
+<p><strong>Getting Started</strong></p>
+
+<ol>
+<li><strong>Import the package.</strong> Everything lands under <code>Assets/CSAF/Errantry/</code>. Three assemblies, each with its own asmdef, so nothing compiles into your game unless you use it.</li>
+<li><strong>Open the demo scene:</strong> <code>Assets/CSAF/Errantry/Demo/ErrantryDemo.unity</code>. Press <strong>Play</strong>. A page is drawn from the built-in twelve-quest sample journal, and the measured compose time is printed on screen. Click, or press the arrow keys, to turn to the next quest.</li>
+<li><strong>Open the editor window:</strong> menu <strong>Window ▸ CSAF ▸ Errantry</strong>. Press <strong>Compose</strong>. The same page, plus a derivation panel naming every choice the generator made and whether it came from one of your own words or from a stable hash. <strong>Export PNG&hellip;</strong> writes the page to disk.</li>
+<li><strong>Make your own journal:</strong> menu <strong>Assets ▸ Create ▸ CSAF ▸ Errantry ▸ Journal</strong>. Fill in some quests, drag the asset into the window's <strong>Journal</strong> slot, press Compose.</li>
+<li><strong>From your own code</strong>, three lines:
+<pre><code>var composer = new PageComposer();                 // ONE composer for the whole journal
+PageCanvas page = composer.Compose(quest, PageOptions.Default(), out PageReading reading);
+Texture2D texture = page.Resolve("Quest Page");</code></pre>
+</li>
+</ol>
+
+<p><strong>Full documentation</strong> is linked under Technical Information below. It is the same Readme that ships inside the package, readable before you buy.</p>
+
+<p><strong>It draws no text, and that is a feature</strong></p>
+
+<p>Errantry ships no font, measures no string and renders no words. It draws the page and hands you back the rectangles &mdash; in normalised UV, origin bottom-left, exactly what Unity UI takes &mdash; where your own Text, TextMeshPro or IMGUI label belongs. Your fonts, your localisation and your rich text stay entirely yours.</p>
+
+<p><strong>What your data changes</strong></p>
+
+<ul>
+<li><strong>Kind</strong> &rarr; the errand device (14 authored).</li>
+<li><strong>Region</strong> &rarr; the painted roundel (10 authored) <em>and the tincture of the whole page</em>.</li>
+<li><strong>Giver</strong> &rarr; the wax seal, pressed with that faction's device (8 authored).</li>
+<li><strong>Title</strong> &rarr; the illuminated initial (26 authored letterforms).</li>
+<li><strong>Difficulty</strong> &rarr; the border's construction (5 tiers), the number of marginal drolleries, and the stroke weight of the initial.</li>
+<li><strong>ChainStep / ChainLength</strong> &rarr; the chain ornament (4 forms, summarised past nine steps).</li>
+<li><strong>State</strong> &rarr; a treatment that repaints the whole sheet (5 authored).</li>
+</ul>
+
+<p>Kind, Region and Giver are free strings matched whole-word against your own vocabulary; an unrecognised word falls back to a stable derived mark, and the editor window tells you which fell through.</p>
+
+<p><strong>Technical Information</strong></p>
+
+<p><strong>Features:</strong></p>
+<ul>
+<li>Composes an illuminated quest-journal page at runtime or in the editor, from a plain QuestRecord.</li>
+<li>80 hand-authored procedural forms: 14 errand devices, 10 region roundels, 8 giver seals, 8 marginalia, 26 illuminated initials, 5 border tiers, 5 state treatments, 4 chain ornaments.</li>
+<li>Eight authored colour ramps; the region chooses the page's ramp.</li>
+<li>Returns layout rectangles in normalised UV for your own text components.</li>
+<li>Editor window with a derivation panel and PNG export.</li>
+<li>Deterministic: the same record composes the same pixels on every machine and every run.</li>
+<li>Tile cache keyed by derivation; repeated derivations rasterise nothing new.</li>
+<li>28 EditMode tests included, plus the raw commented C# for everything.</li>
+</ul>
+
+<p><strong>Code Modules:</strong> 3 &mdash; <code>CSAF.Errantry.Runtime</code> (runtime), <code>CSAF.Errantry.Editor</code> (Editor-only), <code>CSAF.Errantry.Demo</code> (runtime, demo scene only).</p>
+
+<p><strong>Number of Unity Visual Scripts:</strong> 0.</p>
+
+<p><strong>Number of .cs Scripts:</strong> 24.</p>
+
+<p><strong>Supported Development Platforms:</strong> Windows, macOS, Linux. The package is pure C# with no native plugins, no platform-specific code and no third-party dependencies.</p>
+
+<p><strong>Supported Target Build Platforms:</strong> All. Output is a Texture2D produced by a software rasteriser in managed C#; there is no shader, no compute, no native library and no platform API. Windows, macOS, Linux, iOS, Android, WebGL and console targets are all supported. Editor-only code is confined to the Editor assembly by asmdef.</p>
+
+<p><strong>Supported Unity Pipelines:</strong> Built-in Render Pipeline, URP and HDRP. The package does not touch the render pipeline at all &mdash; it hands you a Texture2D, which you can put on a RawImage, a material, a sprite, or write to disk.</p>
+
+<p><strong>Documentation:</strong> <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/errantry/README.md">https://github.com/onefreeman1337/csaf-releases/blob/main/docs/errantry/README.md</a> &mdash; a full written manual covering the data model, the integration surface, every field's effect on the drawing, measured performance figures and the product's stated limits. The same file also ships inside the package as <code>Readme_for_Users.md</code>.</p>
+
+<p><strong>Example Project:</strong> Included. <code>Assets/CSAF/Errantry/Demo/ErrantryDemo.unity</code> is a scene you press Play on; it composes a page from a built-in twelve-quest sample journal that deliberately exercises all five states, all five difficulty tiers, a three-step chain, a twelve-step chain, a quest with no Kind, a title starting with a digit and a region no corpus word matches.</p>
+
+<p><strong>Versioning:</strong> 1.0.0. Built and gated against Unity 6000.5.7f1 with warnings as errors; minimum supported Editor version 2022.3 LTS.</p>
+
+<p><strong>Support:</strong> Questions, bug reports and feature requests through the Fab seller contact form, or through the CSAF storefront reachable from our publisher profile. The full source ships readable and uncompressed, and every mark in the corpus is a plain C# method you can edit.</p>
+
+<p><strong>Limits, stated plainly</strong></p>
+
+<ul>
+<li>It does not lay out text, and will not. You place the words.</li>
+<li>The corpus is fantasy-medieval. The mechanism is general; the 80 forms are a manuscript vocabulary.</li>
+<li>It is a software rasteriser: a 720x1000 page takes about 4.5 s cold and 2.7 s with a warm composer, measured by the included test suite on the machine that built it. Compose when a quest changes, keep the texture, never call it in Update. A 259x360 index thumbnail takes about 161 ms.</li>
+<li>The page is portrait by default. Landscape works; the layout was authored for a leaf.</li>
+</ul>
+
+<p><strong>AI disclosure:</strong> produced with AI assistance. Code: yes. Graphics: yes &mdash; every mark is procedural C# you can read in <code>Runtime/Mark/</code>, and no generative image model was used at any point. Sounds: none. Text and dialogue: none, since the package renders no words.</p>
