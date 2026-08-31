@@ -1,0 +1,72 @@
+<!-- TITLE: A ship is almost entirely boundaries — so 376 of this pack's 477 tiles are the joins -->
+
+<p>Search for a ship tileset and most of what comes back is a <strong>sprite</strong>: a vessel drawn
+once, at one angle, at whatever size the artist chose. You can drop it on a map. You cannot stand
+your player on it, open a hatch, or send them below.</p>
+
+<p>That is a drawing problem answered with a drawing. <em>Verdant 11</em> answers it as a tiling
+problem, because a ship is almost entirely <strong>edges</strong>: deck meeting water, the bulwark
+standing up on that deck, a hole cut through it, a lid over the hole, a cabin threshold, a tarpaulin
+simply put down.</p>
+
+<h3>Eight complete 47-mask sets, and the count is the point</h3>
+
+<p><strong>376 of the pack's 477 tiles are transitions.</strong> Eight blob sets, each complete:
+deck to open sea, hull to open sea, bulwark to deck, hold to deck, grating to deck, cabin to deck,
+tarpaulin to deck, and deck to granite quay. Each is enumerated over all 256 neighbourhoods rather
+than drawn from a list somebody typed, so "a transition is missing" is not a state the set can
+reach.</p>
+
+<p>Seven of the eight are hard edged on purpose. There is no soil on a ship: every surface was cut,
+planed and fastened, and a jittered edge anywhere would read as damage. The exception is the cloth,
+which is the exception deliberately.</p>
+
+<p>The brow, deck meeting the granite quay of <em>Verdant 10 Harbour</em>, ships complete inside this
+pack. You do not need to own Verdant 10 to use it.</p>
+
+<h3>What is proven, and in what words</h3>
+
+<p>The art comes from a procedural pixel engine, no diffusion model and no dataset, which makes the
+grid, the palette and the absence of anti aliasing true by construction rather than measured
+afterwards. What is checked mechanically:</p>
+
+<ul>
+<li><strong>Godot 4.7.2 built 477 of 477 tiles.</strong> The harness makes Godot count and measure
+every tile, because a corrupted TileSet loads without error. Counting is the only honest test.</li>
+<li><strong>Tiled rendered all 14 tilesets</strong> through its own tmxrasterizer and every cell was
+compared to the sheet in your download.</li>
+<li><strong>384 of 384 RPG Maker MZ autotile shapes</strong> compose byte for byte out of the A2
+sheet, using the engine's own autotile table read from the runtime rather than a copy of it.</li>
+<li><strong>The packed sheets and the loose PNGs were compared to each other</strong>, 477 of 477
+identical. A pack that ships its art twice can ship two different versions of it.</li>
+</ul>
+
+<p>What is <em>not</em> claimed: nothing here is advertised as mechanically proven seamless. Every
+tile's wrap boundary is measured against its own interior and every 4x4 repetition is rendered and
+reviewed by eye, and those renders ship in the package so you can look for the grid line yourself.
+The seam test catches hard edge artefacts reliably and the commonest real defect poorly, so it is
+described as the floor it is.</p>
+
+<h3>The check that a count could not do</h3>
+
+<p>A note from shipping this one, in the spirit of the rest of the series. While uploading the store
+gallery, one screenshot silently failed and another silently uploaded twice. The image count on the
+page read five, which was exactly the number expected, so nothing looked wrong.</p>
+
+<p>Counting could never have caught it: five wrong images and five right ones are the same five. The
+fix was to identify each uploaded image against the file it was supposed to be, at which point the
+duplicate and the missing one both fell out immediately. <strong>When a total can be right for the
+wrong reasons, check identity instead of quantity.</strong></p>
+
+<p>Every image in the gallery above was matched to its source file before this page went public.</p>
+
+<h3>In the download</h3>
+
+<p>Individual PNGs at 16x16, packed sheets, a role tagged <code>tiles.json</code>, an RPG Maker MZ
+A2 autotile sheet plus object sheets, a Tiled <code>.tsx</code>, a Godot 4 <code>.tres</code>, a
+finished Tiled sample map as both a picture and rebuildable data, the 4x4 repetition proofs, and a
+LICENSE permitting commercial use with no attribution required.</p>
+
+<p><em>Part of the Verdant series: one 16 pixel grid and one palette across every pack. Verdant 04
+Tidewater, Verdant 10 Harbour and this are one continuous coastline, open shore to built harbour to
+the ship tied up alongside.</em></p>
