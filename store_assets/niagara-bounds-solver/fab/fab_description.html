@@ -1,0 +1,66 @@
+<p><strong>Your effect disappears when the camera pans away from it.</strong> Not faded, gone, in a single frame, while particles are still visibly on screen. It looked fine in the editor and it looks wrong in the packaged build.</p>
+
+<p>That is bounds culling. A Niagara system on dynamic bounds is culled by its own bounding box, and once the box leaves the frustum the whole system stops drawing.</p>
+
+<h2>The engine gives you two tools for this and neither one solves it</h2>
+<ul>
+<li><strong>A validator that checks presence, not correctness.</strong> It tells you a system has <em>no</em> fixed bounds. A system whose bounds are set but <em>wrong</em>, typed in by hand or captured from a frame where the effect had barely started, passes clean. That is the case that actually ships.</li>
+<li><strong>A per-asset button that samples one frame.</strong> <em>Set Fixed Bounds</em> uses whatever is on screen the instant you press it. For anything that moves, expands or arcs, one frame is not the shape of the effect. Press it before the first particle spawns, or after a burst has died, and it does nothing at all, without saying so.</li>
+</ul>
+
+<p>There is no batch path in the engine, and there is a structural reason: computing a correct bound requires <strong>simulating</strong> the system, and validation is static.</p>
+
+<h2>So this simulates them</h2>
+<p>For every Niagara system in your project, Niagara Bounds Solver plays it headlessly <strong>one tick at a time</strong> and takes the <strong>union</strong> of its local bounds across every tick in which a particle was actually alive. That union, the effect at its widest rather than at one arbitrary instant, is written as <code>FixedBounds</code>.</p>
+
+<p>Every run writes an HTML sheet drawing the box your asset carried against the box it measured, <strong>to a shared scale</strong>, so "this one was 210,590 times too small" is something you can see rather than something you are told.</p>
+
+<h2>Getting Started</h2>
+<p>Three steps, and the first one writes nothing.</p>
+<ol>
+<li><strong>Install.</strong> Copy the <code>NiagaraBoundsSolver</code> folder into your project's <code>Plugins</code> folder and reopen the project. Accept the rebuild prompt if it appears. Confirm it loaded under <strong>Edit &gt; Plugins &gt; Editor</strong>, where it is listed as <em>Niagara Bounds Solver</em>.</li>
+<li><strong>Preview, from the editor console.</strong> Press the backtick key to open the console and type <code>NiagaraBounds.Solve</code> then Enter. Nothing is written. The log prints the path of an HTML report under <code>YourProject/Saved/NiagaraBoundsSolver/</code>; open it and read the per-system table.</li>
+<li><strong>Apply, once you are happy with the report.</strong> Type <code>NiagaraBounds.Solve -Apply</code>. An undo journal is flushed to disk in full before the first asset is modified, so <code>NiagaraBounds.Solve -Revert</code> puts everything back even if the run dies part way through.</li>
+</ol>
+<p>Headless, for a build step:</p>
+<pre><code>UnrealEditor-Cmd.exe "D:/Projects/YourProject.uproject" -unattended -nosplash -ExecCmds="NiagaraBounds.Solve -Apply -ExitOnFinish"</code></pre>
+<p>Or as a commandlet: <code>-run=NiagaraBoundsSolver -Path=/Game/Effects -Apply</code>. Exit codes are meaningful and <strong>an empty scan is a failure, not a pass</strong>, because a CI step that returns zero because it looked at nothing is a step that can never fail.</p>
+
+<h2>The rule it will not break</h2>
+<p><strong>A system it cannot honestly simulate is reported as skipped and left exactly as it was.</strong> No particle alive at any sampled tick. Still running at the time cap, such as a looping system. An instance that will not start. A GPU system in a run with no rendering device. A system using a <strong>stateless (Lightweight) emitter</strong>, added in UE 5.5, which this version does not measure and names as <code>stateless-emitter-unsupported</code> rather than writing a default. Mixed systems are refused too, because a union covering only the standard emitters would be an under-bound, which is the very bug this removes.</p>
+
+<p>A wrong bound is worse than an absent one, because an absent one is at least flagged by the engine's own validator and a wrong one validates clean and ships.</p>
+
+<h2>What it changes, precisely</h2>
+<p>On each solved system: <code>bFixedBounds</code> and <code>FixedBounds</code>. On each GPU emitter still on dynamic bounds: <code>CalculateBoundsMode</code> and its <code>FixedBounds</code>, because the engine does not support dynamic bounds on GPU emitters. CPU emitters on dynamic are deliberately left alone. Nothing else is touched: no module, parameter, renderer, script, spawn rate, material or scalability setting.</p>
+
+<h2>Technical Information</h2>
+
+<p><strong>Features:</strong></p>
+<ul>
+<li>Measures Niagara bounds by simulating each system tick by tick and taking the union across its whole lifetime, rather than sampling one frame</li>
+<li>Batch writes <code>FixedBounds</code> and <code>CalculateBoundsMode</code> across the whole project in one pass, with an optional percentage pad</li>
+<li>Designed HTML report per run: old box against measured box drawn to a shared scale, plus ticks simulated, ticks containing particles, and the volume change</li>
+<li>Undo journal flushed to disk before the first write, with <code>-Revert</code> to restore</li>
+<li>Refuses and names any system it cannot honestly measure instead of inventing a bound</li>
+<li>Editor console command and commandlet sharing one code path, with meaningful CI exit codes</li>
+<li>Automation tests covering the union accumulator and argument handling, including tests that pin the engine behaviours the product relies on</li>
+</ul>
+
+<p><strong>Code Modules:</strong></p>
+<ul>
+<li>NiagaraBoundsSolver (Editor)</li>
+</ul>
+
+<p><strong>Number of Blueprints:</strong> 0</p>
+<p><strong>Number of C++ Classes:</strong> 10</p>
+<p><strong>Network Replicated:</strong> No (editor-time asset tool; nothing runs at game time)</p>
+<p><strong>Supported Development Platforms:</strong> Windows</p>
+<p><strong>Supported Target Build Platforms:</strong> Win64</p>
+<p><strong>Documentation:</strong> https://github.com/onefreeman1337/csaf-releases/blob/main/docs/niagara-bounds-solver/README.md</p>
+<p><strong>Example Project:</strong> None. The plugin operates on the Niagara systems already in your own project and ships with no content, so a sample project would demonstrate nothing the three Getting Started steps above do not. The full C++ source is included.</p>
+
+<h2>Honest about its limits</h2>
+<p>A simulation is not a proof. Systems are played in isolation, so an effect driven by gameplay parameters or by data interfaces that read the scene around it may occupy more space in your game than it does alone in an empty world. Randomness is sampled once, not bounded. The report states how many ticks were simulated and how many contained particles, so the basis of every number is visible, and the pad is there for the variance you expect.</p>
+
+<p><strong>Unreal Engine 5.8, Windows.</strong> Only 5.8 is claimed, because only 5.8 was built and run.</p>
