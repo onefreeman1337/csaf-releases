@@ -1,0 +1,43 @@
+<p><strong>CARILLON is live, free, and playable in your browser.</strong></p>
+
+<p>It is a tower defence whose towers never shoot. You hang bells; each one sounds a ring on the
+metronome; and where two rings touch, a spark is born. The spark is the only thing in the game that
+does damage. Nothing on the board has a range, a target, a cooldown or a projectile, because the
+entire weapon is the intersection of two circles.</p>
+
+<p>The practical effect is that placement <em>is</em> aiming. Two bells that ring together have
+rings of the same size, so every place they can meet lies on the straight line halfway between
+them, and the game draws that line for you. Hang your bells so it crosses the road.</p>
+
+<h3>The part that took the longest to get right</h3>
+
+<p>The second system is phase. A damper walks the road carrying wet felt and knocks nearby bells
+off the beat, and a bell off the beat has its chords bow away from where you aimed them. So taking
+damage degrades your geometry rather than a hit point bar.</p>
+
+<p>That design failed twice before it worked, and both failures are the same shape.
+<strong>Uniform drift is harmless.</strong> Two bells that are both a half beat late still have
+rings of equal size and a perfectly straight chord between them, so a damper that knocked the whole
+battery off the beat together changed nothing at all. Worse, in that state, tuning a single bell
+back onto the metronome is what <em>creates</em> the mismatch, and a battery that never tuned
+measurably outperformed one that did.</p>
+
+<p>The fix was to give the damper distance falloff so it catches one bell of a pair and misses the
+other, and then to give every bell its own sour note so a heavily damped battery ends up scattered
+rather than uniformly late. Only the difference between two bells ever mattered, and it took a
+headless probe playing whole campaigns to see it.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li>Twelve waves, four bell metals, three interventions, and a persistent foundry.</li>
+<li>A lost siege costs you the siege and never the foundry. You never start from nothing twice.</li>
+<li>Autosave after every single action.</li>
+<li>Mouse only. About half a megabyte. No account, no install.</li>
+</ul>
+
+<p>The sound is the mechanic too: a bell is an inharmonic partial stack, so every bell sounds its
+own metal's note as it rings and the music you hear is the state of your battery. It is all
+procedural synthesis written by hand rather than a generative model.</p>
+
+<p><a href="https://csaf.itch.io/carillon">Play CARILLON free in your browser</a>.</p>
