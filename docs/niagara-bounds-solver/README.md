@@ -55,12 +55,25 @@ For every system in the project it:
 
 **A system it cannot honestly simulate is reported as skipped and left exactly as it was.** No
 particles at any tick, a lifetime that never ends inside the time cap, an instance that refuses to
-start, a GPU system in a run with no RHI — all are named in the report with the reason, and none of
-them gets a number invented for it.
+start, a GPU system in a run with no RHI, **a system using a stateless (Lightweight) emitter** —
+all are named in the report with the reason, and none of them gets a number invented for it.
 
 That is not caution for its own sake. **A wrong bound is worse than an absent one**, because an
 absent one is at least flagged by the engine's own validator, and a wrong one validates clean and
 ships.
+
+### ⚠️ Stateless (Lightweight) emitters are refused, on purpose
+
+UE 5.5 added stateless emitters, and this version **does not measure them**. Any system with an
+enabled stateless emitter is reported as `stateless-emitter-unsupported` and left untouched —
+including a *mixed* system, because measuring only its standard emitters would produce a union that
+omits the stateless ones, and an under-bound is the exact bug this tool exists to remove.
+
+This is stated plainly because the alternative was worse. Before this was caught, such a system
+returned the engine's default 200 cm cube as though it were a measured union, complete with a
+growth factor — a confident wrong number, which is the one thing the tool promises never to
+produce. If your library is mostly Lightweight emitters, this tool has little to do for it today,
+and the report will tell you that instead of quietly writing defaults into your assets.
 
 ---
 
