@@ -1,0 +1,37 @@
+<h2>Vellum — illuminated item cards, drawn from your own item data</h2>
+<p><strong>Every item in your game draws its own card.</strong></p>
+<p>Not eight frames repeated across five hundred items. A different drawn card for each one, composed at runtime from the fields your item database already has: its kind, its rarity, its origin, its stats, its worth.</p>
+<p>There is no texture in this package. No atlas, no sprite sheet, no material, no font. <strong>Forty item devices, ten provenance seals, twelve stat glyphs and seven border orders</strong> are drawn in C# by a software rasteriser that ships with the source, so a five-hundred-item game costs five hundred cards and zero import time.</p>
+<h3>What decides how a card looks</h3>
+<table><tr><th>Your field</th><th>What it drives</th></tr><tr><td><code>Kind</code>, then <code>Name</code>, then <code>Tags</code></td><td>which of the <strong>40 devices</strong> is struck, matched whole-word</td></tr><tr><td><code>Rarity</code></td><td>the palette <strong>and the border order</strong> — seven orders, not seven tints</td></tr><tr><td><code>Origin</code></td><td>which of the <strong>10 provenance seals</strong> is struck, or none</td></tr><tr><td><code>ItemLevel</code></td><td>the device's part count — flanges on a mace, points on a diadem, pips on a rank mark</td></tr><tr><td><code>Worth</code></td><td>how heavily the card is gilded, logarithmically</td></tr><tr><td>each <code>Stat.Label</code></td><td>which of the <strong>12 stat glyphs</strong> is struck against that line</td></tr></table>
+<p><strong>Forty devices across seven tiers is 280 distinct cards</strong>, before the seals and stat glyphs multiply it further.</p>
+<p><strong>Your own words always win.</strong> Write <code>Kind = "axe"</code> and you get an axe. Write nothing but <code>"Ashfall Greatsword"</code> and you still get a blade, because the name is searched next. Only when nothing matches does a stable hash choose — and it chooses the same device for that item every time, so a card never reshuffles itself between launches.</p>
+<p><strong>An unrecognised origin draws no seal at all.</strong> A provenance mark invented by a hash would be a claim about your item's history that your data never made.</p>
+<h3>Your text goes on top, and that is the design</h3>
+<p>The package draws <strong>no lettering</strong>. A tooltip's words have to stay selectable, localisable and set in your font, and baking them into a texture breaks all three.</p>
+<p>So Vellum draws the sheet, the order, the device, the seal and the stat glyphs, and publishes where the words go:</p>
+<pre><code>CardLayout layout = CardLayout.For(item.Stats.Count, hasFlavour: true);
+titleText.rectTransform.anchorMin = layout.Title.min;   // normalised, bottom-left origin
+titleText.rectTransform.anchorMax = layout.Title.max;</code></pre>
+<p><code>Title</code>, <code>TypeLine</code>, <code>Stats</code>, <code>Flavour</code>, <code>Device</code> and <code>Seal</code> are all published this way — and the layout <strong>reflows around what the item actually has</strong>, so an item with two stats and no flavour gives that space to the illumination instead of leaving a hole.</p>
+<h3>Determinism you can ship screenshots against</h3>
+<p>The same item always draws the same card, in the editor, in a build, on every platform. The seed comes from the item's <strong>name and kind only</strong> — so re-balancing a damage number never redraws the art, and your store screenshots do not go stale on the next balance pass.</p>
+<h3>Integration is one small function</h3>
+<p>Every project has its own item class and none of them is ours, so you map yours once:</p>
+<pre><code>static VellumItem ToVellum(MyItem it)
+{
+    var v = new VellumItem(it.displayName, it.category, MapRarity(it.tier));
+    v.ItemLevel = it.level;
+    v.Worth     = it.goldValue;
+    v.Origin    = it.factionId;
+    foreach (var s in it.modifiers) v.Stat(s.name, s.ToDisplayString());
+    return v;
+}
+
+Texture2D card = CardComposer.Compose(ToVellum(myItem), 420, 596, out CardPlan plan);</code></pre>
+<p>The editor window (<code>Window ▸ CSAF ▸ Vellum</code>) shows any item's card beside a <strong>derivation panel</strong> that tells you exactly why it looks like that — which mark was chosen, whether your own word chose it or a hash did, which origin word matched the seal, and every derived scalar. A designer whose sword drew a mace gets an answer instead of guessing.</p>
+<h3>What is in the package</h3>
+<ul><li><code>Runtime/Core</code> — Hash, Ink (the software rasteriser), Words, VellumPalette</li><li><code>Runtime/Mark</code> — GlyphKit, Corpus and the 69 hand-authored marks</li><li><code>Runtime/Model</code> — VellumItem, VellumLibrary, Derive, SampleArmoury (28 worked examples)</li><li><code>Runtime/Card</code> — CardLayout, CardComposer</li><li><code>Editor</code> — the authoring window</li><li><code>Demo</code> — a scene you press Play on</li></ul>
+<p>Every script sits in a named, platform-constrained assembly definition. <strong>No <code>Resources/</code> folder</strong>, so nothing is added to your build unless you reference it.</p>
+<p><strong>Unity 2022.3+.</strong> No third-party dependencies. No render-pipeline dependency — the output is a <code>Texture2D</code>, so Built-in, URP and HDRP all work.</p>
+<p><em>Code and graphics in this package are AI-generated. Every mark is procedural C#; no generative image model was used anywhere in the shipped art path. Copyright (c) 2026 Core Systems Asset Factory.</em></p>
