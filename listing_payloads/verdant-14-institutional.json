@@ -1,0 +1,54 @@
+{
+ "projectId": "verdant-institutional-interiors",
+ "slug": "verdant-14-institutional",
+ "title": "Verdant 14 — Modern Institutional Interiors for RPG Maker MZ, Tiled & Godot: Office, Lobby & Studio [16x16]",
+ "tagline": "635 tiles at 16x16. Office, lobby, corridor and studio, with 11 complete 47-mask sets.",
+ "taglineBytes": 86,
+ "description": "<p><strong>635 tiles at 16x16.</strong> A modern working building: an open-plan\noffice, a lobby, a corridor spine and a studio — with 11 complete 47-mask autotile\nsets, 20 objects, 3 animated sets and ready importers for RPG Maker MZ,\nTiled and Godot.</p>\n\n<p>Every other pack in the Verdant series is a landscape. This one is the building.</p>\n\n<h3>What is in it</h3>\n<ul>\n<li><strong>24 floor and division tiles</strong> — 6 materials, four variants\neach: contract carpet, sheet vinyl, lobby terrazzo, a power-floated concrete slab, a demountable\npartition and a glazed screen.</li>\n<li><strong>517 transition tiles</strong> in 11 complete 47-mask blob\nsets — every edge, every outer corner, every inner corner, every single. That is\n<strong>81% of the pack</strong>: this is boundaries, not swatches.</li>\n<li><strong>20 objects</strong> across 70 tiles. Each ships transparent, so you\ncan drop it on your own ground, AND grounded on ours with the contact shadow already between them.</li>\n<li><strong>3 animated sets x 4 frames</strong> — a server rack whose\nactivity lights flicker, a desk monitor with a live trace, a photocopier whose scan lamp sweeps under\nthe platen. In all of them the silhouette is identical in every frame and only the light moves.</li>\n<li><strong>A finished sample map</strong> — 34x24 cells, 87\ndistinct tiles, 44 objects — as a PNG, as JSON naming every cell by id, and as a Tiled\n<code>.tmx</code>.</li>\n</ul>\n\n<h3>The autotile sets</h3>\n<p>`carpet_on_lino` · `terraz_on_lino` · `screed_on_lino` · `carpet_on_terraz` · `parti_on_carpet` · `parti_on_lino` · `parti_on_terraz` · `parti_on_screed` · `glaze_on_carpet` · `glaze_on_lino` · `glaze_on_screed`</p>\n\n<h3>Import it tonight</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong> — a full A2 autotile sheet at 48px, plus B/C/D object sheets and a\nslot map. 48 / 16 = 3, so the upscale is pure pixel replication with no resampling.\nEvery shape MZ can request was composed back out of the sheet using the engine's own\n<code>FLOOR_AUTOTILE_TABLE</code> and compared byte-for-byte: 528 of 528 identical.</li>\n<li><strong>Godot</strong> — a <code>.tres</code> TileSet. It was loaded headless in\n<strong>Godot 4.7.2</strong> and Godot itself was made to COUNT: all 635 declared tiles built,\nevery atlas source resolved, every multi-cell footprint exact.</li>\n<li><strong>Tiled</strong> — one <code>.tsx</code> per group. Every one was opened and rendered by\n<strong>Tiled 1.10.2's own tmxrasterizer</strong> and compared to the shipped sheet, tile by tile.\nThe sample <code>.tmx</code> renders pixel-for-pixel identical to the shipped PNG:\n835,584 pixels compared, 0 differ.</li>\n<li><strong>Anything else</strong> — loose PNGs, packed sheets, and a <code>tiles.json</code> giving\nevery tile's id, role, material, sheet slot, tiling mode and autotile mask.</li>\n</ul>\n\n<h3>⛔ How to paint it — read this before you start</h3>\n<p><strong>Paint the vinyl everywhere with no holes in it, then each layer on top of the last:</strong>\ncarpet, terrazzo and concrete on the vinyl; a carpet suite on the terrazzo; the partitions and glazed\nscreens last. In an autotiled map only ONE side of any boundary is ever drawn — the material laid\n<em>on top</em> — which is what every <code>X_on_Y</code> name means. Cut a hole in the vinyl where\nthe carpet goes instead, and the vinyl's own edge tiles will paint their outside edge into your\ncarpet and put a line of the wrong floor around every room. The included sample map is built in\nexactly those four layers.</p>\n\n<h3>The value structure, since it is the part you cannot see</h3>\n<p>The four floors are spread across the value axis on purpose, so every one reads against the others\nAND against the partition dividing them. A mid-grey wall on a mid-grey floor is invisible at this\nsize, so the partition is dark — and that was measured before any art was drawn, not discovered\nafterwards. Separation ratio is |midLuma(raised) − midLuma(ground)| / span(ground), from emitted\npixels, floor 1.0:</p>\n<p><code>parti on carpet 2.34 · on concrete 2.52 · on terrazzo\n4.57 · on vinyl 6.77</code></p>\n<p><strong>There is deliberately no glaze-on-terrazzo set.</strong> Pale glass on pale terrazzo\nmeasures 0.48, under the floor, so it is not in this pack — the lobby's\nscreens are the solid partition. Shipping a set you cannot see would have made the grid look complete\nand given you a wall nobody can find.</p>\n\n<h3>What is proven, and what is not</h3>\n<ul>\n<li><strong>Exact grid.</strong> Every cell exactly 16x16; every sheet an exact multiple.</li>\n<li><strong>Palette lock.</strong> Every opaque pixel falls inside the declared\n<strong>66-colour</strong> palette. That is what makes tile 600 match tile 1.</li>\n<li><strong>No anti-aliasing.</strong> Alpha is strictly binary. Nothing has been scaled, filtered or\nblended anywhere in the pipeline.</li>\n<li><strong>Autotile completeness.</strong> All 517 mask slots across\n11 sets, checked.</li>\n<li><strong>Footprint truth.</strong> Every tile's declared cell footprint equals its actual pixel\nsize, in both directions.</li>\n<li><strong>The sheets match the loose tiles.</strong> The pack ships its art twice on purpose and\nall 635 were compared file by file.</li>\n</ul>\n<p>⚠️ <strong>What is NOT claimed: \"mechanically proven seamless.\"</strong> Every tile's wrap boundary\nis measured against its own interior, and every 4x4 repetition is rendered and reviewed by eye — but\na statistical seam test cannot prove seamlessness and this pack will not tell you it can. The 4x4\nproof renders ship in <code>proof/repetition/</code> so you can look for the grid line yourself.</p>\n<p>⚠️ Godot: headless load and resource inspection — not the editor GUI, not a running game. Tiled:\nthe CLI renderer, not the GUI editor. RPG Maker MZ: the sheet composes correctly against MZ's own\nautotile table; MZ is not installed on the build machine, so that is not a claim to have opened it in\nthe editor.</p>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, unlimited projects, no attribution required. You may not resell or\nredistribute the pack itself as an asset pack.</p>\n\n<h3>AI disclosure</h3>\n<p>The graphics are generated programmatically by a procedural pixel-art engine written for this\nseries: <strong>no diffusion model and no training dataset is involved in producing any pixel.</strong>\nThe generator's source code was written with AI assistance, and this listing carries itch's\nGenerative AI tag on that basis.</p>",
+ "descriptionSha256": "1de296c3355fb1de5c381247ba10dad2685e8b07e227af9f127062f01fcf0c48",
+ "descriptionChars": 6466,
+ "tags": [
+  "tileset",
+  "tiles",
+  "16x16",
+  "pixel-art",
+  "rpg-maker",
+  "godot",
+  "tiled",
+  "office",
+  "top-down",
+  "asset-pack"
+ ],
+ "classification": "assets",
+ "priceUSD": 12.99,
+ "minPriceField": "$12.99",
+ "aiDisclosure": {
+  "generated": "yes",
+  "code": true,
+  "graphics": true,
+  "sounds": false,
+  "textAndDialog": false
+ },
+ "metadata": {
+  "languages": [
+   "English"
+  ],
+  "assetLicence": "Commercial use permitted, no attribution required, no resale as an asset pack"
+ },
+ "storeImages": {
+  "base": "https://cdn.jsdelivr.net/gh/onefreeman1337/csaf-releases@fd7785926b9f028532c52bd41a926ae9df71a8af/store_assets/verdant-14-institutional",
+  "files": [
+   "cover.png",
+   "gif_1_the_building_runs.gif",
+   "shot_1_the_office.png",
+   "shot_2_the_floor_plate.png",
+   "shot_3_the_lobby.png",
+   "shot_4_the_studio.png",
+   "shot_5_the_objects.png",
+   "shot_6_it_moves.png",
+   "shot_7_complete_47.png",
+   "shot_8_seam_proof.png",
+   "shot_9_three_engines.png"
+  ]
+ }
+}
