@@ -1,0 +1,60 @@
+<p><strong>103 sounds. 17 modern places that feel empty.</strong>
+Car parks, subway platforms, laundromats, stairwells, a mall after hours, a server room, an office
+at night, a storm drain, a closed arcade, an indoor pool. Every one of them shipped in separable
+layers, not as one baked atmosphere.</p>
+
+<p><strong>Royalty-free. Commercial use. No attribution required.</strong> Synthesised from scratch
+in code, so there are no samples, no recordings and no upstream licence behind this one. Use it in a
+commercial game, keep using it, ship it. The only thing you may not do is resell the pack itself as
+a pack.</p>
+
+<h3>A place comes apart</h3>
+<p>Every place gives you a seamless <strong>bed</strong> (30s), <strong>2 layers</strong>
+you fade independently, and <strong>accents</strong> you fire on top. Start the bed, leave it
+running, and ride the layers underneath — one room covers empty, occupied and busy without a
+crossfade and without the loop restarting. The beds and layers are deliberately different lengths,
+so a room left running never repeats on a fixed cycle.</p>
+
+<h3>Every interior hums. The exteriors deliberately do not.</h3>
+<p>A 60 Hz mains hum — fluorescent ballast, transformer, the supply in a sleeping
+monitor — runs under all 12 interiors. That is what makes 17 rooms
+sound like one building instead of 17 unrelated atmospheres. Spraying it everywhere
+would just be one patch with reverb on it, so the 5 exteriors and water spaces are
+free of it.</p>
+
+<p>That claim is <strong>measured, not asserted</strong>. The pack ships
+<code>pack_proof.json</code> with a harmonic-to-shoulder energy ratio at the mains frequencies for
+every room: the humming rooms measure 9.67&times; to 216.18&times;,
+the clear rooms 0.27&times; to 2.2&times;. The two groups
+do not overlap, and the build fails if any room crosses.</p>
+
+<h3>What you get</h3>
+<ul>
+<li><strong>103 sounds</strong>, each as 16-bit 44.1 kHz mono <code>.wav</code>
+and as <code>.ogg</code></li>
+<li><strong>51 seamless loops</strong> with sample-accurate loop points in both formats
+— a <code>smpl</code> chunk in the WAV and <code>LOOPSTART</code>/<code>LOOPLENGTH</code> comments in
+the OGG, which is what RPG Maker MV and MZ read. They were read back out of the encoded bytes after
+encoding, not assumed.</li>
+<li><strong>One loudness target</strong> — the inner range across all 103 files is
+1.73 dB, so you can drop any two together without riding faders</li>
+<li><strong><code>pack_proof.json</code></strong> — 987 checks, 0 failed:
+clipping, silence, duration bands, loop seams two independent ways, level coherence, spectral and
+duration spread, and the hum spine</li>
+<li><strong>A plain-language LICENSE.txt</strong>, a readable manifest, and a copy-paste credit line
+if you want to use one</li>
+</ul>
+
+<h3>The places</h3>
+<p>Parking Garage (7) &middot; Subway Platform (6) &middot; Laundromat (6) &middot; Motel Corridor (6) &middot; Stairwell (6) &middot; Underpass (6) &middot; Mall After Hours (6) &middot; Server Room (6) &middot; Office Night (6) &middot; Bus Depot (6) &middot; Storm Drain (6) &middot; Waiting Room (6) &middot; Rooftop (6) &middot; Arcade Closed (6) &middot; Lightwell (6) &middot; Service Tunnel (6) &middot; Natatorium (6)</p>
+
+<h3>Try it first</h3>
+<p>The <strong>free demo</strong> is two complete places — one that hums and one that does not — with
+their beds, layers and accents, so you can test the layering, the loop points and the spine before
+paying. Both are the <em>median</em> of their group, not the best case.</p>
+
+<h3>Honest note</h3>
+<p>Every sound here is synthesised from code: hand-written modal materials, circularly-filtered
+noise beds, an additive mains-ballast oscillator and one shared room, rendered deterministically. No
+generative audio model was used at any point. The checks above measure the <em>signal</em> — they
+are not a claim that the sounds are beautiful. Download the free demo and listen.</p>
