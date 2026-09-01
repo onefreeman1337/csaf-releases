@@ -1,0 +1,53 @@
+{
+ "projectId": "verdant-castle",
+ "slug": "verdant-13-castle",
+ "title": "Verdant 13 — Castle Tileset for RPG Maker MZ, Tiled & Godot: Curtain Wall, Keep & Gatehouse [16x16]",
+ "tagline": "603 tiles at 16x16. Crenellated walls that run unbroken in every direction, 11 complete 47-mask sets.",
+ "taglineBytes": 101,
+ "description": "<p><strong>603 tiles at 16x16.</strong> 11 complete 47-mask autotile sets,\n18 objects, 2 animated sets — and a battlement that runs unbroken along a wall of any\nlength, <strong>in every direction</strong>.</p>\n\n<h3>The battlement is the pack</h3>\n\n<p>A castle is not a grey biome. It is a SILHOUETTE, and at 16 pixels the whole silhouette lives in\nthe two rows where the wall turns over.</p>\n\n<p>3 of the 11 autotile sets here are <strong>crenellated</strong>: a sunlit merlon cap, its own\nshaded front, and the notch cut down between them. Two rows, because one cannot say \"a block\nstanding up\" — a single lit row between a pale walkway and a dark face is read as the boundary\nbetween those two rather than as a thing in its own right.</p>\n\n<p><strong>And the rhythm is keyed on the map, not on the tile.</strong> A merlon falls every 4 pixels of\nyour MAP, so a wall ten cells long carries ONE battlement rather than a stutter every 16 pixels.\nIt runs on the east and west edges as well as the south, because a curtain wall is a closed circuit\nand a pack that only drew one face would give you a castle fortified in two directions and a\npavement in the other two.</p>\n\n<h3>Elevation, measured before anything was drawn</h3>\n\n<p>Whether a raised surface reads as raised is governed by how far its tone sits from the ground\nbelow, <em>measured against how much the ground's own texture already varies</em>. This series drew a\nnineteen-tile cliff set and cut it after six iterations, every one reading as a trench — and the\ncause was not in the cliff. Measured from the pixels those tiles actually emitted, its wall body sat\nat the same brightness as the ground it stood in: a separation of <strong>0.004</strong>\nagainst a floor of 1.0.</p>\n\n<p>So this pack chose its value structure <em>before</em> it drew anything. The bailey is two adjacent\nearth tones with every brighter mark kept sparse, which holds its whole tonal swing to\n<strong>25 levels of brightness</strong>. Against that:</p>\n\n<ul>\n<li>the sunlit wall walk, brightness 157 — separation <strong>2.43</strong></li>\n<li>the beaten-earth bailey, brightness 95</li>\n<li>the shadowed curtain masonry, brightness 57 — separation <strong>1.52</strong></li>\n</ul>\n\n<p>A curtain wall has two sides and you will paint both, so the same pair is measured against the\nturf OUTSIDE it as well: <strong>1.86</strong> for the walk and\n<strong>2.23</strong> for the masonry. All four clear the floor. The pair this series\ncut is kept as a negative control in the same function, so the check cannot quietly stop measuring.</p>\n\n<h3>What is in it</h3>\n\n<ul>\n<li><strong>11 complete 47-mask autotile sets — 517 tiles.</strong> Curtain wall on the ward, on turf and\nrising out of the water; tower and keep masonry on all three; a roofed building; the ward meeting\nthe turf and the ditch; the ditch cut in the turf; and a cross-pack boundary onto Verdant 01's\noriginal grass.</li>\n<li><strong>24 fills</strong> — 4 variants each of grazed sward, moat water, beaten-earth bailey, dressed wall walk, shadowed curtain masonry, lead roof.</li>\n<li><strong>18 objects, 46 prop tiles.</strong> Portcullis, oak gate doors, rampart stair, arrow slit,\ntrebuchet, scaling ladder, archery butt, weapon rack, pavise, draw well, water trough, hay cart,\nbarrels, firewood, anvil, stocks, moat weed and lily raft.</li>\n<li><strong>2 animated sets, 16 frames</strong> — a burning brazier and a rippling wall banner.</li>\n<li><strong>A sample map that ships as DATA</strong> — a PNG, editable JSON that rebuilds that PNG\nbyte-for-byte, and a Tiled <code>.tmx</code> you can open and change.</li>\n</ul>\n\n<p><strong>517 of 603 tiles — 86% — are transitions.</strong> A castle is almost entirely boundaries, and a\nterrain pack without them is a swatch book.</p>\n\n<h3>Every prop ships twice</h3>\n\n<p>Each object comes as a transparent copy for your own ground <em>and</em> as a copy already standing on\nours, with that surface's own derived contact shadow between the two. That is why 18 objects are\n46 files, and it is a design decision rather than padding: a contact shadow has to darken\nsomething, so one drawn on transparency reads as a hole in your courtyard — but a pack that shipped\nonly the grounded half would strand every buyer who has their own ground.</p>\n\n<h3>Three engine importers, and what checked each one</h3>\n\n<p>A shipped importer is a claim about a program we do not run. The only honest way to hold it is to\nrun it, so each of these was verified by making the engine itself count and measure.</p>\n\n<ul>\n<li><strong>RPG Maker MZ</strong> — a full <strong>A2 autotile sheet</strong> at 48px, the sheet MZ's own autotile brush\npaints with rather than a page of loose stamps. 48 ÷ 16 = 3, an integer, so the upscale is pure\npixel replication with no resampling. Every shape MZ can request is composed back out of the sheet\nusing the engine's own <code>FLOOR_AUTOTILE_TABLE</code>, parsed from the runtime rather than copied, and\ncompared byte-for-byte: <strong>528 of 528 shapes identical</strong>.</li>\n<li><strong>Godot</strong> — the <code>.tres</code> was loaded headless in <strong>Godot 4.7.2</strong> and Godot itself was made to\nCOUNT: all <strong>603 tiles built</strong>, every atlas source resolved, every multi-cell footprint exact.</li>\n<li><strong>Tiled</strong> — every <code>.tsx</code> was opened and rendered by <strong>Tiled 1.10.2's own tmxrasterizer</strong> and\ncompared to the sheet you are downloading, tile by tile. The <code>.tmx</code> sample map renders\npixel-for-pixel identical to the shipped PNG: 835,584 pixels compared, 0 differ.</li>\n</ul>\n\n<p><em>Stated precisely: the MZ sheet <strong>composes correctly against MZ's own autotile table</strong> — not\n\"verified in RPG Maker MZ\", which is not installed on the machine that builds these packs. Godot is\na headless load and resource inspection, not the editor GUI and not a running game. Tiled is the CLI\nrenderer, not the editor.</em></p>\n\n<h3>What is proven, and what is not</h3>\n\n<ul>\n<li><strong>Exact grid.</strong> Every one of the 603 tiles is a whole number of 16x16 cells and every sheet a\nwhole multiple of it, checked in both directions.</li>\n<li><strong>Palette lock.</strong> Every opaque pixel is one of the <strong>64 declared colours</strong>. Not \"mostly\" —\nevery pixel. This is what makes tile 603 match tile 1.</li>\n<li><strong>No anti-aliasing.</strong> Alpha is strictly binary. No halo, no soft upscale, no resampling.</li>\n<li><strong>Autotile completeness.</strong> All 11 sets carry all 47 masks — 517 slots, enumerated against the\nmask table rather than counted by hand. A set missing three is broken in the one map cell that needs\nthem.</li>\n<li><strong>The two copies agree.</strong> The art ships twice on purpose, as loose PNGs and as packed sheets, and\nall 603 were compared to each other and are identical.</li>\n</ul>\n\n<p><strong>⛔ Seamlessness is NOT claimed as proven.</strong> A statistical wrap test catches hard edge\nartefacts about 97% of the time and the commonest real defect only about 7%, because that defect\ndamages the very interior the test calibrates against. So every tile's wrap boundary is measured\nagainst its own interior, every 4×4 repetition is rendered and reviewed by eye, and the fields ship\nin <code>proof/repetition/</code> so you can look for the grid line yourself. A weaker true claim beats a\nstrong false one.</p>\n\n<h3>Paint it in layers, bottom up</h3>\n\n<p>Every autotile set here is named <code>X_on_Y</code>, and that name is a statement about what lies\n<em>under</em> X. In an autotiled map only ONE side of any boundary is ever drawn: the material laid on\ntop. So paint turf everywhere, then the ditch cut into it, then the ward laid inside the ditch, then\nthe walls and towers on top. Paint it the other way round — cutting a hole in the ward where the\nkeep will stand — and the ward becomes an edge around that hole, correctly draws its own outside\nmaterial, and you get a line of grass between your castle and its moat. The shipped sample map is\nbuilt in exactly these four layers, and the Readme says so.</p>\n\n<h3>The series</h3>\n\n<p>Verdant 13 shares its palette and its 16px cell with every Verdant pack before it — <strong>zero new\ncolours</strong> — so a castle map sits beside an Overworld one without a recolour. One autotile set is a\nboundary onto <strong>Verdant 01 Overworld's</strong> original grass, composed here and <strong>shipped complete</strong>:\nyou do not need to own Verdant 01.</p>\n\n<h3>Licence</h3>\n\n<p><strong>Commercial use permitted</strong>, including in paid games, with no attribution required. Modify it\nfreely. You may not resell the pack itself as an asset pack.</p>\n\n<h3>AI disclosure</h3>\n\n<p>The graphics are <strong>generated programmatically</strong> by a procedural pixel-art engine written for this\nseries — there is no diffusion model and no training dataset involved in producing a single pixel.\nThe generator's source code was written with AI assistance. This listing carries itch.io's\nGenerative AI tag on that basis, because over-disclosure is safe and the alternative is not.</p>",
+ "descriptionSha256": "06a0f6b2001c8ca7f540c3bdb747fedca2505a38958f7a3c12eb1103d9720934",
+ "descriptionChars": 9116,
+ "tags": [
+  "tileset",
+  "tiles",
+  "16x16",
+  "pixel-art",
+  "rpg-maker",
+  "godot",
+  "tiled",
+  "castle",
+  "top-down",
+  "asset-pack"
+ ],
+ "classification": "assets",
+ "priceUSD": 9.99,
+ "minPriceField": "$9.99",
+ "aiDisclosure": {
+  "generated": "yes",
+  "code": true,
+  "graphics": true,
+  "sounds": false,
+  "textAndDialog": false
+ },
+ "metadata": {
+  "languages": [
+   "English"
+  ],
+  "assetLicence": "Commercial use permitted, no attribution required, no resale as an asset pack"
+ },
+ "storeImages": {
+  "base": "https://cdn.jsdelivr.net/gh/onefreeman1337/csaf-releases@508d861130519531c173188fc6a3fc765c1c11ab/store_assets/verdant-13-castle",
+  "files": [
+   "cover.png",
+   "gif_1_the_castle_lives.gif",
+   "shot_1_the_battlement.png",
+   "shot_2_the_map.png",
+   "shot_3_the_gate.png",
+   "shot_4_the_objects.png",
+   "shot_5_it_moves.png",
+   "shot_6_complete_47.png",
+   "shot_7_seam_proof.png",
+   "shot_8_three_engines.png"
+  ]
+ }
+}
