@@ -1,0 +1,52 @@
+{
+ "projectId": "verdant-16-scarp",
+ "slug": "verdant-12-scarp",
+ "title": "Verdant 12 — Scarp Tileset for RPG Maker MZ, Tiled & Godot: 16x16 Elevation",
+ "tagline": "414 tiles at 16x16. Elevation that reads at sixteen pixels, 7 complete 47-mask sets, MZ, Tiled and Godot importers.",
+ "taglineBytes": 115,
+ "description": "<p><strong>414 tiles at 16x16.</strong> 7 complete 47-mask autotile sets,\n18 objects, and the feature this series cut once and deferred for months:\n<strong>terrain that reads as being at two different heights, at sixteen pixels.</strong></p>\n\n<h3>Elevation, and why it took this long</h3>\n\n<p>A cliff is not hard to draw. It is hard to make <em>read</em>, and the reason turns out to be\narithmetic rather than art. Whether a raised surface reads as raised depends on how far its tone sits\nfrom the ground below, <strong>measured against how much the ground&rsquo;s own texture already\nvaries</strong>. A nineteen-tile cliff set was drawn for this series and cut after six iterations,\nevery one of them reading as a trench &mdash; and measured from the pixels those tiles actually\nemitted, the cause was not the cliff at all: its wall body sat at the <em>same brightness as the\ngrass it stood in</em>, a separation of <strong>0.004</strong> against a\nfloor of 1.0.</p>\n\n<p>So this pack chooses its value structure before it draws anything. The lowland meadow is two\nadjacent greens with every brighter mark kept sparse, which holds its whole tonal swing to\n<strong>25 levels of brightness</strong>. Against that, the sunlit upland\ncap scores <strong>3.11</strong> and the shadowed scarp face\n<strong>1.33</strong>. Both clear the floor, the pair that was cut is kept as\na <em>negative control in the same function</em>, and every one of those numbers is computed from the\nemitted pixels of the tiles in this download rather than from a colour table.</p>\n\n<p>The scarp then gets the four things that say &ldquo;vertical&rdquo;: a lit lip where the turf\nturns over, a rock face below it, a dark plinth at the foot, and a shadow cast on the grass. That is\nfour cues in the four rows a 16-pixel cell affords.</p>\n\n<h3>What is in it</h3>\n<ul>\n<li><strong>7 complete 47-mask autotile sets</strong> &mdash; the plateau scarp with its face,\nplinth and cast shadow; the talus fan at its foot; a drove road on <em>both</em> levels; bracken on\nboth; and a boundary onto <strong>Verdant 01 Overworld&rsquo;s</strong> original grass so a buyer of\nboth can run one map into the other.</li>\n<li><strong>24 terrain fills</strong> &mdash; four variants each of lowland meadow, sunlit upland turf, shadowed scarp face, loose talus, packed earth track, rust bracken.</li>\n<li><strong>18 objects, 61 prop tiles</strong> &mdash; every one ships transparent\n<em>and</em> already grounded on the surface it belongs on, with the contact shadow between the two.</li>\n<li><strong>A finished sample map</strong>, as a PNG, as editable JSON that rebuilds that PNG\nbyte-for-byte, and as a Tiled <code>.tmx</code> you can open and change.</li>\n</ul>\n\n<p><strong>329 of 414 tiles &mdash; 79% &mdash; are transitions.</strong>\nA landscape is mostly boundaries, and a terrain pack without them is a swatch book.</p>\n\n<h3>Three engine importers, and what checked each one</h3>\n\n<p>A shipped importer is a claim about a program we do not run. The only honest way to hold it is to\nrun it, so each of these was verified by making the engine itself count and measure.</p>\n<ul>\n<li><strong>RPG Maker MZ</strong> &mdash; a full <strong>A2 autotile sheet</strong> at 48px, the\nsheet MZ&rsquo;s own autotile brush paints with rather than a page of loose stamps. 48 &divide; 16 =\n3, an integer, so the upscale is pure pixel replication with no resampling. Every shape MZ can\nrequest is composed back out of the sheet using the engine&rsquo;s own\n<code>FLOOR_AUTOTILE_TABLE</code>, parsed from the runtime, and compared byte-for-byte.</li>\n<li><strong>Godot</strong> &mdash; the shipped <code>.tres</code> was loaded headless in\n<strong>Godot 4.7.2</strong> and Godot itself was made to COUNT: all 414 tiles built, every atlas\nsource resolved, every footprint exact. Headless load and resource inspection only &mdash; not the\neditor GUI, not a <code>TileMapLayer</code>, not a running game.</li>\n<li><strong>Tiled</strong> &mdash; every shipped <code>.tsx</code> was opened and rendered by\n<strong>Tiled 1.10.2&rsquo;s own tmxrasterizer</strong> and compared to the sheet you download, tile\nby tile. The <code>.tmx</code> sample map renders pixel-for-pixel identical to the shipped PNG:\n614,400 pixels compared, 0 differ.</li>\n<li><strong>Anything else</strong> &mdash; Unity, GameMaker, L&Ouml;VE and custom engines get the\nloose PNGs, the packed sheets and <code>tiles.json</code>.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<ul>\n<li><strong>Exact grid</strong> &mdash; every one of the 414 tiles is a whole number of 16x16 cells,\nand every sheet a whole multiple of it. Checked in both directions.</li>\n<li><strong>Palette lock</strong> &mdash; every opaque pixel is one of the\n51 declared colours. Not &ldquo;mostly&rdquo;: every pixel. That is what makes\ntile 414 match tile 1.</li>\n<li><strong>No anti-aliasing</strong> &mdash; alpha is strictly binary. No halo, no soft upscale, no\nresampling anywhere in the pipeline.</li>\n<li><strong>Autotile completeness</strong> &mdash; all 7 sets carry all 47 masks,\n329 slots, enumerated against the mask table rather than counted by hand.</li>\n<li><strong>Sheets match the loose tiles</strong> &mdash; the same art ships twice on purpose, and\nall 414 were compared and are identical.</li>\n</ul>\n\n<p><strong>&#9888; Seamlessness is NOT claimed.</strong> Every tile&rsquo;s wrap boundary is measured\nagainst its own interior, and every 4&times;4 repetition is rendered and reviewed &mdash; the fields\nship in <code>proof/repetition/</code> so you can look for the grid line yourself. That is a measured\nfloor and a human review, not a proof: a statistical wrap test catches hard edge artefacts about 97%\nof the time and the commonest real defect only about 7%, because that defect damages the very\ninterior the test calibrates against. A weaker true claim beats a strong false one.</p>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, including in paid games, with no attribution required. You may modify\nthe art. You may not resell the pack itself as an asset pack. Full terms in\n<code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>The graphics are generated <strong>programmatically</strong>, by a procedural pixel-art engine\nwritten for this series &mdash; there is no diffusion model and no training dataset involved in\nproducing a single pixel. The generator&rsquo;s source code was written with AI assistance, and this\nlisting carries the platform&rsquo;s Generative AI tag on that basis.</p>",
+ "descriptionSha256": "84e53db9814e53325ac55d4b25c7413d2164fc02ec2a634352c9bb3800db65f0",
+ "descriptionChars": 6512,
+ "tags": [
+  "tileset",
+  "tiles",
+  "16x16",
+  "pixel-art",
+  "rpg-maker",
+  "godot",
+  "tiled",
+  "top-down",
+  "environment",
+  "asset-pack"
+ ],
+ "classification": "assets",
+ "priceUSD": 9.99,
+ "minPriceField": "$9.99",
+ "aiDisclosure": {
+  "generated": "yes",
+  "code": true,
+  "graphics": true,
+  "sounds": false,
+  "textAndDialog": false
+ },
+ "metadata": {
+  "languages": [
+   "English"
+  ],
+  "assetLicence": "Commercial use permitted, no attribution required, no resale as an asset pack"
+ },
+ "storeImages": {
+  "base": "https://cdn.jsdelivr.net/gh/onefreeman1337/csaf-releases@6a43c79e81b9e0526b61af5f99c298bddc7fba17/store_assets/verdant-12-scarp",
+  "files": [
+   "cover.png",
+   "gif_1_the_scarp_resolves.gif",
+   "shot_1_two_levels.png",
+   "shot_2_the_map.png",
+   "shot_3_the_objects.png",
+   "shot_4_ships_twice.png",
+   "shot_5_complete_47.png",
+   "shot_6_seam_proof.png",
+   "shot_7_three_engines.png"
+  ]
+ }
+}
