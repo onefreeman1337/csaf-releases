@@ -1,0 +1,72 @@
+<p><strong>Every mechanism in this pack ships its whole lifecycle.</strong> Not one "door
+open" one-shot — a handle, a start, a swing that loops for as long as your animation runs, a stop, a
+slam, and a rattle when it is locked. 105 states across 24 mechanisms.</p>
+
+<p><strong>Royalty-free for commercial use in unlimited games, on any engine, forever. No attribution
+required. No per-title fee.</strong> You may ship these sounds in as many commercial projects as you
+like, including paid ones. The only thing you may not do is resell or redistribute the pack itself as
+a sound library. The full plain-language licence is in the download, and it is short.</p>
+
+<h3>Why the loops matter</h3>
+
+<p>22 of the 123 files are real loops with sample-accurate loop points, and they exist for one
+reason: <em>the middle of an animation has no fixed length</em>. If your portcullis takes 1.4 seconds
+to rise on one map and 3 seconds on another, a one-shot cannot score either of them — you cut it off
+or you leave silence. Here you play <code>start</code>, loop <code>move</code> for exactly as long as
+the thing is moving, then play <code>stop</code>.</p>
+
+<p>Every loop was checked mechanically at the wrap for a click, for a level pump, and for a fade
+across its own length. They are built by folding the decay tail onto the head rather than by
+crossfading, because an equal-gain crossfade sums two decorrelated streams about 3 dB down and the
+dip is audible.</p>
+
+<h3>One stone keep, not a bag of dungeon sounds</h3>
+
+<p>This is not a generic catalogue. It is one cold building: oak beams, wrought iron, cut granite,
+iron chain, brass wards, hemp rope, spring steel, cage bar, dry bone and a lead counterweight, all
+moved through one shared room. A granite slab and an oak door struck the same way sound like
+different objects, and everything sounds like it lives in the same place. That is the point — the
+files sit together in a mix without any of them announcing that it came from somewhere else.</p>
+
+<ul>
+<li><strong>Doors</strong> — oak door, iron-banded door, stone slab door, trapdoor, secret pivot door</li>
+<li><strong>Gates</strong> — portcullis, drawbridge, dropping cage</li>
+<li><strong>Chests</strong> — oak chest, iron strongbox, brass warded lock, padlock, deadbolt</li>
+<li><strong>Levers</strong> — iron lever, pressure plate, capstan winch, gear train, rope and pulley</li>
+<li><strong>Traps</strong> — spike trap, dart trap, flame jet, pendulum blade, crushing wall, chain hoist</li>
+</ul>
+
+<h3>Hear it before you pay: the free demo is three whole mechanisms</h3>
+
+<p>The demo download is a <strong>real subset</strong>, not a teaser reel — three complete mechanisms
+with every one of their states, every take and every loop, at full quality and under the same
+licence. Wire <code>start</code> → loop → <code>stop</code> in your own engine and hear whether it
+does what you need before spending anything. Keep and ship those files even if you never buy the
+pack.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li><strong>123 sounds</strong>, each shipped twice: 16-bit 44100 Hz mono WAV (source grade) and OGG (engine ready)</li>
+<li><strong>22 loopable files</strong> with loop points in the WAV header and <code>LOOPSTART</code>/<code>LOOPLENGTH</code> in the OGG comments, which RPG Maker MV/MZ read natively</li>
+<li><strong>9 cues ship as non-repeating take sets</strong> — locked doors, levers, pressure plates, keys, chain hauls: the ones a dungeon fires over and over</li>
+<li>A naming manifest (<code>&lt;mechanism&gt;_&lt;state&gt;</code>), so <code>endsWith("_loop")</code> is a safe import filter</li>
+<li>Import notes for Unity, Godot 4, Unreal 5, GameMaker, RPG Maker MV/MZ, Web Audio, FMOD and Wwise</li>
+<li>Levels normalised to one target through one room — measured spread across the middle 80% of the pack: <strong>1.07 dB</strong> — so you can drop it in without trimming file by file</li>
+</ul>
+
+<h3>How it was made, and what is honestly claimed</h3>
+
+<p>Every sound is <strong>synthesised from code</strong> — hand-authored modal recipes for ten
+materials, each struck, dragged, wound or released. There are no samples in this pack and no
+third-party audio of any kind, so there is nothing here whose licence you inherit.</p>
+
+<p><strong>1138 mechanical checks passed with none failing</strong>: no clipping, no silence, no
+abrupt edges, duration sanity per slot, loop-seam continuity proven two independent ways, loudness
+coherence, spectral and duration variety, and a check that every declared state resolves to real,
+distinct audio. Those measure the <em>signal</em>. They are not a claim that a given sound is the
+right one for your game, which is exactly why the demo above is a real subset rather than a trailer.
+The measurements ship with the pack in <code>pack_proof.json</code>, with a sha256 per file, so you
+can check every one of them yourself.</p>
+
+<p><em>Made by Core Systems Asset Factory.</em></p>
