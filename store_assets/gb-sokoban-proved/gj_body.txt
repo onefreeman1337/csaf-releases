@@ -1,0 +1,39 @@
+A compositor sets type by hand. The copy line is pinned above the case, the lead sorts are lying loose in the forme, and the only tool is a blank quad you can shove them with.
+
+COMPOSITOR is a real Game Boy cartridge. This is the free browser demo: eight formes, playable right here, running the actual 32,768 byte ROM in an emulator on the page.
+
+EVERY FORME SHIPS WITH ITS PROVED SHORTEST SETTING
+
+This is the part that is not a figure of speech. Each forme was generated and then searched exhaustively, over every arrangement the board can reach, for the shortest sequence of pushes that sets the line. That number is BEST in the footer while you play.
+
+It is not a par, and it is not the length of the first solution the generator stumbled on. It is the minimum, and there is no better one. When you match BEST you have found a shortest solution.
+
+Then every forme was played to a set line on this exact ROM by a bot, in exactly its proved number of pushes, before the cartridge was allowed out. A solver that is right about a game the ROM is not playing would be worth nothing, so the two are checked against each other rather than trusted separately.
+
+THE ORDER IS FINAL, AND THAT IS THE WHOLE GAME
+
+A sort can only be pushed, never pulled, and there is no row beneath the composing stick to stand in. Two sorts delivered into the stick in the wrong order can never be swapped. A forme can be permanently dead with everything still on screen and nothing obviously wrong.
+
+That is why B undoes and SELECT restarts. They are not conveniences. The solver proved the deadlock exists before a line of the game was written, and without them the cartridge would silently brick a board and never tell you.
+
+TWENTY SIX LETTERS, CUT BY HAND
+
+Every letterform is authored pixel by pixel for a sixteen pixel body in the four shades the hardware has, lit on the top left and shadowed on the bottom right, the printing face inset behind a bevel.
+
+The screens are composed at runtime out of those parts, so forty distinct formes exist in the full game and not one of them is stored as a picture. There is no sprite sheet and no atlas. That is how the whole thing fits in 32 KB alongside the solver's answers and the sound driver.
+
+The brightest shade on the screen is spent on exactly one thing: a sort standing in its own place in the line. Nothing else in the cartridge is allowed to use it, so you can always see how far along you are without reading a number.
+
+WHAT WAS TESTED, AND WHAT WAS NOT
+
+The cartridge was developed and verified in the emulator binjgb, driven a frame at a time from a cold boot, with the screen it drew compared pixel for pixel against a separate reference renderer. It has not been run on physical hardware. Nobody here owns a Game Boy or a flash cart, so the honest claim is the format and the emulator, not a compatibility badge. If you own the hardware and you run it, say how it went and I will put that here.
+
+THE FULL CARTRIDGE
+
+This demo is eight formes. The full cartridge is forty, ordered from eight pushes to eighteen, and it is on itch.
+
+Sound is the console's own four hardware channels, driven by register writes. No samples.
+
+Made by Core Systems Asset Factory. Hand written GBDK-2020 C, no engine, no template, no stock art. AI disclosure: code yes, graphics yes, text and dialogue no, sounds no. Tags follow.
+
+#puzzle #retro #other #gameboy #sokoban #typography #pixelart #logic #proceduralgeneration #demo
