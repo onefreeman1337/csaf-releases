@@ -1,0 +1,85 @@
+<p><strong>A clicker is not a game with a click in it.</strong> It is a game where one action
+fires thousands of times and has to keep feeling different as the numbers grow. So the unit of this
+pack is not a cue &mdash; it is a <strong>ladder</strong>: an ordered ramp of rungs you wire straight
+to your own multiplier tier.</p>
+
+<p><strong>Royalty-free. Commercial use. No attribution required.</strong> Use it in a game you sell,
+on any platform, forever. No credit needed (there is a copy-paste credit line in the Readme if you
+would like to anyway). Everything here is synthesised from scratch in code, so there are no samples,
+no recordings and <strong>no upstream licence sitting behind this one</strong>. The only thing you
+may not do is resell or redistribute the sounds as a sound pack.</p>
+
+<p><strong>Hear it before you buy it: the free demo is a real subset</strong>, 14 sounds
+under the same licence, including two complete ladders so you can play the rungs in order and hear
+the thing this pack actually sells.</p>
+
+<h3>A desk of counting machines</h3>
+
+<p>This is not "clicker UI sounds". It is one place: a Victorian counting house. Brass detents,
+hardwood beads, felt dampers, music-box tines, ratchet springs, punched card stock, a shop counter
+bell and a cast iron till &mdash; 10 hand-written modal materials, struck,
+wound, damped and released through one shared room. That is why it sounds like somewhere rather than
+like 10 unrelated presets, and it is why the 31 menu, prestige and
+automation cues sit in the same world as the clicks.</p>
+
+<h3>13 ladders, 74 rungs</h3>
+
+<ul>
+<li><strong>Brass detent tap</strong> — 8 rungs, escalating on brightness upward, spanning 3.30&times;. The default click. A brass counter detent under the thumb, tightening and brightening as the multiplier climbs. Eight rungs, three non-repeating takes each.</li>
+<li><strong>Felt damper tap</strong> — 8 rungs, escalating on brightness upward, spanning 4.09&times;. The quiet alternative for a cozy or long-session idler: a felt-damped hardwood key with almost no ring. Same eight rungs, same three takes, a completely different room manner.</li>
+<li><strong>Coin gain</strong> — 6 rungs, escalating on brightness upward, spanning 3.10&times;. A struck coin on a wooden counter, opening from a dull copper penny to a bright small disc as the payout tier rises.</li>
+<li><strong>Critical click</strong> — 5 rungs, escalating on brightness upward, spanning 2.98&times;. The shop counter bell dome, struck. The bonus-click cue, five rungs of rising ring for crit multipliers that stack.</li>
+<li><strong>Combo step</strong> — 8 rungs, escalating on brightness upward, spanning 3.30&times;. Eight tines from one music-box comb, struck singly. The steps are deliberately uneven: this is a counter climbing, not a scale.</li>
+<li><strong>Purchase confirm</strong> — 6 rungs, escalating on brightness upward, spanning 3.80&times;. A till key going down. Six rungs so a cheap buy and a late-game buy are not the same event with a different number over it.</li>
+<li><strong>Upgrade detent</strong> — 5 rungs, escalating on brightness upward, spanning 2.31&times;. A ratchet spring stepping one notch. Five rungs for upgrade levels, and it is the same spring every time, which is what makes level five feel like level one plus four.</li>
+<li><strong>Generator unlock</strong> — 5 rungs, escalating on brightness upward, spanning 3.19&times;. A cast iron latch releasing. Five rungs for unlocking each new generator, opening up as the machine gets bigger.</li>
+<li><strong>Purchase heft</strong> — 5 rungs, escalating on brightness <em>downward</em>, spanning 3.18&times;. The weight of a purchase, five rungs DOWNWARD. A cheap buy is a light tap; the last upgrade in the tree is a deep iron thud. Wire it inverted to your price tier.</li>
+<li><strong>Hold to charge</strong> — 5 rungs, escalating on length upward, spanning 6.59&times;. Winding a hardwood spool. Five rungs that escalate in BODY rather than in pitch, for hold-to-charge clicks where the tier is how long the player held.</li>
+<li><strong>Meter fill</strong> — 5 rungs, escalating on length upward, spanning 8.21&times;. A ticket sweeping through a card reader. Five rungs of fill length for progress bars, prestige meters and offline-catchup bars.</li>
+<li><strong>Production works</strong> — 4 rungs, escalating on brightness upward, spanning 2.04&times;. The idle production hum, four tiers of density. Seamless, sample accurate, and each tier is the same machine running harder rather than a different machine.</li>
+<li><strong>Counter ticker</strong> — 4 rungs, escalating on brightness upward, spanning 1.73&times;. The counter wheel turning over. Four seamless tiers for a number that will not stop going up, so the room itself reports the rate.</li>
+</ul>
+
+<p>Every one of those spans is <em>measured off the file you download</em>, not asserted here. The
+pack ships with the gate that produced them, and that gate refuses any ladder whose rungs do not
+move in the direction they declare &mdash; at least 8% per rung on
+brightness or 12% on length, spanning at least 1.5&times;
+end to end. It refused this pack repeatedly while it was being built, and every fix went into the
+synthesis recipes rather than into the threshold.</p>
+
+<h3>Wiring it</h3>
+
+<pre>const TAP = [ /* tap_brass_t1 .. tap_brass_t8 */ ];
+const rung = Math.min(TAP.length - 1, Math.floor(Math.log10(multiplier)));
+play(pick(TAP[rung]));        // pick() returns one of that rung's three takes</pre>
+
+<p>Three things worth knowing. <strong>The tap ladders ship three takes per rung</strong> &mdash;
+pick one at random per click, because a clicker fires one sound more often than a shooter fires a
+gun and a single file machine-guns within seconds. <strong><code>heft</code> runs downward</strong>,
+because a big late-game purchase should land heavier rather than higher; wire it inverted against
+price. And <strong>break the ramp at a milestone</strong>, which is what the prestige cues are for.</p>
+
+<h3>In the box</h3>
+
+<ul>
+<li><strong>137 sounds</strong> &mdash; 13 escalation ladders (74 rungs) and 31 standalone cues</li>
+<li><strong>274 files</strong> &mdash; every sound as 16-bit 44.1 kHz WAV and as OGG</li>
+<li><strong>10 seamless loops</strong> with sample-accurate loop points in the WAV smpl chunk, proven at the seam two independent ways</li>
+<li><strong>17 declared variation sets</strong>, measured to actually differ &mdash; declared in <code>pack.json</code>, never padded as unique content</li>
+<li><strong>14 slots</strong>: Click ladders &middot; Reward ladders &middot; Purchase ladders &middot; Progress ladders &middot; Machine loops &middot; Milestones and prestige &middot; Offline progress &middot; Automation &middot; Menu and UI &middot; Denials and limits &middot; Boosts and modifiers &middot; Number readout &middot; Achievements &middot; Room tone</li>
+<li><strong>One loudness target</strong> &mdash; the inner 80% of the whole pack sits inside 0.26 dB, so you are not gain-riding 137 files</li>
+<li><strong><code>pack_proof.json</code></strong> &mdash; 1252 checks, 0 failed, with the sha256 and full measurement of every file</li>
+<li>Readme with per-engine import notes (Unity, Godot, RPG Maker MV/MZ, GameMaker, web), a naming manifest, and a plain-language LICENSE.txt</li>
+</ul>
+
+<h3>Honest limits</h3>
+
+<p>The proof is a <em>signal</em> measurement: it says there is no measurable defect, not that the
+sounds are right for your game. That is what the free demo is for. It is one aesthetic on purpose
+&mdash; warm, wooden, brass, close &mdash; so if you want harsh sci-fi clicks this is the wrong pack.
+And the ladders assume you have tiers to wire them to; if your game fires one click forever, you are
+buying 31 standalone cues and a lot of variation you will not use.</p>
+
+<p><em>Made by Core Systems Asset Factory. Code and graphics are AI-assisted; the audio is not &mdash;
+every sample is procedural synthesis written in Node, with no generative-audio model anywhere in the
+pipeline.</em></p>
