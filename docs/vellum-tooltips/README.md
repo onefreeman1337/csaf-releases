@@ -122,23 +122,27 @@ Every mark is a signed-distance field evaluated per pixel, which is exactly why 
 and why 500 items cost no import time — but it means a card is something you compose **ahead of the
 moment you need it**, never on hover and never in a frame.
 
-Measured, not estimated — Unity 6000.5.7f1, batch mode, **two full runs of the same test on the
+Measured, not estimated — Unity 6000.5.7f1, batch mode, **three full runs of the same test on the
 same machine**, so you get the spread rather than one lucky number:
 
-| card size | pixels | per card |
+| card size | pixels | per card (3 runs) |
 | --- | --- | --- |
-| 256x364 | 93 k | 3.1 - 3.8 s |
-| 300x420 | 126 k | 4.3 - 4.7 s |
-| 420x596 | 250 k | 7.4 - 10.2 s |
+| 256x364 | 93 k | 3.1 - 4.0 s |
+| 300x420 | 126 k | 4.3 - 5.4 s |
+| 420x596 | 250 k | 7.4 - 10.5 s |
 | 600x852 | 511 k | 29 - 39 s |
 
-Cost tracks the pixel count — **30 to 77 microseconds per thousand pixels** across both runs and all
-four sizes — so **halving the card's width roughly quarters the work.** That is a wide band on
-purpose, because it is honest: the two runs used identical code and identical package bytes and
-still differed by up to **37%**, purely on how busy the machine was. Read the table as an order of
-magnitude rather than a specification. `CardComposer.Profile = true` prints the per-phase timings on
-your hardware, and the demo scene prints its own compose time on every card it draws.
-**Take your own number from those rather than ours.**
+Cost tracks the pixel count — **30 to 77 microseconds per thousand pixels** across all three runs
+and all four sizes — so **halving the card's width roughly quarters the work.**
+
+⚠️ **Read the high figure as an observation, not a ceiling.** The three runs used identical code and
+identical package bytes and still spread by up to **40%**; the variable is how busy the machine is,
+not what is on the card. Each run was slower than the last because the workstation got busier, and a
+fourth run on a loaded machine would very likely widen the band again — that is the honest shape of
+a CPU rasteriser's cost, and it is why this is a table of magnitudes rather than a specification.
+`CardComposer.Profile = true` prints the per-phase timings on your hardware, and the demo scene
+prints its own compose time on every card it draws. **Take your own number from those rather than
+ours** — it is the only one that describes your machine.
 
 **So the integration that works:**
 
