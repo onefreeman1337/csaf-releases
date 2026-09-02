@@ -1,0 +1,104 @@
+<p><strong>A colophon is the printer's inscription at the end of a book</strong> — the device, the
+place, the date, the hand that made it. Colophon replaces RPG Maker MZ's save and load screens with
+a <strong>shelf of printed leaves</strong>: one leaf per slot, each composed from what that save
+actually contains.</p>
+
+<p>There is no PNG, no atlas and no image file in the package at all. Every leaf is drawn by code.</p>
+
+<h3>The claim, stated exactly</h3>
+
+<p>Plenty of plugins improve the save screen and several are very good. Every one of them shows you
+a <strong>screenshot</strong>, a <strong>row of faces</strong>, or <strong>a picture you supply
+yourself</strong>. Colophon <strong>generates the picture from the save data</strong>. That is the
+whole difference, and it is the only thing this package claims.</p>
+
+<blockquote><em>Keep your save system. This is the part that draws what is in the file.</em></blockquote>
+
+<h3>What a leaf is made of</h3>
+
+<p>Six things are read out of the save, and each one drives part of the drawing.</p>
+
+<ul>
+<li><strong>The device</strong> — the printer's mark struck in the middle — from what the run has
+spent its time doing, and how far it has come.</li>
+<li><strong>The paper</strong> — laid, wove, vellum, foxed, tinted, deckle, blotted, marbled — from
+where the save was taken.</li>
+<li><strong>The binding</strong> — the border, from an unbound sheet up to a flowered frame — from
+how far into the work the run is.</li>
+<li><strong>The handling</strong> — foxing, thumbing, folds, a turned corner — from playtime.</li>
+<li><strong>The house</strong> — the ink and the letterform — from your project's own vocabulary.
+One game prints in one house.</li>
+<li><strong>The register</strong> — the small marks along the foot — from who is in the party.</li>
+</ul>
+
+<p><strong>45 authored entities</strong>: 15 printer's devices
+(5 families &times; 3 progress variants), 8 papers,
+6 bindings, 5 states of handling, 6 register marks
+and 5 houses. They combine into far more leaves than that, but 45 is the
+number that was drawn by hand and it is the one worth quoting.</p>
+
+<h3>The device matures as the run does</h3>
+
+<p>The five families are <strong>Arms, Wayfare, Coin, Dominion and Lore</strong> —
+a war helm, a fingerpost, a banded coffer, a tower, an open book. The family says who the run has
+been; the variant says how far it has come, rising from a plain struck roundel, to a roundel with a
+motto scroll, to a scalloped cartouche with a crest above it. The mark on a late save visibly
+outranks the mark on an early one.</p>
+
+<h3>The hard part, and what was done about it</h3>
+
+<p>The difficulty in a save screen is not drawing. It is that <strong>the six files a player owns
+are usually six moments of the same run</strong> — same party, same game, an hour apart. A generator
+keyed off the party draws one picture six times.</p>
+
+<p>So the axes that move <em>within</em> a playthrough carry the weight: where you stopped, how far
+in you are, how long you have played, and the device's own progress variant. Party composition is
+deliberately given the smallest element on the leaf. <strong>Measured in the real engine on a real
+six-save run: six saves of one playthrough produce six distinct leaves.</strong> That is the
+condition the product was allowed to ship on.</p>
+
+<h3>Old saves work</h3>
+
+<p>A file written before Colophon was installed has none of the extra information in its header.
+Those leaves are drawn from what the stock header does carry, and they print as valid leaves that
+say <em>collation unrecorded</em> and <em>without imprint</em> rather than inventing figures they do
+not know.</p>
+
+<h3>Parameters and commands</h3>
+
+<p>Five parameters — shelf columns and rows, the shelf tone, an optional heading, and whether to
+print the collation figures. Three plugin commands: <strong>Set chapter</strong> (struck into the
+imprint of every leaf saved from then on), <strong>Set imprint</strong> (for a set piece where the
+map name is not the truth) and <strong>Clear imprint</strong>.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ColophonRender.js</code> — Colophon [1/5] — drawing and colour primitives. Seeded RNG, colour maths, the absolute-separation relief model, deterministic surface noise, path…</li>
+<li><code>ColophonCorpus.js</code> — Colophon [2/5] — the authored corpus. Fifteen printer's devices, eight papers, six bindings, five states of handling and the register marks.</li>
+<li><code>ColophonReading.js</code> — Colophon [3/5] — reads a save file's own contents into a leaf specification.</li>
+<li><code>ColophonLeaf.js</code> — Colophon [4/5] — composes one LeafSpec into a drawn sheet: paper, chain lines, binding, the struck device, the imprint, the register of the company…</li>
+<li><code>Colophon.js</code> — Colophon [5/5] — replaces the save and load screens with a shelf of printed leaves, one per slot, each generated from what that save actually…</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Colophon works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suite and the in-engine verification both load the five files <strong>alphabetically</strong> — which puts the entry file <code>Colophon.js</code> <em>first</em>, before the four it draws and classifies with — and the in-engine run asserts all five resolved anyway. <code>Colophon.js</code> is the only one that touches the engine at all; the other four are a renderer, a corpus, a classifier and a compositor, and none of them knows RPG Maker exists.</p>
+<p><strong>Core methods REPLACED — 5 on <code>Scene_File</code>:</strong> <code>Scene_File.prototype.create</code>, <code>Scene_File.prototype.start</code>, <code>Scene_File.prototype.savefileId</code>, <code>Scene_File.prototype.isSavefileEnabled</code>, <code>Scene_File.prototype.activateListWindow</code>.</p>
+<p>That is deliberate and it is what you are buying — but be plain about what it means: <strong>Colophon will not co-exist with another plugin that also replaces Scene_File</strong>, and whichever loads last wins. The originals ARE saved, so the stock behaviour can be put back at any time. Everything else in your project is untouched.</p>
+
+<h3>What is in the package</h3>
+
+<p>Five plugin files, a Readme and a licence. Raw, readable, commented JavaScript — nothing is
+minified and nothing is obfuscated, and the reasoning behind the drawing is written down in the
+source, including the parts that were got wrong first.</p>
+
+<h3>Also from Core Systems Asset Factory</h3>
+
+<ul>
+<li><a href="https://csaf.itch.io/frontispiece">Frontispiece</a> — draws a title screen from your game's own data.</li>
+<li><a href="https://csaf.itch.io/escutcheon-mz">Escutcheon</a> — draws a party HUD that does not look like the engine.</li>
+<li><a href="https://csaf.itch.io/quires">Quires</a> — sets your books and letters as printed pages.</li>
+<li><a href="https://csaf.itch.io/barrow">Barrow</a> — carves a marker for every death the run records.</li>
+</ul>
+
+<p><em>Written with AI assistance: code and graphics. No audio. No narrative text.</em></p>
