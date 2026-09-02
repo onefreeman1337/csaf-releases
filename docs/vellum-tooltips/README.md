@@ -1,3 +1,15 @@
+# Vellum (illuminated item tooltip cards) — Documentation
+
+_Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
+
+
+**Product:** Vellum (illuminated item tooltip cards)  
+**Engine:** Unity 6  
+**Docs published:** 2026-09-02
+
+
+---
+
 # Vellum — illuminated item cards, drawn from your own item data
 
 **Every item in your game draws its own card.** Not eight frames repeated across five hundred
@@ -176,3 +188,10 @@ Documentation and contact:
 ---
 
 *Code and graphics in this package are AI-generated. Copyright (c) 2026 Core Systems Asset Factory.*
+
+
+---
+
+## Support
+
+Questions or a problem with this product? Open an issue on the release repository and we will answer.
