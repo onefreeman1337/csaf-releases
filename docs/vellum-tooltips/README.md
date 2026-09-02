@@ -1,15 +1,3 @@
-# Vellum (illuminated item tooltip cards) — Documentation
-
-_Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
-
-
-**Product:** Vellum (illuminated item tooltip cards)  
-**Engine:** Unity 6  
-**Docs published:** 2026-09-02
-
-
----
-
 # Vellum — illuminated item cards, drawn from your own item data
 
 **Every item in your game draws its own card.** Not eight frames repeated across five hundred
@@ -122,20 +110,23 @@ Every mark is a signed-distance field evaluated per pixel, which is exactly why 
 and why 500 items cost no import time — but it means a card is something you compose **ahead of the
 moment you need it**, never on hover and never in a frame.
 
-Measured, not estimated — Unity 6000.5.7f1, batch mode, on a busy workstation:
+Measured, not estimated — Unity 6000.5.7f1, batch mode, **two full runs of the same test on the
+same machine**, so you get the spread rather than one lucky number:
 
 | card size | pixels | per card |
 | --- | --- | --- |
-| 256x364 | 93 k | ~3.1 s |
-| 300x420 | 126 k | ~4.3 s |
-| 420x596 | 250 k | ~7.4 s |
-| 600x852 | 511 k | ~29 s |
+| 256x364 | 93 k | 3.1 - 3.8 s |
+| 300x420 | 126 k | 4.3 - 4.7 s |
+| 420x596 | 250 k | 7.4 - 10.2 s |
+| 600x852 | 511 k | 29 - 39 s |
 
-Cost is proportional to the pixel count (about 30-35 microseconds per thousand pixels here), so
-**halving the card's width quarters the work.** An idle machine is faster than these figures and a
-loaded one is slower; `CardComposer.Profile = true` prints the per-phase timings on your hardware,
-and the demo scene prints its own compose time on every card it draws. Take your own number from
-those rather than ours.
+Cost tracks the pixel count — **30 to 77 microseconds per thousand pixels** across both runs and all
+four sizes — so **halving the card's width roughly quarters the work.** That is a wide band on
+purpose, because it is honest: the two runs used identical code and identical package bytes and
+still differed by up to **37%**, purely on how busy the machine was. Read the table as an order of
+magnitude rather than a specification. `CardComposer.Profile = true` prints the per-phase timings on
+your hardware, and the demo scene prints its own compose time on every card it draws.
+**Take your own number from those rather than ours.**
 
 **So the integration that works:**
 
@@ -180,15 +171,8 @@ the output is a `Texture2D`, so it works on Built-in, URP and HDRP alike.
 ## Support
 
 Documentation and contact:
-<https://github.com/onefreeman1337/csaf-releases/blob/main/docs/vellum/README.md>
+<https://github.com/onefreeman1337/csaf-releases/blob/main/docs/vellum-tooltips/README.md>
 
 ---
 
 *Code and graphics in this package are AI-generated. Copyright (c) 2026 Core Systems Asset Factory.*
-
-
----
-
-## Support
-
-Questions or a problem with this product? Open an issue on the release repository and we will answer.
