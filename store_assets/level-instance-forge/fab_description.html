@@ -1,0 +1,43 @@
+<h2>First-time test (2 minutes)</h2>
+<p><strong>This plugin has no editor panel.</strong> It is a headless commandlet: you run one command, and it writes a self-contained HTML page you open in a browser. The interface shown in the screenshots is that written page &mdash; the proof sheet the tool produces &mdash; not a window inside the editor. There is nothing to dock and no menu item to find.</p>
+<p>Copy the plugin folder into <code>YourProject/Plugins/</code>, restart the editor once so it builds, then run:</p>
+<p><code>UnrealEditor-Cmd.exe "C:\path\to\YourProject.uproject" -run=LevelInstanceForge -Scan -Paths=/Game/Maps</code></p>
+<p>That is a report. It opens every map under the paths you name, decides every cluster, and writes <strong>nothing</strong>. It leaves one file in <code>YourProject/Saved/LevelInstanceForge/</code>:</p>
+<p><code>LevelInstanceForge_&lt;timestamp&gt;.html</code> &mdash; open it in any browser. Every repeated arrangement, ranked by how many actors converting it would remove, each member's offset, rotation and scale, and every cluster the tool declined to touch with the reason written out in a sentence.</p>
+<p>When you agree with the sheet, add two switches to write it:</p>
+<p><code>UnrealEditor-Cmd.exe "C:\path\to\YourProject.uproject" -run=LevelInstanceForge -Forge -Apply</code></p>
+<p><code>-Apply</code> is a separate switch deliberately, so no single mistyped flag can change your project: <code>-Forge</code> on its own still previews. An applied run writes a JSON journal <em>before</em> the first package is saved, and that journal is what undoes it:</p>
+<p><code>UnrealEditor-Cmd.exe "C:\path\to\YourProject.uproject" -run=LevelInstanceForge -Revert=Saved/LevelInstanceForge/LevelInstanceForge_&lt;timestamp&gt;.json</code></p>
+<p>The same three operations are available from the editor console as <code>LevelInstanceForge.Run -Scan</code> if you prefer. Run with no mode for the full switch list.</p>
+<p><strong>Renderer and materials:</strong> the commandlet does not need a renderer and runs headless on a build agent. It does not modify materials, shaders or any rendering setting; it moves existing actors into a Level Instance asset and leaves every material assignment exactly as it found it.</p>
+
+<h2>What it is for</h2>
+<p><strong>Your levels repeat the same arrangement of actors dozens of times, and Unreal cannot convert them in bulk.</strong></p>
+<p>The same lamp post, base and two bollards, hand-placed forty-seven times across six maps. The Level Instance is the engine's own answer to this: one source map holding the arrangement once, referenced by cheap actors wherever it appears. Converting to it is the right fix.</p>
+<p>Converting in bulk is not currently possible. Epic's <code>ULevelInstanceSubsystem::CreateLevelInstanceFrom</code> sets <code>bUseSaveAs</code> unconditionally, which routes it through <code>SaveLevelAs</code> rather than the silent save that accepts a filename &mdash; and that ends in a modal Save-As dialog, inside a retry loop, once per cluster. The package name the caller supplies is ignored. Epic filed this as UE-309562 and it remains open in 5.8.</p>
+<p>Level Instance Forge does the part the engine leaves to you, and then performs the conversion itself, headlessly.</p>
+
+<h2>Getting Started</h2>
+<p><strong>Features:</strong></p>
+<p><strong>It finds the repeats.</strong> Not repeated meshes &mdash; repeated arrangements. The same objects, in the same relative positions, at the same relative angles, wherever they appear across every map you name.</p>
+<p><strong>It proves two arrangements are the same one.</strong> Each cluster is expressed relative to an anchor chosen by an ordering that is invariant under any rigid transform, so a cluster rotated ninety degrees and placed in a different map produces a byte-identical signature to the original. That invariant is the product, and an automation test in the shipped source asserts it directly.</p>
+<p><strong>It does not trust its own hash.</strong> A matching signature is a candidate, never a verdict. Candidates are confirmed against real position, rotation and scale tolerances, and a bucket whose members merely quantise alike is split rather than merged. Rotations are compared as the angle between quaternions rather than component-wise, because two identical rotations can differ in every Euler value.</p>
+<p><strong>Then it converts.</strong> It creates the source map, replaces every occurrence with a single Level Instance, and saves &mdash; with no dialogs.</p>
+<p><strong>It refuses when it cannot be certain.</strong> A wrong conversion deletes hand-placed art with the originals already gone, so anything it cannot prove identical is reported and left exactly as it was: actors attached to something outside their cluster, clusters whose anchor is non-uniformly scaled, symmetric rings where too many members tie for the anchor, and clusters over the size cap. Two arrangements that differ only by a material override are different arrangements and never merge; the report shows the material each member carries, so the distinction is visible rather than implied.</p>
+<p><strong>Nothing is written without <code>-Apply</code></strong>, and the undo journal is on disk before the first package is saved, so <code>-Revert</code> restores every actor with its mesh, materials and transform.</p>
+<p><strong>Stable exit codes, for CI.</strong> 0 ok, 1 bad arguments, 2 the scan could not read the project, 3 forge incomplete, 4 revert incomplete. Exit 2 is never "your project is clean" &mdash; a clean project exits 0 with an empty sheet.</p>
+
+<h2>Technical Information</h2>
+<p><strong>Code Modules:</strong></p>
+<p>LevelInstanceForge (Editor)</p>
+<p><strong>Number of Blueprints:</strong> 0</p>
+<p><strong>Number of C++ Classes:</strong> 1 UCLASS commandlet plus 8 plain C++ headers (arguments, scanning, clustering, forging, journal, report, run, types)</p>
+<p><strong>Network Replicated:</strong> No</p>
+<p><strong>Supported Development Platforms:</strong> Windows</p>
+<p><strong>Supported Target Build Platforms:</strong> Win64</p>
+<p><strong>Engine Version:</strong> Built and verified against Unreal Engine 5.8 on Windows. That is the only engine it was gated on and the only version claimed.</p>
+<p><strong>Editor only:</strong> Yes. The module is Type Editor and ships nothing into a packaged game.</p>
+<p><strong>Third party software:</strong> Does not include third party software. Every dependency is an Epic engine module.</p>
+<p><strong>World Partition:</strong> Ordinary levels and World Partition maps are both handled; partitioned maps store each actor in its own package and those are gathered through the asset registry's external-actor folders, so there is no separate mode to select.</p>
+<p><strong>Documentation:</strong> Full documentation, including the argument reference, the exit-code table and a worked three-step example: <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/level-instance-forge/README.md">https://github.com/onefreeman1337/csaf-releases/blob/main/docs/level-instance-forge/README.md</a></p>
+<p><strong>Important / Additional Notes:</strong> The plugin is distributed as raw C++ source with no precompiled binaries, so it builds against your engine installation on first editor start. AI was used in the creation of this product: code and graphics.</p>
