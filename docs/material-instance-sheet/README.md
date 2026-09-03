@@ -133,7 +133,7 @@ collection, runtime virtual texture, sparse volume texture and static switch —
 | `-Parent=/Game/M/M_Prop` | Only instances whose parent path contains this. Use it to get a sheet where every row shares one parameter set and no cell is structurally blank. |
 | `-Sheet=<file>` | The CSV. Required for `-Import`. |
 | `-Journal=<file>` | The undo journal. Written by `-Import`, read by `-Revert`. |
-| `-Report=<file>` | The HTML sheet. Defaults beside the CSV. |
+| `-Report=<file>` | The HTML report. Defaults to `<YourProject>/Saved/MaterialInstanceSheet/`, and the absolute path is printed in the run summary. |
 | `-Apply` | Actually write. **Nothing is written without it.** |
 | `-FailOnDrift` | Exit 4 when an import dry run finds the project and the sheet disagree. This is the CI gate. |
 | `-OverriddenOnly` | Export only columns at least one instance overrides. |
@@ -158,6 +158,11 @@ refusing to write without a way back, not a partial failure — and it is report
 than narrated in a log line above a green exit code.
 
 ### Using it as a build gate
+
+**Rows come out sorted by parent, then by asset path, every time.** That is a deliberate promise
+rather than an accident of how the assets happen to be indexed: a sheet that lives in source control
+has to produce a diff a human can read, and a sheet ordered by the asset registry reshuffles itself
+whenever packages are re-saved, so a one-value change would arrive as forty moved lines.
 
 Commit the sheet next to your content. Then a CI step that runs the import with `-FailOnDrift` and
 no `-Apply` fails the build the moment somebody hand-edits a material instance away from the
@@ -217,8 +222,8 @@ an edit: both sides of the comparison are normalised before anything is called a
   the set you named. Parameter overrides are not registry tags, so the values genuinely have to be
   read from the assets; the report prints how many were found against how many were read.
 - On `-Apply` it writes only the parameters that differ, then runs the engine's own post-edit
-  sequence (`PreEditChange` / `PostEditChange` / `UpdateStaticPermutation` / `UpdateParameterNames`)
-  so the change propagates down the instance chain, and saves the packages.
+  sequence (`PreEditChange` / `PostEditChange` / `UpdateStaticPermutation`) so the change propagates
+  down the instance chain, and saves the packages.
 - It never edits a parent Material, never creates or deletes an asset, and never touches an
   instance that is not named in the sheet.
 
