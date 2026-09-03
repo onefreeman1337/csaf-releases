@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Niagara Bounds Solver  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-08-31
+**Docs published:** 2026-09-03
 
 
 ---
@@ -116,8 +116,13 @@ Then open the HTML sheet it names in the log, under `<YourProject>/Saved/Niagara
 **As a commandlet**, for a build step:
 
 ```
-UnrealEditor-Cmd.exe "YourProject.uproject" -run=NiagaraBoundsSolver -Path=/Game/Effects -Apply
+UnrealEditor-Cmd.exe "YourProject.uproject" -run=NBS -Path=/Game/Effects -Apply
 ```
+
+> ⚠️ **The switch is `-run=NBS`, not `-run=NiagaraBoundsSolver`.** Unreal resolves `-run=X` to a
+> class named `XCommandlet`, and this plugin's commandlet class is `UNBSCommandlet`. Releases before
+> 2026-09-03 printed the longer spelling here, which cannot start. If you scripted it that way,
+> change it to `-run=NBS`; nothing else about the command line changes.
 
 > ⚠️ **The commandlet cannot measure GPU systems, and it says so rather than guessing.** Reading GPU
 > particle counts back needs a live RHI. Under a commandlet those systems are reported as skipped
