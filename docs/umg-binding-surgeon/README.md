@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** UMG Binding Surgeon  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-08-22
+**Docs published:** 2026-09-03
 
 
 ---
@@ -158,6 +158,7 @@ Puts every rewrite back exactly, including the original `MemberGuid`.
 | `-Revert=<file.json>` | undo a manifest |
 | `-LoadAll` | load every Widget Blueprint instead of trusting registry tags |
 | `-Verbose` | print every binding with its tier and, when refused, its reason |
+| `-help` | print this switch list and exit without scanning. `-h` does the same |
 
 ### Exit codes, because a CI job branches on them
 
