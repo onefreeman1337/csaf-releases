@@ -1,0 +1,31 @@
+<h3>Forty material instances, one spreadsheet</h3>
+<p>Unreal has no way to edit Material Instance parameters in bulk, and that is not an oversight. The Content Browser's own code removes the <strong>Property Matrix</strong> entry the moment a Material Instance is in the selection — <code>AssetFileContextMenu.cpp</code> clears <code>bCanUsePropertyMatrix</code>, under a comment saying materials cannot be bulk edited because of their dependencies with the rendering thread.</p>
+<p>So retuning a family of forty variants means opening forty assets.</p>
+<p><strong>Material Instance Sheet exports every parameter override across a folder or a material family into one CSV.</strong> One row per instance, one column per parameter, plus a reference row per parent carrying the defaults the instances inherit. Drag a Roughness column across forty rows in a spreadsheet, save, and import it back.</p>
+<h3>The round trip is the product</h3>
+<p>The export is the easy half and it is the half other tools stop at. This one writes back:</p>
+<ul><li><strong>A dry run by default.</strong> Nothing is written without <code>-Apply</code>.</li><li><strong>An undo journal written BEFORE the first package is touched.</strong> A journal written afterwards does not exist during the window where it is needed. <code>-Revert</code> replays it, and a revert gets its own journal, so a revert can itself be reverted.</li><li><strong>Every value read back out of the asset after writing.</strong> A setter that returns void has told you nothing. Anything that does not read back is reported as a failure, not counted as a success.</li><li><strong>A blank cell means inherit.</strong> Clearing a cell REMOVES the override rather than writing a zero — which is a thing the engine's own UI makes genuinely tedious one asset at a time.</li></ul>
+<h3>It refuses rather than guessing</h3>
+<p>This is the part worth reading, because it is where a bulk tool either protects you or ruins an afternoon. <strong>Every one of these refuses the whole run. Nothing is written, including the rows that were fine.</strong></p>
+<table><thead><tr><th>It refuses</th><th>Because</th></tr></thead><tbody><tr><td>A column header it cannot parse</td><td>An ignored column is a parameter silently left out of a write you believe you made</td></tr><tr><td>A value that is not a number, or a switch that is not <code>true</code>/<code>false</code></td><td>Writing 0 for <code>abc</code> is inventing an intention</td></tr><tr><td>A value for a parameter the material does not have</td><td>Usually a row pasted under the wrong parent</td></tr><tr><td>A vector with two channels filled and two blank</td><td>An instance stores one colour per vector parameter, not four independently overridable floats</td></tr><tr><td>A row with the wrong number of fields</td><td>A deleted comma would otherwise shift every cell left and clear every override to its right</td></tr><tr><td>Two columns for the same parameter</td><td>They cannot both be right, so neither is used</td></tr></tbody></table>
+<p>A sheet that is wrong somewhere is not a sheet you want half of.</p>
+<h3>The CSV is a real CSV</h3>
+<p>RFC 4180, quoted fields, doubled quotes, embedded newlines, and UTF-8 with a BOM so Excel does not mangle a non-ASCII parameter name. The reader is a state machine rather than a split on commas, because a parameter name containing a comma would otherwise shift every cell in that row one to the left — one parameter's value written into a different parameter, which is exactly the silent corruption this tool exists to prevent.</p>
+<p>Numbers round-trip exactly. <code>0.40</code> and <code>0.4</code> are the same value and do not read as an edit; a parameter value of <code>1e-8</code> does not export as <code>0</code>.</p>
+<h3>It is a CI gate as well as a tool</h3>
+<p>Commit the sheet next to your content and run the import with <code>-FailOnDrift</code> and no <code>-Apply</code>. It exits 4 the moment somebody hand-edits a material instance away from the agreed values, and the HTML report names the asset, the parameter, and both values. Six documented exit codes, each one a distinct thing a build step can act on.</p>
+<h3>The report</h3>
+<p>Every run writes a designed HTML report into your project's <code>Saved/MaterialInstanceSheet/</code>, and prints the absolute path in its summary. On an import it shows every change with colour swatches for vector parameters and a before/after for everything else. On an export it shows <strong>which parameters the family actually varies</strong> — so a value every instance inherits shows up as a change to make once on the parent instead of forty times, and a parameter no instance agrees with the parent about tells you the parent's default is wrong.</p>
+<h3>What it does not carry, said out loud</h3>
+<p>A Material Instance can also override <strong>static component mask</strong> and <strong>terrain layer weight</strong> parameters. This sheet models neither, and rather than let you discover that, an export refuses and names the instance and the count. An import does not refuse over them and does not disturb them.</p>
+<p>Everything else a Material Instance can override — scalar, vector, double vector, texture, texture collection, runtime virtual texture, sparse volume texture and static switch — is in the sheet.</p>
+<h3>Runs headless or from the editor</h3>
+<pre><code>UnrealEditor-Cmd.exe Project.uproject -run=MaterialInstanceSheet -Export -Paths=/Game/Materials
+UnrealEditor-Cmd.exe Project.uproject -run=MaterialInstanceSheet -Import -Sheet=props.csv -FailOnDrift
+UnrealEditor-Cmd.exe Project.uproject -run=MaterialInstanceSheet -Import -Sheet=props.csv -Apply</code></pre>
+<p>Or <code>MaterialSheet.Run -Export -Paths=/Game/Materials</code> from the editor console.</p>
+<h3>Compatibility</h3>
+<p><strong>Unreal Engine 5.8, Windows 64-bit. Editor-only plugin, C++ source included, no content.</strong> No other engine version has been tested, so no other version is claimed.</p>
+<hr>
+<p><em>AI disclosure: code — yes. Graphics — yes. Sounds — no. Text &amp; dialog — no.</em></p>
+<p><em>Made by Core Systems Asset Factory.</em></p>
