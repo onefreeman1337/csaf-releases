@@ -1,0 +1,83 @@
+<p><strong>Your NPCs have jobs. They do not have workplaces.</strong> A routine plugin walks a smith
+to the corner of the map at 8am, and he stands on bare grass turning in random directions. The
+tileset has no anvil, so the smithy is a decorative sprite you placed by hand — if you placed one at
+all.</p>
+
+<p><strong>Journeywork draws the workplace, from the trade.</strong> Put
+<code>&lt;journeywork: smith&gt;</code> in an event's note box and that NPC gets an anvil on a tree
+stump, a lit hearth, a rack of stock bar, a quench tub and a stack of crates, standing on a floor of
+cinders and ash — arranged by a solver that measures every prop, sorted into the tilemap at the right
+depth, and facing the work instead of turning at random.</p>
+
+<p><strong>No image files. No tileset pages to import. Nothing to configure.</strong> Every anvil,
+loom, kiln, quern, mash tun and drying rack in this plugin is drawn in code at your project's own
+tile size.</p>
+
+<h3>Twenty-four trades, and no two share a layout</h3>
+
+<p>apothecary · baker · bowyer · brewer · butcher · carpenter · chandler · charcoaler · cobbler ·
+cooper · dyer · fishwife · fletcher · glassblower · grocer · mason · miller · potter · ropemaker ·
+salter · scribe · smith · tanner · weaver</p>
+
+<p>A trade names a <strong>station</strong> — the thing the worker stands at — and its satellites by
+<strong>ROLE</strong> rather than by coordinate: <code>behind</code>, <code>behind-left</code>,
+<code>behind-right</code>, <code>beside-left</code>, <code>beside-right</code>, <code>fore-left</code>,
+<code>fore-right</code>, <code>onStation</code>, <code>overhead</code>. The solver turns those into
+pixels, and it <em>measures</em> each prop by drawing it and scanning its alpha, so the ground patch
+is the union of what the props really draw rather than of where they are anchored. Change your tile
+size and everything re-solves.</p>
+
+<h3>The floor is evidence of the work</h3>
+
+<p>Eight generated worked grounds, keyed to the trade: ash under a forge, spilled flour in a
+bakehouse, wet clay in a pottery, churned mud in a tannery, planking under a fish stall, swept flags
+in a scriptorium, thread-strewn boards in a weaving shed, sand outside an apothecary. It is the single
+thing that makes a group of props read as a <em>place</em> somebody uses rather than as furniture
+that happens to be near each other.</p>
+
+<h3>The worker faces the work</h3>
+
+<p>A trade that works a station stands at it. A trade that serves a customer stands behind the counter
+facing out. Both are derived from the furniture, not guessed — and the worker <strong>stays at the
+work</strong> instead of drifting off and turning on the spot.</p>
+
+<h3>One prop, many trades</h3>
+
+<p>A trade can change what a prop <em>contains</em>: the same vat is a tanning pit, a dyer's woad vat
+and a brewer's mash tun by its liquor. That is what keeps a whole town in one visual vocabulary
+instead of twenty-four unrelated pictures.</p>
+
+<h3>What it costs your game</h3>
+
+<p>Each workplace is painted <strong>once</strong>, when the map loads. Measured in the real MZ
+runtime: <strong>11 draw calls per frame against a ceiling of 60, 0 texture uploads, 0
+display-object growth</strong>, with the update half at 0.124 ms against a 2 ms budget. Nothing is
+redrawn, nothing is uploaded, and the per-frame path allocates nothing at all. A mistyped trade id
+draws nothing and reports nothing — it can never crash your game.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>JourneyworkForms.js</code> — Journeywork [2/5] — the primitive form vocabulary every prop is composed from. Data and drawing only; knows nothing about RPG Maker.</li>
+<li><code>JourneyworkCorpus.js</code> — Journeywork [1/5] — the authored trades. What each workplace is made of, and where the worker stands. Data only.</li>
+<li><code>JourneyworkShop.js</code> — Journeywork [3/5] — the props. Every workplace object, composed from the form vocabulary. Knows nothing about RPG Maker.</li>
+<li><code>JourneyworkPlace.js</code> — Journeywork [4/5] — the layout solver. Turns a trade's station and roles into placed props, a footprint, and the tile the worker stands on.</li>
+<li><code>Journeywork.js</code> — Journeywork [5/5] — draws a real workplace around every working NPC, and points them at the work. The only file that touches the engine.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Journeywork works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suite, the store-plate renderer and the in-engine verification all load the five files <strong>alphabetically</strong> — which puts the entry file <code>Journeywork.js</code> <em>first</em>, before the four it reads, solves and draws with — and the in-engine run asserts all five resolved anyway. <code>Journeywork.js</code> is the only one that touches RPG Maker at all; the other four are a form vocabulary, an authored corpus of trades, a set of props and a layout solver, and none of them knows the engine exists. Switch <code>Journeywork.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — all 5 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Map.prototype.setup</code>, <code>Game_Event.prototype.updateSelfMovement</code>, <code>Spriteset_Map.prototype.createCharacters</code>, <code>Spriteset_Map.prototype.update</code>, <code>Spriteset_Map.prototype.destroy</code>.</p>
+<p>Because nothing is clobbered, Journeywork co-exists with other plugins that patch the same seams, including large suites.</p>
+
+
+<h3>Also from Core Systems Asset Factory</h3>
+<ul>
+<li><a href="https://csaf.itch.io/township">Township</a> gives those NPCs somewhere to BE at each hour. Journeywork gives them something to be doing when they get there.</li>
+<li><a href="https://csaf.itch.io/bazaar-core">Bazaar Core</a> prices what the trades in your town actually make.</li>
+<li><a href="https://csaf.itch.io/cartouche">Cartouche</a> draws each of them a message box built from who they are.</li>
+</ul>
+
+<h3>AI disclosure</h3>
+<p>Code: <strong>yes</strong>. Graphics: <strong>yes</strong>. Sounds: <strong>no</strong> — this
+product ships no audio. Text and dialog: <strong>no</strong> — it ships no in-game narrative.</p>
