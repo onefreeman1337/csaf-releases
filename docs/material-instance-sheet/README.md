@@ -1,0 +1,216 @@
+# Material Instance Sheet — Documentation
+
+_Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
+
+
+**Product:** Material Instance Sheet  
+**Engine:** Unreal Engine 5  
+**Docs published:** 2026-09-03
+
+
+---
+
+# Material Instance Sheet
+
+**Every Material Instance parameter override in a folder, in one spreadsheet, and back again.**
+
+Unreal Engine 5.8 · Editor plugin · Windows 64-bit
+
+---
+
+## Why this exists
+
+Unreal has one generic bulk editor, the Property Matrix, and it is switched off for Material
+Instances on purpose. In UE 5.8 the Content Browser builds its "Edit Selection in Property Matrix"
+entry behind a flag, then clears that flag if any selected asset is a `UMaterialInstanceConstant`,
+`UMaterialFunction` or `UMaterialFunctionInstance`, under this comment:
+
+> *"Materials can't be bulk edited currently as they require very special handling because of their
+> dependencies with the rendering thread, and we'd have to hack the property matrix too much."*
+>
+> — `ContentBrowserAssetDataSource/Private/AssetFileContextMenu.cpp`, UE 5.8
+
+There is a second reason it could not work anyway. A Material Instance does not store `Roughness`
+as a property. It stores `ScalarParameterValues`, an array of structs, and the parameter's NAME is
+a field *inside* an element. A property grid keys array elements by index, so a column could only
+ever be `ScalarParameterValues[0]` — and index 0 is a different parameter on different instances.
+
+So retuning a family of forty material instances means opening forty assets.
+
+This plugin makes that one CSV.
+
+---
+
+## The round trip
+
+**Export.** One row per Material Instance, one column per parameter.
+
+```
+UnrealEditor-Cmd.exe MyProject.uproject -run=MaterialInstanceSheet -Export
+    -Paths=/Game/Materials -Sheet=D:/sheets/props.csv
+```
+
+```
+Asset,Parent,Kind,Scalar:Roughness,Vector.R:Tint,Vector.G:Tint,...,Switch:UseDetail
+/Game/M/M_Prop.M_Prop,,PARENT_DEFAULTS,0.5,1,1,...,false
+/Game/M/MI_Crate.MI_Crate,/Game/M/M_Prop.M_Prop,INSTANCE,0.4,,,...,true
+/Game/M/MI_Barrel.MI_Barrel,/Game/M/M_Prop.M_Prop,INSTANCE,,,,...,
+```
+
+**A blank cell means the instance inherits that value from its parent.** A filled cell is an
+override. The `PARENT_DEFAULTS` rows show you what the blanks resolve to; they are reference only
+and the import ignores them.
+
+**Edit it.** Drag a column across forty rows in Excel, Google Sheets or LibreOffice. Delete a cell
+to remove an override and go back to inheriting.
+
+**Import.** Without `-Apply` this writes nothing and tells you exactly what would change:
+
+```
+UnrealEditor-Cmd.exe MyProject.uproject -run=MaterialInstanceSheet -Import
+    -Sheet=D:/sheets/props.csv
+UnrealEditor-Cmd.exe MyProject.uproject -run=MaterialInstanceSheet -Import
+    -Sheet=D:/sheets/props.csv -Apply
+```
+
+**Undo.** `-Apply` writes a JSON journal *before* the first package is touched.
+
+```
+UnrealEditor-Cmd.exe MyProject.uproject -run=MaterialInstanceSheet -Revert
+    -Journal=.../MaterialInstanceSheet_20260902_211500.journal.json -Apply
+```
+
+From inside the editor, the same switches on a console command:
+
+```
+MaterialSheet.Run -Export -Paths=/Game/Materials
+```
+
+---
+
+## What it will not do
+
+This is the part worth reading, because it is where a bulk tool either protects you or ruins an
+afternoon. **Every one of these refuses the whole run. Nothing is written, including the rows that
+were fine.**
+
+| It refuses | Because |
+| --- | --- |
+| A column header it cannot parse | An ignored column is a parameter silently left out of a write you believe you made |
+| A value that is not a number, or a switch that is not `true`/`false` | Writing 0 for `abc` is inventing an intention |
+| A value for a parameter the material does not have | Usually a row pasted under the wrong parent |
+| An edited `ro.` column (font, parameter collection) | A font parameter is an asset *and* a page; one cell cannot carry both safely |
+| A vector with some channels filled and some blank | An instance stores one colour per vector parameter, not four independently overridable floats |
+| A row with the wrong number of fields | A deleted comma would otherwise shift every cell left and clear every override to its right |
+| Two columns for the same parameter | They cannot both be right, so neither is used |
+
+And after writing, every value is **read back out of the asset**. Anything that does not read back
+is reported as a failure, not counted as a success.
+
+---
+
+## Switches
+
+| | |
+| --- | --- |
+| `-Export` / `-Import` / `-Revert` | The mode. `-Export` is the default. |
+| `-Paths=/Game/A,/Game/B` | Content roots to export. Default `/Game`. |
+| `-Parent=/Game/M/M_Prop` | Only instances whose parent path contains this. Use it to get a sheet where every row shares one parameter set and no cell is structurally blank. |
+| `-Sheet=<file>` | The CSV. Required for `-Import`. |
+| `-Journal=<file>` | The undo journal. Written by `-Import`, read by `-Revert`. |
+| `-Report=<file>` | The HTML sheet. Defaults beside the CSV. |
+| `-Apply` | Actually write. **Nothing is written without it.** |
+| `-FailOnDrift` | Exit 4 when an import dry run finds the project and the sheet disagree. This is the CI gate. |
+| `-OverriddenOnly` | Export only columns at least one instance overrides. |
+| `-NoDefaults` | Leave out the `PARENT_DEFAULTS` reference rows. |
+| `-Help` | The switch list. |
+
+## Exit codes
+
+| | |
+| --- | --- |
+| 0 | Success |
+| 2 | Bad arguments |
+| 3 | Refused. On an import **nothing was written**. On an export the sheet was written but is incomplete, and the report names what is missing |
+| 4 | Drift: `-FailOnDrift`, and the project does not match the sheet |
+| 5 | Something was written and did not read back. The undo journal is on disk |
+| 6 | Could not read or write a file |
+
+### Using it as a build gate
+
+Commit the sheet next to your content. Then a CI step that runs the import with `-FailOnDrift` and
+no `-Apply` fails the build the moment somebody hand-edits a material instance away from the
+agreed values, and the HTML report names the asset, the parameter and both values.
+
+---
+
+## The column grammar
+
+```
+[ro.]<Type>[.<Channel>][@L<n>|@B<n>]:<ParameterName>
+```
+
+| Example | Means |
+| --- | --- |
+| `Scalar:Roughness` | A global scalar |
+| `Vector.G:Tint` | The green channel of a global vector. A vector is four columns |
+| `DoubleVector.X:Origin` | The X channel of a double vector |
+| `Texture:Albedo` | A texture. The cell is an object path, or `None` for an explicit null override |
+| `Switch:UseDetail` | A static switch |
+| `Scalar@L1:Roughness` | The same scalar inside material layer 1. `@B` is a blend parameter |
+| `ro.Font:LabelFont` | Read-only. Exported so the sheet is complete, refused on import |
+
+The parameter name is everything after the **first** colon, so a name may contain dots, spaces and
+`@`. A parameter whose name contains a colon is refused by name at export rather than written as a
+header that could not be read back.
+
+**Types carried:** scalar, vector, double vector, texture, texture collection, runtime virtual
+texture, sparse volume texture, static switch — all writable. Font and material parameter
+collection are exported read-only. Static component masks are not carried.
+
+**Numbers** are written in the shortest form that reads back as the same value, so `0.4` stays
+`0.4` and a value of `1e-8` does not export as `0`. Typing `0.40` where the sheet said `0.4` is not
+an edit: both sides of the comparison are normalised before anything is called a change.
+
+---
+
+## What it touches
+
+- It reads asset **paths** through the asset registry and then loads only the Material Instances in
+  the set you named. Parameter overrides are not registry tags, so the values genuinely have to be
+  read from the assets; the report prints how many were found against how many were read.
+- On `-Apply` it writes only the parameters that differ, then runs the engine's own post-edit
+  sequence (`PreEditChange` / `PostEditChange` / `UpdateStaticPermutation` / `UpdateParameterNames`)
+  so the change propagates down the instance chain, and saves the packages.
+- It never edits a parent Material, never creates or deletes an asset, and never touches an
+  instance that is not named in the sheet.
+
+## Source control
+
+Packages are saved through the editor's own save path, which checks out under your source control
+provider the same way saving in the editor does. Run the dry run first, read the report, then
+`-Apply`.
+
+## Known behaviour worth stating plainly
+
+- In a project whose Blueprints or assets log load errors, an Unreal commandlet can return process
+  exit code 1 from a run that fully succeeded — the engine's error accounting, not this tool's. The
+  tool logs its **own** exit code as `exit code : N` on the last line of its summary; trust that
+  line over the process code if the two disagree, and read the HTML report.
+- Verified on Unreal Engine 5.8 on Windows 64-bit. No other engine version has been tested, so no
+  other version is claimed.
+
+---
+
+Made by **Core Systems Asset Factory**. Support: <https://csaf.itch.io>
+
+*AI disclosure: the code and the artwork in this product's store listing were produced with AI
+assistance. Every claim in this document was checked against the Unreal Engine 5.8 source tree or
+against a run of the tool.*
+
+
+---
+
+## Support
+
+Questions or a problem with this product? Open an issue on the release repository and we will answer.
