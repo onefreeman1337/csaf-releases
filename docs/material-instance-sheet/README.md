@@ -107,6 +107,21 @@ were fine.**
 And after writing, every value is **read back out of the asset**. Anything that does not read back
 is reported as a failure, not counted as a success.
 
+### What the sheet does not carry, said out loud
+
+A Material Instance can also override **static component mask** parameters and **terrain layer
+weight** parameters. This sheet models neither, and rather than leave that to be discovered, an
+**export** refuses (exit 3, "the sheet was written and is incomplete") and the report names the
+instance and the count. Edit those two in the Material Instance editor.
+
+An **import** does not refuse over them, because it never claimed to carry them and it does not
+disturb them — it writes the parameters the sheet names and leaves everything else exactly as it
+was. Refusing a whole import because the project contains a mask this tool never touches would be a
+false alarm, and a tool that cries wolf is a tool whose refusals stop being read.
+
+Everything else a Material Instance can override — scalar, vector, double vector, texture, texture
+collection, runtime virtual texture, sparse volume texture and static switch — is in the sheet.
+
 ---
 
 ## Switches
@@ -123,6 +138,7 @@ is reported as a failure, not counted as a success.
 | `-FailOnDrift` | Exit 4 when an import dry run finds the project and the sheet disagree. This is the CI gate. |
 | `-OverriddenOnly` | Export only columns at least one instance overrides. |
 | `-NoDefaults` | Leave out the `PARENT_DEFAULTS` reference rows. |
+| `-ExitOnFinish` | Exit the editor when the run finishes, returning the exit code from the table below. **Use this for any headless or CI run** — see below. |
 | `-Help` | The switch list. |
 
 ## Exit codes
@@ -134,13 +150,34 @@ is reported as a failure, not counted as a success.
 | 3 | Refused. On an import **nothing was written**. On an export the sheet was written but is incomplete, and the report names what is missing |
 | 4 | Drift: `-FailOnDrift`, and the project does not match the sheet |
 | 5 | Something was written and did not read back. The undo journal is on disk |
-| 6 | Could not read or write a file |
+| 6 | Could not read or write a file. This covers **three** distinct cases and all three mean the run did not do what it was asked: the sheet or journal could not be read; the undo journal could not be written, so not a single package was touched; or a package could not be saved, so the edits exist only in memory. None of them is a success and none of them returns 0 |
+
+The distinction in row 6 is deliberate and it is the one worth checking if you are wiring this into
+a build. A run whose journal could not be created has changed **nothing** — that is the tool
+refusing to write without a way back, not a partial failure — and it is reported as a failure rather
+than narrated in a log line above a green exit code.
 
 ### Using it as a build gate
 
 Commit the sheet next to your content. Then a CI step that runs the import with `-FailOnDrift` and
 no `-Apply` fails the build the moment somebody hand-edits a material instance away from the
 agreed values, and the HTML report names the asset, the parameter and both values.
+
+Run it headless with `-ExitOnFinish`, which exits the editor and returns the exit code from the
+table above, so your build agent can gate on it:
+
+```
+UnrealEditor-Cmd.exe YourProject.uproject -unattended -nosplash
+  -ExecCmds="MaterialSheet.Run -Import -Sheet=Sheets/materials.csv -FailOnDrift -ExitOnFinish"
+```
+
+**Without `-ExitOnFinish` the editor does the work, writes the sheet, and then keeps running** — on
+a build agent that is a hung job, not a failed one.
+
+⛔ **Do not reach for a trailing `,Quit` instead.** `Quit` is not an editor console command (the
+editor's is `QUIT_EDITOR`), so it does nothing and you get the same wedged agent, with the added
+problem that the run's exit code is thrown away. `-ExitOnFinish` is the supported way and it is the
+only one that returns the exit code.
 
 ---
 
