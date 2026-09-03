@@ -1,0 +1,70 @@
+<p><strong>Your game already records what happened. Gazette prints the newspaper.</strong></p>
+
+<p>Hand it the day's events &mdash; what happened, where, who did it, how much it mattered &mdash; and it composes a finished broadsheet. The biggest story becomes the lead under a struck headline. Its subject becomes a woodcut. The rest of the day fills the columns around it. The weather word becomes a device in the weather box. Advertisements fill the foot of the page, because a paper that carried no advertisements never existed.</p>
+
+<p>Day 12 and day 41 are two different papers, and you wrote neither of them.</p>
+
+<h3>Nothing on the page is a stored image</h3>
+
+<p>There is <strong>no PNG, no atlas, no sprite sheet, no shader and no material anywhere in this package</strong>. Every mark is drawn in code, at runtime or in the editor, from a corpus of <strong>74 hand-authored forms in thirteen families</strong> you can read and edit:</p>
+
+<ul>
+<li><strong>8 war cuts</strong> &mdash; battle, siege, duel, ambush, trophy, fleet, raid, surrender.</li>
+<li><strong>6 statecraft cuts</strong> &mdash; coronation, treaty, proclamation, trial, assembly, exile.</li>
+<li><strong>4 mourning cuts</strong> &mdash; funeral, grave, procession, lying-in-state.</li>
+<li><strong>6 ruin cuts</strong> &mdash; conflagration, flood, earthquake, storm, plague, famine.</li>
+<li><strong>5 trade cuts</strong> &mdash; market day, caravan, wharf, treasury, a price movement.</li>
+<li><strong>5 society cuts</strong> &mdash; marriage, birth, feast, contest, performance.</li>
+<li><strong>5 learning cuts</strong> &mdash; expedition, relic, laboratory, observation, a working.</li>
+<li><strong>4 public works</strong> and <strong>5 country cuts</strong> &mdash; a building raised, a bridge, a well, a road; harvest, portent, a creature sighted, a herd, a great tree.</li>
+<li><strong>6 advertisement blocks</strong>, <strong>8 weather glyphs</strong>, <strong>8 printer's ornaments</strong> and <strong>4 masthead devices</strong>.</li>
+</ul>
+
+<p>Every one of them is a C# function you can open, change, or copy to author your own.</p>
+
+<h3>It strikes its own type</h3>
+
+<p>The masthead, the headlines, the datelines, the bylines, the weather box, the advertisements and the folio are struck as real letterforms from a display face inside the package. <strong>No font asset, no TextMeshPro, no Text component anywhere on the page.</strong></p>
+
+<p>The body copy is deliberately different. A broadsheet column is about eight point type, which on a 1200 pixel page is four pixels of cap height &mdash; a grey line with noise on it. So the body is set as <strong>type texture</strong>: bars of the right length, in the right rhythm, with real word spacing, a paragraph indent and a short last line. The word lengths come from the real distribution of English word lengths, because uniform lengths produce a barcode, and a barcode is how a fake newspaper is spotted at a glance.</p>
+
+<p>That is the same division a nineteenth century compositor made: display type set by hand, body set on a machine. It reads correctly at arm's length and holds up when a player zooms into the headline.</p>
+
+<h3>A cut is a claim, so an unknown story gets none</h3>
+
+<p>Matching runs whole-word and case-insensitive in a fixed order: an explicit <strong>Kind</strong>, then your own <strong>Tags</strong>, then the words of the <strong>Report</strong>, then the <strong>Place</strong>. The first token that hits wins, which is why a report reading "the bridge burned as the fleet sailed" can be pinned to the one it is actually about.</p>
+
+<p>If nothing matches, the story sets as a headline and type with <strong>no cut at all</strong>. Every other choice on the page has a deterministic fallback; a story cut does not, on purpose. A picture is a claim about what happened, and a hashed fallback would print a siege over a story about a bridge.</p>
+
+<h3>Six presses, and the same log prints the same paper</h3>
+
+<p>Broadside, Frontier, Penny Press, Wartime, Tabloid and Samizdat each carry their own palette, paper and press wear, and the issue's heaviest story sets its tenor. Every derived choice hangs off a stable seed, so the same event log composes the same page every time your game runs &mdash; and a player screenshotting day 41 beside day 12 sees one paper, not two unrelated pictures.</p>
+
+<h3>What you write</h3>
+
+<p><strong>EventRecord</strong> and <strong>GazetteIssue</strong> are plain serialisable classes, deliberately the shape an event log already has. Fill them, then:</p>
+
+<p><strong>Texture2D page = GazettePage.Compose(issue, 1200, 1600);</strong></p>
+
+<p>Open the demo scene and press Play to see it composed from sample events, or open <strong>Window &rsaquo; CSAF &rsaquo; Gazette</strong>, edit any field, and watch the page recompose. The panel underneath tells you which of your own words selected each cut and which fell through. Export writes a PNG.</p>
+
+<h3>What it costs to print a sheet, measured</h3>
+
+<p>Gazette rasterises on the CPU, so <strong>a sheet takes seconds, not milliseconds</strong>. Measured by importing the package into a blank Unity 6000.5.7f1 project and composing the sample issue &mdash; the span across two runs: <strong>600&times;800 in 8.3&ndash;10.3 s</strong>, <strong>900&times;1200 in 18.0&ndash;21.3 s</strong>, <strong>1200&times;1600 in 23.0&ndash;27.8 s</strong>. The high figure is an observation and not a ceiling; a busier machine will take longer.</p>
+
+<p><strong>So do not compose a page on a frame a player is watching, and you do not have to.</strong> <code>GazettePage.Bake</code> touches no Unity object, so it runs on a worker thread &mdash; the demo scene ships doing exactly that, with the page appearing when it is ready. Or print the paper when the day ends and cache the texture. Either way the player opens a finished newspaper instantly. The full table and both patterns are in the Readme, and this is stated up front rather than left to be discovered after you buy.</p>
+
+<h3>The details that matter</h3>
+
+<ul>
+<li><strong>Unity 2022.3 LTS and newer</strong>, built and gated on 6000.5.7f1.</li>
+<li><strong>Every render pipeline.</strong> It rasterises on the CPU into a Texture2D and uses no shader, no material and no camera, so Built-in, URP, HDRP and a custom pipeline are all the same to it.</li>
+<li><strong>No third-party dependencies</strong>, no <strong>Resources/</strong> folder, and every script in a named platform-constrained asmdef.</li>
+<li><strong>No network calls of any kind.</strong> It writes a file only when you press Export and choose a path.</li>
+<li>Full readable source. Nothing obfuscated, minified or compiled away.</li>
+<li><strong>Ship the pages in your game freely</strong> &mdash; in the game, its store page, its trailer, its press kit. They are yours.</li>
+</ul>
+
+<h3>Disclosure</h3>
+
+<p>This tool's code and its store imagery were made with AI assistance, and that is declared on every storefront that asks. What it does <strong>not</strong> mean: no image model touched the artwork. Every mark is procedural C# in <strong>Runtime/Mark/</strong>, there is no diffusion model anywhere in the art path, and the tool generates identical output with no network connection at all.</p>
