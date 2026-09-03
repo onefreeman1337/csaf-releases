@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Material Sprawl Collapser  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-08-21
+**Docs published:** 2026-09-03
 
 
 ---
@@ -115,6 +115,7 @@ UnrealEditor-Cmd.exe <YourProject.uproject> -run=MaterialCollapser [switches]
 | `-NoSave` | Do the work, leave the packages dirty and unsaved. |
 | `-StopOnFirstFailure` | Halt at the first group that fails. |
 | `-AllowStrictMaterialRefs` | Do **not** refuse a group whose member is held in a property declared `UMaterial`. Read the warning below first. |
+| `-help` | Print this switch list and exit without scanning. `-h` and `-?` do the same. |
 
 ### CI
 
