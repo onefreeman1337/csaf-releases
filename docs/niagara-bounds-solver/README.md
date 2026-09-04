@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Niagara Bounds Solver  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-09-03
+**Docs published:** 2026-09-04
 
 
 ---
@@ -111,7 +111,15 @@ Then open the HTML sheet it names in the log, under `<YourProject>/Saved/Niagara
 
 > ⛔ **Use `-ExitOnFinish`, never a trailing `,Quit`.** `Quit` is not an editor console command, so
 > an editor started with `,Quit` does the work, writes the report, and then sits there holding the
-> plugin binary. `-ExitOnFinish` ends the process *and* returns the exit code in section 7.
+> plugin binary. `-ExitOnFinish` ends the process, which is what keeps a build agent from wedging.
+>
+> ⚠️ **But it does not give you the exit code, so do not gate CI on this form — use the commandlet
+> below.** Measured on 5.8: this plugin asks the engine to exit with the section 7 code, and on
+> Windows a non-forced request becomes `PostQuitMessage`, which a headless editor does not return as
+> the process code. So the refusal is printed correctly and the process still exits **0**. A bad
+> `-Pad`, a relative `-Path` and an empty scan were all measured exiting 0 this way.
+> **The commandlet form returns the code properly** — an empty scan measured exit 2 — so that is the
+> one to put in a build step.
 
 **As a commandlet**, for a build step:
 
@@ -175,6 +183,12 @@ out which file it was.
 
 > **An empty scan is code 2, not code 0.** A CI step that passes because it looked at nothing is a
 > step that can never fail.
+
+⛔ **Read these codes from the commandlet (`-run=NBS`), not from the `-ExecCmds` console form.**
+Measured on 5.8: the commandlet returns them (an empty scan exits 2), and the console form exits 0
+whatever happens, because the engine does not turn a plugin's exit request into the process code in
+a headless editor. Section 4 has the detail. If you gate a build on the console form you get the
+step that can never fail, which is the thing this table exists to prevent.
 
 ---
 
