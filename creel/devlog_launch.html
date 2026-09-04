@@ -1,0 +1,29 @@
+<p>Creel is out. It draws the fish your fishing system already catches.</p>
+
+<p>Every fishing plugin on this store sells the catching. None of them draws the fish, because they take the fish's appearance as an input you supply: an icon, a sprite, something bought on the art shelf and wired in by hand. Creel is that missing half. It keeps whatever fishing system you already own and answers the one question that system leaves to you.</p>
+
+<h3>No image files</h3>
+
+<p>There is no PNG in the package, no sprite sheet and no atlas. Every fish is geometry composed at run time from its own data, so it is exact at any size and a new species costs one line instead of one drawing.</p>
+
+<h3>The silhouettes differ before the colours do</h3>
+
+<p>Twelve body plans times eight fin sets is 96 distinct silhouettes before a single colour is chosen. Ten marking systems and twelve liveries multiply on top without changing an outline, for 11,520 distinct specimens. That separation is the whole design: a project with sixty species gets sixty fish that differ in shape, not sixty recolours of one fish.</p>
+
+<p>Body plans are authored as envelope pairs, an independent top profile and bottom profile over one tail to snout axis. That is what lets a flat back sit over a keeled belly, and roughly half the corpus is that asymmetry. A single mirrored half height cannot express it and collapses six of these forms toward each other.</p>
+
+<h3>One line per fish</h3>
+
+<p>Tag an item and the species is named by the item. A bare tag derives all four axes from the item's own name, deterministically, so "Bog Lamprey" resolves to an eel and "Marsh Gar" to a pike. Tag a hundred items and get a hundred different fish without typing a single axis, then pin the ones you care about. A plugin parameter list with the same fields is there if you would rather keep species in one place, and both routes land in the same registry.</p>
+
+<p>An unrecognised key is ignored, and an unrecognised value skips that species rather than quietly substituting another, because a wrong fish that nothing reports is worse than no fish.</p>
+
+<h3>Measured in the engine, not just in tests</h3>
+
+<p>The update half runs at 0.014 ms mean and 0.1 ms p99 against budgets of 2 ms and 4 ms, at 2 draw calls per frame with zero texture uploads and zero display object growth. That mean is across three runs, and the gate reports its own run to run spread on the update half as 15.4 percent, which is the honest way to read any timing figure on a shared machine. The draw call and object counts are deterministic and do not move. A specimen is hundreds of path operations, so it is baked once into a cached bitmap keyed by species and size and then blitted. Nothing in the update loop allocates.</p>
+
+<p>It was verified by running the plugin in the real engine, 37 in engine assertions on top of the headless suite. The in engine run deliberately loads the files alphabetically, which is the worst order a buyer can create by dragging them into the Plugin Manager, because every file resolves its siblings at first use. Saves round trip losslessly including across a version bump, and the bake cache is held non enumerable so it never enters a save file.</p>
+
+<p>There is no stock windowskin anywhere in it. The frame, the typography, the wave rule and the specimen card are all drawn by the package, and the verification asserts zero engine windows drawn across ninety stepped frames.</p>
+
+<p><em>Disclosure: the code and artwork in this package are AI generated. It contains no third party audio or text.</em></p>
