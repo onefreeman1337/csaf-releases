@@ -1,0 +1,81 @@
+<!-- TITLE: A school is mostly thresholds — so 564 of this pack's 783 tiles are the joins -->
+
+<p>A school is not one room repeated. It is a sprung floor hall, a carpeted library, a dining hall,
+a corridor lined with lockers and display boards, four classrooms including a science lab, and a
+yard with an all weather pitch and poured wetpour. Nine surfaces, and the interesting part is never
+the middle of any of them.</p>
+
+<p>It is where they meet. Lino running out to a door sill. Carpet stopping at a threshold strip.
+Tarmac giving way to wetpour at the edge of the play area. Those joins are what a map is actually
+made of, and they are the part most packs leave out.</p>
+
+<h3>Twelve complete 47 mask sets, and the count is the point</h3>
+
+<p><strong>564 of the pack's 783 tiles are transitions. That is 72 percent.</strong> Twelve blob
+sets, each one complete: every inner corner, every outer corner, every edge, every junction and
+every single. Each set is enumerated over all 256 neighbourhoods rather than drawn from a list
+somebody typed, so "a transition is missing" is not a state the set can reach.</p>
+
+<p>This matters more than it sounds. A 47 mask set with 44 tiles looks finished in a sheet and
+breaks in your map, at the one corner you happen to paint on a Tuesday. Completeness is checked
+mechanically on every build, not eyeballed.</p>
+
+<p>Around them sit 40 fill tiles, 10 materials at 4 seamless variants each, and 42 objects across
+147 prop tiles, plus 2 animated sets.</p>
+
+<h3>It installs where you actually put it</h3>
+
+<p>Worth saying plainly, because for a long time this series got it wrong. Every Godot importer this
+wing shipped before September resolved its texture paths from the <em>project root</em>. Drop the
+folder at the top level and it worked. Put it in <code>res://assets/</code>, which is where a real
+project keeps things, and <code>load()</code> returned null. Not a TileSet with missing textures. No
+resource at all.</p>
+
+<p>The reason it went unnoticed for months is worth more than the bug: the test harness copied the
+shipped folder flat into a temporary project root, which made the absolute path resolve <em>by
+construction</em>. It could ask whether the file was internally consistent. It could not ask whether
+it worked where a buyer puts it.</p>
+
+<p>This pack is tested by installing it into a subfolder of a blank Godot project, the way you will
+install it, and counting what comes back.</p>
+
+<h3>What is proven, and in what words</h3>
+
+<p>The art comes from a procedural pixel engine, no diffusion model and no dataset, which makes the
+grid, the palette and the absence of anti aliasing true by construction rather than measured
+afterwards. What is checked mechanically:</p>
+
+<ul>
+<li><strong>Godot 4.7.2 built 783 of 783 tiles</strong>, from a subfolder. The harness makes Godot
+count and measure every tile, because a corrupted TileSet loads without error. Counting is the only
+honest test.</li>
+<li><strong>Tiled rendered all 16 tilesets</strong> through its own tmxrasterizer and every cell was
+compared to the sheet in your download.</li>
+<li><strong>576 of 576 RPG Maker MZ autotile shapes</strong> compose byte for byte out of the A2
+sheet, using the engine's own autotile table read from the runtime rather than a copy of it.</li>
+<li><strong>The packed sheets and the loose PNGs were compared to each other</strong>, 783 of 783
+identical. A pack that ships its art twice can ship two different versions of it.</li>
+<li><strong>25 earlier packs, 12,058 tiles, 0 changed.</strong> Adding this one to the series is
+proven not to have moved a single pixel of anything already sold.</li>
+</ul>
+
+<p>What is <em>not</em> claimed: nothing here is advertised as mechanically proven seamless. Every
+tile's wrap boundary is measured against its own interior and every 4x4 repetition is rendered and
+reviewed by eye, and those renders ship in the package so you can look for the grid line yourself.
+The seam test catches hard edge artefacts reliably and the commonest real defect poorly, so it is
+described as the floor it is.</p>
+
+<h3>In the download</h3>
+
+<p>Individual PNGs at 16x16, packed sheets, a role tagged <code>tiles.json</code>, an RPG Maker MZ
+A2 autotile sheet plus object sheets, a Tiled <code>.tsx</code>, a Godot 4 <code>.tres</code>, a
+finished Tiled sample map as both a picture and rebuildable data, the 4x4 repetition proofs, and a
+LICENSE permitting commercial use with no attribution required.</p>
+
+<p><em>Part of the Verdant series: one 16 pixel grid and one palette across every pack. This one
+shares its carpet and lino with
+<a href="https://csaf.itch.io/verdant-14-institutional">Verdant 14 Institutional Interiors</a>, its
+playground tarmac with <a href="https://csaf.itch.io/verdant-17-urban-decay">Verdant 17 Urban
+Decay</a>, and its Victorian brick with
+<a href="https://csaf.itch.io/verdant-20-prison">Verdant 20 Prison</a>, so a school, a clinic and a
+civic block can sit on the same map without a seam between them.</em></p>
