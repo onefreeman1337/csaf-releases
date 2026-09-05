@@ -127,21 +127,23 @@ keep; the list is what you audit.
 The certificate is drawn by a CPU rasteriser, so its cost is proportional to pixel count. **It is
 composed on demand and cached — never on window open.**
 
-Measured across **three separate runs** in a blank Unity 6000.5.7f1 project, importing the shipped
-package, on an ordinary workstation doing other work at the time:
+Measured across **five separate runs** in a blank Unity 6000.5.7f1 project, importing the shipped
+package, on an ordinary workstation doing other work at the time. Figures are rounded outward from
+the observed spread:
 
-| certificate size | pixels | measured span, 3 runs |
+| certificate size | pixels | observed, 5 runs |
 | --- | --- | --- |
-| 550 x 750 | 0.41 M | 0.48 - 0.59 s |
-| 1100 x 1500 (default) | 1.65 M | 1.46 - 1.80 s |
-| 1650 x 2250 | 3.71 M | 3.08 - 3.60 s |
+| 550 x 750 | 0.41 M | 0.4 - 0.6 s |
+| 1100 x 1500 (default) | 1.65 M | 1.3 - 1.8 s |
+| 1650 x 2250 | 3.71 M | 3.0 - 3.8 s |
 
 Roughly 0.8 - 1.3 microseconds per thousand pixels.
 
-**The high figure is an observation, not a ceiling.** Three runs give you a sample, never a bound —
-the same code on the same machine varied by about 20% between runs purely with background load, and
-a busier machine will exceed the top of that range. Size your expectations from the span, not from
-the fast number, and treat anything above it as ordinary rather than as a fault.
+**These are observations, not a ceiling, and you should expect to exceed them.** Runs on one
+unchanged machine varied by about 20% purely with background load — the fifth run of this very table
+ran 3% past what the first four had established as the top. On a shared or busy machine the figures
+will be higher, and that is ordinary rather than a fault. Size your integration from the slow end,
+never the fast one.
 
 Compose when the user asks for the plate, not on a repaint, and keep the texture you get back.
 
@@ -171,7 +173,7 @@ opaque one, so `$"icons/{slug}"` withholds `icons/*` rather than your entire pro
 Every part is public and editor-side:
 
 ```csharp
-using CSAF.Ballast.Editor;
+using CSAF.Ballast;   // the namespace is CSAF.Ballast; CSAF.Ballast.Editor is the ASSEMBLY name
 
 Survey survey = SurveyRunner.Run(projectRoot, projectName, stock, DateTime.UtcNow);
 
