@@ -1,0 +1,59 @@
+<p><strong>Unity strips unused assets when it builds. It documents one exception, and it is the only one that matters here.</strong></p>
+
+<blockquote><p>"Unity includes assets that are referenced in your project and strips any unused assets during the build process ... The only assets that aren't removed are assets in the Resources folder."</p></blockquote>
+
+<p>Everything in <code>Resources/</code> ships. All of it, in every build, forever, because Unity cannot know which file a script will ask for by name at runtime.</p>
+
+<p>Ballast works out which ones nothing ever asks for, moves those out of the build, and hands you a drawn certificate showing exactly how many bytes left.</p>
+
+<p><strong>It never claims an asset is dead.</strong> It proves an asset is <em>unreached</em>, and where the question cannot be answered it refuses to act and tells you which line of your code stopped it.</p>
+
+<h3>Three answers, and the third is the one that matters</h3>
+
+<ul>
+<li><strong>IN USE</strong> &mdash; a literal load site resolves to it. Kept, and the file and line that reached it are cited.</li>
+<li><strong>UNREACHED</strong> &mdash; no literal resolves to it, and no dynamic site could reach it. Offered for migration.</li>
+<li><strong>WITHHELD</strong> &mdash; a dynamic load site could reach it. Never touched, and the site is named.</li>
+</ul>
+
+<pre><code>Resources.Load&lt;Sprite&gt;("icons/sword");          // decidable  -&gt; IN USE
+Resources.Load&lt;Sprite&gt;("icons/" + item.slug);   // prefix known -&gt; icons/* WITHHELD
+Resources.LoadAll&lt;Sprite&gt;("icons");             // claims a folder -&gt; icons/** WITHHELD
+Resources.Load&lt;Sprite&gt;(pathFromServerConfig);   // nothing known -&gt; the WHOLE tree WITHHELD</code></pre>
+
+<p>That last line is worth dwelling on. If you have one fully dynamic load site, <strong>Ballast will migrate nothing at all</strong>, and it will tell you which file caused it. That is the correct answer, not a failure. A tool that guessed would eventually move an asset your game loads, and you would find out when a player hit that code path.</p>
+
+<h3>Safety is the design, not a setting</h3>
+
+<ul>
+<li><strong>It migrates, it never deletes.</strong> Assets move to a quarantine folder, keeping the shape they came from.</li>
+<li><strong>The .meta file moves with the asset</strong>, so GUIDs survive and every existing reference in every scene and prefab still resolves. Nothing becomes a missing reference.</li>
+<li><strong>One-click revert</strong>, replayed from the manifest, so it is a true inverse rather than a second guess at the path.</li>
+<li><strong>Read-only until you confirm</strong>, and the confirmation names the count and the bytes.</li>
+<li>Nothing runs on import. Nothing runs on build. You open the window and press a button.</li>
+</ul>
+
+<h3>The report is a document, not a list</h3>
+
+<p>The certificate carries a tonnage bar per top-level Resources folder sized by real bytes, the reached fraction struck solid and the unreached fraction outlined, a cross-hatched band for the withheld tonnage, the displacement figure set large, and a dateline. The three verdicts are drawn in three different visual <em>languages</em> rather than three colours, so the plate still reads on a greyscale screenshot. Seven paper stocks; export to PNG.</p>
+
+<p>The window also lists every asset with its verdict and its citation. The certificate is what you keep; the list is what you audit.</p>
+
+<h3>Compatibility</h3>
+
+<ul>
+<li><strong>Unity 2022.3 and newer</strong>, including Unity 6. Built and gated against 6000.5.7f1.</li>
+<li><strong>Render pipeline agnostic</strong> &mdash; Built-in, URP and HDRP. Editor-only, and it rasterises on the CPU, so it touches no pipeline at all.</li>
+<li><strong>No third-party dependencies.</strong> No packages to add, no services, no network calls, no telemetry.</li>
+<li>All editor code sits in a platform-constrained assembly definition, so <strong>none of Ballast ships in your build</strong>. The package itself contains no Resources folder, which would be an unusually poor joke in this product.</li>
+</ul>
+
+<h3>Performance</h3>
+
+<p>The certificate is drawn by a CPU rasteriser, so its cost is proportional to pixel count, and it is composed on demand and cached rather than on window open. Measured across three runs in a blank 6000.5.7f1 project with the shipped package: 550x750 in 0.48&ndash;0.59 s, the default 1100x1500 in 1.46&ndash;1.80 s, 1650x2250 in 3.08&ndash;3.60 s. The high figure is an observation, not a ceiling &mdash; a busier machine will exceed it.</p>
+
+<p>The survey itself is fast and unrelated to that: it is a text scan over your scripts plus a directory walk, and it rasterises nothing.</p>
+
+<h3>AI disclosure</h3>
+
+<p>Code: yes. Graphics: yes &mdash; the code that <em>draws</em> the certificate was AI-written; there is no image model anywhere in the art path, and the plate is rasterised offline and deterministically by the shipped code. Sounds: no, the package contains no audio file of any kind. Text and dialog: no.</p>
