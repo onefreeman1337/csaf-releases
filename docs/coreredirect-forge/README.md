@@ -41,9 +41,12 @@ That is the whole mechanism, and it works. The difficulty is not the syntax. It 
 the block requires knowing what the names used to be, and by the time you need it, they are gone.**
 The compiler has the new ones. Your assets have the old ones. Nothing in the editor holds both.
 
-Epic's own engineers hit this and solve it the same way you would: `EditorScriptingUtilities`,
-`MaterialValidation`, `WaveformEditor` and `ConsoleVariablesEditor` each ship a hand-maintained
-`[CoreRedirects]` section. Nothing in the editor generates one.
+Epic's own engineers hit this constantly and solve it the same way you would. **133 plugins shipped
+with Unreal Engine 5.8 carry a hand-maintained `[CoreRedirects]` section** — Niagara, Control Rig,
+GameplayAbilities, MetaSound, PCG, Enhanced Input, Paper2D, Interchange, Datasmith and 124 more.
+(Counted on a stock 5.8 install: `Engine/Plugins/**/Config/*.ini` containing a `[CoreRedirects]`
+header.) Every one of those entries was typed by somebody who still remembered what the name used
+to be. Nothing in the editor generates one.
 
 ### The mistake almost everyone makes writing one by hand
 
