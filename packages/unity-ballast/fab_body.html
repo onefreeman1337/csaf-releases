@@ -1,0 +1,67 @@
+<p>Unity strips unused assets when it builds. Its own manual documents the single exception: assets in a Resources folder are never removed, because the engine cannot know which one a script will ask for by name at runtime. So everything in Resources ships, in every build, forever.</p>
+
+<p>Ballast reads your load sites, decides which of those assets nothing can ever ask for, moves them out of the build, and hands you a drawn certificate showing exactly how many bytes left.</p>
+
+<p><strong>It never claims an asset is dead.</strong> It proves an asset is unreached, and where the question cannot be answered it refuses to act and names the line of your code that stopped it.</p>
+
+<p><strong>Three answers, and the third is the one that earns the price</strong></p>
+
+<ul>
+<li><strong>IN USE</strong> - a literal load site resolves to this asset. Kept, and the file and line that reached it are cited beside the verdict.</li>
+<li><strong>UNREACHED</strong> - no literal resolves to it and no dynamic site could reach it. Offered for migration.</li>
+<li><strong>WITHHELD</strong> - a dynamic load site could reach it. Never touched, and the call site that made it undecidable is named.</li>
+</ul>
+
+<p>Loading from Resources takes a string. A plain literal path is decidable. A path built by concatenating a variable taints that folder. A LoadAll call claims the whole folder. A load site built entirely at runtime taints the entire tree, and in that case Ballast migrates nothing and tells you why. That is the correct answer, not a failure: a tool that guessed would eventually move an asset your game loads, and you would find out when a player hit that path.</p>
+
+<p><strong>Safety is the design, not a setting</strong></p>
+
+<p>Assets are migrated, never deleted. They move into a quarantine folder keeping the shape they came from, and the meta file travels with each one, so GUIDs survive and every existing reference in every scene and prefab still resolves. Revert is one click and replays the manifest, so it is a true inverse rather than a second guess at the path. Nothing runs on import, nothing runs on build, and the whole pass is read-only until you confirm a count.</p>
+
+<p>One detail worth knowing because you will see it: inside the quarantine the Resources segment is renamed. Unity decides what ships by looking for a folder named exactly Resources at any depth, so preserving the original shape verbatim would leave the quarantined bytes in the build and achieve nothing. It is a rename rather than a tilde-suffixed folder on purpose, because a tilde folder is ignored by Unity entirely, which would drop the assets out of the AssetDatabase and break the very references this package exists to protect.</p>
+
+<p><strong>The report is a document, not a list</strong></p>
+
+<p>The certificate carries a tonnage bar per top-level Resources folder sized by real bytes, the reached fraction struck solid and the unreached fraction outlined, a cross-hatched band for the withheld tonnage, the displacement figure set large, and a dateline. The three verdicts are drawn in three different visual languages rather than three colours, so the plate still reads on a greyscale screenshot. Seven paper stocks; export to PNG.</p>
+
+<p><strong>Getting Started</strong></p>
+
+<ol>
+<li>Import the package. Everything lands under Assets/CSAF/Ballast/.</li>
+<li>In the Unity menu bar, open <strong>Window &gt; CSAF &gt; Ballast</strong>. The Ballast window opens as a dockable editor window; there is no scene setup, no prefab to drag in and no play mode required.</li>
+<li>Press <strong>Survey</strong>. Ballast reads every Resources folder in the project and every load site in your C#, then lists each asset with its verdict: IN USE, UNREACHED or WITHHELD.</li>
+<li>Press <strong>Compose certificate</strong> to draw the lading plate, and <strong>Export PNG</strong> to save it.</li>
+<li>Optional, and only when you are satisfied with the list: press <strong>Migrate</strong> to move the UNREACHED assets into the quarantine folder. The confirmation names the count and the byte total first, and <strong>Revert</strong> puts everything back.</li>
+</ol>
+
+<p>Nothing runs on import, nothing runs on build, and nothing is deleted at any point.</p>
+
+<p><strong>Technical Information</strong></p>
+
+<p><strong>Features:</strong> static reachability analysis over every Resources load, LoadAll and LoadAsync call site in the project, found by a real C# lexer rather than a regex, so a call commented out, inside a preprocessor block, or written inside a string literal is not mistaken for a live one; verbatim, interpolated and verbatim-interpolated strings handled in either order; three-verdict classification with taint propagation from dynamic sites; per-asset citation of the file and line that reached it; quarantine migration with the meta file preserved and a manifest-replayed revert; segment-wise exact folder matching, matching Unity's own rule; a drawn lading certificate composed on demand and cached, with seven stocks and PNG export; a demo scene; zero shipped image, audio or font assets.</p>
+
+<p><strong>Code Modules:</strong> CSAF Ballast Editor (Editor only), CSAF Ballast Demo (Runtime, all platforms, sample content).</p>
+
+<p><strong>Number of Unity Visual Scripts:</strong> 0. The package contains no Visual Scripting graph assets and no references to the Visual Scripting packages; verified by walking the shipped tree.</p>
+
+<p><strong>Number of .cs Scripts:</strong> 17, measured by walking the shipped Assets tree - 16 Editor, 1 Demo.</p>
+
+<p><strong>Supported Development Platforms:</strong> Windows (Yes), Mac (Yes). Pure C#, no native libraries and no platform-specific code.</p>
+
+<p><strong>Supported Target Build Platforms:</strong> all platforms Unity targets. Ballast is an editor tool and ships nothing into a build; its own editor assembly is platform-constrained to the Editor.</p>
+
+<p><strong>Supported Unity Pipelines:</strong> Built-In, URP and HDRP. The certificate is rasterised into a Texture2D on the CPU and never touches the render pipeline, so it is pipeline-agnostic by construction.</p>
+
+<p><strong>Minimum Unity Version:</strong> 2022.3.</p>
+
+<p><strong>Dependencies on other Plugins and/or System Libraries:</strong> none. No packages beyond the Unity engine and editor assemblies, no network calls and no telemetry.</p>
+
+<p><strong>Documentation Link and Installation Guide:</strong> <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/ballast/README.md">Ballast user guide</a> - the same guide is also included in the package.</p>
+
+<p><strong>Example Project:</strong> the package ships a runnable demo scene containing a specimen behaviour, so a reviewer can open it and press Play. The survey itself runs from the editor window rather than from play mode, because it reads the project on disk.</p>
+
+<p><strong>Versioning:</strong> 1.0.0, the first public release. Semantic versioning from here: patch for fixes that do not change a verdict, minor for new certificate stocks or scanner coverage, major for any public API change. A verdict can only ever become more conservative in an update, never less.</p>
+
+<p><strong>Support:</strong> bug reports, questions and scanner coverage requests through the issue tracker on the csaf-releases repository linked under Documentation above. Please include your Unity version and, if a call site was classified in a way that surprised you, the shape of that call site.</p>
+
+<p><strong>Important or Additional Notes:</strong> the certificate is drawn by a CPU rasteriser, so its cost is proportional to pixel count. Measured across three runs in a blank 6000.5.7f1 project, the default 1100x1500 plate composes in 1.46 to 1.80 seconds, and the high figure is an observation rather than a ceiling. Compose on demand and cache; never on a repaint. Textures returned by the composer belong to the caller and should be destroyed when finished with. AI disclosure: code yes, graphics yes, sounds no (the package contains no audio file of any kind), text and dialog no. There is no image model anywhere in the art path; graphics is disclosed as yes because the code that draws the certificate was AI-written.</p>
