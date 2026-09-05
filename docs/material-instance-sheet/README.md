@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Material Instance Sheet  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-09-03
+**Docs published:** 2026-09-05
 
 
 ---
@@ -138,7 +138,7 @@ collection, runtime virtual texture, sparse volume texture and static switch —
 | `-FailOnDrift` | Exit 4 when an import dry run finds the project and the sheet disagree. This is the CI gate. |
 | `-OverriddenOnly` | Export only columns at least one instance overrides. |
 | `-NoDefaults` | Leave out the `PARENT_DEFAULTS` reference rows. |
-| `-ExitOnFinish` | Exit the editor when the run finishes, returning the exit code from the table below. **Use this for any headless or CI run** — see below. |
+| `-ExitOnFinish` | Console command only: exit the editor when the run finishes, so a headless editor does not sit there holding the plugin. `-Help` honours it too. ⛔ It does **not** deliver the exit code to your shell — gate CI on the commandlet, see below. |
 | `-Help` | The switch list. |
 
 ## Exit codes
@@ -168,21 +168,35 @@ Commit the sheet next to your content. Then a CI step that runs the import with 
 no `-Apply` fails the build the moment somebody hand-edits a material instance away from the
 agreed values, and the HTML report names the asset, the parameter and both values.
 
-Run it headless with `-ExitOnFinish`, which exits the editor and returns the exit code from the
-table above, so your build agent can gate on it:
+⛔ **Gate CI on the COMMANDLET, not on the editor console command.**
+
+```
+UnrealEditor-Cmd.exe YourProject.uproject -run=MaterialInstanceSheet -Import
+  -Sheet=Sheets/materials.csv -FailOnDrift -unattended -nosplash
+```
+
+The commandlet returns the code from the table above as the process exit code, so a build agent can
+branch on it directly.
+
+**The editor-console form is for running this inside an editor session, and it cannot fail a build.**
 
 ```
 UnrealEditor-Cmd.exe YourProject.uproject -unattended -nosplash
   -ExecCmds="MaterialSheet.Run -Import -Sheet=Sheets/materials.csv -FailOnDrift -ExitOnFinish"
 ```
 
+That works and does the same job, but a headless editor **always exits 0** from it whatever the run
+decided. This is engine behaviour rather than a limitation here: a non-forced exit request becomes a
+`PostQuitMessage` on Windows and a headless editor does not surface that value as the process code.
+The tool still logs its own code as `exit code : N` on the last line of its summary, so a CI step
+that must use the console form has to read the log rather than the process code.
+
 **Without `-ExitOnFinish` the editor does the work, writes the sheet, and then keeps running** — on
-a build agent that is a hung job, not a failed one.
+a build agent that is a hung job, not a failed one. `-Help` honours it too, so a help invocation on
+a build agent exits instead of sitting there.
 
 ⛔ **Do not reach for a trailing `,Quit` instead.** `Quit` is not an editor console command (the
-editor's is `QUIT_EDITOR`), so it does nothing and you get the same wedged agent, with the added
-problem that the run's exit code is thrown away. `-ExitOnFinish` is the supported way and it is the
-only one that returns the exit code.
+editor's is `QUIT_EDITOR`), so it does nothing and you get the same wedged agent.
 
 ---
 
@@ -235,10 +249,15 @@ provider the same way saving in the editor does. Run the dry run first, read the
 
 ## Known behaviour worth stating plainly
 
-- In a project whose Blueprints or assets log load errors, an Unreal commandlet can return process
-  exit code 1 from a run that fully succeeded — the engine's error accounting, not this tool's. The
-  tool logs its **own** exit code as `exit code : N` on the last line of its summary; trust that
-  line over the process code if the two disagree, and read the HTML report.
+- **The commandlet's process exit code is this tool's own, in every project.** Earlier builds
+  inherited an engine behaviour where a successful run returned 1 if anything anywhere in the
+  session had logged an error — including engine-side asset load errors that had nothing to do with
+  this tool. That is fixed: the commandlet sets `UseCommandletResultAsExitCode`, so the code you
+  gate CI on is the one in the table above. The tool still logs its code as `exit code : N` on the
+  last line of its summary, so the two can be compared.
+- **The editor-console path is different, and this is engine behaviour rather than a choice here.**
+  A headless editor does not surface a console command's requested code as the process exit code, so
+  `-ExecCmds=` always exits 0. Gate CI on the commandlet, not on the console command.
 - Verified on Unreal Engine 5.8 on Windows 64-bit. No other engine version has been tested, so no
   other version is claimed.
 
