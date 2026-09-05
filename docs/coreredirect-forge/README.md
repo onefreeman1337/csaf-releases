@@ -44,9 +44,10 @@ The compiler has the new ones. Your assets have the old ones. Nothing in the edi
 Epic's own engineers hit this constantly and solve it the same way you would. **133 plugins shipped
 with Unreal Engine 5.8 carry a hand-maintained `[CoreRedirects]` section** — Niagara, Control Rig,
 GameplayAbilities, MetaSound, PCG, Enhanced Input, Paper2D, Interchange, Datasmith and 124 more.
-(Counted on a stock 5.8 install: `Engine/Plugins/**/Config/*.ini` containing a `[CoreRedirects]`
-header.) Every one of those entries was typed by somebody who still remembered what the name used
-to be. Nothing in the editor generates one.
+(Counted on a stock 5.8 install as **133 distinct `Engine/Plugins/**/Config/*.ini` files carrying a
+`[CoreRedirects]` header**, one per plugin — reproduce it with a recursive grep for `^\[CoreRedirects\]`
+under `Engine/Plugins`.) Every one of those entries was typed by somebody who still remembered what
+the name used to be. Nothing in the editor generates one.
 
 ### The mistake almost everyone makes writing one by hand
 
