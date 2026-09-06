@@ -1,0 +1,122 @@
+<p><strong>Your menu is the one screen a player opens every session, and in most RPG Maker
+games it is four blue boxes.</strong> Liturgy redraws the main menu, the item list and the status
+page as one printed object: a ruled ledger page with real paper, an engraved rule system, a drawn
+alphabet, and a device beside every command composed from what that command <em>does</em>.</p>
+
+<p><strong>It does not change your menu.</strong> Your command list, the commands your other plugins
+add, your handlers, your selection and your input all stay exactly where they are. Liturgy prints
+them.</p>
+
+<hr>
+
+<h3>Not a windowskin, and not a layout builder</h3>
+
+<p>Every menu tool on this shelf asks you to do the work: lay the windows out yourself, or supply
+your own PNGs. Liturgy <strong>generates</strong> the page from what is already in your project.
+There are no image files in it at all — every mark on screen is drawn at run time.</p>
+
+<ul>
+<li><strong>49 authored letterforms, cut 6 ways by a broad pen.</strong> Stem
+weight, pen angle, serif treatment, set width and tracking are all axes, so the six houses have six
+genuinely different alphabets rather than one alphabet in six weights. No font file, which means
+nothing on the page can fall back to RPG Maker's own typeface.</li>
+
+<li><strong>24 devices, one per menu command.</strong> Chosen from the command's
+<em>symbol</em> first, so the stock eight are right in a project of any language whatever the menu
+says. 42 symbols and 159 words are recognised, covering quests, bestiaries,
+crafting, maps, shops, relations, achievements, galleries, fishing, mining, cooking, guilds, help,
+calendars and banking — and anything unrecognised is struck as a monogram of its own initial, in the
+same alphabet, so the page can never render a hole.</li>
+
+<li><strong>6 papers and 6 rule systems.</strong> Laid and chain wires, tooth,
+foxing, a deckle edge and the fold at the gutter — every count derived from the real run, so a
+bigger page has more wires rather than bigger ones. Rules that are inked, doubled, tripled, scored
+into the sheet as drypoint, swelled toward the middle, or braced at the corners.</li>
+
+<li><strong>5 markers, because MZ's own cursor cannot appear on this page.</strong> The
+chosen entry is marked the way a reader marks a book: a pointing hand, a lozenge with a tail, a
+dagger, a bracket, a chevron.</li>
+</ul>
+
+<h3>The six houses</h3>
+
+<p>A house is a decision about a <em>kind of book</em>, not a colour scheme — the paper, the rules,
+the letterforms, the marker and the ornament all change together.</p>
+
+<ul>
+<li><strong>Chancery</strong> — a legal register: laid paper, double rules at head and foot, dotted
+leaders, the rule turning a corner and returning down a red margin.</li>
+<li><strong>Breviary</strong> — vellum with a deckle edge, rules <em>scored</em> rather than inked,
+a liturgical versal with the nib canted over, a manicule in the margin.</li>
+<li><strong>Daybook</strong> — blue account paper, three rules at the head, a condensed merchant
+hand, the figures in a second ink.</li>
+<li><strong>Cartulary</strong> — coarse foolscap, braced corners, rustic capitals, an interlace
+tailpiece.</li>
+<li><strong>Almanac</strong> — smooth wove, every entry in its own ruled box, a bold printed titling
+and a diapered band across the head.</li>
+<li><strong>Muster</strong> — heavy ledger stock, one swelled rule at the head and nothing else
+ruled anywhere, a stencilled monoline roll hand.</li>
+</ul>
+
+<p><strong>Set the house yourself, or let it read your project's title.</strong> A plugin command
+changes it mid-game, so chapter two can be a different book from chapter one — and it is saved with
+the game.</p>
+
+<h3>It fits whatever menu you have</h3>
+
+<p>Eight commands get a generous page. Sixteen get a tighter one: the row height is solved from your
+real command count, and the treatments that stop resolving at that size — the leader, the device's
+ground, the sub-line — drop out in order rather than being crushed. That is arithmetic, not a
+setting.</p>
+
+<h3>Tested, not assumed</h3>
+
+<ul>
+<li>Verified <strong>in the real MZ runtime</strong>, not only in tests: 23 checks including a proof
+that every window's contents bitmap is entirely transparent — the only route by which the engine's
+own font could reach the screen.</li>
+<li>The shipped <strong>zip</strong> was unpacked into a pristine blank project and used with
+<em>every parameter blank</em>, because that is what a buyer does first.</li>
+<li>A mouse click lands on the entry you can see: the printed rows and the window's own hit-test
+rows are asserted to agree, row by row.</li>
+<li>Nine adversarial cases — twenty commands, an empty party, a 68-character command name, a
+Japanese command name with no symbol, a corrupt save from a future version, a 320x240 frame.</li>
+<li>Per frame in the engine: <strong>11 draw calls, 0 texture uploads, 0 bitmap dirties, 0 window
+refreshes, and display-object growth of 0.</strong> The page is drawn once and redrawn only when
+something on it changes.</li>
+</ul>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>LiturgyInk.js</code> — [Liturgy] The colour and scale LAWS, and the single light. Every ink is solved against what it sits on; every repeated treatment declares a pitch.</li>
+<li><code>LiturgyAlphabet.js</code> — [Liturgy] The DRAWN alphabet. 44 authored letterforms and a parametric fount, so every heading, command and name on the page is drawn rather than…</li>
+<li><code>LiturgyCorpus.js</code> — [Liturgy] The authored corpus - six houses, six stocks, six rule systems, five markers and the charges every menu command is composed from.</li>
+<li><code>LiturgyPaper.js</code> — [Liturgy] The paper. Laid and chain wires, tooth, foxing, deckle and the gutter, every count derived from the real run. No engine dependency.</li>
+<li><code>LiturgyRule.js</code> — [Liturgy] The engraved rule system - rules, leaders, corners, ornament bands, markers, printed gauges and folios. Every count derived from the run.</li>
+<li><code>LiturgyDevice.js</code> — [Liturgy] The device struck beside every menu command, composed from what that command DOES - 24 authored charges, five bearers, and a struck monogram…</li>
+<li><code>LiturgyReading.js</code> — [Liturgy] The classifier. Reads the buyer's own project and their own command list, and returns the page spec everything else draws from.</li>
+<li><code>LiturgyPage.js</code> — [Liturgy] The assembler - one whole ledger page into a rect, and the ONE geometry declaration every other file reads. Engine-free by design.</li>
+<li><code>LiturgyScene.js</code> — [Liturgy] Every menu becomes a printed object. Draws the main menu, the item list and the status page as one ruled ledger page, generated from your…</li>
+</ol>
+<p><strong>Core methods extended — 7 by saved-original prototype extension:</strong> <code>Scene_Menu.prototype.create</code>, <code>Scene_Menu.prototype.start</code>, <code>Scene_Item.prototype.create</code>, <code>Scene_Status.prototype.create</code>, <code>Scene_Status.prototype.start</code>, <code>Scene_Status.prototype.refreshActor</code>, <code>Scene_Boot.prototype.start</code>.</p>
+<p>Those seven are shared politely: another plugin patching the same ones keeps working, whichever order they load in. The replacements are listed next, because they are the part that can conflict.</p>
+<p><strong>Core methods REPLACED — 3 on <code>Scene_Menu</code>:</strong> <code>Scene_Menu.prototype.commandWindowRect</code>, <code>Scene_Menu.prototype.statusWindowRect</code>, <code>Scene_Menu.prototype.goldWindowRect</code>.</p>
+<p>That is deliberate and it is what you are buying — but be plain about what it means: <strong>Liturgy will not co-exist with another plugin that also replaces Scene_Menu</strong>, and whichever loads last wins. The originals ARE saved, so the stock behaviour can be put back at any time. Everything else in your project is untouched.</p>
+
+
+<hr>
+
+<h3>Also from Core Systems Asset Factory</h3>
+<p>The screens either side of this one, drawn the same way:
+<a href="https://csaf.itch.io/frontispiece">Frontispiece</a> generates the title screen ·
+<a href="https://csaf.itch.io/cartouche">Cartouche</a> draws the message box as a worked object ·
+<a href="https://csaf.itch.io/escutcheon">Escutcheon</a> strikes the equip and status plate.</p>
+
+<hr>
+
+<p><em>AI disclosure: the code and the cover artwork in this product were produced with AI
+assistance. RPG Maker MZ. Nine plugin files, raw and readable — no minification, nothing to
+unpack.</em></p>
