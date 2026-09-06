@@ -102,18 +102,26 @@ were measured on one ordinary Windows workstation, and the high end of each rang
 **observation, not a ceiling** — a busier machine will exceed it, and this package runs on machines
 we cannot see.
 
-| page size | pixels | typical compose |
+| page size | pixels | measured compose, 5 runs |
 | --- | --- | --- |
-| 480 × 640 | 0.31 M | *see the editor window, which prints the real number for your machine* |
-| 720 × 960 | 0.69 M | " |
-| 900 × 1200 | 1.08 M | " |
+| 480 × 640 | 0.31 M | **11.0 – 12.9 s** |
+| 720 × 960 | 0.69 M | **26.3 – 27.5 s** |
+| 900 × 1200 | 1.08 M | **39.5 – 41.6 s** |
 
-The editor window prints `Last compose: N ms` after every preview, and the demo scene logs the same
-figure. **Read your own number rather than trusting ours** — that is the only honest way to size an
-integration, and it is one keystroke away.
+**Read that as seconds, not milliseconds.** This package draws every mark from a signed distance
+field, per pixel, with no atlas and no GPU, and that is what buys marks that stay sharp at any size
+and re-colour themselves per medium. It costs roughly **36 – 41 seconds per megapixel** on the
+machine above, and the figure scales with pixel count: halving both dimensions quarters the cost.
 
-**Compose ahead and cache, or bake to PNG in the editor.** Do not compose a page on the frame a
-player opens a menu. Two patterns work well:
+The editor window prints `Last compose: N ms` after every preview and the demo scene logs the same
+figure, so **read your own number rather than trusting ours.** The range above is five runs on one
+ordinary Windows workstation and the high end is an **observation and not a ceiling** — the fifth
+run, taken from a fresh install of this exact package, came in at 12.9 s where the first four had
+spanned 11.0 to 12.5, which is precisely why it is quoted as a span and not as a figure.
+
+**This is a bake-time cost, not a frame-time cost, and the package is built for that.** Compose a
+page when a save loads, when a chapter ends, or in the editor, and cache the texture. Do not compose
+one on the frame a player opens a menu. Two patterns work well:
 
 1. **Bake at authoring time.** If your history is fixed, open *Window ▸ CSAF ▸ Annals*, export a PNG,
    and ship the image. Nothing in this package runs at run time at all.
@@ -133,7 +141,7 @@ it reports is a real timing for a real page.
 
 ## The demo scene
 
-`Assets/CSAF/Annals/Demo/AnnalsDemo.unity` — open it and press Play. One page composes; **SPACE**
+`Assets/CSAF/Annals/Demo/Scenes/AnnalsDemo.unity` — open it and press Play. One page composes; **SPACE**
 cycles the medium, composing each one lazily the first time you ask for it and caching it after.
 
 ---
