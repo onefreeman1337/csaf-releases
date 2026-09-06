@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Material Instance Sheet  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-09-05
+**Docs published:** 2026-09-06
 
 
 ---
@@ -15,6 +15,61 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 **Every Material Instance parameter override in a folder, in one spreadsheet, and back again.**
 
 Unreal Engine 5.8 · Editor plugin · Windows 64-bit
+
+---
+
+## Install
+
+1. Copy the `MaterialInstanceSheet` folder into your project's `Plugins` directory.
+2. Open the project. If you are asked to rebuild, say yes.
+3. **Edit → Plugins**, search for *Material Instance Sheet*, confirm it is enabled.
+
+## First run, two minutes
+
+Nothing in this section writes to your project.
+
+**1. Export a sheet.** Open the editor console (backtick `` ` ``) and run:
+
+```
+MaterialSheet.Run -Export -Paths=/Game/Materials -Sheet=D:/sheets/props.csv
+```
+
+You get one row per Material Instance and one column per parameter. Open it in Excel, Google
+Sheets or LibreOffice.
+
+**2. Read it before you change it.** A **blank** cell means that instance inherits the value from
+its parent. A **filled** cell is an override. The `PARENT_DEFAULTS` rows show you what the blanks
+resolve to — they are reference only and the import ignores them.
+
+**3. Change one thing.** Drag a roughness column across forty rows, or delete a cell to drop an
+override and go back to inheriting.
+
+**4. See what that would do, without doing it.** Import WITHOUT `-Apply`:
+
+```
+MaterialSheet.Run -Import -Sheet=D:/sheets/props.csv
+```
+
+It writes nothing and reports exactly which assets and which parameters would change. This is the
+step worth spending a minute on: if the count is not what you expected, the sheet is wrong and no
+package has been touched.
+
+**5. Commit your content, then apply.**
+
+```
+MaterialSheet.Run -Import -Sheet=D:/sheets/props.csv -Apply
+```
+
+`-Apply` writes a JSON journal *before* it touches the first package, and the report names it. To
+put everything back exactly as it was:
+
+```
+MaterialSheet.Run -Revert -Journal=<that journal file> -Apply
+```
+
+⚠️ **For a headless or CI run add `-ExitOnFinish`, and gate on the COMMANDLET rather than the
+console command** — a headless editor does not surface a console command's requested exit code as
+the process exit code. "Using it as a build gate" below has the commandlet form and the exit codes.
 
 ---
 
