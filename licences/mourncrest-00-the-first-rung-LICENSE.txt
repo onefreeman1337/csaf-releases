@@ -1,0 +1,61 @@
+MOURNCREST 00 — THE FIRST RUNG
+Asset Licence
+
+Copyright (c) 2026 Core Systems Asset Factory
+All rights reserved.
+
+
+1. WHAT YOU MAY DO
+
+   You may use these assets in an unlimited number of projects, personal or
+   commercial, including games and other products that you sell. No royalty is
+   owed and no attribution is required (though it is always welcome). This is a
+   free/pay-what-you-want pack, and the licence terms are exactly the same as the
+   paid Mourncrest packs — free does not mean limited use.
+
+   You may modify the assets — recolour them, re-cut them, extend them, animate
+   them further — and use the results under the same terms.
+
+   You may use them in a project made by a team, and in a project distributed on
+   any storefront.
+
+
+2. WHAT YOU MAY NOT DO
+
+   You may not resell, redistribute, sublicense or give away the assets
+   themselves, in original or modified form, as an asset pack, asset library,
+   template, or any other product whose substance is the assets.
+
+   The distinction is simple: shipping a GAME that contains these sprites is
+   exactly what they are for. Shipping the SPRITES is not.
+
+   You may not use the assets to train a machine-learning model.
+
+
+3. AI DISCLOSURE
+
+   The artwork in this pack is AI-generated. Every sprite was produced with
+   PixelLab, a pixel-art diffusion model, on a paid plan that grants commercial
+   rights to the output. The sprites were then palette-locked and cut to the grid
+   size by tooling written by Core Systems Asset Factory, and that tooling's
+   source code was written with AI assistance.
+
+   Every opaque pixel in the pack falls inside the palette listed in pack.json,
+   and every frame is exactly the declared 64x64 cell size with strictly binary
+   alpha. Those are mechanical assertions re-run against the decoded pixels of
+   every file before release, not claims about how the art was made.
+
+   This is stated plainly here, in the Readme, and on the store listing, which is
+   tagged Generative AI: Graphics = yes, Code = yes, so that you can decide with
+   the facts in front of you.
+
+
+4. NO WARRANTY
+
+   THE ASSETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE ASSETS OR THE USE OR OTHER DEALINGS IN THE
+   ASSETS.
