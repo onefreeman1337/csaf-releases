@@ -1,0 +1,42 @@
+<p>CONTEMPT is a courtroom game where the trial is the fight. This post is about the number that made it one, because the first version of the design did not work and the reason was measurable.</p>
+
+<h2>The problem: a perfect reader could not lose</h2>
+
+<p>The game is built on a model that runs headless, so it can be played by machine thousands of times before a person ever sees it. The first sweep was 40 seeded trials per case against a model that reads every telegraph correctly and objects on the right frame. It won <strong>100% on all five opponents</strong> — a flat line where the design says there is a curve.</p>
+
+<p>The obvious fix is to make the model human. It was given a reaction time of 12 to 18 frames, drawn once per bout, which is the ordinary range for a trained visual choice. It still won 100% of all five.</p>
+
+<h2>The cause was an income stream nothing touched</h2>
+
+<p>Counting what the model actually did in a bout of the hardest case was what settled it. It was taking five unanswered arguments and five overrulings — about eighty points of verdict damage — and still finishing eighty points ahead, because it also landed <strong>21 presses in the gaps between arguments</strong>.</p>
+
+<p>Pressing was free money. So every difficulty dial the design owned — the width of the objection window, the feints, the compound arguments — was competing against an income stream that none of them touched. No amount of tightening the windows could have fixed it.</p>
+
+<h2>The fix is the burden of proof</h2>
+
+<p>The jury now drifts toward the prosecution on its own. Standing still loses. A player has to generate a positive <em>rate</em>, not a positive total, which is the one quantity a long safe bout was exploiting.</p>
+
+<p>That produced a second failure immediately, and it is the more interesting one. With a flat drift the hard cases all ended on the clock: case five read a healthy-looking 65.8% win rate with a median bout of <strong>150.0 seconds — the jury clock exactly</strong>. That is what a tug of war looks like at equilibrium, and raising the drift only moves which side the stalemate settles on.</p>
+
+<p>So the drift scales with the jury's own lean. A lead compounds and a deficit bites, which means trials end. Case five's median fell from 150 seconds to 78 in one change.</p>
+
+<h2>Where it landed</h2>
+
+<p>Judged at 120 seeds per arm, 2,400 trials, against bands written down before the run:</p>
+
+<ul>
+<li>a skilled player wins <strong>100 / 100 / 82.5 / 52.5 / 47.5 percent</strong> across the five cases</li>
+<li>a first-timer wins <strong>37.5 / 29.2 / 0 / 0 / 0</strong></li>
+<li>spamming the illegal button — hitting opposing counsel on cooldown — wins <strong>0% on every case</strong></li>
+<li>doing nothing at all wins 0% and always loses on the verdict, never by timing out</li>
+</ul>
+
+<p>Every band has a ceiling as well as a floor. A one-sided threshold cannot detect drift in its permissive direction, and the permissive direction is the one things rot in.</p>
+
+<h2>One more thing, and it is the one that would have shipped</h2>
+
+<p>The on-screen objection buttons passed a class name where the keyboard passed an index. Tapping one threw inside the animation frame and killed the render loop — the game froze on its last drawn frame while its own state reported that a trial was still running. The automated playthrough passed 32 checks out of 32 straight through it, because it objected with the keyboard and only tapped menu buttons. Two input paths, one tested.</p>
+
+<p>It is fixed, the harness now taps a real objection button and proves the model saw it, and the screen-capture tool listens for page errors — because a capture tool that does not check the page is alive is photographing a freeze.</p>
+
+<p><strong>The game is free and plays in the browser.</strong> Five cases, eight permanent precedents, and a mistrial that keeps everything you have won.</p>
