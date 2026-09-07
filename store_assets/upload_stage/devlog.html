@@ -1,0 +1,31 @@
+<p><strong>ROOTBOUND</strong> is out, free, and plays in the browser. It is a garden simulation where a plant that thrives shades and drains the neighbours you planted it beside, so the bed you laid out perfectly stops working because it worked, and the shovel is the only answer. This post is about one problem in it, because how it was found is more useful than how it plays.</p>
+
+<h3>Three failures that turned out to be one failure</h3>
+
+<p>The simulation is tested by a probe that plays whole campaigns rather than by a script that checks a screen. Three of its arms play a garden all the way out: can a competent policy reach the ending, is every species pressed in at least one run, and does reading the ground actually beat ignoring it. All three were red. They read as three separate problems, and every obvious answer was about the goal: ask for fewer species, lower the bar a plant has to clear to flower, hand out more seed.</p>
+
+<h3>Nobody had asked whether the board could house the plants</h3>
+
+<p>A coverage probe asks that directly. Generate seven fresh gardens, then for every species take the best fit available anywhere on any of them, in the open and under mature trees.</p>
+
+<p>The terrain was being generated into narrow bands. Across those seven gardens the reachable moisture ran 0.42 to 0.68 and the reachable nutrient ran 0.21 to 0.50. Set that beside the species table and four of the twelve plants were stranded. Thyme wants moisture below 0.30 and the ground never went below 0.42. Sunflower wants nutrient above 0.55 and rhubarb wants it above 0.60, and the ground never went above 0.50. Wild garlic wants moisture above 0.55, which existed only at the wet end of a narrow band and never in the same place as the deep shade it also needs.</p>
+
+<p>That one fact sat underneath all three failing arms. A campaign cannot press twelve species when four of them have no home. A policy that reads the ground cannot look better than one that ignores it when the ground has nothing to say. And tuning the win condition would have turned every arm green while leaving a third of the plant list as dead content that no player would ever grow.</p>
+
+<h3>The fix was the ground, not the rules</h3>
+
+<p>The terrain bands were widened so the board spans the niche space instead of clustering in the middle of it. Measured over the same seven gardens afterwards: light 0.580 to 1.000, moisture 0.307 to 0.771, soil pH 0.223 to 0.809, nutrient 0.160 to 0.644. That is the whole change. It is also what turns choosing a site into a decision rather than a search for the least bad cell, because the best cell for a thyme is now genuinely somewhere else from the best cell for a rhubarb.</p>
+
+<p>The campaign arms came back. Four of five seeds reach the ending, all twelve species are pressed somewhere across the runs, and after 900 simulated days a policy that reads the ground presses 11.6 species of twelve while one that ignores it presses 1.6.</p>
+
+<h3>One plant is still tight, and it is the interesting one</h3>
+
+<p>Wild garlic wants deep shade and wet ground. The only thing that makes deep shade is a tree, and a tree drinks, so the one species that needs both was awkward by construction and no width of terrain fixes that. The answer was to model something true instead. A woodland floor is damp precisely because it is shaded, since less sun falling on it means less evaporation, so shade now puts moisture back after the light is worked out.</p>
+
+<p>The honest reading is that it is still the tightest plant in the game. Under three mature birches in a fresh garden it reaches a fit of 0.72, and the coverage probe still reports it as the one species of twelve that cannot reach a near perfect fit anywhere, while every other species reaches 1.000 somewhere. That 0.72 clears the health a plant needs in order to flower, so it does get pressed, and the campaign runs press it. What has not been measured in isolation is how much of the 0.72 the shade rule is responsible for, so I am not going to claim the rule rescued it.</p>
+
+<h3>The part worth keeping</h3>
+
+<p>Three test arms went red at once and each of them looked like a balance problem. They shared one cause, and the cause was in the world rather than in the rules. When several arms fail together, look for the single thing underneath them before tuning any of them, and prefer widening the world to narrowing the goal. The version that narrows the goal passes exactly the same tests and is a smaller game.</p>
+
+<p>ROOTBOUND is free and plays in the browser. It saves itself after every day in the garden, and a plant dying costs you that plant and never the run.</p>
