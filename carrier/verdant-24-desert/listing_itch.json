@@ -1,0 +1,77 @@
+{
+  "packId": "verdant-24-desert",
+  "title": "Verdant 24 — Desert Kingdom Tileset for RPG Maker MZ, Tiled & Godot: Mudbrick, Sandstone Court & Oasis [16x16]",
+  "tagline": "640 tiles at 16x16. A desert kingdom — mudbrick wall, sandstone court, flat whitewashed roofs and a spring you can paint the edge of.",
+  "shortText": "640 tiles, 11 complete 47-mask autotile sets, an animated oasis. MZ, Tiled and Godot importers.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "desert",
+    "top-down",
+    "asset-pack"
+  ],
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "assetLicence": "Commercial use permitted, no attribution required, no resale as an asset pack"
+  },
+  "crossLinks": [
+    {
+      "why": "the dune, mesa and badland TERRAIN this architecture stands on",
+      "url": "https://csaf.itch.io/verdant-03-worlds"
+    },
+    {
+      "why": "the town this one is the desert cousin of, in the same palette",
+      "url": "https://csaf.itch.io/verdant-09-town"
+    },
+    {
+      "why": "the ancient ruins a caravan would be picking over",
+      "url": "https://csaf.itch.io/verdant-ancient-ruins"
+    }
+  ],
+  "derived": {
+    "tiles": 640,
+    "fills": 28,
+    "materials": 7,
+    "autotileTiles": 517,
+    "autotileSets": 11,
+    "propTiles": 62,
+    "objects": 22,
+    "flatObjects": 2,
+    "animatedTiles": 33,
+    "animatedSets": 5,
+    "animatedFills": 3,
+    "palette": 86,
+    "cell": 16,
+    "mapCols": 36,
+    "mapRows": 26,
+    "renders": 37,
+    "ladderGap": "22.6",
+    "seriesNo": 24,
+    "files": 764,
+    "transitionShare": 81,
+    "tsx": 15,
+    "godotSources": 15,
+    "mzSets": 11,
+    "mzMasked": 517,
+    "mzShapes": 528,
+    "tiledTiles": 752
+  },
+  "description": "<p><strong>640 tiles at 16x16.</strong> A desert kingdom you can\nactually build: a mudbrick town wall with a horseshoe gate in it, a great sandstone court behind, flat\nwhitewashed roofs with the things that stand on them, a panel of cobalt glazed tilework set into the\npaving, a walled basin with a fountain at its head, and the open oasis and date grove out past the\nwall.</p>\n\n<p>Most desert packs give you dunes. This one gives you the <em>architecture that stands on them</em> —\nand the boundaries where each material meets every other one.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>517 of the 640 tiles are transitions</strong> — 81% of the pack.\n11 complete 47-mask autotile sets, every inner corner, outer corner, edge, junction and\nsingle. Completeness is checked mechanically on every build rather than counted by hand, because a\n47-mask set missing three tiles is broken in your map and you find out while you are painting.</li>\n<li><strong>7 materials on a measured value ladder.</strong> A desert is the hardest subject in\nthis series to keep readable, because sand, sandstone, mudbrick and plaster all want to sit at the top\nof the range together. No two materials here share more than one of {value, hue, structure}, and the\nsmallest gap on the ladder is 22.6 luma — measured from the emitted pixels, not from a design\ndocument.</li>\n<li><strong>22 objects</strong> across 62 tiles, each shipped twice on purpose:\ntransparent, so you can drop it on your own ground, and grounded on each of our surfaces it belongs to\nwith the contact shadow already drawn. 2 of them are flat paint and carry no shadow at all,\nbecause a shadow under a scatter of pebbles would make it hover.</li>\n<li><strong>33 animation frames</strong> — 5 animated things: a fountain, a\npierced hanging lamp, and 3 variants of the oasis surface. The water is declared as a\nping-pong, so it breathes instead of lurching.</li>\n<li><strong>A finished sample map</strong>, 36x26 cells, shipped three ways: as a PNG, as\na <code>.tmx</code> that opens in Tiled as a real map, and as JSON that names every cell by tile id so it\nrebuilds in any engine.</li>\n<li><strong>37 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line\nyourself with the download open.</li>\n<li>Every tile also as a loose PNG, and the same art as packed sheets. 764 files in total.</li>\n</ul>\n\n<h3>The importers were actually run</h3>\n<p>An importer is a claim about a program we do not run. So each of these was loaded by the engine it\ntargets and made to <em>count</em> what it built:</p>\n<ul>\n<li><strong>RPG Maker MZ</strong> — an A2 autotile sheet, the page MZ's own autotile brush paints, plus\nB/C/D object pages and a slot map. Composed back out of the emitted sheet using MZ's own\nFLOOR_AUTOTILE_TABLE: 11 of 11 sets, 517 of 517 masked tiles, and\n528 of 528 shapes came back byte-identical.</li>\n<li><strong>Tiled</strong> — one <code>.tsx</code> per group. All 15 were opened and rendered by Tiled's\nown tmxrasterizer and compared pixel for pixel against the shipped sheets: 752 tiles rendered,\n0 differing.</li>\n<li><strong>Godot 4</strong> — a <code>.tres</code> TileSet, loaded in Godot 4.7.2 and made to count:\n15 atlas sources, 640 of 640 declared tiles built, and every multi-cell footprint\nexact. It was then installed the way you would actually install it — in a <em>subfolder</em> of a blank\nproject, with a decoy file of the same name at the project root — and it resolved its own sheets, kept\nevery tile, and painted onto a TileMapLayer.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 86 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact\nchecks and they run on every build.</p>\n<p><strong>Seamlessness is not on that list, and we will not claim it.</strong> Every tile's wrap boundary is\nmeasured against its own interior, and every 4x4 repetition is rendered and reviewed — but that test is a\nmeasured floor rather than a proof, so the renders ship with the pack and you can judge them yourself.\nA weaker true claim beats a strong false one.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>oasis_on_dust</code> — organic edge</li>\n<li><code>oasis_on_sandstone</code> — hard edge</li>\n<li><code>grove_on_dust</code> — organic edge</li>\n<li><code>dust_on_sandstone</code> — organic edge</li>\n<li><code>sandstone_on_dust</code> — hard edge</li>\n<li><code>glaze_on_sandstone</code> — hard edge</li>\n<li><code>glaze_on_plaster</code> — hard edge</li>\n<li><code>mudbrick_on_dust</code> — hard edge, with a wall face</li>\n<li><code>mudbrick_on_sandstone</code> — hard edge, with a wall face</li>\n<li><code>plaster_on_dust</code> — hard edge, with a wall face</li>\n<li><code>plaster_on_sandstone</code> — hard edge, with a wall face</li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>This is Verdant 24. Every pack in the series is drawn from one palette, so a boundary between\nthis pack's dust and another pack's grass is a boundary you can actually paint.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-03-worlds\">verdant-03-worlds</a> — the dune, mesa and badland TERRAIN this architecture stands on</li>\n<li><a href=\"https://csaf.itch.io/verdant-09-town\">verdant-09-town</a> — the town this one is the desert cousin of, in the same palette</li>\n<li><a href=\"https://csaf.itch.io/verdant-ancient-ruins\">verdant-ancient-ruins</a> — the ancient ruins a caravan would be picking over</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, no attribution required. The one thing you may not do is resell it as an\nasset pack.</p>\n\n<h3>AI disclosure</h3>\n<p>Generated with AI assistance and tagged accordingly. To be precise about what that means here: the\ngenerator is hand-written procedural code and <em>no diffusion model is anywhere in the tile pipeline</em> —\nevery one of the 640 tiles is drawn by the program. The cover illustration is generated, and the\ncode was written with AI assistance.</p>"
+}
