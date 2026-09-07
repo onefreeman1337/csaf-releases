@@ -1,0 +1,78 @@
+<p><strong>Set fire to the grass and watch it decide what happens next.</strong></p>
+
+<p>Touchpaper gives every tile on your map a surface, a temperature, a wetness and a charge, and then lets those argue with each other. Nothing is scripted. There is no fire event and no ice event &mdash; the rules are properties of the materials, so combinations you never planned for still work.</p>
+
+<ul>
+<li>Set fire to dry grass and it spreads, leaves ash, and <strong>stops at a river</strong>.</li>
+<li>Soak a line of ground first and you have built a <strong>firebreak</strong>.</li>
+<li><strong>Freeze a lake and the party walks across it.</strong> Thaw it and they cannot.</li>
+<li>Pour oil, light one end, and <strong>the whole trail goes up</strong>.</li>
+<li>Earth a shock through standing water and it hits <strong>everything standing in it</strong>.</li>
+<li>Throw fire at water and you get <strong>steam, not a burning lake</strong>.</li>
+</ul>
+
+<p>And the ground remembers. A forest the player burned down is still burnt an hour later, and still burnt when they load the save &mdash; with the burn scar in the shape of the fire that made it.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>TouchpaperRng.js</code> — [Touchpaper 1.0.0] Deterministic random number seam. Load anywhere; every other Touchpaper file finds it by itself.</li>
+<li><code>TouchpaperInk.js</code> — [Touchpaper 1.0.0] The drawing kit: the palette every surface is mixed from, and the marks the painters are made of.</li>
+<li><code>TouchpaperField.js</code> — [Touchpaper 1.0.0] The surface field itself: one surface, one temperature, one wetness and one charge per tile, and the rules that move them.</li>
+<li><code>TouchpaperPaint.js</code> — [Touchpaper 1.0.0] One painter per surface state. This is the file that decides what fire, ice, oil and ash actually look like.</li>
+<li><code>TouchpaperCore.js</code> — [Touchpaper 1.0.0] Elemental surface chemistry for RPG Maker MZ. Give the ground a state and let fire, water, frost, oil and lightning argue over it.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Touchpaper works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suites, the store-plate renderer, the GIF renderer and the in-engine verification all load the five files <strong>alphabetically</strong> — which puts the entry file <code>TouchpaperCore.js</code> <em>first</em>, before the model, the painters, the drawing kit and the random seam it depends on — and the in-engine run asserts all five resolved anyway, with 5 plugins live in <code>Scene_Map</code>. <code>TouchpaperCore.js</code> is the only one that touches RPG Maker at all; the other four are a tile-state model, a set of painters, a drawing kit and a deterministic generator, and none of them knows the engine exists. Switch <code>TouchpaperCore.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Map.prototype.setup</code>, <code>Game_Map.prototype.update</code>, <code>Game_Map.prototype.isPassable</code>, <code>Spriteset_Map.prototype.createTilemap</code>.</p>
+<p>Because nothing is clobbered, Touchpaper co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>Five numbers, and everything else falls out of them</h3>
+
+<p>Each tile carries a <strong>surface</strong> (stone, grass, wood, sand, water, snow, mud, ash or oil), a <strong>temperature</strong> where 128 is ambient, a <strong>wetness</strong>, a <strong>charge</strong> and a <strong>fuel</strong> reserve. Above 190 a dry flammable tile catches; at or below 60 water freezes. One number carries both fire and frost, so a flame arriving at a frozen pond is a real fight rather than a special case.</p>
+
+<p>That is why the reactions compose. Oil poured across grass and lit at one end will run the length of the trail, stop at the wet ground you soaked first, and leave ash in the shape of the trail. Nobody wrote that rule. It is what those five numbers do.</p>
+
+<h3>It ships no images</h3>
+
+<p>There is no tileset in this package, no atlas of fire frames, no PNG of a puddle. <strong>Every surface, every flame and every crack in a sheet of ice is drawn at the moment it is needed</strong>, from that tile's own state and its own position. Two tiles of the same charred grass are not the same picture, and the fire front breaks into fingers and pockets instead of advancing as a geometric wall.</p>
+
+<p><strong>44 distinct surface states</strong> the ground can actually be in &mdash; counted by driving the model through every input, not by multiplying a table.</p>
+
+<h3>Made for events, not for programmers</h3>
+
+<p>Every plugin command takes an X and a Y, and <strong>leaving them blank means the player's feet</strong>. A fire spell that sets the ground alight is one <em>Ignite</em> command in its common event. Nothing else is required.</p>
+
+<p><em>Ignite &middot; Chill &middot; Douse &middot; Shock &middot; Pour oil &middot; Set surface &middot; Set wind &middot; Reset this map</em></p>
+
+<p>Surfaces are painted onto a map with the region tool, then mapped to materials in the parameters. A map you never touch costs nothing at all, because no field is created until something happens on it.</p>
+
+<p>For conditional branches: <code>Touchpaper.isBurning(x, y)</code>, <code>Touchpaper.stateAt(x, y)</code> and <code>Touchpaper.surfaceAt(x, y)</code>. So &ldquo;this door only opens once the brazier's fire has reached the oil&rdquo; is one conditional branch.</p>
+
+<h3>It will not cost you your frame rate</h3>
+
+<p>The ground almost never changes, so almost nothing is redrawn. The surfaces are one cached bitmap repainted only on the tiles whose appearance actually moved, and at most a few per frame; flames and steam are a second, far cheaper layer over the top, drawn only for the handful of tiles actually doing something; the simulation runs once every six frames, not every frame; and nothing is allocated in the per-frame path.</p>
+
+<p><strong>Measured in a real RPG Maker MZ runtime with the map alight, over 300-frame runs: 0.234 ms mean plugin CPU per frame, 2.0 ms at the 99th percentile, and zero frames over the 16.67 ms frame budget.</strong> Display objects do not grow while it runs. If you want it cheaper, raise the simulation step; if you want it smoother, lower it.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li>Five plain, readable, uncompressed JavaScript files. No minification, no obfuscation.</li>
+<li>Full documentation, including every parameter, every command and the whole material table.</li>
+<li>Commercial and non-commercial use in unlimited games. No royalties.</li>
+</ul>
+
+<p><strong>AI disclosure:</strong> this plugin's code and its store artwork were generated with AI assistance. It ships no third-party assets, no sound and no dialogue.</p>
+
+<h3>More RPG Maker MZ systems from Core Systems Asset Factory</h3>
+<p>Touchpaper changes what the ground <em>is</em>. These change what the player <em>looks at</em>:</p>
+<ul>
+<li><a href="https://csaf.itch.io/liturgy">Liturgy</a> &mdash; every menu becomes a printed object.</li>
+<li><a href="https://csaf.itch.io/frontispiece">Frontispiece</a> &mdash; the title screen draws itself from the game you actually made.</li>
+<li><a href="https://csaf.itch.io/chorograph">Chorograph</a> &mdash; a drawn land survey of your world map.</li>
+<li><a href="https://csaf.itch.io/barrow">Barrow</a> &mdash; every death carves its own marker.</li>
+<li><a href="https://csaf.itch.io/verdict-core">Verdict Core</a> &mdash; the mystery-game layer MZ has no answer for.</li>
+</ul>
+<p><a href="https://csaf.itch.io">See the whole catalogue &rarr;</a></p>
