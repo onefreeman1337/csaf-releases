@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Cook Failure Triage and Auto-Remediation  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-09-09
+**Docs published:** 2026-09-10
 
 
 ---
@@ -22,8 +22,8 @@ reversible with one switch.
 
 ## The problem this exists for
 
-A single damaged package makes UE 5.8 emit roughly **1,400 `Package is unloadable` errors, of which
-exactly one is true.**
+A single damaged package makes UE 5.8 emit **more than a thousand `Package is unloadable` errors,
+of which exactly one is true.**
 
 Measured on real cooks with a clean control run first:
 
@@ -32,18 +32,33 @@ Measured on real cooks with a clean control run first:
 | baseline | nothing | 0 | 578 | 585 |
 | corrupt A | one `.uasset` truncated | 1,412 (1 true) | 405 | 412 |
 | corrupt B | a different `.uasset` truncated | 1,339 (1 true) | 524 | 531 |
+| corrupt C | one `.uasset` truncated | 1,538 (1 true) | 525 | 532 |
+| header only | 4 tag bytes overwritten | 1 | 578 | 585 |
+
+Corrupt C is the run the store listing's screenshots were cropped from.
+
+**The size of the cascade is not a constant.** The three truncation runs above produced 1,339,
+1,412 and 1,538 accusations, because how far the asset scan gets before the damage interrupts it
+varies between runs. The *shape* was identical every time: exactly one true cause, a false cascade
+in the thousands, and nearly all of it aimed at engine content. Treat any single figure here as one
+draw, not as a specification.
+
+The `header only` row is the control that explains the mechanism. Overwriting the four tag bytes
+instead of truncating the body produces **one** accusation and no cascade at all: the bad tag makes
+the reader return early, before it can enter the error state that the `|| IsError()` half of the
+condition below then reports about every file after it.
 
 An *accusation* is a distinct package named in a `Package is unloadable` line. The raw log carries
 about fifty more of those lines than there are packages, because some accusations are echoed;
 Cook Doctor counts the packages, which is why its number is the smaller one.
 
-**1,408 of the false accusations in the first run named files inside the installed engine
+**1,534 of the false accusations in corrupt C named files inside the installed engine
 directory** - files whose bytes are perfect. The natural reading of that log is "my engine
 installation is corrupt, verify or reinstall it", and that is hours spent on the wrong thing.
 
 There is a second cost nobody is told about. The failing cook did not merely print errors, it
-**cooked 405 packages where the clean control cooked 578** - and it did not say so anywhere. It
-also *found* fewer packages to begin with (412 against 585), because the damage interrupts the
+**cooked 525 packages where the clean control cooked 578** - and it did not say so anywhere. It
+also *found* fewer packages to begin with (532 against 585), because the damage interrupts the
 scan before the cook.
 
 ### Why the engine says it
