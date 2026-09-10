@@ -33,13 +33,15 @@ Measured on real cooks with a clean control run first:
 | corrupt A | one `.uasset` truncated | 1,412 (1 true) | 405 | 412 |
 | corrupt B | a different `.uasset` truncated | 1,339 (1 true) | 524 | 531 |
 | corrupt C | one `.uasset` truncated | 1,538 (1 true) | 525 | 532 |
+| corrupt D | the same `.uasset` truncated again | 1,779 (1 true) | 418 | 425 |
 | header only | 4 tag bytes overwritten | 1 | 578 | 585 |
 
-Corrupt C is the run the store listing's screenshots were cropped from.
+Corrupt D is the run the store listing's screenshots were cropped from.
 
-**The size of the cascade is not a constant.** The three truncation runs above produced 1,339,
-1,412 and 1,538 accusations, because how far the asset scan gets before the damage interrupts it
-varies between runs. The *shape* was identical every time: exactly one true cause, a false cascade
+**The size of the cascade is not a constant.** The four truncation runs above produced 1,339,
+1,412, 1,538 and 1,779 accusations, because how far the asset scan gets before the damage interrupts
+it varies between runs. Corrupt C and corrupt D are the *same break of the same file* and differ by
+241 accusations, which is the clearest demonstration of the point. The *shape* was identical every time: exactly one true cause, a false cascade
 in the thousands, and nearly all of it aimed at engine content. Treat any single figure here as one
 draw, not as a specification.
 
@@ -52,13 +54,13 @@ An *accusation* is a distinct package named in a `Package is unloadable` line. T
 about fifty more of those lines than there are packages, because some accusations are echoed;
 Cook Doctor counts the packages, which is why its number is the smaller one.
 
-**1,534 of the false accusations in corrupt C named files inside the installed engine
+**1,775 of the false accusations in corrupt D named files inside the installed engine
 directory** - files whose bytes are perfect. The natural reading of that log is "my engine
 installation is corrupt, verify or reinstall it", and that is hours spent on the wrong thing.
 
 There is a second cost nobody is told about. The failing cook did not merely print errors, it
-**cooked 525 packages where the clean control cooked 578** - and it did not say so anywhere. It
-also *found* fewer packages to begin with (532 against 585), because the damage interrupts the
+**cooked 418 packages where the clean control cooked 578** - and it did not say so anywhere. It
+also *found* fewer packages to begin with (425 against 585), because the damage interrupts the
 scan before the cook.
 
 ### Why the engine says it
@@ -98,8 +100,8 @@ Cook Doctor checks them.
    quarantine folder, writes a journal, and tells you which packages referenced it. Nothing is ever
    deleted, nothing outside the project is ever touched, and `-Undo=<journal>` puts everything back.
 5. **Proves the repair** rather than asserting it. `-Prove` compares the failing log with the re-cook
-   and prints the delta that matters. On the fixture run that produced this Readme, that was
-   `accusations 1768 -> 0` and `packages 481 -> 578 (of 488 and 585 total)`, copied from the tool's
+   and prints the delta that matters. On the `corrupt D` run above, that was
+   `accusations 1779 -> 0` and `packages 418 -> 578 (of 425 and 585 total)`, copied from the tool's
    own output. Your numbers will differ - the count of false accusations is not a constant, and the
    only part of it that reproduced across runs is the shape: exactly one true cause, a large false
    cascade after it, and both gone once the damaged package is dealt with.
@@ -220,6 +222,22 @@ you re-cook and run `-Prove`.
 - **A bad file header does not cascade.** Same fixture, one variable: truncating a package body
   produced 1,338 false accusations, overwriting its first four bytes produced one and no cascade.
 - **Verified on UE 5.8 only**, because 5.8 is the only version it has been built and run against.
+
+## The report's typeface
+
+The HTML report sets its headline and its counts in **Manrope**, embedded in the plugin binary as a
+base64 woff2 so a saved report renders the same way on a build machine with no network and nothing
+installed. Paths stay in Cascadia Mono, and body text falls back to whatever the reader's system
+provides.
+
+> Manrope is Copyright 2019 The Manrope Project Authors
+> (<https://github.com/sharanda/manrope>), licensed under the **SIL Open Font License, Version
+> 1.1**, which expressly permits embedding the font in a document. The licence text is at
+> <https://scripts.sil.org/OFL>. Manrope is not sold as part of this product and no part of this
+> licence applies to the rest of the plugin.
+
+The byte count and sha256 of the exact font file compiled in are recorded at the top of
+`Source/CookDoctor/Private/CDReportFont.cpp`.
 
 ## AI disclosure
 
