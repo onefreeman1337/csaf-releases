@@ -1,0 +1,39 @@
+{
+ "packId": "verdant-25-infernal",
+ "title": "Verdant 25 — Infernal Tileset for RPG Maker MZ, Tiled & Godot: Lava, Basalt, Ash & Brimstone [16x16]",
+ "shortText": "848 tiles, 12 complete 47-mask sets, 44 objects. MZ, Tiled and Godot importers.",
+ "priceUSD": 9.99,
+ "tags": [
+  "tileset",
+  "tilemap",
+  "16x16",
+  "pixel-art",
+  "rpgmaker",
+  "rpg-maker-mz",
+  "godot",
+  "top-down",
+  "asset-pack",
+  "dark-fantasy"
+ ],
+ "classification": "assets",
+ "aiDisclosure": {
+  "aiGenerated": "yes",
+  "code": true,
+  "graphics": true,
+  "sounds": false,
+  "textAndDialog": false
+ },
+ "metadata": {
+  "languages": [
+   "English"
+  ],
+  "madeWith": [
+   "RPG Maker MZ",
+   "Tiled",
+   "Godot"
+  ],
+  "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+ },
+ "description": "<p><strong>848 tiles at 16x16</strong> for the layer below the dungeon: a\nlava channel, cooling crust, fractured basalt, ash fall, sulphur flats and volcanic glass, and the workings\nsomebody left down there — a gate in the wall, a rail run and its cart, iron bridges over the melt, a cage,\nthe stores. <strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong>\nthe one thing you may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the\nengine it targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>564 of the 848 tiles are transitions</strong> — 67% of the pack.\n12 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a 47-mask set missing three tiles is broken in\nyour map and you find out while you are painting.</li>\n<li><strong>6 materials on a measured value ladder</strong>, each with its own construction: glass\nin a few flat facets with a lit ridge, basalt as bevelled slabs, clinker as lumpy rubble, ash with a broken\nwind ripple, sulphur under a flat crackle, magma as glowing cells. The smallest gap on the ladder is\n23.5 luma, measured from the emitted pixels.</li>\n<li><strong>44 objects</strong> across 160 tiles — columns, crags, crystals in sulphur and\nglass, a rune-cut monolith, stalagmites, a portcullis, a ruined door, a cage, an anvil, chests, crates,\nsacks, skull piles, a bone fence, a minecart and a rail run in 7 pieces, and bridges for the\nmelt. Each ships transparent, and grounded on every surface it belongs to with the contact shadow drawn.</li>\n<li><strong>7 animated objects</strong>, 100 frames: a brazier, a lava fall, a\nhanging lantern, a lava geyser, a fumarole vent, a bed of embers and a bubbling sulphur pool.</li>\n<li><strong>Two finished sample maps</strong> — a 36x26 sulphur works and a\n24x16 vent chamber — each as a PNG and as JSON naming every cell by tile id, the first\nalso as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>24 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line\nyourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 954 files in total.</li>\n</ul>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong> — an A2 autotile sheet (the page MZ's own autotile brush paints) plus\nB/C/D/E object pages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE:\n12 of 12 sets, 564 of 564 masked tiles, and\n576 of 576 shapes came back byte-identical.</li>\n<li><strong>Tiled</strong> — one <code>.tsx</code> per group, all 16 opened and rendered by\nTiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets:\n1,024 sheet cells, 0 differing.</li>\n<li><strong>Godot 4</strong> — a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n16 atlas sources, 848 of 848 declared tiles built, 112 of\n112 multi-cell footprints exact. Every sheet is referenced by a relative filename, so the folder\nloads from wherever you put it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 69 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete — exact checks, run on\nevery build.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own\ninterior, and every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are\nmachine-proven. The renders ship with the pack so you can judge them yourself.</p>\n<p>⚠️ RPG Maker MZ animates tiles only through its A1 page, so in MZ the 7 animated objects\narrive as static frames on page E. Tiled and Godot play them.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>magma_on_basalt</code></li>\n<li><code>magma_on_clinker</code></li>\n<li><code>magma_on_obsidian</code></li>\n<li><code>clinker_on_basalt</code></li>\n<li><code>cinder_on_basalt</code></li>\n<li><code>cinder_on_clinker</code></li>\n<li><code>brimstone_on_clinker</code></li>\n<li><code>brimstone_on_cinder</code></li>\n<li><code>obsidian_on_basalt</code></li>\n<li><code>basalt_on_clinker</code> — with a wall face</li>\n<li><code>basalt_on_cinder</code> — with a wall face</li>\n<li><code>basalt_on_brimstone</code> — with a wall face</li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn from one palette at one cell size, so this layer sits under the\nothers.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-05-depths\">Verdant 05 — Depths</a> — the dungeon, cave and crypt this layer lies under</li>\n<li><a href=\"https://csaf.itch.io/verdant-06-gothic\">Verdant 06 — Gothic</a> — the chapel and graveyard above it, in the same palette</li>\n<li><a href=\"https://csaf.itch.io/verdant-13-castle\">Verdant 13 — Castle</a> — the fortress a descent would start from</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may\nnot resell or redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series,\nand that generator's code was written with AI assistance — no diffusion model is anywhere in the tile\npipeline. The cover illustration is AI-generated.</p>",
+ "builtAt": "2026-09-11T15:31:33.859Z"
+}
