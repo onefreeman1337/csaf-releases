@@ -1,0 +1,73 @@
+<h3>Your cooking system already knows what went in. Nothing draws it.</h3>
+
+<p>Every crafting and cooking plugin for MZ ends the same way: the recipe succeeds, and the player is handed a line of text and a 32-pixel icon. The thing they actually cooked is never shown.</p>
+
+<p><strong>Refectory draws it.</strong> It reads the ingredients that went into a dish and plates the meal, in code, at run time.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>RefectoryRender.js</code> — Refectory [1/4] — drawing primitives. One light, the pantry palette, seeded RNG, lit masses, garnish placement rules, the shipped typefaces. v1.0.0</li>
+<li><code>RefectoryDish.js</code> — Refectory [2/4] — the reading. Turns an ingredient list into a dish profile: component, vessel, sauce behaviour, colour, portions, char. v1.0.0</li>
+<li><code>RefectoryPlate.js</code> — Refectory [3/4] — the drawing. Sixteen service vessels, twenty principal components, ten finishes, garnish placement, steam and the hand-set menu card.</li>
+<li><code>Refectory.js</code> — Refectory [4/4] — the scenes, parameters and commands. Your players see the meal their ingredients actually made: a plated dish on a walnut table with…</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Refectory works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suites, the store-plate renderer, the capture pipeline and the in-engine verification all load the four files <strong>alphabetically</strong> — which puts the entry file <code>Refectory.js</code> <em>first</em>, before the reader, the plate and the drawing kit it uses, and that is the order you get by dragging the folder in — and the in-engine run asserts all four resolved anyway, with 4 plugins live in the plate scene. <code>Refectory.js</code> is the only one that touches RPG Maker at all; the other three are a reader that turns an ingredient list into a dish profile, a plate renderer and a drawing kit, and none of them knows the engine exists. Switch <code>Refectory.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 5 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Scene_Boot.prototype.start</code>, <code>Scene_Item.prototype.useItem</code>, <code>Game_Party.prototype.gainItem</code>, <code>Scene_Map.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Refectory co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What it draws</h3>
+
+<ul>
+<li>a <strong>service vessel</strong> chosen from the kind of dish and how grand it is: a board, a trencher, a cauldron, a slate, a pie dish, a leaf wrap, a cloth bundle, a tankard (<strong>16 in all</strong>)</li>
+<li>a <strong>principal component</strong> built from those ingredients: a carved joint with the bone showing, a rack of ribs, a whole bird, caramelised roots, a lattice pie whose filling shows between the strips, a stew with the chunks that are really in it (<strong>20 forms</strong>)</li>
+<li>a <strong>finish</strong> that behaves like one: a jus pools along the inner rim, a glaze takes a specular, a dusting sits on top, a char eats the gloss (<strong>10 finishes</strong>)</li>
+<li><strong>garnish</strong> placed by rules rather than scattered, steam if it is hot, and a <strong>hand-set menu card</strong> naming the dish and listing what went in</li>
+</ul>
+
+<p>Change the ingredients and the picture changes. <strong>Nothing here is an image file.</strong> Every plate is drawn in code at run time, so a dish you invent tomorrow is drawn tomorrow, without anyone opening a paint program and without adding a single asset to your project.</p>
+
+<h3>One roast. Four ingredient lists. Four pictures.</h3>
+
+<p>That is the <em>one roast</em> gallery image, and it is the whole product in one frame: the same roast component, four different ingredient lists, four different meals. A boar haunch becomes a carved joint. Dragon ribs become a lacquered rack on a slate. A goose becomes a whole bird on a bread trencher. Turnips become caramelised roots.</p>
+
+<h3>The three places your players meet food</h3>
+
+<ul>
+<li><strong>Cooking result.</strong> One plugin command after your crafting plugin hands over the item, or switch on "Plate dishes as they are gained" and it happens by itself.</li>
+<li><strong>Tavern menu.</strong> A menu card of dishes with the selected one plated beside it, priced from your database. It can sell them.</li>
+<li><strong>Item detail.</strong> Using a dish from the Item menu plates it, with the item's own description under its name.</li>
+</ul>
+
+<h3>Making an item a dish</h3>
+
+<pre><code>&lt;refectory ingredients: Boar Haunch, Wild Thyme, Coarse Salt, Honey&gt;</code></pre>
+
+<p>That is the whole minimum. Three optional tags force the kind of dish, the vessel or the quality. An item with the tag and no ingredient list is read from its own name: <em>Woodcutter's Bean Pot</em> is served in a pot, <em>Cellar Cheese Board</em> on a board, <em>Hunter's Pie</em> as a pie.</p>
+
+<p><strong>Ingredient words it has never seen still work.</strong> They contribute mass and colour by their own shape instead of being skipped, so a homebrew pantry does not need registering anywhere.</p>
+
+<h3>It does not look like RPG Maker</h3>
+
+<p>No default windowskin, no default frame, no pause sign, no stock cursor, and <strong>not RPG Maker's font</strong>: two typefaces ship with it (Cormorant Garamond and Alegreya Sans, both SIL Open Font Licence, both free to ship inside your game). If you skip installing them the card falls back to Georgia and a system sans. It never falls back to the engine's face, and a missing font file can never stop your game booting.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li>Four raw, readable <code>.js</code> files. <strong>No minified build</strong>, every public function documented in a header block, all of it yours to read and change.</li>
+<li>Two <code>.woff2</code> typefaces and their OFL licence files.</li>
+<li>A Readme that documents every parameter, command, notetag and script call, and every claim in it is exercised by a check that runs against the shipped bytes.</li>
+<li>Tested in the real engine, not only in tests: the package is installed into a blank MZ project and used the way a buyer uses it, before every release.</li>
+</ul>
+
+<h3>Also from Core Systems Asset Factory</h3>
+
+<p><a href="https://csaf.itch.io/formulary">Formulary</a> draws the recipe; Refectory draws the meal. They are built to sit side by side, the same buyer, the two halves of the same screen.</p>
+
+<p>More generated-art plugins for MZ: <a href="https://csaf.itch.io/cartouche">Cartouche</a> &middot; <a href="https://csaf.itch.io/courtcard">Courtcard</a> &middot; <a href="https://csaf.itch.io/specie">Specie</a> &middot; <a href="https://csaf.itch.io/liturgy">Liturgy</a></p>
+
+<hr>
+
+<p><em>Made with AI assistance. Code: yes. Graphics: yes, the plugin generates every plate procedurally and the cover is a generated illustration. Sounds: no. Text and dialog: no.</em></p>
