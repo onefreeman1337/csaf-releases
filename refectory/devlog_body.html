@@ -1,0 +1,30 @@
+<p>Refectory is live. It reads the ingredients your cooking or crafting system already tracked and draws the finished dish.</p>
+
+<p>Every crafting plugin for MZ ends the same way. The recipe succeeds, and the player gets a line of text and a 32 pixel icon. The meal itself is never shown. That is the gap this fills.</p>
+
+<p>What it draws, from the ingredient list and nothing else:</p>
+
+<ul>
+<li>16 service vessels, chosen from the kind of dish and how grand it is</li>
+<li>20 principal components, built from what actually went in</li>
+<li>10 finishes that behave like finishes. A jus pools along the inner rim, a glaze takes a specular, a dusting sits on top, a char eats the gloss.</li>
+<li>garnish placed by rules, steam if the dish is hot, and a menu card naming the dish and listing its ingredients</li>
+</ul>
+
+<p>Nothing in there is an image file. Every plate is drawn in code when the scene opens, so a dish you invent tomorrow is drawn tomorrow, with no new art and no new assets in your project.</p>
+
+<p>The gallery image called "One roast. Four ingredient lists. Four pictures." is the honest test of that claim. All four are the same roast component. The ingredients chose a carved joint, a rack of ribs on slate, a whole bird on a bread trencher, and caramelised roots.</p>
+
+<p>Three integration points: a plugin command after your crafting plugin hands the item over, a tavern menu scene that can also sell dishes, and the Item menu, where using a dish plates it.</p>
+
+<p>Making an item a dish is one notetag:</p>
+
+<pre><code>&lt;refectory ingredients: Boar Haunch, Wild Thyme, Coarse Salt, Honey&gt;</code></pre>
+
+<p>Ingredient words it has never seen still work. They contribute mass and colour by their own shape rather than being skipped, so a homebrew pantry needs no registration anywhere.</p>
+
+<p>Five core methods are extended by saved original prototype extension and none is replaced, so it sits alongside large suites without fighting them. Four raw readable JavaScript files, no minified build. Two typefaces ship with it under the SIL Open Font Licence.</p>
+
+<p><a href="https://csaf.itch.io/refectory">Refectory</a> is $12.99. Its sibling <a href="https://csaf.itch.io/formulary">Formulary</a> draws the recipe; this one draws the meal.</p>
+
+<p><em>Made with AI assistance. Code: yes. Graphics: yes, the plugin generates every plate procedurally and the cover is a generated illustration. Sounds: no. Text and dialog: no.</em></p>
