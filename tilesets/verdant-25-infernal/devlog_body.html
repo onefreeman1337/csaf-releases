@@ -1,0 +1,22 @@
+<p>Verdant 25 is live. It is the layer below the dungeon: a lava channel, cooling crust, fractured basalt, ash fall, sulphur flats and volcanic glass, plus the workings somebody left down there.</p>
+
+<p>The pack ships 848 tiles at 16x16. 564 of them are transitions, which is 67% of the download, across 12 complete 47 mask autotile sets. There are 44 objects over 160 tiles, and 7 animated objects across 100 frames.</p>
+
+<p>Six materials sit on a measured value ladder. The smallest gap on that ladder is 23.5 luma, taken from the emitted pixels rather than from the palette on paper. The palette is locked to 69 colours and every pixel is checked against it on each build.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C, D, E object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 12 of 12 sets and 576 of 576 shapes byte identical.</li>
+<li>Tiled: 16 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 1,024 cells, 0 differing.</li>
+<li>Godot 4.7.2: a tres TileSet with 16 atlas sources. Godot itself counted 848 of 848 tiles and 112 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 24 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn from one palette at one cell size, so this layer sits under the others. <a href="https://csaf.itch.io/verdant-05-depths">Verdant 05 — Depths</a>, <a href="https://csaf.itch.io/verdant-06-gothic">Verdant 06 — Gothic</a>, <a href="https://csaf.itch.io/verdant-13-castle">Verdant 13 — Castle</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The cover illustration is AI generated.</p>
