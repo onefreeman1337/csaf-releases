@@ -77,6 +77,20 @@ Both open the Sequencer Event Rebinder panel with those roots filled in. The pan
 row per sequence with what it found, and does nothing to your project until you press Apply. Nothing
 is loaded to build the menu - the entries are driven from asset data only.
 
+Or open the same panel from the console (**`** in the editor), which does not depend on finding a
+context menu:
+
+```
+SER.OpenPanel /Game/Cine
+SER.OpenPanel /Game/Cine -Preview
+```
+
+Each argument is a content path or a Level Sequence object path; with no argument it opens on
+`/Game`. Add `-Preview` to walk the tree straight away, which writes nothing and fills the panel in
+with what it found. The commandlet below accepts `-Preview` too, where it is the explicit form of
+leaving `-Apply` off. In a commandlet there is no Slate application and no window, so `SER.OpenPanel`
+logs an error naming the headless entry point instead of opening anything.
+
 ## Run it from the command line
 
 ```
@@ -100,6 +114,7 @@ Add `-Apply` to write the repairs. Without it the run is a preview.
 | `-World=<level>` | The level the tree plays in. A reference is healthy only if it resolves there, counting the level's streaming sublevels. Default: the level each reference names. |
 | `-LevelRedirect=<old>=<new>[,...]` | A level rename that no redirector recorded. |
 | `-Apply` | Write the repairs, recompile each director, verify, save, journal. Takes no value. |
+| `-Preview` | The explicit form of leaving `-Apply` off: walk, resolve and report, writing nothing. Refused alongside `-Apply`. |
 | `-Undo=<journal.json>` | Put back everything one `-Apply` run wrote. Takes no other switch. |
 | `-ReportFile=<file.html>` | Report path. A `.json` twin is written beside it. |
 | `-Help` / `-?` | Print the switch and exit-code reference. |
@@ -177,8 +192,10 @@ relabelled, two actors sharing a label, and one stand-in of the wrong class.
 | `-Apply` | 47 | 129 | 63 | 126 | 62 | 62 | 3 sequences, 4 sites | 3 NeedsReview |
 | after the 4 refusals were resolved by hand | 47 | 129 | 63 | 3 | 1 | 1 | 0 | 0 Clean |
 
-The four refusals in the first run are the two duplicate-label actors, the wrong-class stand-in and
-a deleted actor. Those are the cases this tool is built **not** to guess at.
+The first run refuses **four references, in three sequences, from three causes**: one ambiguous
+label shared by two actors (`Cam_Close`, 1 reference), one wrong-class stand-in (`Cam_Aux`, 1
+reference), and a deleted actor nothing can resolve (`FX_Smoke`, 2 references). Those are the cases
+this tool is built **not** to guess at.
 
 That demo tree contains no Dynamic Binding payloads, so its `dynamicPayloadSites` count is 0. The
 dynamic-payload path is covered by the plugin's automation tests, not by that run.
