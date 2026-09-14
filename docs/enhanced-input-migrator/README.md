@@ -40,7 +40,7 @@ This tool does the rewire.
 ## Install
 
 1. Copy the `EnhancedInputMigrator` folder into your project's `Plugins` folder.
-2. Restart the editor. The plugin loads after engine init and registers three console commands.
+2. Restart the editor. The plugin loads at the default phase and registers three console commands.
 
 ## Use it from the editor
 
@@ -133,6 +133,15 @@ the absence of a write, which is the one kind of rollback that cannot itself fai
 backup of every package it is about to modify, taken before it modifies anything. If a backup cannot
 be taken the run refuses to write, because an unbacked modification is one you cannot take back.
 `-Undo` restores those backups and deletes the generated assets.
+
+> **Restart the editor after an in-editor `EnhancedInputMigrator.Undo`.** The undo restores the
+> package FILES on disk, and we have verified it does so byte for byte. What it cannot do is reach
+> into an already running editor and swap out the Blueprint objects it has loaded: those are still
+> the migrated ones until they are loaded again. So a `EnhancedInputMigrator.Preview` issued straight
+> after an undo in the same session reports finding no legacy nodes, and saving one of those
+> Blueprints would write the migrated version back over the file the undo just restored. Restarting
+> the editor resolves it completely. `-run=EIM -Undo` from the command line is not affected, because
+> that process exits when the run ends.
 
 **Writes an HTML report and a JSON twin** to `Saved/EnhancedInputMigrator/`, from the same run
 record, so the two can never disagree.
