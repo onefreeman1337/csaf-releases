@@ -1,0 +1,27 @@
+<p><strong>Visage is live.</strong> It reads the enemy and actor records you have already written and carves each one a mask, at run time, in code. No image files ship with it and none are added to your project.</p>
+
+<h3>What decides a face</h3>
+
+<p>Five axes, every one of them read out of your database rather than chosen by us:</p>
+
+<ul>
+<li><strong>Face structure</strong> from what the creature is, across ten silhouettes that are genuinely different shapes rather than one shape in ten colours.</li>
+<li><strong>Superstructure</strong> from where the record stands <em>in your own project</em> — level, experience and maximum HP as a percentile of every other record you have written. Twelve bands, from a bare brow to a sun disc. A small project's biggest monster still wears the crown, because rank is measured against your game and never against a table we shipped.</li>
+<li><strong>Pigment</strong> from what it strikes with: eight painted elements, laid as a real layer with a lit lip and a shadow cast on the bare ground beside it. Strike with Physical and it stays unpainted, so the bare wood or bone shows.</li>
+<li><strong>Inlay and binding</strong> from its house — a faction table, a notetag, or, if you declare nothing at all, the goods it drops. A creature that leaves a pelt belongs to a different house than one that leaves an axe.</li>
+<li><strong>Wear</strong> from rank and hardiness: grain, chips on the lit edge, and a crack that lengthens across five ages.</li>
+</ul>
+
+<p>That is 32,400 composable masks, and 56 of them come out of the demo bestiary alone. The second gallery image is that wall. Nothing on it was drawn by hand and nothing on it was chosen.</p>
+
+<h3>Three places a player meets one</h3>
+
+<p>The Unmasking, a full screen reveal on a plank wall with an engraved brass placard naming the four things that made the face. The Rack, a wall the player fills, where empty pegs still show their peg and cord so the collection reads as incomplete. And <code>Show Mask Picture</code>, which puts a mask into a <code>Game_Picture</code> so it behaves like any other picture in the event editor.</p>
+
+<h3>What was measured before it shipped</h3>
+
+<p>Both scenes are drawn from scratch: no <code>Window_Base</code>, no windowskin, no pause sign, and not RPG Maker's font. That is checked in the real engine by a chrome walk first proven able to see chrome on a stock scene, and it reports zero windows and zero buttons on both screens. Over 3,600 stepped frames the plugin's half of the frame costs 0.012 ms against a 2 ms budget, with two draw calls, no texture uploads and no display object growth. Seven core methods are extended by saved original, including two on singletons, and nothing is replaced, so it co-exists with the large suites.</p>
+
+<p>Raw readable JavaScript, four files, full JSDoc, nothing minified.</p>
+
+<p><em>Made with AI assistance. Code: yes. Graphics: yes. Sounds: no. Text and dialog: no.</em></p>
