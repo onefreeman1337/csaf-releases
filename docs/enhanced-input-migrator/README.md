@@ -50,10 +50,18 @@ EnhancedInputMigrator.Apply
 EnhancedInputMigrator.Undo
 ```
 
-`Preview` writes nothing. Start there and read the report.
+`Preview` changes nothing at all. Start there and read the report.
 
 All three accept the same switches as the commandlet, so
 `EnhancedInputMigrator.Apply -Dest=/Game/Input -NoCompositeKeys` works from the console too.
+
+> **A preview in the editor reads; a preview in the commandlet also compiles.** Inside a running
+> editor the preview inspects your graphs and changes nothing, because the editor would otherwise
+> keep every change a preview made after telling you it made none. The commandlet's `-Preview` does
+> the full rewire in memory and recompiles before throwing it all away, which is safe there because
+> the process exits. So the one thing the editor preview cannot tell you in advance is whether a
+> Blueprint will fail to recompile; it names how many would be compiled, and
+> `-run=EIM -Preview` answers it properly.
 
 > The console cannot set a process exit code. On Windows the engine's exit request becomes a quit
 > message, so an `-ExecCmds` run always returns 0 whatever happened. The result code is written to
