@@ -1,0 +1,89 @@
+<h3>Your database already describes every creature in the game. Nothing draws its face.</h3>
+
+<p>An enemy in RPG Maker MZ is a name, a set of parameters, an element it strikes with, some drops and a line in your bestiary. The player meets it as a battler sprite and a row in a menu. What it <em>is</em> never becomes a picture.</p>
+
+<p><strong>Visage carves it a mask.</strong> Not one picked out of a folder, one struck from that record's own fields, at run time, in code.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>VisageRender.js</code> — Visage [2/4] — the surface. Colour, the shipped faces, seeded grain, and the relief field every mask is lit from. v1.0.0</li>
+<li><code>VisageRead.js</code> — Visage [1/4] — the reading. Turns an enemy, actor or troop record into a mask profile: structure, superstructure, pigment, house, age, break. v1.0.0</li>
+<li><code>VisageCarve.js</code> — Visage [3/4] — the carving. Strikes a mask from a profile: ten face structures, twelve superstructures, banded pigment, inlay, wear, one break. v1.0.0</li>
+<li><code>Visage.js</code> — Visage [4/4] — the scenes, parameters and commands. Every spirit and beast in your database is carved a mask, and your players see it. v1.0.0</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Visage works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suites, the store-plate renderer, the capture pipeline and the in-engine verification all load the four files <strong>alphabetically</strong> — which puts the entry file <code>Visage.js</code> <em>first</em>, before the carver, the reader and the drawing kit it uses, and that is the order you get by dragging the folder in — and the in-engine run asserts all four resolved anyway, with five plugin commands registered and both scenes live. <code>Visage.js</code> is the only one that touches RPG Maker at all; the other three are a reader that turns a database record into a mask profile, a carver and a drawing kit, and none of them knows the engine exists. Switch <code>Visage.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 5 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Scene_Boot.prototype.start</code>, <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>, <code>Scene_Map.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Visage co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends 2 methods on core singletons, the same way — original saved and called through:</strong> <code>BattleManager.processVictory</code>, <code>ImageManager.loadPicture</code>. Another plugin patching those keeps working.</p>
+
+<h3>Where every part of the face comes from</h3>
+
+<ul>
+<li>the <strong>face structure</strong> comes from what the creature is: beast, humanoid, undead, spirit, construct, dragon, insect, aquatic, plant, fiend. <strong>Ten silhouettes</strong>, each a different shape, not one shape in ten colours</li>
+<li>the <strong>superstructure</strong> comes from where it stands <em>in your own database</em>: its level, experience and maximum HP as a percentile of every other record you have written. A bare brow at the bottom, a sun disc at the top, <strong>twelve bands</strong> between. Your biggest monster wears the crown even in a small project, because rank is measured against your game and never against a table we shipped</li>
+<li>the <strong>pigment</strong> comes from what it strikes with: its attack element, then the elements of its own skills, then what it resists. <strong>Eight painted elements</strong>, laid as a real layer with a lit lip and a shadow cast on the bare ground beside it. A creature that hits with Physical is left <strong>unpainted</strong>, and the bare wood or bone shows</li>
+<li>the <strong>inlay and binding</strong> come from its house: a faction table you declare, a notetag, or, if you declare nothing at all, the goods it carries. A creature that drops a pelt belongs to a different house than one that leaves an axe. <strong>Six treatments</strong></li>
+<li>the <strong>wear</strong> comes from its rank and hardiness: grain exposure, chips on the lit edge, and a crack that lengthens with age across <strong>five ages</strong></li>
+</ul>
+
+<p>Change the record and the mask changes. <strong>Nothing here is an image file.</strong> The package contains ten files and not one of them is a PNG.</p>
+
+<h3>32,400 composable masks, and 56 of them in the demo database alone</h3>
+
+<p>10 face structures &times; 12 superstructures &times; 9 pigment states &times; 6 inlays &times; 5 ages. The second gallery image is that wall: <strong>56 masks carved from one demo bestiary</strong>, every one traceable back to the record that made it. Nothing on that board was drawn by hand and nothing on it was chosen.</p>
+
+<h3>The three places your players meet a mask</h3>
+
+<ul>
+<li><strong>The Unmasking.</strong> A full screen reveal: the mask hanging from one iron peg on a plank wall, lit from the upper left so the grain, the inlay and the cracks read, with a brass placard engraved underneath naming the creature and the four things that made its face. It happens by itself the first time the party defeats something, or on a plugin command when you want to choose the moment.</li>
+<li><strong>The Rack.</strong> The wall the player fills. A solved grid of pegs, each taken mask hanging at its own tilt, <strong>empty pegs still showing their peg and cord</strong> so the collection reads as incomplete. A brass count plate says how many of how many. One command on the main menu.</li>
+<li><strong>A mask in a cutscene.</strong> <code>Show Mask Picture</code> puts a mask into a <code>Game_Picture</code>, so it can be moved, tinted, timed and erased like any other picture in the event editor.</li>
+</ul>
+
+<h3>Overruling it</h3>
+
+<pre><code>&lt;visage type: beast&gt;            beast humanoid undead spirit construct
+                                dragon insect aquatic plant fiend
+&lt;visage rank: 9&gt;                0-11, instead of the database percentile
+&lt;visage element: fire&gt;          by name or by index
+&lt;visage faction: Barrow Kin&gt;    the house it belongs to
+&lt;visage age: ancient&gt;           green seasoned old ancient relic
+&lt;visage name: The Bog Wight&gt;    what is engraved on the placard
+&lt;visage: skip&gt;                  never carve this record</code></pre>
+
+<p><strong>Seven notetags</strong>, on an Enemy or an Actor, for when you want to overrule anything it derived. Declare none of them and every enemy and actor in the project still gets a face, because everything is derived from fields you have already filled in. Every mask also carries exactly one seeded structural break, hashed from the record's own id, so a creature's mask is always the same mask.</p>
+
+<h3>It does not look like RPG Maker</h3>
+
+<p>No <code>Window_Base</code>, no windowskin, no default frame, no pause sign, and <strong>not RPG Maker's font</strong>. Both scenes are drawn from scratch. That is verified in the real engine by a chrome walk that is first proven able to see chrome on a stock scene: <strong>0 windows and 0 buttons</strong> on both screens. Two typefaces ship with it, Cinzel and Crimson Pro, both SIL Open Font Licence and both free to ship inside your game, loaded through the browser's own <code>FontFace</code> loader so a missing font file is a fallback and never a crash.</p>
+
+<h3>It costs nothing per frame</h3>
+
+<p>Every mask is baked once into a <code>Bitmap</code> and cached by profile and size. Measured in the engine over 3,600 stepped frames, on both of its screens: <strong>2 draw calls, 0 texture uploads, 0 bitmap dirties, 0 windows drawn and zero display object growth</strong>, with the plugin's half of the frame at <strong>0.012 ms</strong> against a 2 ms budget.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li>Four raw, readable <code>.js</code> files. <strong>No minified build</strong>, full JSDoc on every public function, all of it yours to read and change.</li>
+<li>Two <code>.woff2</code> typefaces and their OFL licence files.</li>
+<li>A Readme documenting every parameter, command, notetag and script call, where every claim is exercised by a check that runs against the shipped bytes.</li>
+<li>Tested in the real engine rather than only in tests: the package is installed into a blank MZ project and used the way a buyer uses it before release.</li>
+<li>One commercial licence, unlimited games.</li>
+</ul>
+
+<h3>Honest about what it is not</h3>
+
+<p>It does not replace your battler sprites and it draws no map. It is one thing done properly: the face your creature would wear, struck from the record you already wrote.</p>
+
+<h3>Also from Core Systems Asset Factory</h3>
+
+<p><a href="https://csaf.itch.io/armorial">Armorial</a> draws a coat of arms for every character and faction from the deeds the playthrough recorded, the same houses Visage inlays into its masks. <a href="https://csaf.itch.io/elytra">Elytra</a> is the same idea pointed at insects, with its own collection screen.</p>
+
+<p>More generated art plugins for MZ: <a href="https://csaf.itch.io/refectory">Refectory</a> &middot; <a href="https://csaf.itch.io/cartouche">Cartouche</a> &middot; <a href="https://csaf.itch.io/courtcard">Courtcard</a> &middot; <a href="https://csaf.itch.io/liturgy">Liturgy</a></p>
+
+<hr>
+
+<p><em>Made with AI assistance. Code: yes. Graphics: yes, the plugin generates every mask procedurally and the cover is a generated illustration. Sounds: no. Text and dialog: no.</em></p>
