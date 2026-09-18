@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Cook Failure Triage and Auto-Remediation  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-09-10
+**Docs published:** 2026-09-18
 
 
 ---
@@ -108,7 +108,88 @@ Cook Doctor checks them.
 
 ---
 
-## Quick start
+## Install
+
+1. Install Cook Doctor to **Unreal Engine 5.8** from your Fab library (or copy the `CookDoctor` folder
+   into `<YourProject>/Plugins/`).
+2. Open your project, go to **Edit > Plugins**, search for **Cook Doctor**, tick **Enabled**, and
+   restart the editor when asked.
+
+## Step by step: reproduce the documented result on a blank project (about 15 minutes)
+
+Cook Doctor reads a *failed* cook, so the walkthrough first makes one on purpose. Every command below
+runs in **PowerShell**. The project path used throughout is `D:\CookDoctorTrial`; if you use another
+path, change it in every command.
+
+**Step 1. Make a blank project with something to cook.**
+In the Unreal Project Browser choose **Games > Blank**, **Blueprint**, no Starter Content, and create it
+at `D:\CookDoctorTrial`. Enable Cook Doctor (see Install). In the Content Browser, right-click and choose
+**Blueprint Class > Actor**, name it `BP_Trial`, and drag it into the level. **File > Save Current Level
+As** `TrialMap`, then **File > Save All**, then **close the editor**.
+
+**Step 2. Damage one file, the way an interrupted sync or save does.** Keep a backup first:
+
+```powershell
+$f = "D:\CookDoctorTrial\Content\BP_Trial.uasset"
+Copy-Item $f "$env:TEMP\BP_Trial.backup.uasset"
+$b = [IO.File]::ReadAllBytes($f); [IO.File]::WriteAllBytes($f, [byte[]]$b[0..([int]($b.Length / 2) - 1)])
+```
+
+This keeps the file's valid header and cuts its body in half.
+
+**Step 3. Cook, and keep the log.**
+
+```powershell
+& "C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" `
+  "D:\CookDoctorTrial\CookDoctorTrial.uproject" -run=cook -targetplatform=Windows `
+  -unattended -nopause -nosplash -abslog="D:\CookDoctorTrial\Saved\Logs\Cook.log"
+```
+
+Expected: the cook reports errors, and `Cook.log` contains many `Package is unloadable` lines, most of
+them naming files inside the engine installation.
+
+**Step 4. Ask Cook Doctor which accusation is true.**
+
+```powershell
+& "C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" `
+  "D:\CookDoctorTrial\CookDoctorTrial.uproject" -run=CookDoctor `
+  -CookLogPath="D:\CookDoctorTrial\Saved\Logs\Cook.log" `
+  -Report="D:\CookDoctorTrial\Saved\CookDoctor.html" -unattended -nopause -nosplash
+echo $LASTEXITCODE
+```
+
+Expected, in the output: `TRUE CAUSE(S)  1 - verified against the bytes on disk`, then
+`<Project>/Content/BP_Trial.uasset` with `evidence : header intact, body truncated`, then a
+`DISPROVED` line saying every other accusation is false. The exit code is **4** (`FindingsFound`).
+Open `D:\CookDoctorTrial\Saved\CookDoctor.html` in a browser to see the same result as a report. The
+number of false accusations differs from run to run; one true cause does not.
+
+**Step 5. Repair it, reversibly.** Run the Step 4 command again with `-Fix` added. Expected: the damaged
+file is moved to `D:\CookDoctorTrial\Saved\CookDoctor\Quarantine\<time>\`, a `Journal` path is printed,
+and nothing is deleted.
+
+**Step 6. Cook again**, with Step 3's command but `-abslog="D:\CookDoctorTrial\Saved\Logs\Cook_after.log"`.
+Expected: no `Package is unloadable` lines.
+
+**Step 7. Prove the repair.**
+
+```powershell
+& "C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" `
+  "D:\CookDoctorTrial\CookDoctorTrial.uproject" -run=CookDoctor `
+  -CookLogPath="D:\CookDoctorTrial\Saved\Logs\Cook_after.log" `
+  -Prove="D:\CookDoctorTrial\Saved\Logs\Cook.log" -unattended -nopause -nosplash
+```
+
+Expected: `accusations  <N>  ->  0` and a `packages` line showing more packages cooked than before,
+exit code **0** (`Clean`).
+
+**Step 8 (optional). Put everything back.** `-run=CookDoctor -Undo="<the Journal path from Step 5>"`
+prints `Restored 1 file(s), refused 0.` The damaged file is back, so restore your backup from Step 2
+(`Copy-Item "$env:TEMP\BP_Trial.backup.uasset" $f`) before you use the project again.
+
+In the editor, the same body runs from the console: `Cook.Doctor CookLogPath=<path> Fix`.
+
+## Quick start on your own project
 
 ```
 "C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" ^
@@ -118,19 +199,8 @@ Cook Doctor checks them.
     -unattended -nopause -nosplash
 ```
 
-Then, if it named a damaged file and you have no version control to restore it from:
-
-```
-    -run=CookDoctor -CookLogPath="...\Cook.log" -Fix
-```
-
-Re-cook, and prove it:
-
-```
-    -run=CookDoctor -CookLogPath="...\Cook_after.log" -Prove="...\Cook.log"
-```
-
-In the editor, the same body runs from the console: `Cook.Doctor CookLogPath=... Fix`.
+Then `-Fix` if it named a damaged file you cannot restore from version control, re-cook, and
+`-Prove="<the failing log>"` with `-CookLogPath` pointing at the new cook log.
 
 ---
 
@@ -225,19 +295,8 @@ you re-cook and run `-Prove`.
 
 ## The report's typeface
 
-The HTML report sets its headline and its counts in **Manrope**, embedded in the plugin binary as a
-base64 woff2 so a saved report renders the same way on a build machine with no network and nothing
-installed. Paths stay in Cascadia Mono, and body text falls back to whatever the reader's system
-provides.
-
-> Manrope is Copyright 2019 The Manrope Project Authors
-> (<https://github.com/sharanda/manrope>), licensed under the **SIL Open Font License, Version
-> 1.1**, which expressly permits embedding the font in a document. The licence text is at
-> <https://scripts.sil.org/OFL>. Manrope is not sold as part of this product and no part of this
-> licence applies to the rest of the plugin.
-
-The byte count and sha256 of the exact font file compiled in are recorded at the top of
-`Source/CookDoctor/Private/CDReportFont.cpp`.
+The HTML report is set in the fonts your system already has (Segoe UI and Cascadia Mono on Windows).
+The plugin ships no font files and no third-party code of any kind.
 
 ## AI disclosure
 
