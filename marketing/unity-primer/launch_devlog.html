@@ -1,0 +1,26 @@
+<p><strong>Primer is out for Unity.</strong> It draws the printed how-to-play page, the kind that came folded inside a game box, from your game's own input bindings and tutorial steps.</p>
+
+<h3>Why it exists</h3>
+
+<p>Input prompt packs give you a sheet of button icons. What they cannot do is lay out a page that knows which key does what in <em>your</em> game, and redraw it when the player rebinds. Primer takes the binding list you already have, so the diagram, the numbered callouts, the leader lines and the legend all come from the same data and move together.</p>
+
+<h3>What is on the page</h3>
+
+<ul>
+<li>FIG. 1 is your active control scheme drawn whole: keyboard, gamepad, or mouse and touch.</li>
+<li>Bound controls print at full ink with a numbered callout. Controls your game never mentions are ghosted. Controls you list but leave unbound get their own legend row, so a player learns the action exists.</li>
+<li>The right page is your numbered steps, each with its screenshot re-screened as a two-ink halftone, plus a hazard key.</li>
+<li>Four paper stocks change the paper, the ink, the dot pitch and the ink spread.</li>
+</ul>
+
+<p>There are 78 hand-authored marks, and every control has a pressed state that is its own drawing. Gamepad buttons are drawn by position, never as a console maker's glyph.</p>
+
+<h3>Works with whatever input setup you use</h3>
+
+<p>A control is the generic Input System path string. The composing code does not depend on the Input System package, so the legacy Input Manager, Rewired or your own bindings file all produce the same page.</p>
+
+<p>Honest limits: a full 1920x1200 spread with four screenshots measured 3.7 to 5.1 seconds on one machine, so the package documents composing it off the main thread when a binding changes, never per frame. One spread draws one control scheme.</p>
+
+<p><a href="https://csaf.itch.io/primer">Primer on itch.io</a> is $12.99. The full guide is <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/primer/README.md">here</a>.</p>
+
+<p><em>AI disclosure: the code, including the code that draws every page, was written with AI assistance. There is no image model in the art path.</em></p>
