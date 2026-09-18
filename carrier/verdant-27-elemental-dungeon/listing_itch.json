@@ -1,0 +1,107 @@
+{
+  "packId": "verdant-27-elemental-dungeon",
+  "title": "Verdant 27 — Elemental Dungeon Tileset for RPG Maker MZ, Tiled & Godot: Fire, Ice, Flora & Storm Halls [16x16]",
+  "shortText": "864 tiles: fire, ice, flora and storm halls, 13 complete 47-mask sets. MZ, Tiled, Godot.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "fantasy",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "fantasy": "roguelike"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 05 — Depths",
+      "url": "https://csaf.itch.io/verdant-05-depths",
+      "why": "the dungeon, cave and crypt this nave floor comes from, byte for byte"
+    },
+    {
+      "label": "Verdant 25 — Infernal",
+      "url": "https://csaf.itch.io/verdant-25-infernal",
+      "why": "the layer below the dungeon: magma, ash and brimstone"
+    },
+    {
+      "label": "Verdant 13 — Castle",
+      "url": "https://csaf.itch.io/verdant-13-castle",
+      "why": "the curtain wall, keep and gatehouse above it"
+    }
+  ],
+  "derived": {
+    "tiles": 864,
+    "cell": 16,
+    "materials": 10,
+    "variants": 4,
+    "autotileTiles": 611,
+    "autotileSets": 13,
+    "propTiles": 105,
+    "objects": 56,
+    "staticObjects": 47,
+    "shapes": 47,
+    "animCount": 9,
+    "animSurfaces": 0,
+    "animObjects": 9,
+    "animatedTiles": 108,
+    "palette": 74,
+    "renders": 40,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 215,
+    "ladderGap": "16.0",
+    "files": 988,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "mzSetsFound": 13,
+    "mzSetsEmitted": 13,
+    "mzMasked": 611,
+    "mzMaskedTotal": 611,
+    "mzShapes": 624,
+    "mzShapesTotal": 624,
+    "tsx": 17,
+    "tiledCells": "1,120",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 17,
+    "godotTiles": 864,
+    "godotMulti": 64,
+    "animPage": "pages B and C",
+    "transitionShare": 71,
+    "mzStamps": 539
+  },
+  "engineMeasuredAt": "2026-09-18T22:43:54.169Z",
+  "description": "<p><strong>864 tiles at 16x16</strong> for a dungeon of four elemental\nhalls: coursed firebrick with live coals, faceted ice, a moss floor with roots, and fractured storm slate, all\nopening off one dark flagstone nave, with a rune channel carrying each hall's light out across the floor.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing\nyou may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the\nengine it targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>611 of the 864 tiles are transitions</strong> — 71% of the pack.\n13 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a 47-mask set missing three tiles is broken in\nyour map and you find out while you are painting.</li>\n<li><strong>The halls meet each other, not only the nave.</strong> Four hall floors on the flagstone, four\nelement-meets-element sets that form a ring (ember, rime, storm, bloom and back), four rune channels and a\ngranite wall. Lay the halls in ring order and every corner where two of them touch has a real transition.</li>\n<li><strong>10 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so four halls do not collapse into one muddy dark. The smallest gap on the ladder is 16.0 luma,\nmeasured from the shipped pixels.</li>\n<li><strong>56 objects</strong> across 105 tiles, one ornament metal per hall (iron for fire,\nsilver for ice, verdigris for flora, brass for storm): hall gates, 3x3 floor sigils, statues and pillars, ice\ncrystals and shard columns, coal heaps, an anvil and a cage, root knots and blossom shrubs, lightning rods,\nchests, urns, bones, a lectern and rubble. Each ships transparent, and grounded on every floor it belongs to\nwith the contact shadow drawn.</li>\n<li><strong>9 animated objects</strong>, 108 frames: a lit altar for each hall, a\nbrazier and four founts. The silhouette never moves; only the light does.</li>\n<li><strong>A finished 40x28 sample map</strong> with 215 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in\nTiled.</li>\n<li><strong>40 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line\nyourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 988 files in total.</li>\n</ul>\n\n<h3>Two things to know before you buy</h3>\n<p>⚠️ <strong>The nave floor is Verdant 05 Depths' floor, byte for byte.</strong> If you own Depths, these halls,\nthe rune channel and the wall lay straight onto the dungeon you already built, and that one material is one you\nalready have. If you do not, nothing here needs it: the flagstone ships in this pack too.</p>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through\nits A1 page, which holds animated water autotiles; this pack has none, so in MZ the animated objects arrive as\nstatic frames on pages B and C.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong> — an A2 autotile sheet (the page MZ's own autotile brush paints) plus\nB/C/D/E object pages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE:\n13 of 13 sets, 611 of 611 masked tiles, and\n624 of 624 shapes came back byte-identical. The object pages carry every fill, every\nobject and every animation frame; 539 of the 611 transitions also fit there as loose\nstamps, and all of them are on the A2 brush.</li>\n<li><strong>Tiled</strong> — one <code>.tsx</code> per group, all 17 opened and rendered by\nTiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets:\n1,120 sheet cells, 0 differing. The sample map's <code>.tmx</code> renders 1,146,880 pixels\nidentical to the shipped PNG.</li>\n<li><strong>Godot 4</strong> — a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n17 atlas sources, 864 of 864 declared tiles built, 64 of\n64 multi-cell footprints exact. Every sheet is referenced by a relative filename, so the folder\nloads from wherever you put it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 74 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete — exact checks, run on\nevery build.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own\ninterior, and every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are\nmachine-proven. The renders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>ember_on_flagstone</code></li>\n<li><code>bloom_on_flagstone</code></li>\n<li><code>storm_on_flagstone</code></li>\n<li><code>rime_on_flagstone</code></li>\n<li><code>runework_ember_on_flagstone</code></li>\n<li><code>runework_rime_on_flagstone</code></li>\n<li><code>runework_bloom_on_flagstone</code></li>\n<li><code>runework_storm_on_flagstone</code></li>\n<li><code>ember_on_rime</code></li>\n<li><code>ember_on_bloom</code></li>\n<li><code>bloom_on_storm</code></li>\n<li><code>rime_on_storm</code></li>\n<li><code>hallwall_on_flagstone</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this dungeon sits beside the others.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-05-depths\">Verdant 05 — Depths</a> — the dungeon, cave and crypt this nave floor comes from, byte for byte</li>\n<li><a href=\"https://csaf.itch.io/verdant-25-infernal\">Verdant 25 — Infernal</a> — the layer below the dungeon: magma, ash and brimstone</li>\n<li><a href=\"https://csaf.itch.io/verdant-13-castle\">Verdant 13 — Castle</a> — the curtain wall, keep and gatehouse above it</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may\nnot resell or redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series,\nand that generator's code was written with AI assistance — no diffusion model is anywhere in the tile\npipeline. Every image on this page, the cover included, is composed from the pack's own tiles and sample\nmap.</p>"
+}
