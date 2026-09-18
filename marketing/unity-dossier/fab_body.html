@@ -1,0 +1,39 @@
+<p><strong>Your mystery game already knows its suspects, clues and statements. Dossier types them up.</strong></p>
+<p>Hand Dossier a case and it composes an open manila case file on a lamp-lit desk: a suspect roster typed onto a printed form with a booking photograph beside every name, an evidence index with redaction bars wherever your data says a fact is unknown, carbon copies and telex strips for the statements, rubber stamps struck in red, a paperclip, a strip of evidence tape, and the investigator's red-pencil marks in the margins.</p>
+<p>None of it is an imported image. Every sheet, stamp, clip and line of type is drawn in code by a software rasteriser shipped in the package, and the lettering is filled from the outlines of three real typefaces (Oswald, Courier Prime and Caveat, SIL Open Font License, included).</p>
+<p><strong>The layout answers the data</strong></p>
+<ul>
+<li>Three people get full-width cards with large photographs; ten get a two-column roster.</li>
+<li>Seven clues get two lines each with their descriptions; twenty get a two-column index.</li>
+<li>A cold case is typed on yellowed, foxed paper; a classified one on onionskin, redacted hard.</li>
+<li>A suspect's status strikes the stamp across their photograph: SUSPECT, CLEARED, CHARGED, DECEASED, MISSING, WITNESS, INFORMANT, PERSON OF INTEREST, UNIDENTIFIED.</li>
+<li>A key clue linked to a suspect gets a red-pencil arrow across the spread to that person's photograph; the most-linked suspect has their name circled.</li>
+<li>An interview is a carbon copy; a phone call, telegram or radio message is a telex strip; low reliability earns a "doubtful" query in the margin.</li>
+</ul>
+<p><strong>Unknown is a word, not a blank</strong></p>
+<p>An empty field is simply not typed. A field that says it is unknown (?, unknown, redacted, classified, withheld) is blacked out, weighted by what the fact is: a withheld name is blocked out, an alias gets a marker bar, an age is struck through. A sentence that merely contains the word is data and is typed.</p>
+<p><strong>52 hand-authored motifs in 10 families, 4 paper stocks</strong></p>
+<p>Stamps (8), fasteners (6), tapes (4), folder tabs (6), photo mountings (4), typed blocks (5), hand marks (8), stains (4), redactions (3), and the bond, aged, onionskin and ledger stocks. Every one is drawn by the shipped code; the editor window's motif sheet draws them all.</p>
+<p><strong>Nothing is struck over a name</strong></p>
+<p>Every stamp, clip, strip of tape and coffee ring is placed by searching candidate spots for one that misses the record. A name, a title, a face, the booking placard and a redaction bar are refused outright. The red-pencil arrow goes through the same search, and when a crowded card leaves no clear approach it stops at the circled name instead of ruling through the file.</p>
+<p><strong>Getting Started</strong></p>
+<p>1. Import the package. Everything lands under Assets/CSAF/Dossier, and nothing is placed in a Resources folder.</p>
+<p>2. Open the demo scene Assets/CSAF/Dossier/Demo/Scenes/DossierDemo and press Play. Four sample cases (active, cold, closed and classified) are composed; the LEFT and RIGHT arrow keys page between them.</p>
+<p>3. In the Unity menu bar open Tools &gt; CSAF &gt; Dossier. Pick a case (or one of the four samples) and press Compose spread. Beside the spread, the window explains every choice the composer made and the word in your data that caused it.</p>
+<p>4. To author your own case without code: Assets &gt; Create &gt; CSAF &gt; Dossier Case File, fill in the Inspector, and press Compose this case in Dossier at the top of it.</p>
+<p>5. From code: build a CaseFile, load the four shipped typefaces with DossierType.FromAssets, and call DossierSpread.Compose(caseFile, type). The result is a Texture2D for uGUI, UI Toolkit or a material. For anything a player opens, compose off the main thread with the Task.Run recipe in the guide.</p>
+<p><strong>Technical Information</strong></p>
+<p><strong>Features:</strong> generates a case-file spread from the buyer's own suspect, clue and statement data; 52 hand-authored motifs in 10 families and 4 paper stocks, all drawn by an included CPU rasteriser; an included TrueType outline reader and typesetter with three OFL typefaces; layout that adapts to the number of suspects, clues and statements; placement search that refuses to strike any mark across a name, title, face, placard or redaction bar; red-pencil leaders from key clues to the people they name; ScriptableObject case assets with an Inspector compose button; an editor window with a derivation panel and a motif sheet; a thread-safe bake path; deterministic output; a runnable demo scene with four sample cases.</p>
+<p><strong>Code Modules:</strong> CSAF Dossier Runtime (Runtime, all platforms), CSAF Dossier Editor (Editor only), CSAF Dossier Demo (Runtime, sample content).</p>
+<p><strong>Number of Unity Visual Scripts:</strong> 0. The package contains no Visual Scripting graph assets and no references to the Visual Scripting packages; verified by walking the shipped tree.</p>
+<p><strong>Number of .cs Scripts:</strong> 34, measured by walking the shipped Assets tree: 30 Runtime, 3 Editor, 1 Demo.</p>
+<p><strong>Supported Development Platforms:</strong> Windows (Yes), Mac (Yes). Pure C#, no native libraries and no platform-specific code.</p>
+<p><strong>Supported Target Build Platforms:</strong> all platforms Unity targets. The runtime assembly is plain C# with no platform-specific code; the editor assembly is constrained to the Editor.</p>
+<p><strong>Supported Unity Pipelines:</strong> Built-In, URP and HDRP. The spread is rasterised into a Texture2D on the CPU and never touches the render pipeline.</p>
+<p><strong>Minimum Unity Version:</strong> 2022.3. Built and tested against Unity 6000.5.7f1.</p>
+<p><strong>Dependencies on other Plugins and/or System Libraries:</strong> none. No packages beyond the Unity engine and editor assemblies, no network calls and no telemetry. The three typefaces are SIL Open Font License 1.1 and ship with their notices.</p>
+<p><strong>Documentation Link and Installation Guide:</strong> <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/dossier/README.md">the full Dossier guide</a>. The same guide is also included in the package.</p>
+<p><strong>Example Project:</strong> the package ships a runnable demo scene, Demo/Scenes/DossierDemo, that composes four sample cases on a worker thread. It draws with OnGUI, so it needs no Canvas and runs the same on any render pipeline.</p>
+<p><strong>Versioning:</strong> 1.0.0, the first public release. Semantic versioning from here: patch for fixes, minor for new motifs, stocks or layouts, major for any public API change.</p>
+<p><strong>Support:</strong> bug reports and questions through the issue tracker on the repository that hosts the documentation linked above. Please include your Unity version and, if a spread surprised you, the case data that produced it.</p>
+<p><strong>Important or Additional Notes:</strong> composition is CPU rasterisation, so its cost is proportional to pixel count: a 1920x1080 spread measured 3.1 to 4.1 seconds in the Unity 6000.5.7f1 Editor on a busy build machine and about 1 second at 960x540. That is a sample, not a ceiling. Compose on change, off the main thread, never per frame. The font reader is TrueType only and does not shape complex scripts. The layout sets up to 10 suspect cards, 24 clues and 4 statements; the rest are listed as continued on file. AI disclosure: code yes, graphics yes (the code that draws the spread was AI-written; there is no image model anywhere in the art path), sounds no, text and dialog no.</p>
