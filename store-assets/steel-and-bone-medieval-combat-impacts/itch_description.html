@@ -1,0 +1,28 @@
+<p><strong>144 medieval combat impacts, filed by what hits what.</strong></p>
+<p>A combat system does not ask for "axe". It asks for "axe on mail", because the armour decides the sound as much as the weapon does. Steel and Bone is built the way that code queries it: every impact is filed under its material pair, <code>striker_on_receiver_NN</code>, and every cell of the grid is its own synthesis recipe, never a re-pitch of its neighbour.</p>
+<h3>8 strikers &times; 6 receivers = 48 material pairs</h3>
+<p><strong>Strikers:</strong> warhammer, arming sword, flanged mace, bearded axe, spear, arrow, gauntleted fist, rondel dagger.</p>
+<p><strong>Receivers:</strong> plate armour, wood shield, mail, flesh, stone, boiled leather.</p>
+<p>Fast strikers (sword, arrow, fist, dagger) carry three takes per cell and heavy ones two, because a fast weapon lands more often and repeats sooner.</p>
+<h3>The grid is proven, not asserted</h3>
+<p>A gate re-derives every cell from the shipped audio and refuses the pack unless the grid is complete and, along each axis, every pair of cells is at least 9% apart in brightness or 18% in length. That is 120 comparisons along the rows (the armour must change the sound) and 168 down the columns (the weapon must change it). Indistinct pairs on the shipped files: <strong>0</strong>. When the first render failed that test, the recipes were rewritten; the thresholds were not touched.</p>
+<h3>Beyond the grid</h3>
+<p>24 more files a fight needs between the blows: <strong>parries</strong> (blade on blade, axe hook, blade on haft, dagger catch); <strong>draws</strong> (sword, axe, dagger); <strong>sheaths</strong> (sword, axe, dagger).</p>
+<h3>The details that matter at import time</h3>
+<ul>
+<li><strong>.wav and .ogg</strong>, 288 files. 16-bit 44.1 kHz mono.</li>
+<li><strong>58 variation sets</strong>: separate renders, not pitch-shifted copies. Every file belongs to a set, so a repeated blow never machine-guns.</li>
+<li><strong>One acoustic identity</strong>: one loudness target and one shared room. Measured inner loudness range across all 144 files: <strong>2.43 dB</strong>.</li>
+<li><strong>A naming manifest</strong> listing every file with its striker, receiver, take, measured duration and what it is for.</li>
+<li><strong>Per-engine import notes</strong> for Unity, Unreal, Godot, GameMaker and web, each showing how to wire the takes to an avoid-repeats picker.</li>
+<li><strong>pack_proof.json</strong>: a sha256 and a full measurement record for every file, behind 1305 signal checks with 0 failures.</li>
+</ul>
+<h3>Licence</h3>
+<p><strong>Royalty free. Commercial use. No attribution required.</strong></p>
+<p>Use these in any number of commercial and non-commercial games, on any platform, forever. Modify them freely. The only thing you may not do is resell or redistribute the sounds themselves as a sound library. The full licence is in the download in plain language, with a copy-paste credit line if you would like to credit it anyway.</p>
+<h3>Try it first: the demo is a real subset</h3>
+<p>The free download is <strong>32 of the 144 sounds</strong>: the whole arming-sword row (every receiver, every take), so you can hear the armour change the blow, and the whole plate-armour column (every striker), so you can hear the weapon change it. Plus one parry, one draw and one sheath. Same audio, same licence.</p>
+<h3>Honest about what this is</h3>
+<p>These are <strong>synthetic</strong> sounds, computed from modal resonators, filtered noise and envelopes in code. That is why the licence is clean and why the pack is coherent, and it is the aesthetic: a designed, stylised set, not a field recording library. The proof file certifies there is no measurable defect. It cannot tell you the pack sounds good to you. That is what the free demo is for.</p>
+<h3>From the same studio</h3>
+<p><a href="https://csaf.itch.io/portcullis-dungeon-mechanisms">Portcullis</a> (dungeon doors, chests, levers and traps) · <a href="https://csaf.itch.io/sixfold-elemental-casting-chains">Sixfold</a> (elemental spell casting) · <a href="https://csaf.itch.io/akatsuki-anime-jrpg-sfx">Akatsuki</a> (anime and JRPG battle cues)</p>
