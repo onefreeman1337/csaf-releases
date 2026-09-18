@@ -1,0 +1,95 @@
+<h3>Every shop in your town already knows what it sells. None of them has a sign.</h3>
+
+<p>A shop in RPG Maker MZ is an event with a Shop Processing command in it. The player finds it by walking into a door, and every door on the street looks the same. The smithy, the inn and the apothecary are told apart by a menu, never by the street.</p>
+
+<p><strong>Bracket hangs a sign over every one of them.</strong> A wrought iron bracket over the door, a painted board on two chains, a trade device, the shop's name in carved or gilt capitals and the trade in small caps beneath. Not picked out of a folder: composed in code, at run time, from the goods that shop actually stocks.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>BracketCompose.js</code> — Bracket [3/4] — the geometry and the colour. Board outlines, trade devices, ironwork, grain and weather, all as shape. Knows nothing about RPG Maker.</li>
+<li><code>BracketRead.js</code> — Bracket [2/4] — the reader. Turns a shop's own goods list into the sign it hangs. Knows nothing about RPG Maker. v1.0.0</li>
+<li><code>BracketRender.js</code> — Bracket [4/4] — the painting. Takes a sign's geometry and lands the oak, the paint, the gilt, the iron and the weather. Knows nothing about RPG Maker.</li>
+<li><code>Bracket.js</code> — Bracket [1/4] — the scenes, parameters and commands. Every shop in your town hangs its own sign, composed from what it actually sells. v1.0.0</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Bracket works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suites, the capture pipeline, the engine gate and a fresh install of the shipped zip into a blank project all load the four files <strong>alphabetically</strong> — which puts the entry file <code>Bracket.js</code> <em>first</em>, before the composer, the reader and the painter it uses, and that is the order you get by dragging the folder in. <code>Bracket.js</code> is the only one that touches RPG Maker at all; the other three are a geometry kit, a reader that turns a goods list into a sign, and a painter, and none of them knows the engine exists. Switch <code>Bracket.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>, <code>Game_System.prototype.initialize</code>, <code>Spriteset_Map.prototype.createCharacters</code>, <code>Spriteset_Map.prototype.destroy</code>, <code>Scene_Shop.prototype.create</code>, <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>.</p>
+<p>Because nothing is clobbered, Bracket co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends one method on a core singleton, the same way — original saved and called through:</strong> <code>ImageManager.loadPicture</code>. Another plugin patching that one keeps working.</p>
+<p><strong>It also defines 2 methods that their core class only inherited:</strong> <code>Scene_Shop.prototype.mainAreaTop</code> (inherited from <code>Scene_MenuBase</code>), <code>Scene_Shop.prototype.mainAreaHeight</code> (inherited from <code>Scene_MenuBase</code>). That touches <code>Scene_Shop</code> only, never the parent. If another plugin redefines the same method on the same class, load Bracket after it.</p>
+
+<h3>Where every part of the sign comes from</h3>
+
+<ul>
+<li>the <strong>device</strong> comes from the stock: item kind, equipment slot, the effect codes on its items and your own price ladder, then the words in the goods' names, then the shop's own name. <strong>Twelve devices</strong>: sword and anvil, shield, flask, herb, gem, scroll, loaf, tankard, key, shears, fish, horseshoe</li>
+<li>the <strong>board</strong> is cut to the name it has to carry, so a long name gets a longer board. <strong>Ten outlines</strong>, from a heater shield to a banner to a tankard cut</li>
+<li>the <strong>bracket</strong> comes from where the shop stands on your project's own price ladder. <strong>Eight wrought forms</strong>, from a plain hook to a crowned scroll with a gallows brace, so standing is visible from across the street</li>
+<li>the <strong>paint</strong> comes from the trade, and from standing: the grandest shops gild the timber, a forge leaves its oak bare, and the poorest cannot afford paint at all. <strong>Six schemes</strong>: bare oak, verdigris, oxblood, indigo, mustard, gilt oak</li>
+<li>the <strong>weathering</strong> comes from how prosperous the district is. <strong>Five states</strong>, from crisp to falling apart: paint thinning over the grain, corners wearing back, the gilt going off, rust creeping along the bar from the rings, a split corner and a missing chain link</li>
+</ul>
+
+<p>That is 12 &times; 10 &times; 8 &times; 6 = <strong>5,760 sign forms</strong>, each in five states of repair. Change a shop's stock and its sign re-composes. <strong>Nothing here is an image file.</strong> The package is ten files and not one of them is a PNG.</p>
+
+<h3>48 shops, 48 different signs</h3>
+
+<p>The Yard image in the gallery is the demo town: four districts, twelve shops each, and every one of the 48 differs on the full device, board, bracket and scheme. Nothing on it was placed by hand. On a brand new project with no notetags at all, two shops stocked with RPG Maker's own default items already produce full signs, a herbalist and a smith, because everything is read from fields you have filled in anyway.</p>
+
+<h3>The four places your players meet a sign</h3>
+
+<ul>
+<li><strong>Over the door.</strong> Every event with a Shop Processing command gets its sign hung above it on the map, automatically.</li>
+<li><strong>The Close Look.</strong> The sign at full size over a dusk street the plugin draws, swinging gently on its chain. A plugin command, or a script call.</li>
+<li><strong>The Signwright's Yard.</strong> A directory of every sign the player has met, hung on rails and grouped by district. One command on the main menu.</li>
+<li><strong>The shop header.</strong> The same sign above the goods windows when the shop opens. The band is reserved before the windows are laid out, so they move down to make room instead of being covered.</li>
+</ul>
+
+<h3>Overruling it</h3>
+
+<pre><code>&lt;sign: The Gilded Tankard&gt;     the name on the board
+&lt;sign trade: VINTNER&gt;          the line in small caps beneath it
+&lt;sign device: tankard&gt;         any of the twelve devices
+&lt;sign board: oval&gt;             any of the ten outlines
+&lt;sign bracket: volute&gt;         any of the eight brackets
+&lt;sign scheme: verdigris&gt;       any of the six schemes
+&lt;sign weathering: 3&gt;           0 crisp .. 4 falling apart
+&lt;sign: skip&gt;                   never hang a sign on this event
+
+&lt;district: The Gilt Quarter&gt;   in a MAP note: the Yard heading
+&lt;prosperity: 4&gt;                in a MAP note: weathering for the street</code></pre>
+
+<p>The hand always wins. An event with no Shop Processing can still carry a sign, which is how you sign a guild hall, a temple or a locked door.</p>
+
+<h3>It does not look like RPG Maker</h3>
+
+<p>The Close Look and the Yard are drawn from scratch: <strong>0 windows drawn</strong>, no windowskin, no default frame, and <strong>not RPG Maker's font</strong>. Two typefaces ship with it, Cinzel and Alegreya, both SIL Open Font Licence and free to ship inside your game, loaded through the browser's own <code>FontFace</code> loader so a missing font file is a fallback and never a crash at boot.</p>
+
+<h3>It costs almost nothing per frame</h3>
+
+<p>Every sign is baked once into a <code>Bitmap</code> and blitted by a sprite that only moves. Measured in the engine over 300 stepped frames, twice, per screen: the Close Look and the Yard draw in <strong>2 draw calls with 0 texture uploads, 0 bitmap dirties and 0 display object growth</strong>; a map with twelve signs hung on it costs <strong>0.113 ms</strong> of the plugin's half of the frame against a 2 ms budget.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li>Four raw, readable <code>.js</code> files. <strong>No minified build</strong>, all of it yours to read and change.</li>
+<li>Two <code>.woff2</code> typefaces and their OFL licence files.</li>
+<li>A Readme documenting every parameter, command, notetag and script call, where every claim is checked against the shipped code.</li>
+<li>Tested in the real engine rather than only in tests: the shipped zip is installed into a blank MZ project and used the way a buyer uses it before release.</li>
+<li>Saves are safe: the list of signs met lives in a versioned slot, so adding Bracket to a game in progress works, and so does removing it.</li>
+<li>One commercial licence, unlimited games.</li>
+</ul>
+
+<h3>Honest about what it is not</h3>
+
+<p>It does not restyle your shop windows and it does not change prices. It is one thing done properly: the sign outside the door, composed from what is sold behind it.</p>
+
+<h3>Also from Core Systems Asset Factory</h3>
+
+<p><a href="https://csaf.itch.io/bazaar-core">Bazaar Core</a> makes the prices inside those shops move with supply and demand; Bracket is what hangs outside them. <a href="https://csaf.itch.io/wanted-posters">Wanted Posters</a> puts a generated bill for every bounty on the notice board down the same street.</p>
+
+<p>More generated art plugins for MZ: <a href="https://csaf.itch.io/armorial">Armorial</a> &middot; <a href="https://csaf.itch.io/refectory">Refectory</a> &middot; <a href="https://csaf.itch.io/visage">Visage</a> &middot; <a href="https://csaf.itch.io/chorograph">Chorograph</a></p>
+
+<hr>
+
+<p><em>Made with AI assistance. Code: yes. Graphics: yes, the plugin generates every sign procedurally and the cover is a generated illustration. Sounds: no. Text and dialog: no.</em></p>
