@@ -1,0 +1,84 @@
+<h3>Every place in your game has a name. RPG Maker announces it on a grey strip.</h3>
+
+<p>When the party walks into a new map, RPG Maker MZ fades a line of text in over a dark band at the top of the screen. The capital, the crypt and the starship all get the same strip in the same font. A boss fight starts the same way a slime fight does.</p>
+
+<p><strong>Intertitle replaces that strip with a composed title card, and gives every boss a seal before the fight begins.</strong> The name set in a real display face, an epithet beneath it, a rule, a device, a frame built for the kind of place it is. Not picked out of a folder: drawn in code, at run time, from data you have already written.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>IntertitleRead.js</code> — Intertitle [2/3] — the reader. Turns a map's or a boss's own data into the card it announces itself with. Knows nothing about RPG Maker. v1.0.0</li>
+<li><code>IntertitleRender.js</code> — Intertitle [3/3] — the painter. Draws a card from a profile: five constructions, a charge, the name set to fit, the epithet, and the state marks.</li>
+<li><code>Intertitle.js</code> — Intertitle [1/3] — the scenes, parameters and commands. Every map and every boss announces itself with a card composed from its own data. v1.0.0</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Intertitle works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suites, the capture pipeline, the engine gate and a fresh install of the shipped zip into a blank project all load the three files <strong>alphabetically</strong> — which puts the entry file <code>Intertitle.js</code> <em>first</em>, before the reader and the painter it uses, and that is the order you get by dragging the folder in. <code>Intertitle.js</code> is the only one that touches RPG Maker at all; the other two are a reader that turns a map or an enemy into a card profile and a painter, and neither knows the engine exists. Switch <code>Intertitle.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>, <code>Game_System.prototype.initialize</code>, <code>Scene_Map.prototype.createMapNameWindow</code>, <code>Scene_Map.prototype.snapForBattleBackground</code>, <code>Window_MapName.prototype.open</code>, <code>Window_MapName.prototype.update</code>, <code>Scene_Battle.prototype.start</code>.</p>
+<p>Because nothing is clobbered, Intertitle co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also defines one method that its core class only inherited:</strong> <code>Scene_Battle.prototype.isBusy</code> (inherited from <code>Scene_Base</code>). That touches <code>Scene_Battle</code> only, never the parent. If another plugin redefines the same method on the same class, load Intertitle after it.</p>
+
+<h3>Where every part of the card comes from</h3>
+
+<ul>
+<li>the <strong>construction</strong> comes from the map's tileset: a world map gets an inked cartouche, an outdoor map a woodcut board, an interior a gilt lacquer panel, a dungeon a carved stone lintel, a science fiction map a riveted plate. <strong>Five constructions</strong>, different in structure, not just colour</li>
+<li>the <strong>device</strong> comes from the element the map's encounters strike with most, read by the element's name so renamed elements still work, or from the construction when there is none. <strong>Fifteen devices</strong>: flame, crystal, bolt, wave, stone, gust, sun, moon, compass, tree, key, arch, cog, blade and rune</li>
+<li>the <strong>epithet</strong> comes from where the map sits in your map tree: "beneath Greyfell", "aboard Orbital Ring", "near Greyfell"</li>
+<li>the <strong>rule</strong> is tinted by how dangerous the map's encounters are for the current party, and at the top bands it changes shape too: arrow caps, then a doubled rule and a red roundel</li>
+<li>the <strong>first visit and the return</strong> differ: the return card is plainer, with no epithet and a smaller name</li>
+</ul>
+
+<h3>The boss seal</h3>
+
+<p>When a battle starts against a boss, the battle waits while the boss's seal plays. The device comes from the element it attacks with, then the elements of its own skills, then its strongest resistance, then whether it leans on Attack or Magic. Its <strong>weakness is drawn as a red fault line</strong> across the medallion, and <strong>rays show how high it stands</strong> in your database by max HP. A boss is any enemy with MZ's own <strong>Collapse Effect: Boss</strong> trait, which you have probably set already, or any enemy tagged <code>&lt;intertitle boss&gt;</code>.</p>
+
+<h3>On a brand new project</h3>
+
+<p>Installed from the shipped zip into a blank MZ project with no notetags, typing a Display Name on the stock map is enough for its card to rise, and the stock database's own boss already gets a flame seal, because it casts Fire. Everything is read from fields you fill in anyway.</p>
+
+<h3>Overruling it</h3>
+
+<pre><code>&lt;intertitle name: Greyfell Deeps&gt;       the name on the card
+&lt;intertitle epithet: where lamps die&gt;   the line beneath it
+&lt;intertitle treatment: stone&gt;           any of the five constructions
+&lt;intertitle charge: flame&gt;              any of the fifteen devices
+&lt;intertitle parent: Greyfell&gt;           what the place hangs from
+&lt;intertitle skip&gt;                       no card for this map
+
+&lt;intertitle boss&gt;                       in an ENEMY note: always a boss
+&lt;intertitle boss: off&gt;                  never a boss</code></pre>
+
+<p>The hand always wins. Two plugin commands show a map card or a boss card on demand, for example after a cutscene.</p>
+
+<h3>It does not look like RPG Maker</h3>
+
+<p>No windowskin, no default frame and <strong>not RPG Maker's font</strong>. Two typefaces ship with it, IM Fell English SC and IM Fell English Italic, both SIL Open Font Licence and free to ship inside your game, loaded through the browser's own <code>FontFace</code> loader, so a missing font file falls back to a serif and can never stop your game from booting.</p>
+
+<h3>It costs almost nothing per frame</h3>
+
+<p>Each card is baked once into a <code>Bitmap</code>; the reveal only moves the sprite's frame. Measured in the engine over 300 stepped frames per scenario: <strong>0 texture uploads, 0 bitmap dirties and 0 display object growth</strong>, and at most <strong>0.5 ms</strong> of the plugin's half of the frame against a 2 ms budget, the boss card included.</p>
+
+<h3>What you get</h3>
+
+<ul>
+<li>Three raw, readable <code>.js</code> files. <strong>No minified build</strong>, all of it yours to read and change.</li>
+<li>Two <code>.woff2</code> typefaces and their OFL licence files.</li>
+<li>A Readme documenting every parameter, command and notetag, where every claim is checked against the shipped code.</li>
+<li>Tested in the real engine rather than only in tests: the shipped zip is installed into a blank MZ project and used the way a buyer uses it before release.</li>
+<li>Saves are safe: the places and bosses the player has seen live in a small versioned slot, so adding Intertitle to a game in progress works.</li>
+<li>One commercial licence, unlimited games.</li>
+</ul>
+
+<h3>Honest about what it is not</h3>
+
+<p>It is not a cutscene system and it does not write your story. It is one thing done properly: the moment a place or a boss is named, composed from what that place or boss already is.</p>
+
+<h3>Also from Core Systems Asset Factory</h3>
+
+<p><a href="https://csaf.itch.io/bracket">Bracket</a> hangs a sign composed from its stock over every shop on the street Intertitle names. <a href="https://csaf.itch.io/visage">Visage</a> carves a mask from a record in your database the same way: derived, never picked.</p>
+
+<p>More generated art plugins for MZ: <a href="https://csaf.itch.io/armorial">Armorial</a> &middot; <a href="https://csaf.itch.io/refectory">Refectory</a> &middot; <a href="https://csaf.itch.io/chorograph">Chorograph</a> &middot; <a href="https://csaf.itch.io/wanted-posters">Wanted Posters</a></p>
+
+<hr>
+
+<p><em>Made with AI assistance. Code: yes. Graphics: yes, the plugin generates every card procedurally and the cover is a generated illustration. Sounds: no. Text and dialog: yes, only the short default epithets a boss seal uses when you have not written your own.</em></p>
