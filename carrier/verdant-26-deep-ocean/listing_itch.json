@@ -1,0 +1,108 @@
+{
+  "packId": "verdant-26-deep-ocean",
+  "title": "Verdant 26 — Deep Ocean Tileset for RPG Maker MZ, Tiled & Godot: Reef, Trench, Kelp & Vents [16x16]",
+  "shortText": "1052 tiles, 13 complete 47-mask sets, 75 objects. MZ, Tiled and Godot importers.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "underwater",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "underwater": "ocean"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 04 — Tidewater",
+      "url": "https://csaf.itch.io/verdant-04-tidewater",
+      "why": "the coast, river and marsh at the surface above it"
+    },
+    {
+      "label": "Verdant 10 — Harbour",
+      "url": "https://csaf.itch.io/verdant-10-harbour",
+      "why": "the docks and hulls a wreck would have sailed from"
+    },
+    {
+      "label": "Verdant 11 — Vessel",
+      "url": "https://csaf.itch.io/verdant-11-vessel",
+      "why": "the ship itself: deck, hull, hold and open sea"
+    }
+  ],
+  "derived": {
+    "tiles": 1052,
+    "cell": 16,
+    "materials": 8,
+    "variants": 4,
+    "autotileTiles": 611,
+    "autotileSets": 13,
+    "propTiles": 337,
+    "objects": 75,
+    "shapes": 51,
+    "hues": 4,
+    "animCount": 10,
+    "animSurfaces": 8,
+    "animObjects": 2,
+    "animatedTiles": 72,
+    "palette": 99,
+    "renders": 80,
+    "map1Cols": 36,
+    "map1Rows": 26,
+    "map1Props": 242,
+    "overlayOpacity": 45,
+    "ladderGap": "18.1",
+    "files": 1216,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "mzSetsFound": 13,
+    "mzSetsEmitted": 13,
+    "mzMasked": 611,
+    "mzMaskedTotal": 611,
+    "mzShapes": 624,
+    "mzShapesTotal": 624,
+    "tsx": 17,
+    "tiledCells": "1,324",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "958,464",
+    "godotVersion": "4.7.2",
+    "godotSources": 17,
+    "godotTiles": 1052,
+    "godotMulti": 164,
+    "animPage": "D",
+    "transitionShare": 58,
+    "mzStamps": 339
+  },
+  "engineMeasuredAt": "2026-09-18T09:24:32.007Z",
+  "description": "<p><strong>1052 tiles at 16x16</strong> for the sea floor: a lit shell\nsand shelf, abyssal ooze, a coral reef, a kelp forest, a drowned city's pavement, talus, columnar vent rock and a\ntrench that drops into black — with the wreck, the reef heads and the ruins lying on it.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing\nyou may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the\nengine it targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>611 of the 1052 tiles are transitions</strong> — 58% of the pack.\n13 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a 47-mask set missing three tiles is broken in\nyour map and you find out while you are painting.</li>\n<li><strong>8 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so a deep-water palette does not collapse into one blue-grey smear. The smallest gap on the ladder is\n18.1 luma, measured from the shipped pixels.</li>\n<li><strong>75 objects</strong> across 337 tiles — brain, fan and staghorn coral, tube sponges,\nanemones, a giant clam, standing kelp, a galleon's stern, an anchor, a cannon, a ship's wheel, chests, amphorae,\ncolumns and a statue from the drowned city, a whale skull and ribs, a diver's helmet and vent chimneys. They are\n51 distinct silhouettes; the coral comes in 4 hues. Each ships transparent, and grounded on every\nsurface it belongs to with the contact shadow drawn.</li>\n<li><strong>10 animations</strong>, 72 frames: 8 caustic-light OVERLAYS\nyou lay over your own sea floor, in two families meant to be stacked (broad patches of light, and the bright\nfilaments where it folds), plus 2 animated objects — a swaying anemone and a vent plume.</li>\n<li><strong>A finished 36x26 sample map</strong> with 242 objects on it, as a PNG,\nas JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>80 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line\nyourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 1216 files in total.</li>\n</ul>\n\n<h3>Two things to know before you buy</h3>\n<p>⚠️ <strong>The caustic overlays are opaque tiles.</strong> The pack's own proof requires alpha to be strictly 0 or\n255, so there are no semi-transparent pixels anywhere in it. Put the caustics on their own layer and set that\nlayer's opacity; every image on this page was made at 45%. Laid solid at 100% they replace the sea\nfloor under them.</p>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through\nits A1 page, which holds animated water autotiles; this pack has none, so in MZ the animated tiles arrive as static\nframes on page D.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong> — an A2 autotile sheet (the page MZ's own autotile brush paints) plus\nB/C/D/E object pages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE:\n13 of 13 sets, 611 of 611 masked tiles, and\n624 of 624 shapes came back byte-identical. The object pages carry every fill, every\nobject and every animation frame; 339 of the 611 transitions also fit there as loose\nstamps, and all of them are on the A2 brush.</li>\n<li><strong>Tiled</strong> — one <code>.tsx</code> per group, all 17 opened and rendered by\nTiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets:\n1,324 sheet cells, 0 differing. The sample map's <code>.tmx</code> renders 958,464 pixels\nidentical to the shipped PNG.</li>\n<li><strong>Godot 4</strong> — a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n17 atlas sources, 1052 of 1052 declared tiles built, 164 of\n164 multi-cell footprints exact. Every sheet is referenced by a relative filename, so the folder\nloads from wherever you put it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 99 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete — exact checks, run on\nevery build.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own\ninterior, and every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are\nmachine-proven. The renders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>shellsand_on_abyssal_silt</code></li>\n<li><code>abyssal_silt_on_shellsand</code></li>\n<li><code>coral_bed_on_abyssal_silt</code></li>\n<li><code>coral_bed_on_shellsand</code></li>\n<li><code>kelp_bed_on_abyssal_silt</code></li>\n<li><code>kelp_bed_on_shellsand</code></li>\n<li><code>rubble_on_abyssal_silt</code></li>\n<li><code>basalt_vent_on_abyssal_silt</code></li>\n<li><code>basalt_vent_on_rubble</code></li>\n<li><code>sunken_pavement_on_abyssal_silt</code></li>\n<li><code>sunken_pavement_on_shellsand</code></li>\n<li><code>trench_on_abyssal_silt</code></li>\n<li><code>trench_on_rubble</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this layer sits under the others.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-04-tidewater\">Verdant 04 — Tidewater</a> — the coast, river and marsh at the surface above it</li>\n<li><a href=\"https://csaf.itch.io/verdant-10-harbour\">Verdant 10 — Harbour</a> — the docks and hulls a wreck would have sailed from</li>\n<li><a href=\"https://csaf.itch.io/verdant-11-vessel\">Verdant 11 — Vessel</a> — the ship itself: deck, hull, hold and open sea</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may\nnot resell or redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series,\nand that generator's code was written with AI assistance — no diffusion model is anywhere in the tile\npipeline. Every image on this page, the cover included, is composed from the pack's own tiles and sample\nmap.</p>"
+}
