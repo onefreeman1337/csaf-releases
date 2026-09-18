@@ -1,0 +1,79 @@
+<p><strong>Your mystery game already knows its suspects, clues and statements. Dossier types them up.</strong></p>
+
+<p>Hand Dossier a case and it composes an open manila case file on a lamp-lit desk: a suspect roster typed onto a printed form with a booking photograph beside every name, an evidence index with redaction bars wherever your data says a fact is unknown, carbon copies and telex strips for the statements, rubber stamps struck in red, a paperclip, a strip of evidence tape, and the investigator's red-pencil marks in the margins.</p>
+
+<p>None of it is an imported image. Every sheet, stamp, clip and line of type is drawn in code by a software rasteriser shipped in the package, and the lettering is filled from the outlines of three real typefaces (Oswald, Courier Prime and Caveat, SIL Open Font License, included).</p>
+
+<h3>The layout answers the data</h3>
+
+<ul>
+<li><strong>Three people</strong> get full-width cards with large photographs; <strong>ten</strong> get a two-column roster.</li>
+<li><strong>Seven clues</strong> get two lines each with their descriptions; <strong>twenty</strong> get a two-column index.</li>
+<li>A <strong>cold case</strong> is typed on yellowed, foxed paper; a <strong>classified</strong> one on onionskin, redacted hard.</li>
+<li>A suspect's status strikes the stamp across their photograph: SUSPECT, CLEARED, CHARGED, DECEASED, MISSING, WITNESS, INFORMANT, PERSON OF INTEREST, UNIDENTIFIED.</li>
+<li>A key clue linked to a suspect gets a red-pencil arrow across the spread to that person's photograph, and the most-linked suspect has their name circled.</li>
+<li>A statement taken by interview is a carbon copy; one taken by phone, telegram or radio is a telex strip. Low reliability earns a "doubtful" query in the margin.</li>
+</ul>
+
+<h3>Unknown is a word, not a blank</h3>
+
+<p>An <strong>empty</strong> field is simply not typed. A field that <strong>says</strong> it is unknown (<code>?</code>, <code>unknown</code>, <code>redacted</code>, <code>classified</code>, <code>withheld</code>) is blacked out, weighted by what the fact is: a withheld name is blocked out with a double marker pass, an alias gets a marker bar, an age is struck through. A sentence that merely contains the word ("an unknown man in a grey coat") is data and is typed.</p>
+
+<h3>52 hand-authored motifs, 4 paper stocks</h3>
+
+<ul>
+<li><strong>Stamps (8)</strong>: box, double rule, round seal, oval, date, slanted banner, cartouche, hazard band</li>
+<li><strong>Fasteners (6)</strong>: gem paperclip, brass owl clip, binder clip, staples, push pin, brass paper fastener</li>
+<li><strong>Tapes (4)</strong>, <strong>folder tabs (6)</strong>, <strong>photo mountings (4)</strong>, <strong>typed blocks (5)</strong></li>
+<li><strong>Hand marks (8)</strong>: circle, underline, arrow, query, tick, cross, bracket, star</li>
+<li><strong>Stains (4)</strong>, <strong>redactions (3)</strong>, and four paper stocks: bond, aged, onionskin, ledger</li>
+</ul>
+
+<h3>Nothing is struck over a name</h3>
+
+<p>Every stamp, clip, strip of tape and coffee ring is placed by searching candidate spots for one that misses the record. A name, a title, a face, the booking placard and a redaction bar are refused outright. The red-pencil arrow goes through the same search, and when a crowded card leaves no clear approach it stops at the circled name instead of ruling through the file. The editor window lists anything that was left out, and why.</p>
+
+<h3>Thirty seconds to your first spread</h3>
+
+<pre><code>var c = new CaseFile { CaseNumber = "HX-1954-0117", Title = "The Lantern Street Fire",
+                       Category = "Arson", Status = CaseStatus.Active };
+c.Suspects.Add(new CaseSuspect { Name = "Marguerite Vane", Status = SuspectStatus.Suspect });
+c.Clues.Add(new CaseClue { Title = "Scorched theatre ticket", Status = ClueStatus.Key,
+                           LinkedTo = "Marguerite Vane" });
+Texture2D spread = DossierSpread.Compose(c, type);   // 1920x1080 by default</code></pre>
+
+<p>Or open <strong>Tools &gt; CSAF &gt; Dossier</strong>, pick a case (or one of the four samples) and press <strong>Compose spread</strong>. Beside the spread the window shows <em>why it looks like this</em>: every stamp, clip and paper choice with the word in your data that chose it. Cases can also be authored as ScriptableObject assets with no code at all.</p>
+
+<p>The result is an ordinary <code>Texture2D</code>: show it in uGUI, UI Toolkit, or on a quad lying on your own desk. Turn the lamp-lit desk off and the area round the folder is transparent.</p>
+
+<h3>Demo scene</h3>
+
+<p><code>Assets/CSAF/Dossier/Demo/Scenes/DossierDemo.unity</code>. Press Play and page between four sample cases (active, cold, closed and classified) with the arrow keys.</p>
+
+<h3>Compatibility</h3>
+
+<ul>
+<li><strong>Unity 2022.3 and newer</strong>, including Unity 6. Built and tested against 6000.5.7f1.</li>
+<li><strong>Render pipeline agnostic</strong>: Built-in, URP and HDRP. The spread is rasterised on the CPU into a texture, so it touches no pipeline.</li>
+<li>Three named assembly definitions (Runtime, Editor, Demo). No <code>Resources</code> folder, no shaders, no images, no network calls, no third-party packages.</li>
+<li>Full, readable C# source. 34 scripts.</li>
+</ul>
+
+<h3>Performance, measured</h3>
+
+<p>A full 1920x1080 spread took 3.1 to 4.1 s in the Unity 6000.5.7f1 Editor on a busy build machine, and about 1 s at 960x540. That is a sample, not a ceiling. Compose it once when the case changes, off the main thread (the documented recipe uses <code>Task.Run</code>), never per frame.</p>
+
+<h3>Limitations, stated plainly</h3>
+
+<ul>
+<li>The font reader is TrueType only, with no hinting or kerning tables, and no complex-script shaping. Latin is what the shipped faces are for.</li>
+<li>The layout sets up to 10 suspect cards, 24 clues and 4 statements; the rest are listed as continued on file, never dropped silently.</li>
+<li>The photographs are generated profiles unless you supply portraits.</li>
+<li>It is not a detective game framework: it does not run your case logic, deduction or dialogue. Keep whichever framework you use and hand Dossier its data.</li>
+</ul>
+
+<p>Documentation: <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/dossier/README.md">the full guide</a>, also included in the package.</p>
+
+<h3>AI disclosure</h3>
+
+<p>Code: yes. Graphics: yes, because the code that <em>draws</em> the spread was AI-written; there is no image model anywhere in the art path, and every spread is rasterised offline and deterministically by the shipped code. Sounds: no, the package contains no audio. Text and dialog: no.</p>
