@@ -1,0 +1,38 @@
+<p><strong>The printed how-to-play page, composed from your game's own input bindings and tutorial steps. It redraws when a key is rebound.</strong></p>
+<p>Primer draws a saddle-stitched instruction booklet spread: two facing pages of cream stock, printed in two spot inks. FIG. 1 on the left is your active control scheme drawn whole, every bound control tethered by a numbered callout to a legend. The right page is your numbered steps, each with its screenshot re-screened as a two-ink halftone, and a hazard key.</p>
+<p>Rebind Jump from Space to the south face button at runtime and the diagram, the callout numbering, the leader and the legend row all move, because all four are derived from the same list. That is the difference between this and a sheet of input icons.</p>
+<p><strong>78 hand-authored marks</strong></p>
+<ul>
+<li>Keyboard: 7 cap forms and 14 special keys, each with a drawn legend.</li>
+<li>Gamepad: face buttons by position, the D-pad and its four directions, left and right sticks as separate drawings with press and four pushes each, shoulders, triggers, system buttons.</li>
+<li>Mouse and touch: 10 mouse marks including the thumb buttons, 6 touch gestures.</li>
+<li>Page furniture: callout disc, leader terminals, figure frames, hazard triangle, six hazard icons, the saddle-stitch staple.</li>
+</ul>
+<p>Every control mark has a pressed state that is a different drawing, not a tint.</p>
+<p><strong>Three weights, because there are three states</strong></p>
+<p>A bound key prints at full ink with a numbered callout. A key your game never mentions is ghosted, so the board still reads as a board. A control your game lists but leaves unbound gets an outlined cap and its own legend row reading "Dash (unbound)", so a player learns the action exists and has no key yet.</p>
+<p><strong>A real print job, not a colour swap</strong></p>
+<p>Four paper stocks (cream, newsprint, bright, kraft) decide the paper, the ink, the halftone dot pitch and the ink spread. Screenshots are separated into two plates and halftoned at 15 and 75 degrees with levels read off your own image, so a night scene prints as a picture instead of an even grey field. The page count is derived from your steps.</p>
+<p><strong>Works with any input setup</strong></p>
+<p>A control is the generic Input System path, exactly the string InputBinding.effectivePath gives you. The composing code has no dependency on the Input System package, so it works the same on the legacy Input Manager, Rewired, or your own bindings file. Controls are drawn by position, never as a console manufacturer's trademarked glyph.</p>
+<p><strong>Getting Started</strong></p>
+<p>1. Import the package. Everything lands under Assets/CSAF/Primer, and nothing is placed in a Resources folder.</p>
+<p>2. Open the demo scene Assets/CSAF/Primer/Demo/Scenes/PrimerDemo and press Play. Left and right page through three sample games; press R to rebind a control and watch the page redraw.</p>
+<p>3. Open Window &gt; CSAF &gt; Primer to see the same thing in the Editor, with a derivation panel that explains every choice the composer made.</p>
+<p>4. In your own scene, add a CSAF/Primer/Primer Page component, assign the three typefaces from Assets/CSAF/Primer/Typefaces, give it a PrimerBook (a title, a list of controls, a list of steps, optional hazards) and call Rebuild(). page.Texture is an ordinary Texture2D for uGUI, UI Toolkit or a material.</p>
+<p>5. Call Rebuild() from your own rebinding callback. For anything a player opens, compose off the main thread with the Task.Run recipe in the guide.</p>
+<p><strong>Technical Information</strong></p>
+<p><strong>Features:</strong> generates a two-page printed instruction spread from the buyer's own input bindings and tutorial steps; 78 hand-authored marks across keyboard, gamepad, mouse, touch and page furniture, each control with a distinct pressed drawing; three print weights (bound, ghosted, listed but unbound); numbered callouts on both margins with a leader router; four paper stocks that change paper, ink, dot pitch and ink spread; two-ink halftone re-screening of the buyer's screenshots with automatic levels; derived page count; a hazard key; an included TrueType outline reader with three OFL typefaces; a MonoBehaviour component with a Rebuild API; a thread-safe compose path; an editor window with a derivation panel; deterministic output; a runnable demo scene with runtime rebinding.</p>
+<p><strong>Code Modules:</strong> CSAF Primer Runtime (Runtime, all platforms), CSAF Primer Editor (Editor only), CSAF Primer Demo (Runtime, sample content).</p>
+<p><strong>Number of Unity Visual Scripts:</strong> 0. The package contains no Visual Scripting graph assets and no references to the Visual Scripting packages; verified by walking the shipped tree.</p>
+<p><strong>Number of .cs Scripts:</strong> 28, measured by walking the shipped Assets tree: 25 Runtime, 2 Editor, 1 Demo.</p>
+<p><strong>Supported Development Platforms:</strong> Windows (Yes), Mac (Yes). Pure C#, no native libraries and no platform-specific code.</p>
+<p><strong>Supported Target Build Platforms:</strong> all platforms Unity targets. The runtime assembly is plain C# with no platform-specific code; the editor assembly is constrained to the Editor.</p>
+<p><strong>Supported Unity Pipelines:</strong> Built-In, URP and HDRP. The page is rasterised into a Texture2D on the CPU and never touches the render pipeline.</p>
+<p><strong>Minimum Unity Version:</strong> 2022.3. Built and tested against Unity 6000.5.7f1.</p>
+<p><strong>Dependencies on other Plugins and/or System Libraries:</strong> none. The composing code does not depend on the Input System package; it takes generic control path strings. No network calls and no telemetry. The three typefaces (Barlow Condensed, IBM Plex Mono, Source Sans 3) are SIL Open Font License 1.1 and ship with their notices.</p>
+<p><strong>Documentation Link and Installation Guide:</strong> <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/primer/README.md">the full Primer guide</a>. The same guide is also included in the package.</p>
+<p><strong>Example Project:</strong> the package ships a runnable demo scene, Demo/Scenes/PrimerDemo, with three sample games and a runtime rebind key, so a reviewer can press Play and watch a page redraw.</p>
+<p><strong>Versioning:</strong> 1.0.0, the first public release. Semantic versioning from here: patch for fixes, minor for new marks, stocks or control paths, major for any public API change.</p>
+<p><strong>Support:</strong> bug reports and questions through the issue tracker on the repository that hosts the documentation linked above. Please include your Unity version and, if a control drew unexpectedly, the control path string that produced it.</p>
+<p><strong>Important or Additional Notes:</strong> composition is CPU rasterisation, so its cost scales with pixels: a 1920x1200 spread with four screenshots measured 3.7 to 5.1 seconds (cold 3.8) in a blank project on an AMD Ryzen 7 5825U. That is a span on one machine, not a ceiling. Compose when a binding changes, off the main thread for anything a player opens, never per frame. A screenshot needs Read/Write enabled. One spread draws one control scheme. AI disclosure: code yes, graphics yes (the code that draws the page was AI-written; there is no image model anywhere in the art path), sounds no, text and dialog no.</p>
