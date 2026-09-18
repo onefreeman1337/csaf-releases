@@ -1,0 +1,26 @@
+<p><strong>Dossier is out for Unity.</strong> It takes the suspects, clues and statements your mystery game already stores and composes them into a drawn case file spread: a typed suspect roster with booking photographs, an evidence index, carbon copies and telex strips for the statements, rubber stamps, paperclips, evidence tape and red-pencil marks.</p>
+
+<h3>Why it exists</h3>
+
+<p>The mystery frameworks on the Unity store handle the case logic well: who knows what, which clue unlocks which deduction. What they show the player is usually a scrolling list of rows on a default panel. Dossier is the layer that sits on top of whatever framework you use and makes the case file look like a case file.</p>
+
+<h3>What it does with your data</h3>
+
+<ul>
+<li>The layout follows the case: three suspects get large cards, ten get a two-column roster; twenty clues get a two-column index.</li>
+<li>A suspect's status chooses the stamp struck across their photograph. A key clue linked to a suspect gets a red-pencil arrow across the spread to that person.</li>
+<li>A field that <em>says</em> it is unknown is redacted, and the weight of the redaction depends on what the fact is. An empty field is simply not typed.</li>
+<li>A cold case prints on aged paper, a classified one on onionskin.</li>
+</ul>
+
+<p>Stamps, clips and stains are placed by a search that refuses to strike anything across a name, a title, a face or a redaction bar. When a crowded card leaves no clean route for the red-pencil arrow, it stops at the circled name instead of ruling through the record.</p>
+
+<h3>What is in the package</h3>
+
+<p>52 hand-authored motifs in 10 families and 4 paper stocks, all drawn by a software rasteriser included as readable C#. Three OFL typefaces ship with it. There is a demo scene with four sample cases and an editor window that explains, for every stamp and paper choice, which word in your data chose it.</p>
+
+<p>Honest limits: composing a full 1920x1080 spread measured 3 to 4 seconds in the editor on a busy machine, so the package documents composing it off the main thread. The font reader is TrueType only and does not shape complex scripts.</p>
+
+<p><a href="https://csaf.itch.io/dossier-unity">Dossier on itch.io</a> is $14.99. The full guide is <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/dossier/README.md">here</a>.</p>
+
+<p><em>AI disclosure: the code, including the code that draws every spread, was written with AI assistance. There is no image model in the art path.</em></p>
