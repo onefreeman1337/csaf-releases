@@ -1,0 +1,24 @@
+<p>Verdant 28 is live. It is an old growth forest floor: dark loam, cushion moss, leaf litter, a sunlit fern understorey, a trodden trail, and a raised root bank that stands up out of the ground. On it stand great oaks, pines and birches, deadfall, fungi, standing stones and a woodsman's camp.</p>
+
+<p>The pack ships 554 tiles at 16x16. 376 of them are transitions, which is 68% of the download, across 8 complete 47 mask autotile sets. The floors meet each other as well as the loam: fern meets moss, leaves drift over moss, and the trail crosses the leaf litter with its own set. There are 46 objects over 90 prop tiles, and 64 animation frames for a campfire, fireflies, glowing mushrooms and a will o the wisp.</p>
+
+<p>A forest floor turns into one muddy brown green unless the values are planned, so the five floors were placed on a value ladder before any art existed. The smallest gap on that ladder is 18.6 luma, measured from the shipped pixels. The palette is locked to 84 colours and every pixel is checked against it on each build.</p>
+
+<p>One thing we changed before it shipped: the raised bank first read as a pit, because the only light on it fell on its south face. It now catches the light on its north and west shoulders and drops into shadow on the east, and a check in the build keeps the light on the near side.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C, D object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 8 of 8 sets and 384 of 384 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 12 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 712 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 12 atlas sources. Godot itself counted 554 of 554 tiles and 62 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 24 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this forest sits beside the others. <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 — Overworld</a>, <a href="https://csaf.itch.io/verdant-08-mire">Verdant 08 — Mire</a>, <a href="https://csaf.itch.io/verdant-23-ruins">Verdant 23 — Ruins</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
