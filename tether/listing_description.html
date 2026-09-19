@@ -1,0 +1,68 @@
+<h3>Your characters have relationships. RPG Maker has nowhere to show them.</h3>
+
+<p>Most relationship systems for RPG Maker MZ keep a number per pair and show it as a number, a bar or a heart in a menu list. The bond that matters most in your story looks exactly like the one that matters least.</p>
+
+<p><strong>Tether draws every bond between your characters as a cord you can read at a glance.</strong> Each character is a gilt medallion holding their own face graphic. Each bond is a cord between two of them, and the cord's material says what kind of bond it is, its weight says how strong, its knots mark the events that shaped it, and a bond under strain frays. Drawn in code when the chart opens, from values your game already keeps.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>TetherRead.js</code> — Tether [2/3] — the reader and the layout solver. Turns relationship values into bonds and places the cast on the chart. Knows nothing about RPG Maker.</li>
+<li><code>TetherRender.js</code> — Tether [3/3] — the painter. Draws each bond as a cord of real material (silk, rope, chain, wire, ribbon), frayed when strained, knotted at the events…</li>
+<li><code>Tether.js</code> — Tether [1/3] — the chart scene, parameters and commands. Every bond between your characters, drawn as a cord of real material. v1.0.0</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them rather than when it loads, so Tether works in whatever order the Plugin Manager gives you. That is tested rather than hoped for: the headless suites, the capture pipeline, the engine gate and a fresh install of the shipped zip into a blank project all load the three files <strong>alphabetically</strong> — which puts the entry file <code>Tether.js</code> <em>first</em>, before the reader and the painter it uses, and that is the order you get by dragging the folder in. <code>Tether.js</code> is the only one that touches RPG Maker at all; the other two are a reader that turns values into bonds and places the cast, and a painter, and neither knows the engine exists. Switch <code>Tether.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>, <code>Game_System.prototype.initialize</code>, <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>.</p>
+<p>Because nothing is clobbered, Tether — every bond between your characters, drawn as a cord co-exists with other plugins that patch the same seams, including large suites.</p>
+
+
+<h3>What the chart shows</h3>
+<ul>
+<li><strong>Love is silk, friendship is rope, an oath is chain, a rivalry is barbed wire, family is ribbon.</strong> Five materials that differ in structure, not just colour, so they read in a glance even at twelve characters.</li>
+<li><strong>Six weights.</strong> The bond's value places it on six tiers (thresholds are a parameter): a thread of silk at tier 0, a heavy glossy cord at tier 5; a light chain or a heavy one; small barbs or big ones.</li>
+<li><strong>Knots are events.</strong> List switches on a pair and every switch that is ON ties a knot labelled with the switch's own name from your database. Or tie one with the Strike Knot command, in your own words. Oaths are padlocked instead of knotted; family ribbons are tied in bows.</li>
+<li><strong>Strain.</strong> A love, friendship, oath or family bond whose value falls below zero is strained: silk and rope fray, a chain hangs one broken link, barbed wire snaps and curls back. Set Strained forces it.</li>
+<li><strong>The ledger.</strong> The panel beside the chart counts every kind of bond and names the strongest pair of each. Choose a face and it lists that character's bonds instead, each as a length of its own cord, while the rest of the chart dims.</li>
+</ul>
+
+<h3>It reads the system you already have</h3>
+<p>Tether draws; it does not decide. If your game (or a relationship plugin you already use) keeps a value per pair in a <strong>variable</strong>, list the pair in the <em>Pairs read from variables</em> parameter and Tether draws what that system decides. If you have no system, use Tether's own small bond record through five plugin commands: Open Chart, Set Bond, Add To Bond, Strike Knot and Set Strained. A pair with neither gets no cord. It never invents a relationship.</p>
+
+<h3>On a brand new project</h3>
+<p>Drop the three files in and the main menu gains a <strong>Bonds</strong> command. On the stock database it opens a chart of your party, with their own face graphics, and says <em>No bonds yet.</em> One Set Bond command and the first cord appears. That exact sequence is tested from the shipped zip in a blank project, through the engine's own plugin command path.</p>
+
+<h3>The order around the ring is solved</h3>
+<p>Up to twelve characters sit on one ring, so every cord is a clean chord of the circle; thirteen to sixteen sit on two rings. Tether orders the cast around the ring to make as few cords cross as it can, and places every knot label clear of the faces and of each other.</p>
+
+<h3>It does not look like RPG Maker</h3>
+<p>The chart is its own scene with <strong>zero windows</strong>: no windowskin, no stock cursor, no default font. A velvet page with a gilt rule, a brass title plate, gilt medallions and two bundled display faces (Marcellus SC and Sorts Mill Goudy Italic, both under the SIL Open Font Licence). Verified in the engine by a detector that is itself proven to fire.</p>
+
+<h3>It costs almost nothing per frame</h3>
+<p>The chart is drawn once when it opens and again only when the player chooses a different face. At rest it re-uploads nothing: measured in the real engine at <strong>0 texture uploads per frame</strong>, with the scene's own update averaging under 0.1 ms, for twelve and for sixteen characters.</p>
+
+<h3>What you get</h3>
+<ul>
+<li><code>Tether.js</code>, <code>TetherRead.js</code>, <code>TetherRender.js</code>: raw, readable, commented JavaScript. Nothing minified.</li>
+<li>Two display faces and their OFL licence files.</li>
+<li>A Readme covering every parameter, command and behaviour, and the licence: unlimited games, commercial or free, no royalties.</li>
+<li>Twelve parameters (title, menu command, extra cast, pairs from variables, tier thresholds, your own words for each kind and more) and five plugin commands.</li>
+</ul>
+
+<h3>Honest about what it is not</h3>
+<ul>
+<li>It is not a relationship mechanic: no gifts, no affection events, no dialogue. It is the visual layer over the numbers you already keep.</li>
+<li>A chart holds up to sixteen characters; past that, the party and the first names in your cast list are charted.</li>
+<li>The portraits in these images are demonstration art and are <strong>not included</strong>. The chart uses your actors' own face graphics; an actor without one gets a monogram.</li>
+<li>Made with AI assistance: the code and the graphics. No sounds and no story text ship with it; every name and knot label on the chart is yours.</li>
+</ul>
+
+<h3>Also from Core Systems Asset Factory</h3>
+<ul>
+<li><a href="https://csaf.itch.io/lineage">Lineage</a>: the family tree your game's dynasties grow, drawn from your database.</li>
+<li><a href="https://csaf.itch.io/hearsay">Hearsay</a>: what each character believes, and who told them.</li>
+<li><a href="https://csaf.itch.io/intertitle">Intertitle</a>: every place and every boss announces itself with a card drawn from its data.</li>
+<li><a href="https://csaf.itch.io/lucidity">Lucidity</a>: sanity, stress and hallucination for your party.</li>
+<li><a href="https://csaf.itch.io/cairnwake">CAIRNWAKE</a>: our own RPG, where where you stand is what you do.</li>
+</ul>
