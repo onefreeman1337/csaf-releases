@@ -1,0 +1,27 @@
+<p><strong>119 sound effects for the part of a roguelike no dungeon pack covers: the run itself.</strong></p>
+<p>A generic dungeon pack sells the door and the chest. Descent sells the loop a player repeats forty times: starting a run, going down a floor, meeting a threat, finding something rare, running low on HP, dying, and spending what they carried home. It is built so the sound tells the player which run this is before they read a number.</p>
+<h3>8 ladders: wire a number to a rung</h3>
+<p><strong>floor descent</strong> (6 rungs, wired to floor depth), <strong>threat tier</strong> (5 rungs, wired to threat tier), <strong>low hp heartbeat</strong> (5 rungs, wired to HP), <strong>item rarity</strong> (5 rungs, wired to item rarity), <strong>gold amount</strong> (4 rungs, wired to gold amount), <strong>meta unlock tier</strong> (5 rungs, wired to meta unlock tier), <strong>run summary tally</strong> (5 rungs, wired to run score), <strong>floor ambience by depth</strong> (4 rungs, wired to depth band).</p>
+<p>Two run downward on purpose. Every floor you descend is darker than the one above, and the low HP heartbeat is a set of seamless loops whose period falls rung by rung, so swapping loops as HP drops makes the heart race.</p>
+<p>A gate re-derives all 31 steps from the shipped audio and refuses the pack unless every rung moves the declared way by at least 8% on a brightness ladder or 12% on a length ladder. Failing steps on the shipped files: <strong>0</strong>. When the first render failed that test, the recipes were fixed; the thresholds were not touched.</p>
+<h3>10 phases of a run, 42 states</h3>
+<p><strong>the run</strong>, <strong>a room</strong>, <strong>the stairs</strong>, <strong>identifying an item</strong>, <strong>a shrine</strong>, <strong>the shop</strong>, <strong>death</strong>, <strong>the meta hub</strong>, <strong>consumables</strong>, <strong>the map</strong>. Each phase ships every state it lists, from the shop's bell, browsing loop, buy, refusal, reroll and exit to a shrine's offering, blessing, curse and spent. The gate compared 71 state pairs: none is the same sound twice, and every state sold as a loop carries loop points in the file.</p>
+<h3>The details that matter at import time</h3>
+<ul>
+<li><strong>.wav and .ogg</strong>, 238 files. 16-bit 44.1 kHz mono.</li>
+<li><strong>14 seamless loops</strong> (heartbeats, floor beds, the stairwell, the shop, the hub, the boss floor). Loop points are written into the wav and the ogg tags, and the loop region is the whole file, so ticking Loop in any engine is seamless.</li>
+<li><strong>29 variation sets</strong>: separate renders that differ in length and pitch, so a gold pickup never machine-guns.</li>
+<li><strong>One acoustic identity</strong>: eight hand-authored materials (obsidian, a reliquary bell, the shaft itself, a vellum drum, silver, quartz, pewter, clay) through one shared room at one loudness target. Measured inner loudness range across all 119 files: <strong>0.89 dB</strong>.</li>
+<li><strong>A naming manifest</strong> listing every file with its ladder rung or phase and state, its take and its measured duration.</li>
+<li><strong>Import notes</strong> for Unity, Unreal, Godot, GameMaker, RPG Maker and web.</li>
+<li><strong>pack_proof.json</strong>: a sha256 and a full measurement record for every file, behind 1095 signal checks with 0 failures.</li>
+</ul>
+<h3>Licence</h3>
+<p><strong>Royalty free. Commercial use. No attribution required.</strong></p>
+<p>Use these in any number of commercial and non-commercial games, on any platform, forever. Modify them freely. The only thing you may not do is resell or redistribute the sounds themselves as a sound library. The full licence is in the download in plain language, with a copy-paste credit line if you would like to credit it anyway.</p>
+<h3>Try it first: the demo is a real subset</h3>
+<p>The free download is <strong>25 of the 119 sounds</strong>: the whole floor descent ladder and the whole rarity ladder, every heartbeat loop, the lowest and highest threat, one complete phase (the shrine), the start and the end of a run, and the first floor bed. Same audio, same licence.</p>
+<h3>Honest about what this is</h3>
+<p>These are <strong>synthetic</strong> sounds, computed from modal resonators, filtered noise and envelopes in code. That is why the licence is clean and why the pack is coherent, and it is the aesthetic: a designed, stylised set, not a field recording library. The proof file certifies there is no measurable defect. It cannot tell you the pack sounds good to you. That is what the free demo is for.</p>
+<h3>From the same studio</h3>
+<p><a href="https://csaf.itch.io/portcullis-dungeon-mechanisms">Portcullis</a> (the dungeon furniture: doors, chests, levers and traps) · <a href="https://csaf.itch.io/steel-and-bone-medieval-combat-impacts">Steel and Bone</a> (combat impacts filed by what hits what) · <a href="https://csaf.itch.io/sixfold-elemental-casting-chains">Sixfold</a> (elemental spell casting)</p>
