@@ -1,0 +1,104 @@
+{
+  "packId": "verdant-28-deep-forest",
+  "title": "Verdant 28 — Deep Forest Tileset for RPG Maker MZ, Tiled & Godot: Moss, Fern, Leaf Litter & Root Bank [16x16]",
+  "shortText": "554 tiles: moss, fern, leaf litter, a trail and a raised root bank, 8 complete autotile sets.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "forest",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "forest": "fantasy"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 01 — Overworld",
+      "url": "https://csaf.itch.io/verdant-01-overworld",
+      "why": "the open grassland, road and water this forest edges onto"
+    },
+    {
+      "label": "Verdant 08 — Mire",
+      "url": "https://csaf.itch.io/verdant-08-mire",
+      "why": "blackwater, boardwalk and bog for the forest's wet hollows"
+    },
+    {
+      "label": "Verdant 23 — Ruins",
+      "url": "https://csaf.itch.io/verdant-23-ruins",
+      "why": "an overgrown colonnade to set in a clearing"
+    }
+  ],
+  "derived": {
+    "tiles": 554,
+    "cell": 16,
+    "materials": 6,
+    "variants": 4,
+    "autotileTiles": 376,
+    "autotileSets": 8,
+    "propTiles": 90,
+    "objects": 46,
+    "staticObjects": 42,
+    "shapes": 42,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 84,
+    "renders": 24,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 92,
+    "ladderGap": "18.6",
+    "files": 641,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D"
+    ],
+    "mzSetsFound": 8,
+    "mzSetsEmitted": 8,
+    "mzMasked": 376,
+    "mzMaskedTotal": 376,
+    "mzShapes": 384,
+    "mzShapesTotal": 384,
+    "tsx": 12,
+    "tiledCells": "712",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 12,
+    "godotTiles": 554,
+    "godotMulti": 62,
+    "animPage": "page D",
+    "transitionShare": 68
+  },
+  "engineMeasuredAt": "2026-09-19T05:49:00.744Z",
+  "description": "<p><strong>554 tiles at 16x16</strong> for an old-growth forest floor: dark\nloam, cushion moss, leaf litter, a sunlit fern understorey, a trodden trail, and a raised root bank that stands up\nout of the ground, with great oaks, pines and birches, deadfall, fungi, standing stones and a woodsman's camp.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing you\nmay not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>376 of the 554 tiles are transitions</strong>, 68% of the pack.\n8 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>The floors meet each other, not only the loam.</strong> Moss, litter, fern and the trail each meet the\nforest floor; fern meets moss, leaves drift over moss, and the trail crosses the leaf litter with its own set, so\none floor lays over another without a strip of loam between them.</li>\n<li><strong>A raised root bank</strong> that reads as raised: lit on its north and west shoulders, a face and a lit\nlip on the south, a shadow on the east.</li>\n<li><strong>6 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so the forest floor does not collapse into one muddy brown-green. The smallest gap on the ladder is\n18.6 luma, measured from the shipped pixels.</li>\n<li><strong>46 objects</strong> across 90 tiles: a 3x3 great oak, a pine and a silver birch,\nfallen and hollow logs, a woodpile, a fairy ring and fly agarics, bracket fungus, a standing stone and a waymark\ncairn, a stag skull, brambles, foxgloves and bluebells, a signpost, a wayside shrine, a bee skep and a fire ring.\nEach ships transparent, and grounded on the floor it belongs to with the contact shadow drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: a campfire, fireflies over a fern,\nglowing mushrooms and a will-o'-the-wisp. The silhouette holds still; only the light moves.</li>\n<li><strong>A finished 40x28 sample map</strong> with 92 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>24 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 641 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>One thing to know before you buy</h3>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the animated objects arrive as static\nframes on page D.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C/D object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 8 of\n8 sets, 376 of 376 masked tiles, and 384 of 384\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 12 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 712 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n12 atlas sources, 554 of 554 declared tiles built, 62 of 62\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 84 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>moss_on_humus</code></li>\n<li><code>litter_on_humus</code></li>\n<li><code>fern_on_humus</code></li>\n<li><code>path_on_humus</code></li>\n<li><code>fern_on_moss</code></li>\n<li><code>litter_on_moss</code></li>\n<li><code>path_on_litter</code></li>\n<li><code>rootbank_on_humus</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this forest sits beside the others.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-01-overworld\">Verdant 01 — Overworld</a> — the open grassland, road and water this forest edges onto</li>\n<li><a href=\"https://csaf.itch.io/verdant-08-mire\">Verdant 08 — Mire</a> — blackwater, boardwalk and bog for the forest's wet hollows</li>\n<li><a href=\"https://csaf.itch.io/verdant-23-ruins\">Verdant 23 — Ruins</a> — an overgrown colonnade to set in a clearing</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
