@@ -1,0 +1,104 @@
+{
+  "packId": "verdant-29-crystal-hollows",
+  "title": "Verdant 29 — Crystal Hollows Tileset for RPG Maker MZ, Tiled & Godot: Amethyst, Quartz, Lichen & Geode Walls [16x16]",
+  "shortText": "498 tiles: cavestone, glow lichen, amethyst, quartz sand and raised geode walls, 7 complete autotile sets.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "cave",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "cave": "fantasy"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 05 — Depths",
+      "url": "https://csaf.itch.io/verdant-05-depths",
+      "why": "the dungeon, cave and crypt floors a crystal cavern opens off"
+    },
+    {
+      "label": "Verdant 27 — Elemental Dungeon",
+      "url": "https://csaf.itch.io/verdant-27-elemental-dungeon",
+      "why": "fire, ice, flora and storm halls for the deeper levels"
+    },
+    {
+      "label": "Verdant 25 — Infernal",
+      "url": "https://csaf.itch.io/verdant-25-infernal",
+      "why": "the layer below, for a descent that keeps going"
+    }
+  ],
+  "derived": {
+    "tiles": 498,
+    "cell": 16,
+    "materials": 5,
+    "variants": 4,
+    "autotileTiles": 329,
+    "autotileSets": 7,
+    "propTiles": 85,
+    "objects": 44,
+    "staticObjects": 40,
+    "shapes": 40,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 79,
+    "renders": 20,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 135,
+    "ladderGap": "16.6",
+    "files": 577,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D"
+    ],
+    "mzSetsFound": 7,
+    "mzSetsEmitted": 7,
+    "mzMasked": 329,
+    "mzMaskedTotal": 329,
+    "mzShapes": 336,
+    "mzShapesTotal": 336,
+    "tsx": 11,
+    "tiledCells": "616",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 11,
+    "godotTiles": 498,
+    "godotMulti": 73,
+    "animPage": "pages C and D",
+    "transitionShare": 66
+  },
+  "engineMeasuredAt": "2026-09-19T06:43:07.472Z",
+  "description": "<p><strong>498 tiles at 16x16</strong> for a crystal cavern: dark fractured\ncavestone, glow lichen, amethyst crystal fields, a quartz-sand trail, and raised geode walls with a violet crystal lip,\nwith crystal clusters in four hues, columns and spires, geodes, stalagmites and flowstone, a rune obelisk, a crystal\naltar and a miners' camp. <strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong>\nthe one thing you may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>329 of the 498 tiles are transitions</strong>, 66% of the pack.\n7 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>The floors meet each other, not only the stone.</strong> Lichen, amethyst and the quartz trail each meet the\ncave floor; amethyst grows over lichen, and the trail crosses both the lichen and the amethyst with its own sets, so\none floor lays over another without a strip of bare stone between them.</li>\n<li><strong>A raised geode wall</strong> that reads as raised: lit on its north and west shoulders, a south face with\na violet crystal lip where it turns over, and a shadow on the east.</li>\n<li><strong>5 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so the cave does not collapse into one undifferentiated dark. The smallest gap on the ladder is\n16.6 luma, measured from the shipped pixels.</li>\n<li><strong>44 objects</strong> across 85 tiles: amethyst, teal, rose and citrine crystal\nclusters, an amethyst column and a quartz spire, split and whole geodes, stalagmites, a flowstone column and a\nrimstone pool, tall cave mushrooms, a rune obelisk, a crystal altar and a crystal skull, and the miners' camp: a\ntimber support, a cart of crystals, a pick left in a rock, a crystal chest and the rail's end stop. Each ships\ntransparent, and grounded on the floor it belongs to with the contact shadow drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: a pulsing heart crystal, water\ndripping into a pool, glowing mushrooms and a miner's lantern. The silhouette holds still; only the light and the\nwater move.</li>\n<li><strong>A finished 40x28 sample map</strong> with 135 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>20 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 577 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>One thing to know before you buy</h3>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the animated objects arrive as static\nframes on pages C and D.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C/D object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 7 of\n7 sets, 329 of 329 masked tiles, and 336 of 336\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 11 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 616 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n11 atlas sources, 498 of 498 declared tiles built, 73 of 73\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 79 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>lichen_on_cavestone</code></li>\n<li><code>amethyst_on_cavestone</code></li>\n<li><code>quartz_on_cavestone</code></li>\n<li><code>amethyst_on_lichen</code></li>\n<li><code>quartz_on_amethyst</code></li>\n<li><code>quartz_on_lichen</code></li>\n<li><code>geodewall_on_cavestone</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this cavern sits beside the others.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-05-depths\">Verdant 05 — Depths</a> — the dungeon, cave and crypt floors a crystal cavern opens off</li>\n<li><a href=\"https://csaf.itch.io/verdant-27-elemental-dungeon\">Verdant 27 — Elemental Dungeon</a> — fire, ice, flora and storm halls for the deeper levels</li>\n<li><a href=\"https://csaf.itch.io/verdant-25-infernal\">Verdant 25 — Infernal</a> — the layer below, for a descent that keeps going</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
