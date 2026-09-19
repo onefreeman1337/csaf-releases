@@ -1,0 +1,69 @@
+<h3>Your maps are beautiful. Nothing lives in them.</h3>
+
+<p>A meadow in RPG Maker MZ is a painted floor. The pond is still, the grass is empty, and at night nothing glows. Making it feel alive means hand-placing critter events one by one, with move routes, on every map, and they still walk through the water.</p>
+
+<p><strong>Vivarium fills every map with the small life a real place has, and draws every creature itself.</strong> Butterflies and bees over the meadow, dragonflies quartering the pond, koi and pike moving under the surface, frogs on the bank that <strong>dive when your party walks up</strong>, and when the screen darkens: fireflies that fall into step and flash together, moths drawn to your party as if it carried a lamp, and bats. 43 species in 9 families, every wing, fin and eyespot painted in code. <strong>No events to place and not one image file.</strong></p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>VivariumCore.js</code> — Vivarium [1/3] — the species, the habitat reader and the behaviour. No settings here; see Vivarium.js. v1.0.0</li>
+<li><code>VivariumPaint.js</code> — Vivarium [2/3] — draws every creature, frame by frame, from its species record. No settings here; see Vivarium.js. v1.0.0</li>
+<li><code>Vivarium.js</code> — Vivarium [3/3] — the small life of every map, drawn at runtime: butterflies, moths, fireflies, dragonflies, bees, fish, frogs, bats and pond skaters.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time it needs them, so Vivarium works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Vivarium.js</code> <em>first</em>. That is tested: the headless suites, the engine gate and a fresh install of the shipped zip into a blank MZ project all load the three files alphabetically. Enabling the plugin twice by mistake is also tested: it still makes one layer of creatures and updates it once a frame. <code>Vivarium.js</code> is the only file that touches RPG Maker; the other two are the species and behaviour, and the painter, and neither knows the engine exists.</p>
+<p><strong>Core methods extended — 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>, <code>Game_Map.prototype.setup</code>, <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Vivarium co-exists with other plugins that patch the same seams, including large suites.</p>
+
+
+<h3>It reads the map</h3>
+<ul>
+<li><strong>Water</strong> (MZ's A1 water tiles, or any tile with your water terrain tag or region): fish under the surface, pond skaters and whirligigs on it, dragonflies and damselflies over it.</li>
+<li><strong>Shore</strong> (walkable tiles beside water): frogs and toads.</li>
+<li><strong>Land</strong> (every other walkable tile): butterflies and bees by day; moths, fireflies and bats at dusk and night. Walls, rocks and trees get nothing.</li>
+<li><strong>Which maps:</strong> a note like <code>&lt;Vivarium: meadow pond&gt;</code> or <code>&lt;Vivarium: none&gt;</code>, or nothing at all: the tileset's name decides. With the defaults MZ's own Overworld and Outside maps are meadows, Dungeon maps are caves (bats and glow-worms at any hour) and Inside maps stay empty. On a brand new project, MZ's sample map has butterflies and bees on it the moment you press Play. That exact install is tested from the shipped zip.</li>
+</ul>
+
+<h3>Day, dusk and night, with no setup</h3>
+<p>By default the <strong>screen tone</strong> decides, so any day/night plugin that tints the screen already drives it: MZ's own Night tint brings out the night life, Sunset brings dusk, and a Sepia flashback is not mistaken for evening. Or point it at a switch or an hour variable. When the hour turns, the day life leaves together and the night life arrives. The fireflies' light is kept out of the night tint, so it glows instead of being dimmed with the grass.</p>
+
+<h3>Life that notices you</h3>
+<ul>
+<li>Walk up to a frog and it hops into the water with a ripple, then surfaces further along the bank a few seconds later.</li>
+<li>Fish and skaters dart away from the bank you stand on; butterflies and dragonflies climb away.</li>
+<li>Butterflies settle for a moment and fan their wings. Minnows swim in shoals of three.</li>
+<li>A <strong>Scatter</strong> command sends everything on screen fleeing at once: a shout, an explosion, a slammed door.</li>
+</ul>
+
+<h3>It does not look like RPG Maker, and it does not look like clip art</h3>
+<p>Every creature is drawn from a species record: body plan, wing shape, pattern and colours. A Peacock has its eyespots, a Swallowtail its tails, a Luna Moth its long hindwing streamers, a Banded Demoiselle its dark wing bands, a koi its own red patches. The families are told apart by silhouette (a butterfly's broad paired wings, a moth's swept delta, a dragonfly's cross of four blades, a bat's membrane scalloped between the fingers) so they read at map size, in motion. Every animation frame is drawn too: four-frame wingbeats, a swaying tail, a frog that sits, croaks and hops. Add species of your own in a parameter: pick a family, three colours and a size, and the same painter draws it.</p>
+
+<h3>It costs almost nothing per frame</h3>
+<p>Every frame of every species is painted once, into one image, the first time a map needs it; after that nothing is redrawn or re-uploaded, and every creature shares that one texture. Life lives only in and around the part of the map on screen, so a 200 x 120 map costs no more than a small one. Measured in the real engine at <strong>0 texture uploads per frame</strong> and about 11 draw calls with 96 creatures on screen, the plugin's own update averaging under 0.5 ms, and allocating nothing per frame (a source scan that is itself proven to fire).</p>
+
+<h3>What you get</h3>
+<ul>
+<li><code>Vivarium.js</code>, <code>VivariumCore.js</code>, <code>VivariumPaint.js</code>: raw, readable, commented JavaScript. Nothing minified.</li>
+<li>A Readme covering every parameter, command, notetag and species, and the licence: unlimited games, commercial or free, no royalties.</li>
+<li>17 parameters (density, creature size, flee distance, water terrain tag and regions, day/night source, biome rules, families on or off, your own species) and five plugin commands (Set Life On, Set Density, Set This Map's Biomes, Set Time Of Day, Scatter).</li>
+</ul>
+
+<h3>Honest about what it is not</h3>
+<ul>
+<li><strong>No birds.</strong> That is on purpose: bird plugins exist, and Vivarium fills everything under the sky beside them.</li>
+<li>Creatures are scenery. They never block, collide with or trigger anything, and they cannot be caught. (For a collection your players catch, see Creel and Elytra below.)</li>
+<li>Where each creature is, is not saved: a map's life is made again when the map is entered. The command settings are saved.</li>
+<li>The tiles and the character in these images are demonstration art from our <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 — Overworld</a> tileset and our <a href="https://csaf.itch.io/wayfarer-01-the-green-road">Wayfarer 01 — The Green Road</a> sprite pack, and are <strong>not included</strong>. Vivarium draws on whatever tiles your project uses.</li>
+<li>Made with AI assistance: the code and the graphics. No sounds and no story text ship with it.</li>
+</ul>
+
+<h3>Also from Core Systems Asset Factory</h3>
+<ul>
+<li><a href="https://csaf.itch.io/creel">Creel</a>: every fish your game can catch, drawn at runtime.</li>
+<li><a href="https://csaf.itch.io/elytra">Elytra</a>: every insect your game can catch draws its own body.</li>
+<li><a href="https://csaf.itch.io/herbarium">Herbarium</a>: every herb, root and fungus draws its own botanical plate.</li>
+<li><a href="https://csaf.itch.io/vista">Vista</a>: every battle draws its own arena from the map's terrain, time and weather.</li>
+<li><a href="https://csaf.itch.io/intertitle">Intertitle</a>: every place and every boss announces itself with a card drawn from its data.</li>
+</ul>
