@@ -1,0 +1,24 @@
+<p>Verdant 30 is live. It is a railway terminus and the yard behind it: ballasted track running both ways, raised island platforms with a painted edge, a concourse hall floor, granite forecourt setts, weeds through the ballast and a cinder patch. In it stand the things that make a station read as a station, a ticket kiosk and turnstiles, a departure board, a meeting point clock, buffer stops, a semaphore signal and a water crane.</p>
+
+<p>The pack ships 541 tiles at 16x16. 329 of them are transitions, which is 61% of the download, across 7 complete 47 mask autotile sets. The surfaces meet each other as well as the ballast: the concourse floor and the setts both meet the platform, and weeds come through the setts as well as the track bed. There are 48 objects over 116 prop tiles, and 64 animation frames for level crossing lights, a lit gas lamp, a colour light signal stepping through its aspects, and a departure board turning its flaps.</p>
+
+<p>A station turns into one undifferentiated grey unless the values are planned, so the 8 surfaces were placed on a value ladder before any art existed. The smallest gap on that ladder is 17.7 luma, measured from the shipped pixels. The palette is locked to 95 colours and every pixel is checked against it on each build.</p>
+
+<p>One thing we changed before it shipped, and it was a store image rather than a tile. The animation plate is a table of four animated sets by eight frames. Its panel came out 640 pixels wide on an 816 pixel page, which is 78.6%, while every other plate in the gallery fills 94%. The cause was arithmetic: at the gap it was using, a row of eight frames floored the integer zoom down to 2. Widening the gap put the same row at 768 pixels, so the plate fills the page at the same whole number zoom. We do not fix this by scaling to fit, because a fractional zoom resamples pixel art and that is the one thing a tile pack may not do.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C, D object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 7 of 7 sets and 336 of 336 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 11 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 688 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 11 atlas sources. Godot itself counted 541 of 541 tiles and 118 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 32 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this terminus sits beside the others. <a href="https://csaf.itch.io/verdant-18-victorian-industrial">Verdant — Victorian Industrial</a>, <a href="https://csaf.itch.io/verdant-09-town">Verdant 09 — Town</a>, <a href="https://csaf.itch.io/verdant-10-harbour">Verdant 10 — Harbour</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
