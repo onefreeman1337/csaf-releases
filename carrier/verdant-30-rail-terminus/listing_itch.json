@@ -1,0 +1,104 @@
+{
+  "packId": "verdant-30-rail-terminus",
+  "title": "Verdant 30 — Rail Terminus Tileset for RPG Maker MZ, Tiled & Godot: Tracks, Platforms, Concourse & Yard [16x16]",
+  "shortText": "541 tiles: ballast and rail, platform concrete, concourse tiling, setts, weeds and cinder, 7 complete autotile sets.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "train",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "train": "city"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant — Victorian Industrial",
+      "url": "https://csaf.itch.io/verdant-18-victorian-industrial",
+      "why": "the works and warehouses the goods yard serves, in the same era"
+    },
+    {
+      "label": "Verdant 09 — Town",
+      "url": "https://csaf.itch.io/verdant-09-town",
+      "why": "the streets and housefronts the line arrives into"
+    },
+    {
+      "label": "Verdant 10 — Harbour",
+      "url": "https://csaf.itch.io/verdant-10-harbour",
+      "why": "the other terminus, for freight that leaves by water"
+    }
+  ],
+  "derived": {
+    "tiles": 541,
+    "cell": 16,
+    "materials": 8,
+    "variants": 4,
+    "autotileTiles": 329,
+    "autotileSets": 7,
+    "propTiles": 116,
+    "objects": 48,
+    "staticObjects": 44,
+    "shapes": 44,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 95,
+    "renders": 32,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 141,
+    "ladderGap": "17.7",
+    "files": 632,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D"
+    ],
+    "mzSetsFound": 7,
+    "mzSetsEmitted": 7,
+    "mzMasked": 329,
+    "mzMaskedTotal": 329,
+    "mzShapes": 336,
+    "mzShapesTotal": 336,
+    "tsx": 11,
+    "tiledCells": "688",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 11,
+    "godotTiles": 541,
+    "godotMulti": 118,
+    "animPage": "page D",
+    "transitionShare": 61
+  },
+  "engineMeasuredAt": "2026-09-19T16:59:02.527Z",
+  "description": "<p><strong>541 tiles at 16x16</strong> for a railway terminus and the yard\nbehind it: ballasted track running both ways, raised island platforms with a painted edge, a concourse hall floor,\ngranite forecourt setts, weeds through the ballast and a cinder patch, with the landmarks a station is recognised by\n— a ticket kiosk, turnstiles, a departure board, a meeting-point clock, buffer stops, a semaphore signal and a water\ncrane. <strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing\nyou may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>329 of the 541 tiles are transitions</strong>, 61% of the pack.\n7 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>The surfaces meet each other, not only the ballast.</strong> The platform, the setts, the weeds and the\ncinder each meet the track bed; the concourse floor and the setts both meet the platform, and weeds come through the\nsetts as well as the ballast, so one surface lays over another without a strip of bare stone between them.</li>\n<li><strong>A raised platform that reads as raised</strong>: a yellow edge line along its north and west shoulders, a\nbrick face on the south under the same line where it turns over, and a shadow on the east.</li>\n<li><strong>8 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so the station does not collapse into one undifferentiated grey. The smallest gap on the ladder is\n17.7 luma, measured from the shipped pixels.</li>\n<li><strong>48 objects</strong> across 116 tiles. The concourse: a ticket kiosk, turnstiles, a\nqueue rail, left-luggage lockers, an information desk, a poster board and a newspaper stand. The platform: luggage\ntrolleys, milk churns, mail sacks, benches, lamp posts, a meeting-point clock and the station nameboard. The track\nand the yard: buffer stops, a semaphore signal, a water crane, a point lever, a coal heap, stacked sleepers and\nrails, a telegraph pole, a pump handcar, a lamp hut, a pillar post box and a horse trough. Each ships transparent,\nand grounded on the floor it belongs to with the contact shadow drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: level-crossing lights, a lit gas\nlamp, a colour-light signal stepping through its aspects, and a departure board turning its flaps. The silhouette\nholds still; only the light and the flaps move.</li>\n<li><strong>A finished 40x28 sample map</strong> with 141 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>32 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 632 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>One thing to know before you buy</h3>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the animated objects arrive as static\nframes on page D.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C/D object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 7 of\n7 sets, 329 of 329 masked tiles, and 336 of 336\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 11 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 688 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n11 atlas sources, 541 of 541 declared tiles built, 118 of 118\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 95 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>platform_on_ballast</code></li>\n<li><code>concourse_on_platform</code></li>\n<li><code>setts_on_platform</code></li>\n<li><code>setts_on_ballast</code></li>\n<li><code>weeds_on_ballast</code></li>\n<li><code>cinder_on_ballast</code></li>\n<li><code>weeds_on_setts</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this terminus sits beside the others.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-18-victorian-industrial\">Verdant — Victorian Industrial</a> — the works and warehouses the goods yard serves, in the same era</li>\n<li><a href=\"https://csaf.itch.io/verdant-09-town\">Verdant 09 — Town</a> — the streets and housefronts the line arrives into</li>\n<li><a href=\"https://csaf.itch.io/verdant-10-harbour\">Verdant 10 — Harbour</a> — the other terminus, for freight that leaves by water</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
