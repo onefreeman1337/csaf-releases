@@ -14,7 +14,12 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Generate letter tracing lessons from your own font, in Latin, Cyrillic and Greek.**
 
-Unity 2022.3 or newer · no third party packages · full readable source · a playable demo scene.
+**Built and tested on Unity 6 (6000.5)** · no third party packages · full readable source · a playable demo scene.
+
+That version is what every store declares, because it is the one this package was compiled, gated and
+fresh-installed against. The source uses no API or C# syntax newer than 2022.3 and is very likely to build
+there, but no 2022.3 editor was available to compile it here, so that is an inference and is not claimed as a
+tested version.
 
 ---
 
