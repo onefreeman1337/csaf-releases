@@ -1,0 +1,12 @@
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>BivouacCore.js</code> — Bivouac Core - reads an enemy troop and composes the ground that band holds, as a draw program. Pure generator; no engine calls.</li>
+<li><code>BivouacDraw.js</code> — Bivouac Draw - the constructions. Turns a Bivouac program into marks on a canvas. No engine calls. Place ABOVE Bivouac.js and BELOW BivouacCore.js.</li>
+<li><code>Bivouac.js</code> — Bivouac - every enemy band stages its own ground. Reads your troops and draws the earth they hold, what they brought and the marks they leave.</li>
+</ol>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Spriteset_Battle.prototype.createBattleField</code>, <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Bivouac co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends one method on a core singleton, the same way — original saved and called through:</strong> <code>BattleManager.setup</code>. Another plugin patching that one keeps working.</p>

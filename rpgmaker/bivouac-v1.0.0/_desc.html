@@ -1,0 +1,60 @@
+<p><strong>RPG Maker MZ gives every enemy the same nothing to stand on.</strong> A goblin rabble and a demon lord float at the same height over the same battleback, casting no shadow, leaving no trace, surrounded by no sign that anything lives there.</p>
+
+<p><strong>Bivouac reads the troop you already made and draws the ground that band holds.</strong> The worked earth beneath them, shaped by where the members of that troop actually stand. Cast shadows that seat every battler on it. The things the band brought and set down. And the marks it leaves behind.</p>
+
+<p>Nothing is loaded from an image file. There is no battleback to buy, nothing to place by hand, and no notetags to write. Install three files and start a battle.</p>
+
+<hr>
+
+<h3>What it reads, and what it does with it</h3>
+<ul>
+<li><strong>Member positions</strong> — the shape of the worked ground, and where the furniture stands. This is the one thing in a troop that nothing else in the database carries.</li>
+<li><strong>The eight parameters</strong> of each enemy — that creature's <em>nature</em>: raider, warded, quick, adept or great.</li>
+<li><strong>Experience, against your own database</strong> — the band's <em>standing</em>: rabble, band, warband, host, champion.</li>
+<li><strong>Element traits</strong> — what a band strikes with sets the earth under it. Fire scorches. Ice rimes. Water mires. Earth bakes it hard.</li>
+<li><strong>Battles fought</strong> — a band you keep fighting wears its own ground down.</li>
+</ul>
+
+<p><strong>Standing is relative to your game, not to a number we invented.</strong> A band's place on the ladder is its place in <em>your</em> enemy table. If every enemy in your project has five-digit experience values, the weakest is still a rabble and the strongest is still a champion. Rebalance your game and the staging rebalances with it.</p>
+
+<p><strong>Nature is read from the shape of a creature's parameters, not their size.</strong> A project where every number is ten times larger classifies identically.</p>
+
+<hr>
+
+<h3>52 distinct drawn things, each with its own construction</h3>
+
+<p><strong>10 worked grounds</strong> — trodden, hardpan, ash bed, rime, mire, scorch, blight, drift, flagstone, sward.</p>
+
+<p><strong>14 marks</strong> — boot, claw, hoof, drag, slither and cart tracks, blood slick, scorch lick, web strand, frost creep, spore bloom, bone scatter, gouges, ward ring.</p>
+
+<p><strong>28 pieces of furniture</strong> — campfire, cook pot, spit, bedroll, lean-to, stacked arms, shield rest, war drum, standard, palisade, chevaux-de-frise, totem, altar, brazier, carrion post, bone midden, cage, spoil pile, crates, dais, hide dryer, anvil stone, cocoon, fungal cluster, ice cairn, cinder vent, reed bundle, root knot.</p>
+
+<p>Not one is a recolour of another. A brazier is not a campfire with a different palette — it is a tripod, a bowl, a bed of coals and a lipped rim. A rabble gets crates and a spit. Only a champion gets a dais.</p>
+
+<hr>
+
+<h3>Parameters and plugin commands</h3>
+
+<p>Nine parameters: turn the ground, marks, furniture or cast shadows off independently, set shadow strength and overall opacity, nudge the whole layer up or down for an unusual battleback horizon, and switch off wear from repeat battles.</p>
+
+<p>Four plugin commands: <strong>Set Enabled</strong>, <strong>Force Ground</strong> (make a story fight happen on scorched earth whatever the enemy is), <strong>Clear Forced Ground</strong> and <strong>Reset Wear</strong>.</p>
+
+<hr>
+
+<h3>Performance</h3>
+
+<p>The whole composition bakes <strong>once</strong>, when the battle scene builds its field, into a <strong>single cached bitmap</strong>. Nothing is redrawn per frame, and the staged layer costs exactly <strong>one extra display object</strong> on the battle field however many pieces a band fields. Measured in the real engine at <strong>20 draw calls per frame against a budget of 60</strong>, with zero texture uploads, zero bitmap dirties and zero display-object growth.</p>
+
+<p>No single timing figure is quoted here on purpose. Timings on any one machine vary enough to mislead; the numbers that hold still are the counts above.</p>
+
+<hr>
+
+<h3>What is in the download</h3>
+
+<p>Three raw, readable, uncompressed JavaScript files, a Readme, a LICENSE, and a Demo folder with the backdrop and battler stand-ins used in the screenshots. No minified code. No RPG Maker runtime or RTP asset is redistributed. No third-party fonts, no audio, no third-party code of any kind.</p>
+
+<hr>
+
+<h3>AI disclosure</h3>
+
+<p>Every line of this plugin was written with AI assistance, and the demo and store images were produced with AI assistance. It contains no audio and no narrative writing.</p>
