@@ -1,0 +1,26 @@
+<p>Verdant 32 is live. It is a station deck: a hangar bay with an alloy loading pad and its containers, a bright alloy command deck, engineering on shielded reactor plate with a service island, tread plate gratings down the spine, faced bulkheads, and cable conduit running between them. In it stands the cast a station is recognised by, from cargo containers and fuel drums to a reactor core housing, coolant tanks, console banks, EVA suits and airlock hatches.</p>
+
+<p>The pack ships 637 tiles at 16x16. 470 of them are transitions, which is 74% of the download, across 10 complete 47 mask autotile sets. The decks meet each other directly: hangar to plating, reactor to plating, tread gratings let into both, and alloy laid into all three. There are 27 objects over 71 prop tiles, and 64 animation frames across 4 animated objects: a scanner dish sweeping its face, a coolant line running up its sight glass, a status board scrolling and filling, and an extractor fan turning. The silhouette holds still and only the sweep, the flow, the readout and the blades move.</p>
+
+<p>The detail the pack exists for is the cap. A hull plate does not meet a hangar floor the way it meets reactor plate, so there is a bulkhead set per deck rather than one bulkhead reused: standing out of the deck plating, out of the hangar floor, and out of engineering's reactor plate. A station also collapses into one undifferentiated flat grey unless the values are planned, so the 8 surfaces were placed on a value ladder before any art existed. The smallest gap on that ladder is 16.7 luma, measured from the shipped pixels rather than declared. The palette is locked to 49 colours and every pixel is checked against it on each build.</p>
+
+<p>Six things changed before it shipped and no mechanical check reported any of them. The valve wheel read as a pale speck at map scale and the fuel drum as a pebble, so both were redrawn larger rather than given more detail. The coolant line read as a stack of plates, then as an I beam, because its flanges and its flow were the same kind of mark, so the flow moved into a narrow sight window. The extractor fan read as noise until its polarity was inverted to a dark rotor on a bright backplate. The tread spine ran the full height of the map and read as a trench cutting the deck in two, so it was re laid as five separate gratings. All six were found by opening a render and judging it, under gates that were green throughout, which is why every 4x4 repetition ships with the pack.</p>
+
+<p>One defect was found by counting instead. The animation bars this series uses compare consecutive frames and the wrap, and nothing asks whether a cycle repeats inside itself. The coolant line declared 8 frames, marched its flow on a period of 4 and its gauge on a period of 4, and drew 4 distinct pictures as 8 tiles. It passed every bar. The build now refuses any animation whose distinct frame count is under its declared one, and that refusal was proven by breaking it on purpose before it was trusted.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C, D object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 10 of 10 sets and 480 of 480 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 14 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 712 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 14 atlas sources. Godot itself counted 637 of 637 tiles and 30 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 32 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this station sits beside the others and a corridor can run straight out of it into another pack. <a href="https://csaf.itch.io/verdant-11-vessel">Verdant 11 — Vessel</a>, <a href="https://csaf.itch.io/verdant-14-institutional">Verdant 14 — Institutional Interiors</a>, <a href="https://csaf.itch.io/verdant-22-sewers">Verdant 22 — Sewers</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
