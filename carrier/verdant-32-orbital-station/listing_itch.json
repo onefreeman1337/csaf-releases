@@ -1,0 +1,104 @@
+{
+  "packId": "verdant-32-orbital-station",
+  "title": "Verdant 32 — Orbital Station Tileset for RPG Maker MZ, Tiled & Godot: Hangar, Bridge, Engineering & Conduit [16x16]",
+  "shortText": "637 tiles: hangar, bridge, reactor deck, bulkheads, conduit, 10 complete autotile sets.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "sci-fi",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "sci-fi": "space"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 11 — Vessel",
+      "url": "https://csaf.itch.io/verdant-11-vessel",
+      "why": "the ship that docks at the hangar, on the same grid and the same palette"
+    },
+    {
+      "label": "Verdant 14 — Institutional Interiors",
+      "url": "https://csaf.itch.io/verdant-14-institutional",
+      "why": "offices, corridors and meeting rooms, for the station's admin and crew decks"
+    },
+    {
+      "label": "Verdant 22 — Sewers",
+      "url": "https://csaf.itch.io/verdant-22-sewers",
+      "why": "pipework and service tunnels, for the levels under the reactor deck"
+    }
+  ],
+  "derived": {
+    "tiles": 637,
+    "cell": 16,
+    "materials": 8,
+    "variants": 4,
+    "autotileTiles": 470,
+    "autotileSets": 10,
+    "propTiles": 71,
+    "objects": 27,
+    "staticObjects": 23,
+    "shapes": 23,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 49,
+    "renders": 32,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 199,
+    "ladderGap": "16.7",
+    "files": 740,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D"
+    ],
+    "mzSetsFound": 10,
+    "mzSetsEmitted": 10,
+    "mzMasked": 470,
+    "mzMaskedTotal": 470,
+    "mzShapes": 480,
+    "mzShapesTotal": 480,
+    "tsx": 14,
+    "tiledCells": "712",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 14,
+    "godotTiles": 637,
+    "godotMulti": 30,
+    "animPage": "page D",
+    "transitionShare": 74
+  },
+  "engineMeasuredAt": "2026-09-22T10:21:29.025Z",
+  "description": "<p><strong>637 tiles at 16x16</strong> for a hangar bay, a command deck\nand an engineering space: deck plating, shielded reactor plate, hangar floor, bright alloy decking, non-slip tread\nplate, faced bulkheads and cable conduit — with the cast a station is recognised by, from cargo containers and fuel\ndrums to a reactor core housing, coolant tanks, console banks, EVA suits and airlock hatches.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing you may\nnot do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>470 of the 637 tiles are transitions</strong>, 74% of the pack.\n10 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>The bulkhead caps into whichever deck it stands on.</strong> That is the detail the pack exists for. A\nhull plate does not meet a hangar floor the way it meets reactor plate — so there is a bulkhead set per deck rather\nthan one bulkhead reused: standing out of the deck plating, out of the hangar floor, and out of engineering's\nreactor plate. Bright alloy decking is laid into each of those three the same way, as a loading pad, a service\nisland or a command deck, and the decks meet each other directly: hangar to plating, reactor to plating, tread\ngratings let into both.</li>\n<li><strong>A bulkhead that reads as a bulkhead</strong>: a lit lip along the top of its face, a cap on the north and\nwest shoulders where the light strikes, and a shadow cast onto the deck in front of it. Every tile of every bulkhead\nset is declared impassable in <code>tiles.json</code>, because a bulkhead is walked into rather than along.</li>\n<li><strong>8 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so the station does not collapse into one undifferentiated flat grey. The smallest gap on the ladder is\n16.7 luma, measured from the shipped pixels rather than declared.</li>\n<li><strong>27 objects</strong> across 71 tiles. The hangar bay: a cargo container, crate\nstacks, fuel drums, a deck beacon, and the guide chevrons and hazard striping that were kept OUT of the floor fill\nso your map places them where the traffic actually goes. Engineering: a reactor core housing, coolant tanks, a pipe\nmanifold, valve wheels, a power cell rack and an air scrubber. The command deck: a console bank, a holo table and\nchart screens. The crew spaces: bunks, lockers, a mess table, a hydroponics tray and a water tank. The airlock: an\nEVA suit rack, a hatch with its wheel and a tool locker. Each ships transparent, and grounded on the deck it belongs\nto with the contact shadow already drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: a scanner dish sweeping its face, a\ncoolant line running up its sight glass, a status board scrolling and filling, and an extractor fan turning. The\nsilhouette holds still; only the sweep, the flow, the readout and the blades move, and no two frames of a set are\nthe same picture.</li>\n<li><strong>A finished 40x28 sample map</strong> with 199 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>32 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 740 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>Two things to know before you buy</h3>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the animated objects arrive as static\nframes on page D.</p>\n<p>⚠️ <strong>The conduit is drawn, not animated.</strong> The two cable runs are fill tiles: a trunk laid along a\ndeck, with no transition set and no rung on the value ladder, because a run laid on a deck is not a deck. They are\nleft passable, because trunking is stepped over, and a map that wants a particular run solid can block those cells\nitself. If you want a live line, the <code>coolant_flow</code> animation is the object that carries motion.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C/D object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 10 of\n10 sets, 470 of 470 masked tiles, and 480 of 480\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 14 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 712 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n14 atlas sources, 637 of 637 declared tiles built, 30 of 30\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 49 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>bulkhead_on_plating</code></li>\n<li><code>bulkhead_on_hangar</code></li>\n<li><code>bulkhead_on_reactor</code></li>\n<li><code>tread_on_plating</code></li>\n<li><code>tread_on_hangar</code></li>\n<li><code>alloy_on_plating</code></li>\n<li><code>alloy_on_hangar</code></li>\n<li><code>alloy_on_reactor</code></li>\n<li><code>reactor_on_plating</code></li>\n<li><code>hangar_on_plating</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this station sits beside the others and a\ncorridor can run straight out of it into another pack.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-11-vessel\">Verdant 11 — Vessel</a> — the ship that docks at the hangar, on the same grid and the same palette</li>\n<li><a href=\"https://csaf.itch.io/verdant-14-institutional\">Verdant 14 — Institutional Interiors</a> — offices, corridors and meeting rooms, for the station's admin and crew decks</li>\n<li><a href=\"https://csaf.itch.io/verdant-22-sewers\">Verdant 22 — Sewers</a> — pipework and service tunnels, for the levels under the reactor deck</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
