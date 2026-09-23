@@ -1,0 +1,63 @@
+<p><strong>A locked door in RPG Maker is usually a switch and a line of text.</strong> Escapement turns it into a mechanism the player has to finish: a brass plate with fixed arbors, a tray of loose wheels, a mainspring that drives, and a payoff that only moves when the train is right.</p>
+
+<p><strong>Every puzzle is generated from a seed and laid around a working train, so it cannot be unsolvable.</strong> The same event always gets the same puzzle. Nothing is loaded from an image file: every wheel, plate, jewel, dial and bolt is drawn in code.</p>
+
+<p>Add one plugin command to an event. Pick a grade and what the train drives. The event waits while the player works, then carries on with your switch already set.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>EscapementCore.js</code> — Escapement core - generates clockwork gear-train puzzles that are solvable by construction. Place ABOVE EscapementDraw and Escapement.</li>
+<li><code>EscapementDraw.js</code> — Escapement draw - the gears, the plate, the jewelled arbors and the four payoff mechanisms, all drawn in code.</li>
+<li><code>Escapement.js</code> — Escapement - generated clockwork puzzles. Every lock, clock, orrery or winch becomes a gear train the player must complete.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Escapement co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<hr>
+
+<h3>The rules the player learns by looking</h3>
+<ul>
+<li><strong>Wheels mesh only when their sizes fit</strong> the gap between two arbors. Teeth really interleave, and every wheel in the train really turns.</li>
+<li><strong>Every wheel turns the opposite way</strong> to the one driving it.</li>
+<li><strong>The payoff only turns one way.</strong> Reach it the wrong way round and the pawl holds: the train stops, the output glows red.</li>
+<li><strong>Close a loop of an odd number of wheels</strong> and the whole train jams.</li>
+</ul>
+
+<h3>Four payoffs, five metals, five grades</h3>
+<ul>
+<li><strong>The Strongroom Lock</strong>: a keyhole escutcheon, a riveted keeper, a bolt that draws back and a window that flips from SHUT to DRAWN.</li>
+<li><strong>The Tower Clock</strong>: an enamel dial with roman hours whose hands wind forward and settle on the hour.</li>
+<li><strong>The Orrery</strong>: three planets on a night-sky enamel that swing into conjunction.</li>
+<li><strong>The Portcullis Winch</strong>: a drum that winds the rope and lifts the counterweight up its gauge.</li>
+</ul>
+<p>Brass, steel, bronze, verdigris or gunmetal, each with its own plate finish and its own accent alloy. Eight spoke styles and eight tooth counts: forty distinct wheel designs before a single puzzle is laid out.</p>
+
+<p><strong>Grades 1 to 5.</strong> From grade 3 the plate hides a second route to the payoff that reaches it turning the wrong way, and filling both routes jams the train. Dead-end arbors and spare wheels do the rest.</p>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>EscapementCore.js</code> (the generator and gear physics), <code>EscapementDraw.js</code> (the drawing), <code>Escapement.js</code> (the scene, commands and parameters).</li>
+<li>Plugin commands: <strong>Open Puzzle</strong> (grade, payoff, metal, title, switch, self switch, optional seed) and <strong>Reset Puzzle</strong>.</li>
+<li>Keyboard, gamepad, mouse and touch. Walk away mid-puzzle and the wheels are where the player left them.</li>
+<li>Script calls: <code>Escapement.isSolved(key)</code>, <code>Escapement.keyFor(mapId, eventId)</code>.</li>
+<li>Sounds are YOUR project's own SE, chosen by name in the parameters. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime, from the exact zip you download, installed into a blank project: 77 in-engine checks (every payoff opened and solved through the scene's own input, real keyboard and mouse, the wrong-way pawl, jams, lifting a wheel, a refused placement, leaving and resuming, save and load, and the plugin command waiting for the player and then setting its switch). A further 79 headless checks over 600 generated puzzles prove every one solvable by an independent solver, with teeth interleaving at every one of 3,048 meshes. The busiest frame it can draw costs <strong>5 draw calls</strong>, with zero texture uploads per frame.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/cogwheel">Cogwheel</a>: puzzles on the map itself: push blocks, pressure plates, mirrors and boulders. Escapement is the close-up mechanism behind the locked door those rooms lead to.</li>
+<li><a href="https://csaf.itch.io/cipher-core">Cipher Core</a>: an invented written language the player learns by reading.</li>
+<li><a href="https://csaf.itch.io/sigil-core">Sigil Core</a>: every spell in your database draws its own animated seal.</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
