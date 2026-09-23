@@ -1,0 +1,104 @@
+{
+  "packId": "verdant-35-festival-fair",
+  "title": "Verdant 35 — Festival Fair Tileset for RPG Maker MZ, Tiled & Godot: Tents, Stalls, Carousel, Stage & Bunting [16x16]",
+  "shortText": "372 tiles: a village fair with tents, stalls, a turning carousel, a stage, marquees and bunting. 16x16.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "festival",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "festival": "village"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 09 — Town",
+      "url": "https://csaf.itch.io/verdant-09-town",
+      "why": "the town the fair comes to: its market, housefronts and gardens"
+    },
+    {
+      "label": "Verdant 13 — Castle",
+      "url": "https://csaf.itch.io/verdant-13-castle",
+      "why": "the curtain wall, keep and gatehouse whose green the fair sets up on"
+    },
+    {
+      "label": "Verdant 01 — Overworld",
+      "url": "https://csaf.itch.io/verdant-01-overworld",
+      "why": "the fields and roads around it, on the same grid"
+    }
+  ],
+  "derived": {
+    "tiles": 372,
+    "cell": 16,
+    "materials": 5,
+    "variants": 4,
+    "autotileTiles": 235,
+    "autotileSets": 5,
+    "propTiles": 53,
+    "objects": 20,
+    "staticObjects": 16,
+    "shapes": 16,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 44,
+    "renders": 20,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 122,
+    "ladderGap": "21.7",
+    "files": 443,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D"
+    ],
+    "mzSetsFound": 5,
+    "mzSetsEmitted": 5,
+    "mzMasked": 235,
+    "mzMaskedTotal": 235,
+    "mzShapes": 240,
+    "mzShapesTotal": 240,
+    "tsx": 9,
+    "tiledCells": "620",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 9,
+    "godotTiles": 372,
+    "godotMulti": 94,
+    "animPage": "pages C and D",
+    "transitionShare": 63
+  },
+  "engineMeasuredAt": "2026-09-23T06:03:51.853Z",
+  "description": "<p><strong>372 tiles at 16x16</strong> for a village fair on a green, in\ndaylight: trodden paths, straw round the stalls, a plank stage and big striped marquees, with bell tents, market stalls,\na carousel whose roof and horses turn, a high striker, a coconut shy and bunting to string between its poles.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing you may\nnot do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>235 of the 372 tiles are transitions</strong>, 63% of the pack.\n5 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>A marquee you paint to any shape.</strong> The striped canvas is a faced set: paint the roof as a mass on the\ngreen and its south wall draws itself, the stripes running on down the canvas. Every marquee tile is declared blocked in\n<code>tiles.json</code>, because a tent is walked round.</li>\n<li><strong>A stage you can walk onto.</strong> The plank stage is a faced set too, with a board front and a lit nosing,\nand every stage tile is walkable: it is a step, not a wall.</li>\n<li><strong>Paths and straw.</strong> The trodden paths and the straw spread on the green and on the paths each have their\nown set with a soft organic edge.</li>\n<li><strong>5 materials × 4 variants</strong>, the three walking grounds on a value ladder laid\nout before any art existed, so a path, a lawn and a straw yard never merge into one muddy field. The smallest gap on the\nladder is 21.7 luma, measured from the shipped pixels rather than declared.</li>\n<li><strong>20 objects</strong> across 53 prop tiles plus the animation frames: bell tents in red and\nin blue stripes, market stalls under red, blue and yellow awnings (each stocked in a colour its awning is not), a high\nstriker, a coconut shy, a cake table, a picnic table, a hay bale, a barrel, a crate of apples, a tub of flowers, an\nA-board with an arrow, a bunting pole and the bunting. Each ships transparent, and grounded on its floor with the contact\nshadow drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: a carousel whose striped roof and eight\nhorses turn together and loop exactly, a flag that waves, a paper lantern that sways and flickers, and a bunch of\nballoons each bobbing on its own beat. No two frames of a set are the same picture.</li>\n<li><strong>A finished 40x28 sample map</strong> with 122 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>20 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 443 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>Three things to know before you buy</h3>\n<p>⚠️ <strong>A peaked tent is an object; a marquee is a set.</strong> A 47-shape autotile takes any outline you paint but\ncannot carry a ridge, so the big marquee is a striped roof you paint to any shape and the bell tents are placed objects\nwith their peak, door and guy ropes drawn. There are no people or animals in the pack.</p>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the carousel, the flag, the lantern and the\nballoons arrive as static frames on pages C and D.</p>\n<p>⚠️ <strong>At 372 tiles it is a smaller pack than most of the series</strong>, and it is priced for that.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C/D object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 5 of\n5 sets, 235 of 235 masked tiles, and 240 of 240\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 9 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 620 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n9 atlas sources, 372 of 372 declared tiles built, 94 of 94\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 44 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>trodden_on_green</code></li>\n<li><code>straw_on_green</code></li>\n<li><code>straw_on_trodden</code></li>\n<li><code>boards_on_green</code></li>\n<li><code>marquee_on_green</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this fair sits beside the others and a map can\nrun straight out of it into another pack.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-09-town\">Verdant 09 — Town</a> — the town the fair comes to: its market, housefronts and gardens</li>\n<li><a href=\"https://csaf.itch.io/verdant-13-castle\">Verdant 13 — Castle</a> — the curtain wall, keep and gatehouse whose green the fair sets up on</li>\n<li><a href=\"https://csaf.itch.io/verdant-01-overworld\">Verdant 01 — Overworld</a> — the fields and roads around it, on the same grid</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
