@@ -1,0 +1,15 @@
+<p>Song Sheets is live on itch at $12.99. It is a learnable songs system for GameMaker, written in pure GML: give it a song id and a tradition, and it composes the melody, engraves it as a real score on aged paper, and synthesises it so the plate plays what it shows.</p>
+
+<p>There are ten traditions, each its own kind of page: plainchant in square neumes with sung syllables under them, a courtly air in white mensural notation, a reel on a modern stave with a real key signature and sloped beams, a muster call as a percussion grid over a charted horn call, and a fae round whose stave curls into a spiral that comes back to where it began. No image file and no audio file ships. A song that does not exist until your player finds it still has a score and a sound.</p>
+
+<p>The melody engine is note for note the same as our Song Sheets plugin for RPG Maker MZ. We checked that rather than assumed it: 300 songs across all ten traditions and three tonics, 4,886 notes, every one identical to the shipped MZ plugin. Then we measured the sound. Every note of ten synthesised songs was found in the audio by a pitch tracker and compared with the note on the plate: 159 of 159 within 25 cents, nothing clipped.</p>
+
+<p>Building this port found a real bug in the original too. The MZ plates drew every accidental wrong: a sharp was printed as a flat on the letter below, so D mixolydian's F sharp read as an F flat. The GameMaker plates spell every note properly, one letter per scale degree, and carry a real key signature instead.</p>
+
+<p>Playing a song starts in under 20 ms. The melody streams through a GameMaker audio queue a few milliseconds per step, and the songbook lights each notehead as it sounds. There is a songbook screen with a desk and an index of every sheet learned, a one call plate sprite for anywhere else in your game, generated titles, WAV export and a tiny save format.</p>
+
+<p>Built and run on GameMaker runtime 2024.14.4.268: 157 in engine assertions green, 18 more from a blank project driven by the Readme's own quickstart, and 164 adversarial calls against all 41 documented functions with zero crashes.</p>
+
+<p>Code and graphics are AI written, disclosed on the listing. Every plate in the screenshots was drawn by the package's own GML and rendered by the shipped build; the audio is procedural synthesis, with no generative audio model.</p>
+
+<p><a href="https://csaf.itch.io/song-sheets-gamemaker">Song Sheets for GameMaker</a> · <a href="https://csaf.itch.io/song-sheets">Song Sheets for RPG Maker MZ</a></p>
