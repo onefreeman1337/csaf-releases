@@ -1,0 +1,104 @@
+{
+  "packId": "verdant-33-fungal-hollows",
+  "title": "Verdant 33 — Fungal Hollows Tileset for RPG Maker MZ, Tiled & Godot: Giant Caps, Mycelium, Spore Drifts & Shale [16x16]",
+  "shortText": "527 tiles: giant caps, mycelium, spore drifts, violet shale, damp rot. 8 complete autotile sets.",
+  "priceUSD": 12.99,
+  "priceTier": "default",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "cave",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "cave": "fantasy"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 29 — Crystal Hollows",
+      "url": "https://csaf.itch.io/verdant-29-crystal-hollows",
+      "why": "the mineral cavern next door: geode walls, amethyst and quartz, on the same grid and the same palette"
+    },
+    {
+      "label": "Verdant 28 — Deep Forest",
+      "url": "https://csaf.itch.io/verdant-28-deep-forest",
+      "why": "the old-growth forest floor above the hollows: moss, fern, leaf litter and root bank"
+    },
+    {
+      "label": "Verdant 08 — Mire",
+      "url": "https://csaf.itch.io/verdant-08-mire",
+      "why": "blackwater, boardwalk and bog, for where the cavern opens onto wet ground"
+    }
+  ],
+  "derived": {
+    "tiles": 527,
+    "cell": 16,
+    "materials": 5,
+    "variants": 4,
+    "autotileTiles": 376,
+    "autotileSets": 8,
+    "propTiles": 67,
+    "objects": 24,
+    "staticObjects": 20,
+    "shapes": 20,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 71,
+    "renders": 20,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 192,
+    "ladderGap": "19.6",
+    "files": 610,
+    "mzPages": [
+      "A2",
+      "B",
+      "C",
+      "D"
+    ],
+    "mzSetsFound": 8,
+    "mzSetsEmitted": 8,
+    "mzMasked": 376,
+    "mzMaskedTotal": 376,
+    "mzShapes": 384,
+    "mzShapesTotal": 384,
+    "tsx": 12,
+    "tiledCells": "604",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 12,
+    "godotTiles": 527,
+    "godotMulti": 23,
+    "animPage": "pages C and D",
+    "transitionShare": 71
+  },
+  "engineMeasuredAt": "2026-09-22T23:58:05.410Z",
+  "description": "<p><strong>527 tiles at 16x16</strong> for a fungal cavern: a damp rot floor\nwith violet shale breaking through it, golden spore drifts, a mycelium ribbon winding between them, and giant toadstool\ncaps you raise as masses and stand on their own great stems. With them comes the cast a fungal hollow is recognised by,\nfrom toadstools, puffballs and a shaggy ink cap to glowcaps, a lantern mushroom, bracket fungi and a fairy ring.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing you may\nnot do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>376 of the 527 tiles are transitions</strong>, 71% of the pack.\n8 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>A giant cap you paint as a mass.</strong> That is the detail the pack exists for. The cap flesh is a\nfaced surface: a lit rose shoulder on the north and west, a south flank rolling down into the dark of the gills, and\na shadow cast onto whatever it stands over. There is a cap set per ground (on the damp rot, on the shale and in a\nspore drift) rather than one reused, and a 1x2 stipe or a 2x2 great stipe stood under the south edge turns the\ncanopy into a mushroom. The sample map does this under all of its caps.</li>\n<li><strong>The ground grows.</strong> The mycelium and the spore drifts each spread over the rot and over the\nshale with their own sets, and the shale breaks through the rot with a hard lit edge. Every cap tile is declared\nimpassable in <code>tiles.json</code>, because a canopy is walked round, never across; the floors, drifts and\nmycelium are walkable.</li>\n<li><strong>5 materials × 4 variants</strong> on a value ladder and on five different hues,\nlaid out before any art existed, so the cavern does not collapse into one murky brown. The smallest gap on the\nladder is 19.6 luma, measured from the shipped pixels rather than declared.</li>\n<li><strong>24 objects</strong> across 67 prop tiles plus the animation frames. The caps: a\ntoadstool, a trio, a 2x2 giant toadstool that stands on its own, a porcini, a shaggy ink cap, a puffball, a violet\nmorel, a glowcap cluster and a 1x2 lantern mushroom. The stems for your cap masses. The rest of the cavern: coral\nfungus, a stump with bracket fungi, spore shelves on a shale boulder, a boulder, a rotting log, spore sacs and a\nfairy ring, and two flat ones that lie on the floor, slime mould and advancing mycelium threads. Each ships\ntransparent, and grounded on the floor it grows from with the contact shadow already drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: glowcaps with a pulse of light\ntravelling through them, a puffball venting a column of spores, an ink cap dripping from its hem, and spores\ndrifting up off a golden mound. The silhouette holds still; only the light, the spores and the drops move, and no\ntwo frames of a set are the same picture.</li>\n<li><strong>A finished 40x28 sample map</strong> with 192 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>20 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 610 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>Two things to know before you buy</h3>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the animated objects arrive as static\nframes on pages C and D.</p>\n<p>⚠️ <strong>A cap is a mass you paint, not a single object.</strong> The canopy is an autotile set, so it takes any\nshape you draw, and its stem is a separate object you place under the south edge. If you want a mushroom in one\nclick, the 2x2 giant toadstool is the object that stands on its own.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C/D object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 8 of\n8 sets, 376 of 376 masked tiles, and 384 of 384\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 12 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 604 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n12 atlas sources, 527 of 527 declared tiles built, 23 of 23\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 71 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>capflesh_on_damprot</code></li>\n<li><code>capflesh_on_shale</code></li>\n<li><code>capflesh_on_sporebed</code></li>\n<li><code>mycel_on_damprot</code></li>\n<li><code>mycel_on_shale</code></li>\n<li><code>sporebed_on_damprot</code></li>\n<li><code>sporebed_on_shale</code></li>\n<li><code>shale_on_damprot</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this cavern sits beside the others and a\npassage can run straight out of it into another pack.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-29-crystal-hollows\">Verdant 29 — Crystal Hollows</a> — the mineral cavern next door: geode walls, amethyst and quartz, on the same grid and the same palette</li>\n<li><a href=\"https://csaf.itch.io/verdant-28-deep-forest\">Verdant 28 — Deep Forest</a> — the old-growth forest floor above the hollows: moss, fern, leaf litter and root bank</li>\n<li><a href=\"https://csaf.itch.io/verdant-08-mire\">Verdant 08 — Mire</a> — blackwater, boardwalk and bog, for where the cavern opens onto wet ground</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
