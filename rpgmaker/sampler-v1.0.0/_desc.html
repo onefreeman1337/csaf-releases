@@ -1,0 +1,57 @@
+<p><strong>Picross for your RPG, finished as needlework.</strong> The player fills a chart from the number clues along its rows and columns. When the chart is right, the stitches take their colours from the centre out, and the finished piece is set in an embroidery hoop as a cross-stitch sampler, inside a stitched wreath, with a brass plaque.</p>
+
+<p><strong>Every chart is generated</strong>: the motif, its thread colours and the size (5, 10 or 15 stitches). Nothing is loaded from an image file. You can also turn any icon in your own IconSet into a chart. One plugin command on an event opens it; the event waits, and a switch and a variable tell you when it is finished.</p>
+
+<p><strong>And every chart is proven fair.</strong> A line-logic solver works each puzzle before the player sees it, and where the clues alone leave cells undecided a few stitches are given until the solver completes the chart. So every puzzle has exactly one answer and never needs a guess.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>SamplerCore.js</code> — Sampler core - generated nonogram (picross) puzzles, a line-logic solver and the stitch colours. Place ABOVE SamplerDraw and Sampler.</li>
+<li><code>SamplerDraw.js</code> — Sampler draw - woven linen, cross-stitches, clue strips, the embroidery hoop and the finished sampler, all drawn in code.</li>
+<li><code>Sampler.js</code> — Sampler - generated nonogram (picross) puzzles, solved stitch by stitch and finished as a cross-stitch sampler in an embroidery hoop.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Sampler co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A chart worked on woven linen in a grey tacking thread, with clue tapes along the top and side that grey out as each row and column comes right, marks for cells the player rules out, given stitches sewn in colour, and a gilt needle cursor.</li>
+<li>Stitches that are real cross-stitches: two lit strands, the top one crossing over, with a shadow on the linen.</li>
+<li>On the last stitch, the threads go in from the centre outwards, then the finished sampler is framed in a wooden hoop with a brass clamp and a plaque naming it, bordered by one of four stitched wreaths (beads, garland, rope, twin) that wraps round the motif without touching it.</li>
+<li>A pattern card with the chart's title, its threads and how many lines already match; thread spools on a walnut sewing table.</li>
+</ul>
+
+<h3>Measured, not promised</h3>
+<ul>
+<li>480 generated charts across every size and form were each completed by line logic from their clues and givens; a brute-force count over 40 5 x 5 charts found exactly one solution for every one.</li>
+<li>Generated motifs are four-fold symmetric like real sampler work, in four forms (star, medallion, lattice, diamond) and six thread palettes. Over 300 seeds per form the generator produced 552 distinct 15 x 15 charts and 146 distinct 10 x 10 charts.</li>
+<li>No more than 8% of a generated chart is ever given; motifs that would need more are redrawn.</li>
+<li>Unfinished work is kept when the player leaves, and a finished chart reopens as its finished sampler.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>SamplerCore.js</code> (the generator and the solver), <code>SamplerDraw.js</code> (the drawing) and <code>Sampler.js</code> (the scene and the command).</li>
+<li>The <strong>Open Sampler</strong> command: chart size, motif form, threads, an optional icon from your IconSet, a switch and a variable for finishing, a title and an optional seed.</li>
+<li>Keyboard, mouse and touch: click or drag to stitch, right-click to mark. Script calls: <code>Sampler.record(key)</code> and <code>Sampler.finishedCount()</code>.</li>
+<li>Sounds are your project's own sound effects, chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 42 in-engine checks, including charts of every size and form finished through the scene's own stitching, a real keyboard (arrows, OK, Shift, Escape) and a real mouse (click, drag across a run, right-click), work kept and restored across visits, an IconSet icon turned into a solvable chart, the command waiting and setting its switch and variable, and a save and reload. While the player works, a frame costs 2 draw calls.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/escapement">Escapement</a>: generated clockwork gear puzzles for every lock in your game ($11.99).</li>
+<li><a href="https://csaf.itch.io/strata">Strata</a>: generated excavation digs, where the player chips back layered rock to free fossils and relics ($11.99).</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a>: a snail race meeting to bet on, with odds measured from the race model ($12.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
