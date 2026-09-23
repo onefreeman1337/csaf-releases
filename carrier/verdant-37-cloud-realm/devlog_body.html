@@ -1,0 +1,24 @@
+<p>Verdant 37 is live. It is a realm above the clouds: cloud islands floating in open sky, gilded alabaster terraces standing on them, a golden brick path, pools of liquid light sunk into the cloud, and a golden gate, a rainbow, trees of golden leaves, a fountain of light and an orrery whose planets turn.</p>
+
+<p>The pack ships 335 tiles at 16x16. 235 of them are transitions, which is 70% of the download, across 5 complete 47 mask autotile sets: the cloud on the sky, the terrace on the cloud, the path on the cloud and on the terrace, and the pools on the cloud. There are 15 objects over 32 prop tiles, and 48 animation frames across 3 animated objects. It is a smaller pack than most of the series and it is priced for that.</p>
+
+<p>The piece the pack is built around is the cloud island. Cloud is a set you paint onto the sky to any outline, and its edge draws itself as billows with a lavender underside falling away beneath, so a cloud painted as a mass floats. The terrace is faced too, a cream wall under a gilded lip that casts a soft shadow on the cloud. The sky and the pools are declared blocked, and the cloud and the terrace are walkable except along their faces. The walking grounds sit on a value ladder, and the two palest are split by hue as well, cool cloud against warm stone. The smallest gap on the ladder is 29.7 luma, measured from the shipped pixels. The palette is locked to 51 colours.</p>
+
+<p>Most of the work was redrawing things that passed every check and still looked like something else. The first cloud island used the series' path edge and read as a flat slab of ice, so its edge became a scallop of billows. The first sky read as ripples on water and then as diagonal rain before its wisps became soft flat streaks. The first orrery read as a golden teapot until its ring was drawn behind the sun and in front of it. The fountain's drops were white on a white cloud and vanished. The first cover put the title straight over the rainbow. The cloud's underside also crossed the middle of the tile, which RPG Maker MZ's autotile page cannot compose, and the importer refused to write the sheet until it moved. All of these were found under gates that passed throughout, which is why every 4x4 repetition ships with the pack.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 5 of 5 sets and 240 of 240 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 9 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 488 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 9 atlas sources. Godot itself counted 335 of 335 tiles and 68 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 20 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this realm sits beside the others: a palace, a temple or a castle can have a way up into the clouds. <a href="https://csaf.itch.io/verdant-15-palace">Verdant 15 — Palace</a>, <a href="https://csaf.itch.io/verdant-23-ruins">Verdant 23 — Ruins</a>, <a href="https://csaf.itch.io/verdant-13-castle">Verdant 13 — Castle</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
