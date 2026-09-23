@@ -1,0 +1,24 @@
+<p>Verdant 36 is live. It is a harbour village on a sunny coast: beach sand, the sea with a surf line along the shore, red earth terraces on the hill, a stone quay standing in the water, and whitewashed houses under terracotta roofs, with olive trees, parasols, rowboats and a windmill whose sails turn.</p>
+
+<p>The pack ships 347 tiles at 16x16. 235 of them are transitions, which is 68% of the download, across 5 complete 47 mask autotile sets: the sea on the sand, the terraces on the sand, the quay in the sea, and the houses on the terraces and on the quay. There are 19 objects over 44 prop tiles, and 48 animation frames across 3 animated objects. It is a smaller pack than most of the series and it is priced for that.</p>
+
+<p>The piece the pack is built around is the house. The terracotta roof is a set you paint to any outline, and its south face draws itself as a whitewashed wall with blue shutters, so a roof painted as a mass is a house. The quay is faced too, a stone wall with a dark wet foot at the waterline. Every sea tile is declared blocked, the quay is walkable except along its face, and every roof tile is blocked. The windmill's four sails turn a quarter turn across the eight frames, and a quarter turn brings each sail onto the next, so the loop closes exactly. Three walking grounds sit on a value ladder planned before any art existed, and the smallest gap on it is 23.3 luma, measured from the shipped pixels. The palette is locked to 81 colours.</p>
+
+<p>Most of the work was redrawing things that passed every check and still looked like something else. The first roof read as wicker, and the second as plaid, before it became staggered courses of curved tiles. The quay stone carried a block pattern that crossed the tile edge and failed the seam check, so every joint that meets an edge is now the same in all four variants. The first fishing net was undyed canvas and vanished against the grey quay, so the net is dyed blue. The first scatter stood four anchors in a column on the dunes, so the anchor is placed once, by the boats. And the first cover put the title straight over the windmill. All of these were found by opening a render and judging it, under gates that passed throughout, which is why every 4x4 repetition ships with the pack.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 5 of 5 sets and 240 of 240 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 9 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 500 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 9 atlas sources. Godot itself counted 347 of 347 tiles and 57 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 20 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this coast sits beside the others and a map can run straight out of it into another pack. <a href="https://csaf.itch.io/verdant-10-harbour">Verdant 10 — Harbour</a>, <a href="https://csaf.itch.io/verdant-23-ruins">Verdant 23 — Ruins</a>, <a href="https://csaf.itch.io/verdant-09-town">Verdant 09 — Town</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
