@@ -1,0 +1,103 @@
+{
+  "packId": "verdant-37-cloud-realm",
+  "title": "Verdant 37 — Cloud Realm Tileset for RPG Maker MZ, Tiled & Godot: Sky Islands, Golden Gate & Rainbow [16x16]",
+  "shortText": "335 tiles: cloud islands in open sky, gilded terraces, a golden gate, a rainbow and pools of light. 16x16.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "heaven",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "heaven": "clouds"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 15 — Palace",
+      "url": "https://csaf.itch.io/verdant-15-palace",
+      "why": "the palace on the ground below, with its throne hall and gilded court"
+    },
+    {
+      "label": "Verdant 23 — Ruins",
+      "url": "https://csaf.itch.io/verdant-23-ruins",
+      "why": "a ruined temple on the mountain the clouds gather over"
+    },
+    {
+      "label": "Verdant 13 — Castle",
+      "url": "https://csaf.itch.io/verdant-13-castle",
+      "why": "a castle keep for a tower that reaches the cloud line"
+    }
+  ],
+  "derived": {
+    "tiles": 335,
+    "cell": 16,
+    "materials": 5,
+    "variants": 4,
+    "autotileTiles": 235,
+    "autotileSets": 5,
+    "propTiles": 32,
+    "objects": 15,
+    "staticObjects": 12,
+    "shapes": 12,
+    "animCount": 3,
+    "animObjects": 3,
+    "animatedTiles": 48,
+    "palette": 51,
+    "renders": 20,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 42,
+    "ladderGap": "29.7",
+    "files": 405,
+    "mzPages": [
+      "A2",
+      "B",
+      "C"
+    ],
+    "mzSetsFound": 5,
+    "mzSetsEmitted": 5,
+    "mzMasked": 235,
+    "mzMaskedTotal": 235,
+    "mzShapes": 240,
+    "mzShapesTotal": 240,
+    "tsx": 9,
+    "tiledCells": "488",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 9,
+    "godotTiles": 335,
+    "godotMulti": 68,
+    "animPage": "page C",
+    "transitionShare": 70
+  },
+  "engineMeasuredAt": "2026-09-23T10:39:48.723Z",
+  "description": "<p><strong>335 tiles at 16x16</strong> for a realm above the clouds: cloud\nislands floating in open sky with billowed edges and lavender undersides, gilded alabaster terraces, a golden brick\npath, pools of liquid light, a golden gate, a rainbow, trees of golden leaves, a fountain of light and an orrery whose\nplanets turn. <strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one\nthing you may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>235 of the 335 tiles are transitions</strong>, 70% of the pack.\n5 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>A cloud island you paint to any shape.</strong> Cloud on the sky is a faced set with a grown edge: paint\nit as a mass and its billowed rim and its lavender underside draw themselves, so the mass floats. The cloud is\nwalkable, except along the underside where it falls away.</li>\n<li><strong>Terraces that stand on the cloud.</strong> Alabaster is a faced set too: a cream wall under a gilded lip,\ncasting a soft shadow on the cloud below. Walkable, except along that face.</li>\n<li><strong>A golden path and pools of light.</strong> The golden brick path runs across the cloud and along a\nterrace, and pools of liquid light sink into the cloud with a glowing violet rim, each with its own set and a soft\norganic edge. The sky and the pools are declared blocked.</li>\n<li><strong>5 materials × 4 variants</strong>. The walking grounds sit on a value ladder, and\nthe two palest are split by hue as well, cool cloud against warm stone, so a terrace never merges into the cloud it\nstands on. The smallest gap on the ladder is 29.7 luma, measured from the shipped pixels rather than declared.</li>\n<li><strong>15 objects</strong> across 32 prop tiles plus the animation frames: a golden gate with a\npearl-set arch, a rainbow arching between two cloud puffs, a tree of golden leaves, a rose bush, lilies in a gilded\nplanter, a golden bell in its frame, a star crystal floating over its pedestal, a standing mirror, a gilded bench with\na sky-blue cushion, a chest of sky-blue enamel, a pennant on a golden pole and a gilded railing that joins to its\nneighbour. Each ships transparent, and grounded on its floor with the contact shadow drawn.</li>\n<li><strong>3 animated objects</strong>, 48 frames: a golden lamp whose light moves through\nits glass, a fountain of light whose drops fall and whose pool ripples, and an orrery whose two planets turn round a\ngolden sun. Each loops exactly, and no two frames of a set are the same picture.</li>\n<li><strong>A finished 40x28 sample map</strong> with 42 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>20 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 405 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>Three things to know before you buy</h3>\n<p>⚠️ <strong>Keep paths, pools and terraces one cell in from an island's edge.</strong> Each of those sets draws cloud\noutside its own edge, so one laid right against the sky cuts a notch in the island's rim. The sample map shows the\nspacing. There are no people or animals in the pack.</p>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the lamp, the fountain and the orrery\narrive as static frames on page C.</p>\n<p>⚠️ <strong>At 335 tiles it is a smaller pack than most of the series</strong>, and it is priced for that.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 5 of\n5 sets, 235 of 235 masked tiles, and 240 of 240\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 9 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 488 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n9 atlas sources, 335 of 335 declared tiles built, 68 of 68\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 51 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>cloud_on_sky</code></li>\n<li><code>alabaster_on_cloud</code></li>\n<li><code>gilt_on_cloud</code></li>\n<li><code>gilt_on_alabaster</code></li>\n<li><code>aether_on_cloud</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this realm sits beside the others: a palace, a\ntemple or a dungeon can have a way up into the clouds.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-15-palace\">Verdant 15 — Palace</a> — the palace on the ground below, with its throne hall and gilded court</li>\n<li><a href=\"https://csaf.itch.io/verdant-23-ruins\">Verdant 23 — Ruins</a> — a ruined temple on the mountain the clouds gather over</li>\n<li><a href=\"https://csaf.itch.io/verdant-13-castle\">Verdant 13 — Castle</a> — a castle keep for a tower that reaches the cloud line</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
