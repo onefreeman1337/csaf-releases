@@ -1,0 +1,24 @@
+<p>Verdant 35 is live. It is a village fair on a green, in daylight: trodden paths across the grass, straw round the stalls, a plank stage and big striped marquees, with bell tents, market stalls, a carousel, a high striker, a coconut shy and bunting strung between poles.</p>
+
+<p>The pack ships 372 tiles at 16x16. 235 of them are transitions, which is 63% of the download, across 5 complete 47 mask autotile sets: the paths on the green, straw on the green and on the paths, the stage and the marquee. There are 20 objects over 53 prop tiles, and 64 animation frames across 4 animated objects. It is a smaller pack than most of the series and it is priced for that.</p>
+
+<p>The piece the pack is built around is the carousel. Its striped roof and its eight painted horses turn together, and the stripe period and the horse spacing are the same angle, so the eighth frame lands exactly back on the first and the loop has no seam. The marquee is a set you paint to any outline, and its canvas wall carries the roof stripes on down instead of a plain band. The stage is walkable, a step and not a wall, and every marquee tile is blocked, because a tent is walked round. Three walking grounds sit on a value ladder planned before any art existed, and the smallest gap on it is 21.7 luma, measured from the shipped pixels. The palette is locked to 44 colours.</p>
+
+<p>Most of the work was redrawing things that passed every check and still looked like something else. Daisies in the grass sat at the same spot in half the tiles and read as a grid of dots across the green, so flowers are placed objects now. The first straw read as bird tracks, then as clumps you could learn at a glance, so the stalks lie flat with no shadows. The stage face used the floor joint colour, and a check could not tell the face from the floor, so its foot is a darker wood. The first marquee wall was two flat bands under a striped roof and the tent read as a striped rug; its wall now continues the stripes. And a peaked tent cannot live in an autotile at all, so the bell tents are objects with their peak, door and guy ropes drawn. All of these were found by opening a render and judging it, under gates that were green throughout, which is why every 4x4 repetition ships with the pack.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C, D object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 5 of 5 sets and 240 of 240 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 9 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 620 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 9 atlas sources. Godot itself counted 372 of 372 tiles and 94 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 20 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this fair sits beside the others and a map can run straight out of it into another pack. <a href="https://csaf.itch.io/verdant-09-town">Verdant 09 — Town</a>, <a href="https://csaf.itch.io/verdant-13-castle">Verdant 13 — Castle</a>, <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 — Overworld</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
