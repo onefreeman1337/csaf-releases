@@ -1,0 +1,103 @@
+{
+  "packId": "verdant-34-neon-district",
+  "title": "Verdant 34 — Neon District Tileset for RPG Maker MZ, Tiled & Godot: Wet Streets, Neon Signs, Puddles & Plaza [16x16]",
+  "shortText": "365 tiles: a rain-wet night street with neon signs, light pools, puddles, kerbs and a plaza. 16x16.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "cyberpunk",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "cyberpunk": "city"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 17 — Urban Decay",
+      "url": "https://csaf.itch.io/verdant-17-urban-decay",
+      "why": "the buildings this street lacks: concrete blockwork with graffiti, boarded openings and derelict interiors, on cracked asphalt"
+    },
+    {
+      "label": "Verdant 30 — Rail Terminus",
+      "url": "https://csaf.itch.io/verdant-30-rail-terminus",
+      "why": "the station at the end of the street: platforms, track and a concourse"
+    },
+    {
+      "label": "Verdant 32 — Orbital Station",
+      "url": "https://csaf.itch.io/verdant-32-orbital-station",
+      "why": "the sci-fi interior for a city that goes off-world"
+    }
+  ],
+  "derived": {
+    "tiles": 365,
+    "cell": 16,
+    "materials": 4,
+    "variants": 4,
+    "autotileTiles": 235,
+    "autotileSets": 5,
+    "propTiles": 50,
+    "objects": 24,
+    "staticObjects": 20,
+    "shapes": 20,
+    "animCount": 4,
+    "animObjects": 4,
+    "animatedTiles": 64,
+    "palette": 70,
+    "renders": 16,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 170,
+    "ladderGap": "16.3",
+    "files": 431,
+    "mzPages": [
+      "A2",
+      "B",
+      "C"
+    ],
+    "mzSetsFound": 5,
+    "mzSetsEmitted": 5,
+    "mzMasked": 235,
+    "mzMaskedTotal": 235,
+    "mzShapes": 240,
+    "mzShapesTotal": 240,
+    "tsx": 9,
+    "tiledCells": "508",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 9,
+    "godotTiles": 365,
+    "godotMulti": 90,
+    "animPage": "page C",
+    "transitionShare": 64
+  },
+  "engineMeasuredAt": "2026-09-23T05:16:17.356Z",
+  "description": "<p><strong>365 tiles at 16x16</strong> for a city street at night, in the rain:\nwet asphalt, a sidewalk standing on a kerb, a polished plaza and standing water on all three. Three neon signs flicker on\ntheir posts and a hologram turns over the plaza, and their light lies on the road in pink, cyan and amber and mirrors in\nthe puddles. <strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one\nthing you may not do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>235 of the 365 tiles are transitions</strong>, 64% of the pack.\n5 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>A sidewalk you paint as a mass.</strong> The sidewalk set is faced: where the road lies to the south it\ndrops on a 3-pixel kerb with a lit lip, so bulb-outs, corners and crossings draw themselves. The kerb is a step, not a\nwall: <code>tiles.json</code> declares every ground tile walkable, the kerb face included.</li>\n<li><strong>Standing water on every surface.</strong> Three puddle sets put water on the road, the sidewalk and the\nplaza, and a plaza set sets the polished paving into the sidewalk.</li>\n<li><strong>The light is placed, not painted into the ground.</strong> Each sign has a matching 3x2 light pool for\nthe road beside it and a 1x2 reflection for a puddle, in its own colour, so the road stays calm where there is no\nsign and glows where there is one.</li>\n<li><strong>4 materials × 4 variants</strong> on a value ladder laid out before any art\nexisted, so a night street does not collapse into one dark grey. The smallest gap on the ladder is 16.3\nluma, measured from the shipped pixels rather than declared.</li>\n<li><strong>24 objects</strong> across 50 prop tiles plus the animation frames: a street lamp,\na bollard, a fire hydrant, a traffic cone, a bench, a palm in a planter, a vending machine, a noodle cart under a\nstriped awning, a dumpster, bin bags and crates; a manhole, a drain grate and a zebra crossing for the road; three\nlight pools and three reflections. Each ships transparent, and grounded on its floor with the contact shadow drawn.</li>\n<li><strong>4 animated objects</strong>, 64 frames: a cocktail glass, an arrow and a\nstar, each with a border tube chasing round the plate while the sign shimmers, half its tubes fail, it goes out and\ncomes back dim; and a hologram turning over its projector. No two frames of a set are the same picture.</li>\n<li><strong>A finished 40x28 sample map</strong> with 170 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>16 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 431 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>Three things to know before you buy</h3>\n<p>⚠️ <strong>This is a street, not a whole city.</strong> There are no building walls, facades or roofs in it: the\npack is the ground a street is built on and the things that stand on it. At 365 tiles it is also a smaller pack\nthan most of the series, and it is priced for that.</p>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the signs and the hologram arrive as\nstatic frames on page C.</p>\n<p>⚠️ <strong>The light pools and reflections are objects you place.</strong> They are not baked into the road, so a\nsign with no pool beside it casts no light until you put one there.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 5 of\n5 sets, 235 of 235 masked tiles, and 240 of 240\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 9 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 508 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n9 atlas sources, 365 of 365 declared tiles built, 90 of 90\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 70 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>puddle_on_wetasph</code></li>\n<li><code>kerbslab_on_wetasph</code></li>\n<li><code>puddle_on_kerbslab</code></li>\n<li><code>plaza_on_kerbslab</code></li>\n<li><code>puddle_on_plaza</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this street sits beside the others and a map\ncan run straight out of it into another pack.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-17-urban-decay\">Verdant 17 — Urban Decay</a> — the buildings this street lacks: concrete blockwork with graffiti, boarded openings and derelict interiors, on cracked asphalt</li>\n<li><a href=\"https://csaf.itch.io/verdant-30-rail-terminus\">Verdant 30 — Rail Terminus</a> — the station at the end of the street: platforms, track and a concourse</li>\n<li><a href=\"https://csaf.itch.io/verdant-32-orbital-station\">Verdant 32 — Orbital Station</a> — the sci-fi interior for a city that goes off-world</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
