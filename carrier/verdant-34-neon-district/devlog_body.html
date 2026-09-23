@@ -1,0 +1,24 @@
+<p>Verdant 34 is live. It is a city street at night, in the rain: wet asphalt, a sidewalk standing on a kerb, a polished plaza, and standing water on all three. Three neon signs flicker on their posts, a hologram turns over the plaza, and their light lies on the road in pink, cyan and amber and mirrors in the puddles.</p>
+
+<p>The pack ships 365 tiles at 16x16. 235 of them are transitions, which is 64% of the download, across 5 complete 47 mask autotile sets: the sidewalk on the road, the plaza set into the sidewalk, and a puddle set for each of the three surfaces. There are 24 objects over 50 prop tiles, and 64 animation frames across 4 animated objects. It has no building walls or roofs; it is the street, not the city, and it is priced below the bigger packs in the series for that reason.</p>
+
+<p>The detail the pack exists for is the light. It is placed rather than painted into the ground: each sign has a matching light pool for the road beside it and a reflection for a puddle, in its own colour, so the road stays calm where there is no sign and glows where there is one. The sidewalk is the one faced surface, a 3 pixel kerb with a lit lip where the road lies to the south, and every ground tile is walkable, the kerb included, because a kerb is a step. The 4 surfaces sit on a value ladder planned before any art existed, and the smallest gap on it is 16.3 luma, measured from the shipped pixels. The palette is locked to 70 colours.</p>
+
+<p>Most of the work was redrawing things that passed every check and still looked like something else. The first wet asphalt read as dark rubber. The first sidewalk read as graph paper, and sat at exactly the value of another pack's road. The puddle took four drafts: neon streaks in each cell read as sparklers in a pit, and coloured pools in each cell read as a lattice of gems, so the light became one reflection per puddle instead. The star sign read as a crown until its points were rebuilt from geometry. The last fix came from the finished map at 4x: the road carried small dark patches of standing water, one per tile, and across a street they read as rows of little hearts, so the road is now plain asphalt and the wet is carried by the puddles and the light. All of these were found by opening a render and judging it, under gates that were green throughout, which is why every 4x4 repetition ships with the pack.</p>
+
+<h3>The importers were run by the engines they target</h3>
+<ul>
+<li>RPG Maker MZ: an A2 autotile sheet plus B, C object pages. It composes against MZ's own FLOOR_AUTOTILE_TABLE, 5 of 5 sets and 240 of 240 shapes byte identical. The animation itself plays in Tiled and Godot, not in MZ.</li>
+<li>Tiled: 9 tsx files, all opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel with the shipped sheets. 508 cells, 0 differing. The sample map's tmx renders 1,146,880 pixels identical to the shipped PNG.</li>
+<li>Godot 4.7.2: a tres TileSet with 9 atlas sources. Godot itself counted 365 of 365 tiles and 90 multi cell footprints.</li>
+</ul>
+
+<h3>What is proven and what is not</h3>
+<p>The grid is exact, the palette is locked, the alpha is binary with no anti aliasing, every tile carries a declared role, and every autotile set is complete. Those are exact checks run on every build.</p>
+<p>Seamlessness is not on that list and we do not claim it. What we do is measure every tile's wrap boundary against its own interior, and render every 4x4 repetition so it can be looked at. All 16 of those renders ship with the pack so you can judge them yourself.</p>
+
+<h3>It fits the rest of the series</h3>
+<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this street sits beside the others and a map can run straight out of it into another pack. <a href="https://csaf.itch.io/verdant-17-urban-decay">Verdant 17 — Urban Decay</a>, <a href="https://csaf.itch.io/verdant-30-rail-terminus">Verdant 30 — Rail Terminus</a>, <a href="https://csaf.itch.io/verdant-32-orbital-station">Verdant 32 — Orbital Station</a>.</p>
+
+<h3>AI disclosure</h3>
+<p>Tagged as AI assisted, and precisely: every tile is drawn by a procedural generator written for this series, and that generator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. The store images, the cover included, are composed from the pack's own tiles and sample map.</p>
