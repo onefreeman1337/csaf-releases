@@ -1,0 +1,57 @@
+<p><strong>A tavern pin board for your RPG.</strong> The player slides the launcher along the rail, stakes gold and drops a steel ball through brass pins and jewelled bumpers into a row of prize pockets, each paying a multiple of the stake.</p>
+
+<p><strong>Every board is generated from a seed</strong>: the pin pattern, the bumpers, the number of pockets and the payout table, painted in one of five themes. Nothing is loaded from an image file. One plugin command on an event opens it; the event waits, and the net winnings can go straight into a variable.</p>
+
+<p><strong>And it cannot be farmed.</strong> A pin board where the player chooses where to drop is only fair if no spot on the rail is a gold mine. Pinfall calibrates every table against a player who aims, and checks it a second time on fresh balls, so the house keeps its edge however well the player aims.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PinfallCore.js</code> — Pinfall core - generated pin boards, a deterministic bouncing ball and a calibrated payout table. Place ABOVE PinfallDraw and Pinfall.</li>
+<li><code>PinfallDraw.js</code> — Pinfall draw - the cabinet, the enamel board, brass pins, jewelled bumpers and the prize pockets, all drawn in code.</li>
+<li><code>Pinfall.js</code> — Pinfall - generated pachinko and plinko boards. The player stakes gold, drops a ball, and it bounces down to a prize pocket.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Pinfall co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<hr>
+
+<h3>Five themes, five pin patterns</h3>
+<ul>
+<li><strong>Carnival</strong>: red enamel with a gold star medallion. <strong>Jade</strong>: green lacquer with cloud scrolls. <strong>Midnight</strong>: a starfield with a crescent moon. <strong>Ember</strong>: flames rising behind the pins. <strong>Ivory</strong>: cream damask.</li>
+<li>Pins laid as a <strong>lattice</strong>, a <strong>diamond</strong>, a <strong>fan</strong>, <strong>waves</strong> or <strong>rings</strong>, with two to four jewelled bumpers and 7, 9 or 11 pockets under arched gilt crowns.</li>
+</ul>
+
+<h3>How the house keeps its edge (measured, not promised)</h3>
+<ul>
+<li>The launcher only travels the central band the pins cover, and every payout table is symmetric.</li>
+<li>When the board is built, 480 balls are dropped across 8 aim positions and the table is scaled so the <strong>best</strong> position returns no more than your Payback setting plus 8%. Then a second, independent 480 balls check it and step it down if any position still pays too well.</li>
+<li>Measured on a third, independent set of balls (8 positions x 300 drops, 10 boards, default Payback 90): the best spot on every board returned at most 0.97 of the stake, and the average across the rail was 0.64 to 0.91.</li>
+<li>The bounce is deterministic, so the same board behaves the same on every machine, and balls keep counting from visit to visit so a board never replays the same drops.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>PinfallCore.js</code> (the generator and the physics), <code>PinfallDraw.js</code> (the drawing) and <code>Pinfall.js</code> (the scene and the command).</li>
+<li>The <strong>Open Board</strong> command: stake, balls per visit, theme, pattern, pockets, payback, a variable for net winnings, title and an optional seed. Stakes and winnings use the party's gold.</li>
+<li>Keyboard, gamepad, mouse and touch. Script call: <code>Pinfall.record(key)</code>.</li>
+<li>Sounds are your project's own sound effects, chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 41 in engine checks, including fifteen balls dropped through the game's own scene, each landing exactly where the headless physics predicts, and gold moving by exactly the net. A further 22 headless checks: no ball stalls in 5,000 drops, and the payback check is proven able to catch a table that pays too well. While a ball is falling, a frame costs under 4 draw calls.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/escapement">Escapement</a>: generated clockwork gear puzzles for every lock in your game ($11.99).</li>
+<li><a href="https://csaf.itch.io/strata">Strata</a>: generated excavation digs, where the player chips back layered rock to free fossils and relics ($11.99).</li>
+<li><a href="https://csaf.itch.io/bazaar-core">Bazaar Core</a>: the shops and markets the gold goes back into.</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
