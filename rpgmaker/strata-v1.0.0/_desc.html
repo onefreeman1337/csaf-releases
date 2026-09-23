@@ -1,0 +1,58 @@
+<p><strong>Give the player a rock face and two tools.</strong> Every blow cuts the rock back a layer and puts stress on the face. Somewhere under it lie fossils, relics, crystals and ore. Free a find completely before the face gives way and it goes into the party's inventory. Push too hard and the face collapses, taking whatever is still buried with it.</p>
+
+<p><strong>Every site is generated from a seed</strong>: the finds, the bedrock, the thickness of the rock and the stability of the face. Stability is measured against how a careful digger does on that exact site, so no dig is impossible and the grade decides how forgiving it is. Nothing is loaded from an image file: the bedded rock, the cracks and every find are drawn in code.</p>
+
+<p>One plugin command on an event. Choose a grade, a rock and the items that can be found. The event waits while the player digs, then carries on.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>StrataCore.js</code> — Strata core - generates excavation dig sites and their fair stability budgets. Place ABOVE StrataDraw and Strata.</li>
+<li><code>StrataDraw.js</code> — Strata draw - rock strata, cracks and ten families of buried finds, all drawn in code. Place BETWEEN StrataCore and Strata.</li>
+<li><code>Strata.js</code> — Strata - generated excavation digs. A close-up rock face the player works with a pick and a hammer to free buried finds.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Strata co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<hr>
+
+<h3>How a dig plays</h3>
+<ul>
+<li><strong>The pick</strong> cuts deep at one spot and lightly around it, and is gentle on the face.</li>
+<li><strong>The hammer</strong> cuts a wide area and puts twice the stress on the face.</li>
+<li><strong>Dark bedrock</strong> cannot be cut, so the player has to dig around it.</li>
+<li>A crack runs across the plank above the face as it weakens, and turns red near the end.</li>
+<li>A find freed by the very blow that brings the face down still counts.</li>
+</ul>
+
+<h3>Ten families of finds, five rocks, five grades</h3>
+<p>Ammonites, trilobites, bones, teeth, amber (sometimes with an insect inside), geodes, ore nuggets, crystal clusters, inscribed tablets and shells. Each is seeded, so its colour, coil, inclusion or script changes from dig to dig. Sandstone, shale, limestone, clay and basalt each have their own bedding and palette.</p>
+<p><strong>Your items, your look.</strong> Each find becomes an item from your database. Put <code>&lt;Strata: ammonite&gt;</code> in an item's note to choose how it looks, or let the plugin read the item's name for a hint.</p>
+<p><strong>Grades 1 to 5</strong>, measured over 600 generated sites: about 9 in 10 careful diggers clear a grade 1 face, and about 2 in 5 clear a grade 5.</p>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>StrataCore.js</code> (the generator and the rules), <code>StrataDraw.js</code> (the drawing) and <code>Strata.js</code> (the scene, the command and the parameters).</li>
+<li>The <strong>Open Dig</strong> command: grade, rock, items, title, a switch if every find is freed, a variable for how many were, dig once, and an optional seed.</li>
+<li>Keyboard, gamepad, mouse and touch.</li>
+<li>Script call: <code>Strata.dugAt(key)</code>.</li>
+<li>Sounds are your project's own sound effects, chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 53 in engine checks (all five rocks, items awarded, collapse, real keyboard and mouse, save and load, the command waiting for the player and then setting its switch and variable, and dig once). A further 60 headless checks over 600 generated sites prove every site can be cleared within its stability. The busiest frame, while the player is digging, costs <strong>2 draw calls</strong>.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/escapement">Escapement</a>: generated clockwork gear puzzles, where every lock becomes a train of brass wheels ($11.99).</li>
+<li><a href="https://csaf.itch.io/cogwheel">Cogwheel</a>: puzzles on the map itself, with push blocks, pressure plates, mirrors and boulders ($9.99).</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: every pot, crate, rock and bush on the map breaks the way its material would ($9.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
