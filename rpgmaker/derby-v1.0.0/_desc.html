@@ -1,0 +1,57 @@
+<p><strong>A race meeting your players can bet on.</strong> They read the race card (every runner's form, the going it likes, its silks and its price), put gold on a runner to Win or to Place, and watch the race run on a drawn garden course. Close finishes go to the judge's photograph. Winnings are paid into the party's gold.</p>
+
+<p><strong>The runners are racing snails, and every one is generated</strong>: its name, shell colour, shell pattern, spiral, body and silks. Every race draws its own field, course, going and prices. Nothing is loaded from an image file. One plugin command on an event opens the meeting; the event waits, and the net winnings can go straight into a variable.</p>
+
+<p><strong>And the odds are measured, not guessed.</strong> The bookmaker runs the same race model the player watches 2,000 times to price the card, then checks every price on a second, independent 2,000 races. The house keeps its edge whichever runner the player backs.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>DerbyCore.js</code> — Derby core - generated snail stables, courses, a seeded race model and calibrated odds. Place ABOVE DerbyDraw and Derby.</li>
+<li><code>DerbyDraw.js</code> — Derby draw - the racing snails, their silks, the garden courses, the race card, the photo finish and the winners' rosettes, all drawn in code.</li>
+<li><code>Derby.js</code> — Derby - a race meeting the player can bet on: generated snail runners with real form, garden courses, measured odds, a photo finish and a payout.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Derby co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>Five courses, six surfaces, a real race</h3>
+<ul>
+<li>The <strong>Kitchen Garden</strong>, the <strong>Rockery</strong>, the <strong>Greenhouse</strong>, the <strong>Orchard</strong> and the <strong>Moss Bank</strong>, each laid in sections of moss, slate, sand, puddle, leaf litter and gravel.</li>
+<li>Some runners like it damp and some like it dry, and the going of the day (dewy, damp or dry) moves the field again. Reading the form pays: the form figures are the runners' real placings, and they carry on from the races the player watches.</li>
+<li>Runners surge, tire, and now and then stop to nibble a leaf. A commentary line calls the lead changes; a strip across the top shows the whole field on the course.</li>
+<li>A race card printed like the real thing, chalk prices (5/2, 7/4, Evens), a sepia judge's print for the photo finishes, and rosettes for the first three.</li>
+</ul>
+
+<h3>How the house keeps its edge (measured, not promised)</h3>
+<ul>
+<li>Each price is set from the upper bound of the runner's measured chance and rounded <strong>down</strong> a ladder of traditional prices. Any bet that still reads over your Payback setting plus 4% on the independent check is shortened.</li>
+<li>Measured on a third, independent set of races (60 cards over two seed ranges, 4,000 races each, default Payback 85): the best bet on any card returned at most 0.89 of its stake, no bet returned more than its stake, and the average bet returned about 0.75.</li>
+<li>And it races like a race: over the same 60 cards the favourite won about 38% of the time, a runner at 8/1 or longer won about 10%, about 14% of races were decided by a head or less, and the lead changed hands about 3.6 times a race.</li>
+<li>With "Fresh races after loading" on (the default), a race is drawn when the player arrives, so reloading a save cannot replay a race whose winner the player already knows.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>DerbyCore.js</code> (stables, courses, the race model and the bookmaker), <code>DerbyDraw.js</code> (the drawing) and <code>Derby.js</code> (the scene and the command).</li>
+<li>The <strong>Open Race Meeting</strong> command: races per visit (the last of a visit is the Derby), runners per race, course, going, smallest and largest stake, stake step, payback, a variable for net winnings, a meeting name and an optional seed.</li>
+<li>Keyboard, gamepad, mouse and touch; hold OK to watch at triple speed. Script call: <code>Derby.record(key)</code>.</li>
+<li>Sounds are your project's own sound effects, chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 74 in-engine checks, including every race the player watched matching the headless race model run from the same seed, on all five courses, bets settling to the gold piece, real keyboard and mouse input, the command waiting and setting its variable, and a save and reload. A further 48 headless checks, among them 3,000 races with none stalling and a price check proven able to catch a book priced 30% too long. A race frame costs 3 draw calls.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/pinfall">Pinfall</a>: generated pachinko and plinko boards for the same tavern, calibrated so no spot on the rail can be farmed ($9.99).</li>
+<li><a href="https://csaf.itch.io/escapement">Escapement</a>: generated clockwork gear puzzles for every lock in your game ($11.99).</li>
+<li><a href="https://csaf.itch.io/strata">Strata</a>: generated excavation digs, where the player chips back layered rock to free fossils and relics ($11.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
