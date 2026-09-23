@@ -1,0 +1,103 @@
+{
+  "packId": "verdant-36-mediterranean-coast",
+  "title": "Verdant 36 — Mediterranean Coast Tileset for RPG Maker MZ, Tiled & Godot: Harbour, Beach, Houses & Windmill [16x16]",
+  "shortText": "347 tiles: a sunny harbour village with whitewashed houses, a quay, beach, olive trees and a windmill. 16x16.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "mediterranean",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "mediterranean": "beach"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 10 — Harbour",
+      "url": "https://csaf.itch.io/verdant-10-harbour",
+      "why": "a working harbour to run the quay into"
+    },
+    {
+      "label": "Verdant 23 — Ruins",
+      "url": "https://csaf.itch.io/verdant-23-ruins",
+      "why": "classical ruins, amphorae and cypresses for the hill above the village"
+    },
+    {
+      "label": "Verdant 09 — Town",
+      "url": "https://csaf.itch.io/verdant-09-town",
+      "why": "the town inland: its market, housefronts and gardens"
+    }
+  ],
+  "derived": {
+    "tiles": 347,
+    "cell": 16,
+    "materials": 5,
+    "variants": 4,
+    "autotileTiles": 235,
+    "autotileSets": 5,
+    "propTiles": 44,
+    "objects": 19,
+    "staticObjects": 16,
+    "shapes": 16,
+    "animCount": 3,
+    "animObjects": 3,
+    "animatedTiles": 48,
+    "palette": 81,
+    "renders": 20,
+    "map1Cols": 40,
+    "map1Rows": 28,
+    "map1Props": 88,
+    "ladderGap": "23.3",
+    "files": 417,
+    "mzPages": [
+      "A2",
+      "B",
+      "C"
+    ],
+    "mzSetsFound": 5,
+    "mzSetsEmitted": 5,
+    "mzMasked": 235,
+    "mzMaskedTotal": 235,
+    "mzShapes": 240,
+    "mzShapesTotal": 240,
+    "tsx": 9,
+    "tiledCells": "500",
+    "tiledName": "Tiled 1.12.2",
+    "tmxPx": "1,146,880",
+    "godotVersion": "4.7.2",
+    "godotSources": 9,
+    "godotTiles": 347,
+    "godotMulti": 57,
+    "animPage": "page C",
+    "transitionShare": 68
+  },
+  "engineMeasuredAt": "2026-09-23T06:41:59.485Z",
+  "description": "<p><strong>347 tiles at 16x16</strong> for a harbour village on a sunny\ncoast: beach sand, the sea with a surf line along the shore, red-earth terraces on the hill, a stone quay standing in the\nwater, whitewashed houses under terracotta roofs, olive trees, parasols, rowboats and a windmill whose sails turn.\n<strong>Commercial use permitted, in unlimited projects, with no attribution required;</strong> the one thing you may\nnot do is resell or redistribute the pack itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine\nit targets and made to count what it built.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>235 of the 347 tiles are transitions</strong>, 68% of the pack.\n5 complete 47-mask autotile sets: every inner corner, outer corner, edge, junction and single.\nCompleteness is checked mechanically on every build, because a set missing three tiles is broken in your map.</li>\n<li><strong>A house you paint to any shape.</strong> The terracotta roof is a faced set: paint it as a mass on the\nterrace or on the quay and its south wall draws itself, whitewashed with blue shutters. Every roof tile is declared\nblocked in <code>tiles.json</code>, because a house is walked round.</li>\n<li><strong>A quay that stands in the water.</strong> The quay stone is a faced set too: its wall drops to a dark wet\nfoot at the waterline. The quay is walkable, except along that face.</li>\n<li><strong>A shore and terraces.</strong> The sea meeting the beach, with a pale surf line, and the red-earth terraces\non the sand, each with its own set and a soft organic edge. Every sea tile is declared blocked.</li>\n<li><strong>5 materials × 4 variants</strong>, the three walking grounds on a value ladder laid\nout before any art existed, so the terrace earth, the quay stone and the sand never merge into one warm field. The\nsmallest gap on the ladder is 23.3 luma, measured from the shipped pixels rather than declared.</li>\n<li><strong>19 objects</strong> across 44 prop tiles plus the animation frames: an olive tree, a\nlemon tree in a terracotta pot, geraniums in a painted tin, bougainvillea, a prickly pear, a rowboat drawn up on the\nbeach, a heap of blue net with its floats, a crate of the morning catch, a lobster pot, an anchor, a mooring bollard\nwith its rope, a whitewashed well, a stone bench, a cafe table with two chairs, a striped beach parasol and a striped\ndeck chair. Each ships transparent, and grounded on its floor with the contact shadow drawn.</li>\n<li><strong>3 animated objects</strong>, 48 frames: a windmill whose four sails turn and\nloop exactly, a blue and white harbour flag that waves, and a harbour light that glows. No two frames of a set are the\nsame picture.</li>\n<li><strong>A finished 40x28 sample map</strong> with 88 objects on it and every\nautotile set placed, as a PNG, as JSON naming every cell by tile id, and as a <code>.tmx</code> that opens in Tiled.</li>\n<li><strong>20 4x4 proof renders</strong>, one per repeating tile, so you can look for the grid line yourself.</li>\n<li>Every tile as a loose PNG and as packed sheets: 417 files in total, and a <code>tiles.json</code> giving every\ntile's role, material, sheet slot, footprint and passability.</li>\n</ul>\n\n<h3>Three things to know before you buy</h3>\n<p>⚠️ <strong>Keep the quay in the water.</strong> The quay set draws sea outside its edge, so a quay laid straight\nagainst the beach shows a strip of water along the join. On the sample map it leaves the map on the east and south,\nwhere its land lies. There are no people or animals in the pack.</p>\n<p>⚠️ <strong>The animation plays in Tiled and Godot, not in RPG Maker MZ.</strong> MZ animates tiles only through its\nA1 page, which holds animated water autotiles; this pack has none, so in MZ the windmill, the flag and the harbour light\narrive as static frames on page C.</p>\n<p>⚠️ <strong>At 347 tiles it is a smaller pack than most of the series</strong>, and it is priced for that.</p>\n\n<h3>The importers were actually run</h3>\n<ul>\n<li><strong>RPG Maker MZ</strong>: an A2 autotile sheet (the page MZ's own autotile brush paints) plus B/C object\npages and a slot map. It composes correctly against MZ's own FLOOR_AUTOTILE_TABLE: 5 of\n5 sets, 235 of 235 masked tiles, and 240 of 240\nshapes came back byte-identical. The object pages carry every fill, every object and every animation frame.</li>\n<li><strong>Tiled</strong>: one <code>.tsx</code> per group, all 9 opened and rendered by Tiled 1.12.2's own\ntmxrasterizer and compared pixel for pixel with the shipped sheets: 500 sheet cells, 0 differing. The\nsample map's <code>.tmx</code> renders 1,146,880 pixels identical to the shipped PNG.</li>\n<li><strong>Godot 4</strong>: a <code>.tres</code> TileSet, loaded and verified in Godot 4.7.2:\n9 atlas sources, 347 of 347 declared tiles built, 57 of 57\nmulti-cell footprints exact. Every sheet is referenced by a relative filename, so the folder loads from wherever you\nput it in a project.</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 81 colours, the alpha is strictly binary with no\nanti-aliasing, every tile carries a declared role, and every autotile set is complete: exact checks, run on every\nbuild.</p>\n<p><strong>Seamlessness is not on that list.</strong> Every tile's wrap boundary is measured against its own interior,\nand every 4x4 repetition is rendered and reviewed; grid, palette and autotile completeness are machine-proven. The\nrenders ship with the pack so you can judge them yourself.</p>\n\n<h3>The autotile sets</h3>\n<ul>\n<li><code>sea_on_sand</code></li>\n<li><code>terrace_on_sand</code></li>\n<li><code>quay_on_sea</code></li>\n<li><code>roof_on_terrace</code></li>\n<li><code>roof_on_quay</code></li>\n</ul>\n\n<h3>It fits the rest of the series</h3>\n<p>The 16x16 Verdant packs are drawn at one cell size in one style, so this coast sits beside the others and a map can\nrun straight out of it into another pack.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-10-harbour\">Verdant 10 — Harbour</a> — a working harbour to run the quay into</li>\n<li><a href=\"https://csaf.itch.io/verdant-23-ruins\">Verdant 23 — Ruins</a> — classical ruins, amphorae and cypresses for the hill above the village</li>\n<li><a href=\"https://csaf.itch.io/verdant-09-town\">Verdant 09 — Town</a> — the town inland: its market, housefronts and gardens</li>\n</ul>\n\n<h3>Licence</h3>\n<p>Commercial use permitted, in unlimited projects, including paid games; no attribution required. You may not resell\nor redistribute the pack itself, recoloured or repacked. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that\ngenerator's code was written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on\nthis page, the cover included, is composed from the pack's own tiles and sample map.</p>"
+}
