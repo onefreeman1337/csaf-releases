@@ -1,0 +1,41 @@
+{
+  "packId": "verdant-00-sampler",
+  "itchProjectId": 4911736,
+  "itchUrl": "https://csaf.itch.io/verdant-00-sample",
+  "title": "Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]",
+  "shortText": "Free: 878 tiles, one complete autotile set from each of 16 paid Verdant packs. 16x16, 3 engines.",
+  "pricing": {
+    "mode": "pwyw",
+    "minUSD": 0,
+    "suggestedUSD": 5
+  },
+  "tags": [
+    "tileset",
+    "tilemap",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "top-down",
+    "free",
+    "asset-pack"
+  ],
+  "tagFallbacks": {
+    "free": "fantasy"
+  },
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ]
+  },
+  "description": "<p><strong>A free sampler of the whole Verdant series: 878 tiles at 16x16, one complete autotile\nset and its grounds from each of 16 paid packs.</strong> Every tile is byte-identical to the same tile in the paid pack it\ncomes from, so what you build with here is exactly what those packs ship. <strong>Commercial use permitted, in unlimited\nprojects, with no attribution required;</strong> the one thing you may not do is resell or redistribute the art itself.</p>\n\n<p>Importers for <strong>RPG Maker MZ, Tiled and Godot</strong> ship in the download, and each was run by the engine it targets.</p>\n\n<h3>What is in the download</h3>\n<ul>\n<li><strong>16 complete 47-mask autotile sets</strong> (752 tiles): every inner corner, outer corner, edge, junction and\nsingle, checked mechanically on every build.</li>\n<li><strong>126 fill tiles</strong>: the grounds of 31 materials.</li>\n<li><strong>A 64x40 catalogue map</strong> with every set on it, as a PNG, as JSON naming every cell by tile id, and as a\n<code>.tmx</code> that opens in Tiled.</li>\n<li><strong>126 4x4 proof renders</strong> so you can look for the grid line yourself.</li>\n<li>A <code>tiles.json</code> giving every tile's role, material, sheet slot, passability and the paid pack it comes from.</li>\n</ul>\n\n<h3>Where each biome comes from</h3>\n<p>The sampler gives you the breadth; each paid pack gives you the depth, with more sets, props and, in most, animation.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-05-depths\">Verdant 05 — Depths</a>: mason on flag (the full pack has 4 sets and 236 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-06-gothic\">Verdant 06 — Gothic</a>: ruin on grave (the full pack has 6 sets and 356 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-08-mire\">Verdant 08 — Mire</a>: muck on mire (the full pack has 8 sets and 470 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-12-scarp\">Verdant 12 — Scarp</a>: upland on meadow (the full pack has 7 sets and 414 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-13-castle\">Verdant 13 — Castle</a>: curtain on bailey (the full pack has 11 sets and 603 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-16-east-asian\">Verdant 16 — East Asian Village</a>: ta on koke (the full pack has 11 sets and 678 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-17-urban-decay\">Verdant 17 — Urban Decay</a>: rubble on asphalt (the full pack has 12 sets and 741 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-23-ruins\">Verdant 23 — Ruins</a>: tessera on paving (the full pack has 12 sets and 698 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-24-desert\">Verdant 24 — Desert Kingdom</a>: oasis on dust (the full pack has 11 sets and 640 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-25-infernal\">Verdant 25 — Infernal</a>: magma on basalt (the full pack has 12 sets and 848 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-26-deep-ocean\">Verdant 26 — Deep Ocean</a>: coral bed on abyssal silt (the full pack has 13 sets and 1,052 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-27-elemental-dungeon\">Verdant 27 — Elemental Dungeon</a>: ember on flagstone (the full pack has 13 sets and 864 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-28-deep-forest\">Verdant 28 — Deep Forest</a>: moss on humus (the full pack has 8 sets and 554 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-29-crystal-hollows\">Verdant 29 — Crystal Hollows</a>: amethyst on cavestone (the full pack has 7 sets and 498 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-32-orbital-station\">Verdant 32 — Orbital Station</a>: bulkhead on plating (the full pack has 10 sets and 637 tiles)</li>\n<li><a href=\"https://csaf.itch.io/verdant-33-fungal-hollows\">Verdant 33 — Fungal Hollows</a>: capflesh on damprot (the full pack has 8 sets and 527 tiles)</li>\n</ul>\n\n<h3>What is proven, and what is not</h3>\n<p>The grid is exact, the palette is locked to 128 colours, the alpha is strictly binary, every tile has a declared role and\nevery autotile set is complete: exact checks, run on every build. Seamlessness is not on that list: every tile's wrap boundary is\nmeasured against its own interior and every 4x4 repetition is rendered and reviewed, and the renders ship with the pack.</p>\n\n<h3>Licence</h3>\n<p>Free, and commercial use is permitted in unlimited projects including paid games, with no attribution required. You may not resell\nor redistribute the art itself. Full terms in <code>LICENSE.txt</code>.</p>\n\n<h3>AI disclosure</h3>\n<p>Tagged as AI-assisted. Precisely: every tile is drawn by a procedural generator written for this series, and that generator's code\nwas written with AI assistance. No diffusion model is anywhere in the tile pipeline. Every image on this page, the cover included,\nis composed from the pack's own tiles and sample map.</p>"
+}
