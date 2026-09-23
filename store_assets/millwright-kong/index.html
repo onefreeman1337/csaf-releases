@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MILLWRIGHT - free edition</title>
+<!--
+  ⛔ THIS IS THE FREE EDITION AND IT HAS NO <script> TAG FOR js/content_full.js (wing §1-DEMO: paid
+     content is a FILE the free build does not load). Internal_Ops/verify_demo_split.js checks the
+     SHIPPED bytes for this, with a non-vacuity arm.
+-->
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #0b1a0b; overflow: hidden;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: #8bac0f; }
+  #wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 10px; }
+  #screen { image-rendering: pixelated; image-rendering: crisp-edges; background: #306230; display: block; touch-action: none;
+    box-shadow: 0 0 0 3px #0f380f, 0 0 26px rgba(0, 0, 0, .75); }
+  #hint { font-size: 11px; letter-spacing: .08em; opacity: .75; text-align: center; padding: 0 8px; }
+  @media (max-height: 420px) { #hint { display: none; } }
+  #pad { display: flex; gap: 8px; }
+  #pad button { font: inherit; font-size: 12px; letter-spacing: .06em; color: #9bbc0f; background: #0f380f;
+    border: 2px solid #306230; padding: 4px 10px; min-width: 64px; touch-action: manipulation; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="screen" width="160" height="144" aria-label="MILLWRIGHT game screen"></canvas>
+  <div id="pad"><button data-k="ok">Z · RAISE</button><button data-k="back">X · BACK</button><button data-k="pause">P · PAUSE</button><button data-k="mute">M · MUTE</button></div>
+  <div id="hint">HOLD ARROWS OR WASD TO WALK &nbsp;·&nbsp; MOUSE OR TOUCH: HOLD A FINGER WHERE YOU WANT TO GO, TAP THE MILLWRIGHT TO RAISE A MILL &nbsp;·&nbsp; PARISH SCREEN: UP LEDGER, DOWN RULES</div>
+</div>
+
+<!-- ⛔ §2a: a BARE <audio> element. No crossOrigin, never fed to createMediaElementSource. -->
+<audio id="music" loop preload="auto" src="audio/sails.ogg"></audio>
+
+<script src="js/art.js"></script>
+<script src="js/font.js"></script>
+<script src="js/parish.js"></script>
+<script src="js/content.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/game.js"></script>
+<script>
+(function () {
+  'use strict';
+  var cv = document.getElementById('screen');
+  function fit() {
+    var pad = window.innerHeight > 420 ? 84 : 46;   // canvas + gap + button row (+ hint when tall)
+    var s = Math.max(1, Math.floor(Math.min(window.innerWidth / 160, (window.innerHeight - pad) / 144)));
+    cv.style.width = (160 * s) + 'px'; cv.style.height = (144 * s) + 'px';
+  }
+  window.addEventListener('resize', fit); window.addEventListener('orientationchange', fit); fit();
+  if (window.PSOUND) {
+    window.PSOUND.attachMusic(document.getElementById('music'));
+    var m = window.PSOUND.restoreMuted(); window.PSOUND.setMuted(m);
+    if (window.MILLWRIGHT) window.MILLWRIGHT.state.muted = m;
+  }
+  document.querySelectorAll('#pad button').forEach(function (b) {
+    b.addEventListener('click', function (e) { e.preventDefault(); if (window.__mwPress) window.__mwPress(b.getAttribute('data-k')); cv.focus(); });
+  });
+  cv.setAttribute('tabindex', '0');
+  window.addEventListener('pointerdown', function () { window.focus(); cv.focus(); });
+}());
+</script>
+</body>
+</html>
