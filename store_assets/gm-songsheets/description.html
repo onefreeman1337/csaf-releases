@@ -1,0 +1,66 @@
+<p><strong>Every song your player learns becomes an engraved plate they collect - and the plate plays what it shows.</strong></p>
+
+<p>A learnable-songs system for bards, ocarinas, shanties and spells. Give it a song id and a tradition; it
+composes the melody, engraves it as real notation on aged paper, and synthesises it into GameMaker audio
+buffers. No image files and no audio files ship: a song that does not exist until your player finds it still
+has a score and a sound.</p>
+
+<pre><code>my_book = sng_book_create();
+sng_book_learn(my_book, "millers-daughter", "folk", "The Miller's Daughter");
+sng_book_learn(my_book, "hours-of-ash", "chant");
+my_songbook = sng_songbook_create(my_book);
+
+// Step:     sng_songbook_step(my_songbook, up, down, play, stop);
+// Draw GUI: sng_songbook_draw(my_songbook, 0, 0, display_get_gui_width(), display_get_gui_height());</code></pre>
+
+<h3>What it gives you</h3>
+<ul>
+<li><strong>Ten traditions, ten kinds of page</strong> - Plainchant, Courtly Air, Reel, Muster Call, Lament,
+Fae Round, Hymnal, Shanty, Incantation, Work Song - each with its own melodic construction, mode, metre,
+paper, ink, page frame, instrument and tempo.</li>
+<li><strong>Five notation systems</strong> - square neumes with sung syllables, white mensural notation,
+modern staves, a percussion grid over a charted horn call, and a spiral stave that comes back round.</li>
+<li><strong>Real engraving.</strong> One letter per scale degree and a real key signature, stems that flip at
+the middle line, beams that slope with the melody and never cross a barline, ledger lines, dotted notes,
+flags. A musician can read it.</li>
+<li><strong>It plays.</strong> <code>sng_play</code> starts a song in under 20 ms and streams the rest; the
+playhead lights each notehead as it sounds. Nine synthesised instruments.</li>
+<li><strong>A songbook screen</strong> - desk, index of sheets, the selected plate and its playhead - plus a
+one-call plate sprite for anywhere else in your game, generated titles, WAV export and a tiny save format.</li>
+</ul>
+
+<h3>Measured, not estimated</h3>
+<ul>
+<li><strong>4,886 of 4,886 notes identical</strong> to our <a href="https://csaf.itch.io/song-sheets">Song
+Sheets for RPG Maker MZ</a> across 300 songs, all ten traditions and three tonics: the same id is the same
+melody in both engines.</li>
+<li><strong>159 of 159 notes in tune</strong>: every note of ten synthesised songs, found in the audio by a
+pitch tracker and compared with the note the plate shows, within 25 cents. No clipping, no dead air.</li>
+<li><strong>Forty songs engrave as forty different pictures</strong>, and every two plates of one tradition
+differ by more than a one-note edit would.</li>
+</ul>
+
+<h3>Tested</h3>
+<ul>
+<li>Igor package build clean on the shipped source, and proven able to fail on it.</li>
+<li>157 in-engine assertions on a real built exe.</li>
+<li>18 more in a <strong>blank project</strong> that installed the package the way you will and ran the
+Readme's quickstart, asserting that each screen actually draws.</li>
+<li>164 adversarial calls - undefined, negative, huge and wrong-typed arguments against all 41 documented
+functions - with zero crashes.</li>
+</ul>
+
+<h3>Requirements</h3>
+<p>GameMaker 2024.14 or newer (built and tested against runtime 2024.14.4.268). Pure GML: no extensions, no
+DLLs, no shaders. Import the <code>.yymps</code>, open <code>rm_sng_demo</code>, press Play.</p>
+
+<p><em>One commercial licence, unlimited games, no attribution required. The plates and melodies it makes are
+yours to ship, in the game and on your store page.</em></p>
+
+<p>Also from this studio: <a href="https://csaf.itch.io/song-sheets">Song Sheets for RPG Maker MZ</a> - the
+same songs for MZ projects - and more GameMaker systems at <a href="https://csaf.itch.io">csaf.itch.io</a>.</p>
+
+<p><small>AI disclosure: the code and the generated artwork in this package were produced with AI assistance.
+Every store image except the cover illustration was rendered by the product itself. The audio is procedural
+synthesis written in GML - no generative audio model and no audio files. Fonts: IM Fell DW Pica (SIL OFL
+1.1) and Open Sans (Apache-2.0), notices included.</small></p>
