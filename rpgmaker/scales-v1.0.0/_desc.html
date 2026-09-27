@@ -1,0 +1,59 @@
+<p><strong>Weighing puzzles for your RPG, on a brass balance at a money-changer's counter.</strong> One coin in the hoard is false. The player loads the pans, releases the beam, reads which side sank, and names the counterfeit within a set number of weighings. When they name it, the coin is cut open with a banker's chisel to show the lead or copper underneath.</p>
+
+<p><strong>Two puzzles in one plugin.</strong> The counterfeit (3 to 13 coins, told or not told whether the false one is heavier or lighter) and the measure: weigh out an exact order of saffron, pepper, salt or tea with a box of weights that may go in either pan. Every mint, hoard and order is generated from a seed. Nothing is loaded from an image file. One plugin command on an event opens it; the event waits, and a switch and a variable tell you how it ended.</p>
+
+<p><strong>And it cannot be guessed.</strong> The weighings allowed are the fewest that always suffice, found by an exact search of the whole game before the puzzle is shown (12 coins, not told: three weighings, the classic). The false coin is not fixed in advance: after every weighing it is wherever the weighings so far leave it best hidden. A correct method always wins, and a lucky guess never does.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ScalesCore.js</code> — Scales core - generated weighing puzzles (the counterfeit coin and weighing out a measure), proven winnable by a solver.</li>
+<li><code>ScalesDraw.js</code> — Scales draw - the brass balance, generated coins, bell weights, the coin tray, the ledger and the counting-house table, all drawn in code.</li>
+<li><code>Scales.js</code> — Scales - weighing puzzles on a drawn brass balance: find the counterfeit coin in a set number of weighings, or weigh out an order.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Scales co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>An equal-arm brass balance: a tapered, engraved beam with scrolled ends and a pointer that swings across a graduated arc, pans on chains that hang true as the beam tips, a fluted column on a walnut plinth, all on green baize in candlelight.</li>
+<li>The beam is held level while the pans are loaded. Weigh, and it is released: it swings, overshoots and comes to rest on the heavy side, or rocks and settles level.</li>
+<li>Coins struck in five metals (gold crowns, silver marks, copper pence, electrum staters, bronze obols) with six devices (star, rosette, cross, sun, crescent, tower), three rims and a legend round the edge, laid in a wooden counting tray with a burned number under each.</li>
+<li>A ledger that records every weighing in ink with a small drawn balance showing how it fell, and brass tokens for the weighings left.</li>
+<li>The verdict: the false coin enlarged with a chisel cut through its skin (lead in a heavy one, copper or tin in a light one), the true coins of the hoard beside it, and a brass plaque. For the measure, the goods packed in a folded paper packet sealed with red wax, the weights that did it standing beneath.</li>
+</ul>
+
+<h3>Measured, not promised</h3>
+<ul>
+<li>The solver's own method, played against the counterfeiter on 360 generated puzzles (120 per difficulty), found the coin within the weighings allowed on every one. A guess before any weighing won 0 of 200 times.</li>
+<li>The weighings allowed match the textbook bounds for every hoard from 3 to 13 coins, and each is the minimum: the same hoard is proven unwinnable in one fewer.</li>
+<li>Whatever coin the verdict shows, won or lost, agrees with every weighing the player made (checked on 200 randomly played games).</li>
+<li>Every measure order balances with its own box; normal and hard orders cannot be made on one pan, and hard ones need at least three weights.</li>
+<li>Over 3,000 seeds the mint generator struck 2,913 distinct coins, covering all 90 metal, device and rim combinations.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>ScalesCore.js</code> (the generator, the solver and the counterfeiter), <code>ScalesDraw.js</code> (the drawing) and <code>Scales.js</code> (the scene and the command).</li>
+<li>The <strong>Open Scales</strong> command: puzzle, difficulty, number of coins, metal, device, a switch and a variable for the result (1 solved, 2 wrong coin, 0 left), a title and an optional seed.</li>
+<li>Keyboard, mouse and touch. Script calls: <code>Scales.record(key)</code> and <code>Scales.solvedCount()</code>.</li>
+<li>Sounds are your project's own sound effects, chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 57 in-engine checks, including puzzles of every difficulty, metal and device solved through the scene's own paths, a guess that loses, measure orders of every difficulty, the beam's swing and the pans hanging from its ends, a real keyboard (arrows, OK, Shift, Escape) and a real mouse, the command waiting and setting its switch and variable, a solved puzzle reopening at its verdict, and a save and reload. While the player works, a frame costs 2 draw calls.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/sampler">Sampler</a>: generated picross charts, finished as a cross-stitch sampler in an embroidery hoop ($11.99).</li>
+<li><a href="https://csaf.itch.io/escapement">Escapement</a>: generated clockwork gear puzzles for every lock in your game ($11.99).</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a>: a snail race meeting to bet on, with odds measured from the race model ($12.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
