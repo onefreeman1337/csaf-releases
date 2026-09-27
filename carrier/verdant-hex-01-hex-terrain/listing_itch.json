@@ -1,0 +1,98 @@
+{
+  "packId": "verdant-hex-01",
+  "title": "Verdant Hex 01 — Hex Terrain Tileset for Godot & Tiled: Strategy Map Tiles, Roads & Rivers [32x32]",
+  "shortText": "485 pixel art hex tiles: 6 terrains with every edge, roads, rivers, 9 features. Godot paints the coasts.",
+  "priceUSD": 5.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "pixel-art",
+    "godot",
+    "hex",
+    "hexagon",
+    "hexagonal",
+    "strategy",
+    "turn-based-strategy",
+    "board-game",
+    "overworld"
+  ],
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "Godot",
+      "Tiled"
+    ],
+    "assetLicence": "Commercial use permitted, unlimited projects, no attribution required, no resale of the pack"
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant HD 01 — Highland [32x32]",
+      "url": "https://csaf.itch.io/verdant-hd-01-highland",
+      "price": "$7.99",
+      "why": "square 32x32 meadow, scarp and tarn for the close-up map a hex overworld zooms into"
+    },
+    {
+      "label": "Verdant HD 02 — Farmstead [32x32]",
+      "url": "https://csaf.itch.io/verdant-hd-02-farmstead",
+      "price": "$7.99",
+      "why": "square 32x32 pasture, plough and hedgerow for the villages on your hex map"
+    },
+    {
+      "label": "Verdant 03 — Worlds [16x16]",
+      "url": "https://csaf.itch.io/verdant-03-worlds",
+      "price": "$7.99",
+      "why": "the same snow and desert biomes as a square 16x16 tileset"
+    }
+  ],
+  "derived": {
+    "tiles": 485,
+    "cell": 32,
+    "palette": 52,
+    "fills": 24,
+    "edges": 315,
+    "routes": 128,
+    "features": 18,
+    "terrains": [
+      "grass",
+      "plains",
+      "desert",
+      "snow",
+      "sea",
+      "ice"
+    ],
+    "overlays": [
+      "plains",
+      "desert",
+      "snow",
+      "sea",
+      "ice"
+    ],
+    "featureKinds": [
+      "forest",
+      "pine_forest",
+      "hills",
+      "snowy_hills",
+      "mountains",
+      "village",
+      "castle",
+      "watchtower",
+      "ruins"
+    ],
+    "mapW": 18,
+    "mapH": 13,
+    "godot": "4.7.2",
+    "painted": "140/140",
+    "tmxPx": 179712
+  },
+  "description": "<p><strong>Commercial use permitted</strong> in unlimited projects, no attribution required; you may not resell or redistribute the pack itself.</p>\n<p><strong>⚠️ For Godot 4 and Tiled. RPG Maker MZ cannot draw hex maps at all, so this pack has no RPG Maker importer.</strong> Every other Verdant pack ships an MZ sheet; this one cannot.</p>\n<p><strong>485 pixel art tiles on a 32x32 pointy-top hex grid</strong>, in one locked palette of 52 colours: a hex world kit for strategy maps, board games and overworlds. 6 terrains (grass, plains, desert, snow, sea, ice), every edge between them, roads and rivers that join themselves in any direction, and 9 features to place on top.</p>\n<h2>What is in it</h2>\n<ul>\n<li><strong>24 terrain fills</strong>: 6 terrains x 4 variants.</li>\n<li><strong>315 edge tiles</strong>: a hex has six neighbours, so one terrain meeting another takes 63 edge shapes. All 63 ship for each of the 5 terrains laid over grass.</li>\n<li>Pack ice is its own terrain, laid over the sea, so a snowy coast gets an ice edge instead of a sand beach.</li>\n<li><strong>128 road and river tiles</strong>: 64 each, one for every way a route can leave a hex, including the lone node. The river meanders and still meets itself at every edge.</li>\n<li><strong>18 feature tiles</strong>: forest, pine forest, hills, snowy hills, mountains, village, castle, watchtower, ruins, two of each, transparent so they sit on any terrain.</li>\n<li><strong>A finished sample map</strong>, 18x13 hexes in layers, as a PNG and a Tiled .tmx.</li>\n<li><strong>tiles.json</strong>: role, terrain, mask and passability for every tile.</li>\n</ul>\n<h2>Godot 4: the terrains paint themselves</h2>\n<p>The Godot .tres TileSet carries one terrain set per terrain. Paint \"Blank (paint first)\" over your map on a terrain layer, then paint the terrain, and Godot draws every edge around it. Roads and rivers join along the stroke in Path mode. Measured on the shipped files in Godot 4.7.2: its own painter chose the right edge tile in 140/140 test cells for every terrain, and following the Readme step by step rebuilds the sample map cell for cell.</p>\n<h2>Tiled</h2>\n<p>Nine .tsx tilesets, every tile named by id, and a hexagonal sample .tmx (stagger axis Y, odd, side 16). The .tmx was rendered by Tiled 1.12.2's own tmxrasterizer and matched the shipped PNG on all 179,712 pixels. Tiled's terrain brush is not set up for hexes; place edge tiles by hand or by id.</p>\n<h2>The proofs, in numbers</h2>\n<ul>\n<li>Exact grid: every tile exactly 32x32.</li>\n<li>Palette lock: every opaque pixel inside the 52-colour palette.</li>\n<li>No anti-aliasing: alpha strictly binary.</li>\n<li>Edge completeness: all 443 edge and route slots present, checked on every build.</li>\n<li>The atlases and the loose tiles are compared tile by tile before release.</li>\n<li>Each fill's hex outline is measured against the same outline shifted through its interior, and the fills were rendered repeated and looked at. Seamlessness is measured, not claimed.</li>\n</ul>\n<h2>Also from the Verdant series</h2>\n<ul>\n<li><a href=\"https://csaf.itch.io/verdant-hd-01-highland\">Verdant HD 01 — Highland [32x32]</a> ($7.99): square 32x32 meadow, scarp and tarn for the close-up map a hex overworld zooms into.</li>\n<li><a href=\"https://csaf.itch.io/verdant-hd-02-farmstead\">Verdant HD 02 — Farmstead [32x32]</a> ($7.99): square 32x32 pasture, plough and hedgerow for the villages on your hex map.</li>\n<li><a href=\"https://csaf.itch.io/verdant-03-worlds\">Verdant 03 — Worlds [16x16]</a> ($7.99): the same snow and desert biomes as a square 16x16 tileset.</li>\n</ul>\n<h2>AI disclosure</h2>\n<p>Every tile is drawn by a procedural pixel art engine written for this series; there is no diffusion model and no training dataset. The engine's code was written with AI assistance, so this listing is tagged: Code yes, Graphics yes, Sounds no, Text no.</p>\n<p>Copyright (c) 2026 Core Systems Asset Factory.</p>"
+}
