@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>SWALLET — you are the hole in the hill</title>
+<meta name="description" content="A cutaway incremental where you are the dungeon. Cut chambers, set wards and lures, and decide who gets back out. Killing delvers feeds your sinks; letting them live feeds your renown. Free, in the browser, and it never resets.">
+<!-- a data icon costs 20 bytes and silences the favicon 404 that some jams count as a console error -->
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/swallet.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="c" width="960" height="620" aria-label="SWALLET — a cutaway hill you dig chambers into, played with the mouse"></canvas>
+  </div>
+  <noscript>
+    <p class="fallback">SWALLET is a browser game and needs JavaScript switched on to run.</p>
+  </noscript>
+
+  <!-- Load order is a dependency order, not a preference: data -> simulation -> presentation,
+       then game.js last because it wires all of them together. -->
+  <script src="js/data.js"></script>
+  <script src="js/hollow.js"></script>
+  <script src="js/delvers.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/save.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
