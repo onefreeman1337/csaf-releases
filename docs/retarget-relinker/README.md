@@ -68,6 +68,14 @@ Retarget Relinker rewrites the references **only inside the folder you name**, o
 Every run writes an HTML report to `Saved/RetargetRelinker/Reports/`: the referencers with their
 verdicts, then the full mapping with the reason for every refused pair.
 
+## Install
+
+1. Copy the `RetargetRelinker` folder into your project's `Plugins` folder
+   (`<YourProject>/Plugins/RetargetRelinker/RetargetRelinker.uplugin`).
+2. Open the project once. The editor offers to build the new module; accept (or build the project
+   from your IDE). The plugin is an **Editor** module: it never ships in a packaged game.
+3. Close the editor before running `-Apply` or `-Undo`.
+
 ## Quick start
 
 The commandlet is `RRL`. Content paths may be written `/Game/...` or `+Game/...` (the `+` form survives
