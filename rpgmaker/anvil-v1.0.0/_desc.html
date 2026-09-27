@@ -1,0 +1,57 @@
+<p><strong>A hot-metal forging minigame for your RPG that plugs into your crafting.</strong> The player works a glowing bar on the anvil toward a pattern chalked on its face, reading the heat by the colour of the metal the way a smith does: blows move hot metal and crack cold metal, the hearth reheats it a limited number of times, and the quench fixes it, best at cherry red. Then the piece is shown finished, polished and hilted, exactly as the player shaped it.</p>
+
+<p><strong>The pattern is your weapon.</strong> Name a weapon from your database and Anvil generates what to forge from it: the weapon type picks the family (sword, dagger, axe, spear, mace, claw), its name picks the metal (a Mithril Sword forges in mithril), and its id, name and attack pick the proportions. MZ's own stock database gives 40 distinct patterns for its 40 weapons. Nothing is loaded from an image file.</p>
+
+<p><strong>And the result goes back to your game.</strong> A quality from 0 to 100 and a grade (Crude, Serviceable, Fine, Masterwork) land in your variables, a switch turns on at the bar you set, and Anvil can give the weapon itself. It does not replace a crafting system: it is the step where the player makes the thing, and it works beside whatever crafting plugin you already use, or none.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>AnvilCore.js</code> — Anvil core - forging targets generated from your weapons, the hot-metal model (shaping, cooling, cracks, quench) and the score.</li>
+<li><code>AnvilDraw.js</code> — Anvil draw - the smithy, the anvil, the glowing bar, the temper colour chart, sparks, steam and the finished blade, all drawn in code.</li>
+<li><code>Anvil.js</code> — Anvil - a hot-metal forging minigame: hammer a glowing bar to a pattern generated from your own weapon, then quench it.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Anvil co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A smithy: stone wall, a brick hearth with live coals, timber floor, a quench trough, and an anvil seen from above with its horn, face, hardy and pritchel holes on a stump.</li>
+<li>The bar at every heat from black iron through blood red, cherry and orange to white, with a halo that fades as it cools, fire scale that the blows knock off, and a dark crack wherever it was struck too cold.</li>
+<li>Sparks off every blow, hotter blows throwing more. The bar slides into the fire to reheat, and goes into the trough in a burst of steam.</li>
+<li>The colour chart pinned to the wall is the heat gauge: a pointer rides the bar's colour and the quench band is marked. A work order shows the pattern; a tally board counts heats, blows, cracks and how close the bar is to the pattern.</li>
+<li>The finished piece on a cloth: the player's own shape, ground and polished in its metal, with a fuller, bevels, faint hammer facets and any cracks, fitted with a hilt, haft or socket for its family, and a brass plaque with its grade.</li>
+</ul>
+
+<h3>Measured, not promised</h3>
+<ul>
+<li>A blow moves the metal a fixed step, larger when hotter, so a shape is roughed out at white heat and finished cooler, and hammering where the bar is already right overshoots it. Skill decides the grade.</li>
+<li>Over 240 pieces per difficulty, a player who strikes where the bar needs it and keeps a heat for the quench reached Masterwork 239 times on easy, 187 on normal and 86 on hard. Random hammering reached at most 43, 40 and 67, never Masterwork, and 95% of those pieces stayed below Fine.</li>
+<li>All 40 named weapons in MZ's stock database forge, in all six families; 240 generated patterns out of 240 were distinct.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>AnvilCore.js</code> (the patterns, the metal and the score), <code>AnvilDraw.js</code> (the drawing) and <code>Anvil.js</code> (the scene and the command).</li>
+<li>The <strong>Open Anvil</strong> command: the weapon, a family override, the difficulty (easy 6 heats, normal 5, hard 4), variables for quality and grade, a switch and its bar, give the weapon, a title and an optional seed.</li>
+<li>Keyboard, mouse and touch. Script calls: <code>Anvil.record(key)</code>, <code>Anvil.forgedCount()</code>, <code>Anvil.lastResult</code>.</li>
+<li>Sounds are your project's own sound effects (Hammer, Break, Fire1, Water1, Item3 by default), chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 43 in-engine checks, including six of MZ's own stock weapons (one per family) forged through the scene to Fine or better, the heat colour changing every frame with no repaint, cold blows cracking, the hearth refusing past the heats allowed, a real keyboard and mouse, the command waiting and giving the weapon, and a save and reload. While the player forges, a frame costs about 6 draw calls.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/hallmark">Hallmark</a>: strikes a maker's mark for every item your loot system rolls ($14.99).</li>
+<li><a href="https://csaf.itch.io/scales">Scales</a>: counterfeit coin and weighing puzzles on a drawn brass balance ($11.99).</li>
+<li><a href="https://csaf.itch.io/sampler">Sampler</a>: generated picross charts, finished as a cross-stitch sampler ($11.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
