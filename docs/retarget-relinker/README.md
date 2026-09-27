@@ -50,7 +50,9 @@ Retarget Relinker rewrites the references **only inside the folder you name**, o
      on it, or an Anim Blueprint targeting it. Relinking it would point the old character at the new
      character's animations;
    - a referencer that uses an old asset **with no usable twin** (missing, wrong class, wrong
-     skeleton, ambiguous). A half-relinked character plays a mixture of both libraries.
+     skeleton, ambiguous). A half-relinked character plays a mixture of both libraries;
+   - a referencer whose `.uasset` is **read-only**, the normal state of a file you have not checked
+     out of Perforce. Check it out (or clear the flag) and run again.
 5. **Relinks with `-Apply`, all or nothing.** While anything in scope is refused, `-Apply` writes
    nothing and exits 4. Otherwise it:
    - copies every package it is about to change into a journal,
