@@ -1,0 +1,46 @@
+<p><strong>A race meeting your players can bet on. They read a race card, back a racing snail to Win or Place, and watch the race run on a garden course this package draws: moss, slate, sand, puddles, leaf litter and gravel, each suiting some runners more than others. Close finishes go to the judge's photograph. Pure GML, no image files.</strong></p>
+
+<p>Drop a meeting into a fairground, a tavern garden or a noble's lawn. It takes the player's gold in, runs up to five races, and hands the purse back when they leave. Every runner's form carries on from one visit to the next.</p>
+
+<pre><code>my_meeting = dby_meeting_create({ seed: 2026, races: 3, purse: my_gold, record: my_form });
+if (dby_meeting_step(my_meeting) == "done") my_gold = my_meeting.purse;          // Step
+dby_meeting_draw(my_meeting, 0, 0, display_get_gui_width(), display_get_gui_height());   // Draw GUI</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>The race card:</strong> every runner's number cloth, its name, the going it likes, its silks, its last five placings with wins in red, and its Win and Place prices chalked on a slate. A map of the course beside it.</li>
+<li><strong>The bet slip:</strong> Win or Place, a stake stepper that never passes the purse, what the bet returns, and the purse. Keyboard, mouse or gamepad.</li>
+<li><strong>The race:</strong> the course scrolling under the field, snails wiggling and bobbing, trails glistening behind them, a lane board, a progress strip in every runner's silks, and live commentary: a new leader, a burst of speed, a stop for a nibble, the leaders reaching the sand. Hold Enter to watch at triple speed.</li>
+<li><strong>The photograph:</strong> when the first two finish within a head, the judge's print of the line, toned to sepia, with a red stamp.</li>
+<li><strong>The winners' enclosure:</strong> rosettes for the first three, starting prices and margins ("won by three-quarters of a shell"), and the payout.</li>
+</ul>
+
+<h3>Everything is generated</h3>
+<ul>
+<li><strong>The stable:</strong> twelve runners a seed, each with a name, a spiral shell in one of ten colourways with bands, spots, flames or rays, a body colour, two silks from twelve and a saddle cloth in one of six patterns. Hidden speed, stamina, surge, temper and a going they prefer.</li>
+<li><strong>Five garden courses:</strong> a kitchen-garden wall with potted herbs, a rockery of flowering stones, a greenhouse bench of tomatoes, an orchard, a mossy bank of ferns and toadstools, each laid with four to six sections of surface.</li>
+<li><strong>The prices are measured, not guessed.</strong> Every runner is raced alone 400 times over that card's course and going by the same model the player watches, the results are combined exactly, and every price is set on the upper bound of the chance and rounded down. The race on screen IS the race the book priced.</li>
+</ul>
+
+<h3>Tested</h3>
+<ul>
+<li>Igor package build clean on the shipped source.</li>
+<li>67 in engine assertions on a real built exe: a stable, two courses, a whole race and a priced card checked bit for bit against the RPG Maker MZ original's model, and a whole meeting driven key by key (stakes, the race, the payout, the form, the photograph, leaving).</li>
+<li>31 more in a <strong>blank project</strong> that installed the package the way you will and ran the Readme's own code.</li>
+<li>144 adversarial calls against all 36 documented functions with zero crashes.</li>
+</ul>
+
+<h3>Requirements</h3>
+<p>GameMaker 2024.14 or newer (built and tested against runtime 2024.14.4.268). Pure GML: no extensions, no DLLs, no shaders, no sprites. Import the <code>.yymps</code>, open <code>rm_dby_demo</code>, press Play: a three-race meeting with 500 gold. Derby ships no sounds; an <code>on_event</code> hook tells you when to play yours.</p>
+
+<p><em>One commercial licence, unlimited games, no attribution required. Everything the package draws in your game is yours to ship, including on your store page and in your trailers.</em></p>
+
+<h3>Paid, from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/derby">Derby for RPG Maker MZ</a> ($12.99): the same meeting as an MZ plugin.</li>
+<li><a href="https://csaf.itch.io/pastime-gamemaker">Pastime</a> ($19.99): a cabinet of minigames for GameMaker, each drawing its own board.</li>
+<li><a href="https://csaf.itch.io/colosseum-gamemaker">Colosseum</a> ($12.99): seeded brackets and leagues with a coat of arms for every rival.</li>
+</ul>
+<p>More GameMaker systems at <a href="https://csaf.itch.io">csaf.itch.io</a>.</p>
+
+<p><small>AI disclosure: the code and the generated artwork in this package were produced with AI assistance. Every store image was rendered by the product itself. Type: IM Fell DW Pica (SIL OFL 1.1) and Open Sans (Apache 2.0), notices included.</small></p>
