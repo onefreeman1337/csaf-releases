@@ -1,0 +1,61 @@
+<p><strong>A serving rush played on the map you already built.</strong> Customers walk in and take the seats at your own tables. They ring for service, order, wait for the kitchen, eat, pay and tip, or run out of patience and walk out. The player carries the dishes from the pass to the right tables, two at a time. When the last party leaves, the night's ledger opens and the result goes back to your events.</p>
+
+<p><strong>No separate minigame scene.</strong> Mark the chairs with <code>&lt;Table&gt;</code>, mark the kitchen counter with <code>&lt;Pass&gt;</code>, call <strong>Start Shift</strong>. The shift runs on your map with your player walking your floor, and it saves with the game.</p>
+
+<p><strong>Every dish is drawn from its own name.</strong> Pumpkin Soup comes in a bowl the colour of pumpkin, Pale Ale in a wooden tankard with a head of foam, Honey Loaf as a scored loaf, Grilled Trout as a whole fish with lemon. The reader knows about 170 words for 19 kinds of dish and reads colour words too; a <code>&lt;Dish: soup&gt;</code> tag covers anything it does not.</p>
+
+<p><strong>Every customer is generated.</strong> Face, hair, hat, coat, scarf or glasses from a seed, seated and facing your table, outlined like MZ's own characters. Or give it your own character sheets.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ServiceCore.js</code> — Table Service core - the shift: customers seated at your own tables, orders, the kitchen, patience, tips and the ledger.</li>
+<li><code>ServiceDraw.js</code> — Table Service drawing - diners, dishes read from each item's own name, order tickets, patience candles, the pass and the ledger.</li>
+<li><code>Service.js</code> — Table Service - a serving rush played on your own map: seated customers, order tickets, the pass, patience candles, tips, a ledger.</li>
+</ol>
+<p><strong>Core methods extended — 5 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Map.prototype.update</code>, <code>Game_Player.prototype.checkEventTriggerThere</code>, <code>Game_Player.prototype.canMove</code>, <code>Scene_Map.prototype.isMenuEnabled</code>, <code>Spriteset_Map.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Table Service co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A brass bell ringing over a customer who wants to order, and a pinned paper ticket over one waiting for food, each dish drawn and named, ticked off as it arrives.</li>
+<li>A candle on every waiting table that burns down with their patience, gutters red near the end, and smokes when they give up and leave.</li>
+<li>Dishes steaming at the pass with little paper flags for their tables; plates on the table while they eat, emptied before they pay.</li>
+<li>Tags floating up: "Order taken", "Not their order", a coin and "+11 G tip", "Walked out".</li>
+<li>The server's tray in a corner: two hands with the dishes carried, the tips so far, and a brass clock that sweeps once across the shift.</li>
+<li>At the end, a page in the house ledger: served, takings, tips as stacks of coins, a tick or cross for every party, the night's favourite dish, and up to three stars.</li>
+</ul>
+
+<h3>Measured, not promised</h3>
+<ul>
+<li>Easy 8 parties, normal 12, busy 15. Over 60 simulated nights per difficulty, a good server earned 2 or 3 stars on easy, mostly 2 on normal, 1 or 2 on busy; a careless one earned none on any normal or busy night. Longer walks to the pass cost about a star.</li>
+<li>The tip is 5% of the bill plus up to 35% more for the candle left: serve fast and a table tips 40%.</li>
+<li>While a busy night runs, a frame costs about 12 draw calls, and the drawings are redrawn only when something changes (about 3 redraws per 100 frames).</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>ServiceCore.js</code> (the rules), <code>ServiceDraw.js</code> (the drawing) and <code>Service.js</code> (the commands and the map).</li>
+<li><strong>Start Shift</strong>: difficulty, title, menu (item ids, or items tagged <code>&lt;Menu&gt;</code>, or a 16-dish House menu so it works in a blank project), what to pay the party, variables for takings, tips and stars, a switch and a common event when done, and an optional seed. <strong>End Shift Now</strong> closes early.</li>
+<li>Item tags <code>&lt;Price&gt;</code>, <code>&lt;Cook&gt;</code>, <code>&lt;Dish&gt;</code>, <code>&lt;Dish Colour&gt;</code>. Keyboard, gamepad, mouse and touch.</li>
+<li>A painted demo dining room and a server character sheet you may use in your game.</li>
+<li>Sounds are your project's own, chosen by name; the plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 41 in-engine checks, including every service action through the engine's own trigger with real key presses and a real mouse click, every rule of the pass, a walkout, a message and another map pausing the shift, a save and reload in the middle of a night, and a whole night played to the ledger.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/refectory">Refectory</a>: whatever your cooking or crafting system makes, drawn as the plated meal from its real ingredients ($12.99).</li>
+<li><a href="https://csaf.itch.io/tray">Tray</a>: generated packing puzzles drawn as inlaid wood ($9.99).</li>
+<li><a href="https://csaf.itch.io/anvil">Anvil</a>: a hot-metal forging minigame that plugs into your crafting ($12.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
