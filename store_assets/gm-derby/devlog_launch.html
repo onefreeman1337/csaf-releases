@@ -1,0 +1,11 @@
+<p>Derby is live on itch at $12.99. It is a race meeting a GameMaker game can drop into a fairground or a tavern garden: the player reads a race card, backs a racing snail to Win or Place, and watches the race run on a garden course the package draws. Close finishes go to the judge's photograph, and the winners' enclosure pays out in whatever the game calls gold. There are no image files in the package.</p>
+
+<p>Every runner is generated from a seed: a name, a spiral shell in one of ten colourways with bands, spots, flames or rays, two silks and a numbered saddle cloth. Five garden courses are laid in sections of moss, slate, sand, puddle, leaf litter and gravel, and each runner goes better on some of them. The prices are measured rather than guessed: every runner is raced alone 400 times over that card's course by the same model the player watches, and the race on screen is exactly the race the book priced.</p>
+
+<p>Two numbers from the build decided how it works. Drawing one course strip mark by mark cost 1,352 ms on the GameMaker VM, and pricing a card the way the RPG Maker original does cost 52 to 76 seconds. So each ground is drawn once as a seamless tile and the course is tiled from it while the player reads the card, and the book races each runner alone and combines the results exactly: about 3 seconds of work, done 10 ms a frame. The next race's card is priced while the current race runs.</p>
+
+<p>Built and run on GameMaker runtime 2024.14.4.268: 67 in engine assertions green, including a stable, two courses, a whole race and a priced card checked bit for bit against the RPG Maker MZ original's model, 31 more from a blank project running the Readme's own code, and 144 adversarial calls against all 36 documented functions with zero crashes.</p>
+
+<p>Code and graphics are AI written, disclosed on the listing. The same meeting exists as an RPG Maker MZ plugin.</p>
+
+<p><a href="https://csaf.itch.io/derby-gamemaker">Derby for GameMaker</a> · <a href="https://csaf.itch.io/derby">Derby for RPG Maker MZ</a> · <a href="https://csaf.itch.io/pastime-gamemaker">Pastime for GameMaker</a></p>
