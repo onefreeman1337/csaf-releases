@@ -1,0 +1,47 @@
+<p><strong>Army battles for RPG Maker MZ.</strong> Two hosts of regiments meet on a painted field. Every soldier is drawn: foot, pikes, archers, horse and mages, in each army's colours. Every regiment carries a banner whose arms are generated from its name. The player picks a formation, then the battle plays out soldier by soldier: volleys arc overhead, spells burst, cavalry charges, regiments break and run. A war record closes it, and the survivors go back into your variables.</p>
+
+<p><strong>Nothing to draw, nothing to import.</strong> No sprite sheets, no battlebacks, no image files at all. Turn it on, call one plugin command from any event, and a new project has a war.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>WarhostCore.js</code> — Warhost core - the army battle simulation (no drawing). Required by Warhost.js. Put it anywhere in the list.</li>
+<li><code>WarhostDraw.js</code> — Warhost drawing - soldiers, banners, battlefields and the war record, all drawn from code. Required by Warhost.js.</li>
+<li><code>Warhost.js</code> — Warhost - army battles: regiments of drawn soldiers under generated banners clash on a painted field. Formations, routs, a war record.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+
+<h3>What it does</h3>
+<ul>
+<li><strong>Soldiers, not portraits.</strong> Up to 240 figures a side, each fighting on its own: the foot close in, pikes hold, archers loose from range, horse charge the flanks, mages burst spells over the enemy ranks. Bigger armies are carried at several soldiers per figure, and every number you get back is in soldiers.</li>
+<li><strong>Four formations that matter.</strong> Line breaks a loose screen, a wedge breaks a line, a square stops a wedge, and a loose screen outlasts a square under arrows. The enemy forms first; the player answers. Outnumbered four to five, copying the enemy won none of 40 battles, while the counter won up to all of them (the measured table is in the Readme).</li>
+<li><strong>Morale.</strong> A regiment that has lost most of its men while its army is losing may break and run for its own edge of the field. Those who flee survive.</li>
+<li><strong>Banners from names.</strong> Arms follow the rule of tincture across 15 ordinaries and 13 charges; the same regiment name flies the same banner every battle, so "Iron Company" is recognisable from the first campaign to the last.</li>
+<li><strong>Five painted fields.</strong> Meadow, steppe, snow, desert and moor, each painted from a seed: ranges of hills, a keep, tree lines, cart tracks, cloud shadow.</li>
+<li><strong>A war record.</strong> Victory, defeat or a field held by neither; every regiment with its banner and a bar of who stood, fled and fell; and the course of the battle charted, with a mark where each regiment broke.</li>
+</ul>
+
+<h3>Set it up</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>WarhostCore.js</code> (the rules), <code>WarhostDraw.js</code> (everything you see) and <code>Warhost.js</code> (the command and the scene).</li>
+<li>One plugin command, <strong>Start Army Battle</strong>: your regiments, the enemy's, the field, the formations, and where to write the result. The event waits and continues when the war record closes.</li>
+<li>Each regiment can <strong>read its count from a variable and write its survivors back</strong>: recruit with ordinary Control Variables, lose men in battle, and keep an army across a whole campaign.</li>
+<li>Victory switch, outcome variable, your fallen, a common event afterwards, and a seed that replays the same battle exactly.</li>
+<li>Your army's and the enemy's colours, the time limit, and every sound and piece of music are parameters (the defaults are MZ's own RTP sounds).</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download: a map event's plugin command opened the battle, real key presses chose Square against a wedge and sounded the charge, the event waited, and every result landed in its switch and variables, including the survivors of a regiment that took its strength from a variable. With 480 soldiers, 100 archers and 32 mages on the field the whole army draws in about four draw calls a frame, and the battle reads no pixels while it runs. The simulation is fair by construction: identical armies split 154 to 146 over 300 seeded battles, and pikes held against an equal number of riders in 19 of 20.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/armorial">Armorial</a>: heraldry and fates for every character and faction ($12.99).</li>
+<li><a href="https://csaf.itch.io/bivouac">Bivouac</a>: every enemy band stages its own camp on your map ($14.99).</li>
+<li><a href="https://csaf.itch.io/escutcheon-mz">Escutcheon</a>: a battle HUD that looks made, not built ($14.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
