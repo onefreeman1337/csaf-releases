@@ -1,0 +1,57 @@
+<p><strong>A packing puzzle for your RPG, generated and drawn in inlaid wood.</strong> A shaped tray sits on the table and its pieces wait in a box beside it, turned every which way. The player picks them up, turns and flips them, and fits every one back in. When the last piece goes home, the tray is a finished marquetry panel and the result goes back to your events.</p>
+
+<p><strong>Every puzzle is generated, and every one can be solved.</strong> The tray (a rectangle, a cross, a diamond, a round, a notched or an arch) is carved into pieces of three to six squares, all different even turned over, so the pieces always go back. A built-in solver grades each puzzle by how many different ways the tray can be filled, and the generator keeps the tightest of several carvings for the difficulty you ask for: 4 or 5 pieces on easy, 6 or 7 on normal, 8 to 10 on hard.</p>
+
+<p><strong>Every piece is marquetry.</strong> Each is cut from its own wood (walnut, maple, cherry, oak, ebony, ash, rosewood, yew, olive, holly) with that wood's grain and figure, carries an inlaid motif in brass, mother-of-pearl, holly or ebony, and has a line of stringing run inside its edge. Grain and inlay turn with the piece as they would on a real one. Nothing is loaded from an image file.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>TrayCore.js</code> — Tray core - generated packing puzzles: a shaped tray cut into distinct polyomino pieces, so every puzzle is solvable by construction.</li>
+<li><code>TrayDraw.js</code> — Tray drawing - the marquetry: ten woods with their own grain, inlaid motifs, stringing, the shaped tray and the finished panel.</li>
+<li><code>Tray.js</code> — Tray - generated packing puzzles in inlaid wood: fit every piece back into its shaped tray. Place BELOW TrayCore and TrayDraw.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Tray co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A workbench, a black japanned case with a brass fillet and a baize-lined recess cut to the tray's shape, and an open parts box with the loose pieces.</li>
+<li>Pieces lifted off the table with a deeper shadow, and a gold outline on the cloth where a held piece would land, red where it will not fit.</li>
+<li>A brass pointer for keyboard and gamepad players, brass plaques to turn, flip, ask for a hint or leave, and a tally card for pieces, moves and hints.</li>
+<li>When the tray fills, a polish runs across the panel and it is shown framed, with its result and the woods it is made of.</li>
+</ul>
+
+<h3>Measured, not promised</h3>
+<ul>
+<li>Solvable by construction: every puzzle is its own carving, replayed through the play rules in the tests, and an independent solver agrees on every one.</li>
+<li>Over 120 puzzles per difficulty: every easy puzzle fills at most 4 different ways (52 fill exactly one); on normal 116 of 120 fill at most 12 (median 5); on hard 81 of 120 fill at most 40 (median 17). Two fillings that are the same picture turned or flipped count once.</li>
+<li>A hint finds a way to finish that keeps every piece already placed and puts one more in, or takes out the piece that cannot stay.</li>
+<li>The same seed deals the same puzzle, checked between the MZ runtime and a second JavaScript engine.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>TrayCore.js</code> (the generator, the solver, the rules), <code>TrayDraw.js</code> (the drawing) and <code>Tray.js</code> (the scene and the command).</li>
+<li>The <strong>Open Tray</strong> command: difficulty, tray shape, hints allowed, variables for moves and hints, a switch for solved, a new puzzle each time it is solved (or the same one every visit), a title and an optional seed.</li>
+<li>Keyboard, gamepad, mouse and touch (drag to place; right button or wheel turns). Script calls: <code>Tray.record(key)</code>, <code>Tray.solvedCount()</code>, <code>Tray.lastResult</code>.</li>
+<li>Sounds are your project's own sound effects (Cursor2, Knock, Cursor1, Buzzer1, Book1, Item3 by default), chosen by name. The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: 55 in-engine checks, including trays of every difficulty solved through the scene's own paths, one tray filled with real key presses only, real mouse drags onto the tray and off it, a piece dropped on another refused, hints placing and lifting, the command waiting and setting its variables and switch, and a save and reload. While the player works, a frame costs about 2 draw calls.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/sampler">Sampler</a>: generated picross charts, finished as a cross-stitch sampler ($11.99).</li>
+<li><a href="https://csaf.itch.io/scales">Scales</a>: counterfeit coin and weighing puzzles on a drawn brass balance ($11.99).</li>
+<li><a href="https://csaf.itch.io/anvil">Anvil</a>: a hot-metal forging minigame that plugs into your crafting ($12.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
