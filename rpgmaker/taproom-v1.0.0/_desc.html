@@ -1,0 +1,56 @@
+<p><strong>Four old tavern board games your player can sit down and play against the people of your world, for gold.</strong> Nine Men's Morris, Fox and Geese, Oware and Fanorona, each on a board the plugin draws, against an opponent who thinks. When the game ends, the result goes back to your events: a variable, a switch, and the stake won or lost.</p>
+
+<p><strong>Every board is drawn, and every opponent has their own.</strong> Eight boards: slate with chalk lines, veined marble with inlaid lines, a board knifed into the tabletop, black lacquer with gilt, a linen mat stitched in red thread, tooled leather, walnut with brass, and carved soapstone, each with its border worked round the edge and the scratches and chips of use. Six sets of men: river stones, bone and horn, clear and cobalt glass, silver and copper coins, fired clay, boxwood and ebony, each with the seeds its Oware is played with. The board and men an opponent sets out are chosen from their name, so the old man in the corner always plays on the same scratched slate. Nothing is loaded from an image file.</p>
+
+<p><strong>The four games are the ones nobody ships.</strong> Chess and checkers already have free MZ plugins. These four are the traditional tavern games: rows of three that take men, a fox against a flock, seeds sown round twelve pits, and whole lines taken by approach and withdrawal.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>TaproomCore.js</code> — Taproom core - the rules of four historic tavern board games and the opponent who plays them. Place ABOVE TaproomDraw and Taproom.</li>
+<li><code>TaproomDraw.js</code> — Taproom drawing - the tavern table, the boards and the men, all drawn in code. Place BELOW TaproomCore and ABOVE Taproom.</li>
+<li><code>Taproom.js</code> — Taproom - sit down with an NPC and play Nine Men's Morris, Fox and Geese, Oware or Fanorona for a stake, on boards the plugin draws.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Taproom co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A tavern table under a hanging lamp, the board set out on it, the opponent's card pinned beside it with the stake and the player's record against them.</li>
+<li>Rings on every point the player may click next; a red cross on a man they may take; the opponent's last move ringed in blue.</li>
+<li>Men lifted and set down, taken men carried to the taker's tray, Oware seeds sown pit by pit and carried to the store.</li>
+<li>A rules card for the game being played (Shift or the Rules plaque), and a verdict card at the end: who won, by how much, and what the stake did.</li>
+</ul>
+
+<h3>The opponent</h3>
+<ul>
+<li>Five strengths, from Novice to Master. It searches ahead with alpha-beta, looking further and misjudging less at each strength.</li>
+<li>Each strength was played against the one below it, 24 games per pair in each of the four games, and came out ahead in all sixteen pairings (more wins than losses; it does not win every game). The figures are in the guide.</li>
+<li>Its search runs a little at a time across frames, so the game never stalls, and the move it picks does not depend on how the search is sliced.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>TaproomCore.js</code> (the rules and the opponent), <code>TaproomDraw.js</code> (the drawing) and <code>Taproom.js</code> (the scene and the command), plus a user guide.</li>
+<li>The <strong>Play a Game</strong> command: game, opponent's name and strength, the player's side (fox or geese in Fox and Geese), a stake in gold, a result variable (1 won, 0 lost, 2 drawn), a margin variable, a win switch, and an optional board, set and seed.</li>
+<li>Mouse, touch, keyboard and gamepad. Script calls: <code>Taproom.record(name, game)</code> for the player's record against an opponent, and <code>Taproom.lastResult</code>.</li>
+<li>Sounds are your project's own sound effects, chosen by name (all stock MZ sounds by default). The plugin ships no audio.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: every game played to its end through the scene's own clicks, from both sides, with the board checked against the rules after every move; real key presses and real mouse clicks; a capture chain stopped early; a concede; the command waiting and setting its variables, switch and gold; and a save and reload. During active play on Fanorona, with 44 men on the board and the opponent thinking, a frame costs 5 draw calls and draws no stock window.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/derby">Derby</a>: a race meeting the player bets on, with measured odds and a photo finish ($12.99).</li>
+<li><a href="https://csaf.itch.io/pinfall">Pinfall</a>: a ball-drop board the player bets on, pins laid in generated patterns ($9.99).</li>
+<li><a href="https://csaf.itch.io/tray">Tray</a>: generated packing puzzles drawn as inlaid wood ($9.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
