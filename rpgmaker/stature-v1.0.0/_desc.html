@@ -1,0 +1,45 @@
+<p><strong>Taller side-view battlers from the sheets you already have.</strong> MZ's side-view battlers are chibi: a big head on a short body. Stature reads each actor's own sheet once, when it loads, and gives the battle a taller copy. The body between the neck and the feet is lengthened; the head and the feet stay exactly as you drew them. All 18 battle motions are handled, and your image files are never changed.</p>
+
+<p><strong>No new art, no blur.</strong> The taller body is made by repeating whole pixel rows, spread evenly between the neck and the feet. Nothing is resampled or blended, so the pixel art stays crisp and no colour is invented: every row of the taller frame is a row of your original. No editing 54 frames per character by hand, and no second set of sheets to keep in step with the first.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>StatureCore.js</code> — Stature core - re-proportions a side-view battler sheet to a taller body, pose by pose, at native pixels. Place ABOVE Stature.</li>
+<li><code>Stature.js</code> — Stature - your own side-view battlers re-proportioned to a taller body, pose by pose, at native pixels. No new art needed.</li>
+</ol>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Sprite_Actor.prototype.updateBitmap</code>.</p>
+<p>Because nothing is clobbered, Stature co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<h3>What it does</h3>
+<ul>
+<li>Finds the body once per sheet on the standing frame: the neck (the narrowest row under the head) and the feet.</li>
+<li>Lengthens only the band between them; every cell grows by the same rows and the figure keeps its feet on the floor, so MZ lines it up as before.</li>
+<li>Poses that are not upright follow their own rule: kneeling ("dying", "abnormal") grows by half, lying down ("sleep", "dead") is left as it was.</li>
+<li>Raises the weapon with the hands, so a swing still comes from the grip.</li>
+<li>Works at any cell size (the cell is read from the sheet), so large-cell battler packs work too.</li>
+</ul>
+
+<h3>Set it up</h3>
+<ul>
+<li>Two plain, readable JavaScript files: <code>StatureCore.js</code> (the pixel rules) and <code>Stature.js</code> (the parameters and the battle).</li>
+<li><strong>Default stature</strong> (1.25 = a quarter taller, up to 2) and <strong>Apply to</strong> (every actor, or tagged actors only).</li>
+<li>Actor notetag <code>&lt;Stature: 1.3&gt;</code> for a taller knight beside a short halfling.</li>
+<li>Four demo side-view battlers drawn for this product (a knight, a mage, a ranger and a cleric, in MZ's own layout) and a courtyard battleback, yours to use.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, in a side-view battle: every party sheet derived, the engine's own frame maths picking up the taller cells, the feet on the same floor in all 14 upright motions, lying poses unchanged, the tag and the default side by side, and 300 frames of battle in which Stature read no pixels at all (it reads each sheet once, when it loads). A busy battle costs about 29 draw calls a frame with nothing redrawn per frame.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: breakable objects cut from your own tile art ($9.99).</li>
+<li><a href="https://csaf.itch.io/escutcheon">Escutcheon</a>: a battle HUD that looks made, not built ($14.99).</li>
+<li><a href="https://csaf.itch.io/table-service">Table Service</a>: a restaurant serving rush on your own map ($11.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
