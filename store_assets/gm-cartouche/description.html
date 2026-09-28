@@ -1,0 +1,48 @@
+<p><strong>The message box drawn as an object, and a different object for every speaker. Cartouche generates each speaker's dialogue box in pure GML: what its frame is made of, how it is built, the bands along its rails, its corners, a nameplate struck into the head rail, a sunk panel for a portrait, a ground under the text and its own advance caret. The king's box is not the goblin's box, and neither is the innkeeper's. No image files.</strong></p>
+
+<p>Most games draw every line of dialogue in one box, whoever is talking. A window skin pack gives you a few more boxes to choose from by hand. Cartouche reads who is speaking - their kind, their standing, their name - and builds the box from that, so a whole cast gets boxes that differ in material, construction and ornament without you drawing or assigning a single one. It draws the box only: your text still comes from your own code (draw_text_ext, Scribble, anything), and Cartouche tells it where to write and in what colour.</p>
+
+<pre><code>my_speaker = crt_read({ name: "Innkeeper", kind: "commons" });            // when a line starts
+crt_draw(my_speaker, my_x, my_y, my_w, my_h, { name: "Innkeeper" });       // Draw GUI: the box, baked once
+var my_text = crt_text_rect(my_speaker, my_w, my_h);                      // where your text goes
+draw_set_colour(crt_ink(my_speaker));                                     // and in what colour</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Five traditions</strong>: the party in leather, planed wood, brass and enamel; the town in limewash, rush, pine and slate; the enemy in lacquer, iron, obsidian and bloodstone on DARK fields; the wild in hide, bone, horn and chitin; the numinous in stone, frost, glass and nacre.</li>
+<li><strong>Standing you can see</strong>: five ranks from plain to sovereign. Rank picks how far up the tradition's own ordering the material and construction sit, how many bands run round the frame (one to three) and which corners and nameplates are reachable. A plain villager cannot reach a crown.</li>
+<li><strong>40 materials drawn with 18 surface figures</strong> (sawn, figured, cleaved slate, conchoidal obsidian, hammered, woven rush, banded horn, frosted glass, the meteoric lattice of star iron and more), <strong>28 frame constructions</strong> with crests, blind arcading and joints, <strong>30 bands, 26 corners, 35 nameplates, 20 grounds and 15 carets</strong>.</li>
+<li><strong>A sunk panel for the portrait</strong>, its head square, arched or pointed after the speaker's crest: hand it your portrait sprite and it is fitted, clipped to the panel and faded at the foot.</li>
+<li><strong>Text you can read</strong>: the ink is SOLVED for every material on every ground its tradition can give it, from the material's own hue until it clears WCAG AAA (7:1) against the ground's least legible texture. All 160 pairings clear it; a villain's box is a pale hand on a dark field for that reason.</li>
+</ul>
+
+<h3>Built for a real game</h3>
+<ul>
+<li>Every box is baked once into a sprite and drawn as one sprite after that (measured: 19 to 67 ms for an 816 x 240 box across two test runs on our machine, VM runtime). <code>crt_prepare</code> bakes a cast ahead of time on a loading screen.</li>
+<li>The frame is added to your text area, never carved out of it: size your box once as text height plus <code>crt_max_frame_height(w)</code> and every speaker fits. Projecting ornament stays inside the rect you give it.</li>
+<li>The same speaker gets the same box on every machine and in every save. Any tradition, rank or identity can be set by hand; a kind word it does not know is assigned, never dropped.</li>
+</ul>
+
+<h3>Tested</h3>
+<ul>
+<li>Igor package build clean on the shipped source, and proven able to fail.</li>
+<li>50 in-engine assertions on a real built exe, held to our RPG Maker MZ original: every speaker read field for field for a 24-speaker cast and 23 edge cases, all 160 inks, and all 102 test boxes draw exactly the original's number of paths, fills, strokes and rectangles. Plus ink, containment, determinism, clean edges over any background, the caret, the portrait clip and the cache.</li>
+<li>28 more in a <strong>blank project</strong> that installed the package the way you will and ran the Readme's own code.</li>
+<li>92 adversarial calls against the documented functions with zero crashes.</li>
+</ul>
+
+<h3>Requirements</h3>
+<p>GameMaker 2024.14 or newer (built and tested against runtime 2024.14.4.268, VM). Pure GML: no extensions, no DLLs, no shaders, no sprites. Import the <code>.yymps</code>, open <code>rm_crt_demo</code>, press Play: a dialogue walks a 24-speaker cast, every line typed into its speaker's own box; P puts a portrait in the box, G shows a gallery and a street of six townsfolk. Cartouche makes no sound.</p>
+
+<p><em>One commercial licence, unlimited games, no attribution required. Everything the package draws in your game is yours to ship, including on your store page and in your trailers.</em></p>
+
+<h3>Paid, from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/cartouche">Cartouche for RPG Maker MZ</a> ($14.99): the original, replacing MZ's message window.</li>
+<li><a href="https://csaf.itch.io/intertitle-gamemaker">Intertitle</a> ($12.99): a title card for every place and every boss, for GameMaker.</li>
+<li><a href="https://csaf.itch.io/frontispiece-gamemaker">Frontispiece</a> ($14.99): the title screen, generated from the game itself, for GameMaker.</li>
+<li><a href="https://csaf.itch.io/missive-gamemaker">Missive</a> ($14.99): every letter, writ and note your game delivers, drawn as a document, for GameMaker.</li>
+</ul>
+<p>More GameMaker systems at <a href="https://csaf.itch.io">csaf.itch.io</a>.</p>
+
+<p><small>AI disclosure: the code, the generated artwork and the demo's sample dialogue in this package were produced with AI assistance. Every store image, the cover and the GIF were rendered by the product itself. Type: IM Fell DW Pica (SIL OFL 1.1) and Open Sans (Apache 2.0), notices included.</small></p>
