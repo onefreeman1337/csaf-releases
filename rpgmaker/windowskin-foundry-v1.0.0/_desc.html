@@ -1,0 +1,54 @@
+<p><strong>Give every window in your game a worked-material frame.</strong> 44 windowskins in RPG Maker MZ's own layout: a chamfered rim lit from the upper left, a plate seated in each corner, a shadow cast onto the window back, and a back textured with the material's own finish. Eleven materials (Iron, Steel, Blued Steel, Pewter, Silver, Brass, Bronze, Copper, Gold, Oak, Cut Card) by four corner ornaments (Stud, Bolt, Rosette, Volute).</p>
+
+<p><strong>Then make them yours.</strong> A playtest command reads the tileset of the map you are standing on, finds its three main hues, and re-strikes any skin into the one you pick, writing a new PNG into <code>img/system</code>. Your game's frames end up in your game's colours, with the text colours re-checked to read at 4.5:1 or better.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>WindowskinFoundryCore.js</code> — Windowskin Foundry core: reads a palette from tileset pixels and re-strikes a windowskin into it. Load with WindowskinFoundry.js.</li>
+<li><code>WindowskinFoundry.js</code> — Windowskin Foundry: worked-material windowskins (brass, iron, oak and more), chosen per game or in play.</li>
+</ol>
+<p><strong>Core methods extended — 3 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Window_Base.prototype.loadWindowskin</code>, <code>Window_Base.prototype.update</code>, <code>Scene_Base.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Windowskin Foundry co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends 3 methods on core singletons, the same way — original saved and called through:</strong> <code>ColorManager.loadWindowskin</code>, <code>ColorManager.textColor</code>, <code>ColorManager.pendingColor</code>. Another plugin patching those keeps working.</p>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li><strong>44 windowskin PNGs</strong> (192 x 192, MZ's own layout), ready to use.</li>
+<li><code>WindowskinFoundry.js</code>: pick the skin in the Plugin Manager, switch skins in play with a plugin command (saved with the game), and run the re-strike.</li>
+<li><code>WindowskinFoundryCore.js</code>: reads a palette from tileset pixels and re-strikes a skin into it.</li>
+<li>A user guide and the licence. Plain, readable JavaScript. The images may ship inside your released games.</li>
+</ul>
+
+<h3>Why a plugin and not just images</h3>
+<p>RPG Maker MZ reads every text colour from <code>img/system/Window.png</code> once at startup and never from a window's own skin, so a skin under any other name draws the default colours. The plugin points the colours at the skin in force, so each skin's own text and label colours appear, and it redraws open windows once when you switch. Your own <code>Window.png</code> is never touched; blank the parameter to go back to it.</p>
+
+<h3>Made for the way the engine stretches a window</h3>
+<p>MZ copies a skin's 24 px corners as they are and stretches its edges to fit the window. So every ornament sits in a corner and every rim is the same along its whole length: a message box 800 px wide shows no smearing. The material's grain lives in the tiled pattern layer, at full size.</p>
+
+<h3>The re-strike</h3>
+<ul>
+<li>Runs only in a playtest, because it writes a file. In a shipped game it does nothing.</li>
+<li>Offers three hues per tileset (most used, second, third). The most used hue of many outdoor sets is the ground; the second and third are often the water, crystal or lava that make the set.</li>
+<li>Keeps the frame's light and shade and changes its colour: coloured sources (Brass, Gold, Copper...) come out as enamel, grey sources (Iron, Steel, Silver...) as tinted metal.</li>
+<li>Anything it would replace is copied to a backup folder first. If a tileset image cannot load, it refuses with the reason and the game keeps running.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project: all 44 skins switched in play with every text colour checked against the file's own pixels, the re-strike run on a real map's tileset at all three hues, saves, backups, both plugin orders, a blank parameter and a missing file. The adversarial pass found two real problems that are fixed in this release: a mistyped skin name used to stop the game on "Failed to load" (now refused with a console warning), and windows from other plugins that keep their own skin are now left alone. On the main menu with skins switching in play, a frame costs 28 draw calls with no growth in display objects. The store images use a serif in a showcase scene; the skins do not change your game's font.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/escutcheon-mz">Escutcheon</a>: the HUD plates, gauges and portrait frames in the same worked materials.</li>
+<li><a href="https://csaf.itch.io/cartouche">Cartouche</a>: the message box drawn as an object, a different one for every speaker.</li>
+<li><a href="https://csaf.itch.io/frontispiece">Frontispiece</a>: the title screen as a worked plate composed from your project.</li>
+<li><a href="https://csaf.itch.io/strew">Strew</a>: dresses your hand-made maps from your own tileset.</li>
+</ul>
+
+<p><em>Made with AI assistance: the code and the images were produced with AI tools. No audio, no narrative text.</em></p>

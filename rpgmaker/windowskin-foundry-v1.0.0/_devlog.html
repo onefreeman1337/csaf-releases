@@ -1,0 +1,16 @@
+<p><strong>Windowskin Foundry is out: 44 worked-material windowskins for RPG Maker MZ, and a command that re-strikes them in your own tileset's colours.</strong></p>
+
+<p>Eleven materials (iron, steel, blued steel, pewter, silver, brass, bronze, copper, gold, oak, cut card) by four corner ornaments. In a playtest, one plugin command reads the map you are standing on, finds its three main hues, and writes a new skin in the one you pick.</p>
+
+<h3>What we measured while building it</h3>
+<ul>
+<li>MZ stretches a skin's back and its four edges, and copies only the 24 px corners as they are. Our first frame had detail along the rim, which smears on any wide window, so every ornament now lives in a corner and every rim is the same along its whole length.</li>
+<li>MZ reads text colours from Window.png once at startup, never from a window's own skin. Without the plugin, every one of these skins would draw the stock blue and white text. The plugin points the colours at the skin in force.</li>
+<li>The first skin swap in play cost 50 to 90 ms in one frame: MZ reads each text colour back from the skin's canvas, and the first reads on a new image are slow. The plugin now reads a skin's colours once, from a small canvas kept on the CPU. The same swap now takes about 4 ms.</li>
+<li>The adversarial pass found that a mistyped skin name could stop a game on "Failed to load". Names chosen in play are now load-checked first and refused with a console warning.</li>
+<li>The re-strike keeps the frame's light and shade, so coloured metals come out as enamel and grey metals as tinted metal. We say which in the guide rather than pretend they match.</li>
+</ul>
+
+<p>The store images use our own Verdant tileset maps. <a href="https://csaf.itch.io/windowskin-foundry">Windowskin Foundry on itch.io</a>. The HUD plates in the same materials are <a href="https://csaf.itch.io/escutcheon-mz">Escutcheon</a>.</p>
+
+<p><em>AI disclosure: the code and graphics were made with AI assistance.</em></p>
