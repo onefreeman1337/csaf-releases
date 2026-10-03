@@ -1,0 +1,56 @@
+<p><strong>Strew dresses the maps you made by hand, from your own tileset, in one keypress.</strong> Walk onto a map in playtest and press F7: flowers gather in drifts, one kind of flower to a drift; bushes, rocks and stumps settle against trees, walls and water; a field of one repeated grass tile is broken up by its own variants. Press F7 again for a different arrangement, Shift+F7 to take it back.</p>
+
+<p><strong>It knows where things must not go.</strong> Nothing lands on a road, on or beside an event, on a region you keep clear, or on a square that already has an upper tile. Before it places anything that blocks, it proves the squares around it stay connected, so it never cuts a route. Undo removes exactly what Strew placed and keeps anything you painted since.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>StrewCore.js</code> — [Strew 1.0 core] The map-dressing engine Strew.js drives. Install DIRECTLY ABOVE Strew.js.</li>
+<li><code>Strew.js</code> — [Strew 1.0] Dresses your own maps from your own tileset in one keypress: flower drifts, tufts at the walls, floor variants.</li>
+</ol>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Map.prototype.isReady</code>, <code>Scene_Map.prototype.start</code>.</p>
+<p>Because nothing is clobbered, Strew co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<hr>
+
+<h3>Drifts, not sprinkles</h3>
+<p>Random scatter reads as noise, which is worse than a bare map. Strew places by rules a mapper would use: a slow field decides where flowers gather and which flower each drift is; flowered grass fills appear only around the drifts; tufts and pebbles thicken where ground meets something solid; rocks sit in corners; stumps and logs stay rare and near trees. The second image compares it with the same tiles dropped at random on the same map.</p>
+
+<h3>From your tileset, not ours</h3>
+<ul>
+<li><strong>Stock RPG Maker MZ sheets:</strong> on the stock Outside sheet Strew uses a palette picked by hand (bushes, a rock pile, stumps, logs, dead branches, cracks, stones, tufts and six kinds of flower), so it never scatters barrels, signposts or snowmen. Inside, Dungeon, SF and World sheets get floor variants only.</li>
+<li><strong>Any other tileset:</strong> Strew reads the art. Small objects that sit inside their square are sorted by colour into flowers, tufts, bushes, rocks, pebbles and wood; floor tiles that match each other in every quadrant, edge and corner become interchangeable variants.</li>
+<li><strong>See the reading:</strong> F6 opens the plan view, which shows every tile Strew will place with its tile ID, the roads, the squares kept clear for events, the drift field and each placement. Correct anything with a tileset note such as <code>&lt;Strew Exclude: 140&gt;</code>.</li>
+</ul>
+
+<h3>Bake or Live</h3>
+<ul>
+<li><strong>Bake (playtest):</strong> F7 writes the dressed map to <code>data/MapXXX.json</code> and keeps the file it replaced in <code>data/Strew/</code> (the newest five per map). Rerolls never stack.</li>
+<li><strong>Live:</strong> put <code>&lt;Strew Live&gt;</code> in a map's note and the map is dressed in memory each time it loads, the same way every time, with no file written. Works in deployed desktop and web games.</li>
+<li>Save files are never touched in either mode.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Two plain, readable JavaScript files: <code>StrewCore.js</code> (the dressing engine) and <code>Strew.js</code> (bake, reroll, undo, Live mode, the result card and the plan view), plus a user guide.</li>
+<li>Six parameters (density, keep-clear regions, kinds to leave out, Live on every map, hotkeys, the result card), four plugin commands, six map notes and three tileset notes, all in the guide.</li>
+<li>No tileset images are included. The store images use <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 Overworld</a>, our own tileset, sold separately.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project on the stock Outside tileset: a real F7 and Shift+F7, a Live map, and a stock Inside map that must scatter no furniture. Every parameter, command and note in the guide was exercised, and an adversarial pass threw broken notes, corrupted files, missing files and a 300 by 300 map at it. On the busiest scenario (a Live-dressed map with the party walking, the result card up and the plan view showing) a frame costs 11 draw calls, with no texture uploads and no growth in display objects.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a>: the shadows of passing clouds drawn over your maps ($12.99).</li>
+<li><a href="https://csaf.itch.io/vivarium">Vivarium</a>: butterflies, dragonflies, fish and fireflies drawn into your maps by what each place is ($12.99).</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: breakable pots, crates and rocks cut from your own tile art ($9.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>

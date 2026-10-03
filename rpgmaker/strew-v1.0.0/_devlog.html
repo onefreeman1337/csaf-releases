@@ -1,0 +1,18 @@
+<p><strong>Strew is out: a plugin that dresses the RPG Maker MZ maps you made by hand, from your own tileset, in one keypress.</strong></p>
+
+<p>Most hand-made maps are one grass tile repeated, a road, a pond and a few trees. Filling them with flowers, stones and bushes square by square is the slowest part of mapping, and scattering things at random makes a map look noisy rather than lived in. Strew places by rules instead: a slow field decides where flowers gather and which flower each drift is, rocks and bushes settle against trees, walls and water, and a field of one repeated floor tile is broken up by its own variants.</p>
+
+<h3>What we measured while building it</h3>
+<ul>
+<li>On a 60 by 60 meadow, Strew's flowers are about nine times more clustered than the same number dropped at random (quadrat dispersion 6.85 against 0.76, averaged over 20 seeds), and 86% of neighbouring flowers are the same kind.</li>
+<li>On RPG Maker's stock Outside sheet, reading tiles by colour alone would have scattered pots, a snowman and skeletons. Strew uses a palette picked by hand there, and reads the art only on other tilesets.</li>
+<li>One stock flower is a single small bloom in the middle of its square; packed into a drift it stamped a grid. Strew now measures how much of its square each flower spans and keeps single blooms apart.</li>
+<li>Before placing anything that blocks, Strew proves the squares around it stay connected. Across 200 seeds on the demo map the number of separate walkable areas never changed.</li>
+</ul>
+
+<h3>Bake or Live</h3>
+<p>F7 in playtest bakes the dressing into the map file and keeps the previous file; F7 again rerolls; Shift+F7 undoes exactly what Strew placed. Or tag a map <code>&lt;Strew Live&gt;</code> and it is dressed in memory as it loads, the same way every time, with no file written.</p>
+
+<p><a href="https://csaf.itch.io/strew">Strew on itch.io</a>. The store images use <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 Overworld</a>, our own tileset.</p>
+
+<p><em>AI disclosure: the code and graphics were made with AI assistance.</em></p>
