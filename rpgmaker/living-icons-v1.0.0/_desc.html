@@ -1,0 +1,51 @@
+<p><strong>Every icon in your menus moves by what it is.</strong> Blades glint, gems twinkle, potions bubble, fire flickers with embers, key items pulse. Living Icons reads your database to decide which effect each icon gets and reads the icon's own pixels to decide where the light goes, so there are no frames to draw and nothing to tag.</p>
+
+<p><strong>Restrained on purpose.</strong> Each icon plays briefly and then rests, and identical icons in one list move out of step, so a full inventory shimmers instead of strobing. Greyed entries stay greyed. It works in every window that draws icons: items, skills, equipment, shops, status.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>LivingIconsCore.js</code> — [Living Icons 1.0 core] Reads each icon and bakes its animation. Install DIRECTLY ABOVE LivingIcons.js.</li>
+<li><code>LivingIcons.js</code> — [Living Icons 1.0] Every icon in your menus moves by what it is: blades glint, gems twinkle, potions bubble, fire flickers.</li>
+</ol>
+<p><strong>Core methods extended — 3 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Window_Base.prototype.drawIcon</code>, <code>Window_Base.prototype.createContents</code>, <code>Window_Base.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Living Icons co-exists with other plugins that patch the same seams, including large suites.</p>
+
+<hr>
+
+<h3>Chosen by what the entry is</h3>
+<ul>
+<li><strong>Weapons</strong> glint: a streak of light with a white core crosses the blade. A weapon with the Fire attack element flickers instead.</li>
+<li><strong>Metal armour</strong> glints; <strong>accessories</strong> twinkle on their own brightest points.</li>
+<li><strong>Recovery items</strong> bubble; <strong>key items</strong> pulse with a gold halo.</li>
+<li><strong>Skills</strong> by element: fire flickers with embers, thunder sparks, ice glints, water bubbles, light and dark pulse. Element names are matched by meaning, so renamed elements still work.</li>
+<li><code>&lt;Living Icon: glint&gt;</code> forces any effect; <code>&lt;Living Icon: none&gt;</code> keeps an icon still.</li>
+</ul>
+
+<h3>Works with your icons, whatever style</h3>
+<p>RPG Maker's stock icons are white glyphs on coloured tiles; Living Icons reads them as a glyph on a tile, so sparkles and bubbles land on the glyph, never on the tile's border. Free-standing pixel-art icons are read by their own silhouette. If another plugin draws its own picture where an icon would go, Living Icons checks the pixels it expects and leaves that picture alone.</p>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Two plain, readable JavaScript files: <code>LivingIconsCore.js</code> (reads each icon and bakes its animation) and <code>LivingIcons.js</code> (plays them in every window), plus a user guide.</li>
+<li>Three parameters (speed, intensity, effects to leave out), two notetags, and script calls, all in the guide.</li>
+<li>The store images use our own icons: the gems are drawn by <a href="https://csaf.itch.io/facet">Facet</a> and the vessels by <a href="https://csaf.itch.io/glaze">Glaze</a>, baked into an IconSet. No icon art is included in this download; it animates yours.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ runtime from the exact zip you download, installed into a blank project with RPG Maker's stock database: the stock sword glints in the stock item menu. Every row of the effect table, both notetags, every parameter and script call in the guide were exercised, and an adversarial pass threw bad icon indices, fifty refreshes in a row, recreated window contents and unknown notetags at it. Each icon's frames are made once and played from one shared texture: on the item menu with every entry animated, a frame shows no texture uploads and no growth in display objects.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/facet">Facet</a>: every gem, ore and crystal in your database cut and lit as a real stone.</li>
+<li><a href="https://csaf.itch.io/glaze">Glaze</a>: every potion and reagent thrown as its own glazed vessel.</li>
+<li><a href="https://csaf.itch.io/strew">Strew</a>: dresses your hand-made maps from your own tileset in one keypress.</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>

@@ -1,0 +1,15 @@
+<p><strong>Living Icons is out: every icon in your RPG Maker MZ menus moves by what it is.</strong></p>
+
+<p>Weapons glint, gems twinkle, potions bubble, fire flickers with embers, key items pulse. The plugin reads your database to decide which effect an icon gets, and the icon's own pixels to decide where the light goes, so there is nothing to draw and nothing to tag.</p>
+
+<h3>What we measured while building it</h3>
+<ul>
+<li>RPG Maker's stock icons are white glyphs on coloured tiles. Our first reading put sparkles on the tiles' top border and bubbles on the background. The plugin now reads a stock icon as a glyph on a tile and keeps sparkles at least four pixels inside it.</li>
+<li>Three of the five effects were too faint to see on pale art at first. The glint now carries a one pixel white core, the pulse is a gold halo just outside the icon, and the flicker warms toward yellow instead of only lightening.</li>
+<li>When two database entries share an icon (a status skill and an accessory, say), the first entry used to decide. Now a notetag decides, otherwise the first entry that maps to a real effect.</li>
+<li>Each icon plays briefly and rests, and copies in one list are out of step: across the six moments of our timeline plate, 25 of 48 icon-moments are playing, spread across the list rather than all together.</li>
+</ul>
+
+<p>The store images use our own icons: gems drawn by <a href="https://csaf.itch.io/facet">Facet</a> and vessels by <a href="https://csaf.itch.io/glaze">Glaze</a>. <a href="https://csaf.itch.io/living-icons">Living Icons on itch.io</a>.</p>
+
+<p><em>AI disclosure: the code and graphics were made with AI assistance.</em></p>
