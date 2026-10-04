@@ -1,0 +1,86 @@
+{
+  "packId": "verdant-46-orc-warband",
+  "title": "Verdant 46 — Orc Warband: War Camp Tileset with Palisade, Huts and 35 Objects, RPG Maker MZ, Tiled & Godot [16x16]",
+  "shortText": "An orc war camp in 16x16: palisade, stockade, war huts, 35 objects. RPG Maker MZ A2/A3/A4, Tiled + Godot.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "fantasy",
+    "orc",
+    "top-down",
+    "medieval"
+  ],
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ]
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 35 — Festival Fair",
+      "url": "https://csaf.itch.io/verdant-35-festival-fair"
+    },
+    {
+      "label": "Verdant 08 — Mire",
+      "url": "https://csaf.itch.io/verdant-08-mire"
+    },
+    {
+      "label": "Verdant 20 — Prison",
+      "url": "https://csaf.itch.io/verdant-20-prison"
+    },
+    {
+      "label": "Verdant 44 — Aftermath",
+      "url": "https://csaf.itch.io/verdant-44-aftermath"
+    },
+    {
+      "label": "Verdant 45 — Walls & Roofs",
+      "url": "https://csaf.itch.io/verdant-45-walls-roofs"
+    }
+  ],
+  "derived": {
+    "tiles": 509,
+    "sets": 11,
+    "a2": 3,
+    "roofs": 2,
+    "tops": 2,
+    "palette": 78,
+    "cols": 40,
+    "rows": 26,
+    "mapObjects": 52,
+    "objects": 35,
+    "grounded": 33,
+    "doors": 2
+  },
+  "description": "<p><strong>An orc war camp, complete enough to build a level from</strong>, in the Verdant series' 16x16 pixel-art look: 509 tiles, 35 objects and a finished 40x26 sample map. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.</p>\n<h2>What is in it</h2>\n<ul>\n<li><strong>A palisade and a stockade</strong>: sharpened stakes under log ends, and iron-banded logs under a split-log fighting deck, each with every corner, edge and end.</li>\n<li><strong>War huts and a longhouse</strong>: tanned hides laid in courses over a hide-and-pole wall, and thatch over log walls, with a hide-flap doorway and a plank door.</li>\n<li><strong>The camp ground</strong>: trampled earth with churned mud, scrub and scorched earth drawn into it, 3 complete sets of 47 shapes, plus 11 fill surfaces in 4 variants each.</li>\n<li><strong>33 objects</strong>: hide tents, war banners, a totem pole, spike barricades, a cook fire, weapon, meat and trophy racks, a cauldron, a war drum, a gong, a war horn, an iron cage, training dummies, an anvil, a brazier, a war cart, a bone throne, plunder, wolf pelts, a tusk arch for the gate and more. Each ships transparent and grounded on trampled earth, mud and scorched earth with a contact shadow.</li>\n<li>A <strong>40x26 sample map</strong> (the war camp in the screenshots, 52 objects placed) as PNG, as JSON naming every cell, and as a Tiled .tmx.</li>\n</ul>\n<h2>Ready for three engines</h2>\n<ul>\n<li><strong>RPG Maker MZ</strong>: the ground transitions are an A2 page and the huts and walls are A3 and A4 pages, so MZ's own brush shapes every corner as you paint; the objects are on B and C pages. All 144 A2 shapes and 192 A3/A4 shapes were composed back out of the pages by the engine's own autotile code and matched the tiles exactly. We also installed the pages in a blank MZ project, saved a map painted with every wall and roof shape, and ran that project's own drawing code on it: 192 of 192 cells identical. The RPG Maker MZ editor itself was not opened.</li>\n<li><strong>Tiled</strong>: .tsx tilesets for every sheet; the sample map's .tmx renders to the sample map PNG with 0 of 1064960 pixels different.</li>\n<li><strong>Godot 4</strong>: one TileSet, loaded and verified in Godot 4.7.2 (509 tiles built, every multi-cell object footprint exact). Tiled and Godot get every shape as a separate tile; no terrain rules are set up for you.</li>\n</ul>\n<h2>Made from the series</h2>\n<p>The camp's ground is the Verdant series' own: the trampled earth of <a href=\"https://csaf.itch.io/verdant-35-festival-fair\">Verdant 35 — Festival Fair</a>, the mud of <a href=\"https://csaf.itch.io/verdant-08-mire\">Verdant 08 — Mire</a>, the scrub of <a href=\"https://csaf.itch.io/verdant-20-prison\">Verdant 20 — Prison</a> and the scorched earth of <a href=\"https://csaf.itch.io/verdant-44-aftermath\">Verdant 44 — Aftermath</a>, byte for byte, so this camp sits beside any of them. For more buildings and walls on the same MZ A3/A4 machinery, see <a href=\"https://csaf.itch.io/verdant-45-walls-roofs\">Verdant 45 — Walls &amp; Roofs</a>. This pack still stands alone: everything it needs is in the download.</p>\n<h2>The proofs</h2>\n<p>Every tile's wrap boundary is measured against its own interior, and every 4x4 repetition is rendered and reviewed. Grid, palette and autotile completeness are machine-proven: every tile is a whole number of 16x16 cells, every pixel is inside the 78-colour palette, alpha is strictly on or off, and all 11 autotile sets carry every shape.</p>\n<h2>AI disclosure</h2>\n<p>Every tile is generated by our own procedural drawing engine, which is AI-written software. No image model, no scraped art and no training dataset were used, and nothing was traced.</p>",
+  "gallery": [
+    "cover.png",
+    "demo_the_camp_goes_up.gif",
+    "shot_1_the_war_camp.png",
+    "shot_2_the_compound.png",
+    "shot_3_the_gate.png",
+    "shot_4_the_objects.png",
+    "shot_5_huts_and_walls.png",
+    "shot_6_the_ground.png",
+    "shot_7_the_proof.png",
+    "shot_8_three_engines.png"
+  ]
+}
