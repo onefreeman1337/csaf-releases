@@ -1,0 +1,77 @@
+{
+  "packId": "verdant-48-digital-world",
+  "title": "Verdant 48 — Digital World: Cyberspace Tileset, 34 Objects, RPG Maker MZ, Tiled & Godot [16x16]",
+  "shortText": "A digital world in 16x16: firewalls, server walls, data streams, 34 objects. RPG Maker MZ A2/A4, Tiled + Godot.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "tileset",
+    "tiles",
+    "16x16",
+    "pixel-art",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "godot",
+    "cyberpunk",
+    "sci-fi",
+    "top-down"
+  ],
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ",
+      "Tiled",
+      "Godot"
+    ]
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 32 — Orbital Station",
+      "url": "https://csaf.itch.io/verdant-32-orbital-station"
+    },
+    {
+      "label": "Verdant 34 — Neon District",
+      "url": "https://csaf.itch.io/verdant-34-neon-district"
+    },
+    {
+      "label": "Verdant 45 — Walls & Roofs",
+      "url": "https://csaf.itch.io/verdant-45-walls-roofs"
+    }
+  ],
+  "derived": {
+    "tiles": 389,
+    "sets": 7,
+    "a2": 3,
+    "tops": 2,
+    "palette": 62,
+    "cols": 40,
+    "rows": 28,
+    "mapObjects": 57,
+    "objects": 34,
+    "grounded": 30,
+    "hung": 4
+  },
+  "description": "<p><strong>A digital world, complete enough to build a level from</strong>, in the Verdant series' 16x16 pixel-art look: the inside of a machine for the cyberspace dungeon an RPG keeps for its last act. 389 tiles, 34 objects and a finished 40x28 sample map. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.</p>\n<h2>What is in it</h2>\n<ul>\n<li><strong>Two walls</strong>: a firewall of red energy blocks, and a wall of server racks with vents and status lights, each under a steel top with every corner, edge and end.</li>\n<li><strong>The floors</strong>: a dark circuit board, glowing data streams, a grid plaza and drops into the void, 3 complete sets of 47 shapes, plus 7 fill surfaces in 4 variants each.</li>\n<li><strong>30 objects</strong>: floating data cubes, a save crystal, a node pad and a teleporter, a portal, a firewall gate, a sentry turret, a server tower, a terminal, a giant processor chip, a capacitor and a resistor, a circuit tree, a data pillar, a cursor monument, a folder crate, a recycle bin, a loading hourglass, a lock, a key card, a packet, a glitch block, a cable spool, a relay antenna and more. Each ships transparent and grounded on the circuit board and on the grid with a contact shadow.</li>\n<li><strong>4 wall objects</strong>: a monitor, an error pop-up, a warning panel and a status panel to hang on any wall face. No screen or sign carries readable text.</li>\n<li>A <strong>40x28 sample map</strong> (the world in the screenshots: a gated firewall, a server room, a grid plaza, a processor district and the edge of the void, 57 objects placed) as PNG, as JSON naming every cell, and as a Tiled .tmx.</li>\n</ul>\n<h2>Ready for three engines</h2>\n<ul>\n<li><strong>RPG Maker MZ</strong>: the floor transitions are an A2 page and the walls an A4 page, so MZ's own brush shapes every corner as you paint; the objects are on B and C pages. All 144 A2 shapes and 128 A4 shapes were composed back out of the pages by the engine's own autotile code and matched the tiles exactly. We also installed the pages in a blank MZ project, saved a map painted with every wall shape, and ran that project's own drawing code on it: 128 of 128 cells identical. The RPG Maker MZ editor itself was not opened.</li>\n<li><strong>Tiled</strong>: .tsx tilesets for every sheet; the sample map's .tmx renders to the sample map PNG with 0 of 1146880 pixels different.</li>\n<li><strong>Godot 4</strong>: one TileSet, loaded and verified in Godot 4.7.2 (389 tiles built, every multi-cell object footprint exact). Tiled and Godot get every shape as a separate tile; no terrain rules are set up for you.</li>\n</ul>\n<h2>From the same series</h2>\n<p>Same palette, same 16x16 grid: more science fiction in <a href=\"https://csaf.itch.io/verdant-32-orbital-station\">Verdant 32 — Orbital Station</a> and <a href=\"https://csaf.itch.io/verdant-34-neon-district\">Verdant 34 — Neon District</a>, and more walls and buildings on the same MZ A4 machinery in <a href=\"https://csaf.itch.io/verdant-45-walls-roofs\">Verdant 45 — Walls &amp; Roofs</a>. This pack stands alone: everything it needs is in the download.</p>\n<h2>The proofs</h2>\n<p>Every tile's wrap boundary is measured against its own interior, and every 4x4 repetition is rendered and reviewed. Grid, palette and autotile completeness are machine-proven: every tile is a whole number of 16x16 cells, every pixel is inside the 62-colour palette, alpha is strictly on or off, and all 7 autotile sets carry every shape.</p>\n<h2>AI disclosure</h2>\n<p>Every tile is generated by our own procedural drawing engine, which is AI-written software. No image model, no scraped art and no training dataset were used, and nothing was traced.</p>",
+  "gallery": [
+    "cover.png",
+    "demo_the_machine_boots.gif",
+    "shot_1_the_mainframe.png",
+    "shot_2_the_plaza.png",
+    "shot_3_the_processor_district.png",
+    "shot_4_the_objects.png",
+    "shot_5_the_walls.png",
+    "shot_6_the_floors.png",
+    "shot_7_the_proof.png",
+    "shot_8_three_engines.png"
+  ]
+}
