@@ -1,0 +1,58 @@
+<p><strong>Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of paintings in a drawn gallery.</strong> A CG, a parallax, a title screen, a portrait: name it in the plugin command and Pendant hangs it twice and changes the second copy in as many places as you ask, 1 to 12. When the last difference is found, the time, the finds, the misses and an all-found switch go back to your events.</p>
+
+<p><strong>Every change is generated, and every change is measured.</strong> No second picture to paint by hand, and no two puzzles alike: leave the seed blank for new differences every time, or fix it to get the same ones. Each change must visibly move enough of the picture before it is kept, or it is undone and another place is tried.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PendantCore.js</code> — Pendant's difference maker: changes the second picture in places, each one measured to be findable.</li>
+<li><code>Pendant.js</code> — Pendant: any picture in your project, hung twice in a gallery, with generated differences to find.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+
+<h3>Four kinds of difference</h3>
+<ul>
+<li><strong>An object added that belongs where it lands.</strong> Twelve objects are drawn by the plugin: a bird, a kite, a balloon or a moon in a sky, a star at night, a fish in water, a flower, an apple, a mushroom or a pennant in a field, a key or a lantern on a wall or a table. Each one takes a colour picked to stand out from what it sits on, with a soft shadow so it sits on the painting.</li>
+<li><strong>A detail mirrored</strong>, only where the patch is uneven enough for the flip to show.</li>
+<li><strong>Something painted out</strong> with the picture beside it, with a soft, irregular edge rather than a tell-tale circle.</li>
+<li><strong>An object recoloured</strong> to a colour your picture already uses, only where the region has an edge of its own all round: a roof, a sail, a board square, never a band of sky or a shadow.</li>
+</ul>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A gallery wall in damask (green, plum, navy or oxblood), a picture rail with the two paintings hung on cords, gilt frames with beaded mouldings and picture lights.</li>
+<li>A find is ringed in red ink on both paintings. A click on nothing leaves a small fading mark and counts a miss.</li>
+<li>A brass plaque keeps the finds, the time (or the time left), the misses and the hints. Q, or a press on the plaque, lights a glow around a difference not yet found.</li>
+<li>ALL FOUND at the end; giving up shows SET ASIDE and marks every difference that was missed with a dashed gold ring.</li>
+</ul>
+
+<h3>Any screen</h3>
+<p>The pair hangs side by side, or one above the other when that makes the paintings larger. Measured on 816 x 624, 1280 x 720 and a 1080 x 1920 phone screen, where it stacks. The plaque type grows with the screen.</p>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Two plain, readable JavaScript files: <code>PendantCore.js</code> (the difference maker) and <code>Pendant.js</code> (the gallery scene and the command), plus a user guide.</li>
+<li><code>CSAF_MVBridge.js</code> for RPG Maker MV 1.6 (goes at the top of the list; it does nothing in MZ).</li>
+<li>A demo picture (a painted riverside village with a windmill, 1024 x 687) to try straight away, which you may use in your game.</li>
+<li>The <strong>Start a spot-the-difference</strong> command: picture, differences, seed, time limit, hints. In MV it is one Plugin Command line, and there is a script call for both.</li>
+<li>Parameters: seconds, finds and misses into variables, an all-found switch, a common event afterwards, the wall colour, and a switch for each kind of change.</li>
+<li>Mouse, touch and keyboard. The event waits while the puzzle is on screen, so the next command can read the result.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ 1.10.0 and MV 1.6.1 runtimes from the exact zip you download, installed into blank projects: opened through real event commands, differences found with a real mouse and with the keyboard, a right click to give up, a time limit run out, every claim in the user guide checked (48 checks), and an adversarial pass (17 checks: no picture, a missing file, an 8 x 8 picture, a 2400 x 200 panorama, a flat grey picture, out-of-range counts, odd seeds, the MV bridge in the wrong place). With 12 differences, rings popping, a hint pulsing and the hand moving, a frame costs 2 draw calls and draws no stock window.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/jigsaw">Jigsaw</a>: any picture in your game becomes a jigsaw the player solves on a drawn table; every cut generated, 4 to 256 pieces ($9.99).</li>
+<li><a href="https://csaf.itch.io/tilestack">Tilestack</a>: mahjong solitaire with all 42 faces drawn and generated layouts, every deal winnable ($9.99).</li>
+<li><a href="https://csaf.itch.io/tray">Tray</a>: generated packing puzzles; the player fits polyomino pieces into a shaped tray, every piece cut from a different wood ($9.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code, the graphics and the demo picture of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
