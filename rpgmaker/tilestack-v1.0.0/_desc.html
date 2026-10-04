@@ -1,0 +1,55 @@
+<p><strong>Mahjong solitaire, inside your game.</strong> The player sits down at a table where a stack of carved tiles is laid out and clears it two at a time: remove any two free tiles that match. Clear the board to win; the time, the moves and a cleared switch go back to your events.</p>
+
+<p><strong>Every deal can be cleared.</strong> Tilestack deals backwards, taking two free tiles off the full layout and giving them a matching pair until the layout is empty, so a winning order always exists. A stuck player can shuffle what is left, dealt the same way.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>TilestackCore.js</code> — Tilestack rules: layouts, the free-tile rule and deals that are always solvable. Load FIRST.</li>
+<li><code>TilestackDraw.js</code> — Tilestack renderer: draws every tile (body and face) in several sets, and the table. Load SECOND.</li>
+<li><code>Tilestack.js</code> — Tilestack: mahjong solitaire as a minigame. Generated layouts, drawn tile sets, every deal solvable.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+
+<h3>Every tile is drawn</h3>
+<ul>
+<li>No image files. 42 faces (three suits of nine, four winds, three dragons, four flowers, four seasons) drawn by the plugin in five sets: ivory, bone, jade, black lacquer and porcelain.</li>
+<li>Each tile is a two-layer block lit from the upper left, with its thickness and shadow showing, and lower layers in shade so the pyramid reads.</li>
+<li>The characters and winds use your players' own system fonts and are checked before drawing; where a browser lacks the font, a drawn numeral or letter stands in. Every one of those tiles also carries a small corner index (1-9, E S W N) for players who do not read them.</li>
+</ul>
+
+<h3>Layouts</h3>
+<p>The classic 144-tile turtle, or a generated layout of the size you ask for (8 to 144 tiles): a mirrored silhouette in one of five shapes and two stacking styles, different for every seed.</p>
+
+<h3>What the player gets</h3>
+<ul>
+<li>A felt table in a dark wooden rim, a plaque with tiles left, time, moves and hints.</li>
+<li>Mouse, touch or keyboard (the arrows move a hand between free tiles). Q shows a pair, W puts the last pair back.</li>
+<li>The ending: a gold outline of the layout appears where the tiles stood, and the winning pair rises to the middle of the table.</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>TilestackCore.js</code> (rules, layouts, deals), <code>TilestackDraw.js</code> (the tiles and the table) and <code>Tilestack.js</code> (the scene and the command), plus a user guide.</li>
+<li><code>CSAF_MVBridge.js</code> for RPG Maker MV 1.6 (top of the list; it does nothing in MZ).</li>
+<li>The <strong>Start a game</strong> command: layout, size, tile set, hints allowed, shuffles allowed, seed. A Plugin Command line in MV, and a script call for both.</li>
+<li>Parameters: seconds and moves into variables, a cleared switch, a common event afterwards, and the default tile set.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Every deal is checked by replaying its own order under an independent copy of the rules (300 deals), and small boards by an exhaustive solver. Run in the real RPG Maker MZ 1.10.0 and MV 1.6.1 runtimes from the exact zip you download: the turtle and generated layouts fitted at three screen sizes including a phone, pairs removed with real mouse clicks, a stuck board reshuffled, every claim in the guide checked, and an adversarial pass. With all 144 tiles on the table, a pair fading and the hand moving, a frame costs 11 draw calls and draws no stock window.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/jigsaw">Jigsaw</a>: any picture in your game, cut into a generated jigsaw the player solves on a drawn table ($9.99).</li>
+<li><a href="https://csaf.itch.io/tray">Tray</a>: generated packing puzzles; the player fits polyomino pieces into a shaped tray, every piece cut from a different wood with its own inlay ($9.99).</li>
+<li><a href="https://csaf.itch.io/taproom">Taproom</a>: Nine Men's Morris, Fox and Geese, Oware and Fanorona against your NPCs, for gold, on boards the plugin draws ($11.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
