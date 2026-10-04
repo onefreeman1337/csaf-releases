@@ -1,0 +1,51 @@
+<p><strong>Any picture in your game becomes a jigsaw puzzle the player puts together on a drawn table.</strong> A CG, a parallax, a portrait, a screenshot of a map: name it in the plugin command and Jigsaw cuts it. When the last piece goes in, the time, the moves and a solved switch go back to your events.</p>
+
+<p><strong>Every cut is generated.</strong> Each edge is a knob-and-socket curve shared by the two pieces it separates, the corners are jittered so no grid lines show, and no two seeds cut the same puzzle. Leave the seed blank for a new puzzle every time, or fix it to cut the same one. From 4 pieces to 256.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>JigsawCut.js</code> — Jigsaw cut model: cuts any picture into interlocking knob-and-socket pieces from a seed. Load FIRST.</li>
+<li><code>JigsawDraw.js</code> — Jigsaw renderer: draws each piece from your picture with a bevel, rim light and shadow, and draws the table. Load SECOND.</li>
+<li><code>Jigsaw.js</code> — Jigsaw: turns any picture in your project into a generated jigsaw the player assembles on a drawn table.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+
+<h3>What the player sees</h3>
+<ul>
+<li>A felt mat in a wooden rim, the frame with a faint ghost of the picture to work from, and every loose piece laid out on a spot of its own.</li>
+<li>Pieces bevelled, lit from the upper left and shadowed like card stock. A piece in the hand lifts higher and casts a deeper shadow.</li>
+<li>A plaque over the frame keeping the count, the time and the moves, with a gilt progress rule. Hold Q, or press the plaque, for the box lid.</li>
+<li>When the puzzle is done, the finished picture rises from the frame to the middle of the table and the SOLVED plaque comes up beneath it. Giving up shows SET ASIDE with how many pieces were placed.</li>
+</ul>
+
+<h3>Any screen</h3>
+<p>The layout is solved for the screen it is on: the frame is made as large as it can be while every loose piece still gets a spot of its own, off the frame and off the plaque. Measured at 4 to 256 pieces on 816 x 624, 1280 x 720 and a 1080 x 1920 phone screen, in MZ and in MV. On a portrait screen the frame sits above a full-width strip of pieces, and the plaque type grows with the screen.</p>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>JigsawCut.js</code> (the cutter), <code>JigsawDraw.js</code> (the pieces and the table) and <code>Jigsaw.js</code> (the scene and the command), plus a user guide.</li>
+<li><code>CSAF_MVBridge.js</code> for RPG Maker MV 1.6 (goes at the top of the list; it does nothing in MZ).</li>
+<li>A demo picture (a painted harbour town, 1024 x 687) to try straight away, which you may use in your game.</li>
+<li>The <strong>Start a jigsaw</strong> command: picture, about how many pieces, seed. In MV it is one Plugin Command line, and there is a script call for both.</li>
+<li>Parameters: seconds into a variable, moves into a variable, a solved switch (ON when finished, OFF when set aside), a common event afterwards, and the snap distance.</li>
+<li>Mouse, touch and keyboard. The event waits while the puzzle is on screen, so the next command can read the result.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Run in the real RPG Maker MZ 1.10.0 and MV 1.6.1 runtimes from the exact zip you download, installed into blank projects: opened through real event commands at three screen sizes, four piece counts and two seeds on each engine, pieces dragged home with a real mouse, a right click to set it aside, every claim in the user guide checked, and an adversarial pass (no picture, a missing file, an 8 x 8 picture, a 2400 x 200 panorama, out-of-range counts, odd seeds, the MV bridge in the wrong place). With 256 pieces on the table and one in the hand, a frame costs 18 draw calls and draws no stock window.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/tray">Tray</a>: generated packing puzzles; the player fits polyomino pieces into a shaped tray, every piece cut from a different wood with its own inlay ($9.99).</li>
+<li><a href="https://csaf.itch.io/scales">Scales</a>: weighing puzzles on a drawn brass balance; find the counterfeit coin, or balance a pan with the weights you have ($11.99).</li>
+<li><a href="https://csaf.itch.io/taproom">Taproom</a>: Nine Men's Morris, Fox and Geese, Oware and Fanorona against your NPCs, for gold, on boards the plugin draws ($11.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code, the graphics and the demo picture of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>
