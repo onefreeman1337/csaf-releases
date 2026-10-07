@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<meta name="description" content="SCOURFAIR: a free browser incremental about keeping an ancient chalk hill figure white, then cutting your own. Turf creeps in from every edge, so every corner you draw is upkeep forever.">
+<title>SCOURFAIR</title>
+<link rel="stylesheet" href="css/scourfair.css">
+</head>
+<body>
+<!-- Every pixel of the game, its chrome included, is drawn inside the canvas: nothing is positioned
+     over the hill, so nothing can land on top of it at any embed size. -->
+<main><canvas id="cv" width="960" height="600" tabindex="-1" aria-label="SCOURFAIR, a hill figure keeping game"></canvas></main>
+<noscript><p class="fallback">SCOURFAIR needs JavaScript to run.</p></noscript>
+<script src="js/sim.js"></script>
+<script src="js/vale.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
