@@ -1,0 +1,21 @@
+<p>Verdict Core 1.2 is up. It is a free update for everyone who owns it: download the zip again from your library.</p>
+<h2>Every verb now works with a finger or a mouse</h2>
+<p>Up to 1.1, a player on a touchscreen could read a case but could not argue it. Presenting an exhibit was the Shift key alone, and the corkboard and the accusation sheet answered to arrow keys only. In 1.2:</p>
+<ul>
+<li><strong>Cross-Examination:</strong> tap a statement to select it, tap it again to press it. A <strong>PRESENT</strong> tab sits beside CLOSE and presents an exhibit, exactly as Shift does. It dims while the exhibit picker is open, because Shift does nothing then either.</li>
+<li><strong>Case Board:</strong> tap a card to pick it up, tap a second card to run the string, tap the held card to put it down. The tap lands on the card where it is drawn.</li>
+<li><strong>Deduction:</strong> tap a blank to fill it, and tap another blank to switch while you are choosing. A <strong>COMMIT</strong> tab commits the accusation.</li>
+<li><strong>Everywhere:</strong> CLOSE, a right click or a two finger tap is Cancel, and it closes a picker before it closes the scene.</li>
+</ul>
+<p>The tabs follow MZ's own Options &rsaquo; Touch UI switch, so turning that off removes them. RPG Maker MV has no such switch and no touch buttons of its own, so in MV the same paper tabs are always drawn, CLOSE included. Keyboard and gamepad play is unchanged.</p>
+<h2>Four things fixed because we looked at the screen</h2>
+<ul>
+<li><strong>The red selection mark now follows the selection</strong> in every list. Before, it stayed on the row it was first drawn on while the arrow keys moved the selection underneath it, so the dossier could show one exhibit while the mark sat on another. This affected keyboard players too.</li>
+<li>The CLOSE tab covered the credibility marks in the header. Credibility now sits on the header's second line, and the word on the tab is no longer smeared.</li>
+<li>On the corkboard, CLOSE sat on top of the first statement card. It is now pinned at the top centre, over empty cork.</li>
+<li>A solved deduction used to say things like "The case is made is now on the record". It now reads "Now on the record: The case is made."</li>
+</ul>
+<h2>How it was tested</h2>
+<p>A harness installs the shipped zip into a blank RPG Maker MZ project and a blank MV 1.6 project and plays every scene with real input: touchscreen taps on MZ, mouse clicks on MV, plus a mouse pass on MZ and a pass with Touch UI switched off. 88 of 88 checks pass. The same harness run against the 1.1 download fails 24 of them, which is how we know it tests the new behaviour rather than passing by default. The 61 headless tests, the 22 in engine checks and every documented command on both engines still pass, and the Case File still draws in 15 draw calls a frame.</p>
+<p>The guide inside the zip has a new Controls table listing the keyboard, mouse and touch input for every scene.</p>
+<p><a href="https://csaf.itch.io/verdict-core">Verdict Core on itch.io</a></p>

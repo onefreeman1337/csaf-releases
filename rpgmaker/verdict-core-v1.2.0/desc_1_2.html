@@ -1,0 +1,60 @@
+<p><strong>Keep your clue system. This is the part where the player has to be right.</strong></p>
+<p>Every clue plugin for RPG Maker MZ tracks <em>what the player has found</em>. None of them resolves a piece of evidence against a claim. Verdict Core does &mdash; and it answers with three results, not two.</p>
+<p><strong>Now for RPG Maker MV as well as MZ.</strong> The same two plugin files run in MV 1.6 with one more file from the download, <code>CSAF_MVBridge.js</code>, placed at the top of the Plugin Manager. In MV each command is a Plugin Command line such as <code>VerdictCore giveExhibit exhibitId=bloodied_glove</code>; the guide lists every one. Every command and all four scenes were run on both engines from the shipped zip, and the bridge does nothing at all in MZ.</p>
+<p><strong>New in 1.2: every verb works with a finger or a mouse.</strong> Tap a statement to select it and tap it again to press it. The <strong>PRESENT</strong> tab presents an exhibit, tap two cards on the board to run the string, tap a blank to fill it, and <strong>COMMIT</strong> commits the accusation. Keyboard and gamepad work exactly as before. The tabs follow MZ&#x27;s own Touch UI option, and RPG Maker MV gets the same paper tabs, CLOSE included. 1.2 also fixes the red selection mark, which used to stay on the row it was first drawn on while the selection moved underneath it.</p>
+<hr>
+<h3>⚠️ Compatibility &mdash; the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>VerdictCore.js</code> &mdash; Investigation &amp; deduction engine &mdash; exhibits establish facts, testimony carries claims, and presenting the wrong one costs you.</li>
+<li><code>VerdictCaseFile.js</code> &mdash; Verdict Core&#x27;s look &mdash; the Case File, the Cross-Examination and the corkboard Case Board. Nothing here uses a windowskin.</li>
+</ol>
+<p><code>VerdictCore</code> must come before <code>VerdictCaseFile</code>.</p>
+<p><strong>Core methods extended &mdash; all 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Scene_Boot.prototype.start</code>, <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Verdict Core co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>The result nothing else on the store models</h3>
+<ul>
+<li><strong>CONTRADICTION</strong> &mdash; the right exhibit, aimed at the right line. The statement breaks, and what the break reveals goes on the record as a fact.</li>
+<li><strong>CLOSE</strong> &mdash; the right exhibit, aimed at the <strong>wrong line</strong>. The game says the evidence matters <em>here</em>, just not against <em>this</em> claim, and points at the statement that would have worked. By default it costs nothing.</li>
+<li><strong>WRONG</strong> &mdash; unrelated evidence. It costs credibility. Run out and the case collapses.</li>
+</ul>
+<p>That middle answer is the whole design. A binary right/wrong turns a mystery into a lock with a key in it. A near miss turns it into an argument.</p>
+<h3>Nothing is scripted per case</h3>
+<p>You author what each exhibit <em>establishes</em> and what each statement <em>claims</em>. The engine derives the rest: which statements an exhibit can break, which blanks it can fill, which conclusions the corkboard will accept. Hand the player a new exhibit and every one of those answers updates itself.</p>
+<h3>Four scenes, and none of them look like RPG Maker</h3>
+<ul>
+<li><strong>The Case File</strong> &mdash; exhibits down one side, the opened dossier on the other, and the facts each one proves.</li>
+<li><strong>The Cross-Examination</strong> &mdash; testimony on aged paper, press a statement or present an exhibit against it, credibility kept in tally marks.</li>
+<li><strong>The Case Board</strong> &mdash; a corkboard. Pin two cards, and if they mean something together the red string stays and a conclusion appears that neither card held alone.</li>
+<li><strong>The Deduction</strong> &mdash; a sentence with blanks. Commit it and the sheet takes a stamp: CASE MADE, or OVERRULED with the failed blanks struck through in red.</li>
+</ul>
+<p><strong>There is no windowskin anywhere in this plugin.</strong> The paper grain, the photo corners, the pushpins, the wax stamps, the typewriter and serif type scale and the staggered card-deal easing are all drawn procedurally at runtime. That is a headline feature, not a skin &mdash; and it only styles its own scenes, so installing this does not restyle your menus, your shop or your battles.</p>
+<h3>What ships</h3>
+<ul>
+<li>Three raw, readable, commented JavaScript files (the third only for MV) &mdash; 4,639 lines, no minification</li>
+<li><strong>13 plugin commands</strong>, five of which read the investigation back into switches and variables so your events can branch on it with no script call</li>
+<li><strong>55 parameters</strong> across 6 data structures &mdash; exhibits, statements, testimonies, link rules, deductions, blanks</li>
+<li>Every colour and both font stacks are parameters. Motion can be switched off entirely for accessibility</li>
+<li>Versioned, lossless saves that store <strong>ids only, never your case text</strong> &mdash; so you can rewrite a statement after a player has saved and their save still loads</li>
+<li>No core method overwritten; every patch extends the prototype and calls the saved original</li>
+<li>No <code>Math.random()</code> in game logic &mdash; a seeded generator, so a case plays out identically from the same seed</li>
+</ul>
+<h3>Verified, not asserted</h3>
+<ul>
+<li><strong>61/61</strong> headless tests green</li>
+<li>Measured inside the real MZ engine: <strong>15 draw calls</strong> a frame, no texture uploads, no growth in display objects, and <strong>0 of 1,800</strong> measured frames over the 60 FPS budget</li>
+<li><strong>88/88</strong> touch and mouse checks on MZ and MV, played from the shipped download with real touch and mouse events</li>
+<li>22/22 in-engine checks, including a save round-trip through MZ&#x27;s own <code>JsonEx</code></li>
+</ul>
+<h3>Requirements</h3>
+<p>RPG Maker MZ, or RPG Maker MV 1.6 with the bundled <code>CSAF_MVBridge.js</code>. No other plugin required, and no dependency on any specific clue, quest or dialogue system &mdash; Verdict Core sits beside them.</p>
+<hr>
+<p><strong>More RPG Maker MZ systems from CSAF:</strong><br>
+<a href="https://csaf.itch.io/chronicle-core">Chronicle Core</a> &mdash; branching quests, choices and world state<br>
+<a href="https://csaf.itch.io/bazaar-core">Bazaar Core</a> &mdash; supply, demand, stock and trade routes<br>
+<a href="https://csaf.itch.io/chimera-core">Chimera Core</a> &mdash; creature genetics, breeding and evolution<br>
+<a href="https://csaf.itch.io/chimera-field">Chimera Field</a> &mdash; spawn tables, rarity tiers and a field guide<br>
+<a href="https://csaf.itch.io/chimera-battle">Chimera Battle</a> &mdash; type charts, move sets, status and battle AI<br><strong><a href="https://csaf.itch.io/sigil-core">Sigil Core</a></strong> &mdash; every skill draws its own animated sigil, generated from that skill&#x27;s element, cost, scope and damage type. No icon sheet to buy.</p>
+<p><strong>Also from CSAF:</strong> we build editor tooling for other engines too &mdash; <a href="https://csaf.itch.io/kinetic-ui">Kinetic UI</a> and <a href="https://csaf.itch.io/trove-gamemaker">Trove</a> for GameMaker, <a href="https://csaf.itch.io/coreclr-migration-scanner">CoreCLR Migration Scanner</a> and <a href="https://csaf.itch.io/play-compliance">Play Compliance</a> for Unity, and <a href="https://csaf.itch.io/asset-sentinel">Asset Sentinel</a> and <a href="https://csaf.itch.io/migration-ledger">Migration Ledger</a> for Unreal. Everything at <a href="https://csaf.itch.io">csaf.itch.io</a>.</p>
+<p><strong><a href="https://csaf.itch.io/cipher-core">Cipher Core</a></strong> &mdash; an invented written language your players actually learn &mdash; glyphs stay untranslated until deduced, then read as their meaning forever.</p>
