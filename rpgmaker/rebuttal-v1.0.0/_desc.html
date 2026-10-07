@@ -1,0 +1,51 @@
+<h2>Class-trial debates, inside your RPG Maker MZ game.</h2>
+<p>The cast sits in a ring. One after another they make their statements, and every statement flies across the stage as big moving type. Somewhere in one of them is a lie, glowing gold: the <strong>weak point</strong>. The player turns the cylinder to a truth bullet from the evidence they hold, aims, and fires. The right bullet on the right weak point breaks the statement apart and wins the debate. A wrong one costs influence. Run out of influence or time and the debate is lost.</p>
+<p><strong>You write only the words.</strong> A debate is a few Comment lines in a common event. Rebuttal composes how every statement moves from its own text and its speaker, so a debate looks directed without a single keyframe.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>RebuttalCore.js</code> — Rebuttal rules: reads a debate written in comments and composes how every statement moves. Load FIRST.</li>
+<li><code>RebuttalDraw.js</code> — Rebuttal's look: the trial ring, kinetic type and the weak-point glow, drawn in code. Load after RebuttalCore.</li>
+<li><code>Rebuttal.js</code> — Class-trial debates: statements fly as kinetic type; shoot the weak point with the right evidence. Load after RebuttalCore and RebuttalDraw.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time a debate opens, so Rebuttal works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Rebuttal.js</code> <em>first</em>. That is tested: the in-engine smoke run, the storyboard replay and the frame-cost gate all load the three files alphabetically and open a debate through the real plugin command. <code>Rebuttal.js</code> is the only file that touches RPG Maker; the other two are the rules and the drawing, and neither knows the engine exists. Switch <code>Rebuttal.js</code> off and nothing is patched.</p>
+<p><strong>It extends one core method by saved-original prototype extension, <em>not replaced</em>:</strong> <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Rebuttal co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Writing a debate</h3>
+<pre>Rebuttal: Mara | The lantern was {still burning} when we found him. | lantern
+Rebuttal: Ines | Are you sure the {ledger} was locked away? | ledger
+Rebuttal: Bram | I think... it was an accident...</pre>
+<ul>
+<li>Speaker, then the statement. Curly brackets mark the weak point, and the bullet that breaks it follows a second bar.</li>
+<li>A statement with no weak point is a distraction. <code>Rebuttal noise:</code> lines only add to the din.</li>
+<li>Bullets are your items: tag one <code>&lt;Rebuttal Bullet: lantern&gt;</code> and it joins the cylinder under its own name. With none held, the debate offers its own answers so you can test before the evidence exists.</li>
+<li>A line the plugin cannot read is skipped and named in the console with its comment line number, so a typo never vanishes silently.</li>
+</ul>
+<h3>The motion is composed, not keyframed</h3>
+<ul>
+<li><strong>Eight entrances</strong> taken in turn (slide, zoom, drop, rise, spin, type, split, sweep), so neighbouring statements never enter alike.</li>
+<li><strong>Seven paths</strong> (drift, arc, wave, orbit, zig, hold, tilt). Each speaker moves within their own family of three, and the words pick which.</li>
+<li><strong>Punctuation sets the emphasis:</strong> <code>!</code> punches in, <code>?</code> wobbles, <code>...</code> drifts.</li>
+<li>Long lines move slower so they stay readable, and a weak point is never split across two lines.</li>
+<li>A Seed parameter changes every motion; the same seed always repeats it.</li>
+</ul>
+<h3>Plugin command and parameters</h3>
+<ul>
+<li><strong>Start a Debate:</strong> the common event, influence (wrong shots allowed, 1 to 9) and a time limit (10 to 600 seconds). The event waits while the debate is on screen and continues when it ends.</li>
+<li><strong>Won switch:</strong> ON when the player breaks the right weak point, OFF when the debate is lost. <strong>Shots variable:</strong> how many shots were fired.</li>
+<li><strong>Playing:</strong> aim with the mouse, a finger or the arrow keys; Page Up / Page Down or the mouse wheel turn the cylinder; OK, a click or a tap fires. A weak point can only be hit while it is fully on screen.</li>
+</ul>
+<h3>Drawn in code</h3>
+<p>Nothing here is an image file. The trial ring and its named seats, the speaker's spotlight, every letter of every statement, the gold glow on a weak point, the crosshair, the revolver cylinder HUD with its influence pips and time bar, and the REFUTED stamp are all drawn with canvas paths. The type is a heavy display face from the player's system (Arial Black, Segoe UI Black, Impact), never RPG Maker's default font, and no stock window appears in the scene. No font or image file ships.</p>
+<h3>Tested in the real engine</h3>
+<p>Every check below ran in RPG Maker MZ's own runtime, from the exact zip you download: the plugin command through a real event interpreter, the files loaded alphabetically as a drag-in gives you, real keyboard, mouse wheel, click and touch input, a lost debate, a timed-out one and an empty one. A running debate measured <strong>2 draw calls per frame</strong> in the frame-cost gate.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>RebuttalCore.js</code>, <code>RebuttalDraw.js</code>, <code>Rebuttal.js</code>: raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+</ul>
+<p><strong>Version 1.0 is the debate.</strong> If you want menu-paced cross-examination instead, presenting an exhibit from a case file, that is our sibling plugin <strong>Verdict Core</strong>.</p>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text; the example lines in the Readme are placeholders you replace with your own.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
