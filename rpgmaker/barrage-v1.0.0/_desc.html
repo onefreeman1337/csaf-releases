@@ -1,0 +1,59 @@
+<p><strong>Every enemy attack becomes a dodge.</strong> When an enemy uses a skill that damages your party, the battle pauses and a framed arena opens. The player steers a small heart through that enemy's attack: embers spiralling out of a burning point, a wall of feathers with one gap, leaves sweeping across, rings of notes. Every hit the heart takes scales the damage. Touch nothing and the attack misses.</p>
+
+<p><strong>Nothing to author.</strong> Barrage composes every attack from the database you already have. What flies comes from the skill's element name (Fire throws embers), else the enemy's own name (a Crow throws feathers), else its strongest stat. How it flies is one of seven patterns chosen by the skill's hit type and scope. How dense and fast comes from the attacker's stats against the median of your own Enemies database, and a boss attacks in phases. Notetags override any of it.</p>
+
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>BarrageCore.js</code> — Barrage rules: reads an enemy and its skill, and composes the attack the player must dodge. Load FIRST.</li>
+<li><code>BarrageDraw.js</code> — Barrage's look: every projectile form drawn in code and baked once into one atlas. Load after BarrageCore.</li>
+<li><code>Barrage.js</code> — Every enemy attack becomes a dodge phase composed from that enemy's own database entry. Load after BarrageCore and BarrageDraw.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time a battle needs them, so Barrage works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Barrage.js</code> <em>first</em>. That is tested: the in-engine probes on all five sample troops, the frame-cost gate and a fresh install of the shipped zip into a blank MZ project all load the three files alphabetically. <code>Barrage.js</code> is the only file that touches RPG Maker; the other two are the rules and the drawn forms, and neither knows the engine exists. Switch <code>Barrage.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 6 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Spriteset_Battle.prototype.isBusy</code>, <code>Scene_Battle.prototype.createAllWindows</code>, <code>Scene_Battle.prototype.updateLogWindowVisibility</code>, <code>Scene_Battle.prototype.terminate</code>, <code>Game_Action.prototype.makeDamageValue</code>, <code>Game_Action.prototype.itemHit</code>.</p>
+<p>Because nothing is clobbered, Barrage co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends 2 methods on core singletons, the same way — original saved and called through:</strong> <code>BattleManager.setup</code>, <code>BattleManager.updateAction</code>. Another plugin patching those keeps working.</p>
+
+<h3>Seven patterns, eighteen drawn forms</h3>
+<ul>
+<li><strong>Patterns:</strong> rain, sweep, wall, spiral, ring, bounce and aimed. Each kind of skill (physical, magical, certain hit; one target or several) has three, and enemies take them in turn by their database id, so neighbouring enemies never attack alike.</li>
+<li><strong>Forms:</strong> ember, shard, spark, droplet, pebble, leaf, mote, wisp, blade, bone, feather, needle, stone, orb, coin, thorn, fang and note. No image files: every projectile is drawn in code and baked once into one texture.</li>
+<li><strong>Bosses:</strong> an enemy with 3 times the median Max HP of your database attacks in two phases of different patterns, three at 6 times.</li>
+</ul>
+
+<h3>Every attack can be dodged</h3>
+<p>A solver in the tests proves that every pattern at every tier has a path no shot touches, and a search finds one through every aimed attack. Shots that appear inside the arena fade in and cannot hit until they are solid; a spiral's burning source is on screen before its first arm. After a hit the heart blinks for 45 frames and cannot be hit again.</p>
+
+<h3>What the player gets</h3>
+<ul>
+<li>Arrow keys, a gamepad, the mouse or a finger: hold anywhere and the heart follows.</li>
+<li>A drawn arena frame, never a window skin, with the attacker's name above it, a hit flash and shake, and a verdict when it closes: UNTOUCHED and MISS, or the hits and the damage they did.</li>
+<li>No hits is a miss; each hit adds half the skill's damage, up to one and a half times (both adjustable).</li>
+</ul>
+
+<hr>
+
+<h3>What is in the box</h3>
+<ul>
+<li>Three plain, readable JavaScript files: <code>BarrageCore.js</code> (the rules), <code>BarrageDraw.js</code> (the drawn forms) and <code>Barrage.js</code> (the battle phase), plus a user guide with every table the plugin reads.</li>
+<li>Parameters: a disable switch, damage per hit, damage cap, a seed, the heart's shape (heart, diamond, star) and colour, and the label typeface.</li>
+<li>Notetags on an enemy or a skill: <code>&lt;Barrage Form: ember&gt;</code>, <code>&lt;Barrage Pattern: ring&gt;</code>, <code>&lt;Barrage Tier: 3&gt;</code>, <code>&lt;Barrage Boss&gt;</code>, <code>&lt;Barrage Off&gt;</code>.</li>
+<li>RPG Maker MZ. Built against MZ's own battle system; not yet tested with VisuStella's Battle Core.</li>
+</ul>
+
+<h3>How it was tested</h3>
+<p>Installed from the exact zip you download into a blank MZ project, the three files loading alphabetically, on MZ's own sample troops and their own AI: real keyboard, mouse and touch, every claim in the guide checked against the plugin, and an adversarial pass (bad parameters, a stat-less nameless enemy, leaving a battle mid-attack, resizing mid-attack). On the heaviest attack the plugin can compose, the whole battle scene draws in 31 draw calls a frame with no display object created per frame.</p>
+
+<hr>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/vista">Vista</a>: every battle draws its own arena, a backdrop composed from the troop and the map ($14.99).</li>
+<li><a href="https://csaf.itch.io/bivouac">Bivouac</a>: every enemy band stages its own ground ($14.99).</li>
+<li><a href="https://csaf.itch.io/sigil-core">Sigil Core</a>: every spell in your database gets its own drawn seal ($12.99).</li>
+<li><a href="https://csaf.itch.io/warhost">Warhost</a>: army battles with generated soldiers under generated banners ($14.99).</li>
+</ul>
+
+<p><em>AI disclosure: the code and the graphics of this product were made with AI assistance. It contains no audio and no narrative text.</em></p>

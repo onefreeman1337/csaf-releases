@@ -1,0 +1,11 @@
+<p><strong>Barrage is out: Undertale-style dodge battles for RPG Maker MZ, composed from your own database.</strong></p>
+
+<p>When an enemy uses a skill that damages the party, a framed arena opens and the player steers a small heart through that enemy's attack. Every hit the heart takes scales the damage; touch nothing and the attack misses.</p>
+
+<p>Nothing is authored by hand. The skill's element name picks what flies (Fire throws embers), else the enemy's own name (a Crow throws feathers), else its strongest stat. The skill's hit type and scope pick three of seven patterns (rain, sweep, wall, spiral, ring, bounce, aimed), and enemies take them in turn, so neighbours never attack alike. Density comes from the attacker's stats against your database's median, and an enemy with three times the median Max HP attacks in phases. Eighteen projectile forms, all drawn in code. Notetags override any of it.</p>
+
+<p><strong>Every attack can be dodged.</strong> A solver in the tests proves a never-hit path through every pattern at every tier, and a beam search finds one through every aimed attack. Shots that appear inside the arena fade in before they can hit, and a spiral's source is on screen before its first arm.</p>
+
+<p><strong>Tested from the downloadable zip</strong> in a blank MZ project with the files loading alphabetically, on MZ's own sample troops and their own AI, with real keyboard, mouse and touch, every claim in the guide checked and an adversarial pass. The heaviest attack it can compose draws the whole battle in 31 draw calls a frame.</p>
+
+<p>$14.99. The code and the graphics were made with AI assistance.</p>
