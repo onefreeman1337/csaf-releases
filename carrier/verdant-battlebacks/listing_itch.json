@@ -1,0 +1,100 @@
+{
+  "packId": "verdant-battlebacks",
+  "title": "Verdant Battlebacks: 40 Pixel Battle Backgrounds, 10 Biomes x 4 Times of Day, RPG Maker MZ, 1280x720 & VX Ace",
+  "shortText": "40 pixel-art battle backgrounds: 10 Verdant biomes at dawn, day, dusk and night. MZ, 1280x720 and VX Ace sizes.",
+  "priceUSD": 9.99,
+  "priceTier": "small",
+  "tags": [
+    "battleback",
+    "battle-background",
+    "rpgmaker",
+    "rpg-maker-mz",
+    "rpg-maker-vx-ace",
+    "pixel-art",
+    "background",
+    "jrpg",
+    "fantasy",
+    "16x16"
+  ],
+  "classification": "assets",
+  "aiDisclosure": {
+    "aiGenerated": "yes",
+    "code": true,
+    "graphics": true,
+    "sounds": false,
+    "textAndDialog": false
+  },
+  "metadata": {
+    "languages": [
+      "English"
+    ],
+    "madeWith": [
+      "RPG Maker MZ"
+    ]
+  },
+  "crossLinks": [
+    {
+      "label": "Verdant 01 Overworld",
+      "url": "https://csaf.itch.io/verdant-01-overworld"
+    },
+    {
+      "label": "Verdant Seasons",
+      "url": "https://csaf.itch.io/verdant-seasons"
+    },
+    {
+      "label": "Verdant 41 Taiga",
+      "url": "https://csaf.itch.io/verdant-41-taiga"
+    },
+    {
+      "label": "Verdant 24 Desert Kingdom",
+      "url": "https://csaf.itch.io/verdant-24-desert"
+    },
+    {
+      "label": "Verdant 08 Mire",
+      "url": "https://csaf.itch.io/verdant-08-mire"
+    },
+    {
+      "label": "Verdant 28 Deep Forest",
+      "url": "https://csaf.itch.io/verdant-28-deep-forest"
+    },
+    {
+      "label": "Verdant 23 Ruins",
+      "url": "https://csaf.itch.io/verdant-23-ruins"
+    },
+    {
+      "label": "Verdant 12 Scarp",
+      "url": "https://csaf.itch.io/verdant-12-scarp"
+    },
+    {
+      "label": "Verdant 25 Infernal",
+      "url": "https://csaf.itch.io/verdant-25-infernal"
+    },
+    {
+      "label": "Verdant 36 Mediterranean Coast",
+      "url": "https://csaf.itch.io/verdant-36-mediterranean-coast"
+    }
+  ],
+  "derived": {
+    "scenes": 40,
+    "biomes": 10,
+    "hours": 4,
+    "files": 360,
+    "sourceTiles": 143,
+    "mz": "40/40",
+    "side": "10/10",
+    "wide": "10/10",
+    "controlScale": 1.568,
+    "controlRows": 459
+  },
+  "description": "<p><strong>40 battle backgrounds for RPG Maker, in the Verdant series' pixel-art look: 10 biomes, each at dawn, day, dusk and night.</strong> Commercial use permitted in unlimited projects, no attribution required; you may not resell the art itself as an asset pack.</p>\n<p><strong>Compatibility:</strong> RPG Maker MZ with no plugin and no script: copy two folders into <code>img/</code> and choose the battleback in Map Properties or with Change Battle Background, front view or side view. A separate set at 1568x853 for MZ projects running at 1280x720. A set at 1000x740 (MZ's default size). VX Ace files at 580x444 (sized for VX Ace, not run in it). Every scene also comes as one flat image for any engine.</p>\n<h2>A battle that looks like the map it started on</h2>\n<p>Each biome is cut from a Verdant tileset: the ground is that pack's own shipped tiles laid out in perspective, and the props at the front are its own shipped props, at the 3x scale MZ draws a 16x16 map. The sky, the distant mountains, dunes and volcano, and the big framing trees, palms, columns and basalt are drawn by the same procedural engine, in the same palette. You do not need the tilesets to use this pack.</p>\n<ul>\n<li><strong>Meadow</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-01-overworld\">Verdant 01 Overworld</a> ($4.99)</li>\n<li><strong>Autumn Meadow</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-seasons\">Verdant Seasons</a> ($9.99)</li>\n<li><strong>Taiga</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-41-taiga\">Verdant 41 Taiga</a> ($9.99)</li>\n<li><strong>Desert</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-24-desert\">Verdant 24 Desert Kingdom</a> ($12.99)</li>\n<li><strong>Mire</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-08-mire\">Verdant 08 Mire</a> ($11.99)</li>\n<li><strong>Deep Forest</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-28-deep-forest\">Verdant 28 Deep Forest</a> ($12.99)</li>\n<li><strong>Ancient Ruins</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-23-ruins\">Verdant 23 Ruins</a> ($12.99)</li>\n<li><strong>Highland</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-12-scarp\">Verdant 12 Scarp</a> ($9.99)</li>\n<li><strong>Infernal</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-25-infernal\">Verdant 25 Infernal</a> ($9.99)</li>\n<li><strong>Coast</strong>: ground and props from <a href=\"https://csaf.itch.io/verdant-36-mediterranean-coast\">Verdant 36 Mediterranean Coast</a> ($9.99)</li>\n</ul>\n<h2>Two layers, the way RPG Maker draws them</h2>\n<p><code>battlebacks1</code> is the sky and the ground; <code>battlebacks2</code> is everything standing up, on transparency. Every scene puts its horizon on the same row, so any backdrop sits on any ground: the Ruins' columns on the Meadow, the Taiga's spruces over the Highland.</p>\n<h2>Why there is a 1280x720 folder</h2>\n<p>At 1280x720, MZ's own battleback code stretches a standard 1000x740 image by 1.568x, which softens pixel art, and in front view only its top 459 of 740 rows are on screen. The 1568x853 files draw at exactly 1:1.</p>\n<h2>Checked in a blank RPG Maker MZ project</h2>\n<p>We copied the folders into a new MZ project, started real battles in the MZ runtime (headless Chrome) and compared what the engine drew with the shipped files, pixel for pixel: <strong>40 of 40</strong> scenes in front view, <strong>10 of 10</strong> in side view and <strong>10 of 10</strong> at 1280x720, all with 0 pixels different. Every pixel of every file is a colour of the Verdant palette, every enlargement is a whole-number one, and the flat images equal their two layers combined. The RPG Maker MZ editor itself was not opened.</p>\n<h2>AI disclosure</h2>\n<p>Every image is drawn by our own procedural pixel-art engine, which is AI-written software. No image model, no scraped art and no training dataset were used, and nothing was traced.</p>",
+  "gallery": [
+    "cover.png",
+    "demo_ten_biomes_at_mz_816x624.gif",
+    "shot_1_ten_biomes.png",
+    "shot_5_the_battle_matches_the_map.png",
+    "shot_2_four_times_of_day.png",
+    "shot_4_two_layers.png",
+    "shot_3_up_close.png",
+    "shot_6_checked_in_rpg_maker_mz.png"
+  ]
+}
