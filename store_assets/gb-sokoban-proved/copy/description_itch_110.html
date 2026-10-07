@@ -1,0 +1,76 @@
+<p><strong>A type-setting puzzle for the Game Boy.</strong> You are a compositor. The copy line is
+pinned above the case, four lead sorts are lying loose in the forme, and the only tool you have is a
+blank quad you can shove them with. Get the line standing in the composing stick, in the right
+order, and it reads.</p>
+<p><strong>Play the demo in your browser right here.</strong> The full cartridge is a plain 32,768-byte
+ROM-only Game Boy cartridge image, with a valid Nintendo logo and a correct header checksum &mdash; the
+format emulators and flash carts take, with no patching and no BIOS.</p>
+<h3>Every forme ships with its proved shortest setting</h3>
+<p>This is the part that is not a figure of speech. Each of the forty formes was generated, then
+searched <strong>exhaustively</strong> &mdash; a complete search over every arrangement the board can
+reach &mdash; for the shortest possible sequence of pushes that sets the line. That number is
+<strong>BEST</strong> in the footer while you play.</p>
+<p>It is not a par. It is not the length of the first solution the generator stumbled on. It is the
+minimum, and there is no better one. They run from <strong>8 pushes to 18</strong>, and the case is
+ordered by that number, so it gets harder as you work through it.</p>
+<p>Then every one of the forty was played to a set line on this exact ROM by a bot, in exactly its
+proved number of pushes, before the cartridge was allowed out. So when you match BEST, you have
+found a shortest solution &mdash; not merely a good one.</p>
+<h3>The order is final, and that is the whole game</h3>
+<p>A sort can only be pushed, never pulled, and there is no row beneath the composing stick to stand
+in. So two sorts delivered into the stick in the wrong order <strong>can never be swapped</strong>.
+A forme can be permanently dead with everything still on screen and nothing obviously wrong.</p>
+<p>The solver proved that before a line of the game was written, which is why <strong>B undoes</strong>
+and <strong>SELECT restarts</strong>. They are not conveniences. Without them the cartridge would
+silently brick a board and never tell you.</p>
+<h3>Twenty-six letters, drawn as data</h3>
+<p>Every letterform is defined pixel by pixel, written as data by an AI, for a sixteen-pixel body in the Game Boy&#x27;s four
+shades &mdash; lit on the top left, shadowed on the bottom right, the printing face inset behind a bevel.
+The screens are composed at runtime out of those parts, so forty distinct formes exist in the game
+and <em>not one of them is stored as a picture</em>. There is no sprite sheet and no atlas. That is
+how the whole thing fits in 32 KB alongside the solver&#x27;s answers and the sound driver.</p>
+<p>A sort standing in its own place in the line lights up whole, in the brightest shade on the Game Boy&#x27;s
+screen, so you can always see how far along you are without reading a number. (The frame and the edges
+of the other sorts use that shade too, as thin lines; only a set sort is filled with it.)</p>
+<h3>Controls</h3>
+<p><strong>Title:</strong> <strong>LEFT/RIGHT</strong> choose the forme to start at · <strong>UP/DOWN</strong> jump ten · <strong>START</strong> begin · <strong>SELECT</strong> sound on or off · <strong>B</strong> credits</p>
+<p><strong>A forme:</strong> <strong>d-pad</strong> walk the quad, and walk into a sort to push it · <strong>B</strong> undo · <strong>SELECT</strong> restart the forme · <strong>START</strong> back to the title · <strong>A</strong> continue once a line is set</p>
+<h3>What you get</h3>
+<ul>
+  <li><strong>Forty formes</strong>, each with its proved minimum, ordered 8 pushes to 18.</li>
+  <li><strong>The full 32 KB ROM</strong> &mdash; a standard ROM-only cartridge image, no MBC, no patching.</li>
+  <li><strong>A forme picker on the title</strong>, so you can start at any forme and come back to the one you reached. There is no battery save.</li>
+  <li><strong>An ending</strong>: set the fortieth line and an end card counts how many of the lines you set held at the minimum, then a credits screen.</li>
+  <li><strong>Undo and restart</strong>, because the deadlock is real. Undo takes back your latest 64 pushes.</li>
+  <li><strong>Sound on the Game Boy&#x27;s own four channels</strong> &mdash; no samples, all synthesis, and
+      the sound follows the state rather than the button, so it can never tell you you made progress
+      when you took it back.</li>
+  <li>A readme that explains the rules properly, and a licence that says you may stream it, record
+      it and publish your routes. Both are in the download beside the cartridge.</li>
+</ul>
+<h3>The free demo</h3>
+<p>The browser demo above is the same engine with <strong>eight</strong> formes instead of forty. It
+is a genuinely different cartridge, not the full game with a lock on it &mdash; the two ROMs are compared
+by their checksums before either one ships, precisely so that cannot happen by accident. After its
+eighth forme it says so, and tells you what the full cartridge holds.</p>
+<h3>What was actually tested, and what was not</h3>
+<p>Every forme in this cartridge was played to a set line <em>on this exact ROM</em>, in the emulator
+binjgb, driven a frame at a time from a cold boot &mdash; and the screen it drew was compared pixel for
+pixel against a separate reference renderer. The cartridge also passes a header check read off its
+own bytes rather than off a build exit code.</p>
+<p><strong>It has not been run on physical hardware.</strong> Nobody here owns a Game Boy, a flash
+cart or an Analogue Pocket, so the honest claim is the format and the emulator, not a compatibility
+badge. If you do own the hardware and you run it, tell us how it went and we will say so here.</p>
+<h3>1.1.0</h3>
+<p>A forme picker on the title, and START in play goes back to it. The copy line says which forme of the forty you are on. The cartridge now ends, with a graded end card and a credits screen, and the demo ends with a card instead of starting over. The sound when a line is set now plays (a pitch sweep was switching the note off). Sound is switched on the title, and A no longer mutes in play, so a double tap to continue cannot silence the game. Undo past 64 pushes used to restore the wrong position; it now takes back your latest 64 pushes. The set screen says A CONTINUES, and the download now carries the readme and the licence.</p>
+<h3>Made by</h3>
+<p>Core Systems Asset Factory. GBDK-2020 C, written by AI &mdash; no engine, no template, no stock art.</p>
+<p><em>AI disclosure: this product is AI-written and tagged truthfully. Code &mdash; yes. Graphics &mdash; yes
+(the letterforms and pieces are authored as data by an AI). Text &amp; dialogue &mdash; yes (every word on screen;
+there is no story). Sounds &mdash; no: every
+sound is the Game Boy&#x27;s own hardware synthesiser driven by register writes, with no sample,
+soundfont or model anywhere in the chain.</em></p>
+<h3>More from CSAF</h3>
+<p>More games from the same studio:</p>
+<ul><li><a href="https://csaf.itch.io/witness-mark">WITNESS MARK</a></li><li><a href="https://csaf.itch.io/proofmark">PROOFMARK</a></li><li><a href="https://csaf.itch.io/scruple">SCRUPLE</a></li><li><a href="https://csaf.itch.io/rose-engine">ROSE ENGINE</a></li></ul>
+<p>Everything else we make is at <a href="https://csaf.itch.io">csaf.itch.io</a>.</p>
