@@ -1,0 +1,56 @@
+<h2>Emotion battles you can see, drawn over your own art.</h2>
+<p>Sentiment gives every battler in RPG Maker MZ a feeling: <strong>happy, sad or angry</strong>, each with three rungs. The feelings play rock paper scissors. <strong>Happy beats angry, angry beats sad, sad beats happy.</strong> An attacker whose feeling wins deals x1.5 damage, and one whose feeling loses deals x0.5. Both numbers are parameters, and heals are never scaled.</p>
+<p><strong>The feeling is drawn over the portraits and battlers you already have.</strong> Your faces are never swapped for stock ones. Sentiment draws on top of them the way an artist marks up a sheet: a wash that reads the picture under it, an outline scribbled by hand around the face or the creature's own silhouette, and the feeling's marks. Gold stars for happy. Falling streaks for sad. Popped veins and jagged ticks for angry. Manic looks nothing like Happy, and Furious looks nothing like Angry.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>SentimentCore.js</code> — Sentiment [1/3] — the emotion rules. Load first. No engine code. v1.0.0</li>
+<li><code>SentimentArt.js</code> — Sentiment [2/3] — the drawing kit: washes, scribbles and the emotion wheel. No engine code. v1.0.0</li>
+<li><code>Sentiment.js</code> — Sentiment [3/3] — emotion battles you can SEE: happy, sad and angry drawn over every portrait and enemy, three rungs deep. v1.0.0</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file resolves its siblings the first time a battle needs them, so Sentiment works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Sentiment.js</code> <em>first</em>. That is tested: the frame-cost gate and a fresh install of the shipped zip into a blank MZ project both load the three files alphabetically and run a real battle. <code>Sentiment.js</code> is the only file that touches RPG Maker; the other two are the rules and the drawing kit, and neither knows the engine exists. Switch <code>Sentiment.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 12 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_BattlerBase.prototype.initMembers</code>, <code>Game_BattlerBase.prototype.paramRate</code>, <code>Game_Battler.prototype.onBattleStart</code>, <code>Game_Battler.prototype.onBattleEnd</code>, <code>Game_Action.prototype.makeDamageValue</code>, <code>Game_Action.prototype.applyItemUserEffect</code>, <code>Window_BattleLog.prototype.displayAffectedStatus</code>, <code>Scene_Battle.prototype.terminate</code>, <code>Window_StatusBase.prototype.drawActorFace</code>, <code>Window_BattleStatus.prototype.drawItemImage</code>, <code>Sprite_Enemy.prototype.updateBitmap</code>, <code>Sprite_Actor.prototype.updateBitmap</code>.</p>
+<p>Because nothing is clobbered, Sentiment co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Nine feelings, three rungs each</h3>
+<ul>
+<li><strong>Happy, Ecstatic, Manic:</strong> quick and lucky, guard down. The wash lifts and warms the art.</li>
+<li><strong>Sad, Depressed, Miserable:</strong> hardened and slow. The wash drains the colour toward blue from the top down.</li>
+<li><strong>Angry, Enraged, Furious:</strong> hits harder, leaves itself open. The wash darkens toward red from the edges in.</li>
+<li>Every rung pushes the numbers further and draws heavier: more passes of the outline, more marks, a stronger wash.</li>
+</ul>
+<h3>Where it is drawn</h3>
+<ul>
+<li><strong>Battle portraits</strong>, with a small emotion wheel and the rung's name, so a player reads the whole party at a glance.</li>
+<li><strong>Every status portrait</strong> the engine draws through its standard face method.</li>
+<li><strong>Enemies</strong>, front view and side view, outlined around their own shapes.</li>
+<li><strong>Side-view actors</strong>, on every cell of the battler sheet, so the feeling moves with every motion.</li>
+<li>The marks keep off the face: no star and no vein enters the box where a standard MZ face has its eyes and mouth. Measured in pixels over 150 seeds per rung.</li>
+</ul>
+<h3>Notetags and commands</h3>
+<ul>
+<li><code>&lt;Sentiment: sad 2&gt;</code> on a skill or item and a hit leaves the target Depressed. <code>&lt;Sentiment: happy&gt;</code> pushes one rung more. <code>&lt;Sentiment: calm&gt;</code> clears it.</li>
+<li><code>&lt;Sentiment target: user&gt;</code> turns a skill inward: the feeling lands on the user.</li>
+<li><code>&lt;Sentiment max: 2&gt;</code> caps an actor or enemy. <code>&lt;Sentiment start: angry 1&gt;</code> sends an enemy in already angry.</li>
+<li>Two plugin commands, <strong>Set Feeling</strong> and <strong>Calm Feeling</strong>, from any event; a small script API for everything else.</li>
+<li>A battle log line when a feeling changes (<code>%1 feels %2!</code>, a parameter; blank shows nothing).</li>
+</ul>
+<h3>Built to sit quietly in a big project</h3>
+<p>Each treated picture is drawn once per face and rung and kept, so nothing is redrawn while a battle runs: the frame-cost gate measured a side-view battle with every battler feeling something at <strong>31 draw calls per frame</strong> with no display-object growth. Saves keep every feeling, and a save made before you installed it loads with everyone calm.</p>
+<h3>Tested in the real engine</h3>
+<p>Every check ran in RPG Maker MZ's own runtime, from the exact zip you download, installed into a blank project with the stock database and art: the files loaded alphabetically as a drag-in gives you, the notetags on the stock Attack skill and Goblin, the plugin command through a real event, a real attack (x1.5 one way, x0.5 the other), front view and side view, calm after battle and a save round trip. <strong>Not yet tested with VisuStella Battle Core</strong> or other plugins that replace battler sprites: put Sentiment below them, and if a combination misbehaves, two switches turn the enemy and side-view drawing off while the rules, the portraits and the wheel keep working.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>SentimentCore.js</code> (the rules), <code>SentimentArt.js</code> (the drawing kit), <code>Sentiment.js</code> (the only file that touches the engine): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+<li>No images, fonts or sounds: every mark is drawn in code over your art. The faces and creatures in these screenshots are our own demo art and do not ship.</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/barrage">Barrage</a>: Undertale-style dodge phases for MZ battles, generated per enemy.</li>
+<li><a href="https://csaf.itch.io/escutcheon-mz">Escutcheon</a>: the frame around your HUD, plates and gauges with real bezels.</li>
+<li><a href="https://csaf.itch.io/tether">Tether</a>: a relationship chart drawn as face medallions.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
