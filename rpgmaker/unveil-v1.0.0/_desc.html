@@ -1,0 +1,44 @@
+<h2>A Qix-style minigame for your RPG, and the prize is one of your own pictures.</h2>
+<p>Unveil puts one of your pictures under a veil. The player walks the edge of the land already revealed and, holding OK, cuts a line into the veil; when the line reaches revealed land again, every part of the veil with no creature in it falls away. A creature drifting under the veil that touches the line, or a spark running along the edge that touches the player, costs a life. Reveal the target share and the whole picture is shown. You add one plugin command and name a picture; the veil, the creature, the sparks and the scoring are Unveil's.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>UnveilCore.js</code> — Unveil 1/3 - the rules: a Qix-style territory-capture game over your picture. No engine code.</li>
+<li><code>UnveilDraw.js</code> — Unveil 2/3 - the drawing kit: three veils, the reveal rim, the trail, the creature, sparks. No engine code.</li>
+<li><code>Unveil.js</code> — Unveil 3/3 - a Qix-style minigame for MZ: claim the board to reveal one of your own pictures.</li>
+</ol>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Unveil co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Your pictures are the reward</h3>
+<ul>
+<li>Any picture in <code>img/pictures</code> goes under the veil: an event CG, a portrait, a map of the next region, a card from a collection. The picture is scaled to cover the board at whatever screen size your game runs.</li>
+<li>Win and the veil, the line and the creature are cleared away so the picture stands alone, with a results panel over it.</li>
+<li>Results go to a variable (the percent revealed) and a switch (won), so the next event can branch on it. The event waits while the game runs.</li>
+</ul>
+<h3>Three veils, drawn in code</h3>
+<p>Silk with draped folds and a woven damask diamond, frosted glass with branching ice ferns, and black lacquer struck with overlapping gold waves: three materials, not three colours. Revealed land is cut out of the veil with a glowing rim along every edge, the line being cut is a bright thread, the creature is a spinning many-armed wisp and the sparks are embers. The veil is redrawn only when land is revealed, never every frame.</p>
+<h3>Difficulty, measured</h3>
+<p>Target share, lives, how many creatures (1 to 4) and how many sparks (0 to 6) are arguments of the command. Each setting was played 200 times by a scripted player on the real rules: at the defaults a careful script that reads where the creature is heading wins <strong>72 to 75 games in 100</strong>, and a reckless one <strong>40 to 41</strong>. The Readme has the full table, from an easy 60% board with no sparks to a 95% board with four creatures and one life that neither script won once.</p>
+<h3>Controls</h3>
+<ul>
+<li>Arrow keys walk the edge; hold OK (or Shift) to cut. A line cannot cross itself.</li>
+<li>Touch: press and drag toward where you want to go; while pressed, you cut, and a cut whose finger stops a cell or two short of revealed land closes onto it.</li>
+</ul>
+<h3>Tested in the real engine</h3>
+<p>Whole games were played in RPG Maker MZ's own runtime from the exact zip you download, with the files loaded in alphabetical order as a drag-in gives you: held keys, Shift, real mouse and touch-drag input, a win, the results written back, a save and load of the record, garbage arguments, a missing picture, a 1280 x 720 screen. A running game with two creatures, two sparks and a player cutting measured 5 draw calls per frame with no window drawn and no display-object growth.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>UnveilCore.js</code> (the rules), <code>UnveilDraw.js</code> (the drawing kit), <code>Unveil.js</code> (the only file that touches the engine): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+<li>No images, fonts or sounds: the veils are drawn in code and the sound defaults are the RTP's own. The castle, dragon and lantern festival in these screenshots are our demo art and do not ship.</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/jigsaw">Jigsaw</a>: any picture in your project cut into a generated jigsaw with real knob-and-socket pieces.</li>
+<li><a href="https://csaf.itch.io/pendant">Pendant</a>: spot the difference, generated from any picture in your project.</li>
+<li><a href="https://csaf.itch.io/tilestack">Tilestack</a>: mahjong solitaire with drawn tiles and generated layouts.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
