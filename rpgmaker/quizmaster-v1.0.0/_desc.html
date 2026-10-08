@@ -1,0 +1,47 @@
+<h2>A quiz show for your RPG, with the questions written from your own database.</h2>
+<p>Quizmaster runs a game-show quiz in your game: the party leader on a podium against up to three rival contestants, a timer ring draining, four answers to pick from. Or a solo <strong>exam</strong> with a pass mark: a school, a guild test, a royal examiner. You add one plugin command. Quizmaster reads your items, skills, enemies, actors and classes, writes the questions itself, and draws the stage, the cards, the tiles and the podiums.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>QuizmasterCore.js</code> — Quizmaster 1/3 - the rules: questions written from your database, the quiz, the rivals. No engine code.</li>
+<li><code>QuizmasterDraw.js</code> — Quizmaster 2/3 - the drawing kit: stages, question cards, answer tiles, timer, marks. No engine code.</li>
+<li><code>Quizmaster.js</code> — Quizmaster 3/3 - quiz shows and exams for MZ, the questions written from your own database.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file finds the others the first time a quiz starts, so Quizmaster works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Quizmaster.js</code> <em>first</em>. That is tested: the in-engine smoke run (a quiz show through the real plugin command and an exam) and the frame-cost gate both load the three files alphabetically. <code>Quizmaster.js</code> is the only file that touches RPG Maker; it reads your database and never writes to it. Switch it off and nothing is patched.</p>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Quizmaster co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Questions from your data, not a list you have to type</h3>
+<ul>
+<li><strong>Eleven kinds:</strong> what an item costs, which of four costs the most, which is the weapon, a skill's MP cost, its element, the state it inflicts, which class learns it, an actor's class, an enemy's weakness, the toughest of four enemies, an enemy's gold drop.</li>
+<li>Every answer is checked against your data: a question is only written when exactly one choice is right. Ties, blank records, dividers, shared names and questions that give their own answer away are never asked.</li>
+<li>The stock MZ database alone writes <strong>392 questions</strong>, and your own database writes more as you add to it. A quiz deals them out one kind at a time, so a short quiz is never all prices.</li>
+<li>Each card pictures its subject with your own art: the item's icon, the enemy's image, the actor's face, or a drawn element mark.</li>
+</ul>
+<h3>Six stages, drawn in code</h3>
+<p>Game Show (curtains and a marquee), Classroom (a chalkboard), Tavern Trivia, Arcane Exam (a starfield and a rune circle), Royal Court and Carnival. Each is a different place, not a recolour, with its own card, tiles, timer and podiums.</p>
+<h3>Rivals and scoring</h3>
+<p>Rivals answer right about 45% (novice), 65% (sharp) or 85% (master) of the time, a little less on harder cards, so a show can be lost. A right answer earns 10 points plus up to 10 for speed; running out of time scores nothing. Rivals can wear your own actors' names and faces.</p>
+<h3>Wired into your game</h3>
+<ul>
+<li>One plugin command, <strong>Start Quiz</strong>: show or exam, 3 to 20 questions, 5 to 30 seconds each, the stage, rivals and their level, a pass mark, a seed for the same quiz every time.</li>
+<li>Results go to your variables (score, right answers, place), a switch (won or passed) and, if you like, gold per point. The event waits while the quiz runs.</li>
+<li>Keyboard, mouse and touch. The exam shows a progress strip: one mark per question, right or wrong.</li>
+</ul>
+<h3>Tested in the real engine</h3>
+<p>Whole quizzes were played in RPG Maker MZ's own runtime from the exact zip you download, on the stock database, with the files loaded in alphabetical order as a drag-in gives you: answers by keyboard and by mouse click, results written back, an exam passed. A running quiz show measured <strong>2 draw calls per frame</strong> with no display-object growth.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>QuizmasterCore.js</code> (the rules), <code>QuizmasterDraw.js</code> (the drawing kit), <code>Quizmaster.js</code> (the only file that touches the engine): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+<li>No images, fonts or sounds: every stage is drawn in code and the sound defaults are the RTP's own. The faces and monsters in these screenshots are our demo art and do not ship; your quiz shows your own.</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/taproom">Taproom</a>: tavern board games against your NPCs (Morris, Fox and Geese, Oware, Fanorona).</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a>: a snail-race meeting the player can bet on, with measured odds.</li>
+<li><a href="https://csaf.itch.io/tilestack">Tilestack</a>: mahjong solitaire with drawn tiles and generated layouts.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
