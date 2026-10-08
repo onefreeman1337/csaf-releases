@@ -1,0 +1,49 @@
+<h2>A typing battle for your RPG, with the words taken from your own database.</h2>
+<p>Incantation is Typing of the Dead for RPG Maker MZ. Foes walk toward the party down a drawn corridor, each carrying a word over its head, and typing the word strikes it down. The words are yours: the names of your skills (say the incantation to cast it), your enemies and your items, or any words you give a record in a notetag. You add one plugin command; the battle, the stage and the lettering are Incantation's.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>IncantationCore.js</code> — Incantation 1/3 - the rules: words harvested from your database, the typing battle. No engine code.</li>
+<li><code>IncantationDraw.js</code> — Incantation 2/3 - the drawing kit: three stages, word plates, ignited letters, candles. No engine code.</li>
+<li><code>Incantation.js</code> — Incantation 3/3 - typing battles for MZ: foes carry words from your own database; type a word to strike.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file finds the others the first time a battle starts, so Incantation works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Incantation.js</code> <em>first</em>. That is tested: the in-engine smoke run (a battle through the real plugin command, typed with real key presses) and the frame-cost gate both load the three files alphabetically. <code>Incantation.js</code> is the only file that touches RPG Maker; it reads your database and never writes to it, and it listens for keys only while a battle runs. Switch it off and nothing is patched.</p>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Incantation co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Your words, not a list you have to type in</h3>
+<ul>
+<li>Incantation reads your skills, enemies and items and keeps every name a keyboard can type. The stock MZ database alone gives <strong>159 words</strong>; your own database gives more as you add to it.</li>
+<li>A <code>&lt;Incantation: ignis ardens&gt;</code> notetag gives any record its own words, so a spell can be cast in Latin and a dragon can demand its true name.</li>
+<li>Blank names, dividers, names two records share and names a keyboard cannot type directly are skipped, never mangled.</li>
+<li>A battle deals short words first and long words last, and two foes never start with the same letter, so your first key always picks exactly one.</li>
+</ul>
+<h3>The lettering is the effect</h3>
+<p>Every word sits on a plate over its foe. The letters you type ignite, one by one, in the stage's own flame colour; the locked word lifts and glows; a wrong key reddens the plate and shakes it; a finished word flashes and burns away with its foe. Plates never print over one another, however crowded the corridor gets.</p>
+<h3>Three stages, drawn in code</h3>
+<p>The Crypt (torchlit arches receding into the dark), The Night Grove (a moonlit path between the trees, fireflies over it) and The Void Library (floating shelves over a glowing grid). The foes wear your own enemy pictures, scaled as they come down the corridor. Lives are candles, and a foe that reaches the party snuffs one.</p>
+<h3>Three difficulties, measured</h3>
+<p>Easy, normal and hard, each tested with a simulated typist over hundreds of battles: easy is won every time at 2 keys a second, normal about half the time at 3 and every time at 4, hard about nine times in ten at 6 keys a second. Three keys a second is roughly 35 words a minute.</p>
+<h3>Wired into your game</h3>
+<ul>
+<li>One plugin command, <strong>Start Typing Battle</strong>: difficulty, how many words, which lists the words come from, the troop whose pictures the foes wear, the stage, a seed for the same battle every time.</li>
+<li>Results go to your variables (score, words cleared), a switch (won) and, if you like, gold. The event waits while the battle runs.</li>
+<li>A battle needs a keyboard; there is no on-screen keyboard in this version.</li>
+</ul>
+<h3>Tested in the real engine</h3>
+<p>Whole battles were played in RPG Maker MZ's own runtime from the exact zip you download, on the stock database, typed with real key presses, with the files loaded in alphabetical order as a drag-in gives you: strikes, misses, a foe getting through, the results written back, the key listener removed afterwards. A hard battle with four foes and letters igniting several times a second measured 4.15 draw calls per frame on average, with no window drawn.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>IncantationCore.js</code> (the rules), <code>IncantationDraw.js</code> (the drawing kit), <code>Incantation.js</code> (the only file that touches the engine): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+<li>No images, fonts, sounds or word lists: the stages are drawn in code, the sound defaults are the RTP's own, and the words are your database's. The wolves and golems in these screenshots are our demo art and do not ship.</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/sigil-core">Sigil Core</a>: every skill draws its own animated sigil, generated from the skill's properties.</li>
+<li><a href="https://csaf.itch.io/taproom">Taproom</a>: tavern board games against your NPCs (Morris, Fox and Geese, Oware, Fanorona).</li>
+<li><a href="https://csaf.itch.io/tilestack">Tilestack</a>: mahjong solitaire with drawn tiles and generated layouts.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
