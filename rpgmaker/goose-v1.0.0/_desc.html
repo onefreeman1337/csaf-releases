@@ -1,0 +1,48 @@
+<h2>A party board game for your RPG, laid out and drawn by the plugin.</h2>
+<p>Goose drops a Mario Party-style dice board into your game: a fairground, a tavern night, a festival side quest. The party leader races up to three rivals along a trail of spaces, rolling the die and choosing at every fork between a <strong>shortcut</strong> full of hazards and a <strong>scenic route</strong> full of coins. You add one plugin command; Goose lays out the board from a seed and draws every bit of it: the landscape, the trail, each space, the pawns and the dice.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>GooseCore.js</code> — Goose 1/3 - the rules: generated boards, the race, the rivals. No engine code.</li>
+<li><code>GooseDraw.js</code> — Goose 2/3 - the drawing kit: landscapes, trails, tiles, tokens, dice. No engine code.</li>
+<li><code>Goose.js</code> — Goose 3/3 - party board games for MZ, laid out and drawn by the plugin.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every file finds the others the first time a game starts, so Goose works in whatever order the Plugin Manager gives you, including the alphabetical order you get by dragging the folder in, which puts the entry file <code>Goose.js</code> <em>first</em>. That is tested: the in-engine smoke run (a whole game through the real plugin command) and the frame-cost gate both load the three files alphabetically. <code>Goose.js</code> is the only file that touches RPG Maker; the other two are the rules and the drawing kit, and neither knows the engine exists. Switch <code>Goose.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Goose co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Six landscapes, generated</h3>
+<ul>
+<li><strong>Meadow, desert, snowfield, coast, forest and volcano</strong>, each with its own scenery and its own tile material (carved wood, sandstone, ice, shell, mossy stone, obsidian).</li>
+<li>Boards of 24 to 60 spaces with up to three forks, warps and event spaces. Leave the seed blank for a new board every visit, or give one for the same board every time.</li>
+<li>Every board is checked as it is laid out: the goal is reachable on every route, no dead ends, no overlapping spaces, no two hazards side by side on the open trail.</li>
+</ul>
+<h3>Eleven spaces</h3>
+<p>Coins (+3), Loss (-3), Chest (5 to 10 coins), <strong>Event</strong> (runs one of your common events), Warp, Roll again, Snare (lose a turn), Gust (blown back 2 to 4), Boost (forward 2 to 4), Start and Goal. Each has its own drawn glyph and a face colour the player learns once.</p>
+<h3>Rivals who play differently</h3>
+<p>Bold rivals always cut through the shortcut, steady ones always take the scenic route, and canny ones take the scenic route until they fall four moves behind. Measured over 9,000 games: bold wins 41 to 46%, canny 29 to 33%, steady 24 to 27%, while steady ends with nearly twice bold's coins. The fork is a real race-or-coins decision.</p>
+<h3>Wired into your game</h3>
+<ul>
+<li>One plugin command, <strong>Play Board Game</strong>: board size, forks, landscape, rivals (your own actors' names and faces, or named rivals), temper, one or two dice, a round limit.</li>
+<li>Results go to a variable (the player's place), a variable (coins), a switch (won) and, if you like, gold per coin.</li>
+<li>Event spaces run your common events, like a battle event: text, items, gold, switches.</li>
+<li>The party's faces ride on the pawns as medallions.</li>
+<li>Keyboard, mouse and touch: roll, pick a route at a fork (or click the space you want), hurry the rivals.</li>
+</ul>
+<h3>Tested in the real engine</h3>
+<p>Whole games were played in RPG Maker MZ's own runtime from the exact zip you download, through the real plugin command, with the files loaded in alphabetical order as a drag-in gives you: rolls, forks taken by keyboard, two dice, rival actors, an event space running a common event (including one that transfers the player), and the results written back. The busiest moment, the biggest board with three rivals moving, measured <strong>2 draw calls per frame</strong> with no display-object growth.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>GooseCore.js</code> (the rules), <code>GooseDraw.js</code> (the drawing kit), <code>Goose.js</code> (the only file that touches the engine): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+<li>No images, fonts or sounds: every board is drawn in code and the sound defaults are the RTP's own. The faces in these screenshots are our demo art and do not ship.</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/taproom">Taproom</a>: tavern board games against your NPCs (Morris, Fox and Geese, Oware, Fanorona).</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a>: a snail-race meeting the player can bet on, with measured odds.</li>
+<li><a href="https://csaf.itch.io/tilestack">Tilestack</a>: mahjong solitaire with drawn tiles and generated layouts.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
