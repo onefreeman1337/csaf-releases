@@ -1,0 +1,108 @@
+<p><strong>104 dialogue sounds. 13 speakers, not one blip pitched 13 ways.</strong></p>
+
+<p>Text advance blips are the sound almost every RPG and visual novel needs, and almost nobody
+sells properly. The usual pack gives you one blip, and a cast made by pitching that one blip up and
+down, so a party of six reads as one instrument playing a scale.</p>
+
+<p>This pack is <strong>13 genuinely different voices</strong>. Each one is a different synthesis
+method, not a different frequency: a ringing two pole resonator, a formant pair excited by noise, a
+bit crusher, a narrow pulse behind a low filter, a wide detune with a long tail.</p>
+
+<h3>Licence, up front</h3>
+
+<p><strong>Royalty free. Commercial use. No credit required. No revenue limit, no unit cap, no
+second licence to buy later if your game does well.</strong> Use it in as many projects as you like,
+on any platform, forever. The one thing you may not do is resell the sounds themselves as sounds.
+The full plain language terms ship as LICENSE.txt, and a copy paste credit line is included if you
+want to use it.</p>
+
+<p>Everything is synthesised from code. No recordings, no sample libraries, no third party clips, so
+there is no upstream licence sitting behind this one and nobody can content ID claim these sounds
+against your project.</p>
+
+<h3>Hear it first</h3>
+
+<p>There is a <strong>free demo</strong> on this page and it is not a teaser. It contains
+<strong>four complete voices</strong>, chosen by measurement from the darkest to the brightest end of
+the cast, with every one of the 8 cues included and copied unaltered. Play their four blips back
+to back. If those do not read as four different speakers to you, the rest will not either, and you
+will know before you pay.</p>
+
+<h3>The cast</h3>
+
+<ul>
+<li><strong>Narrator.</strong> Deliberately unremarkable. The voice that is not a character. <em>348 Hz</em></li>
+<li><strong>Merchant.</strong> Round and companionable, two detuned tones beating gently. <em>435 Hz</em></li>
+<li><strong>Beast.</strong> Low, noisy and inarticulate. Not a talker. <em>461 Hz</em></li>
+<li><strong>Rogue.</strong> Clipped short and dry. Says less per glyph than anyone. <em>581 Hz</em></li>
+<li><strong>Knight.</strong> Blunt and square edged, with weight behind it. <em>585 Hz</em></li>
+<li><strong>Noble.</strong> Clean, ringing and unhurried. The most tonal voice here. <em>686 Hz</em></li>
+<li><strong>Scholar.</strong> Measured and slightly muffled, as if speaking over a book. <em>837 Hz</em></li>
+<li><strong>Spirit.</strong> Thin, detuned and trailing. The longest decay in the cast. <em>865 Hz</em></li>
+<li><strong>Youth.</strong> Light and quick, with a little body under it. <em>1028 Hz</em></li>
+<li><strong>Child.</strong> Small, bright and very short. The highest voice in the cast. <em>1294 Hz</em></li>
+<li><strong>Herald.</strong> Brass forward, built from a formant pair rather than a filter. <em>1630 Hz</em></li>
+<li><strong>Crone.</strong> Breathy and grained, a formant excited by noise rather than a tone. <em>2904 Hz</em></li>
+<li><strong>Automaton.</strong> Quantised and rigid. Steps rather than glides. <em>3908 Hz</em></li>
+</ul>
+
+<p>Those figures are the mean brightness of each voice's own per glyph tick, measured off the
+shipped WAV files. The build compares all <strong>78 pairs</strong> and refuses to
+write the pack unless every pair is separated, by at least 12 percent in
+brightness or 25 percent in length, and unless the cast spans at least
+2 times overall. It measured <strong>10.67 times</strong>, with
+0 pairs failing. That check runs over the audio you get, not over a claim in
+a manifest.</p>
+
+<h3>Every speaker ships the same 8 cues</h3>
+
+<ul>
+<li><strong>blip_01.</strong> tick for one glyph, take 1</li>
+<li><strong>blip_02.</strong> tick for one glyph, take 2</li>
+<li><strong>blip_03.</strong> tick for one glyph, take 3</li>
+<li><strong>soft.</strong> the same voice lowered, for asides and whispers</li>
+<li><strong>loud.</strong> the same voice raised, for shouting and emphasis</li>
+<li><strong>question.</strong> rising inflection, for a line ending in ?</li>
+<li><strong>exclaim.</strong> emphatic hit, for a line ending in !</li>
+<li><strong>advance.</strong> page turn / next line, in this voice</li>
+</ul>
+
+<p>Three takes of the per glyph tick, because a blip fires once per character and one file machine
+guns inside a single sentence. A lower reading of the same voice for an aside and a higher, longer one
+for a raised voice. A rising cue for a
+line ending in a question mark and a hard one for an exclamation, because the blip systems players
+remember change the tick on punctuation. And a page turn in that voice's own timbre.</p>
+
+<p>The uniformity is an assertion in the generator rather than a convention: the build refuses to run
+if any voice is missing any cue, so none of them is the one that got rushed.</p>
+
+<h3>Fit</h3>
+
+<ul>
+<li><strong>WAV and OGG</strong> for every file, 16 bit, 44.1 kHz, mono.</li>
+<li><strong>Filenames are voice then cue</strong>, so a dialogue system that already knows who is
+talking needs one string concatenation.</li>
+<li><strong>One loudness band.</strong> The inner 80 percent sits inside 0.7 dB. The voices are
+meant to sound unlike each other; they are not meant to be at different volumes, so switching speaker
+never changes how loud the textbox is. The soft and loud cues differ in pitch and length, not level,
+so set their volume in your game for a real whisper or shout.</li>
+<li><strong>13 declared variation sets</strong>, one per voice, so you can load a set and pick at
+random without auditioning anything.</li>
+<li><strong>Nothing loops</strong>, and no file carries loop points. A looping dialogue blip is a
+defect.</li>
+<li><strong>pack_proof.json</strong> ships with the pack: 945 checks, 0 failed,
+with the per file measurements behind every number on this page.</li>
+</ul>
+
+<h3>Honest limits</h3>
+
+<p>These are synthesised character voices in the blip tradition, not recorded speech and not a vocal
+synthesiser. They say that someone is talking, the way a text advance blip does. They do not say
+words. And the measurements above are SIGNAL measurements: no clipping, no silence, trimmed edges,
+one loudness band and the cast separation. They are not a claim that it sounds good. That is what the
+free demo is for.</p>
+
+<p><em>AI disclosure, stated truthfully: the code that generates these sounds was written with AI
+assistance. The sounds themselves are self contained procedural synthesis, oscillators and filters
+and modal resonators evaluated in code, with no generative audio model at any point. The cover art
+and store graphics are AI generated.</em></p>
