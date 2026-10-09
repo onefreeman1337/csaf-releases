@@ -1,0 +1,50 @@
+<h2>Your own maps, under the sea. One notetag, and the plugin draws the rest.</h2>
+<p>RPG Maker MZ has no underwater mode. The usual answer is a recipe of four or five plugins: a fog with a water picture, a blue tint, a particle plugin for bubbles, a displacement filter, a layer for caustics. Fathom is that whole scene as one plugin, and it draws every part of it itself. Put <code>&lt;underwater&gt;</code> in a map's note and that map, even an ordinary town, is seen through the water. No image files ship with Fathom.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>FathomCore.js</code> — Fathom Core - the underwater rules: depth light, caustics, sea life species. Required by Fathom.</li>
+<li><code>FathomPaint.js</code> — Fathom Paint - draws every sea creature, bubble and light shaft in code. Required by Fathom.</li>
+<li><code>Fathom.js</code> — Fathom - your own maps under the sea: caustic light, light shafts, swaying kelp, sea life and a dive in.</li>
+</ol>
+<p><strong>Core methods extended — 6 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_System.prototype.onAfterLoad</code>, <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>, <code>Spriteset_Map.prototype.destroy</code>, <code>Scene_Map.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Fathom co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also defines one method that its core class only inherited:</strong> <code>Game_Player.prototype.realMoveSpeed</code> (inherited from <code>Game_CharacterBase</code>). That touches <code>Game_Player</code> only, never the parent. If another plugin redefines the same method on the same class, load Fathom after it.</p>
+<h3>What it draws</h3>
+<ul>
+<li><strong>Light that reads as water.</strong> The colours are graded by depth: the reds go first, then the greens, and the light falls away. Murk sets how much of the water's own colour hangs in the scene, and your map's own rivers and ponds sink into it.</li>
+<li><strong>Caustics.</strong> A network of light crawls over the floor, two layers moving against each other, brightening and fading by region. Floors catch it fully, walls, roofs and water less, read from which kind of tile each cell of your map is.</li>
+<li><strong>Light shafts</strong> slant down from the surface and waver, anchored to the map so they slide past as the camera moves.</li>
+<li><strong>Sea grass.</strong> Any tile with the Bush flag (grass, reeds, shrubs) sways in the current from its foot.</li>
+<li><strong>Bubbles</strong> rise from every character on a breathing rhythm, and plankton motes drift through the light.</li>
+<li><strong>A refraction wobble</strong> over the whole scene, as if seen through moving water.</li>
+</ul>
+<h3>48 species of sea life, drawn by the plugin</h3>
+<p>Every creature is built from its parts: a body plan, a body, a tail, a pattern and a palette. Fish swim in schools that part around the party and close up behind it; rays glide overhead; jellyfish drift with the current; eels and crabs keep to the floor; seahorses hang in the water. Swimmers sit above the floor in clearer water, keep more of their colour, and cast soft shadows on the floor below. Each map always holds the same life, deep maps gather more jellyfish and eels, and a <code>life</code> word sets how much.</p>
+<h3>Dive and Surface</h3>
+<p>Two plugin commands in place of Transfer Player. <strong>Dive:</strong> the water breaks at the party in a splash of rings and thrown drops, the screen sinks into blue, and on the new map the light clears to the water's own colour. <strong>Surface:</strong> the light rises to white and the party breaks the surface with a splash.</p>
+<h3>Optional rules</h3>
+<ul>
+<li><strong>Slower movement</strong> under water (followers follow at the same pace).</li>
+<li><strong>Air:</strong> a column of bubbles on screen shows what is left. When it runs out, your common event runs, or the party loses 5% of max HP each second, never below 1. It refills above water and with the Refill air command.</li>
+<li><strong>Set this map underwater or dry</strong> at run time: a flooding room, a drained cistern. Kept in the save.</li>
+</ul>
+<h3>One notetag, seven words</h3>
+<p><code>&lt;underwater: depth 1, murk 10, current 90 1.5, life 150, shafts 5, kelp off, caustics 120&gt;</code>. Every word is optional and clamped to its range; an unknown word is ignored, never fatal.</p>
+<h3>Tested in the real engine</h3>
+<p>Every effect, both transitions, the air rule and a save and load were run in RPG Maker MZ's own runtime from the exact zip you download, on our own test maps and installed into a blank MZ project with the stock tileset. On the busiest of our test maps (a 36 by 26 reef with the most sea life and swaying kelp), MZ's frame gate measured 17.85 draw calls per frame, 0.003 texture uploads per frame and no display-object growth over 600 frames, three runs. The town and the hamlet in these screenshots are our own test tilesets; Fathom ships neither, and draws over whatever tileset your maps use.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>FathomCore.js</code> (the rules), <code>FathomPaint.js</code> (the drawing) and <code>Fathom.js</code> (the engine side): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/vivarium">Vivarium</a>: the small life a real place has, above the water: butterflies over grass, dragonflies over ponds, fish shadows under the surface.</li>
+<li><a href="https://csaf.itch.io/creel">Creel</a>: every fish your game can catch, drawn at run time from its own data.</li>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a>: the drifting shadows of passing clouds over your maps, shaped to each map.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI; every effect and creature is drawn by that code at run time. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
