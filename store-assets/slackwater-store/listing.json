@@ -1,0 +1,25 @@
+{
+  "title": "Slackwater: Fishing Sound Effects",
+  "slug": "slackwater-fishing-sound-effects",
+  "priceUSD": 7.99,
+  "priceTier": "small",
+  "shortText": "Fishing SFX on 5 waters: cast, bite, a 5 rung drag, the catch by size, ice. Royalty free, commercial use.",
+  "tags": [
+    "sound-effects",
+    "fishing",
+    "water",
+    "audio",
+    "royalty-free",
+    "game-audio",
+    "cozy",
+    "ambience",
+    "wav",
+    "ogg"
+  ],
+  "html": "<h2>The whole catch, on 5 waters</h2>\n<p><strong>129 fishing sounds</strong> built as one rod, one reel and one line, fished on 5 different waters: still pond, river current, sea pier, ice hole, night lake. The cast, the bobber, the bite, the fight on the drag, the catch by fish size, the net, the landing and the release, ice fishing, and a seamless bed for every spot.</p>\n<p>There is a <strong>free demo below</strong>: 32 of the 129 sounds, one catch played start to finish on each of the 5 waters. Put it in your game before you decide.</p>\n<h3>The licence, in plain words</h3>\n<ul>\n<li><strong>Royalty free in commercial games.</strong> Ship as many titles as you like.</li>\n<li><strong>No attribution required.</strong> A credit line is welcome, never demanded.</li>\n<li><strong>No per title limit, no revenue cap, no registration.</strong></li>\n<li>You may not resell or redistribute the pack itself as a sound pack.</li>\n</ul>\n<p>Credit line, if you want one:</p>\n<pre><code>Fishing sounds: \"Slackwater\" by Core Systems Asset Factory</code></pre>\n<h3>The same lure on five waters</h3>\n<p>Every water action comes in two takes on every water (50 files): lure lands (small), lure lands (large), bobber nibble, bobber dip, bite strike. The file name is built from your game state:</p>\n<pre><code>&lt;action&gt;_&lt;water&gt;_&lt;take&gt;.ogg      e.g. strike_river_02.ogg</code></pre>\n<p>Every one of the <strong>100 pairs</strong> of water files that differ in one thing (two waters for the same action, or two actions on the same water) was measured apart on brightness or on length. None failed.</p>\n<h3>A drag you can wire to line tension</h3>\n<p><strong>5 seamless drag loops</strong>, from a slow ratchet tick to a screaming run, each measured brighter than the last (1.68x end to end), plus three reel retrieve speeds. Index them by tension and crossfade between neighbours:</p>\n<pre><code>drag = \"drag_\" + clamp(1 + floor(tension * 5), 1, 5) + \"_loop.ogg\"</code></pre>\n<p>The fight has a four rung struggle ladder, a run and a leap; the catch comes in four fish sizes, and a bigger fish lands darker and longer.</p>\n<h3>The rest of the tackle box</h3>\n<p>Casts at three rod weights, the bail, line peel and line snaps, the tackle box and the bait, the net, a fish landing on deck, bank or ice, the release, and for the ice hole: the auger, the chips cleared and the ice creaking. Every spot has an 8 second bed and two layers built to stack on it. No animal calls and no music.</p>\n<h3>The formats</h3>\n<ul>\n<li><strong><code>.wav</code></strong> source grade and <strong><code>.ogg</code></strong> engine ready, 44.1 kHz, 16-bit mono, every file in both.</li>\n<li><strong>23 seamless loops</strong> with sample accurate loop points in the file.</li>\n<li>A <strong>naming manifest</strong> listing every file, and import notes for Unity, Godot, Unreal, GameMaker, RPG Maker, FMOD, Wwise and the web.</li>\n</ul>\n<h3>Measured, and said plainly</h3>\n<p>A <code>pack_proof.json</code> ships in the download with a sha256 and a full measurement record for every one of the 129 files. <strong>1194 signal checks</strong> passed over the shipped audio: no clipping, no silent renders, no abrupt starts or ends, loop seams measured two ways, and the inner 80% of the pack inside <strong>1.2 dB</strong>.</p>\n<p>What was not measured is whether it sounds good. That is why the demo is free.</p>\n<h3>How it was made</h3>\n<p>Every sound is computed procedurally from hand written models. No sample library, no recording and no generative audio model was used. The code and the cover art were made with AI assistance.</p>\n<h3>More water from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/leeward-ships-sea-and-harbour\">Leeward: Ships, Sea and Harbour</a> for the boat you fish from.</li>\n<li><a href=\"https://csaf.itch.io/wade-liquid-and-submerged-movement\">Wade: Liquid, Wet and Submerged Movement</a> for walking the bank and wading in.</li>\n<li><a href=\"https://csaf.itch.io/squall-weather-systems\">Squall: Weather Systems, Layered and Rampable</a> for the rain that comes in over the lake.</li>\n</ul>\n<p><em>Core Systems Asset Factory</em></p>",
+  "links": [
+    "https://csaf.itch.io/leeward-ships-sea-and-harbour",
+    "https://csaf.itch.io/wade-liquid-and-submerged-movement",
+    "https://csaf.itch.io/squall-weather-systems"
+  ]
+}
