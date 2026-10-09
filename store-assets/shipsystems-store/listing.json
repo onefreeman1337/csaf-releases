@@ -1,0 +1,24 @@
+{
+  "title": "Ship Systems: Sci-Fi Interface and Machinery SFX",
+  "slug": "ship-systems-sci-fi-sfx",
+  "priceUSD": 10.99,
+  "priceTier": "default",
+  "shortText": "139 sci-fi sounds for one spaceship: console UI, airlock, doors, reactor, drive, shields and alerts. WAV and OGG.",
+  "tags": [
+    "sound-effects",
+    "audio",
+    "game-audio",
+    "sci-fi",
+    "space",
+    "spaceship",
+    "user-interface",
+    "loops",
+    "royalty-free",
+    "wav"
+  ],
+  "html": "<h2>Ship Systems: Sci-Fi Interface and Machinery</h2>\n<p><strong>One spaceship, 139 sounds. The console, the airlock and the red alert all sound like the same vessel.</strong></p>\n<p>Most sci fi packs are folders of unrelated noises. Every sound here goes through the same hull resonator and the same room, then one loudness target, so your interface, your doors and your reactor belong to one ship. Measured inner loudness range across all 139 files: 0.82 dB.</p>\n<p><strong>Royalty free. Commercial use. No attribution required.</strong> A plain language licence ships in the zip, with a copy and paste credit line for anyone who wants one. The one thing you may not do is resell the sounds as a sound pack.</p>\n<h3>Whole systems, not single cues</h3>\n<p>10 ship systems, every state shipped: reactor (start, idle, overload, shutdown, scram); main drive (ignite, cruise, full burn, cutoff, flameout); deflector shield (raise, hold, hit, collapse); airlock (unlock, cycle, open, close, seal); blast door (start, move, stop, jam); corridor door (open, close, locked); lift (start, move, arrive); cryopod (unseal, open, close); console (boot, idle, shutdown); transporter (charge, beam, arrive).</p>\n<h3>Ladders you wire to a number</h3>\n<ul>\n<li><strong>Reactor load</strong>: 4 rungs. One core at four loads, from standby hum to overload. Same core, same pitch: crossfade the rungs.</li>\n<li><strong>Main drive thrust</strong>: 4 rungs. The main drive from idle to full burn. Wire it to the throttle.</li>\n<li><strong>Alert severity</strong>: 4 rungs. Four alert levels, advisory to red alert. Each loops seamlessly; swap the loop as the threat rises.</li>\n<li><strong>Shield and capacitor charge</strong>: 4 rungs. Four charging lengths for a capacitor, a shield or a charged shot. Longer charge, longer rise.</li>\n<li><strong>Sensor ping range</strong>: 4 rungs. A sensor ping at four ranges. The further the contact, the longer the return.</li>\n</ul>\n<h3>In the box</h3>\n<ul>\n<li>139 sounds in <code>.wav</code> (16 bit, 44.1 kHz, mono) and <code>.ogg</code></li>\n<li>22 seamless loops with loop points written into the files (smpl chunk and OGG loop tags)</li>\n<li>31 variation sets for anti repetition</li>\n<li>A naming manifest, per engine import notes (Unity, Unreal, Godot, GameMaker, RPG Maker, Web) and a proof file with a sha256 and a measurement record for every sound</li>\n</ul>\n<h3>Free demo</h3>\n<p>Download the free demo first: the whole alert ladder, the whole reactor ladder, every state of the airlock, the core interface cues and the bridge bed. Same audio, same licence.</p>\n<h3>How it was made</h3>\n<p>Every sound is synthesised from code by Core Systems Asset Factory: no samples, no recordings, no third party audio. The code was written with AI assistance; no generative audio model was used for the sounds. Cover and store graphics are AI generated.</p>\n<h3>More machines from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/haulage-vehicle-motor-machine-sfx\">Haulage: Vehicle, Motor and Machine SFX</a> for the ground vehicles and industrial plant planetside.</li>\n<li><a href=\"https://csaf.itch.io/tally-clicker-feedback\">Tally: Clicker Feedback</a> for upgrade and reward ladders in a management screen.</li>\n</ul>",
+  "links": [
+    "https://csaf.itch.io/haulage-vehicle-motor-machine-sfx",
+    "https://csaf.itch.io/tally-clicker-feedback"
+  ]
+}
