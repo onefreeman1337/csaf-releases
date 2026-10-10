@@ -1,0 +1,25 @@
+{
+  "title": "Pithead: The Working Mine Sound Effects",
+  "slug": "pithead-working-mine-sound-effects",
+  "priceUSD": 10.99,
+  "priceTier": "default",
+  "shortText": "108 mine sound effects: pick strikes by rock hardness, minecart, winch, cave-in and three rooms. WAV + OGG.",
+  "tags": [
+    "sound-effects",
+    "mining",
+    "cave",
+    "dungeon",
+    "foley",
+    "ambience",
+    "game-audio",
+    "royalty-free",
+    "wav",
+    "ogg"
+  ],
+  "html": "<h2>One working mine, heard as one place</h2>\n<p><strong>108 mine sounds built from one set of rock, iron, oak and water models: picks ranked by rock hardness, the minecart, the winch and the cave-in as whole lifecycles, footsteps on four grounds in three rooms, and 13 seamless loops.</strong></p>\n<h3>Licence, up front</h3>\n<p><strong>Royalty free. Commercial use. No credit required. No revenue limit, no unit cap, no second licence to buy later if your game does well.</strong> Use it in as many projects as you like, on any platform. The one thing you may not do is resell the sounds themselves as sounds. The full plain language terms ship as LICENSE.txt, with a copy paste credit line if you want one.</p>\n<p>Everything is synthesised from code. No recordings, no sample libraries, no third party clips, so there is no upstream licence behind this one and nobody can content ID claim these sounds against your project.</p>\n<h3>Hear it first</h3>\n<p>There is a <strong>free demo</strong> on this page: <strong>18 sounds</strong> copied unaltered from the paid files. The same rock step and the same blast in all three rooms, the whole hardness ladder, the minecart's complete lifecycle and a room bed.</p>\n<h3>What is in it</h3>\n<ul>\n<li><strong>Pick and hammer</strong> (19)</li>\n<li><strong>Footsteps in three rooms</strong> (24)</li>\n<li><strong>Ore and spoil</strong> (10)</li>\n<li><strong>Minecart</strong> (9)</li>\n<li><strong>Winch and cage</strong> (9)</li>\n<li><strong>Timber and cave-in</strong> (10)</li>\n<li><strong>Lamps, fuses and blasts</strong> (14)</li>\n<li><strong>Cave water</strong> (10)</li>\n<li><strong>Room beds</strong> (3)</li>\n</ul>\n<h3>Three rooms</h3>\n<p>Footsteps on rock, gravel, plank and water ship in the <strong>gallery</strong> (a narrow rock tunnel), the <strong>shaft</strong> (tall, long tail) and the <strong>pithead</strong> (open air), and so does the blast. Files are named step_ground_room_take, so when the player moves, you change one word. Measured on the shipped files, the room changes every step and the ground changes every step: 12 room pairs and 18 ground pairs, 0 too close.</p>\n<h3>Ladders and lifecycles</h3>\n<ul>\n<li><strong>Pick by hardness:</strong> clay seam, coal face, ore vein, granite climb from 1738 Hz to 3741 Hz. Index it by the rock being mined.</li>\n<li><strong>Cart by speed:</strong> three roll loops climb from 1856 Hz to 3338 Hz. Crossfade as the cart speeds up.</li>\n<li><strong>Minecart, Winch and cage, Cave-in:</strong> each ships its start, a seamless loop while it runs, its stop and the way it fails (a derail, a jam, a collapse). 12 states, every loop flag read out of the file.</li>\n</ul>\n<p>5 ladder steps, every one climbing; a ladder that stalls or reverses fails the build.</p>\n<h3>Fit</h3>\n<ul>\n<li><strong>WAV and OGG</strong> for every file, 16 bit, 44.1 kHz, mono, with a manifest listing every file by slot.</li>\n<li><strong>13 seamless loops</strong> with sample accurate loop points in the WAV and the OGG: the carts, the winch, the rumble before a collapse, a lamp, a fuse, seeping and flooded water, a drip field and the three rooms as beds. Checked in a blank Godot 4 project: the WAV loops import looping with default settings.</li>\n<li><strong>One loudness band</strong>: the inner 80 percent of the pack sits inside 5.47 dB.</li>\n<li><strong>pack_proof.json</strong> ships with the pack: 996 checks, 0 failed.</li>\n</ul>\n<h3>Honest limits</h3>\n<p>These are synthesised mine sounds, not field recordings. The measurements above are signal measurements, not a claim that it sounds good. That is what the free demo is for.</p>\n<p><em>AI disclosure, stated truthfully: the code that generates these sounds was written with AI assistance. The sounds themselves are self contained procedural synthesis, with no generative audio model at any point. The cover art and store graphics are AI generated.</em></p>\n<h3>More places from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/leeward-ships-sea-and-harbour\">Leeward: Ships, Sea and Harbour</a>, one ship built from the same kind of material models.</li>\n<li><a href=\"https://csaf.itch.io/haulage-vehicle-motor-machine-sfx\">Haulage: Vehicles, Motors and Machines Under Load</a>, engines and machines as load ladders.</li>\n<li><a href=\"https://csaf.itch.io/portcullis-dungeon-mechanisms\">Portcullis: Dungeon Mechanisms</a>, doors, chests, levers and traps as whole lifecycles.</li>\n</ul>",
+  "links": [
+    "https://csaf.itch.io/leeward-ships-sea-and-harbour",
+    "https://csaf.itch.io/haulage-vehicle-motor-machine-sfx",
+    "https://csaf.itch.io/portcullis-dungeon-mechanisms"
+  ]
+}
