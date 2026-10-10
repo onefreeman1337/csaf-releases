@@ -1,0 +1,46 @@
+<h2>Picture word puzzles for your RPG, built from the art your game already has.</h2>
+<p>Rebus turns your database into a word game. It pins two to four of your icons that share a name to a cork board and asks what they have in common. It stands an enemy battler on a spotlit stage as a black silhouette. It shows an actor's face through a brass lens that slowly widens, or breaks a picture into blocks that sharpen over time. The player spells the answer from a tray of carved tiles. You add one plugin command; every round comes from your weapons, armours, skills, items, enemies and actors.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>RebusCore.js</code> — Rebus 1/3 - the rules: rounds harvested from your database, the letter tray, hints and scoring. No engine code.</li>
+<li><code>RebusDraw.js</code> — Rebus 2/3 - the drawing: letter tiles in four materials, slots, the board and the stage. Canvas only.</li>
+<li><code>Rebus.js</code> — Rebus 3/3 - picture word puzzles from your own database: four pictures, silhouette, close-up and mosaic rounds.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+<h3>Four kinds of round, all from your database</h3>
+<ul>
+<li><strong>Four pictures:</strong> the weapons of one weapon type, the armours of one type or slot, the skills of one element or skill type, the items of one category. The answer is the type's name, and each picture is a DIFFERENT icon.</li>
+<li><strong>Silhouette:</strong> an enemy battler blacked out under a spotlight, shown in colour with a SOLVED stamp when the player names it.</li>
+<li><strong>Close-up:</strong> a brass lens that starts on one detail of a face, a battler or an icon and widens to the whole picture over the reveal time.</li>
+<li><strong>Mosaic:</strong> the picture as 32 px blocks that sharpen into the full picture.</li>
+</ul>
+<h3>Your own groups</h3>
+<p>Tag any item, weapon, armour or skill with <code>&lt;Rebus Group: Fish&gt;</code> and it joins a round whose answer is that word, so icons your database never typed together can still share a board. <code>&lt;Rebus: skip&gt;</code> leaves a record out; <code>&lt;Rebus: word&gt;</code> gives an enemy or actor a different answer.</p>
+<h3>Drawn, not windowed</h3>
+<p>No RPG Maker window appears anywhere in the scene. The tiles are carved in wood, brass, ivory or slate (one parameter), the board is cork with pinned, matted photographs, the stage has velvet curtains and a spotlight cone, the lens is a riveted brass porthole. A <strong>Pixel art pictures</strong> switch keeps sharp pixels at every scale for pixel-art games.</p>
+<h3>Playing</h3>
+<ul>
+<li>Click or tap a tile, or type its letter. Click a filled slot, or press Backspace, to take it back. Escape ends the game early.</li>
+<li>Two hints: Letter locks the next correct letter, Clear removes every decoy. Hints cost points, and gold if you set a price.</li>
+<li>Score, solved count and an all-solved switch go back to your variables, so the next event can branch on them.</li>
+</ul>
+<h3>Tested in the real engine</h3>
+<p>Whole games were played in RPG Maker MZ's own runtime from the exact zip you download, in a blank project with the stock database: answers typed on the keyboard, tiles and hint plates clicked with the mouse, the results written back. The adversarial pass covered a database with nothing to ask, names it cannot spell, more rounds than the database holds, a hint the party cannot afford, Escape in the same frame as a letter, two hundred keys in one frame, a missing battler file and a 1280 x 720 screen. A running game typing an answer every few frames measured 2 draw calls per frame, with no window drawn and no display-object growth.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>RebusCore.js</code> (the rules), <code>RebusDraw.js</code> (the drawing kit), <code>Rebus.js</code> (the only file that touches the engine): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+<li>No images, fonts or sounds. The gems, jugs, fish, creatures and faces in these screenshots are CSAF demo art and do not ship: your game uses its own. The creatures and faces are sold separately as <a href="https://csaf.itch.io/kithfell-03-the-wildwood">Kithfell 03: The Wildwood</a>, <a href="https://csaf.itch.io/mourncrest-01-restless-dead">Mourncrest 01: The Restless Dead</a> and <a href="https://csaf.itch.io/hearthhands-portraits">Hearthhands Portraits</a> (MZ face sets included).</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/jigsaw">Jigsaw</a>: any picture in your project cut into a generated jigsaw with real knob-and-socket pieces.</li>
+<li><a href="https://csaf.itch.io/pendant">Pendant</a>: spot the difference, generated from any picture in your project.</li>
+<li><a href="https://csaf.itch.io/unveil">Unveil</a>: a Qix-style minigame where the prize is one of your own pictures.</li>
+<li><a href="https://csaf.itch.io/quizmaster">Quizmaster</a>: quiz shows written from your database.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
