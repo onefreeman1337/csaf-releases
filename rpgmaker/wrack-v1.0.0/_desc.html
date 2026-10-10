@@ -1,0 +1,43 @@
+<h2>Your own town after the fire, the war or the years, made from your own tileset.</h2>
+<p>Every story with a war, a dragon or a time skip needs the same town twice: before and after. Wrack makes the after from the before. When a map loads it reads the tileset images your project already uses and derives four states from those pixels, then switches the whole map, a region or a single building into one of them, and can play the change on screen. Your map file is never touched, so events, cutscenes and passability stay exactly as you made them. No image files ship with Wrack, and nothing is drawn by hand: every changed tile is made from your own art.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>WrackCore.js</code> — [Wrack] Core: derives burned, ruined, overgrown and abandoned tiles from your own tileset pixels.</li>
+<li><code>Wrack.js</code> — [Wrack] Your own town burned, ruined, overgrown or abandoned, re-struck from your own tileset at load time.</li>
+</ol>
+<p><strong>Core methods extended — 11 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Tilemap.prototype._addAllSpots</code>, <code>Tilemap.prototype._addSpotTile</code>, <code>Tilemap.prototype.updateTransform</code>, <code>Tilemap.prototype._addSpot</code>, <code>CombinedLayer.prototype.addRect</code>, <code>Spriteset_Map.prototype.loadTileset</code>, <code>Spriteset_Map.prototype.update</code>, <code>Spriteset_Map.prototype.destroy</code>, <code>Scene_Map.prototype.isReady</code>, <code>Game_Switches.prototype.onChange</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Wrack co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Four aftermaths</h3>
+<ul>
+<li><strong>Burned.</strong> Each roof keeps its own tiles, thatch or slate, blackened, with ragged holes burnt through it, their rims still glowing and the charred beams standing inside, and ash lying in drifts across roofs and ground with embers still glowing in it. Soot climbs the walls, windows go dark with the fire still low inside, the ground burns black and trees burn to bare, forked branches. Smoke columns rise and sparks drift.</li>
+<li><strong>Ruined.</strong> Roofs fall in: a dark void down into the house, grey weathered rafters where they still stand, heaps of the fallen roof inside, and the house's own roof colour left in a torn frame, so every house stays recognisable. Rubble cut from your own wall stone lies against the walls, walls break to jagged courses and crack, boards are stove in, windows are smashed to jagged shards, and the grass dries out in patches of straw.</li>
+<li><strong>Overgrown.</strong> Ivy climbs every wall face from the ground, moss fills the roofs, grass creeps over paths and paving in organic drifts, and lily pads cover the water, all in your tileset's own greens.</li>
+<li><strong>Abandoned.</strong> Colour fades under dust, roof tiles slip, windows are boarded up, damp runs down the walls, grit settles on paths and paving, the lawns brown in patches and the lamps go cold.</li>
+</ul>
+<h3>Switch it however your story needs</h3>
+<ul>
+<li>A whole map, a region id or a rectangle (one building), by map notetag, switch binding, plugin command or script call.</li>
+<li>Play the change on screen: a <strong>fire</strong> whose burning line wanders across the map with flames standing on it and the ground scorching just ahead (water never burns), the <strong>years</strong> creeping in through organic patches that cross tile borders, or a quick <strong>fade</strong>. The event can wait for it to finish.</li>
+<li>What you set is saved with the game, separately for each map.</li>
+</ul>
+<h3>It reads your tileset the way MZ declares it</h3>
+<p>Water, ground, roofs, walls, wall tops and floors are read from the sheets MZ assigns them to, and every 48x48 object cell is judged by its own pixels (foliage, glass, wood, stone, a small scatter). Each ground cell is read as grass, earth or paving from its own tile, so straw lands on lawns and grit on cobbles. Green growth, rubble and planks are painted in colours taken from your own tileset. Autotiles stay seamless: every mark inside a tile stays inside one quarter tile with a margin and every recolour is per pixel, and each map cell picks one of three variants. Drifts of ash, straw, dust and creeping grass are painted across the map itself rather than into tiles, so they cross tile borders and never line up on the tile grid.</p>
+<h3>Tested in the real engine</h3>
+<p>Every state and every transition was run in RPG Maker MZ's own runtime from the exact zip you download: on four tilesets of our own, and installed into a blank MZ project on the stock Outside, Inside and Dungeon tilesets. A burned town with smoke and embers running, the years creeping in, and a fire front sweeping it measured at most 18.703 draw calls per frame with no texture uploads and no display-object growth.</p>
+<p>The towns in these screenshots are drawn with our own Verdant tilesets, sold separately: <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 Overworld</a>, <a href="https://csaf.itch.io/verdant-09-town">Verdant 09 Town</a>, <a href="https://csaf.itch.io/verdant-45-walls-roofs">Verdant 45 Walls and Roofs</a>, <a href="https://csaf.itch.io/verdant-04-tidewater">Verdant 04 Tidewater</a> and <a href="https://csaf.itch.io/verdant-props">Verdant Props</a> for the summer town, <a href="https://csaf.itch.io/verdant-41-taiga">Verdant 41 Taiga</a> and <a href="https://csaf.itch.io/verdant-43-snowbound">Verdant 43 Snowbound</a> for the winter one. Wrack itself ships no art and works on any MZ tileset, the stock ones included.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>WrackCore.js</code> (the pixel rules) and <code>Wrack.js</code> (the engine side): raw, readable, commented JavaScript.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/strew">Strew</a>: dresses your own hand-made maps from your tileset in one pass, flowers in drifts and debris in corners.</li>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a>: the drifting shadows of passing clouds over your maps, shaped to each map.</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: strike a pot, a crate or a rock and it breaks into real pieces that skitter and settle.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code and graphics were made with generative AI. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
