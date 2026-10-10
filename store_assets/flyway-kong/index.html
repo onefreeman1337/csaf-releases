@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<meta name="description" content="FLYWAY: a free browser bird-observatory incremental. Read the wind, set your nets beside cover, ring every bird and follow the rings that are found again down the flyway.">
+<title>FLYWAY</title>
+<link rel="stylesheet" href="css/flyway.css">
+</head>
+<body>
+<!-- Every pixel of the game, its chrome included, is drawn inside the canvas: nothing is positioned over the
+     headland, so nothing can land on top of it at any embed size. -->
+<main><canvas id="cv" width="960" height="600" tabindex="-1" aria-label="FLYWAY, a bird observatory game"></canvas></main>
+<noscript><p class="fallback">FLYWAY needs JavaScript to run.</p></noscript>
+<script src="js/sim.js"></script>
+<script src="js/art.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/coast.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
