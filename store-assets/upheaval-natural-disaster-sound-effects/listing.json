@@ -1,0 +1,24 @@
+{
+  "title": "Upheaval: Natural Disaster Sound Effects, Layered and Rampable",
+  "slug": "upheaval-natural-disaster-sound-effects",
+  "priceUSD": 11.99,
+  "priceTier": "default",
+  "shortText": "104 natural disaster sound effects: 8 disasters as layered, rampable loops with warnings and accents. WAV + OGG.",
+  "tags": [
+    "sound-effects",
+    "disaster",
+    "earthquake",
+    "volcano",
+    "survival",
+    "ambience",
+    "game-audio",
+    "royalty-free",
+    "wav",
+    "ogg"
+  ],
+  "html": "<h2>Natural disasters you drive with one value</h2>\n<p><strong>104 sounds for eight disasters. Each ships four loop layers that stack by intensity, six accents and a warning, an onset and a passing, so a game turns one magnitude value up instead of swapping files.</strong></p>\n<h3>Licence, up front</h3>\n<p><strong>Royalty free. Commercial use. No credit required. No revenue limit, no unit cap, no second licence to buy later if your game does well.</strong> The one thing you may not do is resell the sounds themselves as sounds. Plain language terms ship as LICENSE.txt, with a copy paste credit line if you want one. Everything is synthesised from code, so there is no upstream licence behind it and nobody can content ID claim these sounds against your project.</p>\n<h3>Hear it first</h3>\n<p>There is a <strong>free demo</strong> on this page: <strong>20 sounds</strong>, the whole earthquake (all four layers, its accents and its warning, onset and passing) plus the floor layer of every other disaster, copied unaltered from the paid files.</p>\n<h3>The disasters</h3>\n<ul>\n<li><strong>Earthquake.</strong> From a tremor you feel more than hear to a city shaking itself apart.</li>\n<li><strong>Eruption.</strong> A mountain clearing its throat, then the column, then the blast.</li>\n<li><strong>Lava Flow.</strong> A slow river of rock: crust cracking, gas bubbling, things catching fire as it arrives.</li>\n<li><strong>Avalanche.</strong> Snow and ice letting go: a hiss that becomes a roar.</li>\n<li><strong>Landslide.</strong> A hillside coming down: gravel, earth and boulders.</li>\n<li><strong>Tornado.</strong> The freight train roar, the debris inside it, and the quiet when it has passed.</li>\n<li><strong>Flash Flood.</strong> Water arriving faster than it should: a rising rush that carries things with it.</li>\n<li><strong>Meteor Storm.</strong> Rocks falling out of the sky: whistles, sonic cracks and impacts that shake the ground.</li>\n</ul>\n<h3>Drive it with one value</h3>\n<p>Every system's four loops share one length: floor, steady, severe, catastrophic. Fade them in as your magnitude rises. All 32 tier sums were re-summed from the shipped files: each wraps without a click or a pump and stays under a 22 dB crest.</p>\n<p>A disaster is an event, not weather: every system also ships the <strong>warning</strong> that telegraphs it, the <strong>onset</strong> that builds into its layers and the <strong>passing</strong> that leaves them, plus six accents to land over a running bed.</p>\n<h3>Fit</h3>\n<ul>\n<li><strong>WAV and OGG</strong>, 16 bit, 44.1 kHz, mono; <strong>32 seamless loops</strong> with sample accurate loop points in both formats (checked in a blank Godot 4 project).</li>\n<li><strong>One loudness band</strong>: the inner 80 percent of the pack sits inside 5.03 dB.</li>\n<li><strong>pack_proof.json</strong> ships with the pack: 977 checks, 0 failed.</li>\n</ul>\n<h3>Honest limits</h3>\n<p>These are synthesised disasters, not recordings. The measurements are signal measurements, not a claim that it sounds good; that is what the free demo is for.</p>\n<p><em>AI disclosure, stated truthfully: the code that generates these sounds was written with AI assistance. The sounds themselves are self contained procedural synthesis, with no generative audio model at any point. The cover art and store graphics are AI generated.</em></p>\n<h3>More from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/squall-weather-systems\">Squall: Weather Systems, Layered and Rampable</a>, the same one value grammar for the sky.</li>\n<li><a href=\"https://csaf.itch.io/pithead-working-mine-sound-effects\">Pithead: The Working Mine Sound Effects</a>, the cave-in and the blast as whole lifecycles.</li>\n</ul>",
+  "links": [
+    "https://csaf.itch.io/squall-weather-systems",
+    "https://csaf.itch.io/pithead-working-mine-sound-effects"
+  ]
+}
