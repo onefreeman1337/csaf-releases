@@ -1,0 +1,41 @@
+<h2>Drive the flock into the pen before the bell.</h2>
+<p>Round-up is a herding minigame for RPG Maker MZ, played on <strong>your own map</strong>. Paint a pen with a region ID, call one plugin command, and a generated flock scatters across your farmyard. The player has until the bell to drive every animal through the gate, with the movement they already know. No new scene: the animals walk your map, behind your trees and in front of your fences, and sort with your characters.</p>
+<p><strong>Every animal is drawn by the plugin, and every one is different:</strong> sheep in six fleeces with four faces, horned or polled; hens in seven plumages; pigs in five coats; geese in three breeds. 89 looks, in four facings with a walk, at the size of a stock character. Nothing is loaded but your map.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>RoundupCore.js</code> — Round-up 1/3 - the rules: a flock that flees, flocks, bolts and charges, the pen, the bell. No engine code.</li>
+<li><code>RoundupDraw.js</code> — Round-up 2/3 - the drawing: livestock generated per round, the trough, the bell clock, the tally board.</li>
+<li><code>Roundup.js</code> — Round-up 3/3 - a timed herding job on your own map: drive the flock into the pen before the bell.</li>
+</ol>
+<p><strong>Core methods extended — 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Map.prototype.update</code>, <code>Game_Player.prototype.triggerButtonAction</code>, <code>Scene_Map.prototype.processMapTouch</code>, <code>Game_Player.prototype.canMove</code>, <code>Scene_Map.prototype.updateMapNameWindow</code>, <code>Scene_Map.prototype.isMenuEnabled</code>, <code>Spriteset_Map.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Round-up co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Each species moves by its own rule</h3>
+<ul>
+<li><strong>Sheep flock.</strong> Move one and the rest follow; sheep already in the pen draw the others in.</li>
+<li><strong>Hens scatter</strong> in zig-zags and will not be driven in a straight line.</li>
+<li><strong>Pigs bolt</strong> from you in a straight dash, then stop dead to get their breath. Line one up and spook it at the gate.</li>
+<li><strong>Geese stand</strong> when you crowd them, and may charge before they run.</li>
+</ul>
+<p>A calm animal grazes; a startled one runs, and shows it (a little "!" overhead, feathers off a hen). A cornered animal dodges along the fence past you, so a corner is never a dead end. <strong>The whistle</strong> (OK, or a drawn button for mouse and touch) calls the animals near you into a bunch, then needs five seconds to cool down.</p>
+<h3>What is in it</h3>
+<ul>
+<li><strong>Your map, your fences:</strong> walls, fences and water are your map's own passability, the same rule your player walks by. Events standing on the map block the animals too.</li>
+<li><strong>Three presets and custom:</strong> easy 6 head in 90 s, normal 7 in 115 s, hard 9 with geese in 135 s, or any mix of the four species up to 32 animals and your own clock.</li>
+<li><strong>Tuned, not guessed:</strong> a scripted herder that moves the way MZ's player moves was run over 200 rounds per difficulty. With a two-tile gate and the feed trough it penned everything in 51% to 57% of rounds on every difficulty; a player who just chases penned them all in 0% to 9%.</li>
+<li><strong>Drawn on your map:</strong> a feed trough inside the gate, a brass clock and a tally of heads, a painted opening sign, dust, feathers, the whistle's rings, and a county-fair tally board at the bell with up to three prize rosettes.</li>
+<li><strong>Results go back into your game:</strong> penned count, stars and seconds left into your variables, a switch when every animal is penned, and a common event when the board closes.</li>
+<li><strong>Saved mid-round:</strong> a round saved half way resumes where it was; it pauses for messages, events and the menu.</li>
+<li><strong>A demo yard:</strong> a painted 816 x 624 farmyard and a herder character sheet to try it on an empty map.</li>
+<li><strong>Raw, readable JavaScript</strong> with a Readme that documents every parameter and argument.</li>
+</ul>
+<h3>More minigames for RPG Maker MZ</h3>
+<ul>
+<li><a href="https://csaf.itch.io/table-service">Table Service</a> ($11.99): a timed waiting shift on your own map, the same grammar as Round-up: seat the parties, carry the dishes, read the ledger.</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a> ($12.99): a race meeting the player bets on: a card of runners with form and odds, a race on a drawn course, a photo finish and a payout.</li>
+<li><a href="https://csaf.itch.io/pinfall">Pinfall</a> ($9.99): a ball-drop prize board the player bets on, with generated pin patterns and prize pockets that pay your own items or gold.</li>
+<li><a href="https://csaf.itch.io/sapper">Sapper</a> ($7.99): Minesweeper over one of your own pictures, every field solvable without a guess.</li>
+</ul>
+<p><em>AI disclosure: the code, the drawing code, the demo pictures, the store images and the cover were produced with AI assistance. Round-up contains no audio; its default sounds are files from MZ's own RTP.</em></p>
