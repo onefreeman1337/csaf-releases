@@ -1,0 +1,48 @@
+<h2>Ship-to-ship battles for RPG Maker MZ, drawn broadside-on like an age-of-sail painting.</h2>
+<p>Two sailing ships fight on a painted sea under a painted sky. Your ship rolls on the swell in the foreground; the enemy lies beyond her. Each turn you give two orders, a manoeuvre and what to load, then fire on the roll: a brass dial swings with your ship, and the moment you fire decides where the broadside goes. Every hit is drawn into the ships as it happens: shot holes along her side, a topmast shot away and hanging over the side, canvas torn to strips, fire on deck, every mast gone by the board, a list, and at the end a ship going down. A ship's log closes the fight and the result goes into your variables and switches.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>BroadsideCore.js</code> — Broadside 1/4 - the rules of a ship duel: range, the weather gauge, the roll, three damage tracks. No engine code.</li>
+<li><code>BroadsideShips.js</code> — Broadside 2/4 - the ships: any hull, rig, paint scheme and weathering, drawn at any size, with battle damage drawn into them. No engine code.</li>
+<li><code>BroadsideSea.js</code> — Broadside 3/4 - the drawn sea and sky, gunsmoke, splashes and flame, and the ship's instruments (gauges, compass, clinometer, orders, the log).</li>
+<li><code>Broadside.js</code> — Broadside 4/4 - ship-to-ship battles: two drawn ships duel broadside-on on a painted sea.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+<h3>Orders, then the moment</h3>
+<ul>
+<li><strong>Close</strong> or <strong>Bear away</strong>: the range decides how many guns strike home, and a ship that out-sails her chaser gets clear.</li>
+<li><strong>Weather gauge</strong>: the ship to windward fires through clear air; the ship to leeward fires through her own smoke.</li>
+<li><strong>Cross her bow</strong>: from the weather gauge, a gamble that comes off about three times in five. When it does, every gun rakes her from end to end and only her chase guns answer.</li>
+<li><strong>Board her</strong>: alongside, crew against crew. Thin her crew with grape first.</li>
+<li><strong>Round shot</strong> into her hull at the bottom of the roll, <strong>chain shot</strong> into her rig at the top, <strong>grape</strong> across her deck at pistol shot.</li>
+</ul>
+<p>The roll is a real decision. Measured over 2,000 simulated fights per row in two equal frigates against the default captain: a player who fires within about a quarter of a second of the moment wins 53 to 55% of fights; one who fires at a random moment wins about 1 in 100. Four enemy captains, from green to legend.</p>
+<h3>Any ship can be the enemy</h3>
+<p>The ships are generated: 16 hulls (cutter, sloop, brig, schooner, frigate, ship of the line, galleon, carrack, xebec, junk, galley, longship and more), 10 rigs, 8 paint schemes and 5 states of wear, each hull fighting as one of 7 classes with its own guns, crew, hull, rig and speed. A frigate cannot fight a ship of the line; she can run from one.</p>
+<h3>For your story</h3>
+<ul>
+<li>One plugin command, <strong>Start Sea Battle</strong>, with the enemy, her captain, the wind, the weather and a seed. The event waits and reads the result afterwards: nine endings (she sank, struck, was taken, got away; the same four for you; the ships parted) to a variable, victory to a switch.</li>
+<li><strong>Damage carries over</strong>: give it a variable and your hull is read at the start and written at the end, so a battered ship limps into the next fight until you repair her.</li>
+<li><strong>Boss fights</strong>: turn escape off and nobody leaves.</li>
+<li>Three skies (afternoon, dusk, squall), MZ's own sound effects and ship music by default, and a script call for everything.</li>
+</ul>
+<h3>Tested in the real engine</h3>
+<p>The exact zip you download was installed into a blank RPG Maker MZ project with the plugin's default parameters, and whole fights were played on the keyboard: the plugin command from a map event, the orders, cancel, the dial, the broadside, her reply, the ship's log and back to the map, with every result written. The adversarial pass covered projects at 1280 x 720, 1104 x 624 and 640 x 480 (the battle scales and centres, the sea fills the edges, a tap lands on the card under the finger), 1,200 frames of random keys and taps, a second battle called while one was open, 90-character and Unicode ship names, and a save made before install. In the heaviest fight it produces (a ship of the line at pistol shot, both ships afire, a broadside every turn) the scene draws in 8 draw calls per frame with no stock window anywhere, and a ship is redrawn only when her damage changes.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>BroadsideCore.js</code> (the rules), <code>BroadsideShips.js</code> (the ships and their damage), <code>BroadsideSea.js</code> (the sea, sky, smoke and instruments) and <code>Broadside.js</code> (the scene and the command): raw, readable, commented JavaScript. Any load order works.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+</ul>
+<p>Nothing is loaded: no image files, no battlebacks, no sprite sheets. The ship generator is a copy of the one in our Shipwright plugin under its own name, so owning both is safe.</p>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/warhost">Warhost</a>: the land twin of this plugin: army battles with every soldier drawn, banners generated from regiment names, four formations and a war record.</li>
+<li><a href="https://csaf.itch.io/shipwright">Shipwright</a>: ship portraits for your harbour, shipyard and fleet screens, from the same generator.</li>
+<li><a href="https://csaf.itch.io/voyage-core">Voyage Core</a>: sea travel and trade between your ports, the voyage a Broadside battle can interrupt.</li>
+<li><a href="https://csaf.itch.io/scathe">Scathe</a>: battle damage drawn into your own enemy art, for the fights on land.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code was written with generative AI, and these images and the cover were made with generative AI image tools. It ships no sounds (it plays sound files that come with RPG Maker MZ) and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
