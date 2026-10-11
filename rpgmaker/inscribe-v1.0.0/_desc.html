@@ -1,0 +1,41 @@
+<h2>Names and answers, written onto an object.</h2>
+<p>Inscribe replaces RPG Maker MZ's name screen. The stock screen is a grid of letters in a window; Inscribe draws the moment as <strong>an object being written on</strong>: a guest register signed in ink, a name carved in stone, travel papers stamped by the office, a typed form, a sigil traced into a circle, a headstone at night. The player types on the keyboard, or presses keys drawn in the object's own material with a pad, a mouse or a finger.</p>
+<p>The same scene asks questions. <strong>Inscribe Answer</strong> checks what the player writes against the answers you accept, forgiving case and spacing and, when you allow it, accents, punctuation and a typo or two. Right or wrong shows on the object: gilded, stamped, struck out, cracked. The result goes to a switch, the attempts and the typed text to variables.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>InscribeCore.js</code> — Inscribe 1/3 - the rules: rites, the entry buffer, forgiving answer checks and name suggestions from your database. No engine code.</li>
+<li><code>InscribeDraw.js</code> — Inscribe 2/3 - the look: each rite drawn as an object (a register signed in ink, a name carved in stone, ...). No engine code.</li>
+<li><code>Inscribe.js</code> — Inscribe 3/3 - name entry and riddle answers written onto an object: a register, a carved stone, stamped papers, a typed form, a sigil, a grave…</li>
+</ol>
+<p><strong>Core methods extended — 3 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_Interpreter.prototype.command303</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Inscribe co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>Already restyling the stock name screen?</strong> Turn the parameter <em>Replace Name Input Processing</em> off and that screen stays; use the command <em>Inscribe Next Name</em> for the moments you want a rite. In a project whose language is Japanese the stock kana screen is kept.</p>
+<h3>What is in it</h3>
+<ul>
+<li><strong>Six rites, each its own object and its own keys:</strong> the register (brass plates), the stone (stone tiles), the papers (rubber stamps), the typed form (typewriter keys), the sigil (wax seals) and the headstone (bone tiles).</li>
+<li><strong>Every name makes its own sigil.</strong> Each letter is a point on an alphabet wheel and the trace runs from letter to letter, so no two names leave the same mark.</li>
+<li><strong>It fills itself from your project:</strong> the register's earlier entries are your other actors, the form's occupation is the actor's class, the papers' place of origin is the map you are on, the portrait is the actor's face.</li>
+<li><strong>Suggest</strong> writes a new name each press, made from the names in your own database blended with a list fitted to the rite. Never a name you already have, never one letter away from one.</li>
+<li><strong>Riddles and passwords:</strong> several accepted answers, typos forgiven up to a third of the answer, attempts, show the answer when they run out, let the player give up.</li>
+<li><strong>Choose the rite</strong> per actor with a notetag (<code>&lt;Inscribe Rite: stone&gt;</code>), per event with a command, or for the whole game with a parameter.</li>
+<li><strong>Keyboard, pad, mouse and touch.</strong> Typed letters never reach the engine's own keys, so "z" is a letter, not OK. Accented letters and digits on a second page.</li>
+<li><strong>Any screen size:</strong> laid out for 816 x 624 and scaled to fit, tested at 1280 x 720, 1104 x 624 and 640 x 480.</li>
+</ul>
+<h3>Measured, not promised</h3>
+<ul>
+<li>With a fast typist on the sigil (a letter every 8 frames) the scene draws in <strong>2 draw calls per frame</strong> with no MZ window drawn; the written line is redrawn only when a letter changes.</li>
+<li>Tested in the real MZ engine on the stock database: any load order, a missing sibling file, a Japanese locale, battle, sounds set to (None), input spam on every rite, a 300-character question, thirty opens and closes, and a save taken mid-way.</li>
+</ul>
+<h3>Install</h3>
+<p>Copy the three files into <code>js/plugins</code> and turn them on in the Plugin Manager. Every Name Input Processing in your game now opens Inscribe. The Readme in the download covers every command, parameter, script call and the save record.</p>
+<h3>More from Core Systems Asset Factory</h3>
+<ul>
+<li><a href="https://csaf.itch.io/windowskin-foundry">Windowskin Foundry</a>: 44 generated windowskins in worked materials, re-struck in the palette of your own tilesets.</li>
+<li><a href="https://csaf.itch.io/cartouche">Cartouche</a>: the message box drawn as an object, and a different object for every speaker.</li>
+<li><a href="https://csaf.itch.io/quizmaster">Quizmaster</a>: game-show quizzes and exams on drawn stages, every question written from your own database.</li>
+<li><a href="https://csaf.itch.io/rebus">Rebus</a>: word puzzles whose clues are your own pictures and database, for when a riddle should be solved by looking.</li>
+</ul>
+<p><em>AI disclosure: the code was written with AI assistance, and the store images and cover were produced with AI assistance. The plugin contains no audio; its default sounds are files from RPG Maker MZ's own RTP.</em></p>
