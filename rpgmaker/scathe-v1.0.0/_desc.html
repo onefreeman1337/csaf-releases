@@ -1,0 +1,46 @@
+<h2>Battle damage you can see, drawn into your own enemy art.</h2>
+<p>Every enemy shows the damage it takes. A sword leaves a gash that bleeds, an earth spell cracks it, fire chars it, ice frosts it, thunder burns a fern of lightning into it, poison and darkness spread a bruise with veins. As its HP falls the enemy looks more and more worn. Scathe reads each battler image once when the battle starts and generates the damage from that image's own pixels, inside its own outline. Your enemies, your art, no damaged variants to draw.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ScatheCore.js</code> — Scathe 1/2 - the damage: generated from each enemy's own battler pixels, by element, HP band and material. No engine code.</li>
+<li><code>Scathe.js</code> — Scathe 2/2 - enemies show the damage you deal, generated from their own battler art by element and HP.</li>
+</ol>
+<p><strong>Core methods extended — 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Enemy.prototype.transform</code>, <code>Game_Action.prototype.executeHpDamage</code>, <code>Sprite_Enemy.prototype.initMembers</code>, <code>Sprite_Enemy.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Scathe co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also defines one method that its core class only inherited:</strong> <code>Sprite_Enemy.prototype.destroy</code> (inherited from <code>Sprite</code>). That touches <code>Sprite_Enemy</code> only, never the parent. If another plugin redefines the same method on the same class, load Scathe after it.</p>
+<h3>The element chooses the mark</h3>
+<ul>
+<li><strong>Physical</strong> (and anything Scathe does not recognise): a gash, or a crack on stone, metal and shell</li>
+<li><strong>Earth</strong>: a crack network in the material's own colour</li>
+<li><strong>Fire</strong>: char with a smouldering edge and a few embers</li>
+<li><strong>Ice</strong>: a coat of frost that keeps the shape under it</li>
+<li><strong>Thunder</strong>: a lightning burn spreading from a charred strike</li>
+<li><strong>Poison, Darkness</strong>: a creeping bruise with dark veins</li>
+</ul>
+<p>Scathe reads the element's <em>name</em>, so a database with its own elements still works. The size of a mark follows the damage, and each new hit lands away from the marks already there, on a part of the body thick enough to hold it.</p>
+<h3>Six materials, one notetag</h3>
+<p>Flesh bleeds, stone cracks and chips, shell fractures, metal scores through to bare bright steel, slime splits, spirit tears. Tag an enemy with <code>&lt;Scathe Material: stone&gt;</code>; untagged enemies use the default. On a dark surface a crack shows the bare material underneath, so it reads on black armour as well as on sandstone.</p>
+<h3>HP bands</h3>
+<p>Below 75%, 50% and 25% of max HP (a parameter) the whole enemy looks one step more worn: its colour drains, its edges darken, grime sinks in, and at the last band the outline takes bites. Marks stay until the battle ends; healing lifts the wear and keeps the marks.</p>
+<h3>Commands for events</h3>
+<p><strong>Mark an enemy</strong> draws a mark from an event (a scripted blow, a trap, a cutscene), and <strong>Mend an enemy</strong> clears them. <code>&lt;Scathe: off&gt;</code> leaves an enemy untouched.</p>
+<h3>Tested in the real engine</h3>
+<p>The exact zip you download was installed into a blank RPG Maker MZ project with the stock database and default parameters, and battles were played on the keyboard (Fight, Attack, a target, every actor, turn after turn) until the troop fell: every enemy showed its damage, every HP band was reached, the collapse ran on the damaged picture and the game returned to the map. The adversarial pass covered twenty battles in a row (every damaged copy freed when its battle ended), an enemy with no battler, a 1000 x 1000 battler, a plugin swapping an enemy's image every frame, a mend and four marks in one frame, sixty hits on one enemy, death, hue-shifted battlers, unknown elements, two enemies sharing one image (the shared image is never changed) and a hit landing while an image was still loading. A battle with a hit every twenty frames measured 29 draw calls per frame with no display-object growth, and the damage is drawn only when a hit lands or a band changes, never every frame.</p>
+<h3>In the zip</h3>
+<ul>
+<li><code>ScatheCore.js</code> (the damage, pure pixel work) and <code>Scathe.js</code> (the only file that touches the engine): raw, readable, commented JavaScript. Any load order works.</li>
+<li><strong>Seven painted demo battlers</strong> (an ogre, a scarab, a golem, a suit of haunted armour, an ooze, a wraith and a wyvern, one per material) and a painted battleback, to try it on and to use in your games.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code> (use it in any number of your own commercial or free games).</li>
+</ul>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/stature">Stature</a>: taller, re-proportioned side-view battlers derived from the sheets you already have.</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: every pot, crate, rock and bush on the map breaks the way its material would.</li>
+<li><a href="https://csaf.itch.io/wrack">Wrack</a>: your own town burned, ruined, overgrown or abandoned, re-struck from your own tileset.</li>
+<li><a href="https://csaf.itch.io/patina">Patina</a>: every item the party carries drawn as the object it has become, worn by use.</li>
+</ul>
+<p><em>AI disclosure: this plugin's code was written with generative AI, and the demo battlers, the battleback and these images were made with generative AI image tools. It ships no sounds and no story text.</em></p>
+<p>Made by Core Systems Asset Factory.</p>
