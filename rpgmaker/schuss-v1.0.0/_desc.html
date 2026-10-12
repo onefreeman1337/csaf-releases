@@ -1,0 +1,48 @@
+<h2>A SkiFree-style downhill run, inside your game.</h2>
+<p>Schuss is a downhill minigame for RPG Maker MZ. Call one plugin command and the screen scrolls down a course <strong>the plugin lays out and draws</strong>: a groomed slope with pines, rocks, moguls, ice and ramps; a mine with rails, switches and gaps; a river with rocks, eddies and falls. <strong>Your own hero rides it</strong>: the party leader (or any actor) stands on skis, a snowboard, a sled or a raft, or sits in a mine cart, using the walking picture your project already has.</p>
+<p><strong>No image files ship and none are needed.</strong> Every slope, obstacle, gate, coin, pursuer and letter on screen is drawn by the plugin's code: 42 obstacle forms across the three places.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>SchussCourse.js</code> — Schuss course engine: lays out every downhill course from a seed and runs the rider's physics. Needed by Schuss.js.</li>
+<li><code>SchussDraw.js</code> — Schuss painter: draws every slope, mine and river, every obstacle, the rider's board, sled, cart or raft, and the HUD lettering. Needed by Schuss.js.</li>
+<li><code>Schuss.js</code> — Schuss: downhill run minigames (ski, snowboard, sled, mine cart, raft) on a course the plugin lays out and draws, with your own character riding.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with. Any load order works: it was tested with <code>Schuss.js</code> loading before both of its helpers.</p>
+<h3>Five ways down</h3>
+<ul>
+<li><strong>Ski</strong> and <strong>Snowboard</strong>: carve between the trees; the tracks stay in the snow behind you and spray flies on the hard turns.</li>
+<li><strong>Sled</strong>: slower to turn than skis, so the line has to be read early.</li>
+<li><strong>Mine cart</strong>: change rails only at a switch, and hop the gaps in the track.</li>
+<li><strong>Raft</strong>: the current pulls you toward the middle of the river, eddies shove you sideways, and rocks, logs and snags stop you dead.</li>
+</ul>
+<h3>Three goals</h3>
+<ul>
+<li><strong>Slalom</strong>: race the clock through the gates. A missed gate adds seconds (you choose how many).</li>
+<li><strong>Collect</strong>: coins down the course, and each coin can give the player one of your items.</li>
+<li><strong>Chase</strong>: a yeti, a rolling boulder, a flood wave or one of your own enemy images follows you down. Reach the bottom first.</li>
+</ul>
+<h3>Every course can be finished</h3>
+<p>Each course is laid out around a hidden safe line from the top to the bottom, and the plugin's own autopilot rides it once before the player sees it: anything that ride hits is taken out and any gate it misses is moved onto its path. Over <strong>7,500 generated courses</strong> (every mode, goal and difficulty, two seed sets) that check found <strong>0 courses that could not be finished cleanly</strong>, while a rider who never steers failed <strong>95.7%</strong> of them. Harder courses narrow the line and crowd the rest of the slope, so the run always asks for something.</p>
+<h3>What is in it</h3>
+<ul>
+<li><strong>The same seed is the same course</strong>, so a run can be a race for a best time; best times are kept per course in the save file. A blank seed makes a new course every run.</li>
+<li><strong>Results go back into your game</strong> before the event continues: time in hundredths, gates, coins and crashes into your variables, a switch for a clean finish, a common event, and your item once per coin.</li>
+<li><strong>Difficulty 1 to 5</strong> and a course length from 15 to 240 seconds.</li>
+<li><strong>Demo mode:</strong> the autopilot rides by itself, for a title screen or a preview before the player tries.</li>
+<li><strong>Keyboard, gamepad, mouse and touch:</strong> hold the left or right half of the screen to steer.</li>
+<li><strong>Any screen size;</strong> big <code>$</code> character sheets are drawn down to fit the vehicle, never cropped.</li>
+<li><strong>Light to run:</strong> the scrolling slope, the carved tracks and the running clock upload almost nothing per frame (measured in the real engine on a hard run).</li>
+<li><strong>Raw, readable JavaScript</strong> with a Readme that documents every parameter, command argument and script call.</li>
+</ul>
+<p>The riders in these pictures are <a href="https://csaf.itch.io/wildmark-01-the-party">Wildmark 01: The Party</a> ($5.99), a sprite pack from the same studio. In your project the rider is your own actor.</p>
+<h3>More minigames for RPG Maker MZ</h3>
+<ul>
+<li><a href="https://csaf.itch.io/round-up">Round-up</a> ($11.99): a herding minigame on your own map: drive a generated flock into your pen before the bell.</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a> ($12.99): a race meeting the player bets on, with a card of runners, a drawn course and a photo finish.</li>
+<li><a href="https://csaf.itch.io/pinfall">Pinfall</a> ($9.99): a ball-drop prize board with generated pin patterns and prize pockets that pay your items or gold.</li>
+<li><a href="https://csaf.itch.io/table-service">Table Service</a> ($11.99): a timed waiting shift on your own map: seat the parties, carry the dishes.</li>
+</ul>
+<p><em>AI disclosure: the code, the drawing code, the store images and the cover were produced with AI assistance. Schuss contains no audio; it plays the OK and Buzzer system sounds from your own database.</em></p>
