@@ -1,0 +1,34 @@
+<p><strong>Commercial use permitted</strong> in unlimited projects, no attribution required; you may not resell or redistribute the pack itself.</p>
+<p><strong>⚠️ For Godot 4 and Tiled. RPG Maker MZ cannot draw hex maps at all, so this pack has no RPG Maker importer.</strong></p>
+<p><strong>416 pixel art tiles on a 32x32 pointy-top hex grid</strong>, in one locked palette of 56 colours: the second Verdant Hex pack, the wild biomes Hex 01 lacks. 4 new terrains (ash, lava, jungle, swamp) over grass, every edge between them, roads and rivers that join themselves in any direction, and 8 features to place on top.</p>
+<h2>What is in it</h2>
+<ul>
+<li><strong>20 terrain fills</strong>: 5 terrains x 4 variants. The grass is Verdant Hex 01's own, byte for byte, so everything here lays straight onto a Hex 01 map.</li>
+<li><strong>252 edge tiles</strong>: a hex has six neighbours, so one terrain meeting another takes 63 edge shapes. All 63 ship for each of ash, lava, jungle, swamp. The swamp's edge is a mud bank; the lava's a black crust.</li>
+<li><strong>128 road and river tiles</strong>: 64 each, one for every way a route can leave a hex, including the lone node.</li>
+<li><strong>16 feature tiles</strong>: volcano, cinder cones, jungle canopy, autumn woods, swamp trees, reeds, stilt village, jungle temple, two of each, transparent so they sit on any terrain.</li>
+<li><strong>A finished sample map</strong>, 18x13 hexes in layers, as a PNG and a Tiled .tmx.</li>
+<li><strong>tiles.json</strong>: role, terrain, mask and passability for every tile.</li>
+</ul>
+<h2>Godot 4: the terrains paint themselves</h2>
+<p>The Godot .tres TileSet carries one terrain set per terrain. Paint "Blank (paint first)" over your map on a terrain layer, then paint the terrain, and Godot draws every edge around it. Roads and rivers join along the stroke in Path mode. Measured on the shipped files in Godot 4.7.2: its own painter chose the right edge tile in 140/140 test cells for every terrain, and following the Readme step by step rebuilds the sample map cell for cell.</p>
+<h2>Tiled</h2>
+<p>8 .tsx tilesets, every tile named by id, and a hexagonal sample .tmx (stagger axis Y, odd, side 16). The .tmx was rendered by Tiled 1.12.2's own tmxrasterizer and matched the shipped PNG on all 179,712 pixels. Tiled's terrain brush is not set up for hexes; place edge tiles by hand or by id.</p>
+<h2>The proofs, in numbers</h2>
+<ul>
+<li>Exact grid: every tile exactly 32x32.</li>
+<li>Palette lock: every opaque pixel inside the 56-colour palette.</li>
+<li>No anti-aliasing: alpha strictly binary.</li>
+<li>Edge completeness: all 380 edge and route slots present, checked on every build.</li>
+<li>The atlases and the loose tiles are compared tile by tile before release.</li>
+<li>Each fill's hex outline is measured against the same outline shifted through its interior, and the fills were rendered repeated and looked at. That is a check and a look, not a proof of seamlessness.</li>
+</ul>
+<h2>Also from the Verdant series</h2>
+<ul>
+<li><a href="https://csaf.itch.io/verdant-hex-01-hex-terrain">Verdant Hex 01 — Hex Terrain [32x32]</a> ($5.99): grass, plains, desert, snow, sea and pack ice with villages, castles and mountains; the same grass as this pack, so the two lay onto one map.</li>
+<li><a href="https://csaf.itch.io/verdant-54-wilds">Verdant 54 — Wilds [16x16]</a> ($7.99): jungle and tropics as a square 16x16 tileset, for the close-up map a hex overworld zooms into.</li>
+<li><a href="https://csaf.itch.io/verdant-25-infernal">Verdant 25 — Infernal [16x16]</a> ($9.99): lava, ash and basalt as a square 16x16 tileset.</li>
+</ul>
+<h2>AI disclosure</h2>
+<p>Every tile is drawn by a procedural pixel art engine written for this series; there is no diffusion model and no training dataset. The engine's code was written with AI assistance, so this listing is tagged: Code yes, Graphics yes, Sounds no, Text no. The cover illustration is made with an image model.</p>
+<p>Copyright (c) 2026 Core Systems Asset Factory.</p>
