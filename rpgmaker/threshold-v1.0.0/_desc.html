@@ -1,0 +1,45 @@
+<h2>Every door in your own tileset opens the way it was drawn.</h2>
+<p>Threshold is a plugin for RPG Maker MZ. In stock MZ an opening door needs a hand drawn character sheet (the <code>!Door</code> style) for every door you use, and a custom tileset usually has none, so its doors just vanish. Threshold reads the door tile you already placed, once, when the map loads, and draws its opening from <strong>that tile's own pixels</strong>. Give a tile event one note, <code>&lt;threshold: door&gt;</code>, and it opens.</p>
+<p><strong>Your existing door events already work.</strong> The stock Door quick event opens a door by turning it left, right, then up. Threshold reads those turns as the stages of its opening, so every door event you have animates your tile with no edits.</p>
+<hr>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ThresholdCore.js</code> — Threshold core: derives door opening frames from your own tile pixels. Load BEFORE Threshold.</li>
+<li><code>Threshold.js</code> — Threshold: every door, gate, hatch and cave mouth in your own tileset opens the way it was drawn.</li>
+</ol>
+<p><strong>Core methods extended — 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Event.prototype.setupPageSettings</code>, <code>Game_Event.prototype.update</code>, <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.createCharacters</code>, <code>Spriteset_Map.prototype.update</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.updateFrame</code>.</p>
+<p>Because nothing is clobbered, Threshold co-exists with other plugins that patch the same seams, including large suites.</p>
+<h3>Eight kinds of opening</h3>
+<ul>
+<li><strong>Door:</strong> a hinged leaf swings inward, foreshortening, its edge shown in the door's own darkest colour. Hinge left or right; an old door can shed dust.</li>
+<li><strong>Double:</strong> two leaves part from the middle.</li>
+<li><strong>Portcullis:</strong> rises in whole steps, its chains running at the sides.</li>
+<li><strong>Hatch:</strong> a trapdoor lifts on its hinge and casts its own shadow into the hole.</li>
+<li><strong>Sliding:</strong> a shoji or panel slides into the wall.</li>
+<li><strong>Curtain:</strong> a curtain or hide flap parts and bunches at the sides.</li>
+<li><strong>Vault:</strong> a round vault door rolls aside inside its frame.</li>
+<li><strong>Cave:</strong> a cave or mine mouth does not open; it gets depth and a slow breath of cold air.</li>
+</ul>
+<h3>Built for the art you already have</h3>
+<ul>
+<li><strong>Closed, a door is your tile exactly, pixel for pixel.</strong> Every colour in the opening is your tile's own or derived from it, so a painted tileset keeps its brushwork and a 16 px tileset stays crisp.</li>
+<li><strong>Doors bigger than one tile open as one door.</strong> Mark each tile with the same kind: a double door two tiles wide parts from its middle, a gate two tiles tall rises as one gate.</li>
+<li><strong>Works on MZ's own tilesets too.</strong> We ran it in a blank MZ project on the stock door art: the plank door, the arched double door and the arched window from Outside_B, the cell bars from Inside_B and the iron gate from Dungeon_B.</li>
+<li><strong>Solid doors open onto darkness; see-through ones onto what is behind them.</strong> A raised cell gate leaves the floor, never a shadow of its bars.</li>
+<li><strong>At night, open doorways glow.</strong> When you tint the screen dark (Tint Screen, or any day and night plugin that tints), every open doorway fills with warm light, stronger the darker the tint, drawn in its own layer so the tint does not recolour it.</li>
+<li><strong>Plugin commands</strong> open, close or toggle a door from a switch, a lever, a puzzle or a cutscene, with an optional sound per kind of door from your own audio folder.</li>
+<li><strong>Saves keep a half-open door half open.</strong> Only the progress is saved; the frames are rebuilt from your tiles on load.</li>
+<li><strong>Light to run.</strong> Each door is read once while the map settles. Measured in the real engine with four doors opening and closing all the time at night: 0 texture uploads and 0 bitmap repaints per frame.</li>
+<li><strong>Raw, readable JavaScript</strong> with a Readme for every option.</li>
+</ul>
+<p>Threshold does not find doors on its own (a door is the event you mark, as in stock MZ), and it does not change passability. The door frames in these pictures were drawn on tilesets made for the tests, in three styles: clean, 16 px pixel art, and painted.</p>
+<h3>More for your maps</h3>
+<ul>
+<li><a href="https://csaf.itch.io/escapement">Escapement</a> ($11.99): every locked door, vault or clock tower becomes a generated brass mechanism the player must complete.</li>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a> ($12.99): the drifting shadow of weather across your map, generated from the map itself.</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a> ($9.99): pots burst into sherds, crates splinter along the grain, rocks crack and crumble when the player strikes them.</li>
+</ul>
+<p><em>AI disclosure: the code, the store images and the cover were produced with AI assistance. Threshold contains no audio and no story text.</em></p>
