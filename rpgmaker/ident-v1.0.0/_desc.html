@@ -1,0 +1,39 @@
+<h2>Your studio's animated ident, before your title screen.</h2>
+<p>Type your studio name and pick a treatment. When the game starts, before the title screen, your name is struck in gold foil, bled into rice paper, bent in neon on a brick wall, cut into slate, stitched in satin thread, pressed in sealing wax, assembled from pixel blocks or powered on across a CRT. Then it holds, and fades to your title. <strong>No images to make, no fonts, no audio to install:</strong> the plugin draws the whole thing from your name.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>IdentRender.js</code> — Ident [1/4]: drawing and colour primitives. Seeded RNG, colour maths, the absolute separation relief model, deterministic surface noise, path…</li>
+<li><code>IdentAlphabet.js</code> — Ident [2/4]: the authored letterform corpus. 80 authored skeletons, five hands, one pen simulation. The wordmark is CUT, not typed.</li>
+<li><code>IdentCore.js</code> — Ident [3/4]: the treatments. Fifteen worked materials, fourteen motions, forty named treatments, each one a different material or a different motion…</li>
+<li><code>Ident.js</code> — Ident [4/4]: plays your studio's animated ident before the title screen, set from your studio name in one of forty worked treatments.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Ident.js</code> finds the other three the first time the ident plays, so any order works, including the alphabetical order you get by dragging the folder in, which puts <code>Ident.js</code> <em>first</em>; the engine runs here load it that way and a reversed order is tested too. If <code>IdentCore.js</code> is switched off, the game stops at boot with a message naming it. Only <code>Ident.js</code> touches RPG Maker; switch it off and nothing is patched. <strong>Another splash plugin</strong> that shows its own scene and then goes to the title keeps working above or below Ident (its splash, then the ident, then the title): tested with a stand-in splash plugin that takes the boot path the same way, not with a named third-party plugin.</p>
+<p><strong>It also extends one method on a core singleton, the same way — original saved and called through:</strong> <code>SceneManager.goto</code>. Another plugin patching that one keeps working.</p>
+<p><strong>It patches no core class prototype</strong>; the singleton method above is the only engine seam it uses.</p>
+<h3>Forty treatments</h3>
+<p>Fifteen materials and fourteen arrivals, combined so that no two treatments share both: foil, ink, letterpress, neon, carved slate, marble with gold inlay, embroidery, sealing wax, pixel blocks, chalk, CRT phosphor, engraved steel, burned wood, cut paper and frosted glass, arriving struck, swept by light, written, bled in, flickered on, chiselled, row by row, assembled, powered on, risen, typed, irised, dropped or burned in. None of them is another one recoloured.</p>
+<h3>Your name is the seed</h3>
+<p>The name picks the colours, the ground, the order the letters catch and the debris they throw, so two studios on the same treatment still get different marks. The same name always gives the same ident.</p>
+<h3>Cut, not typed</h3>
+<p>Every letter is cut from an authored set of letterforms in five hands, so nothing on screen is the engine's default font. A character outside the set falls back to a serif display stack, never the engine font.</p>
+<h3>Plays once, skips cleanly</h3>
+<ul>
+<li>Once per boot, before the title screen, and after the engine's own splash screen if you turn that on (tested on a fresh project: the splash, then the ident, then the title). A later return to the title (a game over, "To Title") goes straight to the title.</li>
+<li>OK, Cancel or a tap skips it, unless you turn skipping off.</li>
+<li>A battle test or an event test never plays it.</li>
+<li>A <strong>Play Ident</strong> plugin command plays it again, for your credits, and returns to the scene it came from.</li>
+<li>An optional <strong>credit plate</strong> plays next in the same treatment: type MADE WITH / RPG MAKER MZ, or your publisher. Text only; it never draws anyone's logo.</li>
+<li>An optional sound effect on arrival, from your own project's sounds.</li>
+</ul>
+<h3>Light to run</h3>
+<p>While the name moves it is redrawn every second frame, and once a still treatment comes to rest it is drawn once and only faded. Four raw, readable JavaScript files with a Readme for every treatment, parameter and command. Saves nothing and adds nothing to save files.</p>
+<h3>More for the screens your players see first</h3>
+<ul>
+<li><a href="https://csaf.itch.io/frontispiece">Frontispiece</a>: the title screen that comes after the ident, drawn from the game you actually made.</li>
+<li><a href="https://csaf.itch.io/colophon">Colophon</a>: the save screen as a shelf of cards, each drawn from what that save holds.</li>
+<li><a href="https://csaf.itch.io/intertitle">Intertitle</a>: every place and every boss announces itself with a composed title card.</li>
+</ul>
+<p><em>AI disclosure: the code, the letterforms and the store images were produced with AI assistance. Ident ships no audio and no story text.</em></p>
