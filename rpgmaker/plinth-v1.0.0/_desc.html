@@ -1,0 +1,41 @@
+<h2>Statues of your own characters, struck from their own sprites.</h2>
+<p>Plinth turns your cast and your monsters into statues. Give an event one note, <code>&lt;statue: actor 1, bronze, age 40&gt;</code>, and when the map loads Plinth reads that actor's walking sprite and strikes it in stone: the eyes blanked, the top edges catching the light, a surface for the material, weathering for its age, standing on a base with the name cut into it. <strong>No image files.</strong> Every statue comes from the sprites and battlers already in your project, so every character you have is a statue on day one.</p>
+<p>The same strike drives two more things: <strong>Petrify</strong>, a plugin command that turns the player, a follower or any event to stone from the feet up, right there on the map, and a <strong>state that turns a battler to stone</strong> in battle.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PlinthCore.js</code> — Plinth 1/2 - the statue: struck from each character's or enemy's own pixels in seven materials. No engine code.</li>
+<li><code>Plinth.js</code> — Plinth 2/2 - statues of your own cast and monsters on the map, live petrification, and stone battlers.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Plinth.js</code> finds <code>PlinthCore.js</code> the first time a statue or a petrify needs it, so either order works. That is tested in the real engine on the shipped zip: one session loads <code>Plinth.js</code> first (the alphabetical order you get by dragging the folder in) and another loads <code>PlinthCore.js</code> first, and both strike every statue. If <code>PlinthCore.js</code> is switched off, the first statue stops the game with a message naming the file to turn on. <code>PlinthCore.js</code> touches no part of RPG Maker; switch <code>Plinth.js</code> off and nothing is patched.</p>
+<p><strong>Core methods extended — 11 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Spriteset_Map.prototype.createCharacters</code>, <code>Game_CharacterBase.prototype.update</code>, <code>Game_CharacterBase.prototype.updateAnimation</code>, <code>Game_Player.prototype.canMove</code>, <code>Game_Event.prototype.updateSelfMovement</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.isEmptyCharacter</code>, <code>Sprite_Character.prototype.updateFrame</code>, <code>Sprite_Enemy.prototype.update</code>, <code>Sprite_Actor.prototype.update</code>, <code>Sprite_Actor.prototype.updateMotionCount</code>.</p>
+<p>Because nothing is clobbered, Plinth co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also defines 2 methods that their core class only inherited:</strong> <code>Sprite_Enemy.prototype.destroy</code> (inherited from <code>Sprite</code>), <code>Sprite_Actor.prototype.destroy</code> (inherited from <code>Sprite</code>). That touches those classes only, never the parent. If another plugin redefines the same method on the same class, load Plinth after it.</p>
+<h3>Seven materials: a surface, not a tint</h3>
+<p>Granite with crystals, veined marble, banded sandstone, cast bronze that pools verdigris in its recesses, gilt with beaten gold glints, glassy obsidian with gold inlaid letters, and ice that lets the light through. A grey state tone keeps the costume and changes the colour; Plinth keeps the form and changes what it is made of.</p>
+<h3>Age</h3>
+<p>One number from 0 to 100 weathers a statue: lichen blooms on the faces that look at the sky, rain streaks run down from the ledges, moss gathers at the foot and on the base, bronze turns green. A founder's statue in the square and a forgotten idol in the forest are the same character at different ages.</p>
+<h3>Petrify and Restore</h3>
+<p>Stone climbs from the feet to the crown over the frames you choose, with a ragged edge and a band of dust, and the eyes go blank as it passes them. A stone player cannot move and a stone event stops walking until Restore plays the stone back down. Both commands can wait for completion. The player and followers stay stone across maps and in the save.</p>
+<h3>Stone in battle</h3>
+<p>Put <code>&lt;Plinth: granite&gt;</code> (any material) in a state's note. While a battler holds that state, enemies and side-view actors are shown in stone, actors frozen in the pose they were in; remove the state and they come back. What the state does is still the state's own settings, exactly as in MZ.</p>
+<h3>Also</h3>
+<ul>
+<li><strong>Big battlers make big statues:</strong> a battler 380 pixels wide stands on a base in proportion to it, not on a plank.</li>
+<li><strong>Names cut into the base</strong>, from the note, the actor or the enemy. Carving, bases and eye blanking can each be switched off.</li>
+<li><strong>Every option is a parameter or a note word:</strong> material, age, name, petrify time.</li>
+<li><strong>Light to run:</strong> each statue is struck once when its map loads, one per frame while the map settles, and then nothing is read or rebuilt. Measured in the real engine with six statues standing and a petrify running: 10 draw calls a frame and no texture uploads.</li>
+<li><strong>Safe to remove:</strong> a save made with Plinth loads and plays with Plinth switched off. That is tested, not assumed.</li>
+<li><strong>Raw, readable JavaScript</strong> in two files, with a Readme for every note word, command and parameter.</li>
+</ul>
+<p>The figures in these pictures come from sprite packs by the same studio: townsfolk from <a href="https://csaf.itch.io/hearthhands-01-the-working-day">Hearthhands 01: The Working Day</a> and <a href="https://csaf.itch.io/hearthhands-03-watch-and-ward">Hearthhands 03: Watch and Ward</a>, goblins from <a href="https://csaf.itch.io/greenskin-01-the-muster">Greenskin 01: The Muster</a>, heroes from <a href="https://csaf.itch.io/wildmark-battlers-mz">Wildmark Battlers</a> and cave creatures from <a href="https://csaf.itch.io/deepwarren-01-the-living-dark">Deepwarren 01: The Living Dark</a>. In your project they are your own characters.</p>
+<h3>More for RPG Maker MZ, made from your own sprites</h3>
+<ul>
+<li><a href="https://csaf.itch.io/stature">Stature</a>: taller side-view battlers, re-proportioned pose by pose from your own sheets.</li>
+<li><a href="https://csaf.itch.io/posture">Posture</a>: your characters sit, kneel, sleep and wave, poses derived from the walking sprites you already have.</li>
+<li><a href="https://csaf.itch.io/scathe">Scathe</a>: cracks, scorch, frost and cuts struck into each enemy's own battler by the element that hit it.</li>
+<li><a href="https://csaf.itch.io/wrack">Wrack</a>: your own town burned, ruined, overgrown or abandoned, re-struck from your own tileset.</li>
+</ul>
+<p><em>AI disclosure: the code, the drawing code, the store images and the cover were produced with AI assistance. Plinth contains no audio and no story text.</em></p>
