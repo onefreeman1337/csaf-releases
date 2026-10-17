@@ -1,0 +1,43 @@
+<h2>Team dodgeball, inside your RPG.</h2>
+<p>Pelt is a real-time dodgeball scene for RPG Maker MZ. Call one plugin command and your party plays a troop, or a team of rival actors, on a court the plugin draws: run, throw, catch, dodge, jump, and <strong>special throws made from each player's own skills</strong>.</p>
+<p><strong>Your party is the team on day one.</strong> Pelt plays with the side-view battler sheets your project already has, mapping MZ's own battle motions onto the game: walk to run, guard to catch, swing to throw, evade to dodge, dead when out, victory when your side wins. Any troop can be the other team, drawn from its enemy images. No new art, no image files, no fonts: the courts, the ball, the sparks, the HUD and the lettering are all drawn by the plugin.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PeltCore.js</code> — Pelt 1/3 - the rules: team dodgeball on a court with a depth lane, throw, catch, dodge, outs and returns, specials from skills. No engine code.</li>
+<li><code>PeltDraw.js</code> — Pelt 2/3 - the drawing: five courts, the ball, sparks, the HUD and arcade lettering. No engine code.</li>
+<li><code>Pelt.js</code> — Pelt 3/3 - team dodgeball: your party against a troop or a rival team on a drawn court, their own battlers throwing and catching.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with. This order reads sensibly in the list and <strong>nothing depends on it</strong>: <code>Pelt.js</code> finds the other two the first time a match starts, so any order works (it was tested with <code>Pelt.js</code> loading first).</p>
+<h3>The classic rules</h3>
+<ul>
+<li><strong>Three hits and a player is out.</strong> Catch a throw and the <strong>thrower</strong> is out, and one of your own out players comes back.</li>
+<li><strong>An outfielder on each side</strong> stands behind the other team and throws in from behind, so nobody is safe at the back line.</li>
+<li><strong>Catch or dodge:</strong> a catch stance has to face the ball and a stance that catches nothing leaves you off balance; a dodge is a quick sidestep the ball passes through; you can jump.</li>
+</ul>
+<h3>Special throws made from your skills</h3>
+<p>Each player gets up to three specials from the skills it knows, then the skills its class will learn, then its attack skill, and throws them in turn. The skill's <strong>element</strong> decides the look and the way it reaches its target decides the flight: a straight shot, a fast rush, a <strong>rising spike</strong> and a <strong>high drop</strong> that come down from above and cannot be caught, a <strong>skim along the floor</strong> you have to jump, a <strong>burst</strong> that is hard to step out of, and a <strong>drain</strong> that heals the thrower. MZ's nine stock elements each have their own ball and hit spark, and an element you named yourself is matched by its words, so "Frost Nova" throws as ice.</p>
+<h3>More than a reskinned battle</h3>
+<ul>
+<li><strong>Four computer strengths, tuned by measurement</strong> (240 matches per strength): a newcomer who reacts late and rarely catches wins most matches against Beginner, more than half against Easy and about a third against Normal; a competent player who catches on time and runs up before throwing wins every match against Beginner and Easy, nearly every one against Normal and about half against Hard. Mashing the buttons wins under half against Beginner and less at every strength above it.</li>
+<li><strong>A team that reads on screen:</strong> one player goes for a loose ball and the rest hold their spots, so the court never turns into a pile of sprites.</li>
+<li><strong>Five courts:</strong> Schoolyard, Beach, Castle Courtyard, Frozen Pond, Tavern Cellar.</li>
+<li><strong>An arcade HUD:</strong> a card per player with an HP bar and an OUT stamp, special meters, round pips, a clock, and CATCH! / OUT! / HIT / PLAY BALL! / TIME! / YOU WIN! lettering.</li>
+<li><strong>Two, three or four a side</strong>, best of one or three, your party against any troop or a team of rival actors.</li>
+<li><strong>Results go back into your game:</strong> the winner into a variable, a switch when your team wins, an optional common event.</li>
+<li><strong>Demo mode:</strong> both sides play themselves, for an exhibition or an attract screen.</li>
+<li><strong>Light to run:</strong> measured in the real engine, a ten-player match takes 2 draw calls a frame.</li>
+<li><strong>Raw, readable JavaScript</strong> with a Readme for every option.</li>
+</ul>
+<p>Version 1.0 is one player against the computer, with a keyboard or a gamepad.</p>
+<p>The players in these pictures are <a href="https://csaf.itch.io/wildmark-battlers-mz">Wildmark Battlers</a> ($6.99) against <a href="https://csaf.itch.io/deepwarren-battlers-mz">Deepwarren Battlers</a> ($4.99), side-view battler packs from the same studio. In your project they are your own actors and your own troops.</p>
+<h3>More minigames for RPG Maker MZ</h3>
+<ul>
+<li><a href="https://csaf.itch.io/bout">Bout</a> ($12.99): a one-on-one fighting game between two of your actors, specials made from their skills.</li>
+<li><a href="https://csaf.itch.io/schuss">Schuss</a> ($9.99): SkiFree-style downhill runs on skis, a snowboard, a sled, a mine cart or a raft.</li>
+<li><a href="https://csaf.itch.io/round-up">Round-up</a> ($11.99): a herding minigame on your own map.</li>
+<li><a href="https://csaf.itch.io/derby">Derby</a> ($12.99): a race meeting the player bets on, with a photo finish.</li>
+</ul>
+<p><em>AI disclosure: the code, the drawing code, the store images and the cover were produced with AI assistance. Pelt contains no audio and no story text.</em></p>
