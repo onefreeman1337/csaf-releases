@@ -1,0 +1,17 @@
+<p><strong>Pit Lane: Racing Sound Effects</strong> is out. 110 sounds, shipped as WAV and OGG with loop points on every loopable file, a naming manifest and per-engine import notes.</p>
+
+<p>The pack is <strong>a grid, 5 surface values by 2 slip values</strong> (asphalt, gravel, dirt, wet tarmac and ice; sliding, still rolling and locked wheels), so a game asks for the cell it needs and gets it. All 10 cells ship real audio (10 files), and along each axis every pair of cells was compared from the shipped files: 5 along the rows and 20 down the columns, each at least 9% apart in brightness or 18% in length. Indistinct pairs: 0. Change the surface and the sound changes; change the slip and it changes too.</p>
+
+<p><strong>The pass bys are physics, and measured.</strong> Each of the 20 pass bys moves the car's own engine past a listener at 79, 137, 209, 288 km/h and computes, sample by sample, when the sound left the car, so the drop in pitch is the travel time of the sound. Measured back off the shipped files, every drop sits within 0.9% of what the speed predicts, and the same engines rendered standing still read no shift at all. The figures ship as <code>passby_proof.json</code>.</p>
+
+<p>The pack ships <strong>11 escalation ladders</strong>: ordered ramps, not bags of cues. 49 rungs were resolved and 38 adjacent steps checked: every step moves in the declared direction by at least 8% in brightness or 12% in length, and every ladder spans at least 1.5x end to end. A ladder that stalls or reverses fails the build.</p>
+
+<p>The pack ships <strong>5 mechanisms</strong> as whole lifecycles rather than as single cues. 25 state files were resolved and 50 within-mechanism pairs were compared. 15 states are loopable and every one of them carries real loop points, read out of the rendered file rather than out of the manifest. No state pair sits closer than 9% in brightness or 18% in length, which is what stops a lifecycle being one gesture under several names.</p>
+
+<p><strong>Royalty-free. Commercial use. No attribution required.</strong> Everything here is synthesised from scratch in code, so there are no samples and no upstream licence sitting behind it. The plain-language licence ships in the download. The only thing you may not do is resell the pack itself as a pack.</p>
+
+<p><strong>There is a free demo</strong> on the page — a real subset of the pack, not a teaser reel. Download it and listen before you decide.</p>
+
+<p>What was measured, and it is in <code>pack_proof.json</code> inside the download so you can check it yourself: <strong>1048 checks, 0 failed</strong>. The inner 80 percent of the pack sits inside <strong>0.28 dB</strong> of loudness, so swapping one cue for another does not jump. 4 variation families are declared and each was checked for real variation rather than the same render twice.</p>
+
+<p><em>Made by Core Systems Asset Factory. Code and graphics are AI-assisted; the audio is not — every sample is procedural synthesis written in Node, with no generative-audio model anywhere in the pipeline.</em></p>
