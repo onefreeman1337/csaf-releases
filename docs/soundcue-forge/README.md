@@ -36,9 +36,9 @@ Every Sound Cue under the folders you name is read and judged, one line per cue:
   - a Random node with **Randomize Without Replacement**, which is ON by default in Unreal. The cue plays every input
     once before any repeats; MetaSound's Random Get can avoid repeating at most the last half of its inputs, so in the
     port an input can come back sooner. Untick the option on the cue, or accept it with `-AcceptApproximated`.
-- **REFUSED**: at least one node has no faithful MetaSound construction (Branch, Switch, Doppler, Enveloper, Distance
-  Crossfade, Quality Level, a random delay range and others); the line names the node and why. A refused cue is never
-  half-ported.
+- **REFUSED**: at least one node has no faithful MetaSound construction: Branch, Switch, Doppler, a random delay range,
+  mono mixed with stereo, and any node outside the portable set above. The line names the node and why. A refused cue
+  is never half-ported.
 
 Each cue also shows how many packages reference it, read from the asset registry (nothing outside the cues and their
 waves is loaded).
@@ -51,9 +51,8 @@ UnrealEditor-Cmd.exe "C:\Path\To\YourProject.uproject" -run=SCF -Scope=+Game/Aud
 
 Builds `<Cue>_MS`, a MetaSound Source, beside every PORTABLE cue (add `-AcceptApproximated` to include APPROXIMATED
 ones). Every built document is read back and compared with what was built (each node class counted, every connection)
-before anything is saved, then the saved files are confirmed through the asset registry. The cue's volume and pitch
-multipliers, sound class and attenuation asset are carried to the new asset. Your cues and their referencers are not
-touched. If any target name already exists, or any cue fails to build, the run refuses and writes nothing.
+before anything is saved, then the saved files are confirmed through the asset registry. Your cues and their
+referencers are not touched. If any target name already exists, or any cue fails to build, the run refuses and writes nothing.
 
 ## 3. Relink
 
