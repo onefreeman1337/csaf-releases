@@ -66,8 +66,7 @@ Component's Sound), arrays, soft references, DataTable rows and Blueprint pin de
 run. Before anything is written, every reference is checked against the type of the property or pin that holds it:
 
 - a property or pin typed **Sound Cue** cannot hold a MetaSound Source, so it is refused by name;
-- a read-only referencer file (not checked out of source control) is refused;
-- a World Partition external actor package is refused (v1 does not relink one-file-per-actor levels).
+- a read-only referencer file (not checked out of source control) is refused.
 
 Any refusal refuses the whole run and nothing is written. After the rewrite the same type check runs again on the
 result before saving; touched Blueprints are compiled once; the registry is rescanned and any package that still
@@ -107,6 +106,10 @@ several folders with `+`: `-Scope=+Game/Audio+Game/UI`. `-Help` prints every swi
 exit when the run ends.
 
 Supported: Unreal Engine 5.8, Win64 editor. Only 5.8 has been built and tested.
+
+Not in v1: relinking references held inside World Partition one-file-per-actor levels, and ports of cues that use
+parameter-driven nodes (Branch, Switch and the rest stay Sound Cues). It does not play or listen to the result; it
+proves the graph it built is the graph it meant to build.
 
 
 ---
