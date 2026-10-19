@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 580 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 581 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-19T17:58:17.163Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-19T23:19:32.946Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -4510,7 +4510,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 11 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 12 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -4525,6 +4525,14 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 Store: https://csaf.itch.io/bridge-voice-01-starship-computer-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/bridge-voice-01-starship-computer-voice-pack/ · Paid · free browser demo on the page
 
 One ship computer for the whole flight: docking, the jump, damage reports, alarms and self destruct 163 spoken lines by one invented starship computer, for space sims, shooters, survival and horror games set aboard a ship or a station.
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
+### Command 01: RTS Unit Responses Voice Pack
+
+Store: https://csaf.itch.io/command-01-rts-unit-responses-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/command-01-rts-unit-responses-voice-pack/ · Paid · free browser demo on the page
+
+Five RTS units and an advisor, voiced for every click 140 spoken lines by five invented unit types and an advisor, every character on its own built in voice: a worker, a footsoldier, an archer, a rider and a mage with 20 lines each, and an advisor with 40 base and map alerts.
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
