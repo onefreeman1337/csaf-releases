@@ -1,0 +1,59 @@
+<h2>Your own towns, dressed for their festivals.</h2>
+<p>Fete is a plugin for RPG Maker MZ that dresses the town maps you already built: <strong>bunting strung eave to eave and zigzagged across the lanes, lamp posts along the house fronts and the roads with lights strung between them, banners and wreaths on free wall, market stalls round the square and a centrepiece in the middle of it</strong>, with leaves, petals, sky lanterns, motes or wisps drifting over it all.</p>
+<p><strong>Nothing is placed by hand and nothing is written into your map.</strong> Fete reads where your houses are (roofs, eaves, front walls), the gaps between them, your lanes and your square, using the engine's own tile arithmetic, and puts the festival there. Switch it on with a notetag, a switch or a plugin command and it arrives on screen: strings run out from post to post, posts, stalls and the centrepiece rise into place. Switch it off and your town is exactly as you made it.</p>
+<p><strong>Every decoration is drawn by the plugin's code.</strong> No image files to import, no tiles to paint, no second copy of the map to keep in step.</p>
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>FeteCore.js</code> — Fete 1/3 - the plan: reads your map and decides where the festival goes. No engine code.</li>
+<li><code>FeteDraw.js</code> — Fete 2/3 - the look: five festival dressings drawn in code (strings, lamps, banners, stalls, centrepieces, air). No engine code.</li>
+<li><code>Fete.js</code> — Fete 3/3 - dress your own towns for their festivals. Switchable, saved, played in with a transition.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Fete.js</code> finds the other two the first time a map needs dressing, so any order works, including the alphabetical order you get by dragging the folder in, which puts <code>Fete.js</code> <em>first</em> (the order every engine test here loads them in). If <code>FeteCore.js</code> or <code>FeteDraw.js</code> is switched off, entering a dressed map stops with a message naming the file to turn on. Only <code>Fete.js</code> touches RPG Maker. <strong>Fete draws nothing into your map file</strong>: its decorations are sprites in the map's own tilemap, and it patches no weather, parallax, picture or window method, so it does not stand in their way (not tested with named third-party lighting plugins); place it after any plugin that rebuilds the map spriteset.</p>
+<p><strong>Core methods extended — 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>, <code>Game_CharacterBase.prototype.isMapPassable</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Fete co-exists with other plugins that patch the same seams, including large suites.</p>
+<hr>
+<h3>Five festivals</h3>
+<ul>
+<li><strong>Harvest Fair</strong> — autumn pennants, paper lanterns with bulb festoons, wheat-sheaf banners, a ribboned maypole, stalls of pumpkins, apples and loaves, falling leaves.</li>
+<li><strong>Lantern Night</strong> — strings of paper lanterns along every eave and across the lanes, tall red lanterns, moon scrolls, a lantern gate on the square, sky lanterns rising.</li>
+<li><strong>Spring Blossom</strong> — flower garlands with hanging drops, pastel pennants, flower baskets, flower wreaths, a flower arch, drifting petals.</li>
+<li><strong>Midwinter</strong> — evergreen garlands with gold bulbs, pierced star lanterns, wreaths with red bows, a decorated tree with a star, stalls of gifts and candles. Deliberately no snow, so it suits your own winter tiles or none.</li>
+<li><strong>All Hallows</strong> — tattered orange and black pennants, strings of little jack-o'-lanterns, bat banners, a bonfire kept by three jack-o'-lanterns, wisps.</li>
+</ul>
+<h3>Night</h3>
+<p>Tint the screen for night and <strong>the town goes dark while the lights do not</strong>: every lamp, lantern string, bulb, the gate, the tree and the bonfire glow brighter the darker you tint it (Lamps = auto, the default). One Tint Screen command turns the Harvest Fair into a lantern-lit evening.</p>
+<h3>How you switch it</h3>
+<ul>
+<li><strong>Notetags</strong>: <code>&lt;Fete: harvest&gt;</code> dresses a map; <code>&lt;Fete switch 12: hallows&gt;</code> dresses it while a switch is ON; <code>&lt;Fete region 5: lantern&gt;</code> gives one region its own festival; <code>&lt;Fete square region 9&gt;</code> chooses the square; <code>&lt;Fete mask region 3&gt;</code> keeps a region bare.</li>
+<li><strong>Plugin commands</strong>: Set Dressing (a map, a region or a rectangle; unspool, fade or instant; wait for it), Clear Dressing, Release to Notes, Lamps On / Off / Auto. Set the next town over before the player gets there.</li>
+<li><strong>Switch bindings</strong> in the plugin parameters: one switch can dress every town marked <code>&lt;Fete town&gt;</code> for the festival day.</li>
+<li>Saved with the game, and a map that is dressed when the player arrives is dressed on its very first frame.</li>
+</ul>
+<h3>Careful with your map</h3>
+<ul>
+<li>Nothing is placed on a door or any event, on a barrel, a well, a window or a tree.</li>
+<li>Lamp posts, stalls and the centrepiece can block their cell, but only where every path round them stays open: a post in a one-tile corridor stays walk-through. Or turn solidity off.</li>
+<li>A forest or a dungeon with no houses gets nothing, and nothing breaks. Tile sizes other than 48 are supported.</li>
+<li><strong>Pixel size</strong> 2 or 3 draws the decorations in hard-edged chunky pixels to match pixel-art tilesets drawn at 2x or 3x; 1 (the default) draws them smooth for 48 px art.</li>
+</ul>
+<h3>Light on the frame</h3>
+<p>Measured in the real engine on a 24 x 16 town on Lantern Night under a night tint (31 decorations, 21 lights and 36 sky lanterns live): <strong>13 draw calls</strong> per frame, <strong>0 texture uploads</strong> and <strong>0 display objects added</strong> per frame, the per-frame update well inside the 2 ms budget. All drawing happens once, when a dressing is built.</p>
+<h3>What's in the download</h3>
+<ul>
+<li><code>FeteCore.js</code>, <code>FeteDraw.js</code>, <code>Fete.js</code> — readable, unminified JavaScript.</li>
+<li><code>Readme_for_Users.md</code> — every notetag, command and parameter.</li>
+<li><code>LICENSE.txt</code> — use it in unlimited commercial and free games.</li>
+</ul>
+<p>The store images show Fete running in the real MZ engine on tilesets painted by Core Systems Asset Factory.</p>
+<hr>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/wrack">Wrack</a> ($12.99) — the same town burned, ruined, overgrown or abandoned, made from your own tileset. Ruin it, rebuild it, celebrate it, from one map.</li>
+<li><a href="https://csaf.itch.io/fathom">Fathom</a> ($12.99) — your map under the sea.</li>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a> ($12.99) — the sky moves over your map, and the map knows it.</li>
+<li><a href="https://csaf.itch.io/strew">Strew</a> ($14.99) — dress your maps with grass, flowers and rocks in one pass.</li>
+</ul>
+<p><em>AI disclosure: the code and the graphics in this product were produced with AI assistance. No sounds and no authored narrative text ship with it.</em></p>
