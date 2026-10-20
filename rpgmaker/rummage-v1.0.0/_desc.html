@@ -1,0 +1,57 @@
+<h2>I Spy scenes made from your own items and characters.</h2>
+<p>Rummage is a plugin for RPG Maker MZ that composes seek-and-find scenes out of what your project already has. <strong>I Spy</strong> scatters the items, weapons and armour in your database across a surface the plugin draws (a dragon's hoard, a merchant's cloth, a tavern table, the forest floor, a beach at low tide, an alchemist's bench, a sunken wreck, a library desk), buries them in drawn clutter, and writes their names on a parchment for the player to find. <strong>Crowd</strong> fills a market square, a fair meadow or a quay with your characters walking about, and asks the player to find one person by face and costume.</p>
+<p><strong>No scene to paint and no object to place.</strong> Every scene comes from a seed, so a chest, a stall or a search can be different every time or the same every time. The list is your own names: "Find: Potion, Ruby Ring, Brook Trout".</p>
+<p><strong>Every listed thing can be found, and Rummage proves it.</strong> It samples each one's outline, counts how much nothing drawn above it covers, and moves the clutter until enough is in plain view (80%, 66% or 52% by difficulty). A click only counts on a part that can actually be seen, so a player never "finds" something through the coins on top of it.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>RummageCore.js</code> — Rummage model: composes seek-and-find scenes from your database and proves every target can be found.</li>
+<li><code>RummageDraw.js</code> — Rummage renderer: draws the surfaces, the filler, your icons, the ink and the lens. No image files.</li>
+<li><code>Rummage.js</code> — Rummage: I Spy and seek-and-find scenes composed from your own items and characters.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Rummage.js</code> finds the other two the first time a scene opens, so any order works, including <code>Rummage.js</code> first (the order the in-engine tests load them in).</p>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>I Spy</h3>
+<ul>
+<li><strong>Eight surfaces, more than forty kinds of clutter</strong>, all drawn in code: coins, chains and dragon scales in the hoard; dice, cards and corks on the tavern table; oak, maple and birch leaves, acorns and mushrooms on the forest floor; shells, kelp and sea glass at low tide; corked potion flasks, herbs and crystals on the alchemist's bench; rivets, coral and rope on the wreck; paper scraps, quills and wax seals on the library desk.</li>
+<li><strong>Your icons, drawn crisp</strong>: whole-number scale, a dark outline and a contact shadow, so they read on a busy ground. No two records sharing an icon or a name ever appear together, so "Find: Potion" has exactly one answer.</li>
+<li><strong>Filter what is hidden</strong>: items, weapons, armour or all, or a notetag. <code>&lt;Rummage: fish&gt;</code> lets a fishing hut ask for fish only; <code>&lt;Rummage: skip&gt;</code> keeps a record out.</li>
+<li><strong>A magnifying lens</strong> follows the mouse at 2x. Finds are ringed in red ink and struck from the list; misses get a small ink cross. A hint makes one unfound thing glint. When time runs out, whatever was missed is ringed in paler ink.</li>
+</ul>
+<h3>Crowd</h3>
+<ul>
+<li><strong>Three grounds with a back row</strong>: timber-framed house fronts and striped market stalls with their wares; pavilion tents, bunting and hay bales; moored boats, the quay edge and its cargo. Nobody walks behind the back row, so a stall is never drawn over a person.</li>
+<li><strong>Your own characters</strong>: every actor with a character image, plus any sheet from <code>img/characters</code> you list. Up to 80 walkers keep apart, wander, pause and step aside from in front of the person you are looking for.</li>
+<li><strong>Lookalikes</strong>: some walkers wear the target's own sheet in other colours, each checked to differ visibly from the original, so the costume alone is not the answer. A recolour changes the clothes only: faces and hands keep their own skin tones.</li>
+</ul>
+<h3>Into your game</h3>
+<ul>
+<li>Two plugin commands, <strong>I Spy</strong> and <strong>Crowd</strong>, and script calls for both. Things to find (1 to 12), difficulty, surface or ground, time limit, hints, seed.</li>
+<li>Results written before your event continues: seconds, found and misses into variables, a switch ON when everything was found, an optional common event, and <code>CSAF.Rummage.lastResult()</code>. A count of every icon the player has ever found, for a collection or an achievement.</li>
+<li>Mouse, touch, keyboard and pad. On a tall portrait screen the parchment moves below the scene.</li>
+<li>Saved with the game in one small record.</li>
+</ul>
+<h3>Light on the frame</h3>
+<p>Measured in the real engine with the frame gate on the heaviest cases: the Dragon Hoard at 12 things on hard with the lens moving every frame at <strong>5 draw calls</strong> a frame, and a crowd of 80 walkers at <strong>7 draw calls</strong> a frame. The I Spy scene is drawn once while it settles in and never redrawn; the only texture upload in play is the clock, once a second.</p>
+<h3>What's in the download</h3>
+<ul>
+<li><code>RummageCore.js</code>, <code>RummageDraw.js</code>, <code>Rummage.js</code>: readable, unminified JavaScript.</li>
+<li><code>Readme_for_Users.md</code>: every command, notetag and parameter.</li>
+<li><code>LICENSE.txt</code>: use it in unlimited commercial and free games.</li>
+</ul>
+<p>The store images show Rummage running in the real MZ engine with icons and characters made by Core Systems Asset Factory (no stock RPG Maker art).</p>
+<hr>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/jigsaw">Jigsaw</a> ($9.99): jigsaw puzzles cut from your own pictures, as a minigame.</li>
+<li><a href="https://csaf.itch.io/pendant">Pendant</a> ($9.99): spot-the-difference from your own pictures.</li>
+<li><a href="https://csaf.itch.io/rebus">Rebus</a> ($9.99): picture word puzzles from your own art and database.</li>
+<li><a href="https://csaf.itch.io/sapper">Sapper</a> ($7.99): minesweeper over one of your own pictures, every board solvable without a guess.</li>
+<li><a href="https://csaf.itch.io/unveil">Unveil</a> ($7.99): claim the board to reveal a picture, Qix-style.</li>
+</ul>
+<p><em>AI disclosure: the code and the graphics in this product were produced with AI assistance. No sounds and no authored narrative text ship with it.</em></p>
