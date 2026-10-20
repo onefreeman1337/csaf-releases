@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 581 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 583 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-19T23:19:32.946Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-20T00:37:07.318Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1062,7 +1062,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 50 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 51 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1229,6 +1229,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/hearthlight-02-cozy-kitchen-cooking-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hearthlight-02-cozy-kitchen-cooking-sound-effects/ · Paid
 
 Every dish from the pantry to the plate 126 cozy cooking sound effects: 8 dishes, and every one ships the same 6 stage chain, from the board to the table, each dish made its own way.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hearthlight 03: Cozy Pet Care Sound Effects
+
+Store: https://csaf.itch.io/hearthlight-03-cozy-pet-care-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hearthlight-03-cozy-pet-care-sound-effects/ · Paid
+
+Every pet from greeting to sleep 126 cozy pet sound effects: 8 pets, and every one ships the same 8 stage care chain, from the moment it greets the player to the moment it falls asleep, each pet its own way.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3662,7 +3670,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 40 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 41 products.
 
 ### ANATOMIST
 
@@ -3701,6 +3709,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/banneret · Our page: https://onefreeman1337.github.io/csaf-releases/games/banneret/ · Free
 
 You never move a knight. You plant a banner. Every knight on the field charges it at once, in a straight line, and does not stop until something stops them.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### BOLTHOLE
+
+Store: https://csaf.itch.io/bolthole · Our page: https://onefreeman1337.github.io/csaf-releases/games/bolthole/ · Paid · free browser demo on the page
+
+BOLTHOLE is a twin-stick action-adventure in one barred keep. You move with one hand and aim every crossbow bolt with the other, while the dead fire back.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
