@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 598 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 600 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T13:53:59.775Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T18:23:05.258Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1734,7 +1734,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 102 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 103 products.
 
 ### Anvil - Forging Minigame for Crafting in RPG Maker MZ
 
@@ -2408,6 +2408,14 @@ Four old tavern board games your player can sit down and play against the people
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Temperament - Personality Quizzes for RPG Maker MZ (Sort the Player Into Your Own Classes, Heroes or Houses)
+
+Store: https://csaf.itch.io/temperament · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/temperament/ · Paid · Engines: RPG Maker
+
+Ask the player who they are, and let the answer choose. Temperament is a personality quiz for RPG Maker MZ, the kind of opening the Mystery Dungeon games made famous.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
 ### Tether — Relationship Chart for RPG Maker MZ
 
 Store: https://csaf.itch.io/tether · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tether/ · Paid · Engines: RPG Maker
@@ -2554,7 +2562,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 72 products.
+GML systems and assets for GameMaker. 73 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -2827,6 +2835,14 @@ Store: https://csaf.itch.io/intertitle-gamemaker · Our page: https://onefreeman
 Title cards for GameMaker: every place your player walks into and every boss they face announces itself with a composed card, drawn in pure GML from facts your game already keeps.
 
 AI disclosure: AI Assisted, Code, Graphics
+
+### Jackpot - Generated Slot Machines for GameMaker
+
+Store: https://csaf.itch.io/jackpot-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/jackpot-gamemaker/ · Paid · Engines: GameMaker
+
+Slot machines for your GameMaker game, generated and drawn by the package, playable out of the box, and honest about their maths: every machine's return to player is computed exactly from its reel strips, and its pay table can be tuned to the figure you choose.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Jigsaw - Jigsaw Puzzles From Any Picture, for GameMaker
 
