@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 585 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 586 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-20T17:39:12.812Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T01:39:11.945Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1474,7 +1474,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 27 products.
+Game music packs. Formats and track counts are stated on each store page. 28 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1529,6 +1529,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/deep-space · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/deep-space/ · Paid
 
 Deep Space is a 44 track score for space games: the bridge and the engine room, a station and its cantina, drift and the nebula, planetfall and alien ruins, a derelict to board, ship battles, two bosses and the cues a game fires all day.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Desert - Caravan, Dunes and the Sunken City - Fantasy Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/desert-caravan · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/desert-caravan/ · Paid
+
+Desert is a 44 track score for desert fantasy games: the caravan road and the dune sea, the oasis town, the bazaar and the sultan's court, the sandstorm and the salt flats, a city buried in the sand, the battles and bosses fought over it, a sand wyrm, and the cues a game fires all day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
