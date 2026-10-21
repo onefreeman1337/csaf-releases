@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 592 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 594 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T06:30:44.010Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T09:42:45.947Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1078,7 +1078,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 51 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 52 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1309,6 +1309,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/longhaul-survival-crafting-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/longhaul-survival-crafting-sound-effects/ · Paid
 
 Survival sound effects where the tools wear out: fresh, worn, failing, broken 103 survival sound effects: an axe, a pickaxe, a hammer, a shovel and a knife at three conditions each plus the moment each breaks, the campfire from a struck flint to a bonfire, gathering, crafting and building,...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Overdub: RPG Maker MZ Default Sound Replacement
+
+Store: https://csaf.itch.io/overdub-rpg-maker-mz-default-sound-replacement · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/overdub-rpg-maker-mz-default-sound-replacement/ · Paid
+
+Every default sound a new MZ project plays, re-voiced 137 new sound effects, each named exactly like an RPG Maker MZ default sound effect.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4690,13 +4698,21 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 6 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 7 products.
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
 Store: https://csaf.itch.io/bone-and-brass-dark-fantasy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/bone-and-brass-dark-fantasy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A grim dark fantasy interface: heavy bone frames, iron panels, tarnished brass, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Casual Pop: Chunky Bright Game UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/casual-pop-chunky-bright-game-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/casual-pop-chunky-bright-game-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A chunky candy UI for casual and party games: thick ink outlines, a gloss shine, a thick lip, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
 
 AI disclosure: AI Assisted, Code, Graphics
 
