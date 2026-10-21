@@ -90,7 +90,9 @@ objects, structs and arrays:
 
 A name is judged against the skeleton's bones, every mesh's bones, and every socket on the skeleton and its meshes.
 When an asset also references another skeleton, skeletal mesh or static mesh, that asset's bones and sockets count
-too: a component attached to a socket on a prop's static mesh is not reported as dangling.
+too: a component attached to a socket on a prop's static mesh is not reported as dangling. A Blueprint component is
+also judged against the component it is attached to, so a camera on a spring arm's built-in `SpringEndpoint` socket
+(Epic's Third Person character has one) is not reported either.
 
 ### What 1.0 does not read
 
@@ -112,6 +114,7 @@ These are listed by name in the report, never skipped silently:
 * Old no longer exists and New names no bone and no socket either.
 * An asset that holds Old also references another skeleton or mesh that has its own Old: the tool cannot tell which
   one each place means.
+* A Blueprint component holding Old is attached to another component that has its own Old socket.
 * A package it would write is read-only on disk (check it out of source control first).
 * A socket rename while packages outside `-Scope` reference the skeleton (widen `-Scope`).
 * Nothing read holds Old.
