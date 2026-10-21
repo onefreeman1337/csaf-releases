@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 586 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 588 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T01:39:11.945Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T04:39:22.631Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -666,7 +666,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 49 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 50 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -705,6 +705,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/farmstead-00-the-yard-flock · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-00-the-yard-flock/ · Free · pay what you want
 
 4 farmyard birds, free: a rooster, a hen, a chick and a duckling, each with every facing and every animation they ship with in the paid Farmstead packs.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Farmstead 01 Actions: Rest, Graze and Run (144x144 & 72x72 farm animal sprites)
+
+Store: https://csaf.itch.io/farmstead-01-actions-rest-graze-and-run · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-01-actions-rest-graze-and-run/ · Paid
+
+Farmstead 01 gave the farmyard its animals standing and walking. This pack gives them everything else.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2522,7 +2530,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 71 products.
+GML systems and assets for GameMaker. 72 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -2995,6 +3003,14 @@ Store: https://csaf.itch.io/song-sheets-gamemaker · Our page: https://onefreema
 Every song your player learns becomes an engraved plate they collect - and the plate plays what it shows. A learnable-songs system for bards, ocarinas, shanties and spells.
 
 AI disclosure: AI Assisted, Code, Graphics
+
+### Strata - Generated Excavation Digs for GameMaker
+
+Store: https://csaf.itch.io/strata-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/strata-gamemaker/ · Paid · Engines: GameMaker
+
+Give the player a rock face and two tools. Strata is a generated excavation dig for GameMaker: every blow cuts the rock back a layer or two and puts stress on the face, and somewhere under it lie fossils, relics, crystals or ore.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Taproom - Tavern Board Games Against an Opponent Who Thinks, for GameMaker
 
