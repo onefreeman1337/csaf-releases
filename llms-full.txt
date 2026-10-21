@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 605 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 606 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T21:20:55.233Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T23:28:26.526Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3166,7 +3166,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unity editor tools
 
-Editor tools for Unity 6. 37 products.
+Editor tools for Unity 6. 38 products.
 
 ### Almanac - The Illustrated Year
 
@@ -3325,6 +3325,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/interchange · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/interchange/ · Paid · Engines: Unity
 
 Nodes and edges in, a printed transit diagram out.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Ledgeline - Jump-Up, Drop and Gap NavMesh Links for Unity 6
+
+Store: https://csaf.itch.io/ledgeline · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/ledgeline/ · Paid · Engines: Unity
+
+Unity's NavMesh bake makes links for dropping DOWN off a ledge and for jumping ACROSS a level gap. It has no setting for jumping UP.
 
 AI disclosure: AI Assisted, Code, Graphics
 
