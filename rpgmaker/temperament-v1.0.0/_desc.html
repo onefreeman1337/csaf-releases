@@ -1,0 +1,58 @@
+<h2>Ask the player who they are, and let the answer choose.</h2>
+<p>Temperament is a personality quiz for RPG Maker MZ, the kind of opening the Mystery Dungeon games made famous. The player answers situations where no answer is right ("A fallen star grants you one wish."), and is sorted into one of <strong>your</strong> outcomes: a class from your database, one of your actors, or a house you name. Then a twelve-spoke wheel fills from their answers, the strongest spoke flares, and a card turns over with the outcome's portrait, its name and the player's epithet: "the Calm", "the Daring", "the Lucky".</p>
+<p><strong>Your database is the answer key.</strong> A class is read from its own parameter curves and the skills it learns, compared with your other classes, so a fresh project already works: MZ's eight stock classes read as eight different temperaments with no notetags. A notetag replaces the reading whenever you want the final say.</p>
+<p><strong>A tie is never settled quietly.</strong> When two outcomes match the answers equally, a banner says so and one more question is asked between the tied outcomes only, one answer each. The player's pick decides, and a switch records that a tie did.</p>
+<hr>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>TemperamentCore.js</code> — Temperament 1/3 - the rules: twelve temperaments, the question bank, the sort and the tie rule. No engine code.</li>
+<li><code>TemperamentDraw.js</code> — Temperament 2/3 - the drawing kit: six stages, question cards, answer tiles, twelve crests, the temperament wheel, the result card. No engine code.</li>
+<li><code>Temperament.js</code> — Temperament 3/3 - personality quizzes that sort the player into one of YOUR classes, actors or houses.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Temperament.js</code> finds the other two the first time a quiz starts, so any order works, including the reverse (the order the in-engine tests load them in). If <code>TemperamentCore.js</code> or <code>TemperamentDraw.js</code> is switched off, the command starts nothing and the browser console names the file to turn on. Only <code>Temperament.js</code> touches RPG Maker, and the quiz is its own scene, so it does not stand in the way of message, menu or battle plugins.</p>
+<p><strong>Core methods extended — 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Temperament co-exists with other plugins that patch the same seams, including large suites.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>The quiz</h3>
+<ul>
+<li><strong>44 built-in questions, 176 answers</strong>, every answer leaning toward one or two of twelve temperaments. No answer is right, and no answer names a temperament.</li>
+<li><strong>A balanced, seeded draw</strong>: every temperament your outcomes care about is offered in every quiz, and answers are read against what the quiz offered, so a temperament the bank offers more often cannot win by frequency alone. Blank seed for a new quiz each time, or a word for the same quiz every time.</li>
+<li><strong>Your own questions</strong> in the plugin parameters, up to four answers each with a lean such as <code>Calm 2, Wise 1</code>. A question that cannot work is skipped and the console says why.</li>
+<li>Arrow keys and OK, or click and tap. The picked answer lights with a tick while the others dim.</li>
+</ul>
+<h3>The reveal</h3>
+<ul>
+<li><strong>The temperament wheel</strong> fills spoke by spoke from the player's answers, then the winning spoke flares.</li>
+<li><strong>The card turns over</strong>: an actor's face, the face of the first actor who starts in the class, or a house's own face if you give it one; with no face, the outcome's own crest.</li>
+<li><strong>Twelve crests</strong>, each a different mark drawn by the plugin: a shield, a flame, claw marks, a crown, a paw print, a leaf, a moon over water, an open book, a spiral shell, a fox mask, an arrow, a horseshoe and star.</li>
+<li><strong>Six stages</strong> drawn by the plugin: the Dreaming Void, the Fortune-Teller's Tent, the Shrine of Charms, the Guild Hall at Night, Under the Starfield, the Sorting Hall. No stock window, no stock font.</li>
+</ul>
+<h3>Into your game</h3>
+<ul>
+<li>One plugin command, <strong>Start Temperament Quiz</strong>. The event waits until the quiz is over, then carries on.</li>
+<li>Results: the outcome's id and the temperament (1 to 12) into variables, a switch ON when it is done, a switch for a tie decision.</li>
+<li><strong>Change the leader's class</strong> to the sorted class (keeping EXP or not), or <strong>change the party</strong>: the sorted actor joins, or joins at the front and the old leader leaves. All through the engine's own methods, so they save like any other change.</li>
+<li><code>Temperament.lastResult()</code> is kept in the save file; <code>Temperament.start({...})</code> starts a quiz from a script.</li>
+</ul>
+<h3>Light on the frame</h3>
+<p>Measured in the real engine with the frame gate: while a question waits the scene draws in <strong>2 draw calls</strong> a frame and uploads no textures. The wheel is redrawn 24 times while it fills, never every frame, and a whole quiz averages well under one texture upload per frame.</p>
+<h3>What's in the download</h3>
+<ul>
+<li><code>TemperamentCore.js</code>, <code>TemperamentDraw.js</code>, <code>Temperament.js</code>: readable, unminified JavaScript.</li>
+<li><code>Readme_for_Users.md</code>: every argument, parameter, notetag and the stock-class table.</li>
+<li><code>LICENSE.txt</code>: use it in unlimited commercial and free games.</li>
+</ul>
+<p>No image, font or sound file ships: everything in the quiz is drawn by the plugin, and the three sounds are MZ's own Cursor1, Decision1 and Chime2 (changeable, or blank for silence). The store images show Temperament running in the real MZ engine; the portraits in them are demo faces made by Core Systems Asset Factory and are not part of the download.</p>
+<hr>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/quizmaster">Quizmaster</a> ($11.99): game-show quizzes and exams with right answers, the questions written from your own database.</li>
+<li><a href="https://csaf.itch.io/sentiment">Sentiment</a> ($11.99): Omori-style emotion battles, every portrait and battler redrawn for its emotion.</li>
+<li><a href="https://csaf.itch.io/visage">Visage</a> ($12.99): a carved mask for every enemy, actor and faction, read from your database.</li>
+</ul>
+<p><em>AI disclosure: the code, the drawing code, the cover art and the question text in this product were produced with AI assistance. No sounds ship with it.</em></p>
