@@ -1,0 +1,44 @@
+<p><strong>Slot machines for your GameMaker game, generated and drawn by the package, playable out of the box, and honest about their maths: every machine's return to player is computed exactly from its reel strips, and its pay table can be tuned to the figure you choose. Pure GML, play money only.</strong></p>
+
+<p>Use it for a game corner in an RPG town, a casino level, a festival minigame, a reward machine, or a whole slots game. One call builds a machine from a word; another makes it playable.</p>
+
+<pre><code>// Create: a machine from a word (the same word always builds the same machine)
+my_machine = jkp_machine_create({ seed: "Lucky Sevens", theme: "fruit", reels: 5, cabinet: "upright", rtp: 0.94 });
+my_slot = jkp_slot_create(my_machine, { credits: 500, lineBet: 1 });
+// Step: run it and spin on SPACE
+jkp_slot_step(my_slot);
+if (keyboard_check_pressed(vk_space)) jkp_slot_press(my_slot, "spin");
+// Draw GUI: draw it anywhere, at any scale
+jkp_slot_draw(my_slot, 40, 20, 0.9);</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>80 symbols drawn by the package, no image files</strong>: eight themes of eight pay symbols, each with its own WILD plaque and SCATTER medallion. Fruit, Gems, Royals (letters on card tiles, ring, chalice, crown), Runes (eight Elder Futhark runes, each in its own stone), Sea, Desert Relics, Candy and Space.</li>
+<li><strong>Three cabinets in four liveries</strong>: an upright with a marquee of chasing bulbs and a pull lever, a slant-top and a bar-top, in lacquer, chrome, wood grain or black and gold. Every machine gets a generated name on its marquee.</li>
+<li><strong>A machine that feels like one</strong>: reels with motion smear that stop one after another and settle with a bounce, paylines that light up one by one, winning symbols that pulse, LED meters that roll up, a coin fountain into the tray, and a BIG WIN banner.</li>
+<li><strong>The pay table page</strong>, drawn from the machine's own symbols, with every pay, the wild and scatter rules, the paylines and the exact return to player.</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>Exact payback, not a guess.</strong> <code>jkp_rtp</code> computes a machine's return to player exactly from each reel's symbol counts. The tests prove it: playing every one of the 13,824 stop combinations of a 3-reel machine returns the same figure.</li>
+<li><strong>Tuning.</strong> <code>jkp_tune(machine, 0.92)</code> re-tunes the pay table to 92% (or anything from 50% to 120%), keeping whole-number pays and a sensible table. 5-reel machines land within 0.00001 of the target.</li>
+<li><strong>Statistics.</strong> <code>jkp_exhaust3</code> gives the exact hit rate and swing of a 3-reel machine; <code>jkp_simulate</code> estimates them for any machine from seeded spins.</li>
+<li><strong>Events for your sounds and your purse</strong>: spin, reel stop, win, big win, no win, refused. Credits are plain numbers you can share between machines.</li>
+<li>Everything is data you can read and edit: strips, paylines, pays, scatter pays. Three cabinets' layouts are exposed for your own art and input.</li>
+<li><strong>THE GAME CORNER demo room</strong>: eight machines, every theme, every cabinet, both reel counts, one shared purse, the pay table and exact figures beside each machine, and a key that re-tunes the machine live.</li>
+</ul>
+
+<h3>Tested</h3>
+<p>GML cannot be unit-tested outside the engine, so every test runs in a real exe built by GameMaker's own compiler (runtime 2024.14.4.268, VM, Windows). The suite holds the GML core to a reference implementation bit for bit (24 generated machines, 240 scripted spins, the tuner at ten targets), checks the exact figure against full enumeration inside the engine, checks every symbol for ink, fit and distinctness, plays all three cabinets to a win with the reels showing exactly the decided outcome, and drives the demo room. The shipped package is also installed into a blank project and the Readme's own code run, and every documented function is attacked with hostile arguments. HTML5, mobile and YYC exports were not built.</p>
+
+<p><strong>Play money only.</strong> Nothing in the package takes, holds or pays real money. If you ship slot machines to a mobile or console store, that store's rules on simulated gambling apply to your game.</p>
+
+<p>Requires GameMaker 2024.14 or later. Pure GML: no shader, no extension. Includes the Readme, the licence (use in any number of your games) and the font notices. Made with AI assistance: the code and the graphics were written with AI, and every symbol is drawn by that code at run time.</p>
+
+<h3>More GameMaker minigames from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/pastime-gamemaker">Pastime</a>: a cabinet of tabletop minigames, each drawing its own board ($19.99).</li>
+<li><a href="https://csaf.itch.io/derby-gamemaker">Derby</a>: a race meeting the player bets on, with a generated stable of racing snails and a photo finish ($12.99).</li>
+<li><a href="https://csaf.itch.io/strata-gamemaker">Strata</a>: generated excavation digs ($11.99).</li>
+</ul>
