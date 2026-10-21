@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 600 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 605 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T18:23:05.258Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T21:20:55.233Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 83 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 84 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -584,6 +584,14 @@ A candy world you can build a level from: 550 tiles at 16x16 in one 59-colour pa
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant 71 — Tamer Interiors: Indoor Tileset, Healing Hall, Mart, Gym & Lab for Monster-Tamer RPGs [16x16]
+
+Store: https://csaf.itch.io/verdant-71-tamer-interiors · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-71-tamer-interiors/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+The rooms of a monster tamer town, at 16x16: 694 tiles in one 92-colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Autotile Playground
 
 Store: https://csaf.itch.io/verdant-playground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-playground/ · Free
@@ -674,7 +682,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 50 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 51 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -793,6 +801,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/hearthhands-04-hearth-and-kin · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-04-hearth-and-kin/ · Paid
 
 The Hearthhands village at home.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hearthhands 05: Harbour Hands — 200x200 & 100x100 harbour NPC sprites
+
+Store: https://csaf.itch.io/hearthhands-05-harbour-hands · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-05-harbour-hands/ · Paid
+
+The Hearthhands village harbour, at work.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4638,7 +4654,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 13 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 14 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -4736,6 +4752,14 @@ A fireteam, voiced: four soldiers, four voices, every callout a firefight needs 
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
+### Sweet Talk 01: Casual Game Praise Announcer Voice Pack
+
+Store: https://csaf.itch.io/sweet-talk-01-casual-game-praise-announcer-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/sweet-talk-01-casual-game-praise-announcer-voice-pack/ · Paid · free browser demo on the page
+
+Praise, combos and level flow for your casual game, in one voice 147 spoken lines by one invented announcer on one built in voice, covering the whole loop of a casual, puzzle, match 3 or idle game: a five tier praise ladder, combo counts from two to ten, level start and end, moves and time...
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
 ### Voices 00: Free AI Voice Line Sampler (100 Lines, 25 Characters)
 
 Store: https://csaf.itch.io/voices-00-free-voice-line-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/voices-00-free-voice-line-sampler/ · Free · pay what you want
@@ -4746,7 +4770,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 7 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 8 products.
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
@@ -4804,15 +4828,31 @@ A sci-fi HUD: chamfered cyan frames, amber corner ticks, segmented gauges, ready
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Frame: UI Kit for the Verdant Tilesets (Pixel + HD)
+
+Store: https://csaf.itch.io/verdant-frame-ui-kit-for-the-verdant-tilesets · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/verdant-frame-ui-kit-for-the-verdant-tilesets/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A UI kit drawn in the Verdant tileset palette: mossy stone frames, leaf tufts, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 6 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 7 products.
 
 ### Emberflux: 120 2D Combat VFX for Godot 4
 
 Store: https://csaf.itch.io/emberflux · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/emberflux/ · Paid · Engines: Godot
 
 120 combat effects for 2D Godot games, in six elements that are six different shapes 120 hit, slash, burst, projectile, buff and status effects for Godot 4, every one a shader computed at runtime.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Jigsaw for Godot 4: 48 Puzzle Styles From Any Picture
+
+Store: https://csaf.itch.io/jigsaw-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/jigsaw-godot/ · Paid · Engines: Godot
+
+Jigsaw for Godot 4: any picture becomes a puzzle your players solve, in 48 styles Drop any Texture2D in and get a playable jigsaw.
 
 AI disclosure: AI Assisted, Code, Graphics
 

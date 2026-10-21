@@ -75,6 +75,7 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-68-storeys/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-69-caverns/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-70-sweetlands/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-71-tamer-interiors/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-playground/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-battlebacks/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-forge-tileset-generator/</loc><lastmod>2026-10-21</lastmod></url>
@@ -102,6 +103,7 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-02-market-and-craft/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-03-watch-and-ward/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-04-hearth-and-kin/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-05-harbour-hands/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-hallowtide/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-portraits/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-01-companions-and-beasts/</loc><lastmod>2026-10-21</lastmod></url>
@@ -599,6 +601,7 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/voice-packs/rogue-core-01-hostile-facility-ai-voice-pack/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/voice-packs/save-point-01-fantasy-system-voice-pack/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/voice-packs/squad-net-01-fireteam-callouts-voice-pack/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/voice-packs/sweet-talk-01-casual-game-praise-announcer-voice-pack/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/voice-packs/voices-00-free-voice-line-sampler/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/ui-kits/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/ui-kits/bone-and-brass-dark-fantasy-ui-kit/</loc><lastmod>2026-10-21</lastmod></url>
@@ -608,8 +611,10 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/ui-kits/hearthwood-cozy-farming-ui-kit/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/ui-kits/iron-bastion-medieval-strategy-ui-kit/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/ui-kits/night-terminal-sci-fi-hud-kit/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/ui-kits/verdant-frame-ui-kit-for-the-verdant-tilesets/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/godot-addons/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/godot-addons/emberflux/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/godot-addons/jigsaw-godot/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/godot-addons/sigil-core-godot/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/godot-addons/tidewater-godot/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/godot-addons/verdigris-godot/</loc><lastmod>2026-10-21</lastmod></url>
