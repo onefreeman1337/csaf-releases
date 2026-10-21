@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 588 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 592 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T04:39:22.631Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T06:30:44.010Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 82 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 83 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -573,6 +573,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-69-caverns · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-69-caverns/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
 A natural limestone cave you can build a level from: 675 tiles at 16x16 in one 68-colour palette: dark rock walls standing up from a pale cave floor, an underground lake with turquoise shallows that swell and draw back, silt banks, flowstone terraces, and cave mouths that open in the cliffs of...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant 70 — Sweetlands: Candy Tileset with Chocolate River & Frosted Peaks for RPG Maker MZ & Godot [16x16]
+
+Store: https://csaf.itch.io/verdant-70-sweetlands · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-70-sweetlands/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+A candy world you can build a level from: 550 tiles at 16x16 in one 59-colour palette: a mint sugar-grass meadow under gumdrop trees, pink candyfloss thickets standing up out of it, a chocolate river that flows through its cocoa-crumb bank, a biscuit path, and frosted peaks of lavender icing...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3402,7 +3410,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unreal Engine 5 plugins
 
-Editor plugins for Unreal Engine 5. 38 products.
+Editor plugins for Unreal Engine 5. 39 products.
 
 ### AnimNotify Event Rebinder - UE5 plugin
 
@@ -3449,6 +3457,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blueprint-straightedge · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/blueprint-straightedge/ · Paid · Engines: Unreal Engine
 
 Every Blueprint graph readability tool on the market formats the graph you have open. One at a time, when you press a key. That is fine for the graph you are working in and useless for the four hundred you are not.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Bone & Socket Rename Surgeon - UE5 plugin
+
+Store: https://csaf.itch.io/bone-socket-rename-surgeon · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/bone-socket-rename-surgeon/ · Paid · Engines: Unreal Engine
+
+You renamed hand_r_socket to Blade_R in the Skeleton Tree. Unreal renamed the socket object and its preview attachments, and nothing else.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4566,7 +4582,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 12 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 13 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -4613,6 +4629,14 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 Store: https://csaf.itch.io/hearthside-01-storybook-narrator-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/hearthside-01-storybook-narrator-voice-pack/ · Paid · free browser demo on the page
 
 A storyteller by the fire: openings, every chapter card, and the lines that carry a tale 110 spoken lines by one invented fireside storyteller, for adventure, RPG, puzzle and story games: 10 openings, all 30 chapter cards from chapter one to chapter thirty spoken as words, transitions, quest and...
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
+### High Table 01: Casino Croupier Voice Pack
+
+Store: https://csaf.itch.io/high-table-01-casino-croupier-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/high-table-01-casino-croupier-voice-pack/ · Paid · free browser demo on the page
+
+One croupier for every table in your casino 157 spoken lines by one invented croupier on one built in voice, across seven tables: house greetings and payouts, roulette with all 37 single zero results spoken with their colour, poker, blackjack, craps, baccarat and slots.
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
@@ -4718,7 +4742,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 5 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 6 products.
 
 ### Emberflux: 120 2D Combat VFX for Godot 4
 
@@ -4733,6 +4757,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/sigil-core-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/sigil-core-godot/ · Paid · Engines: Godot
 
 60 magic circles for Godot 4 that cast, hold and break Sigil Core for Godot 4 draws spell seals live: rings, a ring of runes, a star or polygon figure, spokes and a core glyph, 60 seals in six schools.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Tidewater: 48 2D Water Shaders for Godot 4
+
+Store: https://csaf.itch.io/tidewater-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/tidewater-godot/ · Paid · Engines: Godot
+
+48 2D water shaders for Godot 4: lakes, seas, pools, waterfalls and underwater Tidewater puts water into your 2D game that is computed while it runs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
