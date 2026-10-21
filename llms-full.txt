@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 594 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 598 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T09:42:45.947Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-21T13:53:59.775Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1498,7 +1498,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 28 products.
+Game music packs. Formats and track counts are stated on each store page. 29 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1649,6 +1649,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/saltline · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/saltline/ · Paid
 
 Forty-two tracks for a game set at sea, and not one of them is a shanty.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Sengoku - A Samurai Score - Japanese Fantasy Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/sengoku · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/sengoku/ · Paid
+
+Sengoku is a 44 track score for feudal Japanese fantasy games: a mountain shrine, the high road through a province at war, a village under curfew, the bamboo grove by moonlight, the castle walls and the daimyo's court, the temples and the graves, nine fights from the first ronin to the last...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3126,7 +3134,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unity editor tools
 
-Editor tools for Unity 6. 36 products.
+Editor tools for Unity 6. 37 products.
 
 ### Almanac - The Illustrated Year
 
@@ -3399,6 +3407,14 @@ Store: https://csaf.itch.io/tribute · Our page: https://onefreeman1337.github.i
 The battle pass screen, drawn from your own reward table. Claim a reward and it redraws.
 
 AI disclosure: AI Assisted, Code, Graphics
+
+### Typecase - Pixel Font PNG Sheet to TextMesh Pro Font Asset for Unity 6
+
+Store: https://csaf.itch.io/typecase · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/typecase/ · Paid · Engines: Unity
+
+TextMesh Pro only builds a font asset from a TTF or OTF file, so a pixel font that exists as a PNG sheet cannot be typed in TMP at all.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Vellum — Illuminated Item Cards From Your Own Item Data (Unity 6)
 
@@ -3734,7 +3750,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 41 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 42 products.
 
 ### ANATOMIST
 
@@ -3984,6 +4000,14 @@ A tray of sealed packets of metal. Each one is stamped with what it weighs. Exac
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
+### SIDELONG
+
+Store: https://csaf.itch.io/sidelong · Our page: https://onefreeman1337.github.io/csaf-releases/games/sidelong/ · Paid · free browser demo on the page
+
+An action RPG with no attack button. You cut a monster by running into it off centre or from behind. Meet it head on and you both take the blow. Play the free demo in your browser above.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
 ### SOUNDER
 
 Store: https://csaf.itch.io/sounder · Our page: https://onefreeman1337.github.io/csaf-releases/games/sounder/ · Paid · free browser demo on the page
@@ -4066,7 +4090,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Free browser games
 
-Free games that play in the browser. 65 products.
+Free games that play in the browser. 66 products.
 
 ### AFFINEUR
 
@@ -4305,6 +4329,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/make-your-number · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/make-your-number/ · Free
 
 A deduction game whose every case is generated, and then proven, before you ever see it. Free, in your browser, no account, no install. You keep a lighthouse on a bad coast.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### MOONPROOF
+
+Store: https://csaf.itch.io/moonproof · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/moonproof/ · Free
+
+Fit the wards before the full moon. Hold the night. Seal the town. MOONPROOF is a free incremental for your browser about the small firm that werewolf-proofs a village.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
