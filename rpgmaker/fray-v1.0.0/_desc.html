@@ -1,0 +1,58 @@
+<h2>Your party wears the fight.</h2>
+<p>Fray is battle wear for RPG Maker MZ, drawn into <strong>your own heroes</strong>. Every hit a hero takes leaves a mark on that hero's face and side-view battler: a blade grazes a cheek or tears a coat, a blow leaves a bruise, fire scorches the clothing, ice frosts it, lightning leaves a flash burn, poison a sick bruise. As HP falls the hero looks more spent: the colour drains from the skin and grime sinks in.</p>
+<p><strong>The wear does not vanish when the battle ends.</strong> It is there in the menu, on the status screen, in the next battle and in the save file, until the hero rests at an inn. A potion lays a plaster or a bandage over the worst mark.</p>
+<p><strong>Nothing to draw.</strong> Fray finds the skin, the clothing and the armour in each face and battler from the image's own colours and draws every mark as pixel work on a copy of it. No damaged face sets to paint, no image swaps to set up.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ScatheCore.js</code> — Scathe 1/2 - the damage: generated from each enemy's own battler pixels, by element, HP band and material. No engine code.</li>
+<li><code>FrayCore.js</code> — Fray 2/3 - the wear: skin, cloth and armour found in each hero's own face and battler art, and every mark drawn into them. No engine code.</li>
+<li><code>Fray.js</code> — Fray 3/3 - your party wears the fight: bruises, scorch, frost and torn cloth drawn into your own heroes' faces and side-view battlers, kept until they…</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Fray.js</code> finds the other two the first time it needs them, so any order works, including <code>Fray.js</code> first (the order the in-engine tests load them in). <code>ScatheCore.js</code> is the same file Scathe ships: if you own Scathe, keep one copy. If <code>FrayCore.js</code> or <code>ScatheCore.js</code> is switched off, the first battle stops with a message naming the file to turn on. Place Fray <strong>after</strong> any plugin that replaces <code>drawActorFace</code> or the side-view actor sprite, so its extension runs on top.</p>
+<p><strong>Core methods extended — 9 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Action.prototype.executeHpDamage</code>, <code>Game_Action.prototype.itemEffectRecoverHp</code>, <code>Window_StatusBase.prototype.drawActorFace</code>, <code>Scene_Battle.prototype.update</code>, <code>Scene_Battle.prototype.create</code>, <code>Scene_Battle.prototype.start</code>, <code>Scene_Battle.prototype.terminate</code>, <code>Window_BattleStatus.prototype.update</code>, <code>Sprite_Actor.prototype.updateBitmap</code>.</p>
+<p>Because nothing is clobbered, Fray co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also defines one method that its core class only inherited:</strong> <code>Game_Actor.prototype.recoverAll</code> (inherited from <code>Game_BattlerBase</code>). That touches <code>Game_Actor</code> only, never the parent. If another plugin redefines the same method on the same class, load Fray after it.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>What it draws</h3>
+<ul>
+<li><strong>On skin</strong>: a graze (skin rubbed raw with fine scratches), a bruise (violet at the centre, yellow-green at the edge), a reddened burn, frost, a flash burn, a sick olive bruise. On a face, skin marks land on the cheeks, never on the eyes, the nose or the mouth.</li>
+<li><strong>On clothing</strong>: a tear onto a darker layer with threads across it, scorch with a smouldering edge, frost that keeps the folds under it, a lightning burn, a creeping stain.</li>
+<li><strong>On armour</strong>: a gash, or a dent with a lit rim.</li>
+<li><strong>HP bands</strong> (75%, 50% and 25% by default): the skin pales toward a cold pallor and grime sinks in at each band; at the last band a battler's coat frays at the hem.</li>
+<li><strong>Dressings</strong>: a healing item lays a sticking plaster on skin or a wrapped bandage on clothing over the worst undressed mark.</li>
+</ul>
+<h3>Where it shows</h3>
+<ul>
+<li><strong>Faces</strong> everywhere the game draws a face for a hero: the battle status, the main menu, the status, skill and equipment screens.</li>
+<li><strong>Side-view battlers</strong>: every motion frame of the hero's own sheet, with each mark held on the same part of the body as the hero walks, swings, guards, staggers, falls and lies down.</li>
+<li>Works on the stock MZ faces and battlers, painted portraits with a dark backdrop, and tall pixel-art battlers (2x, 3x and 4x pixel art keeps its grid).</li>
+</ul>
+<h3>Into your game</h3>
+<ul>
+<li>Install the three files and it works: every hit from an enemy skill marks the hero it lands on. The kind of mark comes from the <strong>name</strong> of the element, so your own elements work too.</li>
+<li><strong>Recover All</strong> (an inn, a save point) mends everything. Plugin commands <strong>Wear a hero</strong>, <strong>Mend a hero</strong> and <strong>Dress a wound</strong> for traps, falls and cutscenes.</li>
+<li><code>&lt;Fray: off&gt;</code> on an actor keeps that hero clean.</li>
+<li>The save keeps each hero's wear as a short list of decisions (kind, power, seed, dressed), never pixels. A save made with Fray loads with Fray removed.</li>
+</ul>
+<h3>Light on the frame</h3>
+<p>Measured in the real engine with the frame gate, four side-view heroes marked every twenty frames: the plugin's update cost stayed inside a 2 ms mean and a 4 ms worst-1% budget, with no texture uploads in the average frame. The redrawing is spread over frames, and a new mark is drawn on top of the last picture instead of redrawing every mark.</p>
+<h3>What's in the download</h3>
+<ul>
+<li><code>Fray.js</code>, <code>FrayCore.js</code> and <code>ScatheCore.js</code>: readable, unminified JavaScript. <code>ScatheCore.js</code> is the mark painter Fray shares with Scathe (the same file: owners of Scathe keep one copy).</li>
+<li><code>Readme_for_Users.md</code>: every parameter, command, notetag and the element table.</li>
+<li><code>LICENSE.txt</code>: use it in unlimited commercial and free games.</li>
+</ul>
+<p>No image, font or sound file ships: every mark is drawn in code from your own art. The portraits and battlers in the store images are Core Systems Asset Factory demo art (the battlers are the Wildmark Battlers pack below) and are not part of the download.</p>
+<hr>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/scathe">Scathe</a> ($12.99): the same idea on the other side of the battle. Every enemy shows the damage you deal, drawn into its own battler art.</li>
+<li><a href="https://csaf.itch.io/stature">Stature</a> ($11.99): taller side-view battlers re-proportioned from your own sheets, pose by pose.</li>
+<li><a href="https://csaf.itch.io/wildmark-battlers-mz">Wildmark Battlers</a> ($6.99): eight side-view heroes with all 18 battle motions, the cast in these screenshots.</li>
+</ul>
+<p><em>AI disclosure: the code, the drawing code, the cover art and the demo portraits in the store images were produced with AI assistance. No sounds and no story text ship with it.</em></p>
