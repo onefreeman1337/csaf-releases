@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 609 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 611 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-22T03:06:42.792Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-22T10:46:52.542Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1766,7 +1766,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 103 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 104 products.
 
 ### Anvil - Forging Minigame for Crafting in RPG Maker MZ
 
@@ -2053,6 +2053,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/formulary · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/formulary/ · Free · Engines: RPG Maker
 
 Your recipes already exist. They just look like a list.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Fray - Battle Wear on Your Own Heroes' Faces and Side-View Battlers, for RPG Maker MZ
+
+Store: https://csaf.itch.io/fray · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fray/ · Paid · Engines: RPG Maker
+
+Your party wears the fight. Fray is battle wear for RPG Maker MZ, drawn into your own heroes.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2594,7 +2602,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 73 products.
+GML systems and assets for GameMaker. 74 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3081,6 +3089,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/strata-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/strata-gamemaker/ · Paid · Engines: GameMaker
 
 Give the player a rock face and two tools. Strata is a generated excavation dig for GameMaker: every blow cuts the rock back a layer or two and puts stress on the face, and somewhere under it lie fossils, relics, crystals or ore.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### Table Service - A Restaurant Serving Minigame for GameMaker
+
+Store: https://csaf.itch.io/table-service-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/table-service-gamemaker/ · Paid · Engines: GameMaker
+
+A restaurant serving minigame for any GameMaker room.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
