@@ -1,0 +1,42 @@
+<p><strong>A restaurant serving minigame for any GameMaker room. Customers walk in from your door, sit at your tables, ring for service and wait while their candle burns down; the player takes orders, carries dishes from the kitchen pass two at a time and serves the right table before patience runs out. At closing time a ledger page counts the takings and tips and gives the night up to three stars. Pure GML; every customer, dish and table is drawn by the package.</strong></p>
+
+<p>Use it as a tavern job in an RPG, a cafe shift in a life sim, a festival minigame, or the base of a whole restaurant game. Place three kinds of object in your room (tables, the pass, the door) and the night runs on them.</p>
+
+<pre><code>// Create: read the floor from the room and open the restaurant
+my_floor = tsv_floor_from_room();
+my_night = tsv_night_start(my_floor, { seed: 7, difficulty: "normal", title: "The Gilded Ladle" });
+// Step: run the night; the player's ONE action is decided by where they stand
+tsv_night_update(my_night);
+if (keyboard_check_pressed(vk_space)) tsv_night_act(my_night, x, y);
+// Draw: tables, customers, candles, tickets and the pass, over your own floor art
+tsv_night_draw(my_night);</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Every dish is drawn from its own name.</strong> Name a dish on your menu and the package reads it: "Pumpkin Soup" is a bowl the colour of pumpkin, "Pale Ale" a wooden tankard with a head of foam, "Grilled Trout" a whole fish with lemon, "Mana Tonic" a corked bottle. About 170 words across 19 kinds of dish and drink, coloured by words like honey, berry, mint or frost; an unknown name still gets a plated dish, the same one every time. Dish words are English.</li>
+<li><strong>Every customer is generated</strong> from a seed: skin, hair colour and style, a flat cap, brimmed hat, beret, hood or headscarf, a coat, a shirt and one extra (scarf, glasses, beard, earring). Over a million combinations, seated facing their table or walking in four directions, outlined so they read on any floor.</li>
+<li><strong>The service itself is drawn</strong>: round clothed tables in four cloths with a little vase of flowers, turned-wood chairs, a brass bell that swings while a party waits to order, a paper ticket pinned above the table with each dish drawn and ticked off as it lands, a candle whose wax burns down with the party's patience and gutters red near the end, steaming dishes at the pass with a flag for their table, floating tags (served, a tip, walked out), the server's tray with a brass shift clock, the opening banner and the closing ledger page.</li>
+<li><strong>Customers walk round your tables</strong> on a grid the package builds from your floor, never through one.</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>Your menu, your words.</strong> Give an array of names or of { name, price, cook } structs; a menu entry can also name its form and colour outright. <code>tsv_dish_look(name)</code> tells you what any name will be drawn as.</li>
+<li><strong>Three nights, measured, not guessed</strong>: easy (8 parties), normal (12) and busy (15). A quick server earns two stars on normal; longer walks cost a star.</li>
+<li><strong>A pure, seeded rules core</strong>: the same seed deals the same night. <code>tsv_plan</code>, <code>tsv_shift_tick</code>, <code>tsv_shift_take_order</code>, <code>tsv_shift_pick_up</code>, <code>tsv_shift_deliver</code> and <code>tsv_shift_score</code> run without drawing anything, for your own presentation or a server AI.</li>
+<li><strong>Events for your sounds</strong> every frame (seated, ready, walked, paid, close), a prompt helper (<code>tsv_night_hint</code>: "take the order", "serve", "pick up"), and your player sorted in among the tables by their feet.</li>
+<li>Every picture is also available on its own as a cached sprite or through the canvas functions, for menus, shop signs and cutscenes.</li>
+<li><strong>THE DINING ROOM demo room</strong>: eight tables, the kitchen pass, the door, a server you drive with the keys or the mouse, the whole house menu on one sheet and forty customers on another.</li>
+</ul>
+
+<h3>Tested</h3>
+<p>GML cannot be unit-tested outside the engine, so every test runs in a real exe built by GameMaker's own compiler (runtime 2024.14.4.268, VM, Windows). This is the GameMaker edition of our RPG Maker MZ plugin, and the suite holds its rules to the MZ code run in Node, number for number: 34 nights planned and 27 whole shifts played by a scripted server at three speeds, every party's arrival, order, patience, tip and end state the same. It also checks the dish reading and the customer looks against the MZ code, inks and tells apart every dish and forty customers, checks every hooded customer still shows a face, plays a whole night on a real floor with customers that never cross a table, and drives the demo room. The shipped package is installed into a blank project and the Readme's own code run, and every documented function is attacked with hostile arguments. HTML5, mobile and YYC exports were not built.</p>
+
+<p>Requires GameMaker 2024.14 or later. Pure GML: no shader, no extension. Includes the Readme, the licence (use in any number of your games) and the font notices. Made with AI assistance: the code and the graphics were written with AI, and every picture is drawn by that code at run time.</p>
+
+<h3>More from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/repast-gamemaker">Repast</a>: the kitchen side, recipes that plate their own dishes ($14.99). Repast cooks; Table Service serves.</li>
+<li><a href="https://csaf.itch.io/taproom-gamemaker">Taproom</a>: tavern board games against an NPC, with a wager, every board drawn ($11.99).</li>
+<li><a href="https://csaf.itch.io/table-service">Table Service for RPG Maker MZ</a>: the same night as an MZ plugin ($11.99).</li>
+</ul>
