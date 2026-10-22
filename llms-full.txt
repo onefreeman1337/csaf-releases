@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 606 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 608 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-21T23:28:26.526Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-22T00:51:24.586Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1094,7 +1094,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 52 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 53 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1253,6 +1253,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/haulage-vehicle-motor-machine-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/haulage-vehicle-motor-machine-sfx/ · Paid
 
 Every motor in this pack ships a load ladder — three or four seamless loops rendered from the same body — instead of one engine loop you have to pitch-shift and hope.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Haymaker: Fighting Game Sound Effects
+
+Store: https://csaf.itch.io/haymaker-fighting-game-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/haymaker-fighting-game-sound-effects/ · Paid
+
+Every system cue a fighting game fires 134 fighting game sound effects in one arcade voice: hits on 7 strengths to the body and the face, a hit stop for every strength, guard and guard break, parry, throws, the super, an energy projectile, a 10 step combo counter, the round and the KO.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3790,7 +3798,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 42 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 43 products.
 
 ### ANATOMIST
 
@@ -3901,6 +3909,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/glasswright · Our page: https://onefreeman1337.github.io/csaf-releases/games/glasswright/ · Paid · free browser demo on the page
 
 Twelve commissions. One season. A shop you can lose. A patron arrives with a hole in a wall and an opinion.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### GUISER
+
+Store: https://csaf.itch.io/guiser · Our page: https://onefreeman1337.github.io/csaf-releases/games/guiser/ · Paid · free browser demo on the page
+
+One village. One night. Every costume is a key. It is All Hallows' Eve in Hallow End, and the Midnight Man woke early. The dead are up out of the churchyard and they will not go back to bed until someone rings the church bell at midnight.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
