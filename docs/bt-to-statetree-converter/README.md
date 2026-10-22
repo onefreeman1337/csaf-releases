@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Behavior Tree to StateTree Converter  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-10-21
+**Docs published:** 2026-10-22
 
 
 ---
