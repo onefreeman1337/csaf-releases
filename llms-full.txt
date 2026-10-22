@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 608 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 609 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-22T00:51:24.586Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-22T03:06:42.792Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1522,7 +1522,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 29 products.
+Game music packs. Formats and track counts are stated on each store page. 30 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1753,6 +1753,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/wildwood/ · Paid
 
 Forty-two tracks for the country between the towns. Not another combat pack and not an ambience library: this is the journey.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Zarya - A Slavic Folk Village Score - Fantasy RPG Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/zarya · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/zarya/ · Paid
+
+Zarya is a 44 track score for a Slavic folk village in a fantasy game: the izba hearth at dawn, the green and the well, the market square and the haggle, the smithy and the water mill, the wooden church and its bells, the elder's hall, the river at dusk, the birch road and the forest at night,...
 
 AI disclosure: AI Assisted, Code, Graphics
 
