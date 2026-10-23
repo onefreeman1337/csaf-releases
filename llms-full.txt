@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 614 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 618 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-23T04:18:39.612Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-23T05:47:26.234Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -690,7 +690,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 51 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 52 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -1068,6 +1068,14 @@ Four adventurers of other folk, for the same company. A dwarf smith, a halfling 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Wildmark 04: Dragonkin — 128x128 & 64x64 character sprites
+
+Store: https://csaf.itch.io/wildmark-04-dragonkin · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-04-dragonkin/ · Paid
+
+Six dragonborn adventurers for the same company. A knight, a brawler, an archer, a warden, a sorcerer and a priest of the dragon folk, each with a scaled dragon's head in a different lineage colour.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Wildmark Actions 01: Strike, Hurt, Death — 128x128 & 64x64 action sprites
 
 Store: https://csaf.itch.io/wildmark-actions-01 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-01/ · Paid
@@ -1102,7 +1110,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 53 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 54 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1181,6 +1189,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/chokepoint-tower-defense-lane-command · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/chokepoint-tower-defense-lane-command/ · Paid
 
 132 sounds for tower defense, lane strategy and autobattlers — built as a state language, not a bag of impacts. A tower defense player learns the lane by ear.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Clamber: Climbing Sound Effects
+
+Store: https://csaf.itch.io/clamber-climbing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/clamber-climbing-sound-effects/ · Paid
+
+Every hold a game climbs, one hand on all of them 648 climbing sounds on 12 holds: grab, let go, shimmy, climb up, climb down and slip, at three body weights, 3 takes in every cell, plus 12 seamless climbing loops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4718,7 +4734,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 14 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 15 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -4773,6 +4789,14 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 Store: https://csaf.itch.io/high-table-01-casino-croupier-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/high-table-01-casino-croupier-voice-pack/ · Paid · free browser demo on the page
 
 One croupier for every table in your casino 157 spoken lines by one invented croupier on one built in voice, across seven tables: house greetings and payouts, roulette with all 37 single zero results spoken with their colour, poker, blackjack, craps, baccarat and slots.
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
+### Hush 01: Horror Stalker Voice Pack
+
+Store: https://csaf.itch.io/hush-01-horror-stalker-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/hush-01-horror-stalker-voice-pack/ · Paid · free browser demo on the page
+
+A stalker for your horror game, with a line for every state of the hunt 136 spoken lines by one invented pursuer on one built in voice, grouped by the ten states a hide and seek or stealth horror AI moves through: start, wander, search, alert, chase, lost, return, near miss, stunned and caught.
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
@@ -4834,7 +4858,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 8 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 9 products.
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
@@ -4889,6 +4913,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/night-terminal-sci-fi-hud-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/night-terminal-sci-fi-hud-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A sci-fi HUD: chamfered cyan frames, amber corner ticks, segmented gauges, ready for six engines 64 widgets in 131 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Silverpoint: Minimal Fantasy UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/silverpoint-minimal-fantasy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/silverpoint-minimal-fantasy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A minimal fantasy UI kit: vellum panels, ink hairlines, bookplate corners, ready for six engines 65 widgets in 153 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
 
 AI disclosure: AI Assisted, Code, Graphics
 
