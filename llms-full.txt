@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 619 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 622 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-23T07:05:44.371Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-23T14:25:33.299Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1798,7 +1798,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 104 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 105 products.
 
 ### Anvil - Forging Minigame for Crafting in RPG Maker MZ
 
@@ -2517,6 +2517,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/tilestack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tilestack/ · Paid · Engines: RPG Maker
 
 Mahjong solitaire, inside your game. The player sits down at a table where a stack of carved tiles is laid out and clears it two at a time: remove any two free tiles that match.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Timber - Tree Cutting for RPG Maker MZ: Your Own Tileset Trees Topple, Burst and Split Into Logs
+
+Store: https://csaf.itch.io/timber · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/timber/ · Paid · Engines: RPG Maker
+
+Every tree in your own tileset can be cut down. Timber turns the trees already painted on your maps into trees the player can fell. Face a tree and press OK: it shudders, a notch opens in its own bark, chips and leaves fly.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3538,7 +3546,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unreal Engine 5 plugins
 
-Editor plugins for Unreal Engine 5. 40 products.
+Editor plugins for Unreal Engine 5. 41 products.
 
 ### AnimNotify Event Rebinder - UE5 plugin
 
@@ -3801,6 +3809,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/row-rename-surgeon · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/row-rename-surgeon/ · Paid · Engines: Unreal Engine
 
 Rename a row. Watch everything that used it quietly stop working. Unreal renames a DataTable row by re-keying the table and doing nothing else.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Savekeeper - SaveGame Compatibility Gate for UE5
+
+Store: https://csaf.itch.io/savekeeper-savegame-compatibility-gate · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/savekeeper-savegame-compatibility-gate/ · Paid · Engines: Unreal Engine
+
+Rename a variable on your SaveGame class and every player's old save still loads. The value is simply gone: Unreal matches stored values by name and skips any it cannot place, with no error and no warning.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4942,7 +4958,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 8 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 9 products.
+
+### Cartography: 48 Journey Map Styles for Godot 4
+
+Store: https://csaf.itch.io/cartography-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/cartography-godot/ · Paid · Engines: Godot
+
+Cartography: a journey map for Godot 4 that draws itself as the player explores, in 48 styles Your player walks; the map draws itself.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Emberflux: 120 2D Combat VFX for Godot 4
 
