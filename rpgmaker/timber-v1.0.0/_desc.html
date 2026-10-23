@@ -1,0 +1,51 @@
+<h2>Every tree in your own tileset can be cut down.</h2>
+<p>Timber turns the trees already painted on your maps into trees the player can fell. Face a tree and press OK: it shudders, a notch opens in its own bark, chips and leaves fly. The last chop fells it with weight. It tips slowly, then fast, lands with a bounce and a small shake, its crown bursts into its own leaves, the trunk splits into logs, and a stump with rings stays on the spot. Over play time a sapling grows from the stump and the tree comes back.</p>
+<p><strong>Nothing to draw.</strong> Every leaf, chip, log, splinter, stump and sapling is cut from the pixels of the tree you painted, whatever tileset it comes from. No tree sprite sheets, no event on every tree. MZ's own stock trees work the moment you switch it on.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>SmithereensCore.js</code> — [CSAF] Smithereens core: materials and seeded fracture maps. Install with Smithereens.js.</li>
+<li><code>SmithereensCut.js</code> — [CSAF] Smithereens cut: fragments cut from your own graphics. Install with Smithereens.js.</li>
+<li><code>TimberCore.js</code> — [CSAF] Timber core: finds the trees in your tileset and plans how each one falls. Install with Timber.js.</li>
+<li><code>Timber.js</code> — Timber: every tree in your own tileset can be cut down. It shudders, topples and splits into logs.</li>
+</ol>
+<p><strong>Core methods extended — 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Map.prototype.setup</code>, <code>Game_Map.prototype.isPassable</code>, <code>Spriteset_Map.prototype.createTilemap</code>, <code>Game_Player.prototype.canMove</code>, <code>Game_Player.prototype.triggerButtonAction</code>, <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Timber co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also defines 2 methods that their core class only inherited:</strong> <code>Game_Player.prototype.screenX</code> (inherited from <code>Game_CharacterBase</code>), <code>Game_Player.prototype.screenY</code> (inherited from <code>Game_CharacterBase</code>). That touches <code>Game_Player</code> only, never the parent. If another plugin redefines the same method on the same class, load Timber after it.</p>
+<!--COMPAT:end-->
+<h3>Six kinds, six ways down</h3>
+<ul>
+<li><strong>Broadleaf</strong>: topples about the cut; the crown bursts into its own leaves; 3 logs and a ringed stump.</li>
+<li><strong>Conifer</strong>: topples faster; the crown breaks into wide boughs that slide apart; 4 thin logs. A snowy tree drops snow at every chop.</li>
+<li><strong>Palm</strong>: whips over, the crown lagging and then springing past; 5 short segments.</li>
+<li><strong>Dead tree</strong>: snaps at the cut, drops into it, tips and shatters into splinters; a jagged stump.</li>
+<li><strong>Mushroom</strong>: flops over and the cap bursts into slow spores; the stem stays.</li>
+<li><strong>Crystal</strong>: does not fall. It shatters where it stands and its base stays.</li>
+</ul>
+<h3>Your trees, one terrain tag</h3>
+<p>MZ's stock trees fall at once: the Outside tileset's trees, large trees, snowy conifers, dead trees, palm and mushrooms, and the SF Outside tree. Forest canopy fills, streetlights and the tree in a planter are left alone.</p>
+<p>For your own tilesets, give the tree tiles one terrain tag in the Database (one click per tile) and name it in the tileset's note, <code>&lt;Timber Tag 6&gt;</code>. Add a kind to be exact, <code>&lt;Timber Tag 5: conifer&gt;</code>; without one Timber reads the kind from the picture (24 of our 25 test trees read right). A tree is the tiles you painted together from the palette, so a forest of the same tree side by side stays separate trees.</p>
+<h3>Built for your design</h3>
+<ul>
+<li>Need an axe: require a weapon, an item or a switch, with a common event when the player has none ("You need an axe.").</li>
+<li>Rewards: a wood item and amount, a mushroom item, a crystal item, a variable that counts trees felled, a common event on every fell.</li>
+<li>Stumps block their cell; the rest of the tree's cells open up. Regrow time per project or per map, or never.</li>
+<li>Plugin commands to chop or fell any tree from an event, regrow a map, or turn the OK-button chop off; script calls for conditional branches.</li>
+<li>Saves keep which tree fell and when, nothing else. A loaded save, a menu and a Change Tileset event all keep felled trees felled.</li>
+</ul>
+<h3>Measured, not guessed</h3>
+<p>Each tree's picture is read once while the map fades in; chopping and falling read no pixels at all. On our showroom map with a tree felled every few seconds, the engine drew about 13 draw calls a frame with fewer than one texture upload every four frames, inside the limits we hold every plugin to. The shipped zip was installed into a blank MZ project and played from the title screen with the keyboard: trees found with no setup, felled, stumps blocking, kept through a save and load.</p>
+<h3>What it does not do</h3>
+<p>Overworld forest autotiles and trees placed as events are not cut. There is no mouse or touch chop of its own: call Chop Tree In Front from an event or a button. Trees always fall sideways, because on MZ's tilted view a tree lying toward or away from the camera would be drawn at under half its height.</p>
+<h3>Pairs with</h3>
+<ul>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: pots, crates, rocks, crystals, ice and bushes break the way their material would, cut from your own art. Timber shares its two core files.</li>
+<li><a href="https://csaf.itch.io/strew">Strew</a>: dresses your maps from your own tileset in one pass.</li>
+<li><a href="https://csaf.itch.io/threshold">Threshold</a>: every door in your own tileset opens the way it was drawn.</li>
+<li><a href="https://csaf.itch.io/wrack">Wrack</a>: your town, burned, ruined or overgrown, from your own tiles.</li>
+</ul>
+<p><em>In the pictures:</em> the trees and ground are from our <a href="https://csaf.itch.io/verdant-28-deep-forest">Verdant 28 Deep Forest</a> and other Verdant tilesets, and the woodcutter is from <a href="https://csaf.itch.io/hearthhands-01-the-working-day">Hearthhands 01</a>. Timber ships no art; it works on yours, and the player leans into each blow with whatever character you use.</p>
+<p>Four plugin files, raw readable JavaScript, a Readme and a licence for unlimited games. AI disclosure: the code was written with AI assistance and the cover is AI-generated; no sounds or narrative text ship with it.</p>
