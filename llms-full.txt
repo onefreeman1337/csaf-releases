@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 611 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 614 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-22T10:46:52.542Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-23T04:18:39.612Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 84 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 85 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -589,6 +589,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-71-tamer-interiors · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-71-tamer-interiors/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
 The rooms of a monster tamer town, at 16x16: 694 tiles in one 92-colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant 72 — Domes: Arabian City Tileset with Domes, Minarets, Covered Bazaar & Palace Court [16x16]
+
+Store: https://csaf.itch.io/verdant-72-domes · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-72-domes/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+A domed desert city you can build a level from: 535 tiles at 16x16 in one 81-colour palette: whitewashed houses that stand up from the street, 9 domes in three sizes and three finishes, three minarets, a covered bazaar, market stalls and a palace court with a pool that moves.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3506,7 +3514,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unreal Engine 5 plugins
 
-Editor plugins for Unreal Engine 5. 39 products.
+Editor plugins for Unreal Engine 5. 40 products.
 
 ### AnimNotify Event Rebinder - UE5 plugin
 
@@ -3529,6 +3537,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/asset-sentinel · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/asset-sentinel/ · Paid · Engines: Unreal Engine
 
 Unreal ships a validation framework. It does not ship any rules. Data Validation gives you UEditorValidatorBase and a place to hang C++ subclasses.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Behavior Tree to StateTree Converter - UE5 plugin
+
+Store: https://csaf.itch.io/bt-to-statetree-converter · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/bt-to-statetree-converter/ · Paid · Engines: Unreal Engine
+
+Epic's AI is moving to StateTree, and your enemies are Behavior Trees. Rebuilding one by hand means re-creating every selector, sequence, decorator and observer abort, then finding out at runtime which one you got wrong.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4886,7 +4902,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 7 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 8 products.
 
 ### Emberflux: 120 2D Combat VFX for Godot 4
 
@@ -4901,6 +4917,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/jigsaw-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/jigsaw-godot/ · Paid · Engines: Godot
 
 Jigsaw for Godot 4: any picture becomes a puzzle your players solve, in 48 styles Drop any Texture2D in and get a playable jigsaw.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Lantern: 48 2D Lighting and Day-Night Presets for Godot 4
+
+Store: https://csaf.itch.io/lantern-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/lantern-godot/ · Paid · Engines: Godot
+
+Lantern: 48 2D lighting presets for Godot 4, from window light to a whole day and night Light that has a shape, flames that live, a sky that runs the day, and darkness that follows your player.
 
 AI disclosure: AI Assisted, Code, Graphics
 
