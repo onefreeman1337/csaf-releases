@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 618 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 619 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-23T05:47:26.234Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-23T07:05:44.371Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1546,7 +1546,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 30 products.
+Game music packs. Formats and track counts are stated on each store page. 31 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1641,6 +1641,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/four-greens · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/four-greens/ · Paid
 
 The original Game Boy could play four notes at a time. Two pulse channels, one wave channel, one noise channel, one note each. Three of them are pitched.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Frostfall - The White North - Winter Fantasy RPG Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/frostfall · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/frostfall/ · Paid
+
+Frostfall is a 44 track score for one winter biome in a fantasy game, gone deep rather than wide: the first snow, the white road, the tundra by day and by night, the aurora, a frontier hold, a trapper's camp, a village of ice fishers, the frozen lake, the pine forest, the glacier and the high...
 
 AI disclosure: AI Assisted, Code, Graphics
 
