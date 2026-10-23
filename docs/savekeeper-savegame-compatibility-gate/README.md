@@ -88,8 +88,9 @@ names it changed. A save it cannot read is loaded unchanged.
 
 ## What it reads
 
-Saves written by `UGameplayStatics` (Save Game to Slot / Save Game to Memory) in UE 5.4 or later, which record
-complete property type names. Savekeeper reads the tagged-property stream itself, walking into structs and
+Saves written by `UGameplayStatics` (Save Game to Slot / Save Game to Memory) that record complete property type
+names, which UE 5.4 and later do. Verified with saves written by UE 5.8; saves from 5.4 to 5.7 use the layout
+Savekeeper reads (read from the engine source) but were not run here. Savekeeper reads the tagged-property stream itself, walking into structs and
 arrays of structs, and checks that every walk ends exactly where the stored size says it should. Sets and maps
 are judged as one value each. Saves from older engines are refused by name rather than guessed at.
 
