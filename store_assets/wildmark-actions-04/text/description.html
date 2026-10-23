@@ -1,0 +1,49 @@
+<p><strong>A dodge roll and a block for the Wildmark 01 party, in every facing.</strong> The elf, warrior, mage and rogue get the two defensive moves an action game asks for: 64 new animation cycles, 432 frames per grid size, at <strong>128&times;128</strong> and <strong>64&times;64</strong>. Every roll and every guard opens from that character's own shipped idle, so they play straight out of sprites you already own.</p>
+<h3>What is in the pack</h3>
+<ul>
+<li><strong>Dodge roll</strong> (12 frames): seen from the side, a dive into a low curl, a full tumble over the head and back, and up onto the feet (lowest point 29-48% of standing height). Seen head-on, a fast duck into a tight crouch and back up (down to 48-87%), because a roll straight toward or away from the camera hides its turn. Move the sprite along the ground while it plays.</li>
+<li><strong>Guard up</strong> (6 frames): feet set wide, knees bent, both fists come up to block.</li>
+<li><strong>Guard hold</strong> (4 frames, looping): the held block, breathing.</li>
+<li><strong>Guard down</strong> (5 frames): the block lowers back toward the idle.</li>
+<li>All four in all four facings (south, west, east, north) for all four characters. Roll, guard up and guard down play once; the hold loops.</li>
+</ul>
+<h3>Who they are</h3>
+<ul>
+<li><strong>Elf</strong> &mdash; The ranger. White-haired and pointed-eared, in a teal tunic and travelling leathers, with a quiver of orange-fletched arrows worn high across one shoulder.</li>
+<li><strong>Warrior</strong> &mdash; The shield. A broad bearded fighter in steel pauldrons and a scarred breastplate over a long dark tabard, a leather baldric crossing his chest.</li>
+<li><strong>Mage</strong> &mdash; The scholar. An elderly figure with a long white beard in a floor-length blue robe and a plain belt — the tallest, narrowest outline in the party.</li>
+<li><strong>Rogue</strong> &mdash; The scout. A young dark-haired traveller in a green tunic and short trousers, with a tall brown pack strapped high on his back.</li>
+</ul>
+<h3>Proof, not a promise</h3>
+<p>Every number below was counted by our pack proof against the decoded pixels of the files you download:</p>
+<ul>
+<li>Every .png really is a PNG: <strong>928 files</strong></li>
+<li>Every sprite is exactly one cell, every sheet a whole multiple of it: <strong>928 files</strong></li>
+<li><strong>Every opaque pixel falls inside ONE 128-colour palette, the same colours as Wildmark 01's shipped sprites: 4,625,685 pixels</strong></li>
+<li>Alpha is strictly binary (no anti-aliasing, no soft upscale): <strong>26,542,080 pixels</strong></li>
+<li>Every declared frame is mapped and present at both grids: <strong>1,728 frame checks</strong></li>
+</ul>
+<h3>Drops straight into your engine</h3>
+<ul>
+<li><strong>Godot 4:</strong> one SpriteFrames <code>.tres</code> per character per grid, animations named and sliced, the hold set to loop (loaded and built by a real Godot 4.7 import before release).</li>
+<li><strong>RPG Maker, GameMaker, Unity, anything else:</strong> plain sheets in rows of south / west / east / north (RPG Maker order), every frame as its own PNG, and a <code>frames.json</code> with every rectangle.</li>
+</ul>
+<h3>Stated plainly</h3>
+<ul>
+<li>No idle or walk is included: those are in Wildmark 01. This pack is the action states.</li>
+<li>The guard is unarmed. Nobody in the party carries a weapon or a shield, and the series' attack is a punch, so the block is made with the fists. No parry, sword or shield.</li>
+<li>The side-view tumble was generated toward a target we built (the dive's last frame turned upside down); that target frame is not in the download.</li>
+<li>4 cycles are horizontal mirrors of the same character's east roll rather than their own generation: elf/roll/west (mirrored from east), warrior/roll/west (mirrored from east), mage/roll/west (mirrored from east), rogue/roll/west (mirrored from east). They are listed in the Readme.</li>
+</ul>
+<h3>The Wildmark series</h3>
+<ul>
+<li><a href="https://csaf.itch.io/wildmark-01-the-party">Wildmark 01: The Party</a> &mdash; the idle and walk for these four</li>
+<li><a href="https://csaf.itch.io/wildmark-actions-01">Wildmark Actions 01: Strike, Hurt, Death</a> &mdash; their attack, hurt and death</li>
+<li><a href="https://csaf.itch.io/wildmark-actions-02">Wildmark Actions 02: Four Facings</a> &mdash; the same combat states facing north, plus the second rank</li>
+<li><a href="https://csaf.itch.io/wildmark-actions-03">Wildmark Actions 03: Everyday Verbs</a> &mdash; pick up, interact, knocked down and get up</li>
+<li><a href="https://csaf.itch.io/wildmark-04-dragonkin">Wildmark 04: Dragonkin</a> &mdash; six dragonborn adventurers in the same palette family</li>
+</ul>
+<h3>AI disclosure</h3>
+<p>The art in this pack is generated with an AI image model (PixelLab, on a paid plan that grants commercial rights), then palette-locked and cut to each grid by tooling we wrote, which was itself written with AI assistance. The page is tagged accordingly: Graphics yes, Code yes. If you would rather not use AI-generated assets, please don't buy this.</p>
+<p><strong>Licence:</strong> commercial use in any number of games, no attribution, no royalty. Not for resale as an asset pack, and not for training machine-learning models. Full terms in LICENSE.txt.</p>
+<p><em>Core Systems Asset Factory</em></p>
