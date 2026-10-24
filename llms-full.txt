@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 624 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 625 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-23T21:49:47.854Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-23T23:36:14.725Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1118,7 +1118,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 54 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 55 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1365,6 +1365,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/longhaul-survival-crafting-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/longhaul-survival-crafting-sound-effects/ · Paid
 
 Survival sound effects where the tools wear out: fresh, worn, failing, broken 103 survival sound effects: an axe, a pickaxe, a hammer, a shovel and a knife at three conditions each plus the moment each breaks, the campfire from a struck flint to a bonfire, gathering, crafting and building,...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Overdub II: RPG Maker MZ Default Event Sounds and Background Loops
+
+Store: https://csaf.itch.io/overdub-ii-rpg-maker-mz-event-sounds-and-bgs · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/overdub-ii-rpg-maker-mz-event-sounds-and-bgs/ · Paid
+
+The rest of RPG Maker MZ's default sounds, in Overdub's voice 208 sound effects and 29 background loops, named exactly like the MZ defaults they replace: every default sound effect Overdub left playing, and every default background sound.
 
 AI disclosure: AI Assisted, Code, Graphics
 
