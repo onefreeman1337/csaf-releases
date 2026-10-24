@@ -1,0 +1,32 @@
+<p><strong>Two original pixel fonts drawn as a pair for horror games.</strong> <strong>Sallow</strong> is the dialogue face: a narrow hand for notes, diary pages, dialogue, item text and menus that stays readable over a whole page (native 14 px). <strong>Shroud</strong> is the display face: tall condensed letters with cut tops and drips for title screens, chapter cards, location names and the word on the wall (native 22 px). White ink on a transparent background, so your engine tints them to any colour.</p>
+<h3>What is in the download</h3><ul>
+<li><code>Sallow/</code> and <code>Shroud/</code>: the glyph sheet (.png), an AngelCode BMFont file (.fnt, kerning included), a TrueType file (.ttf) that draws the same pixels, and a metrics JSON for a custom renderer</li>
+<li><code>pack.json</code>, <code>Readme_for_Users.md</code> (Godot steps and engine notes), <code>LICENSE.txt</code></li>
+</ul>
+<h3>Character set: 197 in each face</h3>
+<p>Printable ASCII, the full Latin-1 Supplement (French, German, Spanish, Portuguese, Italian, Dutch, the Nordic languages and Icelandic, plus symbols such as £ ¥ © ° ± × ÷ ¿ ¡ « »), and six typographic characters: ‘ ’ “ ” … —</p>
+<h3>The drips are a rule, not noise</h3>
+<p>Every Shroud letter wears the same wear. On each glyph's top row every stroke loses its left pixel (one brush angle across the face) and long bars end frayed. 34 drips hang from 32 letters, digits and marks, 2 to 4 pixels long, and only from flat strokes: a drip under a round bottom reads as an accent (an S becomes a Ş), so round letters carry none, and no drip turns a letter into another one. The drips sit inside the line height, so they never touch the next line.</p>
+<h3>Metrics</h3><ul>
+<li>Sallow: line 14 px, capitals 8 px, lowercase 5 px, 31 kerning pairs. Every digit sits in one 4 px box with one 5 px advance, so counters and clocks line up; the zero is slashed.</li>
+<li>Shroud: line 22 px, capitals 13 px, lowercase 9 px, 53 kerning pairs, digits in one 7 px box.</li>
+<li>Use them at the native size or a whole multiple (2x, 3x...) with smoothing and hinting off; the Readme says exactly where in Godot.</li>
+</ul>
+<h3>The proof, measured on the files you download</h3><ul>
+<li><strong>394</strong> glyphs, every one inside its line box</li>
+<li><strong>1</strong> ink colour and alpha 0 or 255 only across <strong>42,368</strong> sheet pixels: no grey edge pixels, no anti-aliasing</li>
+<li><strong>84</strong> kerning pairs, each checked so the two letters never touch</li>
+<li><strong>394/394</strong> TrueType outlines draw exactly the sheet's pixels (with hinting off)</li>
+<li>In a blank Godot 4.7.2 project: <strong>15/15</strong> test lines drawn with the .fnt match the metrics pixel for pixel, and <strong>15/15</strong> drawn with the .ttf match the .fnt, kerning included</li>
+</ul>
+<h3>Notes</h3><ul>
+<li>The store images show the fonts inside game screens we composed for this page. The rooms come from our <a href="https://csaf.itch.io/verdant-19-haunted-house">Verdant — Haunted House Tileset: Rotten Boards, Cobwebs & Shrouded Rooms</a> tileset and the wraith from our <a href="https://csaf.itch.io/mourncrest-01-restless-dead">Mourncrest 01 — The Restless Dead</a> sprites. Those are not in this download, which is the two fonts.</li>
+<li>Use them in as many games and apps as you like, commercial or not, no royalty, credit not required. Do not resell or share the font files themselves (LICENSE.txt in the download).</li>
+<li>AI disclosure: every glyph was drawn by an AI agent, pixel by pixel, as code; Shroud's cut tops and drips are applied by a fixed rule in that code; the tools that build the sheets, the .fnt and the .ttf are AI-written code; no generative image model and no third-party font was used for the fonts. The tileset and sprites in the screenshots carry their own AI disclosure on their pages. Graphics: yes. Code: yes. Sounds: no. Text and dialog: no.</li>
+</ul>
+<h3>From the same studio</h3><ul>
+<li><a href="https://csaf.itch.io/lantern-and-tallow-pixel-fonts">Lantern & Tallow: JRPG Pixel Font Pair</a> ($4.99): the same pair format, drawn for warm JRPG menus and title screens</li>
+<li><a href="https://csaf.itch.io/verdant-19-haunted-house">Verdant — Haunted House Tileset: Rotten Boards, Cobwebs & Shrouded Rooms</a> ($12.99): the rooms in these screenshots, rotten boards, cobwebs and shrouded furniture</li>
+<li><a href="https://csaf.itch.io/mourncrest-collection">The Mourncrest Collection</a> ($6.99): every Mourncrest undead pack in one download, the wraith included</li>
+</ul>
+<p><em>Shroud &amp; Sallow · Core Systems Asset Factory</em></p>
