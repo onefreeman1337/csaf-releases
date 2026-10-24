@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 637 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 639 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-24T15:05:22.568Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-24T15:52:45.478Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1142,7 +1142,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 55 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 56 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1213,6 +1213,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blip-04-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-04-dialogue-voices/ · Paid
 
 A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a different synthesis method.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Casebook: Detective and Investigation Sound Effects
+
+Store: https://csaf.itch.io/casebook-detective-investigation-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/casebook-detective-investigation-sound-effects/ · Paid
+
+The whole investigation, as one sound 124 sound effects for detective, mystery and investigation games: examine, evidence sorted by kind, the corkboard, the deduction, the interrogation and the accusation, in one paper, brass and rain sound.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1586,7 +1594,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 32 products.
+Game music packs. Formats and track counts are stated on each store page. 33 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1801,6 +1809,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/the-long-campaign · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-long-campaign/ · Paid
 
 Fifty tracks. One oath.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### The Run - Layered Roguelike Score with Stems - Dungeon Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/the-run · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-run/ · Paid
+
+The Run is a 44 track score for a roguelike or dungeon crawler, from the hub between runs to the way out: the title, the hub, the armoury, choosing a runner, the first door, 12 layered depths and skirmishes across four acts (the catacombs, the drowned works, the furnace and the heart), the...
 
 AI disclosure: AI Assisted, Code, Graphics
 
