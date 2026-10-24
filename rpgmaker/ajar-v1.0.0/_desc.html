@@ -1,0 +1,45 @@
+<h2>Search the furniture, and watch it open.</h2>
+<p>Ajar turns the dressers, desks, barrels, jars, pots, baskets, sacks and bookshelves already in your tileset into furniture the player can search. A drawer slides out toward the camera and its dark inside shows. A barrel's lid lifts, tips and comes to rest askew on its rim. A sack's tie lets go and its top sinks into a collar round a dark mouth. On a shelf, one book is pulled out and two more lean into the gap. What the event gives rises out of the opening as its own icon, and the searched piece <strong>rests ajar</strong>, so the player can see which drawers they have already been through.</p>
+<p><strong>Nothing to draw.</strong> Every moving pixel is cut from the furniture tile you painted, whatever tileset it comes from. No opening sprite sheets, no frames, no hand-drawn stages. One note on the event: <code>&lt;ajar: drawer&gt;</code>.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>AjarCore.js</code> — Ajar core: derives how your own furniture tiles open (drawers, lids, sacks, shelves). Put it above Ajar.</li>
+<li><code>Ajar.js</code> — Ajar: the drawers, barrels, jars, sacks and shelves in your own tileset open when searched, cut from their own pixels.</li>
+</ol>
+<p><strong>Core methods extended — 7 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Event.prototype.setupPageSettings</code>, <code>Game_Event.prototype.start</code>, <code>Game_Event.prototype.update</code>, <code>Spriteset_Map.prototype.createCharacters</code>, <code>Spriteset_Map.prototype.update</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.updateFrame</code>.</p>
+<p>Because nothing is clobbered, Ajar co-exists with other plugins that patch the same seams, including large suites.</p>
+<!--COMPAT:end-->
+<h3>Four ways to open</h3>
+<ul>
+<li><strong>Drawer</strong> (dressers, desks, nightstands, cabinets): Ajar finds the drawer fronts in the picture and pulls out the top one with a handle. Its front comes out toward you a pixel at a time, and its sides and the dark inside appear. <code>&lt;ajar: drawer 2&gt;</code> picks another front, <code>&lt;ajar: drawer all&gt;</code> opens them all in turn.</li>
+<li><strong>Lid</strong> (barrels, crates, jars, pots, urns, baskets, boxes): Ajar finds the rim where the colour breaks. The lid lifts, tips, swings over and settles askew, and its shadow falls into the mouth. Handles at rim height stay on the pot.</li>
+<li><strong>Sack</strong> (sacks, bags, pouches): the gathered top sinks into a collar round a dark mouth and the body slumps.</li>
+<li><strong>Shelf</strong> (bookshelves, bookcases): one book slides out toward you and two lean.</li>
+</ul>
+<h3>The search loop</h3>
+<ul>
+<li>The player searches with the Action Button (or Player Touch); the event's own commands run as always: Show Text, Change Items, a loot plugin, anything.</li>
+<li>If the page gives something (Change Items, Weapons, Armors or Gold), that item's icon rises out of the dark inside. A page that gives nothing shakes out a little dust.</li>
+<li>Searched pieces rest ajar: a drawer half out, a lid askew. The record is saved with the game and survives leaving the map. The stock "Self Switch A, then It's empty" pattern works unchanged.</li>
+<li>Optional: a faint glint on pieces nobody has searched yet.</li>
+<li>Two-tile desks and tall bookcases open as one piece. A dresser beside a desk stays its own piece.</li>
+<li>Plugin commands: Search, Open, Close, Forget Search (a stash that refills), Show Found Icon (for loot plugins).</li>
+</ul>
+<h3>Measured, not guessed</h3>
+<p>Each piece's picture is read once while the map fades in, and every frame of its opening is made then; searching reads no pixels at all. On our showroom of 17 pieces with one searched every 10 frames, the engine drew 11 draw calls a frame with no texture uploads, inside the limits we hold every plugin to. On our test furniture (66 pieces from six tilesets, drawn in three styles, plus MZ's own Inside set) Ajar found the moving part of every piece from its pixels alone. The shipped zip was installed into a blank MZ project and played from the title screen with the keyboard: a stock counter searched, the potion rising, the counter resting ajar, an empty second search shaking dust, a barrel searched for gold, all kept through a save and load.</p>
+<h3>What it does not do</h3>
+<p>It decides nothing about loot: what is found is your event's business. The inside of a drawer or a jar is never guessed; it is darkness, and the found item rises out of it. Treasure chests and hinged doors are not in scope. A piece is an event with a tile graphic, as in stock MZ, not a tile painted on the map layers. The shelf kind is drawn for books: on a shelf of bottles the item that tips out shows a book's pale page edge on top.</p>
+<h3>Pairs with</h3>
+<ul>
+<li><a href="https://csaf.itch.io/threshold">Threshold</a>: every door, gate and hatch in your own tileset opens the way it was drawn. Cupboard and wardrobe doors are Threshold's.</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a>: pots, crates and barrels break the way their material would, cut from your own art.</li>
+<li><a href="https://csaf.itch.io/timber">Timber</a>: every tree in your own tileset can be cut down.</li>
+<li><a href="https://csaf.itch.io/rummage">Rummage</a>: an I Spy hidden-object scene composed from your own assets.</li>
+</ul>
+<p>An event that carries <code>&lt;threshold&gt;</code> or <code>&lt;smash&gt;</code> belongs to that plugin and Ajar leaves it alone.</p>
+<p><em>In the pictures:</em> the painted furniture is Ajar's own test set, the cellar pieces are from our <a href="https://csaf.itch.io/verdant-07-interiors">Verdant 07 Interiors</a> and <a href="https://csaf.itch.io/verdant-73-tavern">Verdant 73 Tavern</a> tilesets, the herbalist is from <a href="https://csaf.itch.io/hearthhands-01-the-working-day">Hearthhands 01</a> and the icons from <a href="https://csaf.itch.io/sigilcast-01-ember-school">Sigilcast 01</a>. Ajar ships no art; it works on yours.</p>
+<p>Two plugin files, raw readable JavaScript, a Readme and a licence for unlimited games. AI disclosure: the code was written with AI assistance and the art in the store images is AI-assisted; no sounds or narrative text ship with it.</p>
