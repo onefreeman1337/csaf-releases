@@ -1,0 +1,54 @@
+<h2>The animals that walk your maps.</h2>
+<p>Hedgerow fills your maps with the small animals a real place has. Rabbits graze on the green, squirrels live at the foot of the trees, mice run along the base of a wall to their holes, lizards bask on the rocks, crabs sidle on the sand, a cat dozes by the fire, and after dark hedgehogs, foxes, badgers and snails come out. Walk up to them and each one flees in its own way.</p>
+<p><strong>Nothing to draw and nothing to place.</strong> The plugin reads each map once (its walls, its trees, its rocks, its sand and its fireplaces) and decides who lives where. All 44 coats in 13 families are drawn in code, in the four facings a character has. No sprite sheets and no events. MZ's own trees, boulders, sand and fireplaces work the moment you switch it on.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> any order works (each file finds its siblings the first time it needs them); this one is tidy.</p>
+<ol>
+<li><code>HedgerowCore.js</code> — Hedgerow [1/3] — the animals, the habitat reader and the behaviour. No settings here; see Hedgerow.js. v1.0.0</li>
+<li><code>HedgerowPaint.js</code> — Hedgerow [2/3] — the painter: every animal is drawn here at runtime. No settings here; see Hedgerow.js. v1.0.0</li>
+<li><code>Hedgerow.js</code> — Hedgerow [3/3] — the animals that walk your maps: 13 families, 44 coats, drawn at runtime, placed by your tiles. v1.0.0</li>
+</ol>
+<p><strong>Core methods extended — 4 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>, <code>Game_Map.prototype.setup</code>, <code>Game_System.prototype.initialize</code>.</p>
+<p>Because nothing is clobbered, Hedgerow co-exists with other plugins that patch the same seams, including large suites.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>Each one flees its own way</h3>
+<ul>
+<li><strong>Rabbit:</strong> sits up, thumps a hind foot and bolts in a zig-zag with its white tail showing, then grazes again further off.</li>
+<li><strong>Hare:</strong> sits up, then runs long and straight, flat out.</li>
+<li><strong>Squirrel:</strong> runs home to its tree and climbs up behind the leaves. It comes back down when you have gone.</li>
+<li><strong>Hedgehog:</strong> rolls into a ball where it stands and unrolls after you leave.</li>
+<li><strong>Mouse and rat:</strong> run along the wall into a hole drawn in it, then peek out and come back.</li>
+<li><strong>Lizard:</strong> darts away in short runs with a freeze between each.</li>
+<li><strong>Crab:</strong> raises both claws, backs off sideways and digs into the sand.</li>
+<li><strong>Cat:</strong> sits up and watches you, then stalks away at a walk. <strong>Fox:</strong> stops with its ears up, trots off and looks back once.</li>
+<li><strong>Badger:</strong> lifts its head and trots off. <strong>Snail:</strong> withdraws into its shell. <strong>Spider:</strong> climbs its thread out of sight.</li>
+</ul>
+<p>Bolting rabbits, hares, foxes and badgers kick up small puffs of dust. A <strong>Scatter</strong> command sends everything on screen running at once, for a shout, a bell or a slammed door.</p>
+<h3>Placed by your own tiles</h3>
+<ul>
+<li><strong>Open ground:</strong> rabbits and hares by day; hedgehogs, foxes and snails at dusk and night, badgers at night; cats in towns and houses.</li>
+<li><strong>The foot of a wall, a hedge or a fence:</strong> mice and rats, each with its own hole. Spiders hang there indoors.</li>
+<li><strong>The foot of a tree:</strong> squirrels. <strong>Beside a rock:</strong> lizards. <strong>Sand by water:</strong> crabs. <strong>Beside a fireplace:</strong> a sleeping cat.</li>
+</ul>
+<p>Outside maps are meadows, and an outside map with enough houses on it is a village too, so one tileset gives you rabbits in a field and cats and rats in a town with no setup. Inside maps are houses, dungeons are cellars, and world maps stay empty unless you ask. Or pick a map's biomes yourself with a map note: meadow, forest, town, coast, desert, snow, house, cellar. On a custom tileset, one tileset note marks its trees, rocks, sand, hearths and water by terrain tag.</p>
+<h3>Day, dusk and night</h3>
+<p>The screen tone decides by default, so any day and night plugin that tints the screen works with no setup. A switch or an hour variable works too. Indoors there is no sun, and rain brings the snails out by day. When the hour changes, the animals of the old hour leave together and the new ones arrive.</p>
+<h3>44 coats</h3>
+<p>Wild, grey, sandy, black and snow rabbits; brown, mountain and desert hares; red, grey and black squirrels; two hedgehogs; wood, house, harvest and white mice; brown and black rats; green, wall and blue-tailed lizards and a sand gecko; shore, blue, ghost and hermit crabs; three snails; seven cats (ginger, grey tabby, black, calico, white, tuxedo, tortoiseshell); red, grey and arctic foxes; two badgers; house and garden spiders. Add coats of your own in the parameters: pick a family, three colours and a pattern. They are drawn as smooth, outlined illustrations rather than pixel art, at the size you set with <strong>Animal size</strong>.</p>
+<h3>Light on your game</h3>
+<p>Measured in the real engine with no RPG Maker install: a full screen of animals drew in <strong>11 draw calls</strong> per frame with <strong>0 texture uploads</strong>, because every frame of every animal is painted once, into one sheet, when the first map loads. Animals live only around the part of the map on screen, so the work done each frame does not grow with the size of the map. Nothing is allocated per frame.</p>
+<h3>Goes with</h3>
+<ul>
+<li><a href="https://csaf.itch.io/vivarium">Vivarium</a> ($12.99): the butterflies, dragonflies, fish, frogs, fireflies and bats of every map. Vivarium fills the air and the water, Hedgerow the ground, and both read day and night the same way.</li>
+<li><a href="https://csaf.itch.io/timber">Timber</a> ($9.99): every tree in your tileset can be cut down.</li>
+<li><a href="https://csaf.itch.io/round-up">Round-up</a> ($11.99): a herding minigame with sheep, hens, pigs and geese, on your own map.</li>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a> ($12.99): the drifting shadows of clouds passing over your map's ground, water and roofs.</li>
+</ul>
+<p>The lane in the screenshots is built from <a href="https://csaf.itch.io/verdant-09-town">Verdant 09: Town</a> ($9.99) and <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01: Overworld</a> ($4.99), and the traveller is from <a href="https://csaf.itch.io/wayfarer-01-the-green-road">Wayfarer 01: The Green Road</a> ($5.99). They are not part of this download: the plugin works on any tileset, including MZ's own.</p>
+<h3>In the download</h3>
+<p>Three raw, readable JavaScript files (Hedgerow.js, HedgerowCore.js, HedgerowPaint.js), a full Readme and the licence. No images, fonts or sounds: every animal is drawn in code.</p>
+<p>Commercial and non-commercial use in RPG Maker MZ projects. Written with AI assistance (the code, including the drawing code). © Core Systems Asset Factory.</p>
