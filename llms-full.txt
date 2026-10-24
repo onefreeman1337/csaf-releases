@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 625 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 626 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-23T23:36:14.725Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-24T05:07:05.393Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1562,7 +1562,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 31 products.
+Game music packs. Formats and track counts are stated on each store page. 32 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1737,6 +1737,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/spooky-season · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/spooky-season/ · Paid
 
 Spooky Season is a 44 track Halloween score for games: the trick-or-treat lane and the pumpkin patch, a haunted manor room by room, the churchyard and the crypt, a battle set, the headless horseman and the witching hour.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### The Holy Order - Cathedral, Vigil and Judgement - Sacred Fantasy RPG Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/the-holy-order · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-holy-order/ · Paid
+
+The Holy Order is a 44 track score for the holy order in a fantasy game, from the morning bell to the ascension: the cathedral city and the city at vespers, the pilgrims' market and hospice, the scriptorium and the cloister garden, the pilgrim road, the wayside shrines and the abbey woods, the...
 
 AI disclosure: AI Assisted, Code, Graphics
 
