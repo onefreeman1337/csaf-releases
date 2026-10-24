@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 634 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 637 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-24T10:05:43.460Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-24T15:05:22.568Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2698,7 +2698,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 74 products.
+GML systems and assets for GameMaker. 75 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -2825,6 +2825,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/charter-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/charter-gamemaker/ · Paid · Engines: GameMaker
 
 As your player explores, Charter inks a hand-drawn manuscript chart of what they have actually seen.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Chicane - Top-Down Racing for GameMaker
+
+Store: https://csaf.itch.io/chicane-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/chicane-gamemaker/ · Paid · Engines: GameMaker
+
+A top-down racing system in pure GML.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3610,7 +3618,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unreal Engine 5 plugins
 
-Editor plugins for Unreal Engine 5. 41 products.
+Editor plugins for Unreal Engine 5. 42 products.
 
 ### AnimNotify Event Rebinder - UE5 plugin
 
@@ -3921,6 +3929,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/source-path-relinker · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/source-path-relinker/ · Paid · Engines: Unreal Engine
 
 The art folder moved, and now every Reimport says "Source file not found". Someone reorganised the texture library. The art moved to a NAS. A contractor delivered into a different tree than the last one.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### String Table Extractor for UE5
+
+Store: https://csaf.itch.io/string-table-extractor · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/string-table-extractor/ · Paid · Engines: Unreal Engine
+
+Three hundred buttons, labels and tooltips were typed straight into the widgets. Now the game is being localized and the plan says String Tables.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4954,7 +4970,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 10 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 11 products.
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
@@ -4977,6 +4993,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/clean-slate-modern-minimal-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/clean-slate-modern-minimal-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A flat, light, modern UI kit for casual and puzzle games, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Codex Pages: Book and Journal UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/codex-pages-book-and-journal-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/codex-pages-book-and-journal-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A book and journal UI kit: open spreads, page turns, ribbons and quest logs, ready for six engines 83 widgets in 183 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
 
 AI disclosure: AI Assisted, Code, Graphics
 
