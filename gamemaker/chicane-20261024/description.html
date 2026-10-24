@@ -1,0 +1,45 @@
+<p><strong>A top-down racing system in pure GML. Every circuit is generated from a seed and drawn by the package, and the race layer every GameMaker racing project ends up hand-rolling is done: live positions, laps and sector times, checkpoint gates that refuse a cut corner, a computed racing line with braking points, AI drivers that follow it, overtake and defend, and a broadcast-style HUD.</strong></p>
+
+<p>Use it for a whole racing game, a kart minigame inside an RPG, or a chase level. One call makes a circuit, one call bakes its picture, one call starts a race.</p>
+
+<pre><code>// Create
+my_circuit = chc_circuit_create(12, "grandprix");
+chc_circuit_bake(my_circuit);
+my_race = chc_race_create(my_circuit, { cars: 8, laps: 5, player: 0 });
+// Step
+chc_car_input(my_race, 0, my_thr, my_brk, my_steer);
+chc_race_step(my_race, delta_time / 1000000);
+// Draw GUI
+chc_circuit_draw(my_circuit, my_cam);
+chc_race_draw(my_race, my_cam);
+chc_hud_draw(my_race, 0, 0, display_get_gui_width(), display_get_gui_height(), 0);</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Generated circuits in eight themes:</strong> Grand Prix, Street Circuit, Desert Rally, Snow Rally, Forest Circuit, Harbour Circuit, Night City and Kart Track. Straights, hairpins, sweepers and chicanes; each theme has its own road width, grip, surface and scenery. The same seed and theme always give the same circuit.</li>
+<li><strong>Every circuit drawn down to the kerb:</strong> grass with mowing stripes (or paving, dunes, a snowfield), grained asphalt with a darker rubbered racing line and braking streaks, red-and-white kerbs on every apex and exit, gravel traps, painted tarmac run-off, armco, tyre walls, concrete walls with catch fencing on street circuits, a chequered line and numbered grid boxes, a pit lane with pit boxes and garages (on grand prix and forest circuits whose start straight has room), grandstands packed with spectators, trees, pines, palms and cacti, buildings, a harbour with boats, street lamps that pool light on the road at night, straw bales and marker poles on rally stages. Skid marks build up as the race runs.</li>
+<li><strong>Cars drawn by the package:</strong> four bodies (formula, kart, rally, saloon) with generated liveries from 16 team colours and 6 patterns, a race number and a helmet colour. Or give any car your own sprite.</li>
+<li><strong>A race HUD:</strong> position tower with gaps, lap and sector timing in the purple / green / yellow code, a minimap of the generated circuit, speed, a five-light start, and messages for cuts, penalties and wrong way.</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>Positions that cannot be cheated:</strong> 24 checkpoint gates a lap, positions from credited gates. A gate crossed on the inside of a corner beyond the kerb is a cut: choose <code>"refuse"</code> (owed until taken properly) or <code>"penalty"</code> (seconds added). Running wide is never a cut, and the pit lane counts as track.</li>
+<li><strong>AI with a skill setting</strong> that drives the computed racing line by pure pursuit, brakes to a speed profile built from the corner radii and the car's grip, pulls out of the tow to pass on the side with room, holds its lane beside you, and covers the inside when you sit in its tow.</li>
+<li><strong>Events</strong> for lights, go, laps, fastest laps, finishes, cuts, penalties and contacts, so your sounds and messages hang off the race.</li>
+<li><strong>The circuit as data:</strong> centreline, normals, curvature, racing line, gates, grid, and the whole scenery layout, plus <code>chc_track_query</code> (where a point is, and on what surface) and <code>chc_track_point</code> (place anything along the track).</li>
+<li><strong>A headless race</strong>, <code>chc_race_sim</code>, that runs a whole race with every car on AI and reports finishes, contacts, passes and lap-time spread: the tuning harness the package was tested with.</li>
+<li><strong>A demo room:</strong> THE GRAND PRIX. Drive against seven AI cars; switch circuit, theme, car body, camera and cut rule; show the race layer (racing line, braking points, gates).</li>
+</ul>
+
+<h3>Tested</h3>
+<p>GML cannot be unit-tested outside the engine, so every test runs in a real exe built by GameMaker's own compiler (runtime 2024.14.4.268, VM, Windows). The suite generates 32 circuits across the eight themes and checks each one (closed and evenly sampled, tightest corner drivable, no two parts of the track closer than both tracks and both run-offs, start line on a straight), checks the racing line and the speed profile, inverts the track query, proves the cut rule both ways and the pit lane, and races 8 AI cars for 3 laps on every theme: all 64 cars finished, 0 frames against a barrier. It bakes every theme and the cars and checks the pictures have ink. The shipped package is then installed into a blank project and the Readme's own code run, and every documented function is attacked with hostile arguments. HTML5, mobile and YYC exports were not built.</p>
+
+<p>Requires GameMaker 2024.14 or later. Pure GML: no shader, no extension. Includes the Readme, the licence (use in any number of your games) and the font notices (Oswald and Barlow Condensed, SIL OFL). Made with AI assistance: the code and the graphics were written with AI, and every picture is drawn by that code at run time.</p>
+
+<h3>More from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/pit-lane-racing-sound-effects">Pit Lane: Racing Sound Effects</a>: 110 racing sounds - five car classes with seamless RPM ladders and pass-bys, skids, collisions, a pit stop and ambience beds ($9.99).</li>
+<li><a href="https://csaf.itch.io/derby-gamemaker">Derby</a>: a race meeting the player bets on, with a generated stable and a drawn course ($12.99).</li>
+<li><a href="https://csaf.itch.io/jackpot-gamemaker">Jackpot</a>: generated slot machines for a game corner ($12.99).</li>
+</ul>
