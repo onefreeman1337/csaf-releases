@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 630 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 634 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-24T07:55:33.416Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-24T10:05:43.460Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 86 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 87 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -608,6 +608,14 @@ The tavern every RPG town needs, at 16x16: 428 tiles in one 98 colour palette. C
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant 74 — Dungeon Charts: Parchment Dungeon Map Tileset, Autotiled Rooms, Caves, Doors, Stairs & Symbols [16x16]
+
+Store: https://csaf.itch.io/verdant-74-dungeon-charts · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-74-dungeon-charts/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+The dungeon half of a map, at 16x16: 760 tiles in two locked palettes. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Autotile Playground
 
 Store: https://csaf.itch.io/verdant-playground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-playground/ · Free
@@ -698,7 +706,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 53 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 54 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -1113,6 +1121,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/wildmark-actions-03 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-03/ · Paid
 
 The everyday actions for the Wildmark 01 party, in every facing. Pick up, interact, knocked down and get up for the elf, warrior, mage and rogue: 64 new animation cycles, 384 frames per grid size, at 128×128 and 64×64.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Wildmark Actions 04: Roll and Guard — dodge roll & block sprites, 4 directions, 128x128 & 64x64
+
+Store: https://csaf.itch.io/wildmark-actions-04 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-04/ · Paid
+
+A dodge roll and a block for the Wildmark 01 party, in every facing. The elf, warrior, mage and rogue get the two defensive moves an action game asks for: 64 new animation cycles, 432 frames per grid size, at 128×128 and 64×64.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3278,7 +3294,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unity editor tools
 
-Editor tools for Unity 6. 38 products.
+Editor tools for Unity 6. 39 products.
 
 ### Almanac - The Illustrated Year
 
@@ -3509,6 +3525,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/reserialize · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/reserialize/ · Paid · Engines: Unity
 
 Your rename hasn't happened yet You did what the docs say: [FormerlySerializedAs("moveSpeed")] public float speed = 5f; Everything still works. Every value is still there.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Roomlight - Baked Lighting for Spawned Prefab Rooms in Unity 6
+
+Store: https://csaf.itch.io/roomlight · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/roomlight/ · Paid · Engines: Unity
+
+Unity bakes lighting per scene. A room you build as a prefab and spawn at runtime arrives with no baked lighting at all: a looping hallway, a procedural dungeon or a pooled level chunk is lit only by its lights in real time.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3918,7 +3942,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 43 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 44 products.
 
 ### ANATOMIST
 
@@ -4181,6 +4205,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/sidelong · Our page: https://onefreeman1337.github.io/csaf-releases/games/sidelong/ · Paid · free browser demo on the page
 
 An action RPG with no attack button. You cut a monster by running into it off centre or from behind. Meet it head on and you both take the blow. Play the free demo in your browser above.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### SKEIN
+
+Store: https://csaf.itch.io/skein · Our page: https://onefreeman1337.github.io/csaf-releases/games/skein/ · Free · pay what you want
+
+Lead a skein of geese south through one night. You start alone in the dusk. Somewhere in the clouds the others are calling. Find them, one by one, and bring them into the line.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
