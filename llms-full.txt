@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 628 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 630 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-24T06:54:00.966Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-24T07:55:33.416Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -698,7 +698,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 52 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 53 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -953,6 +953,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/pocketfolk-01-first-partners · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/pocketfolk-01-first-partners/ · Paid
 
 Eighteen original creatures for a creature-taming RPG, in six three-stage evolution lines, each with a battle FRONT, a battle BACK and a 4-direction overworld walk.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Shroud & Sallow: Horror Pixel Font Pair
+
+Store: https://csaf.itch.io/shroud-and-sallow-horror-pixel-fonts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/shroud-and-sallow-horror-pixel-fonts/ · Paid
+
+Two original pixel fonts drawn as a pair for horror games. Sallow is the dialogue face: a narrow hand for notes, diary pages, dialogue, item text and menus that stays readable over a whole page (native 14 px).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4998,7 +5006,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 9 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 10 products.
 
 ### Cartography: 48 Journey Map Styles for Godot 4
 
@@ -5037,6 +5045,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/sigil-core-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/sigil-core-godot/ · Paid · Engines: Godot
 
 60 magic circles for Godot 4 that cast, hold and break Sigil Core for Godot 4 draws spell seals live: rings, a ring of runes, a star or polygon figure, spokes and a core glyph, 60 seals in six schools.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Smithereens: 48 2D Breakables for Godot 4
+
+Store: https://csaf.itch.io/smithereens-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/smithereens-godot/ · Paid · Engines: Godot
+
+Smithereens: 48 2D breakables for Godot 4 that break the way their material would A pot bursts into curved sherds. A crate splits into planks along its grain.
 
 AI disclosure: AI Assisted, Code, Graphics
 
