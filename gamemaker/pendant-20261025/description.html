@@ -1,0 +1,40 @@
+<p><strong>Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of paintings in a gallery. Pendant hangs the picture twice and changes the second copy in as many places as you ask: an object added that belongs where it lands, a detail mirrored, something painted out, or an object recoloured. Every change is generated and measured to be visible before it is kept, so you never paint a second picture by hand.</strong></p>
+
+<p>Use it for a museum heist, a detective's photo board, a festival minigame in an RPG, or a whole spot-the-difference game. A sprite, a background, a portrait, or a capture of the room the player is standing in: one call hangs it.</p>
+
+<pre><code>// Create
+my_puzzle = pnd_open({ sprite: spr_castle, count: 5 });
+// Step
+pnd_step(my_puzzle);
+if (pnd_closed(my_puzzle)) { my_result = my_puzzle.result; pnd_free(my_puzzle); my_puzzle = undefined; }
+// Draw GUI
+pnd_draw(my_puzzle, 0, 0, 1);</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Four kinds of change, made from your own picture:</strong> an object added (51 drawn objects, each landing only on the ground it belongs to: a kite or an airship in a day sky, a star, a comet or an owl at night, a duck, a swan or a sailboat on water, a ladybird, a tulip or a pumpkin in a field, a crown, a candle or a clock on a stone wall or a table), a detail mirrored where the patch is uneven enough to show, a patch painted out through a soft irregular edge, and a region with an edge of its own recoloured to a colour the picture already uses.</li>
+<li><strong>Every change measured:</strong> at the size the changes are made it must move at least 120 pixels by a clear margin, or it is undone and another place is tried. Changes never overlap. A seed repeats a puzzle; a blank seed makes a new one every time.</li>
+<li><strong>A gallery drawn by the package:</strong> a damask wall in green, plum, navy or oxblood with a dado rail and panelled wainscot, the two paintings hung on cords from a picture rail, gilt frames with a lit moulding, beading and corner rosettes, picture lamps with a warm wash, and a brass plaque keeping the count, the clock, the misses and the hints.</li>
+<li><strong>Play that feels finished:</strong> finds ringed in red ink on both paintings, misses that leave a fading pencil mark, a hint that lights a lamp glow over the next difference, a keyboard hand for players without a mouse, ALL FOUND and SET ASIDE endings with every missed difference marked in gold, and a velvet drape over the second painting while the differences are made.</li>
+<li><strong>It hangs itself for the screen:</strong> side by side, or one above the other on a portrait screen, with type that grows with the screen.</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>A result handed back:</strong> all found, timed out or set aside, finds, misses, hints used, seconds, the seed and your own key.</li>
+<li><strong>Options:</strong> 1 to 12 differences, a time limit, 0 to 9 hints, the wall, which kinds of change to allow, the gallery's size, a sound hook (find, miss, hint, solve, give up, time) and scripted input for tutorials and replays.</li>
+<li><strong>The difference maker on its own</strong>, as pure GML over pixel buffers: make the second picture of any image in one call or a few milliseconds per frame, add one object, mirror, paint out, recolour, classify the ground, measure visibility.</li>
+<li><strong>A demo room:</strong> THE GALLERY. Two paintings you may use in your game, how many differences, which wall, then the puzzle.</li>
+</ul>
+
+<h3>Tested</h3>
+<p>GML cannot be unit-tested outside the engine, so every test runs in a real exe built by GameMaker's own compiler (runtime 2024.14.4.268, VM, Windows). Ported from our RPG Maker MZ plugin Pendant and held to it: given the same picture, seed and count, the GameMaker core makes the same changes and the same second picture byte for byte, across eight whole puzzles on both demo paintings, all 51 objects drawn and every layer of every object's shape. The suite also plays puzzles by script (finds on both paintings, a miss, a hint and its glow, the keyboard hand, the clock running out, giving up) and checks the layout on four screen shapes. The shipped package is then installed into a blank project and the Readme's own code run, and every documented function is attacked with hostile arguments. HTML5, mobile and YYC exports were not built.</p>
+
+<p>Requires GameMaker 2024.14 or later. Pure GML: no shader, no extension. Includes the Readme, the licence (use in any number of your games) and the font notices (Cinzel and Alegreya, SIL OFL). Made with AI assistance: the code was written with AI, the gallery and all 51 objects are drawn by that code at run time, and the two demo paintings are AI-generated illustrations.</p>
+
+<h3>More from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/pendant">Pendant for RPG Maker MZ and MV</a>: the same spot-the-difference gallery as a plugin ($9.99).</li>
+<li><a href="https://csaf.itch.io/jigsaw-gamemaker">Jigsaw</a>: jigsaw puzzles from any picture, with generated knob-and-socket cuts ($9.99).</li>
+<li><a href="https://csaf.itch.io/unveil-gamemaker">Unveil</a>: cut a veil away until the player's picture is revealed, Qix-style ($7.99).</li>
+</ul>
