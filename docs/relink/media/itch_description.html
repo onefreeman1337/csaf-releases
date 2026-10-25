@@ -1,0 +1,32 @@
+<p><strong>Rename a class, move it to another namespace or another assembly, and every [SerializeReference] value of that class goes null in the Inspector. The data is still in your scene, prefab and ScriptableObject files, under the old type name. Relink finds every one of those entries across the project, proposes the class each one belongs to now, and points them at it, so the values come back.</strong></p>
+<h2>What it does</h2>
+<ul>
+<li><strong>Scans the files, not just what is loaded.</strong> Relink reads the text of every scene, prefab and asset under Assets (and embedded or local packages), so assets nobody has opened are covered.</li>
+<li><strong>Sees the entries Unity's own check misses.</strong> A value added through a prefab instance's overrides is stored as an override line. Measured on 6000.5.7f1: after a rename, Unity's HasManagedReferencesWithMissingTypes returns false for that instance and the only trace is console errors when the scene opens. Relink reads and repairs the override lines too.</li>
+<li><strong>Proposes the right class from your own data.</strong> The class name, and the field names Unity kept under the missing entry. A class that only moved is matched by name; a renamed class by its stored fields plus name similarity.</li>
+<li><strong>Refuses to guess.</strong> When two classes fit equally well, the card says PICK ONE and lists them. Relink all confident only applies matches that clear the bar.</li>
+<li><strong>Generic types and nested classes.</strong> A renamed class used as a generic argument (Empowered&lt;Fireball&gt;) is rewritten inside the argument list.</li>
+<li><strong>Two ways to repair.</strong> Rewrite the assets (only the type lines change; every other line is compared before a file is written; originals are journaled and Revert puts them back), or write Unity's own [MovedFrom] attribute onto the renamed class so branches you have not merged yet load it too. Measured: Unity does not apply [MovedFrom] inside a generic argument, so Relink rewrites those instead and says why.</li>
+<li><strong>Notices the moment you rename.</strong> After each compile, if a class disappeared and asset files still name it, you get one warning and a banner in the window.</li>
+<li><strong>A CI check</strong> that exits 1 when anything is missing, and an Apply step driven by a version controlled map file for the cases it will not guess.</li>
+</ul>
+<h2>Measured (Unity 6000.5.7f1)</h2>
+<ul>
+<li>On the demo after a simulated refactor (a case change, a namespace move, three renames and one class split in two), Unity itself loads <strong>3 of 13</strong> spell entries. After Relink: <strong>13 of 13</strong>, read in a fresh Unity process.</li>
+<li>Break the demo, then repair it with Relink: all three files come back <strong>byte for byte identical</strong> to what Unity originally wrote (sha256 compared).</li>
+<li>Build machine: <code>RelinkCI.Check</code> exits 0 on the clean demo and 1 after the refactor; <code>RelinkCI.Apply</code> rewrites the 8 confident type lines and exits 1 on the one it will not guess; one line in the map file and it exits 0. <strong>13 of 13</strong> checks by process exit code across 14 Unity processes.</li>
+<li>Installed from the shipped .unitypackage into a blank Unity 6000.5.7f1 project: 19 files, 0 missing scripts in the demo scene, and <strong>33 of 33</strong> of its own tests passing on the installed bytes.</li>
+<li>10,000 asset files with managed references scanned in 14.68 s (12.92 s warm) on a busy shared machine: a sample, not a promise.</li>
+</ul>
+<h2>The demo</h2>
+<p>Open the demo scene and press Play: a spellbook lists 13 spell effects held through [SerializeReference] on a scene component, in a ScriptableObject and on a prefab instance with an override. Window, CSAF, Relink Demo, Simulate a Rename breaks them the way a refactor does. Press Play again and 10 are lost. Scan in the Relink window, pick one class where it asks, repair, and all 13 are back.</p>
+<h2>Good to know</h2>
+<ul>
+<li>Unity 6, tested on 6000.5.7f1. Text serialization (Force Text, the default): binary assets are listed, never counted as clean.</li>
+<li>Relink repairs the type an entry names. A renamed field inside a class is a job for Unity's FormerlySerializedAs.</li>
+<li>Registry packages in the package cache are read only and are not scanned.</li>
+<li>Editor only: nothing ships in your builds. Full C# source, a numbered guide, and a demo scene. No Resources folder.</li>
+</ul>
+<h2>From the same studio</h2>
+<p>More Unity editor tools: <a href="https://csaf.itch.io/roomlight">Roomlight</a> bakes lighting into prefab rooms you spawn at runtime, and <a href="https://csaf.itch.io/ledgeline">Ledgeline</a> generates the jump up, drop and gap NavMesh links Unity's bake leaves out. And if you would rather play than build: <a href="https://csaf.itch.io/skein">SKEIN</a>, our latest game.</p>
+<p><em>AI disclosure: Relink's code and documentation are AI written, and the demo and store images were built and captured by an AI agent from Relink running in Unity.</em></p>
