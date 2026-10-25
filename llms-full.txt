@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 640 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 647 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-24T22:28:11.972Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-25T19:56:49.109Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -706,7 +706,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 54 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 55 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -857,6 +857,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/kithfell-01-companions-and-beasts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-01-companions-and-beasts/ · Paid
 
 Four animals a top-down game keeps needing and never has. A herding dog, a draught horse, a brown bear and a mane lion, in four true directions, on one locked 128-colour palette.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Kithfell 02 Actions: Lie Down, Sleep and Eat (128x128 & 64x64 pet sprites)
+
+Store: https://csaf.itch.io/kithfell-02-actions-rest-and-play · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-02-actions-rest-and-play/ · Paid
+
+Kithfell 02 gave the house pets their idle and their walk. This pack gives them their downtime.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2722,7 +2730,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 75 products.
+GML systems and assets for GameMaker. 76 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3140,6 +3148,14 @@ Eight minigames for GameMaker, and not one of them ships a picture. Every trace,
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Pendant - Spot the Difference From Any Picture, for GameMaker
+
+Store: https://csaf.itch.io/pendant-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/pendant-gamemaker/ · Paid · Engines: GameMaker
+
+Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of paintings in a gallery.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Pliant — Sprite Mesh Deformation for GameMaker
 
 Store: https://csaf.itch.io/pliant · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/pliant/ · Paid · Engines: GameMaker
@@ -3326,7 +3342,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unity editor tools
 
-Editor tools for Unity 6. 39 products.
+Editor tools for Unity 6. 40 products.
 
 ### Almanac - The Illustrated Year
 
@@ -3549,6 +3565,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/rekey · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/rekey/ · Paid · Engines: Unity
 
 Unity 6.5 says error CS0619: 'Object.GetInstanceID()' is obsolete: 'Use GetEntityId instead.' and your project stops compiling. Rekey gets it compiling again.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Relink - Repair SerializeReference Data After a Rename in Unity 6
+
+Store: https://csaf.itch.io/relink · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/relink/ · Paid · Engines: Unity
+
+Rename a class, move it to another namespace or another assembly, and every [SerializeReference] value of that class goes null in the Inspector. The data is still in your scene, prefab and ScriptableObject files, under the old type name.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3982,7 +4006,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 44 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 45 products.
 
 ### ANATOMIST
 
@@ -4253,6 +4277,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/skein · Our page: https://onefreeman1337.github.io/csaf-releases/games/skein/ · Free · pay what you want
 
 Lead a skein of geese south through one night. You start alone in the dusk. Somewhere in the clouds the others are calling. Find them, one by one, and bring them into the line.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### SNOWBANK
+
+Store: https://csaf.itch.io/snowbank · Our page: https://onefreeman1337.github.io/csaf-releases/games/snowbank/ · Free
+
+Your savings are a snowball. Your debt is an avalanche. Steer one working life, from 22 to 67, down one mountain. The snowball is your savings, and it grows on its own as it rolls: that is compound interest, and you can watch it happen.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4870,7 +4902,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 15 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 16 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -4901,6 +4933,14 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 Store: https://csaf.itch.io/commons-01-village-folk-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/commons-01-village-folk-voice-pack/ · Paid · free browser demo on the page
 
 The people in your village, voiced: four villagers, four voices, every everyday moment 160 spoken lines by four invented villagers, 40 each, every villager on its own built in voice: greetings by time of day, weather, farewells, idle chatter, rumours, quest hooks, thanks, festivals and seasons,...
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
+### Confidant 01: Visual Novel Cast Voice Pack
+
+Store: https://csaf.itch.io/confidant-01-visual-novel-cast-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/confidant-01-visual-novel-cast-voice-pack/ · Paid · free browser demo on the page
+
+Four visual novel characters, voiced for every reaction 192 spoken lines by four invented visual novel characters, each on its own built in voice: the friend, the rival, the mentor and the bookworm, with 48 lines each.
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
@@ -4994,7 +5034,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 11 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 12 products.
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
@@ -5044,6 +5084,14 @@ A card table UI kit for deckbuilders and card games, ready for six engines 88 wi
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Four Shade: Four-Colour Handheld UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/four-shade-four-colour-handheld-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/four-shade-four-colour-handheld-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot, GB Studio
+
+A strict four-colour UI kit for handheld style games, ready for six engines and GB Studio 59 widgets in 126 widget states, in pixel mode and HD mode, generated from one theme in exactly four colours and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py, with GB Studio...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Hearthwood: Cozy Farming UI Kit (Pixel + HD)
 
 Store: https://csaf.itch.io/hearthwood-cozy-farming-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/hearthwood-cozy-farming-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
@@ -5086,7 +5134,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 10 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 11 products.
 
 ### Cartography: 48 Journey Map Styles for Godot 4
 
@@ -5101,6 +5149,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/emberflux · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/emberflux/ · Paid · Engines: Godot
 
 120 combat effects for 2D Godot games, in six elements that are six different shapes 120 hit, slash, burst, projectile, buff and status effects for Godot 4, every one a shader computed at runtime.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Fogbank: 2D Fog of War in 48 Looks for Godot 4
+
+Store: https://csaf.itch.io/fogbank-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fogbank-godot/ · Paid · Engines: Godot
+
+Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not seen is hidden. What they have seen is remembered. What they can see right now is clear, and your own walls block sight.
 
 AI disclosure: AI Assisted, Code, Graphics
 
