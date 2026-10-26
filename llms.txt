@@ -1,6 +1,6 @@
 # Core Systems Asset Factory (CSAF)
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 656 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 659 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
 Each product page gives the product title, its line, the engines it is made for, the opening of its public description, its tags, its AI disclosure exactly as the store page states it, whether it is free or paid, and one link to its itch.io page.
 
@@ -8,7 +8,7 @@ Each product page gives the product title, its line, the engines it is made for,
 
 - [Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/): 88 products. Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page.
 - [Sprite packs](https://onefreeman1337.github.io/csaf-releases/sprite-packs/): 56 products. Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page.
-- [Sound effect packs](https://onefreeman1337.github.io/csaf-releases/sound-effects/): 57 products. Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page.
+- [Sound effect packs](https://onefreeman1337.github.io/csaf-releases/sound-effects/): 58 products. Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page.
 - [Game music packs](https://onefreeman1337.github.io/csaf-releases/game-music/): 34 products. Game music packs. Formats and track counts are stated on each store page.
 - [RPG Maker MZ plugins](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/): 108 products. Plugins for RPG Maker MZ, shipped as readable JavaScript source.
 - [GameMaker assets](https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/): 77 products. GML systems and assets for GameMaker.
@@ -16,10 +16,10 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Unreal Engine 5 plugins](https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/): 42 products. Editor plugins for Unreal Engine 5.
 - [Games](https://onefreeman1337.github.io/csaf-releases/games/): 46 products. Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page.
 - [Free browser games](https://onefreeman1337.github.io/csaf-releases/free-browser-games/): 66 products. Free games that play in the browser.
-- [Voice packs](https://onefreeman1337.github.io/csaf-releases/voice-packs/): 16 products. Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page.
+- [Voice packs](https://onefreeman1337.github.io/csaf-releases/voice-packs/): 17 products. Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page.
 - [UI kits](https://onefreeman1337.github.io/csaf-releases/ui-kits/): 12 products. Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page.
 - [Godot 4 addons](https://onefreeman1337.github.io/csaf-releases/godot-addons/): 12 products. Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page.
-- [3D model packs](https://onefreeman1337.github.io/csaf-releases/3d-models/): 2 products. Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page.
+- [3D model packs](https://onefreeman1337.github.io/csaf-releases/3d-models/): 3 products. Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page.
 
 ## Catalogue by engine
 
@@ -33,6 +33,7 @@ Each product page gives the product title, its line, the engines it is made for,
 - [RPG Maker MZ UI kits](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-ui-kits/): 12 game UI kits for RPG Maker MZ.
 - [Unity UI kits](https://onefreeman1337.github.io/csaf-releases/unity-ui-kits/): 12 game UI kits for Unity.
 - [Unreal Engine UI kits](https://onefreeman1337.github.io/csaf-releases/unreal-engine-ui-kits/): 12 game UI kits for Unreal Engine.
+- [Blender 3D model packs](https://onefreeman1337.github.io/csaf-releases/blender-3d-models/): 3 3D model packs for Blender.
 
 ## Free browser games by genre
 

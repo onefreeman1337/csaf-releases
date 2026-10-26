@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 656 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 659 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-26T07:47:50.758Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-26T14:28:52.877Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1166,7 +1166,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 57 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 58 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1213,6 +1213,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blip-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-dialogue-voices/ · Paid
 
 104 dialogue sounds. 13 speakers, not one blip pitched 13 ways. New: Blip 02, a second cast. Thirteen more speakers with the same eight cues and the same file names, measured against these thirteen so that none of the 26 collide.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Blip 00: Free Dialogue Voices Sampler
+
+Store: https://csaf.itch.io/blip-00-free-dialogue-voices-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-00-free-dialogue-voices-sampler/ · Free · pay what you want
+
+Free dialogue voices for your text boxes Free download: 32 dialogue sound effects in WAV and OGG for Godot 4, Unity, GameMaker, RPG Maker MV and MZ, Unreal or the web.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4958,7 +4966,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 16 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 17 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -5085,6 +5093,14 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 Store: https://csaf.itch.io/voices-00-free-voice-line-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/voices-00-free-voice-line-sampler/ · Free · pay what you want
 
 100 free voice lines from every Core Systems voice pack 100 spoken lines by twenty five invented characters, ten from each of our ten voice packs, free to use in your games: a fighting game announcer, a fantasy hero party, two villains, shopkeepers, villagers, a fantasy system voice, a storybook...
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
+### Watch 01: Town Guards Voice Pack
+
+Store: https://csaf.itch.io/watch-01-town-guards-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/watch-01-town-guards-voice-pack/ · Paid · free browser demo on the page
+
+Three town guards, voiced for every state of the watch 180 spoken lines by three invented town guards, each on its own built in voice: the sentry, the patrol and the captain, with 60 lines each.
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
@@ -5290,7 +5306,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 2 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 3 products.
+
+### Hollow Congregation: 14 PSX Cultist Characters (Rigged, Animated)
+
+Store: https://csaf.itch.io/hollow-congregation-psx-cultists · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollow-congregation-psx-cultists/ · Paid · Engines: Blender
+
+Hollow Congregation is a pack of 14 low poly PS1-style horror cultist characters for Godot 4, Unity and Unreal.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Ironvale: 14 PSX Fantasy Characters (Rigged, Animated)
 
