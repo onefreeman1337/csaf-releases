@@ -1,0 +1,28 @@
+<p><strong>Hollow Congregation is a pack of 14 low poly PS1-style horror cultist characters for Godot 4, Unity and Unreal.</strong> Every character is rigged to one humanoid skeleton with 45 animation clips, comes in 3 palette skins (42 characters to place), and has 1494-1498 triangles and one 256 px texture per skin, in GLB, FBX, OBJ and Blender formats. Use them in any number of commercial games, no attribution required. A free sampler (the high priest, every skin and clip) is on this page.</p>
+<p><em>The faithful of a small rural cult, its priest, and the townsfolk it has already taken: the people your survivors are running from.</em></p>
+<h2>What you get</h2>
+<ul>
+<li><strong>14 characters, each a different body AND a different painted outfit</strong>: high priest, the vessel, masked executioner, sister of the congregation, acolyte, the chosen, chanter, converted orderly, groundskeeper, converted deputy, penitent, matriarch, scribe, bell ringer.</li>
+<li><strong>3 palette skins each = 42 characters</strong> to place. The main garment changes colour (a black vestment becomes oxblood or dark green, the vessel's linen goes charcoal or slate); trim, bone charms, ribbons, leather, hair and skin keep their painted colours.</li>
+<li><strong>45 animation clips on every character</strong> plus a T-pose: idle, walk, a slow formal walk for processions, jog, sprint, crouch, jump, roll, 4 spell clips that read as rites (enter, idle, cast, exit), a torch idle, a sword attack for the executioner, punches, two hit reactions, a death, sit, swim, push, pick up, interact, kneel and more.</li>
+<li><strong>1494-1498 triangles</strong> per character, <strong>one 256 x 256 px texture</strong> per skin, quantised to 15-bit colour for nearest filtering. The PlayStation look, not a modern model with a filter on top.</li>
+<li><strong>Per character:</strong> GLB with every clip, GLB per extra skin, FBX with clips, OBJ + MTL, PNG textures, and the Blender source file.</li>
+<li><strong>A PSX shader for Godot 4</strong> (godot_psx.gdshader): vertex snapping, affine texture warp, 15-bit colour with dithering, distance fog. Every setting is a slider.</li>
+<li>Readme with import notes, LICENSE, NOTICE.</li>
+</ul>
+<h2>In your project</h2>
+<p><strong>Godot 4:</strong> copy <code>models/</code> and <code>shaders/</code> into the project, instance a <code>_skin0.glb</code>, put the PSX shader on the mesh. Tested here in a blank Godot 4.7.2 project: every GLB imports, the shader compiles on every character, the clips play (Godot names <code>Walk_Loop</code> as <code>Walk</code> and loops it). The in-engine images on this page are that test.</p>
+<p><strong>Unity 6 / Unreal 5:</strong> import the FBX (skeleton and clips included) and set the textures to point / nearest filtering. The skeleton is a standard humanoid, built to retarget (Unity Humanoid, Unreal IK Rig). These two engines were not run here; the FBX files were re-imported in Blender to check that mesh, 53 bones and every clip arrive.</p>
+<h2>Try one free</h2>
+<p>The <strong>free sampler</strong> on this page is the high priest: one character with all three skins, every clip, every format and the shader. Drop it in before you buy.</p>
+<h2>Pairs with</h2>
+<ul>
+<li><a href="https://csaf.itch.io/last-shift-psx-survivors">Last Shift</a>: the survivors. The same PSX character recipe, a night-shift cast of a small town in 1998 (its patrol officer and night nurse meet the converted deputy and orderly here).</li>
+<li><a href="https://csaf.itch.io/horror-manor">Horror Manor PSX</a>: a horror music pack.</li>
+<li><a href="https://csaf.itch.io/dread-horror-sound-effects">Dread</a>: horror sound effects.</li>
+<li><a href="https://csaf.itch.io/the-sunken-choir">The Sunken Choir</a>: a choral music pack for the chanting.</li>
+</ul>
+<h2>Licence</h2>
+<p>Use the models in any number of commercial or non-commercial games and projects, no attribution required. Modify them freely. Do not resell or redistribute the models themselves as assets. The skeleton and clips are the CC0 Quaternius Universal Animation Library; the bodies are generated with MakeHuman (CC0 output).</p>
+<p><strong>AI disclosure:</strong> every character here is AI-generated. The bodies were built by scripts an AI system wrote, and every texture is an AI image model's painting projected onto the mesh. Code: yes. Graphics: yes. Sounds: no. Text: no.</p>
+<p>Made by Core Systems Asset Factory.</p>
