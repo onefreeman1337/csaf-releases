@@ -1,0 +1,27 @@
+CSAF Godot 4 Sampler - 132 free presets from 11 addon packs
+Copyright (c) 2026 Core Systems Asset Factory
+
+THIS SAMPLER IS ELEVEN FOLDERS, EACH UNDER ITS OWN LICENCE
+Every folder below carries its own LICENSE.txt: the MIT License, with the demo tiles named there carved out. Read the
+LICENSE.txt in the folder you use. In short: the addon code is MIT (use it, change it, ship it, keep the notice); the demo
+tiles in Wrack_Godot_Lite/godot/demo/fixture/, Lantern_Godot_Lite/godot/demo/town/ and Fogbank_Godot_Lite/godot/demo/crypt/
+come from paid tilesets by the same studio and are NOT MIT: use them inside your games, never redistribute them as tiles.
+
+  Emberflux_Lite/LICENSE.txt
+  SigilCore_Godot_Lite/LICENSE.txt
+  Wrack_Godot_Lite/LICENSE.txt
+  Weatherglass_Godot_Lite/LICENSE.txt
+  Verdigris_Godot_Lite/LICENSE.txt
+  Tidewater_Godot_Lite/LICENSE.txt
+  Jigsaw_Godot_Lite/LICENSE.txt
+  Lantern_Godot_Lite/LICENSE.txt
+  Cartography_Godot_Lite/LICENSE.txt
+  Fogbank_Godot_Lite/LICENSE.txt
+  Smithereens_Godot_Lite/LICENSE.txt
+
+AI-GENERATED CODE
+This sampler is AI-generated: every shader, scene and script in it was written by an AI, and every preset is computed at
+runtime by that code. Jigsaw_Godot_Lite's four demo pictures were made with an AI image model.
+
+NO WARRANTY
+The software is provided "as is", without warranty of any kind (see each folder's MIT text).
