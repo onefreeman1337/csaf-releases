@@ -1,0 +1,52 @@
+<h2>Three free RPG Maker MZ plugins that work from your own art.</h2>
+<p><strong>Your Own Art Sampler</strong> is three free plugins for RPG Maker MZ (1.x core scripts). <strong>Threshold Lite</strong> swings open a door tile from your own tileset when its stock door event turns. <strong>Smithereens Lite</strong> bursts a pot, jar or urn of your own art into curved sherds cut from its own pixels. <strong>Posture Lite</strong> sits a character down on a chair or bench, the seated pose made from the walking sheet that character already has. No sprite sheets to draw, no images to install. Free to use in commercial and non commercial games.</p>
+<p>Each one is a single mode of a paid plugin from the same studio, cut from its code: one door kind of Threshold's eight, one material of Smithereens' seven, one pose of Posture's nine. Upgrade and nothing in your events changes.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> any order works, and each file stands alone; this one is tidy.</p>
+<ol>
+<li><code>CSAF_ThresholdLite.js</code> — Threshold Lite (free): a door tile from your own tileset swings open when its door event turns.</li>
+<li><code>CSAF_SmithereensLite.js</code> — Smithereens Lite (free): pots, jars and urns of your own art burst into curved sherds cut from their own pixels.</li>
+<li><code>CSAF_PostureLite.js</code> — Posture Lite (free): your characters sit on chairs and benches, the seated pose made from the walking sheet they already have.</li>
+</ol>
+<p><strong>Core methods extended — 13 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_CharacterBase.prototype.increaseSteps</code>, <code>Game_Event.prototype.setupPageSettings</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.characterBlockX</code>, <code>Sprite_Character.prototype.characterBlockY</code>, <code>Sprite_Character.prototype.patternWidth</code>, <code>Sprite_Character.prototype.patternHeight</code>, <code>Sprite_Character.prototype.characterPatternX</code>, <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>, <code>Game_Event.prototype.update</code>, <code>Spriteset_Map.prototype.createCharacters</code>, <code>Sprite_Character.prototype.updateFrame</code>.</p>
+<p>Because nothing is clobbered, Your Own Art Sampler co-exists with other plugins that patch the same seams, including large suites.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>What is in the zip</h3>
+<ul>
+<li><code>CSAF_ThresholdLite.js</code>: mark a door event that uses your door tile with <code>&lt;threshold: door&gt;</code>. Your existing stock door event (Turn Left, Turn Right, Turn Up) opens it. One or two tiles tall, like MZ's own wall doors.</li>
+<li><code>CSAF_SmithereensLite.js</code>: mark a pot with <code>&lt;smash: ceramic&gt;</code> and break it with the plugin command <strong>Smash event</strong>. Works on tile graphics and object sheets.</li>
+<li><code>CSAF_PostureLite.js</code>: put <code>&lt;pose: sit&gt;</code> in an event's Note box or a page comment. Four facings, Seat height and Stand up on move parameters.</li>
+<li><code>Readme_for_Users.md</code> and <code>LICENSE.txt</code>.</li>
+</ul>
+<p>The three files do not depend on each other: take one, two or all three, in any Plugin Manager order. A word a Lite does not know (<code>&lt;threshold: portcullis&gt;</code>, <code>&lt;smash: wood&gt;</code>, <code>&lt;pose: kneel&gt;</code>) leaves the event exactly as stock MZ draws it, so a wrong word never draws a wrong picture.</p>
+<h3>Upgrading</h3>
+<p>Each Lite reads the same note tags as its full plugin and steps aside by itself when the full plugin is installed. Your doors, pots and seated characters carry over, and so do your saves.</p>
+<h3>Tested</h3>
+<p>In the real MZ engine: every frame each Lite draws was compared, byte for byte, against the paid plugin's own code for the same input (871 door frames, 1,296 pot breaks and 72 bursts, 560 seated frames). Installed from this zip into a new project with MZ's own tiles and sheets: MZ's plank wall door opens as one door with a real key press, MZ's clay pot breaks, MZ's hero sits, and all of it survives a save, a page reload and a load. With the paid plugins installed above or below the Lites, the paid plugins draw everything and the Lites do no work. With all three running at once: 10 draw calls a frame, no texture uploads, no pixel reads during play.</p>
+<hr>
+<h3>Paid, from the same studio</h3>
+<p>The full versions of the three free plugins:</p>
+<ul>
+<li><a href="https://csaf.itch.io/threshold">Threshold</a> ($11.99): seven more ways a tile opens (double doors, portcullis, floor hatch, shoji, curtain, vault door, a cave mouth that breathes cold air), doors of any size, right hinges, warm light in open doorways at night, Open, Close and Toggle Door commands.</li>
+<li><a href="https://csaf.itch.io/smithereens">Smithereens</a> ($9.99): six more materials that each come apart their own way, a table of 171 of MZ's stock breakables, gathering nodes that crack with every hit and grow back.</li>
+<li><a href="https://csaf.itch.io/posture">Posture</a> ($11.99): eight more poses from the same sheets (sit on the floor, kneel, read, lie, sleep in a bed, collapsed, wave, cheer), chair and bed regions, plugin commands.</li>
+</ul>
+<p>The same idea, more of your own art put to work:</p>
+<ul>
+<li><a href="https://csaf.itch.io/timber">Timber</a> ($9.99): every tree in your own tileset can be cut down.</li>
+<li><a href="https://csaf.itch.io/wrack">Wrack</a> ($12.99): burned, ruined, overgrown and abandoned versions of your own towns.</li>
+<li><a href="https://csaf.itch.io/ajar">Ajar</a> ($11.99): the drawers, barrels, jars, sacks and shelves in your own tileset open when searched.</li>
+<li><a href="https://csaf.itch.io/plinth">Plinth</a> ($11.99): your own characters and monsters as statues in stone, bronze, marble, ice or gold.</li>
+<li><a href="https://csaf.itch.io/stature">Stature</a> ($11.99): taller side view battlers from your own character sheets.</li>
+<li><a href="https://csaf.itch.io/scathe">Scathe</a> ($12.99): battle damage drawn into your own enemy art.</li>
+<li><a href="https://csaf.itch.io/fray">Fray</a> ($12.99): battle wear on your own heroes' faces and battlers.</li>
+<li><a href="https://csaf.itch.io/fete">Fete</a> ($11.99): festival dressings placed from your own town maps.</li>
+<li><a href="https://csaf.itch.io/hedgerow">Hedgerow</a> ($12.99): ambient animals that flee the party, placed by your own tiles.</li>
+</ul>
+<p>Follow <a href="https://csaf.itch.io/">Core Systems Asset Factory</a> to hear when new plugins come out. More in the <a href="https://itch.io/c/8304589/rpg-maker-mz-plugins">RPG Maker MZ Plugins</a> collection.</p>
+<hr>
+<p><strong>Licence:</strong> free, for any number of commercial and non commercial RPG Maker projects, royalty free. Credit appreciated, not required. Please do not re-upload the plugin files; link people here instead. <strong>AI disclosure:</strong> the code was written with AI assistance and the cover is an AI-generated illustration. No images, sounds or story text ship in the zip.</p>
