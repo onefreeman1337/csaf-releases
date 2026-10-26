@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 655 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 656 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-26T07:15:50.301Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-26T07:47:50.758Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -864,7 +864,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-01-companions-and-beasts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-01-companions-and-beasts/ · Paid
 
-Four animals a top-down game keeps needing and never has. A herding dog, a draught horse, a brown bear and a mane lion, in four true directions, on one locked 128-colour palette.
+Four animal sprites for top-down games: herd dog, draught horse, brown bear and mane lion, each in 4 directions with a standing pose and a 9-frame walk, drawn natively at 128x128 and 64x64.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -920,7 +920,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-02-pale-choir · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-02-pale-choir/ · Paid
 
-Mourncrest 02 is the second pack in a numbered series, and it sets the standard the rest of the series extends: two native grid sizes, one growing palette, every character in every direction.
+Five robed cultist sprites for top-down RPGs: cultist, acolyte, censer bearer, hierophant and thrall, each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128 on one 48-colour palette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -928,7 +928,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-03-barrow-beasts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-03-barrow-beasts/ · Paid
 
-Mourncrest 03 is the third pack in a numbered series, and the first non-humanoid cast. Packs 01 and 02 are the people of Mourncrest — the undead and the cultists.
+Five dungeon creature sprites for top-down RPGs: dire bat, carrion crow, tomb spider, ossuary ooze and barrow wyrm, each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128 on one 60-colour palette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -936,7 +936,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-04-iron-wardens · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-04-iron-wardens/ · Paid
 
-The order that hunts the first three packs Packs 01–03 are what haunts the barrow — the undead, the cultists who serve them, and the beasts. These are the people who go in after them.
+Three armoured monster-hunter sprites for top-down RPGs: knight, templar and inquisitor, each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128 on one 70-colour palette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1064,7 +1064,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-collection/ · Paid
 
-Four packs. One graveyard. One palette. The Mourncrest series is a single graveyard-fantasy cast released across four numbered packs. This is all four in one download, priced below the sum of the parts.
+Mourncrest packs 01 to 04 in one download: 19 graveyard-fantasy sprites for top-down RPGs (6 undead, 5 cultists, 5 barrow beasts and the 3 armoured wardens who hunt them), each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1072,7 +1072,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-collection/ · Paid
 
-Three packs. One party. One palette. Wildmark is a single fantasy adventuring cast released across three numbered packs. This is all three in one download, priced below the sum of the parts.
+Wildmark 01, Wildmark 02 and Wildmark Actions 01 in one download: 8 fantasy adventurer sprites for top-down RPGs (elf, warrior, mage, rogue, priest, vanguard, alchemist and forester), each in 4 directions with a standing pose and a 6-frame walk, plus strike, hurt and death for the first four, at...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1096,7 +1096,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-02-the-second-rank · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-02-the-second-rank/ · Paid
 
-The people the party relies on Wildmark 01 was the party — the characters your player is. This is the second rank: the specialists who stand behind them, drawn in the same hand, on the same palette, at the same scale.
+Four fantasy adventurer sprites for top-down RPGs: priest, vanguard, alchemist and forester, each in 4 directions with a standing pose and a 6-frame walk, drawn natively at 128x128 and 64x64.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2770,7 +2770,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 76 products.
+GML systems and assets for GameMaker. 77 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -2832,7 +2832,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/barrage-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/barrage-gamemaker/ · Paid · Engines: GameMaker
 
-Barrage is a bullet pattern system in which the choreography and the projectile art are the same object. A pattern is a pure function of (wave, shot, time).
+Barrage is a bullet pattern system for GameMaker 2024.14 and later (built and gated on runtime 2024.14.4.268), written in pure GML, in which every projectile draws its own art from the pattern that fired it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2952,7 +2952,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/crest-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/crest-gamemaker/ · Paid · Engines: GameMaker
 
-Register a faction.
+Crest is a faction and reputation system for GameMaker 2024.14 and later (built and gated on runtime 2024.14.4.268), written in pure GML, that composes a coat of arms for every faction you register.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2969,6 +2969,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/dossier-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/dossier-gamemaker/ · Paid · Engines: GameMaker
 
 Dossier generates a mystery and then draws it. Exhibits establish facts. Testimony makes claims.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Drawn in Code - Free GameMaker Sampler: Skill Tree, Item Icons, Spring UI
+
+Store: https://csaf.itch.io/drawn-in-code-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/drawn-in-code-gamemaker/ · Free · pay what you want · Engines: GameMaker
+
+Drawn in Code is a free GameMaker sampler (GameMaker 2024.14 and later, built and gated on runtime 2024.14.4.268), written in pure GML, with three working systems that draw their own art: a Meridian skill tree (15 motifs in 8 disciplines, the constellation layout), Trove item icons with an...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3072,7 +3080,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/kinetic-ui · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/kinetic-ui/ · Paid · Engines: GameMaker
 
-Most UI libraries arrange your art. This one draws the interface.
+Kinetic UI is an interface system for GameMaker (built and verified on runtime 2024.14.4.268), written in pure GML, that draws every panel, border, bar, gauge and glyph from primitives at draw time and animates it with springs.
 
 AI disclosure: AI Assisted, Code, Graphics
 

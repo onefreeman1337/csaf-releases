@@ -1,6 +1,6 @@
 # Core Systems Asset Factory (CSAF)
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 655 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 656 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
 Each product page gives the product title, its line, the engines it is made for, the opening of its public description, its tags, its AI disclosure exactly as the store page states it, whether it is free or paid, and one link to its itch.io page.
 
@@ -11,7 +11,7 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Sound effect packs](https://onefreeman1337.github.io/csaf-releases/sound-effects/): 57 products. Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page.
 - [Game music packs](https://onefreeman1337.github.io/csaf-releases/game-music/): 34 products. Game music packs. Formats and track counts are stated on each store page.
 - [RPG Maker MZ plugins](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/): 108 products. Plugins for RPG Maker MZ, shipped as readable JavaScript source.
-- [GameMaker assets](https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/): 76 products. GML systems and assets for GameMaker.
+- [GameMaker assets](https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/): 77 products. GML systems and assets for GameMaker.
 - [Unity editor tools](https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/): 40 products. Editor tools for Unity 6.
 - [Unreal Engine 5 plugins](https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/): 42 products. Editor plugins for Unreal Engine 5.
 - [Games](https://onefreeman1337.github.io/csaf-releases/games/): 46 products. Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page.
