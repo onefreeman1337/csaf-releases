@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 653 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 655 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-26T03:29:45.731Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-26T07:15:50.301Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -714,7 +714,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 55 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 56 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -1153,6 +1153,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/wildmark-battlers-mz · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-battlers-mz/ · Paid
 
 The eight Wildmark adventurers as RPG Maker MZ side-view battlers.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Wildmark Sampler: 4 Free Fantasy Character Sprites, Top-Down RPG [128x128 & 64x64]
+
+Store: https://csaf.itch.io/wildmark-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-sampler/ · Free · pay what you want
+
+Four free fantasy adventurer sprites for top-down RPGs, taken file for file from the four paid Wildmark packs: a warrior (Wildmark 01), a forester (Wildmark 02), a dwarf (Wildmark 03) and a dragonkin brawler (Wildmark 04).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4038,7 +4046,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 45 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 46 products.
 
 ### ANATOMIST
 
@@ -4109,6 +4117,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/craquelure · Our page: https://onefreeman1337.github.io/csaf-releases/games/craquelure/ · Paid · free browser demo on the page
 
 A panel arrives with a docket claiming a date. One region of it is painted in a colour that did not exist yet. Find it. CRAQUELURE is a Game Boy Color game — a 256 kB ROM you can put on a flash cart — about authenticating paintings.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### CRYPTMARCH
+
+Store: https://csaf.itch.io/cryptmarch · Our page: https://onefreeman1337.github.io/csaf-releases/games/cryptmarch/ · Paid · free browser demo on the page
+
+CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written by hand in HTML5.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
