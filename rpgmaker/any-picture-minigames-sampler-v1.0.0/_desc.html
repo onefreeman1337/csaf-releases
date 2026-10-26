@@ -1,0 +1,43 @@
+<h2>Three free RPG Maker MZ minigames made from any picture in your project.</h2>
+<p><strong>Any Picture Minigames Sampler</strong> is three free plugins for RPG Maker MZ (1.x core scripts). <strong>Jigsaw Lite</strong> cuts any picture from your <code>img/pictures</code> folder into a 9 piece jigsaw the player assembles on a drawn felt table. <strong>Pendant Lite</strong> hangs the picture twice in a gilt gallery with 3 generated differences to find. <strong>Unveil Lite</strong> hides it under a silk veil the player cuts away, Qix style. One plugin command each, one result switch each, a demo picture included. Free to use in commercial and non commercial games.</p>
+<p>Each is a small fixed cut of a paid plugin from the same studio, cut from its code: one size of Jigsaw's 4 to 256 pieces, one 3 difference round of Pendant's 1 to 12 of four kinds, one board of Unveil's three veils. Upgrade and the Lite's command hands the game to the full plugin, so no event has to change.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>CSAF_JigsawLite.js</code> — Jigsaw Lite (free): cuts any picture in your project into a 9-piece jigsaw the player assembles on a drawn table.</li>
+<li><code>CSAF_PendantLite.js</code> — Pendant Lite (free): any picture in your project, hung twice in a gallery, with 3 generated differences to find.</li>
+<li><code>CSAF_UnveilLite.js</code> — Unveil Lite (free): a Qix-style minigame, claim the silk veil to reveal any picture in your project.</li>
+</ol>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>What is in the zip</h3>
+<ul>
+<li><code>CSAF_JigsawLite.js</code>: plugin command <strong>Start a jigsaw</strong>. A new 3 x 3 cut every time; drag pieces with mouse or finger, or carry them with the keyboard hand; a piece near its home snaps in. Parameter: <strong>Solved -&gt; switch</strong>.</li>
+<li><code>CSAF_PendantLite.js</code>: plugin command <strong>Start a spot-the-difference</strong>. The second copy changed in 3 places (a detail mirrored, a patch painted out), each measured to be visible before it is kept; finds ringed in ink, misses marked. Parameter: <strong>All found -&gt; switch</strong>.</li>
+<li><code>CSAF_UnveilLite.js</code>: plugin command <strong>Start Unveil</strong>. Reveal 75% of the picture with 3 lives, one creature in the veil and two sparks on the edge. Parameter: <strong>Won -&gt; switch</strong>.</li>
+<li><code>img/pictures/CSAF_Harbour.png</code>: a demo picture to try them with. <code>Readme_for_Users.md</code> and <code>LICENSE.txt</code>.</li>
+</ul>
+<p>The three files do not depend on each other: take one, two or all three. Each event waits while its minigame is open and carries on when the player leaves, so a Conditional Branch on the switch can follow directly. MZ only (not MV).</p>
+<h3>Paid, from the same studio: the full versions</h3>
+<p>All eleven are <strong>30% off in the <a href="https://itch.io/s/208692/rpg-maker-mz-plugins-halloween-sale-2026">RPG Maker MZ Halloween Sale</a> until November 4</strong>. List prices:</p>
+<ul>
+<li><a href="https://csaf.itch.io/jigsaw">Jigsaw</a> ($9.99): 4 to 256 pieces, a seed, the box lid peek, time and moves into variables, MV too.</li>
+<li><a href="https://csaf.itch.io/pendant">Pendant</a> ($9.99): 1 to 12 differences of four kinds, twelve drawn objects, hints, a timer, four walls.</li>
+<li><a href="https://csaf.itch.io/unveil">Unveil</a> ($7.99): silk, frost and lacquer veils; target, lives, creatures and sparks per game.</li>
+<li><a href="https://csaf.itch.io/sapper">Sapper</a> ($7.99): a no guessing minesweeper over your picture.</li>
+<li><a href="https://csaf.itch.io/rummage">Rummage</a> ($9.99): I spy and seek and find scenes from your own items and characters.</li>
+<li><a href="https://csaf.itch.io/rebus">Rebus</a> ($9.99): picture word puzzles built from your database.</li>
+<li><a href="https://csaf.itch.io/quizmaster">Quizmaster</a> ($11.99): quiz shows and exams written from your database.</li>
+<li><a href="https://csaf.itch.io/tilestack">Tilestack</a> ($9.99): mahjong solitaire with drawn tiles and generated layouts.</li>
+<li><a href="https://csaf.itch.io/pinfall">Pinfall</a> ($9.99): generated pachinko and plinko boards.</li>
+<li><a href="https://csaf.itch.io/leadlight">Leadlight</a> ($7.99): a stained glass brick breaker; break the pane, win the picture.</li>
+<li><a href="https://csaf.itch.io/incantation">Incantation</a> ($9.99): typing battles with words from your database.</li>
+</ul>
+<p>More from the studio: <a href="https://csaf.itch.io/your-own-art-sampler">Your Own Art Sampler</a>, three more free MZ plugins that work from your own tiles and sprites. Follow <a href="https://csaf.itch.io">Core Systems Asset Factory</a> to hear when the next one is out.</p>
+<h3>Tested before release</h3>
+<p>Every Lite is checked against the paid plugin's own code (the same cut, the same differences, the same game rules frame for frame), played to a win and a loss in the real MZ engine through an event, installed fresh from this zip into a blank project and saved and loaded, and run above and below its full version in the Plugin Manager.</p>
+<p><em>AI disclosure: the code was written with AI assistance and the demo picture and cover were made with an AI image model.</em></p>
