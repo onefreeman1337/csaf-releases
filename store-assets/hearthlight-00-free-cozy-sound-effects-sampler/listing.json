@@ -1,0 +1,30 @@
+{
+  "title": "Hearthlight 00: Free Cozy Sound Effects Sampler",
+  "slug": "hearthlight-00-free-cozy-sound-effects-sampler",
+  "priceUSD": 0,
+  "priceTier": "small",
+  "shortText": "Free demo cut of three cozy SFX packs: 27 farming, cooking and pet sounds, 5 loops. WAV and OGG, commercial use.",
+  "tags": [
+    "sound-effects",
+    "cozy",
+    "farming",
+    "cooking",
+    "pets",
+    "life-simulation",
+    "relaxing",
+    "game-audio",
+    "royalty-free",
+    "wav"
+  ],
+  "html": "<h2>Free cozy sound effects for farming, cooking and pet games</h2>\n<p><strong>Free download: 27 cozy sound effects in WAV and OGG for Godot 4, Unity, Unreal, GameMaker, RPG Maker MV and MZ or the web, including 5 seamless loops. A small demo cut of the three paid Hearthlight packs (farming, cooking and pet care): 8 of 107 in Hearthlight 01, 9 of 126 in Hearthlight 02 and 10 of 126 in Hearthlight 03. Royalty free for commercial games, no credit required.</strong></p>\n<p>Hearthlight is a line of cozy sound effect packs for farming sims, cooking games and pet games. This download lets you hear the line in your own game before you buy: a few stages of two crops, one dish and two pets, one rung of four of the five ladders, the first take of a few variation sets and 5 loops. Every file here is the same file, byte for byte, as the one with the same name in the paid pack it comes from. Nothing is shortened, watermarked or lowered in quality, and the download includes sampler_proof.json, which lists the sha256 of every file and the pack it came from.</p>\n<h3>What is inside</h3>\n<ul>\n<li><strong>27 sounds</strong> in WAV and OGG, 16 bit, 44.1 kHz, mono.</li>\n<li><strong>5 seamless loops</strong>: a hearth fire, a simmering pot, a pan on the heat, a quiet cafe and a sleeping cat. Loop points are written into the WAV (smpl chunk) and the OGG tags, and the loop region is the whole file.</li>\n<li><strong>One loudness band.</strong> The inner 80 percent of the download sits inside 0.93 dB, so farming, cooking and pet sounds sit at one level side by side.</li>\n<li><strong>pack_proof.json</strong> ships with it: 256 signal checks, 0 failed. A Readme with import notes for Godot 4, Unity, Unreal, GameMaker, RPG Maker MV and MZ and the web, a manifest of every file and a plain language licence.</li>\n</ul>\n<p>It is a demo cut, not a set to ship a whole game on: no crop, dish or pet is complete here, no ladder is complete and each of the 9 variation sets has only its first take.</p>\n<h3>Paid, from the same studio</h3>\n<p>Each paid pack gives every subject the same chain of stages under the same file names, so a game wired for the files here takes the rest of a pack without renaming anything. Between them the three packs hold 359 sounds. Each paid page also carries its own larger free demo.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/hearthlight-cozy-farming-sound-effects\">Hearthlight: Cozy Farming, From Seed to Harvest</a>, $6.99: farming, 107 sounds. 8 crops (Turnip, Lettuce, Strawberry, Corn, Pumpkin, Sunflower, Apple tree and Mushroom), each through every stage from plant to harvest, plus 1 ladder and 5 loops. Free here: 8 of its sounds, including a few stages of the turnip (plant, water, harvest) and pumpkin (harvest).</li>\n<li><a href=\"https://csaf.itch.io/hearthlight-02-cozy-kitchen-cooking-sound-effects\">Hearthlight 02: Cozy Kitchen, From Pantry to Plate</a>, $6.99: cooking, 126 sounds. 8 dishes (Vegetable soup, Hearty stew, Fried egg, Pancakes, Bread, Roast, Rice and Tea), each through every stage from prep to serve, plus 2 ladders and 18 loops. Free here: 9 of its sounds, including a few stages of the vegetable soup (prep, add, cook, done).</li>\n<li><a href=\"https://csaf.itch.io/hearthlight-03-cozy-pet-care-sound-effects\">Hearthlight 03: Pet Care, From Greeting to Sleep</a>, $6.99: pet care, 126 sounds. 8 pets (Cat, Kitten, Small dog, Big dog, Rabbit, Ferret, Parrot and Hedgehog), each through every stage from greet to sleep, plus 2 ladders and 13 loops. Free here: 10 of its sounds, including a few stages of the cat (greet, ask, eat, petted, sleep) and small dog (greet, play).</li>\n</ul>\n<p>If these suit your game, follow Core Systems Asset Factory on itch to hear when the next Hearthlight pack ships.</p>\n<h3>Licence</h3>\n<p><strong>Free. Royalty free. Commercial use. No credit required. No revenue limit.</strong> Put the sounds in your games, paid or free, on any platform. The one thing you may not do is resell or redistribute the sounds themselves as sounds. The full plain language terms ship as LICENSE.txt, with a copy paste credit line if you want one.</p>\n<p>Everything is synthesised from code. No recordings, no sample libraries, no third party clips, so there is no upstream licence behind these sounds and nobody can content ID claim them against your project.</p>\n<h3>Honest limits</h3>\n<p>The measurements above are signal measurements: no clipping, no silence, trimmed edges, clean loop seams and one loudness band. They are not a claim that the sounds are good. That is what this free download is for: listen to them in your game.</p>\n<p><em>AI disclosure, stated truthfully: the code that generates these sounds was written with AI assistance. The sounds themselves are self contained procedural synthesis, oscillators, filters, resonators and noise evaluated in code, with no generative audio model at any point. The cover art and store graphics are AI generated.</em></p>",
+  "links": [
+    "https://csaf.itch.io/hearthlight-cozy-farming-sound-effects",
+    "https://csaf.itch.io/hearthlight-02-cozy-kitchen-cooking-sound-effects",
+    "https://csaf.itch.io/hearthlight-03-cozy-pet-care-sound-effects"
+  ],
+  "pricing": {
+    "mode": "pwyw",
+    "minimumUSD": 0,
+    "suggestedUSD": 2
+  }
+}
