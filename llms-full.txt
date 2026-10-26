@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 648 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 651 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-25T22:02:48.088Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-26T00:55:49.986Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 87 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 88 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -616,6 +616,14 @@ The dungeon half of a map, at 16x16: 760 tiles in two locked palettes. Commercia
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant 75 — Springs: Hot Springs Tileset, Travertine Terraces, Geyser, Mud Pots & Open-Air Bath [16x16]
+
+Store: https://csaf.itch.io/verdant-75-springs · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-75-springs/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+A hot spring hillside at 16x16: 1,137 tiles in one 86 colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Autotile Playground
 
 Store: https://csaf.itch.io/verdant-playground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-playground/ · Free
@@ -1150,7 +1158,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 56 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 57 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1221,6 +1229,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blip-04-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-04-dialogue-voices/ · Paid
 
 A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a different synthesis method.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Brass and Pressure: Steampunk Combat Sound Effects
+
+Store: https://csaf.itch.io/brass-and-pressure-steampunk-combat-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/brass-and-pressure-steampunk-combat-sound-effects/ · Paid
+
+A steampunk battle, as one sound 129 sound effects for steampunk combat: five steam and air guns in every state, six gadget weapons, three clockwork foes that wind down as they lose health, brass armour, a battle interface and four battle beds, in one brass, iron and steam sound.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1602,7 +1618,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 33 products.
+Game music packs. Formats and track counts are stated on each store page. 34 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1753,6 +1769,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/nightglass · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/nightglass/ · Paid
 
 Forty-two tracks for a whole city, not for one street corner.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Overdub Score - RPG Maker MZ Default Music Replacement - 75 JRPG Tracks, Same File Names
+
+Store: https://csaf.itch.io/overdub-score · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/overdub-score/ · Paid
+
+Overdub Score replaces every piece of music a new RPG Maker MZ project plays: all 48 default BGM and all 27 default ME, newly composed in one JRPG voice and filed under MZ's own file names (Theme4, Battle1, Town3, Victory1, Inn1 and the rest).
 
 AI disclosure: AI Assisted, Code, Graphics
 
