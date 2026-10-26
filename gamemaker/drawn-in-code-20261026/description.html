@@ -1,0 +1,34 @@
+<p><strong>Drawn in Code is a free GameMaker sampler (GameMaker 2024.14 and later, built and gated on runtime 2024.14.4.268), written in pure GML, with three working systems that draw their own art: a Meridian skill tree (15 motifs in 8 disciplines, the constellation layout), Trove item icons with an inventory grid (15 icon forms in 12 materials and 6 rarity tiers) and Kinetic UI widgets that move on springs (button, bar, menu and tabs).</strong> There are no sprites, no font resources and no texture pages: even the type is drawn by the code. You download a .yymps package with the raw GML, a Readme and a runnable demo room. It is free to use in unlimited games, commercial or free, and no attribution is required.</p>
+
+<p>Each system is a trimmed copy of a paid product from the same studio, under that product's own names. Try the look in your own project first; if you want the rest, delete the sampler's scripts for that system and import the full package, and your code keeps working because every name and parameter matches (checked mechanically: 224 functions and 91 macros).</p>
+
+<pre><code>// Create
+my_tree = mer_tree_make();
+mer_tree_add(my_tree, "edge", { name: "EDGE", sigil: "THRUST", disc: 0, tier: MER_TIER_MAJOR, cost: 1, maxRank: 1, requires: [] });
+my_grid = new TrvGrid(100, 100, 5, 3, 88, 12);
+my_grid.set(0, new TrvItem("SUNBRAND", "SWORD", "GOLD", TRV_RARITY_LEGENDARY));
+my_ui   = new KuiContext();
+my_menu = new KuiMenu(["CONTINUE", "NEW GAME", "QUIT"]);</code></pre>
+
+<h3>What is inside</h3>
+<ul>
+<li><strong>Meridian, the skill tree:</strong> declare what a node is, what it costs and what it needs; the layout places every node from the prerequisite graph, and every node's mark is drawn from its motif in its discipline's colours. Buy, refund, ranks, keystones, a detail panel, pan and zoom. 15 of the full version's 60 motifs, all 8 disciplines, 1 of its 4 layouts.</li>
+<li><strong>Trove, the item icons:</strong> items are data (a form, a material, a rarity), and the icon is drawn from polygons and colour maths at any size. The inventory grid lifts on hover, drags and drops, and frames each rarity tier differently; the detail panel shows stats and value. 15 of the full version's 75 forms, all 12 materials, all 6 tiers.</li>
+<li><strong>Kinetic UI, the widgets:</strong> a menu whose highlight is a spring you can retarget mid-flight, health bars that leave a ghost when they fall, buttons and tabs. 4 of the full version's 8 widgets, all 4 themes.</li>
+<li><strong>One demo room</strong> that drives all three, one theme call (<code>drawn_theme_apply</code>) that restyles all three at once, and an in-engine self-test.</li>
+</ul>
+
+<h3>Paid, from the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/meridian-gamemaker">Meridian - Procedural Skill Trees for GameMaker</a>: the full skill tree, with 60 motifs, 4 layouts and the Armature tree editor. $14.99, in the GameMaker Halloween sale until 4 November.</li>
+<li><a href="https://csaf.itch.io/trove-gamemaker">Trove - Procedural Item Icons and Inventory for GameMaker</a>: all 75 item forms. $14.99, in the sale until 4 November.</li>
+<li><a href="https://csaf.itch.io/kinetic-ui">Kinetic UI - Spring-Animated Interface System for GameMaker</a>: all 8 widgets, adding toggles, sliders, gauges and dialogs. $16.99, in the sale until 4 November.</li>
+</ul>
+<p>More GameMaker systems that draw their own art: <a href="https://csaf.itch.io/barrage-gamemaker">Barrage</a> (bullet patterns whose shots draw themselves, $14.99), <a href="https://csaf.itch.io/effigy-gamemaker">Effigy</a> (generated NPC portraits, $14.99), <a href="https://csaf.itch.io/crest-gamemaker">Crest</a> (factions with composed heraldry, $14.99), <a href="https://csaf.itch.io/verdure-gamemaker">Verdure</a> (plants that grow on screen, $14.99) and <a href="https://csaf.itch.io/charter-gamemaker">Charter</a> (illuminated auto-maps, $9.99).</p>
+
+<h3>Verification</h3>
+<p>GML cannot be unit-tested outside the engine, so every check ran in a real Igor-built Windows executable: the in-engine suite (29/29 assertions), the Readme's own code in a blank project (33/33 assertions), and 96 adversarial calls on the documented functions with 0 crashes. HTML5, mobile and YYC were not built.</p>
+
+<p>Follow CSAF on itch to hear when the next GameMaker system lands.</p>
+
+<p><em>Made with AI assistance: the code was written with AI help, and every picture in the package is drawn by that code at run time. The cover illustration is AI-generated. Core Systems Asset Factory.</em></p>
