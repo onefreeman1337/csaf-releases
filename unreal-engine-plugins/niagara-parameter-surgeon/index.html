@@ -14,12 +14,15 @@ h3{font-size:17px;margin:20px 0 2px}p{margin:4px 0}.meta{font-size:13px;color:#5
 </head><body>
 <article><header><p class="meta"><a href="../../">CSAF catalogue</a> · <a href="../">Unreal Engine 5 plugins</a></p><h1>Niagara User Parameter Surgeon for Unreal Engine 5</h1><p class="lede">An Unreal Engine 5 plugin from Core Systems Asset Factory. Made with Unreal Engine. Paid.</p></header>
 <p>Niagara User Parameter Surgeon for Unreal Engine 5 is an Unreal Engine 5 plugin for Unreal Engine, paid.</p>
+<p>Its title or description names Unreal Engine 5.</p>
 <p>Rename a Niagara user parameter and Unreal does not tell you what you broke. The setters are keyed by name, so a Blueprint still calling SetVariableFloat(&quot;Intensity&quot;) against a System that no longer exposes it does not fail. It takes the add branch, creates a brand new parameter nothing reads, and writes your value into it. No warning, no error, no visible effect.</p>
 <p>The same is true of a value an artist authored on a placed component in a level. This plugin builds one index of every place a Niagara user parameter is named across your project, joins them, and tells you which names reach nothing.</p>
 <p>It reads three unrelated places, because the name lives in all three: the System asset's own exposed parameters literal name pins on Blueprint call sites per-instance overrides on placed Niagara components in levels It writes one self-contained HTML report - no sibling CSS, nothing to serve - so it survives being mailed to a colleague or dropped in a CI artefact store.</p>
 <p>It carries a wiring map joining every exposed parameter to every site that names it, with orphans drawn as connections that terminate in nothing; an orphan table split by severity; and a panel saying what the scan could not see.</p>
 <p class="meta">Tagged Automation, gamedev, pipeline, plugin, sourcecode, tool, ue5, unreal, Unreal Engine and vfx.</p>
 <p class="ai"><strong>AI disclosure</strong>, as the store page states it: AI Assisted, Code, Graphics</p>
-<p><strong>Paid</strong> · <a href="https://csaf.itch.io/niagara-parameter-surgeon" rel="noopener">Get it on itch.io</a>. Files, screenshots and the full description are on the store page.</p></article>
+<p><strong>Paid</strong> · <a href="https://csaf.itch.io/niagara-parameter-surgeon" rel="noopener">Get it on itch.io</a>. Files, screenshots and the full description are on the store page.</p>
+<p class="meta">Need something we do not make yet? <a href="https://csaf.itch.io/request-desk" rel="noopener">Post it on the Request Desk</a>. A request is a lead, not a promise.</p>
+</article>
 <footer><p>© 2026 Core Systems Asset Factory · Store: <a href="https://csaf.itch.io/">csaf.itch.io</a> · This catalogue is generated from the live store pages, last read 2026-10-26. Prices, files and full descriptions are on each store page.</p></footer>
 </body></html>

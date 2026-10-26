@@ -14,12 +14,15 @@ h3{font-size:17px;margin:20px 0 2px}p{margin:4px 0}.meta{font-size:13px;color:#5
 </head><body>
 <article><header><p class="meta"><a href="../../">CSAF catalogue</a> · <a href="../">Unreal Engine 5 plugins</a></p><h1>Niagara Bounds Solver</h1><p class="lede">An Unreal Engine 5 plugin from Core Systems Asset Factory. Made with Unreal Engine. Paid.</p></header>
 <p>Niagara Bounds Solver is an Unreal Engine 5 plugin for Unreal Engine, paid.</p>
+<p>Its title or description names Unreal Engine 5.</p>
 <p>Your effect disappears when the camera pans away from it. Not faded — gone, in a single frame, while particles are still visibly on screen. It looked fine in the editor and it looks wrong in the packaged build. That is bounds culling. A Niagara system on dynamic bounds is culled by its own bounding box, and once the box leaves the frustum the whole system stops drawing.</p>
 <p>The engine gives you two tools for this and neither one solves it A validator that checks presence, not correctness. It tells you a system has no fixed bounds. A system whose bounds are set but wrong — typed in by hand, or captured from a frame where the effect had barely started — passes clean. That is the case that actually ships. A per-asset button that samples one frame.</p>
 <p>Set Fixed Bounds uses whatever is on screen the instant you press it. For anything that moves, expands or arcs, one frame is not the shape of the effect. Press it before the first particle spawns, or after a burst has died, and it does nothing at all — without saying so.</p>
 <p>There is no batch path in the engine, and there is a structural reason for that: computing a correct bound requires simulating the system, and validation is static.</p>
 <p class="meta">Tagged Automation, gamedev, Game engine, pipeline, plugin, sourcecode, tool, ue5, unreal and Unreal Engine.</p>
 <p class="ai"><strong>AI disclosure</strong>, as the store page states it: AI Assisted, Code, Graphics</p>
-<p><strong>Paid</strong> · <a href="https://csaf.itch.io/niagara-bounds-solver" rel="noopener">Get it on itch.io</a>. Files, screenshots and the full description are on the store page.</p></article>
+<p><strong>Paid</strong> · <a href="https://csaf.itch.io/niagara-bounds-solver" rel="noopener">Get it on itch.io</a>. Files, screenshots and the full description are on the store page.</p>
+<p class="meta">Need something we do not make yet? <a href="https://csaf.itch.io/request-desk" rel="noopener">Post it on the Request Desk</a>. A request is a lead, not a promise.</p>
+</article>
 <footer><p>© 2026 Core Systems Asset Factory · Store: <a href="https://csaf.itch.io/">csaf.itch.io</a> · This catalogue is generated from the live store pages, last read 2026-10-26. Prices, files and full descriptions are on each store page.</p></footer>
 </body></html>

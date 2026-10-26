@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 651 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 653 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-26T00:55:49.986Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-26T03:29:45.731Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1894,7 +1894,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 107 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 108 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2549,6 +2549,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/specie · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/specie/ · Paid · Engines: RPG Maker
 
 Your party's gold is a number. Specie is the coin.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Spellwright - In-Game Spell Crafting With Generated Magic Circles, for RPG Maker MZ
+
+Store: https://csaf.itch.io/spellwright · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/spellwright/ · Paid · Engines: RPG Maker
+
+Your players write their own spells.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5158,7 +5166,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 11 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 12 products.
 
 ### Cartography: 48 Journey Map Styles for Godot 4
 
@@ -5181,6 +5189,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/fogbank-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fogbank-godot/ · Paid · Engines: Godot
 
 Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not seen is hidden. What they have seen is remembered. What they can see right now is clear, and your own walls block sight.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Godot 4 Shader and VFX Sampler: 132 Free Presets From 11 Addons
+
+Store: https://csaf.itch.io/godot-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-sampler/ · Free · pay what you want · Engines: Godot
+
+Godot 4 Shader and VFX Sampler: 132 free presets from 11 addons A free download for Godot 4.7: 11 2D addons with 132 ready presets between them, MIT licensed.
 
 AI disclosure: AI Assisted, Code, Graphics
 

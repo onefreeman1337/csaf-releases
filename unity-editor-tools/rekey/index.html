@@ -14,12 +14,15 @@ h3{font-size:17px;margin:20px 0 2px}p{margin:4px 0}.meta{font-size:13px;color:#5
 </head><body>
 <article><header><p class="meta"><a href="../../">CSAF catalogue</a> · <a href="../">Unity editor tools</a></p><h1>Rekey - EntityId Migrator for Unity 6.5+</h1><p class="lede">A Unity editor tool from Core Systems Asset Factory. Made with Unity. Paid.</p></header>
 <p>Rekey - EntityId Migrator for Unity 6.5+ is a Unity editor tool for Unity, paid.</p>
+<p>Its title or description names Unity 6.</p>
 <p>Unity 6.5 says error CS0619: 'Object.GetInstanceID()' is obsolete: 'Use GetEntityId instead.' and your project stops compiling. Rekey gets it compiling again. Unity 6.5 turned the instance ID APIs into compile errors and made EntityId 64-bit, and Unity's own migration guide says its script updater does not migrate the main InstanceID APIs for you. Rekey does.</p>
 <p>It renames each obsolete call to the replacement Unity names, then follows the value through your code: the int local that held it becomes EntityId, then the field, the parameter, the return type and the Dictionary&lt;int,...&gt; or HashSet&lt;int&gt; it keys. Where a change would quietly alter behaviour, it stops and tells you why.</p>
 <p>Measured on Unity 6000.5.7f1 A test project with pre-6.5 caches, an object pool and editor lookups: Unity refused to compile it. rekey fix made 22 rewrites in 3 files over 4 rounds. Unity then compiled it with 0 errors, and a behaviour check on the migrated code passed (lookups, pool counts, editor resolves).</p>
 <p>A second project full of shapes that must not be touched: serialized int fields, PlayerPrefs.SetInt, arithmetic on ids, GetHashCode.</p>
 <p class="meta">Tagged csharp, editor, programming, source-code, tool, Unity, unity6, unity-editor, utility and workflow.</p>
 <p class="ai"><strong>AI disclosure</strong>, as the store page states it: AI Assisted, Code, Graphics</p>
-<p><strong>Paid</strong> · <a href="https://csaf.itch.io/rekey" rel="noopener">Get it on itch.io</a>. Files, screenshots and the full description are on the store page.</p></article>
+<p><strong>Paid</strong> · <a href="https://csaf.itch.io/rekey" rel="noopener">Get it on itch.io</a>. Files, screenshots and the full description are on the store page.</p>
+<p class="meta">Need something we do not make yet? <a href="https://csaf.itch.io/request-desk" rel="noopener">Post it on the Request Desk</a>. A request is a lead, not a promise.</p>
+</article>
 <footer><p>© 2026 Core Systems Asset Factory · Store: <a href="https://csaf.itch.io/">csaf.itch.io</a> · This catalogue is generated from the live store pages, last read 2026-10-26. Prices, files and full descriptions are on each store page.</p></footer>
 </body></html>
