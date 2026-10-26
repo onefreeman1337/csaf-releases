@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 659 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 667 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-26T14:28:52.877Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-26T19:23:32.887Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 88 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 89 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -28,7 +28,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-02-elevation · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-02-elevation/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Height that actually reads as height, from directly above. Top-down elevation is hard for one specific reason: a grey band drawn between two identical lawns is not a cliff, it is a path.
+Verdant 02 Elevation is a 16x16 pixel art elevation tileset (raised plateaus and cliffs seen from above), for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -140,7 +140,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-16-east-asian · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-16-east-asian/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-678 tiles at 16x16.
+Verdant 16 East Asian Village is a 16x16 pixel art tileset of a Japanese village: a shrine approach, terraced rice paddies, village houses, matted interiors and a bamboo grove, for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -148,7 +148,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-17-urban-decay · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-17-urban-decay/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-741 tiles at 16x16.
+Verdant 17 Urban Decay is a 16x16 pixel art tileset of a derelict city block: cracked roads, broken pavement, collapsed masonry, vacant lots and ruined interiors, for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -156,7 +156,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-18-victorian-industrial · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-18-victorian-industrial/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-799 tiles at 16x16.
+Verdant 18 Victorian Industrial is a 16x16 pixel art tileset of a Victorian works: a sawtooth mill shed, paviour yards, a firebrick furnace house, mill floors and a canal, for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -164,7 +164,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-19-haunted-house · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-19-haunted-house/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-748 tiles at 16x16.
+Verdant 19 Haunted House is a 16x16 pixel art tileset of an abandoned Victorian house: rotten boards, peeling wallpaper, dust sheets, cobwebs and a cellar, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -172,7 +172,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-20-prison · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-20-prison/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-750 tiles at 16x16.
+Verdant 20 Prison is a 16x16 pixel art tileset of one prison wing: cells, steel bars, the landing walkway, the outer wall and the exercise yard, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -180,7 +180,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-21-school · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-21-school/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-783 tiles at 16x16.
+Verdant 21 School is a 16x16 pixel art tileset of a whole school: classrooms, a science lab, the corridor, hall, library, dining hall and the yard, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -212,7 +212,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-25-infernal · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-25-infernal/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-848 tiles at 16x16 for the layer below the dungeon: a lava channel, cooling crust, fractured basalt, ash fall, sulphur flats and volcanic glass, and the workings somebody left down there — a gate in the wall, a rail run and its cart, iron bridges over the melt, a cage, the stores.
+Verdant 25 Infernal is a 16x16 pixel art tileset of a volcanic underworld: lava channels, cooling crust, basalt, ash, sulphur flats and the workings left in them, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -228,7 +228,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-27-elemental-dungeon · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-27-elemental-dungeon/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-864 tiles at 16x16 for a dungeon of four elemental halls: coursed firebrick with live coals, faceted ice, a moss floor with roots, and fractured storm slate, all opening off one dark flagstone nave, with a rune channel carrying each hall's light out across the floor.
+Verdant 27 Elemental Dungeon is a 16x16 pixel art tileset of a dungeon with four elemental halls (fire, ice, flora and storm) off one flagstone nave, for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -676,7 +676,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-hex-01-hex-terrain · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hex-01-hex-terrain/ · Paid · Engines: Tiled, Godot
 
-Commercial use permitted in unlimited projects, no attribution required; you may not resell or redistribute the pack itself. ⚠️ For Godot 4 and Tiled.
+Verdant Hex 01 is a 32x32 pointy-top hex tileset in pixel art, for Godot 4 and Tiled (RPG Maker MZ cannot draw hex maps, so there is no MZ importer).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -712,9 +712,17 @@ Store: https://csaf.itch.io/verdant-seasons · Our page: https://onefreeman1337.
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Wonders — the Poison Fen, the Sky Isles and the Great Tree [16x16]
+
+Store: https://csaf.itch.io/verdant-wonders · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-wonders/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Verdant Wonders is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, Godot 4 and Unity: three fantasy landmarks in one download, the Poison Fen, the Sky Isles and the Great Tree.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 56 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 57 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -857,6 +865,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/hearthhands-portraits · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-portraits/ · Paid
 
 A face for every villager in the dialogue box. 38 portraits for all 19 villagers of Hearthhands 01 and 02, in two expressions, neutral and smile.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hearthhands Sampler: 6 Free Villager Sprites, Top-Down RPG [200x200 & 100x100]
+
+Store: https://csaf.itch.io/hearthhands-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-sampler/ · Free · pay what you want
+
+Six free villager sprites for top-down RPGs and town or farming games, taken file for file from the six paid Hearthhands character packs: a farmer (Hearthhands 01), a fishmonger (02), a town crier (03), a pinafore girl (04), a salt raker (05) and a villager in a pumpkin-head costume (Hallowtide).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1634,7 +1650,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 34 products.
+Game music packs. Formats and track counts are stated on each store page. 35 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1796,6 +1812,14 @@ Overdub Score replaces every piece of music a new RPG Maker MZ project plays: al
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Overture - Free Game Music Sampler - 68 Tracks from 34 Albums (OGG + MIDI)
+
+Store: https://csaf.itch.io/free-game-music-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/free-game-music-sampler/ · Free · pay what you want
+
+Overture is a free game music sampler: 68 tracks, two from each of our 34 game music albums, as OGG Vorbis (44.1 kHz stereo) with loop points in the file, plus the editable MIDI source of every track.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Saltline - A Voyage & Harbour Score - 42 Tracks
 
 Store: https://csaf.itch.io/saltline · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/saltline/ · Paid
@@ -1888,7 +1912,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wayfarer · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/wayfarer/ · Paid
 
-One road, 42 ways. All 42 tracks grow from five notes: a leap up a fifth to the horizon, two steps back down, and a lift.
+Wayfarer is a royalty-free JRPG overworld and travel music pack for games: 42 tracks, 50:52 of music, as OGG Vorbis files (44.1 kHz stereo) plus the editable MIDI source of every track.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1910,7 +1934,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 108 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 109 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2773,6 +2797,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/wrack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wrack/ · Paid · Engines: RPG Maker
 
 Your own town after the fire, the war or the years, made from your own tileset. Every story with a war, a dragon or a time skip needs the same town twice: before and after.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Your Own Art Sampler - Free RPG Maker MZ Plugins: Doors, Breakable Pots and Sitting Poses From Your Own Art
+
+Store: https://csaf.itch.io/your-own-art-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/your-own-art-sampler/ · Free · pay what you want · Engines: RPG Maker
+
+Three free RPG Maker MZ plugins that work from your own art. Your Own Art Sampler is three free plugins for RPG Maker MZ (1.x core scripts). Threshold Lite swings open a door tile from your own tileset when its stock door event turns.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3722,7 +3754,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Unreal Engine 5 plugins
 
-Editor plugins for Unreal Engine 5. 42 products.
+Editor plugins for Unreal Engine 5. 43 products.
 
 ### AnimNotify Event Rebinder - UE5 plugin
 
@@ -3785,6 +3817,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/bone-socket-rename-surgeon · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/bone-socket-rename-surgeon/ · Paid · Engines: Unreal Engine
 
 You renamed hand_r_socket to Blade_R in the Skeleton Tree. Unreal renamed the socket object and its preview attachments, and nothing else.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Brushfall - TrenchBroom and Quake.map Importer for Unreal Engine 5
+
+Store: https://csaf.itch.io/brushfall · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/brushfall/ · Paid · Engines: Unreal Engine
+
+Brushfall is an editor plugin for Unreal Engine 5.8 on Windows that imports TrenchBroom and Quake.map files (Quake standard and Valve 220) as static meshes, convex collision, material instances and placed actors.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4966,7 +5006,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 17 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 18 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -5013,6 +5053,14 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 Store: https://csaf.itch.io/counter-01-shopkeepers-and-innkeepers-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/counter-01-shopkeepers-and-innkeepers-voice-pack/ · Paid · free browser demo on the page
 
 Four fantasy shopkeepers, voiced for your whole shop screen 120 spoken lines by four invented shopkeepers, 30 each, every shopkeeper on its own built in voice: a blacksmith, an apothecary, an innkeeper and a general store trader.
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
+### GM Screen 01: Dungeon Narrator Voice Pack
+
+Store: https://csaf.itch.io/gm-screen-01-dungeon-narrator-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/gm-screen-01-dungeon-narrator-voice-pack/ · Paid · free browser demo on the page
+
+A game master narrator for your dungeon crawler, with a line for every event of the run 178 spoken lines by one invented narrator on one built in voice, grouped by the ten events of a dungeon run: the start, exploring, traps, discoveries, combat, danger, the guardian, progress, the end and table...
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
@@ -5106,7 +5154,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 12 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 13 products.
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
@@ -5196,6 +5244,14 @@ A minimal fantasy UI kit: vellum panels, ink hairlines, bookplate corners, ready
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### UI Kit Sampler: 12 Free Pixel UI Themes for Godot, RPG Maker MZ, Unity, Unreal and GameMaker
+
+Store: https://csaf.itch.io/ui-kit-sampler-12-free-pixel-ui-themes · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-sampler-12-free-pixel-ui-themes/ · Free · pay what you want · Engines: Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A free sampler of twelve pixel art game UI themes, one from each of our paid UI kits.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Frame: UI Kit for the Verdant Tilesets (Pixel + HD)
 
 Store: https://csaf.itch.io/verdant-frame-ui-kit-for-the-verdant-tilesets · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/verdant-frame-ui-kit-for-the-verdant-tilesets/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
@@ -5206,7 +5262,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 12 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 13 products.
 
 ### Cartography: 48 Journey Map Styles for Godot 4
 
@@ -5245,6 +5301,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/jigsaw-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/jigsaw-godot/ · Paid · Engines: Godot
 
 Jigsaw for Godot 4: any picture becomes a puzzle your players solve, in 48 styles Drop any Texture2D in and get a playable jigsaw.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Kickup: 48 Surface Aware 2D Movement Dust Presets for Godot 4
+
+Store: https://csaf.itch.io/kickup-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/kickup-godot/ · Paid · Engines: Godot
+
+Kickup: 2D movement dust for Godot 4 that reads the ground Kickup is a Godot 4.7 addon of 48 movement dust presets: footstep puffs, run trails, landing throws, skid sprays, dash bursts and wall slides on eight surfaces (dirt, grass, sand, snow, mud, shallow water, stone and wood).
 
 AI disclosure: AI Assisted, Code, Graphics
 
