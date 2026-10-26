@@ -1,0 +1,48 @@
+<h2>Your players write their own spells.</h2>
+<p>At a spellwright's circle the player takes the effects of spells their hero already knows, combines them, turns a magnitude dial that drives the cost, names the result, and watches its magic circle inscribe itself from what they put in. Fire III and Sleep become <em>Drowsing Ember Tempest</em>. Add Quake I and it becomes a two-element spell, drawn in two colours.</p>
+<p><strong>The new spell is a real skill.</strong> It shows in your skill list, casts in battle through MZ's own Game_Action, and saves and loads like any other. Every seal is drawn in code from the spell's own composition: no icons to draw, no seal art to buy.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> either order works (Spellwright.js finds the core the first time it needs it); this one is tidy.</p>
+<ol>
+<li><code>SpellwrightCore.js</code> — Spellwright rules engine: aspects, combination, cost, names and seals. Pair with Spellwright.js.</li>
+<li><code>Spellwright.js</code> — The player crafts new spells from the effects of spells they know. Each one draws its own magic circle.</li>
+</ol>
+<p><strong>Core methods extended — 6 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Actor.prototype.skills</code>, <code>Game_Action.prototype.calcElementRate</code>, <code>Spriteset_Battle.prototype.update</code>, <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>, <code>Scene_Menu.prototype.onPersonalOk</code>.</p>
+<p>Because nothing is clobbered, Spellwright co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends 3 methods on core singletons, the same way — original saved and called through:</strong> <code>DataManager.createGameObjects</code>, <code>DataManager.extractSaveContents</code>, <code>BattleManager.startAction</code>. Another plugin patching those keeps working.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>What the player does</h3>
+<ul>
+<li><strong>Aspects come from your database.</strong> Every learned Magic spell offers its effects: its damage and element, each state it adds, each buff, its cures. A new project's Sorcerer at level 25 is offered 9 aspects, its Priest 15.</li>
+<li><strong>The circle has rules.</strong> One side per spell (foes or allies), one form per spell, and two damage aspects of different elements fuse into a two-element spell that meets the mean of the target's two rates. Refusals are lettered in the scene, so the player learns the rules by playing.</li>
+<li><strong>The dial sets the power.</strong> Five steps from Faint to Grand scale the source formula, the state chances and the buff turns, and the cost climbs faster than the power.</li>
+<li><strong>The cost can never break your balance.</strong> Each source spell is paid for once, and a crafted spell is never cheaper than the dearest spell it was made from at the same strength. Checked over 100,000 crafted spells from the stock database: none undercut its source. Replace the formula if you like; the floor still holds.</li>
+<li><strong>It names itself.</strong> Magnitude, rider, element and form words build a name (three proposals per spell), or the player types one.</li>
+<li><strong>The seal reads the spell.</strong> Reach shapes the rim, the form draws the core, each state or buff writes its own glyph around the band, magnitude adds layers and the cost sets the rim's ticks. As each aspect goes in, what the seal shares with the last one stays inscribed and only the change draws itself.</li>
+</ul>
+<h3>Also in the plugin</h3>
+<ul>
+<li><strong>The Spell Ledger:</strong> every crafted spell of an actor with its seal, cost and description. Shift twice unmakes one (nothing is refunded).</li>
+<li><strong>In battle,</strong> a crafted spell's seal inscribes itself over the field when it is cast.</li>
+<li><strong>Seven plugin commands:</strong> open the circle or the ledger, craft a spell by script (for rewards and tutorials), unmake, set an actor's aspect cap, lock a library of aspects until the player reaches it, count crafted spells.</li>
+<li><strong>Twenty parameters:</strong> cap, ledger size, which skill types offer aspects, surcharge, widening, magnitude steps, a cost formula of your own, gold per craft, a main menu command, your own element and state words for the names.</li>
+<li><strong>Save-safe:</strong> a crafted spell is stored in the save as its own record, frozen as it was made. Its id is never written into an actor's learned-skill list, so a save still loads if the plugin is ever removed.</li>
+</ul>
+<h3>Light on your game</h3>
+<p>Measured in the real engine with no RPG Maker install: with a player changing an aspect every second, the circle draws in <strong>4 draw calls</strong> per frame with under <strong>0.4 texture uploads</strong>; at rest, <strong>0 uploads</strong>. No MZ window and no stock button anywhere in the scene.</p>
+<h3>Tested the way you will use it</h3>
+<p>Installed from this download into a new MZ project: an event opens the circle, real keys craft <em>Drowsing Ember Tempest</em> from the stock Sorcerer's spells, the stock Magic list shows it, MZ saves and reloads it, and Game_Action casts it on a stock enemy. Also attacked: the core file missing (it names the file), the plugin removed under an existing save, a first-crafted-id set below your own skills (it never overwrites one), corrupt saves, bad parameters, 400 random key presses, the plugin installed twice.</p>
+<h3>Goes with</h3>
+<ul>
+<li><a href="https://csaf.itch.io/sigil-core">Sigil Core</a> ($12.99): every spell your developer writes draws its own animated sigil. Install both and the spells your players craft get a Sigil Core seal in its Grimoire too, because they are ordinary skills.</li>
+<li><a href="https://csaf.itch.io/asterism">Asterism</a> ($9.99): a constellation skill tree whose every node draws its own star.</li>
+<li><a href="https://csaf.itch.io/incantation">Incantation</a> ($9.99): typing battles, the words taken from your own database.</li>
+<li><a href="https://csaf.itch.io/inscribe">Inscribe</a> ($7.99): name entry drawn as an object: a quill, a chisel, a sigil.</li>
+</ul>
+<h3>In the download</h3>
+<p>Two raw, readable JavaScript files (Spellwright.js, SpellwrightCore.js), a full Readme and the licence. No images, fonts or sounds: every seal and the whole circle are drawn in code.</p>
+<p>Commercial and non-commercial use in RPG Maker MZ projects. Written with AI assistance (the code, including the drawing code); the cover is an AI-generated illustration. © Core Systems Asset Factory.</p>
