@@ -1,0 +1,33 @@
+{
+  "title": "Blip 00: Free Dialogue Voices Sampler",
+  "slug": "blip-00-free-dialogue-voices-sampler",
+  "priceUSD": 0,
+  "priceTier": "small",
+  "shortText": "Free: 128 dialogue blips, 16 speakers from the four Blip casts, 8 cues each. WAV and OGG, commercial use, no credit.",
+  "tags": [
+    "sound-effects",
+    "audio",
+    "dialogue",
+    "visual-novel-assets",
+    "rpgmaker",
+    "wav",
+    "ogg",
+    "royalty-free",
+    "game-audio",
+    "voice"
+  ],
+  "html": "<h2>Free dialogue voices for your text boxes</h2>\n<p><strong>Free download: 128 dialogue sound effects in WAV and OGG for Godot 4, Unity, GameMaker, RPG Maker MV and MZ, Unreal or the web. 16 speakers with the same 8 cues each, four from each of the four paid Blip casts. Royalty free for commercial games, no credit required.</strong></p>\n<p>These are the ticks and chirps a text box plays as a line of dialogue types out, one speaker per character. Every file here is the same file, byte for byte, as the one with the same name in the paid pack it comes from. Nothing is shortened, watermarked or lowered in quality. The download includes sampler_proof.json, which lists the sha256 of every file and the pack it came from.</p>\n<h3>What is inside</h3>\n<ul>\n<li><strong>128 sounds</strong>: 16 speakers x 8 cues. Three takes of the per glyph tick to play at random, a soft reading for an aside, a loud one for a raised voice, a question, an exclamation and a page turn.</li>\n<li><strong>WAV and OGG</strong> for every file, 16 bit, 44.1 kHz, mono. Nothing loops and no file carries loop points.</li>\n<li><strong>Speakers you can tell apart.</strong> All 120 pairs of speakers here are separated by at least 12 percent in brightness or 25 percent in length, measured off the shipped files, and they span 44.69x in brightness.</li>\n<li><strong>One loudness band.</strong> The inner 80 percent of the download sits inside 0.79 dB, so switching speaker never changes how loud the text box is.</li>\n<li><strong>pack_proof.json</strong> ships with it: 1161 signal checks, 0 failed. A Readme with engine notes for Godot, Unity, GameMaker, RPG Maker, Unreal, FMOD and Wwise, a manifest of every file and a plain language licence.</li>\n</ul>\n<h3>The sixteen speakers</h3>\n<ul>\n<li><strong>Blip 01:</strong> Narrator, Knight, Youth and Automaton</li>\n<li><strong>Blip 02:</strong> Giant, Envoy, Imp and Fae</li>\n<li><strong>Blip 03:</strong> Principal, Classmate, Rival and Cat</li>\n<li><strong>Blip 04:</strong> Peddler, Blacksmith, Innkeeper and Mail Carrier</li>\n</ul>\n<p>File names are speaker then cue, for example narrator_question or cat_advance, the same in all four paid packs.</p>\n<h3>Paid, from the same studio</h3>\n<p>Each paid Blip pack is a full cast of thirteen speakers with the same 8 cues and the same file names, so a dialogue system wired for these sixteen takes any of the other 36 by changing the speaker id. All 52 voices across the four casts are measurably separated from each other, 1326 of 1326 pairs, and that proof ships inside Blip 04.</p>\n<ul>\n<li><a href=\"https://csaf.itch.io/blip-dialogue-voices\">Blip 01: Dialogue Voices for Text Advance</a>, $7.99: the first cast, fantasy archetypes, 13 speakers and 104 sounds. Free here: Narrator, Knight, Youth and Automaton. In the paid pack as well: Child, Scholar, Noble, Merchant, Rogue, Herald, Crone, Beast and Spirit.</li>\n<li><a href=\"https://csaf.itch.io/blip-02-dialogue-voices\">Blip 02: Dialogue Voices, a Second Cast</a>, $7.99: a second cast of fantasy and sci fi speakers, 13 speakers and 104 sounds. Free here: Giant, Envoy, Imp and Fae. In the paid pack as well: Diver, Captain, Bard, Sage, Jester, Comm Link, Hologram, Android and Familiar.</li>\n<li><a href=\"https://csaf.itch.io/blip-03-dialogue-voices\">Blip 03: Dialogue Voices, a Third Cast</a>, $7.99: a modern and school cast, 13 speakers and 104 sounds. Free here: Principal, Classmate, Rival and Cat. In the paid pack as well: Toddler, Shopkeeper, Idol, Detective, Phone Call, Teacher, Grandparent, Announcer and School Ghost.</li>\n<li><a href=\"https://csaf.itch.io/blip-04-dialogue-voices\">Blip 04: Dialogue Voices, a Village Cast</a>, $7.99: a village cast, 13 speakers and 104 sounds. Free here: Peddler, Blacksmith, Innkeeper and Mail Carrier. In the paid pack as well: Florist, Doctor, Baker, Fisher, Carpenter, Farmer, Librarian, Mayor and Miller.</li>\n</ul>\n<p>Also for dialogue: <a href=\"https://csaf.itch.io/babble-01-dialogue-voices\">Babble 01: Dialogue Voices</a>, $7.99, speakers who talk in made up syllables instead of ticks, and <a href=\"https://csaf.itch.io/typeset-typewriter-handwriting-text-sounds\">Typeset: Typewriter and Handwriting Text Sounds</a>, $7.99, for text that types or writes itself.</p>\n<p>If these suit your game, follow Core Systems Asset Factory on itch to hear when a new cast ships.</p>\n<h3>Licence</h3>\n<p><strong>Free. Royalty free. Commercial use. No credit required. No revenue limit.</strong> Put the sounds in your games, paid or free, on any platform. The one thing you may not do is resell or redistribute the sounds themselves as sounds. The full plain language terms ship as LICENSE.txt, with a copy paste credit line if you want one.</p>\n<p>Everything is synthesised from code. No recordings, no sample libraries, no third party clips, so there is no upstream licence behind these sounds and nobody can content ID claim them against your project.</p>\n<h3>Honest limits</h3>\n<p>These are synthesised character voices in the blip tradition, not recorded speech and not a vocal synthesiser. They say that someone is talking; they do not say words. The measurements above are signal measurements, not a claim that the voices sound good. That is what this free download is for.</p>\n<p><em>AI disclosure, stated truthfully: the code that generates these sounds was written with AI assistance. The sounds themselves are self contained procedural synthesis, oscillators, filters and delay lines evaluated in code, with no generative audio model at any point. The cover art and store graphics are AI generated.</em></p>",
+  "links": [
+    "https://csaf.itch.io/blip-dialogue-voices",
+    "https://csaf.itch.io/blip-02-dialogue-voices",
+    "https://csaf.itch.io/blip-03-dialogue-voices",
+    "https://csaf.itch.io/blip-04-dialogue-voices",
+    "https://csaf.itch.io/babble-01-dialogue-voices",
+    "https://csaf.itch.io/typeset-typewriter-handwriting-text-sounds"
+  ],
+  "pricing": {
+    "mode": "pwyw",
+    "minimumUSD": 0,
+    "suggestedUSD": 2
+  }
+}
