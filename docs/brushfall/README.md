@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Brushfall - TrenchBroom and Quake .map Importer for Unreal Engine 5  
 **Engine:** Unreal Engine 5  
-**Docs published:** 2026-10-25
+**Docs published:** 2026-10-26
 
 
 ---
@@ -27,7 +27,10 @@ the actors you adjusted in Unreal keep their settings.
 ## Install
 
 1. Copy the `Brushfall` folder into your project's `Plugins` folder (create it if needed).
-2. Open the project. Enable **Brushfall** under Edit > Plugins if it is not already enabled, and restart the editor.
+2. Open the project. The plugin ships as source, so the editor offers to build it on first open; that needs a C++
+   project and Visual Studio (a Blueprint-only project becomes one when you add any C++ class). Enable **Brushfall**
+   under Edit > Plugins if it is not already enabled, and restart the editor. It is one editor-only module: nothing
+   ships in your game.
 3. The import window is under **Tools > Brushfall: Import .map**. Settings are under
    **Edit > Project Settings > Plugins > Brushfall**.
 
@@ -83,10 +86,10 @@ to the actor class it becomes. The defaults:
 | `light*` | Point Light. `light` sets the intensity (300 = `LightIntensityAt300`, 8 cd by default, scaled linearly) and the attenuation radius (`light` x `LightRadiusPerValue` map units); `_color` sets the colour (0-1 or 0-255). Half-Life's `_light` "r g b brightness" is read too. |
 | `info_player_start`, `info_player_deathmatch`, `info_player_coop`, `info_player_start2` | Player Start |
 | any other point entity | Target Point (listed in the report as "no class rule") |
+| any brush entity with no rule | Static Mesh Actor |
 
 Every placed actor carries its classname as the actor tag `BF.Class:<classname>`, so a Target Point says which entity it
 stands for.
-| any brush entity with no rule | Static Mesh Actor |
 
 Map a brush entity to your own Blueprint (for example `func_door` to `BP_Door`) and its merged brushes are given to that
 Blueprint's first Static Mesh Component. **Every other key on an entity is written to the actor property of the same name**
@@ -134,7 +137,7 @@ source control), the import refuses and changes nothing.
 
 - **MAP / TEXTURES / WADS**: the map, an optional texture folder (default: a `textures` folder beside the map) and optional
   extra WAD files (`;` separated). The map's own `wad` key is always read: each entry is tried as written, beside the map,
-  then by file name beside the map. **Lookup order for a texture name:** the WADs (the ones you add first, then the map's
+  then by file name beside the map; an entry with the same file name as a WAD you added is taken to be that WAD. **Lookup order for a texture name:** the WADs (the ones you add first, then the map's
   own), then the folders. The report's Textures table says where each one was found.
 - **PREVIEW** decides everything and writes only the report. **IMPORT** imports into the level that is open. Save the level
   afterwards.
