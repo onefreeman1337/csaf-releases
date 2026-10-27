@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 669 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 672 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-26T23:29:57.254Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-27T02:03:31.520Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -722,7 +722,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 57 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 58 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -905,6 +905,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/kithfell-03-the-wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-03-the-wildwood/ · Paid
 
 Eight woodland animals for a top-down game: a red deer stag and hind, a wild boar, a grey wolf, a red fox, a badger, a red squirrel and a brown rat. Pack #3 of Kithfell, our animal series: one palette, one 128px cell, one ground line.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Kithfell Sampler: 3 Free Animal Sprites, Horse, Beagle and Fox [128x128]
+
+Store: https://csaf.itch.io/kithfell-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-sampler/ · Free · pay what you want
+
+Free animal sprites for top-down RPGs, farming and cozy games, taken file for file from the paid Kithfell packs: a draught horse (Kithfell 01), a beagle (Kithfell 02), a red fox (Kithfell 03), and the beagle lying down (Kithfell 02 Actions).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1950,7 +1958,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 109 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 110 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -1965,6 +1973,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/anvil · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/anvil/ · Paid · Engines: RPG Maker
 
 A hot-metal forging minigame for your RPG that plugs into your crafting.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Any Picture Minigames Sampler - Free RPG Maker MZ Jigsaw, Spot the Difference and Picture Reveal Plugins
+
+Store: https://csaf.itch.io/any-picture-minigames-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/any-picture-minigames-sampler/ · Free · pay what you want · Engines: RPG Maker
+
+Three free RPG Maker MZ minigames made from any picture in your project. Any Picture Minigames Sampler is three free plugins for RPG Maker MZ (1.x core scripts).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5278,7 +5294,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 13 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 14 products.
 
 ### Cartography: 48 Journey Map Styles for Godot 4
 
@@ -5301,6 +5317,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/fogbank-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fogbank-godot/ · Paid · Engines: Godot
 
 Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not seen is hidden. What they have seen is remembered. What they can see right now is clear, and your own walls block sight.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Gnomon: 2D Sprite Shadows for Godot 4, 48 Styles
+
+Store: https://csaf.itch.io/gnomon-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/gnomon-godot/ · Paid · Engines: Godot
+
+Gnomon: 2D sprite shadows for Godot 4, cast from your own sprites Gnomon is a Godot 4.7 addon that gives every 2D sprite a shadow cut from its own pixels: 48 shadow styles in six families, three nodes (GnomonLayer, GnomonCaster2D, GnomonReceiver2D) and four shaders, in plain GDScript and Godot...
 
 AI disclosure: AI Assisted, Code, Graphics
 
