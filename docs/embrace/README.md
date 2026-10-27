@@ -56,13 +56,15 @@ When the player is the partner of an event, the player does not walk on its own 
 How a pair is made: each character is measured on its own down-facing standing frame (head, neck, hip, and the arms,
 found from the pixels that swing in its walk; a sheet whose walk swings nothing uses the outer fifth of the figure).
 The two figures stand on one floor, placed by comparing their outlines row by row: bodies pressed together for a hug,
-faces touching for a kiss, an arm's length apart for a handshake. A lying, kneeling or sitting figure (the carried one,
-the rider) is made by PostureCore, the same rules Posture uses. Overlap is ordered by facing: an arm that holds a
-partner is drawn over them, and the figure nearer the camera over the one behind.
+faces touching for a kiss, an arm's length apart for a handshake; hands that meet stop where they meet. The carried
+figure, lying across the leader's arms, is made by PostureCore, the same rules Posture uses; a piggyback rider peeks over
+the leader's shoulder with its legs round the leader's waist. Overlap is ordered by facing: an arm that holds a partner
+is drawn over them, and the figure nearer the camera over the one behind.
 
-The pixels that are not the characters' own: an outline in the character's own darkest colour round an arm that was
-moved across a partner, and the small flourishes (a heart, a small heart, notes, a sweat drop, a burst), which the
-Flourishes parameter hides.
+The pixels that are not copied straight from the two sheets: a one-pixel edge, in one of the character's own darker
+colours, where an arm was taken from the side of a body or where a moved arm crosses a partner's body (never in open
+air), and the small flourishes (a heart, a small heart, notes, a sweat drop, a burst), which the Flourishes parameter
+hides.
 
 ## Starting a pair
 
