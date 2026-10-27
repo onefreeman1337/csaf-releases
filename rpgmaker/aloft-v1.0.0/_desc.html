@@ -1,0 +1,45 @@
+<h2>Your own maps, as islands in the sky.</h2>
+<p><strong>Aloft is an RPG Maker MZ plugin</strong> (three JavaScript files, MZ 1.x) that turns any map into a floating island. Put <code>&lt;aloft&gt;</code> in the map's note and leave the sky empty or paint it with a region. Under every southern edge of your ground it hangs a rock underside <strong>cut from your own edge tiles' pixels</strong> and tinted by them, and the empty map becomes open air over a <strong>sea of clouds drifting far below</strong>. Five dressings, 49 kinds of art, all generated, no image files: everything is drawn in code when the map loads. Commercial use in your games is included.</p>
+<p><strong>Nothing to draw and nothing to place.</strong> Every connected patch of ground becomes its own island with its own underside, its own hangers and its own soft shadow on the clouds. A wide island hangs a deep keel; a small islet hangs a small cone. Your map file never changes, and sky cells cannot be walked on.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> any order works (each file finds its siblings the first time it needs them); this one is tidy.</p>
+<ol>
+<li><code>AloftCore.js</code> — Aloft [1/3] — the rules: void and ground, islands, undersides, palettes. No settings here; see Aloft.js. v1.0.0</li>
+<li><code>AloftPaint.js</code> — Aloft [2/3] — the painter: every underside, hanger, cloud, wisp and mote is drawn here. No settings here; see Aloft.js. v1.0.0</li>
+<li><code>Aloft.js</code> — Aloft [3/3] — your own maps as islands in the sky: rock undersides from your own edge tiles, a sea of clouds below. v1.0.0</li>
+</ol>
+<p><strong>Core methods extended — 12 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.initialize</code>, <code>Game_System.prototype.onAfterLoad</code>, <code>Game_Map.prototype.setup</code>, <code>Game_Map.prototype.isPassable</code>, <code>Spriteset_Map.prototype.createLowerLayer</code>, <code>Spriteset_Map.prototype.update</code>, <code>Spriteset_Map.prototype.destroy</code>, <code>Scene_Map.prototype.start</code>, <code>Game_CharacterBase.prototype.update</code>, <code>Game_CharacterBase.prototype.screenY</code>, <code>Sprite_Character.prototype.updateOther</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>.</p>
+<p>Because nothing is clobbered, Aloft co-exists with other plugins that patch the same seams, including large suites.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>Five dressings</h3>
+<ul>
+<li><strong>Spirit Garden:</strong> earth strata and buried stones, tangled roots, ivy, flowering vines, moss beards, drips, and a waterfall off the edge. White cumulus below, petals and leaves on the wind.</li>
+<li><strong>Sky Ruins:</strong> cut-stone courses in stepped tiers, chains, broken arches, hanging blocks, torn banners and pillar stubs. Long stratus banks, dust.</li>
+<li><strong>Crystal Spire:</strong> geode rock with glowing veins, crystal clusters and spikes that pulse, geode shards. Small puffs, sparkles.</li>
+<li><strong>Steam Isle:</strong> a riveted hull with brass bands and a brass keel, struts, pipes, gears, a turning propeller, steam vents and lanterns that glow. Soot on the wind.</li>
+<li><strong>Storm Reach:</strong> jagged slate, rock spikes, lightning rods and static veins over dark anvil clouds lit by lightning, with rain.</li>
+</ul>
+<p>Switch a map's dressing in its note (<code>&lt;aloft: storm&gt;</code>) or at any moment with a plugin command.</p>
+<h3>Your tiles decide the rock</h3>
+<p>The top band of every underside is your edge tile's own bottom rows, mirrored and shaded, and the strata lean toward your tile's colours. In the same dressing, grass leans the rock olive, snow leans it grey and basalt leans it near black. Nine RPG Maker forum threads since 2013 ask for floating-island art, and one puts it plainly: <em>"I don't have the underside of the islands in any form in a tile set"</em>. Aloft makes it from the tiles you already have, so it always matches.</p>
+<h3>The sky follows your screen tone</h3>
+<p>Aloft reads MZ's own screen tone. A Night tint gives a deep night sky with stars, a Sunset tint warms the horizon, and any day and night plugin that tints the screen drives it with no setup. Distant islands sit in the haze, wisps pass between your islands, and your islands' shadows drift on the cloud tops.</p>
+<h3>Fall Off the Edge</h3>
+<p>A plugin command for scripted moments: the player or an event steps off the edge and falls away into the clouds, shrinking and fading. The event waits for it, then the player is transferred where you say, or an event is erased.</p>
+<h3>Light on your game</h3>
+<p>Measured in the real MZ engine by our test harness: the showroom map drew in <strong>18 draw calls</strong> per frame with <strong>0 texture uploads</strong>, and a 60 by 40 archipelago with every setting at its maximum drew in <strong>36</strong>. Everything is painted once when the map loads and then only moved; nothing is allocated per frame.</p>
+<h3>Goes with</h3>
+<ul>
+<li><a href="https://csaf.itch.io/fathom">Fathom</a> ($12.99): your own maps under the sea. Fathom takes a map down, Aloft takes it up.</li>
+<li><a href="https://csaf.itch.io/cloudshadow">Cloudshadow</a> ($12.99): the drifting shadows of clouds passing over your map's ground, water and roofs.</li>
+<li><a href="https://csaf.itch.io/hedgerow">Hedgerow</a> ($12.99): the small animals that walk your maps and flee the party.</li>
+<li><a href="https://csaf.itch.io/strew">Strew</a> ($14.99): dresses your hand-made maps from your own tileset in one pass.</li>
+</ul>
+<p>The islands in the screenshots are built from <a href="https://csaf.itch.io/verdant-09-town">Verdant 09: Town</a> and <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01: Overworld</a>, the ground tiles on the "your tiles" plate come from <a href="https://csaf.itch.io/verdant-24-desert">Verdant 24: Desert</a>, <a href="https://csaf.itch.io/verdant-03-worlds">Verdant 03: Worlds</a> and <a href="https://csaf.itch.io/verdant-25-infernal">Verdant 25: Infernal</a>, and the traveller is from <a href="https://csaf.itch.io/wayfarer-01-the-green-road">Wayfarer 01: The Green Road</a>. They are not part of this download: the plugin works on any tileset, including MZ's own.</p>
+<h3>In the download</h3>
+<p>Three raw, readable JavaScript files (Aloft.js, AloftCore.js, AloftPaint.js), a full Readme and the licence. No images, fonts or sounds: every underside, cloud and mote is drawn in code. Read the full documentation before you buy: <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/aloft/README.md">Aloft Readme</a>.</p>
+<p>Commercial and non-commercial use in RPG Maker MZ projects. Written with AI assistance (the code, including the drawing code). © Core Systems Asset Factory.</p>
