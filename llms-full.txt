@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 672 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 675 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-27T02:03:31.520Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-27T03:57:06.678Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 89 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 90 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -712,6 +712,14 @@ Store: https://csaf.itch.io/verdant-seasons · Our page: https://onefreeman1337.
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Showground — Sports Grounds, Playhouse and Aquarium Tilesets [16x16]
+
+Store: https://csaf.itch.io/verdant-showground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-showground/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Verdant Showground is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, Godot 4 and Unity: three town venues in one download, the Sports Grounds, the Playhouse and Big Top, and the Aquarium.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Wonders — the Poison Fen, the Sky Isles and the Great Tree [16x16]
 
 Store: https://csaf.itch.io/verdant-wonders · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-wonders/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
@@ -1190,7 +1198,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 59 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 60 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1333,6 +1341,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/dread-horror-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/dread-horror-sound-effects/ · Paid
 
 Fear your game can turn up 101 horror sound effects built around four ladders: the room gets worse, the heart beats faster, the build gets longer and the scare lands deeper, one rung at a time.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Duat: Ancient Egypt Sound Effects
+
+Store: https://csaf.itch.io/duat-ancient-egypt-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/duat-ancient-egypt-sound-effects/ · Paid
+
+Ancient Egypt, as one sound 137 Ancient Egypt sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): tomb mechanisms, hieroglyph puzzle stones, 8 spells of the gods with a charge, a release and a fizzle each, scarabs, cobras and mummies, bronze...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1666,7 +1682,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 36 products.
+Game music packs. Formats and track counts are stated on each store page. 37 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1865,6 +1881,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/spooky-season · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/spooky-season/ · Paid
 
 Spooky Season is a 44 track Halloween score for games: the trick-or-treat lane and the pumpkin patch, a haunted manor room by room, the churchyard and the crypt, a battle set, the headless horseman and the witching hour.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### The Crimson Court - Gothic Vampire Castle Waltz and Harpsichord Game Music Pack - 44 Tracks
+
+Store: https://csaf.itch.io/the-crimson-court · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-crimson-court/ · Paid
+
+The Crimson Court is a 44 track gothic vampire castle music pack for games: 38 full looping pieces and 6 short cues, 45:24 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
 
 AI disclosure: AI Assisted, Code, Graphics
 
