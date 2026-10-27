@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 677 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 681 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-27T05:31:01.445Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-27T11:58:16.019Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -730,7 +730,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 58 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 59 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -753,6 +753,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/deepwarren-battlers-mz · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-battlers-mz/ · Paid
 
 The 12 creatures of Deepwarren 01: The Living Dark as RPG Maker MZ battlers.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Deepwarren Sampler: Free Dungeon Monster Sprites, Giant Rat and Bat [160x160 & 176x176]
+
+Store: https://csaf.itch.io/deepwarren-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-sampler/ · Free · pay what you want
+
+Free dungeon monster sprites for top-down RPGs and action games, taken file for file from the paid Deepwarren packs: a giant warren rat (Deepwarren 01) and a giant bat (Deepwarren 02), each with an idle pose, a walk or flight loop, a strike, a hurt and a death, plus the same rat as an RPG Maker...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1198,7 +1206,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 60 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 61 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1592,6 +1600,14 @@ A western town in sound: three period guns in three places, and the frontier aro
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Skald: Norse and Viking Sound Effects
+
+Store: https://csaf.itch.io/skald-norse-viking-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/skald-norse-viking-sound-effects/ · Paid
+
+The Norse saga, as one sound 125 viking and Norse sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): the shield wall as a system, 10 war horn signals, 8 Elder Futhark runes with a charge, a release and a fizzle each, seidr staffs and bone...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Slackwater: Fishing Sound Effects
 
 Store: https://csaf.itch.io/slackwater-fishing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/slackwater-fishing-sound-effects/ · Paid
@@ -1682,7 +1698,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 37 products.
+Game music packs. Formats and track counts are stated on each store page. 38 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1769,6 +1785,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/embercrown · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/embercrown/ · Paid
 
 Embercrown is a 43 track JRPG score written to the NES sound chip's pitched budget: two pulse channels and a triangle. Not a modern arrangement with square wave patches on top.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### FM Drive - 16-Bit Action Game Music Pack, Mega Drive / Genesis Style FM Score - 44 Tracks
+
+Store: https://csaf.itch.io/fm-drive · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/fm-drive/ · Paid
+
+FM Drive is a 44 track 16 bit action game music pack written to the Mega Drive / Genesis sound budget: 38 full looping pieces and 6 short cues, 32:51 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources and a channel map.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5218,7 +5242,15 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 13 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 14 products.
+
+### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/arena-ticket-monster-battle-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/arena-ticket-monster-battle-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A monster battle UI kit: name plates with level stubs, type coloured move tickets, a capture charm and an arena, ready for six engines Arena Ticket is a pixel art UI kit for turn based monster battle and creature collecting games, with 101 widgets in 210 widget states, in pixel mode and HD mode,...
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
 
