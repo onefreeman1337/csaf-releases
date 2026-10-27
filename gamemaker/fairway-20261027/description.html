@@ -1,0 +1,48 @@
+<p><strong>Fairway is a mini golf system for GameMaker 2024.14 in pure GML, with a runnable demo room. Every hole is generated from a seed and drawn by the package: felt shaded by its own slopes, mower stripes, rails in six materials, water, sand, ramps, pipes, bumpers, a windmill with turning sails, swing gates, spinners and the scenery round the course. Six themes, courses of 9 or 18 holes, up to four players with AI rivals, a drawn paper scorecard, and a par for every hole set by a shot planner that plays the hole first. No image files ship. One commercial licence covers all your games.</strong></p>
+
+<p>Use it for a whole mini golf game, a festival or arcade minigame inside a bigger game, or a party mode. One call makes a course; the game runs the ball, the rivals, turns, penalties and the card.</p>
+
+<pre><code>// Create
+my_course = fwy_course_create(7, "pirate", 9, { lazy: true });
+my_game = fwy_game_create(my_course, [{ name: "YOU", ai: false }, { name: "RIVAL", ai: 0.7 }]);
+my_view = fwy_hole_view(fwy_game_hole(my_game), 900, 520);
+// Step
+if (keyboard_check_pressed(vk_space)) fwy_game_shoot(my_game, my_aim, my_power);
+fwy_game_step(my_game, delta_time / 1000000);
+// Draw GUI
+fwy_hole_draw(my_hole, my_x, my_y, my_view.scale, my_game.clock, my_view.crop);
+fwy_ball_draw(my_ball, my_x, my_y, my_view.scale);
+fwy_hole_draw_over(my_hole, my_x, my_y, my_view.scale, my_game.clock, my_ball.x, my_ball.y);
+fwy_hud_draw(my_game, 0, 0, 960);</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Six themes, each with its own look:</strong> The Rose Garden (timber rails, a white windmill, a lily pond), Smuggler's Cove (rope and plank rails, a lighthouse with a ship's wheel, a lagoon), Hollow Manor (iron and stone, a manor with tattered sails, a bubbling bog), Sweetshop Lane (candy-cane rails, a gingerbread mill, syrup), Orbit Station (steel rails with a light strip, a reactor with solar arms, the void) and Sunken Ruins (sandstone, a water-wheel tower, quicksand).</li>
+<li><strong>Holes drawn in code:</strong> felt lit by its own hills and hollows, mower stripes, nap, 45 degree banks, bevelled rails with a shadow on the felt, a tee mat, a cup with a waving flag, ramps with chevrons, pipe intakes and outlets, bumpers and wedges, and themed scenery placed round every course (paving, beaches, flagstones, frosting, deck plates and dunes under rose bushes, palms, pumpkins, cupcakes, antenna dishes and cacti).</li>
+<li><strong>Moving obstacles:</strong> a windmill across the lane whose sails close the tunnel for part of every turn, swing gates, spinners, and a ramp jump over a channel.</li>
+<li><strong>The ball, the aim and the card:</strong> a shaded ball that lifts off its shadow on a jump, a dotted aim guide carried round its first rail bounce, a power gauge, a HUD with every player's score against par, and a paper scorecard with pencilled figures (a circle under par, a square over, a star for a hole in one).</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>Par set by playing the hole.</strong> Before a hole is kept, a shot planner plays it from the tee (twice when anything moves). Par is its strokes plus one, and a hole it cannot finish in 6 strokes is thrown away and regenerated. In the test corpus of 30 holes, par spread 8 at par 2, 12 at par 3, 8 at par 4 and 2 at par 5.</li>
+<li><strong>AI rivals with a skill setting:</strong> the same planner with its aim and pace scattered by skill, so a 0.3 rival really is worse than a 0.9 one.</li>
+<li><strong>Physics that holds:</strong> the ball rolls on a height field, bounces off rails, lips out above a capture speed, and moves in sub-steps so a full-power shot cannot pass through a rail. In the suite, 720 full-power shots in 48 directions hit the rails 4,353 times and left the felt 0 times.</li>
+<li><strong>Events</strong> for shots, water, pipes, jumps, bumps, lip-outs, holes (with BIRDIE, PAR, HOLE IN ONE...), the stroke limit and the end of the round, so your sounds and messages hang off the game.</li>
+<li><strong>Use the parts on their own:</strong> a hole without a game, a ball with your own loop, <code>fwy_shot_sim</code> to predict a shot, <code>fwy_piece_draw</code> to draw any of the 60 pieces (ten per theme) in your own levels or menus, and <code>fwy_hole_view</code> to frame a hole in any box.</li>
+<li>Everything namespaced <code>fwy_</code> / <code>FWY_</code>, a header on every public function, bad arguments refused with a documented value instead of a crash.</li>
+</ul>
+
+<h3>Tested</h3>
+<p>GML cannot be unit-tested outside GameMaker, so every number here came from real executables built by GameMaker's own compiler (runtime 2024.14.4.268, VM, Windows): the package's suite (410 assertions, green on two runs), the package imported into a blank project with the Readme's code run verbatim and a full 9-hole round played, and an adversarial pass that throws undefined, negative, huge and wrong-typed arguments at all 34 documented functions. Making a hole with its par takes about 130 ms. HTML5, mobile and YYC exports were not built.</p>
+
+<h3>In the download</h3>
+<ul>
+<li><code>Fairway.yymps</code> (Tools &gt; Import Local Package) and the raw, readable <code>.gml</code></li>
+<li>The demo room THE CLUBHOUSE: a 9-hole round against two AI rivals</li>
+<li><code>Readme_for_Users.md</code>, <code>LICENSE.txt</code>, and two SIL OFL fonts (Caveat, Barlow Condensed) with their licences</li>
+</ul>
+
+<p><strong>From the same studio:</strong> <a href="https://csaf.itch.io/chicane-gamemaker">Chicane</a>, top-down racing with generated circuits ($12.99), and <a href="https://csaf.itch.io/drawn-in-code-gamemaker">Drawn in Code</a>, a free GameMaker sampler of three systems that draw their own art.</p>
+
+<p>Made with AI assistance: the code and the graphics were written with AI, and every picture on this page was rendered by that code in a blank GameMaker project. Copyright (c) 2026 Core Systems Asset Factory.</p>
