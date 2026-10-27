@@ -1,0 +1,30 @@
+<p><strong>Verdant GB</strong> is a 16x16 Game Boy style tileset for GB Studio, Tiled, Godot 4, RPG Maker MZ and Unity, drawn only in the four GB Studio shades (#071821 #306850 #86c06c #e0f8cf). Three environments in one download, the Overworld, the Town and the Dungeon: 569 tiles, 10 complete 47 shape autotile sets, 37 objects and three sample scenes, each already a GB Studio background that stays under the 192 unique tile limit. Commercial use permitted in unlimited projects, Game Boy ROMs included, no attribution required; you may not resell the tiles themselves as an asset pack. Free to try first: the <a href="https://csaf.itch.io/verdant-00-sample">Verdant 00 Series Sampler</a> (full colour Verdant tiles).</p>
+<h2>Built for the Game Boy tile budget</h2>
+<p>A GB Studio background can hold at most 192 unique 8x8 tiles, and busy art runs out fast. Every autotile set here is built from 8x8 quarters: each quarter of a tile depends only on its own three neighbours, and every texture repeats every 8 pixels, so a whole 47 shape set is drawn from thirteen distinct 8x8 tiles. The three sample scenes (320x288 each) count <strong>140</strong>, <strong>153</strong> and <strong>99</strong> unique tiles of 192, so there is room left for your own. The gallery shows every one of those tiles. We counted them on the shipped PNGs by the rule GB Studio's documentation states; GB Studio itself was not run on them, and the count gives no credit for flipped tiles, so it is an upper bound.</p>
+<h2>The Overworld</h2>
+<p>Short grass, a dirt path, a pond with a shore line, tall grass and a raised hill with a rock face (4 sets). Round and pine trees, a boulder, rocks, a bush, a stump, a signpost, a picket fence, a cave mouth, a fallen log and a gravestone. 222 tiles.</p>
+<h2>The Town</h2>
+<p>A cobbled square with lawns, flowerbeds and a carriage road with a kerb (3 sets). A house and a shop with a striped awning, a fountain, a market stall, a well, street lamps, an inn sign, benches, crates, barrels and flower pots. 183 tiles.</p>
+<h2>The Dungeon</h2>
+<p>Flagstones, brick walls with a face, a bottomless pit with a lit lip and a carpet runner (3 sets). Chests shut and open, braziers, statues, pillars, a door set in the wall, stairs down and up, pots, a push block, floor switches up and down, spikes and a skull. 164 tiles.</p>
+<h2>What is in it</h2>
+<ul>
+<li><strong>26 ground tiles</strong> and <strong>470 transition tiles in 10 complete 47 shape sets</strong>.</li>
+<li><strong>37 objects</strong>, cut into 16x16 cells with transparent backgrounds.</li>
+<li><strong>Three sample scenes</strong> as GB Studio backgrounds at 1x, and as PNG, JSON and a Tiled .tmx.</li>
+<li>The same environments in full colour, if you want them: <a href="https://csaf.itch.io/verdant-01-overworld">Verdant 01 Overworld</a> ($4.99), <a href="https://csaf.itch.io/verdant-09-town">Verdant 09 Town</a> ($9.99) and <a href="https://csaf.itch.io/verdant-05-depths">Verdant 05 Depths</a> ($7.99). You do not need them; everything here is in this download.</li>
+</ul>
+<h2>Engines</h2>
+<ul>
+<li><strong>GB Studio</strong>: import the three PNGs in <code>importers/GBStudio/backgrounds/</code> as backgrounds; <code>budget.json</code> beside them lists each one's tile count. To build your own scenes, paint them in Tiled with the autotile sets and export the map as a PNG.</li>
+<li><strong>Tiled</strong>: one .tsx per sheet, the autotile sets as Wang sets. Tiled 1.12.2's own renderer drew all three sample maps identical to ours (1,105,920 px, 0 differ).</li>
+<li><strong>Godot 4</strong>: one TileSet, loaded and verified in Godot 4.7.2 (569 tiles built).</li>
+<li><strong>RPG Maker MZ</strong>: all 10 sets on an A2 page (480 of 480 shapes composed back with MZ's own autotile table), and the grounds and objects on the B, C, D pages at 48px. Tested against the table, not inside the MZ editor.</li>
+<li><strong>Unity</strong>: copy <code>importers/Unity/VerdantGbFourShade/</code> into your project and run one menu command (Tools &gt; CSAF Verdant &gt; Verdant GB Game Boy Tileset Overworld, Town and Dungeon in 4 Shades, GB Studio Ready [16x16] &gt; Build Unity Assets). Tested in a blank Unity 6000.5.7f1 project: it built 569 pixel exact sprites and Tiles, and 10 RuleTile brushes drew the right tile in all 256 neighbour arrangements (2,560 of 2,560). Brushes need the free 2D Tilemap Extras package.</li>
+</ul>
+<h2>The proofs</h2>
+<p>Every tile's wrap boundary is measured against its own interior, and every 4x4 repetition is rendered and reviewed. Grid, palette and autotile completeness are machine proven: every tile is exactly 16x16, every pixel is one of the four GB Studio shades, and all 10 sets carry all 47 shapes.</p>
+<h2>More Game Boy work from the same studio</h2>
+<p>Two Game Boy cartridges (paid downloads with free demos; they do not use this pack): <a href="https://csaf.itch.io/scruple">SCRUPLE</a> ($5.99) and <a href="https://csaf.itch.io/cutbank">CUTBANK</a> ($5.99).</p>
+<h2>AI disclosure</h2>
+<p>Every tile is generated by our own procedural drawing engine or drawn as pixel rows in code, all of it AI written software. No image model draws any tile, no scraped art and no training dataset were used, and nothing was traced.</p>
