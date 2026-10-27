@@ -1,0 +1,51 @@
+<h2>Two of your characters, touching.</h2>
+<p><strong>What this is, in plain words:</strong> Embrace is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that lets two of your characters hug, kiss, shake hands, high five, bow to each other, dance, walk hand in hand, ride piggyback and carry one another in their arms. Nine pair poses, each in all four facings, are made at run time from the two characters' own walking sheets: no pose art to draw, no image files to import. It works on MZ's own characters and on any sheet you already use. Commercial use in your games is included; two demo character sheets come with it.</p>
+<p><strong>Nothing to draw.</strong> The first time a pair takes a pose, Embrace reads both characters' standing and walking frames and composes one new picture in which they touch. The arm that wraps round a partner is the character's own arm, found from the pixels that swing in its walk and turned about its shoulder; heads lean in for a kiss; the taller one leans down. Whole pixels are moved, never blurred, so both keep their own outline and colours.</p>
+<hr>
+<!--COMPAT:start-->
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PostureCore.js</code> — Posture core - derives sitting, kneeling, lying, sleeping, collapsed, waving and cheering frames from a walking sheet. Place ABOVE Posture.</li>
+<li><code>EmbraceCore.js</code> — Embrace core - composes two characters' walking sheets into one pair pose: hug, kiss, hold hands, carry, dance and more.</li>
+<li><code>Embrace.js</code> — Embrace - two of your characters hug, kiss, hold hands, carry one another and dance, made from the sheets they already have.</li>
+</ol>
+<p><strong>Core methods extended — 15 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_CharacterBase.prototype.update</code>, <code>Game_CharacterBase.prototype.increaseSteps</code>, <code>Game_Player.prototype.canMove</code>, <code>Game_Player.prototype.performTransfer</code>, <code>Game_Event.prototype.setupPageSettings</code>, <code>Game_Map.prototype.update</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.updateVisibility</code>, <code>Sprite_Character.prototype.updatePosition</code>, <code>Sprite_Character.prototype.characterBlockX</code>, <code>Sprite_Character.prototype.characterBlockY</code>, <code>Sprite_Character.prototype.patternWidth</code>, <code>Sprite_Character.prototype.patternHeight</code>, <code>Sprite_Character.prototype.characterPatternY</code>, <code>Sprite_Character.prototype.characterPatternX</code>.</p>
+<p>Because nothing is clobbered, Embrace co-exists with other plugins that patch the same seams, including large suites.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>Nine pair poses</h3>
+<ul>
+<li><strong>hug</strong>: bodies together, cheek to cheek, an arm round the shoulders and one round the waist.</li>
+<li><strong>kiss</strong>: faces together, eyes closed, a heart rising.</li>
+<li><strong>handshake</strong> and <strong>highfive</strong>: hands meet halfway, at the waist or over their heads with a burst.</li>
+<li><strong>bow</strong>: both bow to each other, played once.</li>
+<li><strong>dance</strong>: a close hold that turns through every facing, with notes.</li>
+<li><strong>holdhands</strong>: hand in hand, and the pair walks together.</li>
+<li><strong>piggyback</strong>: the partner rides on the leader's back, legs round its waist.</li>
+<li><strong>carry</strong>: the leader carries the partner across its arms.</li>
+</ul>
+<h3>They meet halfway, and they walk together</h3>
+<p>Put two characters on neighbouring tiles and give them a standing pose: they turn to face each other and meet halfway between the tiles, seen in profile side by side or from front and back one above the other. For hold hands, piggyback and carry the first character leads: the partner goes wherever it walks, drawn in the pair, and steps off beside it on Let go. A step ends a standing pose (a parameter keeps it). Pairs are saved with the game.</p>
+<h3>Any two of your characters</h3>
+<p>Mixed sizes and styles work in one pair: a big-head chibi with a 48 by 64 tall character, a robed figure with a townsperson. We ran all 96 stock MZ characters through every pose and every facing, each paired with another stock character, plus our own sheets in three other drawing styles: every pair builds, uses only the two characters' own colours plus the small flourishes, keeps both visible and stays inside its frame. The flourishes (a heart, notes, a sweat drop, a burst) can be switched off.</p>
+<h3>Three ways to start a pair</h3>
+<ul>
+<li>A comment on an event page: <code>&lt;embrace: hug, 3&gt;</code>, or <code>&lt;embrace: holdhands, player&gt;</code>.</li>
+<li>The <strong>Embrace</strong> and <strong>Let go</strong> plugin commands (the player, an event, or a follower).</li>
+<li>Script: <code>Embrace.start($gamePlayer, $gameMap.event(3), 'holdhands')</code>.</li>
+</ul>
+<h3>Light on your game</h3>
+<p>Measured in the real MZ engine by our test harness: the showcase map with eight pairs on screen, three of them walking, drew in <strong>11 draw calls</strong> per frame with <strong>0 texture uploads</strong>. Each pair sheet is built once, the first time it is used; nothing is allocated per frame.</p>
+<h3>Goes with</h3>
+<ul>
+<li><a href="https://csaf.itch.io/posture">Posture</a> ($11.99): one character sits, kneels, sleeps or waves, made from its own sheet. Embrace shares its core file.</li>
+<li><a href="https://csaf.itch.io/plinth">Plinth</a> ($11.99): your characters as statues on plinths.</li>
+<li><a href="https://csaf.itch.io/stature">Stature</a> ($11.99): taller side-view battlers from the sheets you have.</li>
+<li><a href="https://csaf.itch.io/tether">Tether</a> ($9.99): the bonds between your characters, drawn as a chart.</li>
+</ul>
+<p>The village in the screenshots is the demo map from <a href="https://csaf.itch.io/wrack">Wrack</a>; the characters are our own test sheets. Only the two demo sheets named below ship with Embrace: the plugin works on any character sheet, including MZ's own.</p>
+<h3>In the download</h3>
+<p>Three raw, readable JavaScript files (Embrace.js, EmbraceCore.js and PostureCore.js, the same core file Posture ships), two demo character sheets (eight townsfolk and one 48 by 64 tall character), a full Readme and the licence. Read the full documentation before you buy: <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/embrace/README.md">Embrace Readme</a>.</p>
+<p>Commercial and non-commercial use in RPG Maker MZ projects. Written with AI assistance (the code, including the drawing code). © Core Systems Asset Factory.</p>
