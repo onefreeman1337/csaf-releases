@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 684 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 686 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-27T13:49:34.462Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-27T19:41:58.121Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -744,7 +744,7 @@ Pixel art sprite packs: characters, creatures, objects and effects. Sizes, direc
 
 Store: https://csaf.itch.io/deepwarren-01-the-living-dark · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-01-the-living-dark/ · Paid
 
-Twelve dungeon creatures in four true directions, and every one of them strikes, flinches and dies. Every creature fights Most top down monster packs give you an idle and a walk.
+Twelve dungeon creatures in four true directions, and every one of them strikes, flinches and dies.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1104,7 +1104,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-collection/ · Paid
 
-21 animals on one locked palette, every one in 4 directions, at 128x128 and 64x64. What is in it Kithfell 01: Companions and Beasts (4): herd dog, draught horse, brown bear, mane lion.
+21 animals on one locked palette, every one in 4 directions, at 128x128 and 64x64.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5258,7 +5258,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 14 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 16 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5348,11 +5348,27 @@ A sci-fi HUD: chamfered cyan frames, amber corner ticks, segmented gauges, ready
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Phone Line: Visual Novel Phone and Chat UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/phone-line-visual-novel-phone-and-chat-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/phone-line-visual-novel-phone-and-chat-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A phone and chat UI kit for visual novels: a handset, chat bubbles, conversation rows and a lock screen, ready for six engines Phone Line is a pixel art phone and chat UI kit for visual novels and story games, with 102 widgets in 186 widget states, in pixel mode and HD mode, with files for...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Silverpoint: Minimal Fantasy UI Kit (Pixel + HD)
 
 Store: https://csaf.itch.io/silverpoint-minimal-fantasy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/silverpoint-minimal-fantasy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A minimal fantasy UI kit: vellum panels, ink hairlines, bookplate corners, ready for six engines 65 widgets in 153 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Tiny Delve: 16px Dungeon Crawler UI Kit (Pixel + HD)
+
+Store: https://csaf.itch.io/tiny-delve-16px-dungeon-crawler-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/tiny-delve-16px-dungeon-crawler-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+A dungeon crawler UI kit: skull-cornered windows, a minimap, counters and torches, ready for six engines Tiny Delve is a pixel art dungeon crawler and roguelike UI kit with 86 widgets in 155 widget states, in pixel mode and HD mode, with files for Godot 4 (4.7 tested), Unity 6, Unreal Engine,...
 
 AI disclosure: AI Assisted, Code, Graphics
 
