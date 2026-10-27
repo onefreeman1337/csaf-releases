@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 681 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 684 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-27T11:58:16.019Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-27T13:49:34.462Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 90 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 91 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -645,6 +645,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-forge-tileset-generator · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-forge-tileset-generator/ · Paid
 
 Verdant Forge is a tileset generator you run yourself. Open one HTML file in a browser — no install, no account, no internet, no Node, no Python, no build step — pick a palette, and export a complete, ready-to-import pack.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant GB — Game Boy Tileset: Overworld, Town and Dungeon in 4 Shades, GB Studio Ready [16x16]
+
+Store: https://csaf.itch.io/verdant-gb · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-gb/ · Paid · Engines: Unity, Tiled, Godot
+
+Verdant GB is a 16x16 Game Boy style tileset for GB Studio, Tiled, Godot 4, RPG Maker MZ and Unity, drawn only in the four GB Studio shades (#071821 #306850 #86c06c #e0f8cf).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2006,7 +2014,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 111 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 112 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2068,7 +2076,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/asterism · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/asterism/ · Paid · Engines: RPG Maker
 
-Every node in the tree draws its own star, generated from that skill's own data. No icon sheet, no node art to commission, nothing loaded from disk.
+What this is, in plain words: Asterism is a skill tree plugin for RPG Maker MZ (version 1.0, tested on the stock MZ scripts). The download holds four JavaScript plugin files (raw, readable source), a Readme and a licence.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2148,7 +2156,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/chimera-battle · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-battle/ · Paid · Engines: RPG Maker
 
-Your creatures fight. But nobody has to think about it. The capture works. The collection works. Then the player walks into a battle, presses Attack four times, and wins — and does that for the next thirty hours.
+What this is, in plain words: Chimera Battle is a creature battle plugin for RPG Maker MZ (version 1.1; it works inside MZ's own battle system rather than replacing it).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2180,7 +2188,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/chronicle-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chronicle-core/ · Paid · Engines: RPG Maker
 
-Your quest plugin remembers what the player was told. Nothing remembers what they did. There are seventeen quest plugins for RPG Maker MZ. Every one of them is a journal — a place to read back what an NPC already said.
+What this is, in plain words: Chronicle Core is a quest consequence plugin for RPG Maker MZ (version 1.0, tested on the stock MZ scripts). The download holds three JavaScript plugin files (raw, readable source), a Readme and a licence.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2253,6 +2261,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/elytra · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/elytra/ · Paid · Engines: RPG Maker
 
 Your bestiary already has beetles in it. Elytra draws them — a distinct specimen for every creature your project declares, built from a row you already wrote and rendered at run time.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Embrace - Hugs, Kisses, Holding Hands and Carries From Your Own Sprites for RPG Maker MZ
+
+Store: https://csaf.itch.io/embrace · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/ · Paid · Engines: RPG Maker
+
+Two of your characters, touching.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5358,7 +5374,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 15 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 16 products.
 
 ### Augury for Godot 4: 78 Tarot Cards Drawn in Code
 
@@ -5389,6 +5405,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/fogbank-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fogbank-godot/ · Paid · Engines: Godot
 
 Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not seen is hidden. What they have seen is remembered. What they can see right now is clear, and your own walls block sight.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Glimpse: See Characters Behind Trees, Walls and Roofs in Godot 4, 48 Styles
+
+Store: https://csaf.itch.io/glimpse-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/glimpse-godot/ · Paid · Engines: Godot
+
+Glimpse: see your characters behind trees, walls and roofs in Godot 4 Glimpse is a Godot 4.7 addon for top down and 3/4 view 2D games: when a character walks behind a tree, a wall or a roof, the thing in front opens around them and the part still covered is drawn through it as a silhouette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
