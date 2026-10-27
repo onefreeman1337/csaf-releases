@@ -1,7 +1,7 @@
 <p><strong>Embrace is out: two of your characters hug, kiss, hold hands, carry one another and dance, made from the walking sheets they already have.</strong> RPG Maker MZ, $9.99.</p>
 <p>Posture let one character sit, kneel, sleep and wave from its own sheet. The question that kept coming back was the one a single character cannot answer: what about two? A forum thread from 2017 asked for a plugin that takes two characters and makes them kiss, and the replies said it could not be done because "the program cannot edit pictures for you". Embrace does exactly that.</p>
 <h2>How it works</h2>
-<p>The first time a pair takes a pose, Embrace measures both characters on their own standing frames (head, neck, hip, and the arms, found from the pixels that swing in their walk), stands them on one floor at the distance the pose needs by comparing their outlines row by row, and turns each character's own arm about its shoulder to hold the other. The taller one leans down for a kiss. A lying or riding figure is made by the same core Posture uses. Whole pixels move; nothing is blurred.</p>
+<p>The first time a pair takes a pose, Embrace measures both characters on their own standing frames (head, neck, hip, and the arms, found from the pixels that swing in their walk), stands them on one floor at the distance the pose needs by comparing their outlines row by row, and turns each character's own arm about its shoulder to hold the other. The taller one leans down for a kiss. A carried figure lying across the arms is made by the same core Posture uses. Whole pixels move; nothing is blurred.</p>
 <h2>Nine poses</h2>
 <ul>
 <li>Standing, face to face: hug, kiss, handshake, high five, bow, and a dance that turns through every facing.</li>
@@ -10,7 +10,7 @@
 <h2>Tested</h2>
 <ul>
 <li>Every pose and every facing over all 96 stock MZ characters, each paired with another, plus our own sheets in three more drawing styles: every pair builds, uses only the two characters' colours plus the small flourishes, and keeps both visible.</li>
-<li>In the real engine: the showcase map with eight pairs on screen drew in 11 draw calls per frame with 0 texture uploads.</li>
+<li>In the real engine: the showcase map with all nine poses on screen at once drew in 11 draw calls per frame with 0 texture uploads.</li>
 <li>Installed from the shipped zip into a blank project with MZ's own cast, saved and reloaded mid-step, and uninstalled with a save that still loads.</li>
 </ul>
 <p>Start a pair with a page comment (<code>&lt;embrace: hug, 3&gt;</code>), a plugin command, or one line of script. Full documentation: <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/embrace/README.md">Embrace Readme</a>.</p>
