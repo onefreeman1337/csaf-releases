@@ -1,0 +1,46 @@
+<p><strong>Hurrah is a celebration and reward-feedback system for GameMaker 2024.14 in pure GML, with a runnable demo room. One call fires a whole moment: two-sided paper confetti that tumbles and flutters, curling streamers, balloons rising on swaying strings, coins and gems that spin and pile up or fly into your score counter, rays, rings, starbursts and sparkles, falling ticker tape, sequins, petals and feathers, and ribbon, scroll, bunting and rosette banners drawn behind your own words. 43 piece forms in 9 families, 6 palettes or your own colours, 8 ready moments. Every piece is drawn by the package; no image files ship. One commercial licence covers all your games.</strong></p>
+
+<p>Use it wherever your game says well done: a level up, a win screen, a new high score, an opened chest, an achievement, a birthday or seasonal event, a jackpot, a quiet romantic beat.</p>
+
+<pre><code>// Create
+my_party = hur_world_create({ floor: room_height - 40 });
+// Step
+hur_world_step(my_party);
+// Draw GUI
+hur_world_draw(my_party);
+// when something good happens
+hur_fire(my_party, "levelup", room_width / 2, 220, 1, { text: "LEVEL UP!" });
+hur_shower_to(my_party, chest_x, chest_y, counter_x, counter_y, 30, { value: 10 });</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Paper with two faces.</strong> Every confetti piece tumbles about its own axis: the face it shows decides its colour, how squarely it faces you decides its light, foil catches a glint as it turns flat, and it falls the way paper falls, hanging while flat and slipping while edge-on, drifting side to side. Ten cuts: square, strip, dot, triangle, star, heart, diamond, flower, crescent and paper curl.</li>
+<li><strong>Streamers on a rope:</strong> ribbon, coiled serpentine, folded zigzag, twisting ribbon that shows both sides, and tinsel, each thrown head first with its tail following.</li>
+<li><strong>Balloons</strong> (round, oval, heart, star foil, long) that rise, sway and tilt, with a lit highlight, a tied knot and a string that hangs from it.</li>
+<li><strong>Coins and gems:</strong> gold, silver and copper coins that spin edge-on with a milled rim and a struck star, five faceted gem cuts whose facets flash as they turn. They bounce and stack into a pile on your floor, or arc up and fly into your score counter.</li>
+<li><strong>Light, drawn additive:</strong> wheeling rays, a shock ring, a flash, starburst sparks with streaks, and four-point sparkles.</li>
+<li><strong>Banners behind your words:</strong> a ribbon with folded swallowtails, a scroll that unrolls between its rods, bunting with one letter on every flag, and a pleated rosette. They unfurl, hold and fold away, lettered in the shipped display face or your own font.</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>Eight moments, one call each:</strong> <code>levelup</code>, <code>win</code>, <code>record</code>, <code>chest</code>, <code>achievement</code>, <code>birthday</code>, <code>jackpot</code>, <code>petals</code>, plus the building blocks (<code>popper</code>, <code>cannon</code>, <code>fall</code>, <code>shower</code>, <code>balloons</code>, <code>streamers</code>, <code>burst</code>, <code>banner</code>) with strength, direction, spread, palette and form options.</li>
+<li><strong>Coins that count:</strong> <code>hur_shower_to</code> flies each coin into your counter and reports an <code>"arrive"</code> event with its value as it lands, so the score rises coin by coin. Every call returns a handle that reports <code>"done"</code> once when its last piece retires.</li>
+<li><strong>A budget, not a stutter:</strong> pieces beyond the budget you set are thinned, never queued, so a frame has a ceiling. Paper is drawn from an atlas the package draws itself on first use, one batched sprite per piece; everything else goes into vertex buffers, five submits a frame whatever the count.</li>
+<li>A floor for coins and confetti to land on, pause and resume, clear, a seeded world (the same calls give the same celebration), and <code>hur_piece_draw</code> to draw any of the 43 forms still, for icons and menus.</li>
+<li>Everything namespaced <code>hur_</code> / <code>HUR_</code>, a header on every public function, bad arguments refused instead of a crash, and your blend, colour, alpha, font, alignment and world matrix handed back after every draw.</li>
+</ul>
+
+<h3>Tested</h3>
+<p>GML cannot be unit-tested outside GameMaker, so every number here came from real executables built by GameMaker's own compiler (runtime 2024.14.4.268, VM, Windows): the package's suite (339 assertions, green on two runs), the package imported into a blank project with the Readme's code run verbatim, and an adversarial pass that throws undefined, negative, huge and wrong-typed arguments at every documented function. One moment at its busiest stepped in 5.4 ms to 7.3 ms and drew in 6.5 ms to 10 ms on a busy machine. HTML5, mobile and YYC exports were not built.</p>
+
+<h3>In the download</h3>
+<ul>
+<li><code>Hurrah.yymps</code> (Tools &gt; Import Local Package) and the raw, readable <code>.gml</code></li>
+<li>The demo room THE PARTY ROOM: every moment on a key, coins that fly into a score counter, an attract mode</li>
+<li><code>Readme_for_Users.md</code>, <code>LICENSE.txt</code>, and two SIL OFL fonts (from Titan One, and Barlow Condensed) with their licences</li>
+</ul>
+
+<p><strong>From the same studio:</strong> <a href="https://csaf.itch.io/vestige-gamemaker">Vestige</a>, an achievement system whose every award strikes its own medal (fire Hurrah on its award moment), <a href="https://csaf.itch.io/jackpot-gamemaker">Jackpot</a>, generated slot machines, and <a href="https://csaf.itch.io/drawn-in-code-gamemaker">Drawn in Code</a>, a free GameMaker sampler of three systems that draw their own art.</p>
+
+<p>Made with AI assistance: the code and the graphics were written with AI, and every picture on this page was rendered by that code in a blank GameMaker project. Copyright (c) 2026 Core Systems Asset Factory.</p>
