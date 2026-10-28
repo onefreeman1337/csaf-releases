@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 697 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 700 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-28T10:37:37.705Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-28T12:20:30.510Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1238,7 +1238,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 62 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 63 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1573,6 +1573,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/portcullis-dungeon-mechanisms · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/portcullis-dungeon-mechanisms/ · Paid
 
 Every mechanism in this pack ships its whole lifecycle. Not one "door open" one-shot — a handle, a start, a swing that loops for as long as your animation runs, a stop, a slam, and a rattle when it is locked.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Reelhouse: Slot Machine Sound Effects
+
+Store: https://csaf.itch.io/reelhouse-slot-machine-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reelhouse-slot-machine-sound-effects/ · Paid
+
+One slot cabinet, every sound it makes 126 slot machine sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): the lever, buttons, coins, tokens and a note acceptor; the reels spinning at three speeds, a stop for each of 5 reels building into the...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2962,7 +2970,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 78 products.
+GML systems and assets for GameMaker. 79 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3251,6 +3259,14 @@ Store: https://csaf.itch.io/horologe-gamemaker · Our page: https://onefreeman13
 A picture of a gear cannot mesh with another picture of a gear. The clockwork shelf for GameMaker is static art.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
+
+### Hurrah - Celebration Effects for GameMaker
+
+Store: https://csaf.itch.io/hurrah-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/hurrah-gamemaker/ · Paid · Engines: GameMaker
+
+Hurrah is a celebration and reward-feedback system for GameMaker 2024.14 in pure GML, with a runnable demo room.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Intertitle - Title Cards for Every Place and Every Boss, for GameMaker
 
@@ -4262,7 +4278,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 47 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 48 products.
 
 ### ANATOMIST
 
@@ -4357,6 +4373,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/cutbank · Our page: https://onefreeman1337.github.io/csaf-releases/games/cutbank/ · Paid · free browser demo on the page
 
 You never see what happened. You see what it left behind.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### DOWNBEAT
+
+Store: https://csaf.itch.io/downbeat · Our page: https://onefreeman1337.github.io/csaf-releases/games/downbeat/ · Paid · free browser demo on the page
+
+DOWNBEAT is a short rhythm action game for Windows, with a free demo you can play in your browser on this page: the first area, THE GREENWOOD, and its boss.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
