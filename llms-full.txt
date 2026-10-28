@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 694 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 697 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-28T04:33:47.081Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-28T10:37:37.705Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 92 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 93 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -701,6 +701,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-hex-02-volcanic-jungle-wetland · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hex-02-volcanic-jungle-wetland/ · Paid · Engines: Tiled, Godot
 
 Commercial use permitted in unlimited projects, no attribution required; you may not resell or redistribute the pack itself. ⚠️ For Godot 4 and Tiled.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant Ironworks — Mine, Clocktower and Steam Train Interior Tilesets with Rails and Turning Gears [16x16]
+
+Store: https://csaf.itch.io/verdant-ironworks · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-ironworks/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Verdant Ironworks is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, Godot 4 and Unity: three machine-age places in one download, a working mine with a rail network and gold in its walls, the inside of a clock tower with turning gears and a dial that shows any hour, and a steam train...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2046,7 +2054,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 112 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 113 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2381,6 +2389,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/frontispiece · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/frontispiece/ · Paid · Engines: RPG Maker
 
 Every RPG Maker MZ game opens on the same screen. A picture, the title in the engine's own font with a black outline, and three centred rows in Kadokawa's Window.png.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Gargoyle - Living Statues That Move When You Look Away, Struck From Your Own Monsters, for RPG Maker MZ
+
+Store: https://csaf.itch.io/gargoyle · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/gargoyle/ · Paid · Engines: RPG Maker
+
+They move when you look away.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5306,7 +5322,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 17 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 18 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5401,6 +5417,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/night-terminal-sci-fi-hud-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/night-terminal-sci-fi-hud-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A sci-fi HUD: chamfered cyan frames, amber corner ticks, segmented gauges, ready for six engines 64 widgets in 131 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### One Bit: 1-Bit UI Kit (Two Colours, Pixel + HD, Dither Tiles, Playdate Files)
+
+Store: https://csaf.itch.io/one-bit-1-bit-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/one-bit-1-bit-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot, Playdate
+
+A strict two-colour (1-bit) UI kit, ready for six engines and Playdate One Bit is a 1-bit game UI kit: 74 widgets in 141 widget states, drawn in exactly two colours (ink and paper), in pixel mode and HD mode, with files for Godot 4 (4.7 tested), Unity 6 (tested), RPG Maker MZ (tested), Unreal...
 
 AI disclosure: AI Assisted, Code, Graphics
 
