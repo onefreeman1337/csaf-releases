@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 703 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 706 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-28T14:25:26.585Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-28T20:58:28.063Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 93 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 94 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -744,6 +744,14 @@ Verdant Showground is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Side: Greenwood, Keep & Undercroft, a Side-View Platformer Tileset Volume [16x16]
+
+Store: https://csaf.itch.io/verdant-side · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side/ · Paid · Engines: Tiled, Godot
+
+Verdant Side is a 16x16 side-view platformer tileset for Godot 4 and Tiled: three biomes in one download, a forest floor (the Greenwood), a castle from outside and in (the Keep) and the caves and crypt under it (the Undercroft).
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Wonders — the Poison Fen, the Sky Isles and the Great Tree [16x16]
 
 Store: https://csaf.itch.io/verdant-wonders · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-wonders/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
@@ -754,7 +762,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 60 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 61 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -1033,6 +1041,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/mourncrest-reforged-01-restless-dead · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-reforged-01-restless-dead/ · Paid
 
 Eight undead, and every one of them fights: the banshee, ghoul, gravebound, lich, mummy, skeleton, wight and wraith.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Mourncrest Reforged: The Pale Choir, Barrow Beasts and Iron Wardens (160x160 & 80x80)
+
+Store: https://csaf.itch.io/mourncrest-reforged-choir-beasts-wardens · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-reforged-choir-beasts-wardens/ · Paid
+
+11 top-down pixel art characters for RPG Maker MZ, Godot 4 or any engine that reads PNG sprite sheets.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2070,7 +2086,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 113 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 114 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2125,6 +2141,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/arras · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/arras/ · Paid · Engines: RPG Maker
 
 A hanging that records what your player actually did. Arras takes the switches your game set, the variables it moved, the victories and the choices, and weaves them into an embroidered frieze in the Bayeux manner.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Askew - Exit 8-Style Anomaly Loops Made From Your Own Maps, Tiles and Characters, for RPG Maker MZ
+
+Store: https://csaf.itch.io/askew · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/askew/ · Paid · Engines: RPG Maker
+
+Walk the corridor again. Something is wrong. Or is it? What this is, in plain words: Askew is an RPG Maker MZ plugin (two JavaScript files, MZ 1.x) that turns any map you already made into an Exit 8-style anomaly loop.
 
 AI disclosure: AI Assisted, Code, Graphics
 
