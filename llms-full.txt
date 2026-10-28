@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 686 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 690 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-27T19:41:58.121Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-28T02:28:44.390Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 91 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 92 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -621,6 +621,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-75-springs · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-75-springs/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
 A hot spring hillside at 16x16: 1,137 tiles in one 86 colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant Ancient Realms — Wuxia Sect Mountain, Jade Jungle Temple and Elven Terraces Tilesets [16x16]
+
+Store: https://csaf.itch.io/verdant-ancient-realms · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-ancient-realms/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Verdant Ancient Realms is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, Godot 4 and Unity: three ancient realms in one download, a wuxia Sect Mountain above a sea of cloud, a Jade Temple step pyramid in the jungle, and the Elven Terraces.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2914,7 +2922,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 77 products.
+GML systems and assets for GameMaker. 78 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3145,6 +3153,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/facet-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/facet-gamemaker/ · Paid · Engines: GameMaker
 
 Every card framework on sale hands you a shuffle and a hand — and then you still owe an artist fifty-two drawings. That is the part that actually stops a card game getting made.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Fairway - Mini Golf for GameMaker
+
+Store: https://csaf.itch.io/fairway-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/fairway-gamemaker/ · Paid · Engines: GameMaker
+
+Fairway is a mini golf system for GameMaker 2024.14 in pure GML, with a runnable demo room.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4206,7 +4222,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 46 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 47 products.
 
 ### ANATOMIST
 
@@ -4292,7 +4308,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/pocket-anthology · Our page: https://onefreeman1337.github.io/csaf-releases/games/pocket-anthology/ · Paid · free browser demo on the page
 
-Six Game Boy games, made from scratch, in one collection. They are not ports and not re-implementations. Play all six right here, in the browser, before you decide.
+CSAF POCKET ANTHOLOGY is a collection of six original Game Boy games, sold as real 32 KB.gb ROM files you can run in a Game Boy emulator or put on a flash cartridge.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4324,7 +4340,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/glasswright · Our page: https://onefreeman1337.github.io/csaf-releases/games/glasswright/ · Paid · free browser demo on the page
 
-Twelve commissions. One season. A shop you can lose. A patron arrives with a hole in a wall and an opinion.
+GLASSWRIGHT is a short stained-glass workshop management game for Windows: one season, twelve commissions and a shop you can lose. Each patron brings a brief, a budget and a deadline.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4364,7 +4380,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/lanternbound · Our page: https://onefreeman1337.github.io/csaf-releases/games/lanternbound/ · Paid · free browser demo on the page
 
-The lamps along the moor road have gone out, one by one. Three of you walk out from Aldermoor to find out why, carrying one oil lantern between you. It burns down the whole time you are out there, and it is the only light in the world.
+LANTERNBOUND is a short turn-based JRPG in an SNES-era style: a party of three, one oil lantern that burns down the whole time you are out, and a moor road whose lamps have gone dark.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4396,7 +4412,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/moonwort · Our page: https://onefreeman1337.github.io/csaf-releases/games/moonwort/ · Free
 
-You are the warden of a physic garden, and last night the moon changed its mind. Every night for eleven years someone has taken the reading at Lowmoor: what the moon is doing, and what the beds are doing about it.
+MOONWORT is a short single-player narrative RPG for Windows, with a free demo you can play in your browser on this page.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4412,7 +4428,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/noctuary · Our page: https://onefreeman1337.github.io/csaf-releases/games/noctuary/ · Paid · free browser demo on the page
 
-Sixty-six nonogram plates. Solve one and it develops.
+NOCTUARY is a nonogram (picross) puzzle game for Windows: sixty-six picture-logic plates, and each one you solve develops into a mounted natural history specimen with a Latin name, a catalogue number and a line from the collector's journal.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4436,7 +4452,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/plumbline · Our page: https://onefreeman1337.github.io/csaf-releases/games/plumbline/ · Paid · free browser demo on the page
 
-A metroidvania with no keys, no upgrades and no items. Every door in this game was already open to somebody who knew where it was. The only thing that changes between the start and the end is what you know.
+PLUMBLINE is a short metroidvania for Windows with no keys, no upgrades and no items: the only thing that opens the way forward is what you learn.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4557,6 +4573,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/wicklight · Our page: https://onefreeman1337.github.io/csaf-releases/games/wicklight/ · Free
 
 There is one rule, and everything else comes from it. A shade is safe in shadow and dies in light. You are the light.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### WINTERING
+
+Store: https://csaf.itch.io/wintering · Our page: https://onefreeman1337.github.io/csaf-releases/games/wintering/ · Paid · free browser demo on the page
+
+WINTERING is a short top-down survival action game for Windows, with a free demo you can play in your browser on this page: the first three days of the winter.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5258,7 +5282,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 16 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 17 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5297,6 +5321,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/codex-pages-book-and-journal-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/codex-pages-book-and-journal-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A book and journal UI kit: open spreads, page turns, ribbons and quest logs, ready for six engines 83 widgets in 183 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Dusk, Mint and Contrast: Modern Minimal UI Kit Volume (Dark Mode, Pastel, High Contrast)
+
+Store: https://csaf.itch.io/dusk-mint-and-contrast-modern-minimal-ui-kit-volume · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/dusk-mint-and-contrast-modern-minimal-ui-kit-volume/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Three modern minimal UI themes in one kit: a dark mode, a soft pastel and a high contrast theme, switchable at runtime Dusk, Mint and Contrast is a UI kit volume for casual, puzzle, cozy and any modern looking game: three complete themes with 58 widgets in 145 widget states each, in pixel mode...
 
 AI disclosure: AI Assisted, Code, Graphics
 
