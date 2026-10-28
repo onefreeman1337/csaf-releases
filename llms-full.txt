@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 690 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 694 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-28T02:28:44.390Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-28T04:33:47.081Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -746,7 +746,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 59 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 60 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -937,6 +937,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/kithfell-03-the-wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-03-the-wildwood/ · Paid
 
 Eight woodland animals for a top-down game: a red deer stag and hind, a wild boar, a grey wolf, a red fox, a badger, a red squirrel and a brown rat. Pack #3 of Kithfell, our animal series: one palette, one 128px cell, one ground line.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Kithfell Pet Shop: 10 Dog and 6 Cat Breeds + 53 Pet Props (top-down sprites)
+
+Store: https://csaf.itch.io/kithfell-pet-shop · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-pet-shop/ · Paid
+
+A top-down pixel-art sprite pack of 10 dog breeds, 6 cat breeds and 53 pet-shop props for Godot 4, RPG Maker MZ, Unity, GameMaker or any engine that reads PNGs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1222,7 +1230,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 61 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 62 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1397,6 +1405,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/exclusion-irradiated-zone-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/exclusion-irradiated-zone-sound-effects/ · Paid
 
 An exclusion zone in sound: a Geiger counter you set by dose, and the dead town around it 103 post apocalyptic sound effects: a Geiger counter at 8 dose levels from a few ticks to a roar, a dosimeter, the hazmat kit, rust and scrap struck three ways, steam, acid and live cables, footsteps on...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Farside: Space Travel Sound Effects
+
+Store: https://csaf.itch.io/farside-space-travel-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/farside-space-travel-sound-effects/ · Paid
+
+The space journey, as one sound 121 space and sci fi sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): 4 complete jump drives (a heavy jump drive, a warp bubble, a ring jump gate and a fold drive), each with spool up, a charge in three...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1714,7 +1730,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 38 products.
+Game music packs. Formats and track counts are stated on each store page. 39 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1921,6 +1937,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/spooky-season · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/spooky-season/ · Paid
 
 Spooky Season is a 44 track Halloween score for games: the trick-or-treat lane and the pumpkin patch, a haunted manor room by room, the churchyard and the crypt, a battle set, the headless horseman and the witching hour.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### The Common Route - Visual Novel Music Pack, Slice of Life BGM in Major and Minor - 44 Tracks
+
+Store: https://csaf.itch.io/the-common-route · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-common-route/ · Paid
+
+The Common Route is a 44 track slice of life visual novel music pack: 38 full looping pieces and 6 short cues for scene changes, 48:37 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5422,7 +5446,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 16 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 17 products.
+
+### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
+
+Store: https://csaf.itch.io/arras-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/arras-godot/ · Paid · Engines: Godot
+
+Arras for Godot 4: your playthrough, woven into a tapestry Arras is a Godot 4.7 addon that turns what a player did into a Bayeux style embroidered hanging they can open and scroll.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Augury for Godot 4: 78 Tarot Cards Drawn in Code
 
