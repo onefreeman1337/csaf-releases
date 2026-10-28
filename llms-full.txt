@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 700 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 703 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-28T12:20:30.510Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-28T14:25:26.585Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1746,7 +1746,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 39 products.
+Game music packs. Formats and track counts are stated on each store page. 40 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1945,6 +1945,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/sengoku · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/sengoku/ · Paid
 
 Sengoku is a 44 track score for feudal Japanese fantasy games: a mountain shrine, the high road through a province at war, a village under curfew, the bamboo grove by moonlight, the castle walls and the daimyo's court, the temples and the graves, nine fights from the first ronin to the last...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Sortie - Mecha War Music Pack, Military Sci Fi Orchestral BGM - 44 Tracks
+
+Store: https://csaf.itch.io/sortie · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/sortie/ · Paid
+
+Sortie is a 44 track mecha war music pack for military science fiction games: 38 full looping pieces and 6 short mission cues, 42:38 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5346,7 +5354,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 18 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 19 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5468,6 +5476,14 @@ A minimal fantasy UI kit: vellum panels, ink hairlines, bookplate corners, ready
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Status Line: HP, MP and Boss Bar UI Kit (7 Bar Styles, Pixel + HD, 6 Engines)
+
+Store: https://csaf.itch.io/status-line-hp-mp-and-boss-bar-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/status-line-hp-mp-and-boss-bar-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+HP, MP and boss bars that work in your engine, plus a full UI to match Status Line is a health bar and boss bar UI kit: 7 bar styles, each shipped as 10 same-size layers (frame, six fills, damage trail, heal preview, glass), 70 bar layers in all, plus emblems, a boss name plate and a full game...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Tiny Delve: 16px Dungeon Crawler UI Kit (Pixel + HD)
 
 Store: https://csaf.itch.io/tiny-delve-16px-dungeon-crawler-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/tiny-delve-16px-dungeon-crawler-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
@@ -5494,7 +5510,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 17 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 18 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -5581,6 +5597,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/lantern-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/lantern-godot/ · Paid · Engines: Godot
 
 Lantern: 48 2D lighting presets for Godot 4, from window light to a whole day and night Light that has a shape, flames that live, a sky that runs the day, and darkness that follows your player.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Scathe for Godot 4: Battle Damage Drawn Into Your Own Sprites
+
+Store: https://csaf.itch.io/scathe-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/scathe-godot/ · Paid · Engines: Godot
+
+Scathe: battle damage drawn into your own sprites, for Godot 4 Scathe is a Godot 4.7 addon that draws the damage every hit leaves on your own enemy and player sprites: 49 presets, 7 kinds of mark on 7 materials, and an HP band wear that grinds the whole sprite down as its health falls.
 
 AI disclosure: AI Assisted, Code, Graphics
 
