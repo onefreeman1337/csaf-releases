@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 715 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 719 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-29T09:13:36.994Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-29T11:21:55.137Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -770,7 +770,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 61 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 62 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -1068,6 +1068,14 @@ Nine cyberpunk street characters for a top-down game: a street samurai, a netrun
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Neonward: Gangs, Corp Security and Machines (160x160 & 80x80)
+
+Store: https://csaf.itch.io/neonward-gangs-corp-security-machines · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-gangs-corp-security-machines/ · Paid
+
+Nine top-down cyberpunk pixel art enemies for Godot 4, RPG Maker MZ or any engine that reads PNG sprite sheets.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Pocketfolk 01: First Partners — 18 tamer creatures, battle front + back, 128x128 & 64x64
 
 Store: https://csaf.itch.io/pocketfolk-01-first-partners · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/pocketfolk-01-first-partners/ · Paid
@@ -1262,7 +1270,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 64 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 65 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1728,6 +1736,14 @@ Every ability gate, from refusal to the way through 104 metroidvania sound effec
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Trail, Ranch and Fort: Western Sound Effects
+
+Store: https://csaf.itch.io/trail-ranch-and-fort-western-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/trail-ranch-and-fort-western-sound-effects/ · Paid
+
+The western frontier outside town, every source placed 117 western sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5), for the frontier beyond main street: the ranch and the cattle drive (8 herd loops, a small and a big herd at a walk, trot,...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Tumbler: Puzzle Feedback Sound Effects
 
 Store: https://csaf.itch.io/tumbler-puzzle-feedback-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/tumbler-puzzle-feedback-sound-effects/ · Paid
@@ -2110,7 +2126,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 114 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 115 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2637,6 +2653,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/pendant · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pendant/ · Paid · Engines: RPG Maker
 
 Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of paintings in a drawn gallery.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Pennant - Capture the Flag Minigame for RPG Maker MZ: Your Party vs Any Troop, Abilities From Skills
+
+Store: https://csaf.itch.io/pennant · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pennant/ · Paid · Engines: RPG Maker
+
+Capture the flag, played by your own party. What this is, in plain words: Pennant is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a real-time capture-the-flag minigame to your game.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4854,7 +4878,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### COMBWRIGHT
 
-Store: https://csaf.itch.io/combwright · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/combwright/ · Free · pay what you want
+Store: https://csaf.itch.io/combwright · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/combwright/ · Free
 
 Lay out the comb. Raise the brood. Keep the colony through the winter. A free beekeeping game in your browser. Each hive is one frame of comb, and you decide what every cell is for: brood, pollen or honey.
 
@@ -5746,7 +5770,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 4 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 5 products.
+
+### Fort Vale: 14 PSX Modern Soldier Characters (Rigged, Animated)
+
+Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
+
+Fort Vale is a pack of 14 low poly PS1-style modern soldier characters for Godot 4, Unity and Unreal.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Hollow Congregation: 14 PSX Cultist Characters (Rigged, Animated)
 
