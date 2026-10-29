@@ -55,9 +55,11 @@ Copyright (c) 2026 Core Systems Asset Factory. Terms of use: LICENSE.txt.
   ice), and a name nothing matches gets a colour made from the name.
 - **5 fields:** Fair Meadow, Castle Bailey, Snowfield, Low Tide, Torchlit Clearing. Each has its own timber pens with
   gates that swing.
+- **Every player stands on a ring in its side's banner colour**, grey while it is caught, so the sides read at a glance; a
+  frozen player wears a frost crystal in the freezer's element.
 - **An arcade HUD:** a card per player with CAUGHT / BANNER / TRUCE stamps, each side's banner tally in its own colours,
-  the clock, and your ability discs filling as they recharge; TAGGED! / FREED! / GOT IT! / SAVED! / FROZEN! / CAPTURE! /
-  YOU WIN! lettering. No font and no image file is used.
+  the clock, and your ability discs filling as they recharge; TAGGED! / FREED! / GOT IT! / BANNER HOME! / FROZEN! /
+  CAPTURE! / YOU WIN! lettering. No font and no image file is used.
 - **Four computer strengths with real roles**: a keeper in front of the banner, guards on the line, raiders, a rescuer
   when a teammate is held, chasers when the banner is taken. The computer sees the field a moment late (a third of a
   second at Beginner, under a tenth at Hard), so a well-timed sidestep beats it. Carrying is a chase: between a quarter
