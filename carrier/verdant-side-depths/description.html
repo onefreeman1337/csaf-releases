@@ -1,0 +1,28 @@
+<p><strong>Verdant Side Depths</strong> is a 16x16 side-view platformer tileset for <strong>Godot 4</strong> and <strong>Tiled</strong>: three underworld biomes in one download, the Infernal Halls (lava and brimstone), the Desert Tomb (from the dunes down into a pyramid) and the Crypt (a graveyard and the catacomb under it). It holds 703 tiles in one 132 colour palette: 9 complete 47 shape autotile sets (6 solid, 3 back wall), 60 slope pieces at 45 and 22.5 degrees, one-way platforms, climbables, 3 animated hazards, 43 kinds of object (8 animated) including iron doors open and closed and statues, three parallax backgrounds per biome and a finished sample level for each. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.</p>
+<p>It is the second volume of the side-view family after <a href="https://csaf.itch.io/verdant-side">Verdant Side</a> ($8.99): the same grid, light and engine layer, so the two volumes sit in one game. The Godot TileSet is ready to paint and play: collision on every solid tile and slope, one-way collision on the platforms, hazards on their own physics layer, a terrain set so Godot's own painter picks the right one of the 47 shapes, custom data (kind, climbable, hazard) and tile animations. Three sample scenes open with the level and its parallax already built. The Tiled tilesets carry the same collision shapes as tile objects, a terrain set for each autotile set, and the animations.</p>
+<h2>Three biomes</h2>
+<ul>
+<li><strong>The Infernal Halls</strong> (232 tiles): brimstone rock whose undersides glow from the lava below, infernal brick with an ember-lit walkway, a dark brick hall back wall, horned pillars, an iron grate platform, a hanging chain to climb and molten lava, with iron doors (closed and open), a horned demon statue, a gargoyle, a horned idol, an obsidian throne, a rune altar, crimson banners, a brazier, a hanging cage and sulfur vents.</li>
+<li><strong>The Desert Tomb</strong> (239 tiles): wind-rippled dunes, pyramid sandstone, a dark tomb back wall, painted lotus columns, a cedar beam platform, a knotted rope and sinking quicksand, with a stone door (sealed and open), a sphinx, a pharaoh statue, an Anubis statue, an obelisk, a painted mummy case, canopic jars, gold treasure, a hieroglyph panel, a date palm and scarabs.</li>
+<li><strong>The Crypt</strong> (232 tiles): catacomb limestone, graveyard soil under night grass, an ossuary back wall of stacked bones, skull-carved columns, a niche shelf, iron rungs and soul fire, with an iron gate (closed and open), a weeping angel, a praying monk and a cherub statue, a knight's effigy tomb, burial niches, a skull shelf, headstones, a coffin, a chained skeleton, a candelabra and a will-o'-wisp.</li>
+</ul>
+<h2>Measured on these files</h2>
+<ul>
+<li>Godot 4.7.2 loaded the TileSet from a subfolder of a blank project and built 667 of 667 atlas tiles exactly as declared. Its own terrain painter placed the right tile for 423 of 423 shapes. A CharacterBody2D made 36 runs: it walked up every slope both ways, jumped up through every one-way platform and landed on it, and fell through every hazard on the solid mask while the hazard mask found it.</li>
+<li>Tiled 1.12.2: its own renderer drew the three sample maps identical to ours, 460,800 pixels with 0 different.</li>
+<li>Every tile's wrap boundary is measured against its own interior, and every 4x4 repetition is rendered and reviewed (120 renders ship in the download). Grid, palette and autotile completeness are machine-proven.</li>
+</ul>
+<h2>Compatibility</h2>
+<ul>
+<li>Godot 4 (built and run on 4.7.2): copy the importers/Godot folder anywhere in your project. For the 45 degree slopes set your CharacterBody2D's floor_max_angle above 45 degrees.</li>
+<li>Tiled (opened by Tiled 1.12.2's own renderer): open sample_maps/*.tmx; the tilesets load by relative path.</li>
+<li>Any other engine: PNG sheets and single tiles, plus tiles.json with every tile's role, collision polygon, one-way flag and autotile mask.</li>
+<li>Not offered: RPG Maker MZ (a top-down engine) and GameMaker.</li>
+</ul>
+<h2>The same places, top-down</h2>
+<ul>
+<li><a href="https://csaf.itch.io/verdant-25-infernal">Verdant Infernal (top-down)</a>, $9.99</li>
+<li><a href="https://csaf.itch.io/verdant-51-pyramid-tombs">Verdant Pyramid Tombs (top-down)</a>, $7.99</li>
+<li><a href="https://csaf.itch.io/verdant-05-depths">Verdant 05 Depths: Dungeon, Cave & Crypt (top-down)</a>, $7.99</li>
+</ul>
+<p><em>AI disclosure: every tile and parallax layer was drawn by CSAF's own procedural drawing code, written with AI. No image model, scraped art or third party dataset was used for the tiles. The cover illustration was generated with an OpenAI image model.</em></p>
