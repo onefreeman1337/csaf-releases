@@ -1,0 +1,30 @@
+<p><strong>Deep Station is a pack of 14 low poly PS1-style sci-fi horror characters for Godot 4, Unity and Unreal.</strong> Every character is rigged to one humanoid skeleton with 45 animation clips, comes in 3 palette skins (42 characters to place), and has 1495-1499 triangles and one 256 px texture per skin, in GLB, FBX, OBJ and Blender formats. Use them in any number of commercial games, no attribution required. A free sampler (the station engineer, every skin and clip) is on this page.</p>
+<p><em>The crew of a remote deep space mining station, the night something got loose: the captain, the engineers in their work jumpsuits, the medic, security, the scientist, the pilot, the company's man, the android, a stowaway, and two crew who did not make it.</em></p>
+<h2>What you get</h2>
+<ul>
+<li><strong>14 crew, each a different body AND a different painted costume</strong>: station engineer, captain, medic, security officer, eva technician, company liaison, android, shuttle pilot, research scientist, stowaway, cargo loader, infected crewman, hydroponics tech, infected deck officer.</li>
+<li><strong>3 palette skins each = 42 characters</strong> to place. The jumpsuit or uniform changes colour (an orange work jumpsuit to green or blue, a slate blue command uniform to burgundy or dark green, a white pressure suit's panels from orange to blue or red); faces, hair, skin, boots and gear keep their painted colours, so a corridor full of the same body still reads as different people.</li>
+<li><strong>45 animation clips on every character</strong> plus a T-pose, with the ones a station needs: holding a flashlight (torch idle), pistol aim, shoot and reload for security, crouch idle and crouch walk, sprint, roll, kneeling repair work, interact, hit reactions to the chest and head, swimming (zero gravity drift) and a death, plus idle, talking, walk, jog, jump, sitting and punches.</li>
+<li><strong>1495-1499 triangles</strong> per character, <strong>one 256 x 256 px texture</strong> per skin, quantised to 15-bit colour for nearest filtering. The PlayStation look, not a modern model with a filter on top.</li>
+<li><strong>Per character:</strong> GLB with every clip, GLB per extra skin, FBX with clips, OBJ + MTL, PNG textures, and the Blender source file.</li>
+<li><strong>A PSX shader for Godot 4</strong> (godot_psx.gdshader): vertex snapping, affine texture warp, 15-bit colour with dithering, distance fog. Every setting is a slider.</li>
+<li>Readme with import notes, LICENSE, NOTICE.</li>
+</ul>
+<p><strong>Honest limits:</strong> the hands are simple mitten hands and nothing is held (pistols sit in holsters and tools on belts, painted on); the bodies are fitted, so there are no helmets, long coats or bulky armour shapes (the pressure suit's helmet is off, its neck ring painted). The infected are humanoid: same skeleton and clips as the crew, no creature rig.</p>
+<h2>In your project</h2>
+<p><strong>Godot 4:</strong> copy <code>models/</code> and <code>shaders/</code> into the project, instance a <code>_skin0.glb</code>, put the PSX shader on the mesh. Tested here in a blank Godot 4.7.2 project: every GLB imports, the shader compiles on every character, the clips play (Godot names <code>Walk_Loop</code> as <code>Walk</code> and loops it). The in-engine images on this page are that test.</p>
+<p><strong>Unity 6 / Unreal 5:</strong> import the FBX (skeleton and clips included) and set the textures to point / nearest filtering. The skeleton is a standard humanoid, built to retarget (Unity Humanoid, Unreal IK Rig). These two engines were not run here; the FBX files were re-imported in Blender to check that mesh, 53 bones and every clip arrive.</p>
+<h2>Try one free</h2>
+<p>The <strong>free sampler</strong> on this page is the station engineer: one character with all three skins, every clip, every format and the shader. Drop it in before you buy.</p>
+<p>The <a href="https://csaf.itch.io/psx-characters-sampler">PSX Characters Sampler</a> is a separate free download with characters from our other PSX packs, on the same skeleton and shader.</p>
+<h2>Pairs with</h2>
+<ul>
+<li><a href="https://csaf.itch.io/last-shift-psx-survivors">Last Shift</a>: PSX survival horror survivors, a small town's night shift in 1998 (same skeleton, same clips, same shader).</li>
+<li><a href="https://csaf.itch.io/fort-vale-psx-soldiers">Fort Vale</a>: 14 PSX modern soldiers, if the company sends a rescue team.</li>
+<li><a href="https://csaf.itch.io/hollow-congregation-psx-cultists">Hollow Congregation</a>: a PSX cult and its converts, for the horror on the ground.</li>
+<li><a href="https://csaf.itch.io/psx-characters-sampler">PSX Characters Sampler</a>: free characters from our other PSX packs.</li>
+</ul>
+<h2>Licence</h2>
+<p>Use the models in any number of commercial or non-commercial games and projects, no attribution required. Modify them freely. Do not resell or redistribute the models themselves as assets. The skeleton and clips are the CC0 Quaternius Universal Animation Library; the bodies are generated with MakeHuman (CC0 output).</p>
+<p><strong>AI disclosure:</strong> every character here is AI-generated. The bodies were built by scripts an AI system wrote, and every texture is an AI image model's painting projected onto the mesh. Code: yes. Graphics: yes. Sounds: no. Text: no.</p>
+<p>Made by Core Systems Asset Factory.</p>
