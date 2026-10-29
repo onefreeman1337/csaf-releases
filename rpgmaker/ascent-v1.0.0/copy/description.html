@@ -1,0 +1,54 @@
+<h2>Climbing minigames for RPG Maker MZ, climbed by your own hero.</h2>
+<p><strong>What this is, in plain words:</strong> Ascent is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a climbing minigame to your game. Your party leader climbs a sea cliff, an ice wall, a castle wall under siege, a great tree, a ship's rigging or a round tower, hold by hold, against a grip that drains while they hang. There are 36 kinds of hold (six per face), anchors that clip a real rope in, falls caught at the last anchor, hazards that come with a warning, and three goals: climb to the summit against the clock, collect on the way up, or race a rival up the next line. The plugin lays out and paints every face in code and proves each one can be climbed before the player sees it. The climber, the belayer and the rival are your own characters, so it works on day one with no new art. Commercial use in your games is included.</p>
+<p><strong>Start it in one step:</strong> an event's Plugin Command, Ascent &gt; Start a climb, with the face, the goal, the difficulty (1 to 5), the length and a seed. The time, the height reached, falls and pickups come back into your variables, with a summit switch and an optional common event.</p>
+<!--COMPAT:start-->
+<hr>
+<h3>⚠️ Compatibility — the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>AscentCore.js</code> — Ascent climb engine: lays out every climbing face from a seed and runs the climber's grip, falls and hazards. Needed by Ascent.js.</li>
+<li><code>AscentDraw.js</code> — Ascent art: paints the six climbing faces, every hold, anchor, pickup, hazard, summit and the lettering in code. Needed by Ascent.js.</li>
+<li><code>Ascent.js</code> — Ascent: climbing minigames (sea cliff, ice wall, castle wall, great tree, ship's mast, tower) on a face the plugin lays out and draws, climbed hold by…</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. <code>Ascent.js</code> finds the other two the first time a climb starts, so any order works, including <code>Ascent.js</code> first (the order the in-engine and fresh-install tests load them in).</p>
+<p><strong>It patches no core RPG Maker method at all</strong>, so there is nothing of anyone else's for it to collide with.</p>
+<!--COMPAT:end-->
+<hr>
+<h3>How a climb plays</h3>
+<ul>
+<li><strong>Reach and pull:</strong> the arrow keys (diagonals too) reach for the next hold that way, and your character pulls up hand over hand. Hold a direction to keep climbing. Mouse and touch: tap a hold within reach.</li>
+<li><strong>Read the holds:</strong> the hold you would reach for is ringed and named on screen with what it costs: FIRM, HARD, SLICK, BREAKS or REST. Every other hold within reach gets a faint ring.</li>
+<li><strong>Grip is the clock:</strong> it drains slowly on a jug or a crack, fast on a sloper and fastest on a thin edge. A ledge is a rest and your grip comes back. Crumbling holds give way a moment after you grab them.</li>
+<li><strong>Clip in:</strong> reaching an anchor (a bolt, an ice screw, a grapnel, a sling, a shackle or a piton) clips your rope. The rope is drawn from your second party member, belaying at the foot, up through every anchor you clipped. Fall, and it catches you at the last one.</li>
+<li><strong>Hazards with fair warning:</strong> rocks, icicles, stones, pine cones, rigging blocks or bricks fall from above with a shadow and a mark over their column; gulls, ravens, owls, bats or arrows cross the face with a mark at their height; gusts drain loose holds faster. Move aside, climb out of the way, or shelter on a firm hold. Name an enemy image and it leans out over a stone parapet at the top of the screen to throw them. Every breaking hold, on every face, trickles grit, so a player learns to spot one.</li>
+</ul>
+<h3>Six faces, six structures</h3>
+<p>Each face is laid out a different way, not recoloured: free rock on the <strong>sea cliff</strong>, holds pulled to vertical seams on the <strong>ice wall</strong>, every hold on a masonry course on the <strong>castle wall</strong> (soot, spent arrows, siege ladders), a trunk that narrows as you climb on the <strong>great tree</strong>, the ratline lattice of a <strong>ship's mast</strong> with sails and sea behind, and the courses of a round <strong>tower</strong> under the moon.</p>
+<h3>Every face can be climbed</h3>
+<p>Each face is laid out around a hidden safe line: every step within reach, no crumbling hold on it, a ledge and an anchor at regular heights, and a firm hold beside it to dodge to. Before the player sees the face, the plugin's own autopilot climbs it and must reach the summit with no fall, take every pickup and beat the rival; a face that fails is laid out again. Measured over 7,200 faces (six faces, three goals, five difficulties, two lengths, two seed families): every one passed. The same seed is always the same face, and a best time is kept per face, goal, seed and difficulty.</p>
+<h3>Three goals and five difficulties</h3>
+<ul>
+<li><strong>Summit:</strong> reach the top against the clock.</li>
+<li><strong>Collect:</strong> eggs, crystals, coins, acorns, doubloons or gems wait beside the line; each can give one of your items.</li>
+<li><strong>Race:</strong> a rival (any character sheet you choose) climbs its own line beside yours. Summit first.</li>
+</ul>
+<p>Difficulty sets the grip drain, how far apart the ledges and anchors are, how many hard and crumbling holds there are, how often hazards come and how fast the rival climbs. Measured with the plugin's balance probe: a climber who does nothing after the first move always falls; a climber who reads the hazards and takes about half a second a move reaches the summit at every difficulty, wins every race at difficulty 1 and 2, and loses most at 4 and 5. Three fall rules: rope (back to the last anchor, or the start), strict (a fall before the first anchor ends the climb) and solo (no rope at all).</p>
+<h3>What is in the download</h3>
+<ul>
+<li><code>AscentCore.js</code>, <code>AscentDraw.js</code>, <code>Ascent.js</code>: raw, readable, unminified JavaScript with full help in the Plugin Manager.</li>
+<li><code>Readme_for_Users.md</code>: install, every command argument, every parameter, the script calls and the results.</li>
+<li><code>LICENSE.txt</code>: commercial and non-commercial use in your games, no royalty.</li>
+</ul>
+<p>No images, fonts or audio files ship: every face, hold, rope, hazard, the HUD and the lettering are drawn by the plugin when a climb starts. It plays your project's own system sounds.</p>
+<h3>Tested before release</h3>
+<p>Run in the real RPG Maker MZ engine, not only in tests: all six faces climbed to the summit by the autopilot, a player climb driven through MZ's own input, the results landing in variables and the switch, a save and load, an install from the shipped zip into a blank project and an uninstall. Frame cost in the engine on the heaviest climb (difficulty 5 race with a thrower): under 4 draw calls a frame on average against a ceiling of 60, display objects not growing. Zero canvas pixel reads during play. It patches no engine method.</p>
+<h3>From the same studio: your party, other games</h3>
+<ul>
+<li><a href="https://csaf.itch.io/schuss">Schuss</a>: down the mountain after you climb it. SkiFree-style downhill runs (ski, snowboard, sled, mine cart, raft) on a course the plugin lays out, ridden by your own character. $9.99.</li>
+<li><a href="https://csaf.itch.io/pennant">Pennant</a>: capture the flag, your party against any troop. $9.99.</li>
+<li><a href="https://csaf.itch.io/pelt">Pelt</a>: team dodgeball with your own side-view battlers. $12.99.</li>
+<li><a href="https://csaf.itch.io/round-up">Round-up</a>: herding and catching minigames. $11.99.</li>
+</ul>
+<p>The climbers in the screenshots are walking sheets from <a href="https://csaf.itch.io/wildmark-01-the-party">Wildmark 01: The Party</a> and the thrower is from <a href="https://csaf.itch.io/deepwarren-battlers-mz">Deepwarren battlers for MZ</a>. None of that art ships with Ascent: it climbs with whatever character sheets and enemy images your project holds, including MZ's own.</p>
+<p><em>AI disclosure: the code and the graphics of this plugin, and its store images and cover, were made with AI assistance. It contains no audio and no narrative text.</em></p>
