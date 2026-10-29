@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 724 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 726 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-29T17:34:51.331Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-29T23:04:40.078Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2142,7 +2142,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 115 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 116 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2197,6 +2197,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/arras · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/arras/ · Paid · Engines: RPG Maker
 
 A hanging that records what your player actually did. Arras takes the switches your game set, the variables it moved, the victories and the choices, and weaves them into an embroidered frieze in the Bayeux manner.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Ascent - Climbing Minigames for RPG Maker MZ: Six Painted Faces, 36 Holds, a Real Rope, Your Own Hero
+
+Store: https://csaf.itch.io/ascent · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ascent/ · Paid · Engines: RPG Maker
+
+Climbing minigames for RPG Maker MZ, climbed by your own hero. What this is, in plain words: Ascent is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a climbing minigame to your game.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5646,7 +5654,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 19 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 20 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -5784,6 +5792,14 @@ Store: https://csaf.itch.io/verdigris-godot · Our page: https://onefreeman1337.
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Vivarium: 48 Species of Small Life Drawn in Code, for Godot 4
+
+Store: https://csaf.itch.io/vivarium-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/vivarium-godot/ · Paid · Engines: Godot
+
+Vivarium for Godot 4: 48 species of small life drawn in code Vivarium is a Godot 4.7 addon that fills your 2D maps with the small life a real place has: 48 species in 10 families (butterflies, moths, fireflies, dragonflies, bees, fish, frogs, bats, pond skaters and lizards), placed by reading...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Weatherglass: 48 2D Weather and Atmosphere Shaders for Godot 4
 
 Store: https://csaf.itch.io/weatherglass-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/weatherglass-godot/ · Paid · Engines: Godot
@@ -5844,10 +5860,10 @@ Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefre
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 3 Free Low Poly 3D Characters (Rigged, Animated)
+### PSX Characters Sampler: 5 Free Low Poly 3D Characters (Rigged, Animated)
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is a free pack of 3 low poly PS1-style 3D characters for Godot 4, Unity and Unreal: a mechanic, a knight and a high priest.
+PSX Characters Sampler is a free pack of 5 low poly PS1-style 3D characters for Godot 4, Unity and Unreal: a mechanic, a knight, a high priest, a rifleman and an innkeeper.
 
 AI disclosure: AI Assisted, Code, Graphics
