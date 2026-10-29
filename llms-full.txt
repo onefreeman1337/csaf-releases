@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 712 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 715 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-29T07:21:19.873Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-29T09:13:36.994Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 94 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 95 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -741,6 +741,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-showground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-showground/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
 Verdant Showground is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, Godot 4 and Unity: three town venues in one download, the Sports Grounds, the Playhouse and Big Top, and the Aquarium.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant Side Depths: Infernal Halls, Desert Tomb & Crypt, a Side-View Platformer Tileset [16x16]
+
+Store: https://csaf.itch.io/verdant-side-depths · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side-depths/ · Paid · Engines: Tiled, Godot
+
+Verdant Side Depths is a 16x16 side-view platformer tileset for Godot 4 and Tiled: three underworld biomes in one download, the Infernal Halls (lava and brimstone), the Desert Tomb (from the dunes down into a pyramid) and the Crypt (a graveyard and the catacomb under it).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1770,7 +1778,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 40 products.
+Game music packs. Formats and track counts are stated on each store page. 41 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -2065,6 +2073,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/the-turning-sky · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-turning-sky/ · Paid
 
 The Turning Sky is a 44 track exploration score for open world games, built in pairs. Twelve places, each written twice: once in daylight and once after dark.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Throne and Shadow - Court Intrigue Music Pack, Medieval Kingdom Orchestral BGM - 44 Tracks
+
+Store: https://csaf.itch.io/throne-and-shadow · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/throne-and-shadow/ · Paid
+
+Throne and Shadow is a 44 track court intrigue music pack for kingdom, management, strategy and RPG games: 38 full looping pieces and 6 short cues, 57:54 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5574,7 +5590,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 18 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 19 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -5591,6 +5607,14 @@ Store: https://csaf.itch.io/augury-godot · Our page: https://onefreeman1337.git
 Augury for Godot 4: 78 tarot cards drawn in code Augury is a Godot 4.7 addon that prints the whole tarot deck at runtime with GDScript _draw() code: all 78 cards (22 major arcana, 40 pip cards in authored arrangements, 16 court cards) in 8 deck styles, upright or reversed, face up or face down,...
 
 AI disclosure: AI Assisted, Code, Graphics
+
+### Broadsheet: 48 Letters, Notices and Coins Drawn From Your Game Data, for Godot 4
+
+Store: https://csaf.itch.io/broadsheet-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/broadsheet-godot/ · Paid · Engines: Godot
+
+Broadsheet: letters, notices and coins drawn from your game data, for Godot 4 Broadsheet is a Godot 4.7 addon that draws the documents your players read and the money they hold, from your game's own data: 48 presets (16 letters, 16 notices, 16 coins), 12 handwriting hands, 8 type faces,...
+
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Cartography: 48 Journey Map Styles for Godot 4
 
