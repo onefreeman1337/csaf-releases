@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 719 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 722 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-29T11:21:55.137Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-29T12:47:08.221Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1794,7 +1794,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 41 products.
+Game music packs. Formats and track counts are stated on each store page. 42 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -2097,6 +2097,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/throne-and-shadow · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/throne-and-shadow/ · Paid
 
 Throne and Shadow is a 44 track court intrigue music pack for kingdom, management, strategy and RPG games: 38 full looping pieces and 6 short cues, 57:54 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Unfathomed - Cosmic Horror Music Pack, Dark Orchestral and Choir BGM - 44 Tracks
+
+Store: https://csaf.itch.io/unfathomed · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/unfathomed/ · Paid
+
+Unfathomed is a 44 track cosmic horror music pack for investigation, exploration and survival horror games: 38 full looping pieces and 6 short cues, 59:38 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5294,7 +5302,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 19 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 20 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -5432,6 +5440,14 @@ Praise, combos and level flow for your casual game, in one voice 147 spoken line
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
+### Tally 01: Numbers and Letters Voice Pack
+
+Store: https://csaf.itch.io/tally-01-numbers-and-letters-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/tally-01-numbers-and-letters-voice-pack/ · Paid · free browser demo on the page
+
+Every number from zero to one hundred, the alphabet and the words a learning game needs, in one voice 269 spoken lines by one invented announcer on one built in voice, in eleven word sets: every number to one hundred, round numbers, ordinals, the alphabet, colors, shapes, the calendar, maths...
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
 ### Voices 00: Free AI Voice Line Sampler (100 Lines, 25 Characters)
 
 Store: https://csaf.itch.io/voices-00-free-voice-line-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/voices-00-free-voice-line-sampler/ · Free · pay what you want
@@ -5450,7 +5466,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 20 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 21 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5513,6 +5529,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/felt-table-card-game-and-deckbuilder-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/felt-table-card-game-and-deckbuilder-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A card table UI kit for deckbuilders and card games, ready for six engines 88 widgets in 173 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Fingerpost: RPG Cursor and Selection UI Kit (Mouse Cursors with Hotspots, Pixel + HD, 6 Engines)
+
+Store: https://csaf.itch.io/fingerpost-rpg-cursor-and-selection-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/fingerpost-rpg-cursor-and-selection-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+RPG mouse cursors with their hotspots, animated menu fingers and a selection frame that fits any slot Fingerpost is an RPG cursor and selection kit: 17 mouse cursors (plated gauntlets in point, grab and open, a steel arrow, inspect, talk, attack, cast, use, loot, unlock, enter, forbidden,...
 
 AI disclosure: AI Assisted, Code, Graphics
 
