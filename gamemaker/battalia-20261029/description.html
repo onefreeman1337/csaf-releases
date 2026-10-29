@@ -1,0 +1,54 @@
+<p><strong>Battalia is an army battle system for GameMaker 2024.14 in pure GML, with a runnable demo room. You declare two armies of regiments (foot, pikes, archers, horse and mages, any number of soldiers), and Battalia draws every soldier, every regimental banner and the battlefield itself, lets the player choose a formation from four cards, then plays the clash out soldier by soldier and hands the survivors back to your code. Inside: 5 arms in 4 poses in any army's colours, banners struck from each regiment's name (16 ordinaries, 14 charges, 4 cloths), 5 battlefields painted from a seed, 4 formations, a war record with the course of the battle charted. No image files ship; everything is drawn by the package. One commercial licence covers all your games.</strong></p>
+
+<p>Use it for the big battle in an RPG, a kingdom or strategy game's auto-resolve, a war between factions that the player watches and steers, or a tactics game's set piece.</p>
+
+<pre><code>// Create
+my_battle = bta_scene_create({
+    title: "The Battle of Ashford", terrain: "meadow",
+    player: { name: "Your Host", army: "foot:44:Iron Company, pike:32:Black Pikes, archer:34:Rivermarch Bows, horse:16:Queen's Own" },
+    enemy:  { name: "The Red Host", army: "foot:50:Crowfoot, archer:30:Sunspears, horse:20:Duskriders" }
+});
+// Step
+bta_scene_step(my_battle);
+// Draw GUI
+bta_scene_draw(my_battle, 0, 0, display_get_gui_width() / 816);</code></pre>
+
+<h3>What your players see</h3>
+<ul>
+<li><strong>Every soldier drawn.</strong> Foot with sword and shield, pikemen, archers drawing their bows, lancers on horseback and robed mages with glowing staves, each standing, marching and striking in their army's colours, and lying where they fell.</li>
+<li><strong>Banners from names.</strong> Every regiment carries its own banner, struck from its name with real heraldry (the rule of tincture kept): the same name always flies the same arms. The banners ripple over the regiments and lean as a broken regiment runs.</li>
+<li><strong>A field painted from a seed.</strong> Meadow, steppe, snow, desert or moor: hills, a keep on the ridge, a tree line, a cart track, tufts, stones and flowers, never the same field twice.</li>
+<li><strong>The choice that matters.</strong> Four formation cards (line, wedge, square, loose), the enemy's own order shown first. Each beats one other.</li>
+<li><strong>The clash.</strong> Volleys arc overhead and land where they were aimed, spells burst, cavalry charges and pikes stop it, regiments break and run, the fallen stay on the field. Hold a key to watch it three times faster.</li>
+<li><strong>The war record.</strong> Victory, defeat or neither, every regiment's fate (stood, fled, fell), the course of the battle charted with where each regiment broke, and the totals.</li>
+</ul>
+
+<h3>What you get as the developer</h3>
+<ul>
+<li><strong>One call for a whole battle</strong> (<code>bta_scene_create</code>, step, draw), or the rules alone, headless (<code>bta_battle_create</code>, <code>bta_battle_run</code>, <code>bta_battle_result</code>) for an auto-resolve or a strategy layer.</li>
+<li><strong>Results in soldiers.</strong> A 5,000-soldier army is carried at several soldiers per figure and accounted for to the man: for every regiment, survived + fled + dead = count.</li>
+<li><strong>Seeded.</strong> The same armies, formations and seed replay the same battle, frame for frame.</li>
+<li><strong>Your sounds, your input.</strong> An <code>onEvent</code> callback for every blow, volley, spell, death, charge and rout; drive the formation choice and the fast-forward from your own UI if you like.</li>
+<li><strong>Balanced, and measured.</strong> With the smaller army (32 foot against 40), a wedge against the enemy's line won 17 of 20 battles where copying the line won 0; pikes in a square held horse in a wedge 16 times in 16; identical armies split 14 to 16 over 30 battles.</li>
+<li><strong>Costs, measured on a real build.</strong> At the cap of 480 figures on the field, one battle frame costs 8.8 to 10.0 ms on average to step and 2.1 to 2.6 ms to draw on the VM (two runs); a lower cap costs less.</li>
+<li><strong>The pieces for your own screens:</strong> a regiment's banner as a sprite, a battlefield as a sprite, the soldier atlas in any colours.</li>
+<li>Raw, commented GML, everything prefixed <code>bta_</code>, a demo room with five battles, and a full Readme. Tested in a blank project from the shipped package.</li>
+</ul>
+
+<h3>Compatibility</h3>
+<ul>
+<li>GameMaker 2024.14 and later; built and tested on runtime 2024.14.4.268 (Windows, VM). HTML5, mobile and YYC were not built.</li>
+<li>Touches none of your resources and leaves your draw state as it found it.</li>
+<li>The type is Cinzel and Alegreya (SIL Open Font Licence; notices included).</li>
+</ul>
+
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/muster-gamemaker">Muster</a>: the battlefield a tactics game fights on, drawn per encounter.</li>
+<li><a href="https://csaf.itch.io/crest-gamemaker">Crest</a>: factions and reputation with composed heraldry.</li>
+<li><a href="https://csaf.itch.io/armoury-gamemaker">Armoury</a>: weapons that forge themselves.</li>
+<li><a href="https://csaf.itch.io/drawn-in-code-gamemaker">Drawn in Code</a>: a free GameMaker sampler of three of our systems.</li>
+<li><a href="https://csaf.itch.io/warhost">Warhost</a>: the RPG Maker MZ edition of this battle system.</li>
+</ul>
+
+<p>Written with AI assistance: the code and the drawing are AI-assisted. Core Systems Asset Factory.</p>
