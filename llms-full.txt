@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 706 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 712 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-28T20:58:28.063Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-29T07:21:19.873Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1254,7 +1254,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 63 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 64 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1757,6 +1757,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/wade-liquid-and-submerged-movement · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/wade-liquid-and-submerged-movement/ · Paid
 
 135 sounds of water, indexed by how deep it is. Most packs answer "I need water footsteps" with a folder called water holding a handful of splashes.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Whelp to Elder: Monster Voices at Three Sizes
+
+Store: https://csaf.itch.io/whelp-to-elder-monster-voice-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/whelp-to-elder-monster-voice-sound-effects/ · Paid
+
+One monster, three sizes, one throat 360 monster voice sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): 12 fantasy creatures, each at 3 sizes (whelp, adult, elder), and every creature size has the same 6 states: an idle loop, alert, attack...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3002,7 +3010,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 79 products.
+GML systems and assets for GameMaker. 80 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3065,6 +3073,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/barrage-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/barrage-gamemaker/ · Paid · Engines: GameMaker
 
 Barrage is a bullet pattern system for GameMaker 2024.14 and later (built and gated on runtime 2024.14.4.268), written in pure GML, in which every projectile draws its own art from the pattern that fired it.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Battalia - Army Battles for GameMaker
+
+Store: https://csaf.itch.io/battalia-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/battalia-gamemaker/ · Paid · Engines: GameMaker
+
+Battalia is an army battle system for GameMaker 2024.14 in pure GML, with a runnable demo room.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4310,7 +4326,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 48 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 49 products.
 
 ### ANATOMIST
 
@@ -4461,6 +4477,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/headgate · Our page: https://onefreeman1337.github.io/csaf-releases/games/headgate/ · Paid · free browser demo on the page
 
 You are a resurveyor, sent to Sufferance to re-establish section corners that were lost in 1873. Where a monument still stands in both years, your transit sights through time.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### HEDGEMAGE
+
+Store: https://csaf.itch.io/hedgemage · Our page: https://onefreeman1337.github.io/csaf-releases/games/hedgemage/ · Paid · free browser demo on the page
+
+HEDGEMAGE is a short top-down wizard action game for Windows, with a free demo you can play in your browser on this page: the first area, THE RILL, and its boss.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5230,7 +5254,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Voice packs
 
-Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 18 products.
+Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page. 19 products.
 
 ### Arena Call 01: Fighting Game Announcer Voice Pack
 
@@ -5328,6 +5352,14 @@ A whole fantasy party, voiced: six heroes, six voices, every battle moment 156 s
 
 AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
+### Plunder 01: Pirate Crew Voice Pack
+
+Store: https://csaf.itch.io/plunder-01-pirate-crew-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/plunder-01-pirate-crew-voice-pack/ · Paid · free browser demo on the page
+
+A pirate captain and three crew, voiced for every event of a voyage 156 spoken lines by an invented pirate crew, each on its own built in voice: the captain, the first mate, the gunner and the lookout, with 39 lines each.
+
+AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
+
 ### Rogue Core 01: Hostile Facility AI Voice Pack
 
 Store: https://csaf.itch.io/rogue-core-01-hostile-facility-ai-voice-pack · Our page: https://onefreeman1337.github.io/csaf-releases/voice-packs/rogue-core-01-hostile-facility-ai-voice-pack/ · Paid · free browser demo on the page
@@ -5378,7 +5410,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 19 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 20 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5532,6 +5564,14 @@ A UI kit drawn in the Verdant tileset palette: mossy stone frames, leaf tufts, r
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Wellglass: Action RPG Orb HUD UI Kit (Health and Mana Orbs, Pixel + HD, 6 Engines)
+
+Store: https://csaf.itch.io/wellglass-action-rpg-orb-hud-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/wellglass-action-rpg-orb-hud-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Health and mana orbs that your engine fills, plus a full action RPG HUD to match Wellglass is an action RPG HUD kit: glass health and mana orbs shipped as layers your engine fills (socket, liquid, glass), 44 baked fill frames for engines without a vertical fill, skill sockets with an 8 frame...
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ## Godot 4 addons
 
 Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 18 products.
@@ -5682,7 +5722,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 3 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 4 products.
 
 ### Hollow Congregation: 14 PSX Cultist Characters (Rigged, Animated)
 
@@ -5705,5 +5745,13 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
 13 small-town night shift survivors for your PS1-style horror game: low poly, hand painted, rigged and animated, ready to walk into your fog.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### PSX Characters Sampler: 3 Free Low Poly 3D Characters (Rigged, Animated)
+
+Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
+
+PSX Characters Sampler is a free pack of 3 low poly PS1-style 3D characters for Godot 4, Unity and Unreal: a mechanic, a knight and a high priest.
 
 AI disclosure: AI Assisted, Code, Graphics
