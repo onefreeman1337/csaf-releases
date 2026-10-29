@@ -1,0 +1,29 @@
+<p><strong>Verdant Side Village</strong> is a 16x16 side-view platformer tileset for <strong>Godot 4</strong> and <strong>Tiled</strong>: three village biomes in one download, the Market Street (timber-framed houses with terracotta roofs you can run across), the Walk-In Homes (the inside of those same houses: cottage, tavern, shop and smithy) and the Farm Outskirts (a red barn, a thatch roof, a windmill and the fields). It holds 807 tiles in one 133 colour palette: 9 complete 47 shape autotile sets (6 solid, 3 back wall), 60 slope pieces at 45 and 22.5 degrees, one-way platforms, climbables, a hazard per biome, 69 kinds of object (8 animated), three parallax backgrounds per biome and a finished sample level for each. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.</p>
+<p><strong>The facades and the interiors are one kit.</strong> The interior wall is the facade's plaster one step lighter in the same oak frame, the hearthstone floor is the street's own stone, and the interior door is the street door seen from inside, so the door a player walks through on the street leads to a room that matches the house outside.</p>
+<p>It is the third volume of the side-view family after <a href="https://csaf.itch.io/verdant-side">Verdant Side</a> ($8.99) and <a href="https://csaf.itch.io/verdant-side-depths">Verdant Side Depths</a> ($8.99): the same grid, light and engine layer, so the volumes sit in one game. The Godot TileSet is ready to paint and play: collision on every solid tile and slope, one-way collision on the platforms, hazards on their own physics layer, a terrain set so Godot's own painter picks the right one of the 47 shapes, custom data (kind, climbable, hazard) and tile animations. Three sample scenes open with the level and its parallax already built. The Tiled tilesets carry the same collision shapes as tile objects, a terrain set for each autotile set, and the animations.</p>
+<h2>Three biomes</h2>
+<ul>
+<li><strong>The Market Street</strong> (258 tiles): cobbles with a dressed kerb, terracotta roof tiles carrying every slope, a plaster facade back wall whose own edges draw the oak frame, a striped market awning platform, an iron drainpipe to climb and a spiked iron railing, with a produce stall and a bakery stall, a well, an animated lamp post and fountain, four hanging trade signs, house and tavern doors, cottage and bay shop windows, oak beams, posts and braces to half-timber any facade, a handcart and bunting.</li>
+<li><strong>The Walk-In Homes</strong> (263 tiles): oak floorboards, hearthstone flags, a limewashed back wall, an upper floor on joists you jump up through, a loft ladder and hot coals in an iron fire bed (animated), with a cottage (bed, a hearth with a crackling fire, plate dresser, spinning wheel), a tavern (bar with brass taps, keg rack, a candle chandelier), a shop (counter with scales, shelves of goods) and a smithy (a glowing forge, anvil, grindstone, weapon rack, quench trough).</li>
+<li><strong>The Farm Outskirts</strong> (286 tiles): a spring meadow over tilled loam, golden thatch roofs carrying every slope, red barn boards in an oak frame, a hay loft platform, a rose trellis to climb and a thistle patch, with big barn doors and a hay door, a windmill whose sails turn, hay bales and a haystack, rows of wheat, cabbages, pumpkins and maize, sunflowers, a scarecrow, fences and a field gate, a chicken coop, an apple tree, a bee skep and butterflies. The crops are pictures of crop rows, not a crop growth system.</li>
+</ul>
+<h2>Measured on these files</h2>
+<ul>
+<li>Godot 4.7.2 loaded the TileSet from a subfolder of a blank project and built 720 of 720 atlas tiles exactly as declared. Its own terrain painter placed the right tile for 423 of 423 shapes. A CharacterBody2D made 36 runs: it walked up every slope both ways, jumped up through every one-way platform and landed on it, and fell through every hazard on the solid mask while the hazard mask found it.</li>
+<li>Tiled 1.12.2: its own renderer drew the three sample maps identical to ours, 460,800 pixels with 0 different.</li>
+<li>Every tile's wrap boundary is measured against its own interior, and every 4x4 repetition is rendered and reviewed (114 renders ship in the download). Grid, palette and autotile completeness are machine-proven.</li>
+</ul>
+<h2>Compatibility</h2>
+<ul>
+<li>Godot 4 (built and run on 4.7.2): copy the importers/Godot folder anywhere in your project. For the 45 degree slopes set your CharacterBody2D's floor_max_angle above 45 degrees.</li>
+<li>Tiled (opened by Tiled 1.12.2's own renderer): open sample_maps/*.tmx; the tilesets load by relative path.</li>
+<li>Any other engine: PNG sheets and single tiles, plus tiles.json with every tile's role, collision polygon, one-way flag and autotile mask.</li>
+<li>Not offered: RPG Maker MZ (a top-down engine) and GameMaker.</li>
+</ul>
+<h2>The same village, top-down</h2>
+<ul>
+<li><a href="https://csaf.itch.io/verdant-09-town">Verdant 09 Town: street, market and housefronts (top-down)</a>, $9.99</li>
+<li><a href="https://csaf.itch.io/verdant-42-market">Verdant 42 Market: shop interiors (top-down)</a>, $9.99</li>
+<li><a href="https://csaf.itch.io/verdant-73-tavern">Verdant 73 Tavern: taproom and inn (top-down)</a>, $9.99</li>
+</ul>
+<p><em>AI disclosure: every tile and parallax layer was drawn by CSAF's own procedural drawing code, written with AI. No image model, scraped art or third party dataset was used for the tiles. The cover illustration was generated with an OpenAI image model.</em></p>
