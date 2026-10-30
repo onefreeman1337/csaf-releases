@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 731 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-30T04:29:33.406Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-30T10:07:28.172Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -36,7 +36,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-03-worlds · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-03-worlds/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Three biomes, and every one of them joins the grass properly. Verdant 01 gave you a grassland. Verdant 02 gave it elevation.
+Verdant 03 Worlds is a 16x16 snow, desert and volcanic tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 330 tiles, each biome joining the Verdant grass.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -108,7 +108,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-12-scarp · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-12-scarp/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-414 tiles at 16x16. 7 complete 47-mask autotile sets, 18 objects, and the feature this series cut once and deferred for months: terrain that reads as being at two different heights, at sixteen pixels.
+Verdant 12 Scarp is a 16x16 elevation tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 414 tiles and an upland plateau that reads as raised. Royalty free for commercial games, with a free series sampler to try first.
 
 AI disclosure: AI Assisted, Code, Graphics
 
