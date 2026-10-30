@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 734 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 737 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-30T14:02:31.746Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-30T18:23:34.590Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -60,7 +60,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-06-gothic · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-06-gothic/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-356 tiles. 6 complete 47-mask autotile sets, 32 grounded props, 3 animated sets — and stained glass, which is the reason this pack looks like nothing else in the series.
+Verdant 06 Gothic is a 16x16 chapel and graveyard tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 356 tiles with stained glass, tombs and ruined walls.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -76,7 +76,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-08-mire · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-08-mire/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-A peat bog you can actually build a level in. 470 tiles, and 376 of them are the joins. Black tannin water you cannot cross. A mud bank you can.
+Verdant 08 Mire is a 16x16 swamp tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 470 tiles of black water, peat bank, duckweed, sedge and a plank causeway.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -84,7 +84,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-09-town · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-09-town/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-A market town you can lay out end to end — a cobbled high street, a market square, timber-framed housefronts under two kinds of roof, and hedged back gardens.
+Verdant 09 Town is a 16x16 market town tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 510 tiles of cobbled street, housefronts, two roofs and gardens.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -92,7 +92,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-10-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-10-harbour/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-581 tiles. Ten complete 47-mask autotile sets, 28 harbour objects each shipping two or three times, animated water — and a port built as ONE place rather than as four packs you have to reconcile.
+Verdant 10 Harbour is a 16x16 harbour tileset for RPG Maker MZ, Tiled and Godot 4: 581 tiles of granite quay, plank wharf, warehouses and dock gear. Royalty free for commercial games, with a free series sampler to try first.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -116,7 +116,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-13-castle · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-13-castle/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-603 tiles at 16x16. 11 complete 47-mask autotile sets, 18 objects, 2 animated sets — and a battlement that runs unbroken along a wall of any length, in every direction.
+Verdant 13 Castle is a 16x16 castle tileset for RPG Maker MZ, Tiled and Godot 4: 603 tiles of curtain wall, keep, moat and gatehouse. Royalty free for commercial games, with a free series sampler to try first.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -332,7 +332,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-40-atlas · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-40-atlas/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-A world map drawn like a chart, and the same map in natural colour. 700 tiles at 16x16: every tile exists twice, once on parchment and once in natural colour, drawn once so the two line up exactly.
+Verdant 40 Atlas is a 16x16 world map tileset for RPG Maker MZ, Tiled and Godot 4: 700 tiles, each drawn once as a parchment chart and once in natural colour.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1294,7 +1294,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 66 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 67 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1325,6 +1325,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/backward-reversed-and-uncanny-cues · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/backward-reversed-and-uncanny-cues/ · Paid
 
 A developer asked for this, tried to build it, and could not.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Balloon: 120 Emote Sound Effects
+
+Store: https://csaf.itch.io/balloon-emote-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/balloon-emote-sound-effects/ · Paid
+
+Balloon is a pack of 120 emote sound effects for RPG Maker MZ and any game engine: a cue for every speech balloon, in 4 matched voices. Royalty free for commercial games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1826,7 +1834,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 43 products.
+Game music packs. Formats and track counts are stated on each store page. 44 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1873,6 +1881,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/bright-and-cute · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/bright-and-cute/ · Paid
 
 Bright & Cute is a 44 track score for casual, puzzle and match 3 games: the title, the menu, the level map, eight level themes, the shop, the idle screen, the pause, the results, the bonus round and the short cues a casual game fires all day.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Compliance: 44 Track Dystopia Music Pack
+
+Store: https://csaf.itch.io/compliance · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/compliance/ · Paid
+
+Compliance is a 44 track corporate dystopia music pack for any game engine: one megacorp building, from the welcome video to the fire exit.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5702,7 +5718,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 20 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 21 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -5821,6 +5837,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/smithereens-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/smithereens-godot/ · Paid · Engines: Godot
 
 Smithereens: 48 2D breakables for Godot 4 that break the way their material would A pot bursts into curved sherds. A crate splits into planks along its grain.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Threshold: 48 Door and Chest Openings for Godot 4
+
+Store: https://csaf.itch.io/threshold-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/threshold-godot/ · Paid · Engines: Godot
+
+Threshold is a Godot 4.7 addon with 48 door, gate and chest openings, each drawn at runtime from the pixels of your own tile. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
