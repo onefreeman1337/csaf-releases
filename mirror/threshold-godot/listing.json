@@ -1,0 +1,27 @@
+{
+  "title": "Threshold: 48 Door and Chest Openings for Godot 4",
+  "slug": "threshold-godot",
+  "priceUSD": 9.99,
+  "priceTier": "default",
+  "classification": "assets",
+  "aiDisclosure": {
+    "code": "yes",
+    "graphics": "yes",
+    "sounds": "no",
+    "text": "no"
+  },
+  "shortText": "48 door, gate and chest openings for Godot 4, drawn from your own tiles.",
+  "tags": [
+    "godot",
+    "godot-4",
+    "gdscript",
+    "2d",
+    "procedural",
+    "tilemap",
+    "pixel-art",
+    "animation",
+    "top-down",
+    "fantasy"
+  ],
+  "html": "<p><strong>Threshold is a Godot 4.7 addon with 48 door, gate and chest openings, each drawn at runtime from the pixels of your own tile.</strong> Royalty free in your games. A free MIT lite with 12 presets is on this page.</p>\n<p>Your door tile swings, your chest lid tips, your portcullis ratchets up on its chains. Threshold reads the tile once and rebuilds every frame from it, so there are no sprite sheets to draw. Closed, the tile is exactly as you drew it.</p>\n<pre><code>var door := ThresholdDoor2D.new()\ndoor.texture = preload(\"res://art/my_door.png\")\ndoor.style = ThresholdLibrary.get_style(\"plank-swing\")\nadd_child(door)\ndoor.open()</code></pre>\n<h3>Mark a tile and it opens</h3>\n<p>Add a <code>threshold</code> custom data layer to your TileSet and type a word on the door tile: <code>door</code>, <code>double</code>, <code>portcullis</code>, <code>hatch</code>, <code>chest</code>. <strong>ThresholdLayer2D</strong> turns every marked tile on your TileMapLayer into a door, and neighbours with the same word open as one. A door painted on a wall tile? <code>door@4,4,8,11</code> moves only that rectangle.</p>\n<p>Set <code>cast_light</code> and an open door throws a real light under your night.</p>\n<h3>What is inside</h3>\n<ul>\n<li><strong>Doors and windows (20):</strong> hinged, double, bifold, sliding, roller shutters, and doors that burn, shatter, dissolve or pour out as sand.</li>\n<li><strong>Gates and lifts (11):</strong> a ratcheting portcullis, gates that melt, sink and decrypt, blast doors.</li>\n<li><strong>Hatches (5):</strong> trapdoors, an irising wheel hatch, a sarcophagus lid.</li>\n<li><strong>Chests and drawers (12):</strong> lids that tip, slide and pop, coins, rays, bubbles and a mimic.</li>\n</ul>\n<p>25 motions, 7 interiors and 16 effects, each a field on a style resource: a recolour or a slower swing is a slider, and any style works on any tile.</p>\n<h3>Both renderers</h3>\n<p>Every preset is checked under <strong>Forward+</strong> and <strong>Compatibility</strong>, the renderer web exports use. Godot 4.7.2, GDScript only; older versions were not run and are not claimed.</p>\n<h3>Free lite</h3>\n<p><strong>Threshold Lite</strong> is free (MIT, except the demo tiles): 12 of the 48 presets, the same nodes and the demo.</p>\n<h3>Install</h3>\n<p>Copy <code>addons/threshold</code> into your project. Open the <code>godot</code> folder and press Play to walk the demo street.</p>\n<h3>Licence</h3>\n<p><strong>Royalty free in your games, no credit required.</strong> You may not resell or redistribute the files as a pack, addon or template.</p>\n<p><em>Made with AI tools: the scripts, styles and demo were written with AI, the demo tiles come from our own generated tilesets and the cover was made by an AI image model.</em></p>\n<h3>More from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/godot-sampler\">CSAF Godot 4 Sampler</a>, free presets from our addons.</li>\n<li><a href=\"https://csaf.itch.io/smithereens-godot\">Smithereens for Godot 4</a>, breakables cut from your sprite.</li>\n<li><a href=\"https://csaf.itch.io/wrack-godot\">Wrack for Godot 4</a>, ruin and burn your TileMapLayer.</li>\n<li><a href=\"https://csaf.itch.io/lantern-godot\">Lantern for Godot 4</a>, 2D lighting.</li>\n<li><a href=\"https://csaf.itch.io/verdant-openables\">Verdant Openables</a>, the demo's doors and chests as a tileset.</li>\n<li>The same idea for RPG Maker MZ: <a href=\"https://csaf.itch.io/threshold\">Threshold</a> and <a href=\"https://csaf.itch.io/ajar\">Ajar</a>.</li>\n</ul>"
+}
