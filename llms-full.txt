@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 737 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-30T18:23:34.590Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-30T20:22:34.748Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -340,7 +340,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-41-taiga · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-41-taiga/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-The boreal forest in winter.
+Verdant 41 Taiga is a 16x16 winter forest tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 345 tiles of snow, spruce, frozen river, lichen and bog.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -724,7 +724,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-props · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-props/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-70 props. 194 tiles. 7 ground materials. 3 animated sets. A clutter pack for 16×16 top-down games — the things you put on the ground once the ground is done.
+Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 70 props across 10 biomes, each on transparency and on its own ground.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5916,7 +5916,7 @@ Greyhollow is a pack of 14 low poly PS1-style medieval townsfolk characters for 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hollow Congregation: 14 PSX Cultist Characters (Rigged, Animated)
+### Hollow Congregation: 14 Animated PSX Cultist Characters
 
 Store: https://csaf.itch.io/hollow-congregation-psx-cultists · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollow-congregation-psx-cultists/ · Paid · Engines: Blender
 
