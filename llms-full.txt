@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 731 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 734 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-30T10:07:28.172Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-30T14:02:31.746Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 96 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 97 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -68,7 +68,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-07-interiors · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-07-interiors/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-386 tiles. Six complete 47-mask autotile sets, 22 props that each ship twice, and three animated light sources. Verdant 01 gave you a grassland. 05 took you underground.
+Verdant 07 Interiors is a 16x16 interior tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 386 tiles for an inn, a cottage, a workshop, a chapel and a study.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -140,7 +140,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-16-east-asian · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-16-east-asian/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-Verdant 16 East Asian Village is a 16x16 pixel art tileset of a Japanese village: a shrine approach, terraced rice paddies, village houses, matted interiors and a bamboo grove, for RPG Maker MZ, Tiled and Godot 4.
+Verdant 16 East Asian Village is a 16x16 Japanese village tileset for RPG Maker MZ, Tiled and Godot 4: 678 tiles of shrine approach, rice paddies and houses.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -188,7 +188,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-22-sewers · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-22-sewers/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-689 tiles at 16x16.
+Verdant 22 Sewers is a 16x16 Victorian sewer tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 689 tiles of brick vault, flowing channel and iron grate.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -196,7 +196,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-23-ruins · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-23-ruins/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-698 tiles at 16x16.
+Verdant 23 Ruins is a 16x16 classical ruin tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 698 tiles for a colonnade, a mosaic plaza and overgrown courts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -204,7 +204,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-24-desert · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-24-desert/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-640 tiles at 16x16.
+Verdant 24 Desert Kingdom is a 16x16 desert town tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 640 tiles of mudbrick wall, sandstone court and oasis.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -652,7 +652,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-forge-tileset-generator · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-forge-tileset-generator/ · Paid
 
-Verdant Forge is a tileset generator you run yourself. Open one HTML file in a browser — no install, no account, no internet, no Node, no Python, no build step — pick a palette, and export a complete, ready-to-import pack.
+Verdant Forge is a pixel art tileset generator for Tiled, Godot 4 and RPG Maker MZ: one HTML file builds 428 tile overworld and interior packs in 8 palettes.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -749,6 +749,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-side-depths · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side-depths/ · Paid · Engines: Tiled, Godot
 
 Verdant Side Depths is a 16x16 side-view platformer tileset for Godot 4 and Tiled: three underworld biomes in one download, the Infernal Halls (lava and brimstone), the Desert Tomb (from the dunes down into a pyramid) and the Crypt (a graveyard and the catacomb under it).
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant Side Sampler: 214 Free Platformer Tiles [16x16]
+
+Store: https://csaf.itch.io/verdant-side-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side-sampler/ · Free · pay what you want · Engines: Tiled, Godot
+
+Verdant Side Sampler is 214 free 16x16 side-view platformer tiles for Godot 4 and Tiled, cut from the three paid Verdant Side volumes. Free for commercial use, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2166,7 +2174,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 116 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 117 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2429,6 +2437,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/elytra · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/elytra/ · Paid · Engines: RPG Maker
 
 Your bestiary already has beetles in it. Elytra draws them — a distinct specimen for every creature your project declares, built from a row you already wrote and rendered at run time.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Emaki: 10 Painted Scroll Scenes for RPG Maker MZ
+
+Store: https://csaf.itch.io/emaki · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/emaki/ · Paid · Engines: RPG Maker
+
+Emaki is an RPG Maker MZ plugin that paints what the player did as a Japanese handscroll: 16 figures, 10 compositions and 6 pigment sets, all drawn in code.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5850,7 +5866,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 7 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 8 products.
 
 ### Deep Station: 14 PSX Space Horror Crew (Rigged, Animated)
 
@@ -5897,6 +5913,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
 13 small-town night shift survivors for your PS1-style horror game: low poly, hand painted, rigged and animated, ready to walk into your fog.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Pale Hours: 14 Animated PSX Ghost Characters
+
+Store: https://csaf.itch.io/pale-hours-psx-ghosts · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/pale-hours-psx-ghosts/ · Paid · Engines: Blender
+
+Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
