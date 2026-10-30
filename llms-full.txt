@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 726 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 731 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-29T23:04:40.078Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-30T03:49:11.658Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -778,7 +778,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 62 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 63 products.
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
@@ -937,6 +937,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/hearthhands-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-sampler/ · Free · pay what you want
 
 Six free villager sprites for top-down RPGs and town or farming games, taken file for file from the six paid Hearthhands character packs: a farmer (Hearthhands 01), a fishmonger (02), a town crier (03), a pinafore girl (04), a salt raker (05) and a villager in a pumpkin-head costume (Hallowtide).
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hearthhands Side: Town, Keep and Road
+
+Store: https://csaf.itch.io/hearthhands-side-town-keep-road · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-side-town-keep-road/ · Paid
+
+29 medieval townsfolk sprites for side-scrolling games. A pixel art character pack for platformers, brawlers and side-view RPGs: the town trades, the keep household and its guards, and the folk of the road and the tavern.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1278,7 +1286,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 65 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 66 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1768,6 +1776,14 @@ Typewriter and handwriting text sounds 143 text sounds for dialogue that is writ
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Undertow: Fishing Horror Sound Effects
+
+Store: https://csaf.itch.io/undertow-fishing-horror-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/undertow-fishing-horror-sound-effects/ · Paid
+
+Fishing at night, when something is down there 112 fishing horror sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): the fishing loop scored for dread.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Unseen: Stealth Sound Effects
 
 Store: https://csaf.itch.io/unseen-stealth-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/unseen-stealth-sound-effects/ · Paid
@@ -1802,7 +1818,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 42 products.
+Game music packs. Formats and track counts are stated on each store page. 43 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -2017,6 +2033,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/spooky-season · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/spooky-season/ · Paid
 
 Spooky Season is a 44 track Halloween score for games: the trick-or-treat lane and the pumpkin patch, a haunted manor room by room, the churchyard and the crypt, a battle set, the headless horseman and the witching hour.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### The Blight: 44 Track Folk Horror Music Pack
+
+Store: https://csaf.itch.io/the-blight · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-blight/ · Paid
+
+The Blight is a 44 track folk horror music pack for any game engine: a plague village and a witch trial, from May Day to the ashes, in five acts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5104,7 +5128,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/rootbound · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/rootbound/ · Free
 
-A plant that thrives grows big, and a big plant shades, drains and sours the ground around it. The bed you laid out perfectly stops working because it worked.
+ROOTBOUND is a free browser garden simulation with 12 real plant species, where every plant that thrives shades, drains and sours the ground around it.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5482,7 +5506,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 21 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 22 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5497,6 +5521,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/bone-and-brass-dark-fantasy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/bone-and-brass-dark-fantasy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A grim dark fantasy interface: heavy bone frames, iron panels, tarnished brass, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Bookbinder: Grimoire, Bestiary and Field Journal Book UI Kit
+
+Store: https://csaf.itch.io/bookbinder-grimoire-bestiary-and-field-journal-book-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/bookbinder-grimoire-bestiary-and-field-journal-book-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Three book UIs in one kit: a spellbook, a monster bestiary and an explorer's field journal Bookbinder is a book and journal UI kit for RPGs and adventure games: three complete books, the Grimoire, the Bestiary and the Field Journal, each with 83 widgets in 183 widget states, in pixel mode and HD...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5818,7 +5850,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 6 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 7 products.
+
+### Deep Station: 14 PSX Space Horror Crew (Rigged, Animated)
+
+Store: https://csaf.itch.io/deep-station-psx-space-horror-crew · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/deep-station-psx-space-horror-crew/ · Paid · Engines: Blender
+
+Deep Station is a pack of 14 low poly PS1-style sci-fi horror characters for Godot 4, Unity and Unreal.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Fort Vale: 14 PSX Modern Soldier Characters (Rigged, Animated)
 
