@@ -1,0 +1,40 @@
+<p><strong>Emaki is an RPG Maker MZ plugin that paints what the player did as a Japanese handscroll: 16 figures, 10 compositions and 6 pigment sets, all drawn in code.</strong></p>
+<p><img src="{{IMG:emaki_unroll.gif}}" alt="Emaki: a scroll opening on a lacquer table, then unrolled through three painted acts"></p>
+<p>Commercial use in your games is included, and no art is needed: the plugin draws every figure, cloud, roof, wave and brushed letter itself. Each act your game marks becomes a scene in ink line and flat mineral colour between bands of gold cloud, with the act's own words brushed on a text sheet beside it. The player unrolls the scroll from right to left on a lacquer table, and it grows as the game goes on.</p>
+<h3>Your words choose the picture</h3>
+<p>Type an act into the Paint an act command, or tie it to a switch or a variable your game already uses. Emaki reads the words for a composition, a cast and a season.</p>
+<ul>
+<li><strong>Composition:</strong> audience, vow, procession, battle, crossing, siege, labour, banquet, judgement or pilgrimage. "The siege of Akasaka keep" gets a palisade and a watchtower.</li>
+<li><strong>Cast:</strong> name someone and they are in the picture. "The monk and the fox" has both. The demon appears only when the words call for him, so a straight samurai story never meets him.</li>
+<li><strong>Season:</strong> "The first snow at the border gate" is painted in the snow set, with the snow falling.</li>
+</ul>
+<p>It reads words, not sentences, so "The bridge at Uji" has no bridge. You can always choose the composition and the pigment set yourself.</p>
+<p><img src="{{IMG:words_board.png}}" alt="Three plugin commands beside the three acts they paint"></p>
+<h3>What is on the scroll</h3>
+<ul>
+<li><strong>Sixteen figures,</strong> each with its own silhouette: lord, retainer, court lady, mounted warrior, monk, farmer, boatman, archer, messenger, child, elder, demon, fox, merchant, shrine maiden and swordsman.</li>
+<li><strong>Five grounds:</strong> bare paper, pine shore, waves, a mountain path, and the temple floor seen from above with its roof blown away, the way the old scrolls draw interiors.</li>
+<li><strong>Six pigment sets:</strong> mineral colour, ink and wash, gold leaf, autumn with leaves in the air, snow, and an aged scroll browned and foxed.</li>
+<li><strong>A brushed hand</strong> for your titles, 26 letters and 10 digits written stroke by stroke, and a vermilion seal on every act.</li>
+</ul>
+<p><img src="{{IMG:pigments_board.png}}" alt="One act painted in all six pigment sets"></p>
+<h3>Built for a real save file</h3>
+<p>Each act is painted once and frozen into the save, so a later update can never repaint a scroll a player already has. A scroll keeps from 4 to 200 acts (40 by default), and the next act is painted a slice per frame before it comes into view.</p>
+<!--COMPAT:start-->
+<hr>
+<h3>Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> <code>EmakiRender.js</code>, <code>EmakiCorpus.js</code>, <code>EmakiFigure.js</code>, <code>EmakiScroll.js</code>, <code>EmakiScene.js</code>, <code>EmakiBind.js</code>.</p>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Each file finds the others the first time it needs them, so any order works, including <code>EmakiBind.js</code> first (the order the in-engine and fresh-install tests load them in).</p>
+<p><strong>Core methods extended: 2 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_Switches.prototype.onChange</code>, <code>Game_Variables.prototype.onChange</code>.</p>
+<p>Because nothing is clobbered, Emaki co-exists with other plugins that patch the same seams, including large suites.</p>
+<hr>
+<!--COMPAT:end-->
+<p><strong>In the download:</strong> six raw, readable JavaScript files, a Readme listing every word the plugin listens for, and a licence for commercial use with no royalty. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/emaki/README.md">Read the full documentation before you buy.</a></p>
+<h3>From the same studio</h3>
+<ul>
+<li><a href="https://csaf.itch.io/arras">Arras</a>: the same idea woven as a Norman hanging, for a European setting.</li>
+<li><a href="https://csaf.itch.io/barrow">Barrow</a>: every death carves its own marker.</li>
+<li><a href="https://csaf.itch.io/chronicle-core">Chronicle Core</a>: branching quests, choices and faction reputation.</li>
+</ul>
+<p><em>Written with AI assistance: the code, the graphics, the store images and the cover were made with AI tools. It contains no audio and no narrative text of its own.</em></p>
