@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 731 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-30T03:49:11.658Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-30T03:58:55.644Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -5900,10 +5900,10 @@ Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefre
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 5 Free Low Poly 3D Characters (Rigged, Animated)
+### PSX Characters Sampler: 6 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is a free pack of 5 low poly PS1-style 3D characters for Godot 4, Unity and Unreal: a mechanic, a knight, a high priest, a rifleman and an innkeeper.
+PSX Characters Sampler is 6 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
