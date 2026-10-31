@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 740 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 745 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T06:25:46.094Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T10:41:38.237Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -794,13 +794,21 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 63 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 64 products.
+
+### Cart & Keel: 25 Medieval Cart, Wagon and Boat Sprites
+
+Store: https://csaf.itch.io/cart-and-keel · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/cart-and-keel/ · Paid
+
+Cart & Keel is 25 pixel art medieval vehicle sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: carts, wagons, riverboats and small ships.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Deepwarren 01 — The Living Dark, 160x160 dungeon monster sprites
 
 Store: https://csaf.itch.io/deepwarren-01-the-living-dark · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-01-the-living-dark/ · Paid
 
-Twelve dungeon creatures in four true directions, and every one of them strikes, flinches and dies.
+Deepwarren 01 is 12 dungeon monster sprites at 160 and 80 px with idle, walk, strike, hurt and death, as PNG sheets for Godot, Unity or GameMaker. Royalty free, with a free sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -896,7 +904,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthhands-01-the-working-day · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-01-the-working-day/ · Paid
 
-Nine village tradesfolk who actually do their job. Almost every top-down character pack ships an idle and a walk. That is a crowd, not a village: the blacksmith stands in his forge with his arms by his sides.
+Hearthhands 01 is 9 villager sprites at 200 and 100 px with idle, walk and a work loop, with RPG Maker MZ and Godot 4 files. Royalty free, with a free sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1016,7 +1024,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/lantern-and-tallow-pixel-fonts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/lantern-and-tallow-pixel-fonts/ · Paid
 
-Two original pixel fonts drawn as a pair for role-playing game screens. Tallow is the dialogue face for text boxes, menus, item names and numbers (native 14 px).
+Lantern and Tallow is 2 original pixel fonts for JRPG screens, for Godot and any engine that reads.fnt or.ttf, with 197 characters each. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1302,7 +1310,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 67 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 68 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1500,7 +1508,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/footfall-footstep-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/footfall-footstep-sfx/ · Paid
 
-One foot, 12 grounds 576 footsteps indexed the way a footstep system asks for them: surface x gait x weight, with 4 takes in every cell, plus 12 seamless walking loops.
+Footfall is 576 footstep sound effects for Unity, Godot, Unreal, GameMaker and the web, on 12 surfaces at 4 gaits and 3 weights. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1516,7 +1524,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/haulage-vehicle-motor-machine-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/haulage-vehicle-motor-machine-sfx/ · Paid
 
-Every motor in this pack ships a load ladder — three or four seamless loops rendered from the same body — instead of one engine loop you have to pitch-shift and hope.
+Haulage is 150 engine, vehicle and machine sound effects for Unity, Godot, GameMaker, Unreal and the web, and every motor ships a load ladder. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1572,7 +1580,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/jianghu-wuxia-xianxia-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/jianghu-wuxia-xianxia-sound-effects/ · Paid
 
-A complete sound suite for a wuxia or xianxia RPG 133 sounds built from one palette of jade, porcelain, lacquered wood, iron, silk and paper: menus, dialogue, the jian and the dao, martial arts, the Five Phases, cultivation, the flying sword, formations and talismans, rewards, encounters,...
+Jianghu is 133 wuxia and xianxia sound effects for Unity, Godot, Unreal and GameMaker, built from one palette of jade, iron, silk and qi. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1776,6 +1784,14 @@ Every ability gate, from refusal to the way through 104 metroidvania sound effec
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Tilt: 184 Pinball and Pachinko Sound Effects
+
+Store: https://csaf.itch.io/tilt-pinball-and-pachinko-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/tilt-pinball-and-pachinko-sound-effects/ · Paid
+
+Tilt is 184 pinball and pachinko sound effects for Unity, Unreal, Godot, GameMaker and any game engine: one wooden table and one pachinko machine. Royalty free for commercial games, no credit required.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Trail, Ranch and Fort: Western Sound Effects
 
 Store: https://csaf.itch.io/trail-ranch-and-fort-western-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/trail-ranch-and-fort-western-sound-effects/ · Paid
@@ -1976,7 +1992,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthmoot · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/hearthmoot/ · Paid
 
-Forty-two tracks for the rooms a campaign actually spends its hours in. Not another combat pack: this is the village.
+Hearthmoot is a 42 track folk village music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2000,7 +2016,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/jade-mountains · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/jade-mountains/ · Paid
 
-Jade Mountains is a 44 track score for wuxia and martial arts games: the sect hall, the training courtyard, the market town and the teahouse, the mountain road and the bamboo forest, duels, battles and bosses, and the cues a game fires all day.
+Jade Mountains is a 44 track wuxia music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops. Royalty free, with 3 free tracks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2324,7 +2340,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/bout · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bout/ · Paid · Engines: RPG Maker
 
-A one-on-one fighting game, inside your RPG. Bout is a real-time duel scene for RPG Maker MZ.
+Bout is a 3 file RPG Maker MZ plugin: a real-time 1v1 fighting game where your actors fight in 5 arenas with specials made from their own skills. Royalty free in commercial games, with no new art to add.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2404,7 +2420,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/cloudshadow · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cloudshadow/ · Paid · Engines: RPG Maker
 
-Weather your map already knows it should have. Cloudshadow builds the sky above your map and draws the shadow it casts on the ground below.
+Cloudshadow is a 2 file RPG Maker MZ plugin that reads your map and casts 5 kinds of cloud sky, with a shadow that lands differently on water, roof and grass.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2452,7 +2468,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/derby · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/derby/ · Paid · Engines: RPG Maker
 
-A race meeting your players can bet on. They read the race card (every runner's form, the going it likes, its silks and its price), put gold on a runner to Win or to Place, and watch the race run on a drawn garden course.
+Derby is a snail racing and betting minigame for RPG Maker MZ with 5 drawn courses and a photo finish. Royalty free in your games, one plugin command to open.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2476,7 +2492,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/embrace · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/ · Paid · Engines: RPG Maker
 
-Two of your characters, touching.
+Embrace is a plugin for RPG Maker MZ with 9 pair poses, made from two characters' own walking sheets: hugs, kisses, hand holding and carries. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2492,7 +2508,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/epistolary · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/epistolary/ · Paid · Engines: RPG Maker
 
-Your game already delivers letters. It delivers them as a text box. Epistolary turns every letter, writ, ledger page and ransom note into a physical document the player looks at.
+Epistolary is a plugin for RPG Maker MZ that draws every letter as a physical document, with 12 hands and 240 wax seals, and lets the player catch forgeries.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2500,7 +2516,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/escapement · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/escapement/ · Paid · Engines: RPG Maker
 
-A locked door in RPG Maker is usually a switch and a line of text.
+Escapement is a clockwork gear puzzle plugin for RPG Maker MZ with 4 payoffs, 5 metals and 5 grades, generated from a seed and always solvable. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2524,7 +2540,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fathom · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fathom/ · Paid · Engines: RPG Maker
 
-Your own maps, under the sea. One notetag, and the plugin draws the rest. RPG Maker MZ has no underwater mode.
+Fathom is a plugin for RPG Maker MZ that puts your own maps under the sea from one notetag, with caustics, light shafts and 48 drawn sea creatures. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3146,7 +3162,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 80 products.
+GML systems and assets for GameMaker. 81 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3312,7 +3328,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/cloudshadow-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/cloudshadow-gamemaker/ · Paid · Engines: GameMaker
 
-The shadows of passing clouds, drifting across your rooms. Cloudshadow reads the room you already built (which cells are water, roof, cliff, wall or open ground) and draws the weather's shadow over it every frame, as one quad.
+Cloudshadow is a GameMaker package that reads your room and draws 13 skies of drifting cloud shadow over it, every frame, as one quad. Use it in unlimited commercial or free games, with a painted demo room in the download.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3417,6 +3433,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/grimoire-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/grimoire-gamemaker/ · Paid · Engines: GameMaker
 
 Your spell list needs an icon per spell. This one draws them. Every magic system you can buy hands you the data structure and the cooldown timer, then asks you for the art.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Halation: 80 Lens Flare Designs for GameMaker
+
+Store: https://csaf.itch.io/halation-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/halation-gamemaker/ · Paid · Engines: GameMaker
+
+Halation is a lens flare system for GameMaker 2024.14 with 80 designs: 8 lens kits by 10 light kinds, every ghost, spike and ring drawn in pure GML.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3552,7 +3576,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/meridian-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/meridian-gamemaker/ · Paid · Engines: GameMaker
 
-Your skill tree needs forty icons. This one draws them. Every progression system you can buy hands you the graph and the points economy, and then asks you for an icon per node.
+Meridian is a skill tree system for GameMaker that draws its own 480 icons, from 60 motifs in 8 discipline palettes, with 4 layouts and full progression.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4462,7 +4486,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 49 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 50 products.
 
 ### ANATOMIST
 
@@ -4637,6 +4661,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/lanternbound · Our page: https://onefreeman1337.github.io/csaf-releases/games/lanternbound/ · Paid · free browser demo on the page
 
 LANTERNBOUND is a short turn-based JRPG in an SNES-era style: a party of three, one oil lantern that burns down the whole time you are out, and a moor road whose lamps have gone dark.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### LAST CART OUT
+
+Store: https://csaf.itch.io/last-cart-out · Our page: https://onefreeman1337.github.io/csaf-releases/games/last-cart-out/ · Free
+
+LAST CART OUT is a one-thumb HTML5 mine cart escape you play in the browser: six levels, 26 bends, and a mine coming down behind you. It is free, it runs on a phone with nothing to install, and a clean run takes a little over two minutes.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5232,7 +5264,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/sidings · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/sidings/ · Free
 
-A single line, a winter timetable, and one train at a time. Every other train game asks you to make the railway bigger. This one is about the thing that actually decides what a railway can carry: a single track holds one train at a time.
+SIDINGS is a free browser signalling sim of one winter railway: 5 places, 4 block sections, 7 tiers of signalling to buy, and one train allowed per section.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5554,7 +5586,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 22 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 23 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5600,7 +5632,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/codex-pages-book-and-journal-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/codex-pages-book-and-journal-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A book and journal UI kit: open spreads, page turns, ribbons and quest logs, ready for six engines 83 widgets in 183 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Codex Pages is an 83 widget book and journal UI kit in pixel and HD, with files for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Royalty free in your games, and a free sampler ships on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5681,6 +5713,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/phone-line-visual-novel-phone-and-chat-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/phone-line-visual-novel-phone-and-chat-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A phone and chat UI kit for visual novels: a handset, chat bubbles, conversation rows and a lock screen, ready for six engines Phone Line is a pixel art phone and chat UI kit for visual novels and story games, with 102 widgets in 186 widget states, in pixel mode and HD mode, with files for...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Proscenium: 9 Title, Settings, Save Screens, Godot UI Kit
+
+Store: https://csaf.itch.io/proscenium-title-settings-and-save-screen-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/proscenium-title-settings-and-save-screen-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Proscenium is a UI kit for Godot 4 with 9 runnable menu screens (title, settings, pause, save and more) and 89 widgets in pixel and HD.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5952,7 +5992,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ironvale-psx-fantasy-adventurers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/ironvale-psx-fantasy-adventurers/ · Paid · Engines: Blender
 
-A party of 14 fantasy adventurers for your PS1-style RPG: low poly, hand painted, rigged and animated, ready to walk out of the tavern and into the dungeon.
+Ironvale is 14 low poly PSX fantasy characters for Godot, Unity and Unreal, with 3 palette skins and 45 animation clips each. Royalty free, with a free sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
