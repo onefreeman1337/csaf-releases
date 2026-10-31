@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 737 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 739 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T00:24:03.660Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T02:23:16.941Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 97 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 98 products.
 
 ### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
 
@@ -664,6 +664,14 @@ Verdant GB is a 16x16 Game Boy style tileset for GB Studio, Tiled, Godot 4, RPG 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant GBC: Route, Cave and Town Tileset [16x16]
+
+Store: https://csaf.itch.io/verdant-gbc · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-gbc/ · Paid · Engines: Unity, Tiled, Godot
+
+Verdant GBC is a 16x16 Game Boy Color tileset for GB Studio, Tiled, Godot 4, RPG Maker MZ and Unity: 794 tiles, in four seasons that differ by palette alone.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Harvestables — 45 Props in 12 Harvest Chains [16x16]
 
 Store: https://csaf.itch.io/verdant-harvestables · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-harvestables/ · Paid · Engines: RPG Maker, Tiled, Godot
@@ -848,7 +856,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/farmstead-01-byre-and-barn · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-01-byre-and-barn/ · Paid
 
-Six farm animals and the two hands who keep them. A dairy cow, a sow, a ewe, a billy goat, a rooster and a gander, with a milkmaid and a stablehand at the same world scale.
+Farmstead 01 is 8 top down farm sprites, 6 animals and 2 farmhands, with files for RPG Maker MZ and Godot 4 at 144 and 72 px. Commercial use, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -968,7 +976,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-02-actions-rest-and-play · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-02-actions-rest-and-play/ · Paid
 
-Kithfell 02 gave the house pets their idle and their walk. This pack gives them their downtime.
+Kithfell 02 Actions is 9 top down pet sprites that lie down, sleep and eat in 4 directions, with Godot 4 files at 128 and 64 px. Free sample. The pets going from sitting to resting and eating.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -976,7 +984,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-02-house-pets · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-02-house-pets/ · Paid
 
-Nine house pets for a top-down game: three cats, three dogs, a rabbit, a ferret and a hedgehog. Pack #2 of Kithfell, our animal series: one palette, one 128px cell, one ground line.
+Kithfell 02 is 9 top down house pet sprites: 3 cats, 3 dogs, a rabbit, a ferret and a hedgehog, with RPG Maker MZ and Godot 4 files at 128 and 64 px. Free sample.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1216,7 +1224,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-01-the-party · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-01-the-party/ · Paid
 
-Characters your player IS, not ones they fight Wildmark is a new numbered series, and it starts with the party.
+Wildmark 01 is 4 top down hero sprites, an elf, a warrior, a mage and a rogue, with RPG Maker MZ and Godot 4 files at 128 and 64 px. Free sample. The walk cycle.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1248,7 +1256,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-actions-01 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-01/ · Paid
 
-You bought a character pack and it shipped an idle and a walk. Then you needed the character to hit something, take a hit, and die, and it was not in the download.
+Wildmark Actions 01 is strike, hurt and death sprites for 4 top down heroes in 3 directions, with Godot 4 files at 128 and 64 px. Free sample. The strike.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1468,7 +1476,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/escapement-clockwork-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/escapement-clockwork-sfx/ · Paid
 
-Everything in this pack is the same machine, in the same room.
+Escapement is 109 clockwork, steam and machine sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1548,7 +1556,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthlight-cozy-farming-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hearthlight-cozy-farming-sound-effects/ · Paid
 
-Every crop from the seed to the basket 107 cozy farming sound effects: 8 crops, and every one ships the same 5 stage chain, from planting to the harvest coming off, each crop harvested its own way.
+Hearthlight is 107 cozy farming sound effects for RPG Maker, Godot, Unity, GameMaker or Unreal: 8 crops from planting to harvest. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1740,7 +1748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/squall-weather-systems · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/squall-weather-systems/ · Paid
 
-104 sounds of weather, built to be mixed rather than chosen. Most weather packs give you rain_light and rain_heavy and leave you to crossfade between them.
+Squall is 104 weather sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal: 8 systems of layers you mix. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2644,7 +2652,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/jigsaw · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/jigsaw/ · Paid · Engines: RPG Maker
 
-Any picture in your game becomes a jigsaw puzzle the player puts together on a drawn table. A CG, a parallax, a portrait, a screenshot of a map: name it in the plugin command and Jigsaw cuts it.
+Jigsaw is an RPG Maker MZ and MV plugin that turns any picture in your game into a jigsaw of 4 to 256 pieces on a drawn table. Royalty free, with a free lite cut.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2884,7 +2892,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sigil-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sigil-core/ · Paid · Engines: RPG Maker
 
-This plugin does not report on your spells. It draws them. Add a skill to your database and its magic circle already exists — a unique, animated, hand-drawn-looking seal generated from that skill’s own data.
+Sigil Core is a 3 file RPG Maker MZ and MV plugin that draws an animated magic circle for every skill, from that skill's own data. Royalty free in commercial games, with no art files to draw.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3116,7 +3124,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wrack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wrack/ · Paid · Engines: RPG Maker
 
-Your own town after the fire, the war or the years, made from your own tileset. Every story with a war, a dragon or a time skip needs the same town twice: before and after.
+Wrack is a 2 file RPG Maker MZ plugin that shows your own town burned, ruined, overgrown or abandoned, made from the tileset it already uses. Royalty free in commercial games, with no art files to draw.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3316,11 +3324,11 @@ Your game already decides who wins a fight. Colosseum runs the tournament around
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Crest - Faction, Reputation and Composed Heraldry for GameMaker
+### Crest: Faction Reputation and Heraldry for GameMaker
 
 Store: https://csaf.itch.io/crest-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/crest-gamemaker/ · Paid · Engines: GameMaker
 
-Crest is a faction and reputation system for GameMaker 2024.14 and later (built and gated on runtime 2024.14.4.268), written in pure GML, that composes a coat of arms for every faction you register.
+Crest is a faction and reputation system for GameMaker in pure GML that draws a coat of arms for every faction, from 44 charges and 8 shield shapes. Commercial use.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5320,7 +5328,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/the-warm-room · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/the-warm-room/ · Free
 
-They gave you the key at the town hall and did not ask for anything back. A derelict public glasshouse at the edge of town, in the first week of winter.
+THE WARM ROOM is a free browser management sim of 90 winter days: keep a derelict glasshouse alive, and the heat in the room is made of the people in it.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5718,7 +5726,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 21 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 22 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -5757,6 +5765,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/emberflux · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/emberflux/ · Paid · Engines: Godot
 
 120 combat effects for 2D Godot games, in six elements that are six different shapes 120 hit, slash, burst, projectile, buff and status effects for Godot 4, every one a shader computed at runtime.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Fathom: 48 Sea Creatures and 12 Seas for Godot 4
+
+Store: https://csaf.itch.io/fathom-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fathom-godot/ · Paid · Engines: Godot
+
+Fathom is a Godot 4.7 addon that turns any 2D scene into an underwater level: 48 species and 12 seas, every one drawn in code. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5936,7 +5952,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
-13 small-town night shift survivors for your PS1-style horror game: low poly, hand painted, rigged and animated, ready to walk into your fog.
+Last Shift is 13 low poly PSX survivors, each rigged with 45 animation clips, with GLB and FBX files for Godot, Unity and Unreal. Free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
