@@ -1,0 +1,55 @@
+<p>Halation is a lens flare system for GameMaker 2024.14 with 80 designs: 8 lens kits by 10 light kinds, every ghost, spike and ring drawn in pure GML.</p>
+
+<p>A light declares its kind and colour, and the package generates its flare through the lens you choose. One commercial licence covers all your games, and a free Windows demo of the whole thing is on this page.</p>
+
+<p><img src="https://img.itch.zone/aW1hZ2UvNTI3MDc1Ny8zMTYxOTQzOS5naWY=/original/KVZ5Hb.gif" alt="One location from noon to night in one world of lights, then the same shot through all eight lenses"></p>
+
+<h2>What is inside</h2>
+<p>80 flare designs · 8 lens kits · 10 light kinds · 5 occlusion modes · glints · a demo room · raw GML source</p>
+<ul>
+<li><strong>Eight lenses:</strong> Vintage Prime, Anamorphic Cinema, Cheap Phone, Space Telescope, Fantasy Crystal, Retro Pixel, Night Vision and Dreamy Soft. Make your own from any of them.</li>
+<li><strong>Ten lights:</strong> sun, moon, torch, lantern, neon tube, muzzle flash, magic orb, eye glint, headlamp and explosion, each with its own colour temperature and flicker.</li>
+<li><strong>Real optics:</strong> ghosts string along the axis through your frame's centre and take the shape of the aperture. A 7-blade lens draws 14 spikes, as a real one does.</li>
+<li><strong>It knows what is in the way:</strong> objects, a tile layer, a mask surface, a line of sight or your own function. A sun half behind a column gives half its flare, and it fades.</li>
+<li><strong>Lens dirt and veiling glare</strong> that light up as a bright source crosses the frame.</li>
+<li><strong>Glints</strong> for gems and coins, and one that runs along a blade.</li>
+</ul>
+
+<p><img src="https://img.itch.zone/aW1hZ2UvNTI3MDc1Ny8zMTYxOTQ1MC5wbmc=/original/1IZ6IQ.png" alt="The same sun through all eight lens kits"></p>
+<p>One sun at one moment, through all eight lenses.</p>
+
+<p><img src="https://img.itch.zone/aW1hZ2UvNTI3MDc1Ny8zMTYxOTQ1NC5wbmc=/original/yf2plV.png" alt="A sun passing behind a column, its flare fading with how much of it the lens can see"></p>
+<p>The sun passes behind a column. Each percentage is what the running world read.</p>
+
+<h2>Three lines to a flare</h2>
+<pre><code>// Create
+my_lens = hal_world_create({ kit: "vintage", occluder: { mode: "objects", objects: obj_wall } });
+my_sun = hal_light_add(my_lens, "sun", 200, 90);
+// Step
+hal_world_step(my_lens);
+// Draw GUI
+hal_world_draw(my_lens);</code></pre>
+<p>There is no Clean Up call. The flares draw with no sprite, surface, shader or vertex buffer, so a room change or a <code>game_restart</code> has nothing to leak.</p>
+
+<h2>Works with</h2>
+<p>GameMaker 2024.14 and later, built and tested on runtime 2024.14.4.268 (Windows, VM). HTML5, mobile and YYC were not built. Import with Tools > Import Local Package, then run <code>rm_hal_demo</code>. A world matrix, a camera or a GUI scale you have set simply applies, and your draw state is handed back. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/halation/README.md">Read the full documentation</a>.</p>
+
+<h2>Try it free</h2>
+<p>Download the Windows demo below: THE BACKLOT, one location from noon to night, with every lens on a key. Our free GameMaker sampler is <a href="https://csaf.itch.io/drawn-in-code-gamemaker">Drawn in Code</a>.</p>
+
+<h2>Licence and how it was made</h2>
+<p>Use it in as many games as you like, commercial or free, with no royalties. Do not resell or share the package files themselves. The code was written with AI tools and tested in the engine. Every image on this page is drawn by the package itself, in a blank project. Two OFL fonts ship for the demo's captions, with their notices.</p>
+
+<h2>Versions</h2>
+<p>1.0: first release.</p>
+
+<h2>From the same studio</h2>
+<ul>
+<li><a href="https://csaf.itch.io/welkin-gamemaker">Welkin</a>: the sky and the sun for this flare to look into.</li>
+<li><a href="https://csaf.itch.io/neon-gamemaker">Neon</a>: signs that deserve a neon flare.</li>
+</ul>
+<p><strong>Pairs with</strong></p>
+<ul><li><a href="https://csaf.itch.io/crest-gamemaker">Crest</a> ($14.99)</li><li><a href="https://csaf.itch.io/meridian-gamemaker">Meridian</a> ($14.99)</li><li><a href="https://csaf.itch.io/kinetic-ui">Kinetic UI</a> ($14.44)</li></ul>
+<p>Need something we do not make yet? <a href="https://csaf.itch.io/request-desk">Post it on the Request Desk</a>.</p>
+
+<p>Made by Core Systems Asset Factory.</p>
