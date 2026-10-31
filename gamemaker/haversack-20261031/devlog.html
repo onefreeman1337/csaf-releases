@@ -1,0 +1,11 @@
+<p>Haversack is out: a grid inventory for GameMaker, in pure GML, with items that have real shapes and containers it draws itself.</p>
+
+<p>An item declares its footprint in data, any polyomino, and turns in quarter steps with the grabbed cell under the hand. Lifting it leaves it in its case until a drop lands, so a save taken mid-drag restores it where it was. A refused drop springs back to the same cell and the same turn, and the ghost hatches exactly the cells that are the problem. Drop on one item to swap it into your hand, or on its own kind to stack.</p>
+
+<p>The gamepad cursor got the most care: each press leaves the whole footprint it is on and lands on the next different thing, keeps its row past an L-shape, and crosses to the next container at an edge. The suite asserts that every item is reachable from every cell on a fixture of irregular shapes.</p>
+
+<p>The package draws 48 containers (8 kinds in 6 materials, each with its own lining, hardware and wear) and 55 items, with no image files, so you can build the whole screen before your art exists. An open inventory with nothing happening recomposes nothing, and costs 0.05 ms to 0.07 ms a frame on the VM. Your own sprites go through the same footprints.</p>
+
+<p>A free Windows demo is on the page. Every number here came from real Igor-built Windows VM executables; HTML5, mobile and YYC were not built.</p>
+
+<p>Written with AI assistance. Core Systems Asset Factory.</p>
