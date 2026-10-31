@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 747 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 748 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T14:39:22.274Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T16:09:26.109Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -42,9 +42,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 04 — Tidewater Tileset for RPG Maker MZ, Tiled, Godot & Unity: Coast, River & Marsh [16x16]
 
-Store: https://csaf.itch.io/verdant-04-tidewater · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-04-tidewater/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-04-tidewater · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-04-tidewater/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 04 Tidewater is a 16x16 pixel art coast, river and marsh tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 771 tiles in 9 autotile sets. Three sets animate.
+Verdant 04 Tidewater is a 16x16 pixel art coast, river and marsh tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 771 tiles in 9 autotile sets.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -794,7 +794,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 64 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 65 products.
 
 ### Cart & Keel: 25 Medieval Cart, Wagon and Boat Sprites
 
@@ -833,6 +833,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/deepwarren-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-sampler/ · Free · pay what you want
 
 Free dungeon monster sprites for top-down RPGs and action games, taken file for file from the paid Deepwarren packs: a giant warren rat (Deepwarren 01) and a giant bat (Deepwarren 02), each with an idle pose, a walk or flight loop, a strike, a hurt and a death, plus the same rat as an RPG Maker...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Deepwarren Side: 15 Side-View Monster Sprites
+
+Store: https://csaf.itch.io/deepwarren-side · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-side/ · Paid
+
+Deepwarren Side is 15 pixel art side-view monster sprites for Godot 4 and any engine that reads PNG sheets: crypt undead, cavern beasts and wildwood monsters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1700,7 +1708,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ship-systems-sci-fi-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/ship-systems-sci-fi-sfx/ · Paid
 
-Ship Systems: Sci-Fi Interface and Machinery One spaceship, 139 sounds. The console, the airlock and the red alert all sound like the same vessel. Most sci fi packs are folders of unrelated noises.
+Ship Systems is a pack of 139 sci-fi sound effects for any game engine: one spaceship's console, airlock, doors, reactor, drive, shields and alerts. Royalty free, with a free demo on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1724,7 +1732,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sixgun-western-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sixgun-western-sound-effects/ · Paid
 
-A western town in sound: three period guns in three places, and the frontier around them 145 western sound effects: a six-shooter, a lever rifle and a scattergun as a game fires them, every gun on main street, in the saloon and in a canyon, gunfire at four distances, a shootout you turn up a...
+Sixgun is a pack of 145 western sound effects for any game engine: three period guns in three places, horses at four gaits, the saloon and the town. Royalty free, with a 29 sound free demo on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1740,7 +1748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/slackwater-fishing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/slackwater-fishing-sound-effects/ · Paid
 
-The whole catch, on 5 waters 129 fishing sounds built as one rod, one reel and one line, fished on 5 different waters: still pond, river current, sea pier, ice hole, night lake.
+Slackwater is a pack of 129 fishing sound effects for any game engine: the cast, the bite, the fight on the drag and the catch, on 5 different waters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2908,7 +2916,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/schuss · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/schuss/ · Paid · Engines: RPG Maker
 
-A SkiFree-style downhill run, inside your game. Schuss is a downhill minigame for RPG Maker MZ.
+Schuss is a downhill minigame plugin for RPG Maker MZ: 5 ways down and 42 drawn obstacle forms, on courses the plugin lays out itself. Royalty free. Call one plugin command and the screen scrolls down a groomed slope, a mine or a river.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2916,7 +2924,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sentiment · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sentiment/ · Paid · Engines: RPG Maker
 
-Emotion battles you can see, drawn over your own art. Sentiment gives every battler in RPG Maker MZ a feeling: happy, sad or angry, each with three rungs.
+Sentiment is an emotion battle plugin for RPG Maker MZ: 3 feelings with 3 rungs each, drawn over the portraits and battlers you already have. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2940,7 +2948,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/smithereens · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/smithereens/ · Paid · Engines: RPG Maker
 
-Your player hits a pot with a sword and it vanishes. In RPG Maker MZ a breakable object is an event that erases itself. There is no debris, nothing flies, and a clay pot, an oak crate and a boulder all disappear the same way.
+Smithereens is a breakable objects plugin for RPG Maker MZ: 6 materials that each break their own way, cut from the pixels of your own art. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2972,7 +2980,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/stature · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stature/ · Paid · Engines: RPG Maker
 
-Taller side-view battlers from the sheets you already have. MZ's side-view battlers are chibi: a big head on a short body. Stature reads each actor's own sheet once, when it loads, and gives the battle a taller copy.
+Stature is a battler plugin for RPG Maker MZ that makes your side view battlers taller from the sheets you already have, in all 18 battle motions. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
