@@ -1,0 +1,53 @@
+<p>Haversack is a grid inventory for GameMaker 2024.14 in pure GML: 55 drawn items with real footprints, 48 drawn containers, and a free Windows demo.</p>
+
+<p>Items have shapes, not boxes. They lift, turn and drop with a ghost that marks exactly which cells are the problem. One commercial licence covers all your games.</p>
+
+<p><img src="https://img.itch.zone/aW1hZ2UvNTI3MzczNC8zMTY0MDQxNS5naWY=/original/hqmgl0.gif" alt="A rifle refused by a full crate springs back; an axe is turned and placed; two stacks pour together; the case tidies itself; the same contents appear in four other containers"></p>
+
+<h2>What is inside</h2>
+<p>48 containers · 55 items · mouse, touch and gamepad · a demo room · raw GML source · no image files</p>
+<ul>
+<li><strong>Real footprints:</strong> any polyomino, declared in data, never taken from a sprite's size. Quarter turns keep the grabbed cell under the hand and the lamp upper left.</li>
+<li><strong>A drop that behaves:</strong> a refused drop springs back to the same cell and turn. Drop on one item to swap, on its own kind to stack.</li>
+<li><strong>A gamepad that walks the shapes:</strong> each press leaves the whole footprint, keeps its row past an L, and crosses to the next container at an edge.</li>
+<li><strong>Containers with rules:</strong> masks, dividers, weight limits that add up through nesting, your own accept function, scrolling. An item can be a bag.</li>
+<li><strong>Tidy:</strong> merges stacks and packs for the largest free space, and never loses an item.</li>
+<li><strong>Saves that survive your changes:</strong> rotation, nesting, stacks and your data return. Change a footprint after release and the item finds other room, or comes back to you.</li>
+<li><strong>It draws the whole screen:</strong> 8 kinds of container in 6 materials, cut foam to tufted velvet. Your own sprites go through the same footprints.</li>
+</ul>
+
+<p><img src="https://img.itch.zone/aW1hZ2UvNTI3MzczNC8zMTY0MDQyNC5wbmc=/original/RuGaTL.png" alt="Six cases with an item held over each, the ghost green on free cells and hatched red on the cells that are the problem, each panel captioned with the reason the package gave"></p>
+<p>Each caption is the reason the package itself gave for that drop.</p>
+
+<p><img src="https://img.itch.zone/aW1hZ2UvNTI3MzczNC8zMTY0MDQyMS5wbmc=/original/wjmpbh.png" alt="All 48 containers in a labelled grid: eight kinds down, six materials across"></p>
+
+<h2>A few lines to a screen</h2>
+<pre><code>// Create
+hvs_starter_items();
+my_bag = hvs_container({ w: 8, h: 5, kind: "attache", material: "hide" });
+hvs_put(my_bag, hvs_item("rifle"), 0, 0);
+my_desk = hvs_desk_create(); hvs_desk_add(my_desk, my_bag, 40, 40, { cell: 40 });
+// Step
+hvs_desk_step(my_desk);
+// Draw GUI
+hvs_desk_draw(my_desk);</code></pre>
+
+<h2>Works with</h2>
+<p>GameMaker 2024.14 and later, built and tested on runtime 2024.14.4.268 (Windows, VM). HTML5, mobile and YYC were not built. Import with Tools > Import Local Package, then run <code>rm_hvs_demo</code>. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/haversack/README.md">Read the full documentation</a>.</p>
+
+<h2>Try it free</h2>
+<p>Download the Windows demo below: THE QUARTERMASTER, a bench with a case, a crate, a scrolling stash and an open pouch. Our free GameMaker sampler is <a href="https://csaf.itch.io/drawn-in-code-gamemaker">Drawn in Code</a>.</p>
+
+<h2>Licence and how it was made</h2>
+<p>Use it in as many games as you like, commercial or free, with no royalties. Do not resell or share the package files themselves. The code was written with AI tools and tested in the engine. The images on this page are drawn by the package in a blank project, and the cover is an AI generated illustration. Two OFL fonts ship with their notices.</p>
+
+<h2>From the same studio</h2>
+<ul>
+<li><a href="https://csaf.itch.io/trove-gamemaker">Trove</a>: 900 drawn item icons and a slot inventory, if your game does not need shapes.</li>
+<li><a href="https://csaf.itch.io/bourse-gamemaker">Bourse</a>: a living market to sell all this at.</li>
+</ul>
+<p><strong>Pairs with</strong></p>
+<ul><li><a href="https://csaf.itch.io/crest-gamemaker">Crest</a> ($14.99)</li><li><a href="https://csaf.itch.io/meridian-gamemaker">Meridian</a> ($14.99)</li><li><a href="https://csaf.itch.io/kinetic-ui">Kinetic UI</a> ($16.99)</li></ul>
+<p>Need something we do not make yet? <a href="https://csaf.itch.io/request-desk">Post it on the Request Desk</a>.</p>
+
+<p>Made by Core Systems Asset Factory.</p>
