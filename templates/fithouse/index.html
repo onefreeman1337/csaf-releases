@@ -1,0 +1,374 @@
+<!--
+  FITHOUSE - Gym & Personal Training HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FitHouse, gym and personal training website template demo · Aura</title>
+<meta name="description" content="Live demo of FitHouse, a one page gym and personal training website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/fithouse/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%238FD421'/%3E%3Cstop%20offset='1'%20stop-color='%23FF7A3C'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50,2C55,27,73,45,98,50C73,55,55,73,50,98C45,73,27,55,2,50C27,45,45,27,50,2Z'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-rgb:10,12,10; --panel:rgba(19,23,18,.8);
+    --card-a:rgba(26,32,25,.8); --card-b:rgba(16,20,16,.8);
+    --c1:#B7F34B; --c2:#FF7A3C; --c3:#9FB3A8;
+    --c1-rgb:183,243,75; --c2-rgb:255,122,60;
+    --ink:#F2F7EE; --muted:#9FB0A0;
+    --line:rgba(242,247,238,.12); --line-2:rgba(242,247,238,.24);
+    --grad:linear-gradient(100deg,#B7F34B,#7ACF3A 55%,#FF7A3C);
+    --btn-ink:#111510;
+    --font-display:"Anton","Arial Black",sans-serif;
+    --font-body:"Inter","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  h1,h2,h3{ text-transform:uppercase; letter-spacing:.02em; font-weight:400; }
+  .hero h1{ line-height:.98; }
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Fit<em>House</em></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#looks">The house</a><a href="#services">Training</a><a href="#menu">Memberships</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="#book" class="btn btn-primary">Free trial</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> FitHouse — strength &amp; conditioning · Your City</span>
+  <h1><span class="hline"><span class="hline-in">Earn your</span></span><span class="hline"><span class="hline-in"><em class="gradient-text">pulse.</em></span></span></h1>
+  <p class="lead">1-on-1 coaching, small group sessions and programming that meets you where you are — then takes you somewhere new.</p>
+  <div class="hero-cta">
+    <a href="#book" class="btn btn-primary">Claim a free trial</a>
+    <a href="#looks" class="btn btn-ghost">Tour the house</a>
+  </div>
+  <div class="trust"><span>First session free</span><span>All levels, zero ego</span><span>Open 5am–10pm</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Strength <b>✦</b> HIIT <b>✦</b> Boxing <b>✦</b> Mobility <b>✦</b> Nutrition <b>✦</b> Recovery <b>✦</b> Community <b>✦</b></span>
+      <span>Strength <b>✦</b> HIIT <b>✦</b> Boxing <b>✦</b> Mobility <b>✦</b> Nutrition <b>✦</b> Recovery <b>✦</b> Community <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">training</span><h2>Coaching that actually coaches.</h2></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg></div><h3>1-on-1 coaching</h3><p>Your goals, your pace, a coach who remembers both. Progress you can measure.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 21c0-4 3-6 6-6s6 2 6 6M14 15c3 0 6 1.5 6 5"/></svg></div><h3>Small group</h3><p>Max eight people, big energy, zero getting lost in the crowd.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div><h3>Programming</h3><p>Train anywhere with a plan built for you, updated weekly, checked by a human.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21c-4-3-8-6-8-11a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 5-4 8-8 11z"/></svg></div><h3>Nutrition</h3><p>No crash diets. Real food, real habits, coaching that fits your actual life.</p></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="signature">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the fithouse standard</span>
+      <h2>Stronger every <em>beat.</em></h2>
+      <p>Show up. We'll handle the rest, one rep at a time.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="looks">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">the house</span>
+          <h2>Built to move.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(Real spaces, real energy — this is the gallery your photos live in.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-floor.jpg" alt="The main training floor" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>The Floor</h3><span class="tag">Open turf + racks</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-iron.jpg" alt="The free-weight corner" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Iron Corner</h3><span class="tag">Free weights to 150lb</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-boxing.jpg" alt="The boxing bay" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Boxing Bay</h3><span class="tag">Six bags, endless rounds</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-turf.jpg" alt="Sled work on the turf lane" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Turf Lane</h3><span class="tag">Sleds + sprints</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-recovery.jpg" alt="The recovery and mobility room" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Recovery Room</h3><span class="tag">Stretch, roll, breathe</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-crew.jpg" alt="A group training session" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>The Crew</h3><span class="tag">Your future gym friends</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="ropes">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">conditioning</span>
+      <h2>Lungs <em>first.</em></h2>
+      <p>Ropes, sleds, intervals. Strength is nothing without an engine behind it.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="menu">
+    <div class="sec-head center reveal"><span class="eyebrow">memberships</span><h2>Simple plans. Serious support.</h2><p>Example prices — the gym sets the real rates.</p></div>
+    <div class="menu reveal">
+      <h3>Train</h3>
+      <div class="menu-item"><span class="name">Drop-in<small>Any class, any day</small></span><span class="dots"></span><span class="price">$25</span></div>
+      <div class="menu-item"><span class="name">Monthly unlimited<small>All classes + open gym</small></span><span class="dots"></span><span class="price">$149/mo</span></div>
+      <div class="menu-item"><span class="name">10-class pack<small>Never expires</small></span><span class="dots"></span><span class="price">$199</span></div>
+      <h3>Coaching</h3>
+      <div class="menu-item"><span class="name">Personal training<small>1-on-1, programmed for you</small></span><span class="dots"></span><span class="price">from $75</span></div>
+      <div class="menu-item"><span class="name">Remote programming<small>Weekly plan + check-ins</small></span><span class="dots"></span><span class="price">$99/mo</span></div>
+      <p class="menu-note">✦ First session is always free — no card, no pressure ✦</p>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="barbell">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the work</span>
+      <h2>Load it. <em>Own it.</em></h2>
+      <p>Plate by plate, session by session. Progress you can count.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">house rules</span><h2>People stay. Here's why.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“I walked in scared of gyms. Eight months later I deadlifted double my bodyweight and cried a little. Nobody judged. That's FitHouse.”</p><div class="who"><div class="avatar">P</div><div><strong>Priya N.</strong><small>Strength convert · demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“Best coaching I've had in 15 years of training. They fixed my squat in one session and my attitude in about three.”</p><div class="who"><div class="avatar">G</div><div><strong>Gabe R.</strong><small>1-on-1 client · demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“The 6am group is my favorite hour of the day. Hard workouts, loud music, people who know your name.”</p><div class="who"><div class="avatar">C</div><div><strong>Cass B.</strong><small>Dawn patrol · demo review</small></div></div></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="sweat">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the last rep</span>
+      <h2>That is where it <em>happens.</em></h2>
+      <p>Everyone can do the easy sets. The last one is the whole point.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">good to know</span><h2>Straight answers.</h2></div>
+    <div class="faq reveal">
+      <details open><summary>I'm a total beginner. Is that okay? <span class="plus">+</span></summary><p>It's our favorite. Every program scales to you, and your first session is a free assessment — we meet you exactly where you are.</p></details>
+      <details><summary>Is the free trial really free? <span class="plus">+</span></summary><p>Completely. One full session, no card on file, no awkward sales pitch afterward. If it fits, you'll know.</p></details>
+      <details><summary>Do you have showers? <span class="plus">+</span></summary><p>Yes — towels, lockers and good water pressure. Train before work without smelling like it.</p></details>
+      <details><summary>Are there contracts? <span class="plus">+</span></summary><p>Month to month, cancel anytime. We keep members with results, not fine print.</p></details>
+      <details><summary>What are your hours? <span class="plus">+</span></summary><p>5am–10pm weekdays, 7am–7pm weekends. The 6am crew says hi.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="book">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">start today</span>
+        <h2>Your first session's on us.</h2>
+        <p class="lead">Book the free trial below — bring water and a little curiosity. We'll bring the plan.</p>
+        <ul class="info-list">
+          <li><b>📍</b><span>123 Main Street, Your City <span class="ph">replace</span></span></li>
+          <li><b>📞</b><span>(555) 000-0000 <span class="ph">replace</span></span></li>
+          <li><b>🕑</b><span>Mon–Fri 5am–10pm · Sat–Sun 7–7 <span class="ph">confirm</span></span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram ↗</a><a href="#">YouTube ↗</a><a href="#">Class app ↗</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Tori Adams" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" /></div>
+        <div><label for="service">I'm interested in</label>
+          <select id="service" name="service"><option>Free trial session</option><option>1-on-1 coaching</option><option>Small group training</option><option>Remote programming</option><option>Nutrition coaching</option></select>
+        </div>
+        <div><label for="date">Preferred day</label><input id="date" name="date" type="date" /></div>
+        <div><label for="notes">Goals / anything we should know</label><textarea id="notes" name="notes" placeholder="Want to get strong again after a desk-job decade. Knees are drama."></textarea></div>
+        <button type="submit" class="btn btn-primary">Claim my free session</button>
+        <p class="form-note">Opens your email app with everything filled in. A coach replies within a day.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> FitHouse · All rights reserved.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com', /* TEMPLATE: swap for the client's real email */
+  formSubject:'Free trial request',
+  /* HERO: voltage — electric lime energy waves + heat + speed lines */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*1.8;float t=uT*0.6;'+
+    'vec3 volt=vec3(0.72,0.95,0.29);vec3 heat=vec3(1.0,0.48,0.24);'+
+    'vec3 col=vec3(0.028,0.035,0.028);'+
+    'float w=fbm(vec2(p.x*1.4+t*0.3,p.y*3.0));'+
+    'float band=sin(p.y*7.0+w*4.0-t*2.2);'+
+    'col+=volt*pow(clamp(band,0.0,1.0),6.0)*0.5;'+
+    'col+=heat*pow(clamp(-band,0.0,1.0),8.0)*0.35;'+
+    'vec2 sp=vec2(p.x*2.0+t*2.5,p.y*40.0);'+
+    'float ln=smoothstep(0.35,0.0,abs(fract(sp.y)-0.5))*step(0.93,hash21(floor(sp)))*smoothstep(0.6,0.0,abs(p.y));'+
+    'col+=volt*ln*0.4;'+
+    'float vig=smoothstep(1.4,0.3,length(uv-0.5));col*=0.45+0.55*vig;'+
+    'col*=mix(1.0,0.22,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+  /* BREAK: an EKG heartbeat draws itself across the screen, flashing on every beat */
+  breakFrag:
+    'void main(){vec2 uv=pixUV(230.0);float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;'+
+    'vec3 volt=vec3(0.72,0.95,0.29);vec3 heat=vec3(1.0,0.48,0.24);'+
+    'vec3 col=vec3(0.02,0.028,0.02);'+
+    'vec2 gg=fract(p*3.0)-0.5;'+
+    'col+=volt*0.05*(smoothstep(0.02,0.0,abs(gg.x))+smoothstep(0.02,0.0,abs(gg.y)));'+
+    'float x=p.x*1.1+uT*0.6;'+
+    'float fx=fract(x*0.55);'+
+    'float yb=0.0;'+
+    'yb+=0.03*sin(fx*40.0)*smoothstep(0.0,0.15,fx)*smoothstep(0.35,0.2,fx);'+
+    'yb+=0.5*exp(-pow((fx-0.42)*22.0,2.0));'+
+    'yb-=0.22*exp(-pow((fx-0.5)*26.0,2.0));'+
+    'yb+=0.12*exp(-pow((fx-0.68)*14.0,2.0));'+
+    'float d=abs(p.y-yb);'+
+    'float sweep=smoothstep(0.0,1.0,uProg*1.25-((p.x/asp)*0.5+0.5)*0.35);'+
+    'col+=volt*smoothstep(0.02,0.002,d)*sweep*1.3;'+
+    'col+=volt*exp(-d*10.0)*0.25*sweep;'+
+    'float beat=exp(-pow((fx-0.42)*10.0,2.0));'+
+    'col+=heat*beat*0.25*sweep*(0.5+0.5*sin(uT*6.0));'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* ==========================================================
+     Scenes bespoke to THIS demo — shared with no other page.
+     ========================================================== */
+  breakFrags:{
+  /* THE ROPES — battle ropes whipping, waves running from the hands back to
+     the anchor. The page's signature scene is already a heart-rate trace, so
+     this deliberately is NOT another waveform. */
+  ropes:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*1.15;'+
+    'float go=smoothstep(0.0,0.7,uProg);'+
+    'vec3 col=mix(vec3(0.030,0.032,0.030),vec3(0.012,0.013,0.013),smoothstep(-0.9,0.8,p.y));'+
+    'col+=uC1*0.035*fbm(p*2.4+3.0);'+
+    'for(int i=0;i<2;i++){float s=float(i);'+
+    'float ph=s*3.14159;'+
+    'float grip=(p.x+1.0)*0.5;'+
+    'float amp=0.34*smoothstep(-0.05,1.0,grip);'+
+    'float y0=-0.12+(s-0.5)*0.34;'+
+    'float wav=y0+amp*sin(p.x*5.2-t*3.6+ph);'+
+    'float d=abs(p.y-wav);'+
+    'float thick=0.050*(0.62+0.38*grip);'+
+    'float rope=smoothstep(thick,thick*0.55,d);'+
+    'vec3 rc=mix(uC1*0.55,uC2,s*0.85);'+
+    'float braid=0.5+0.5*sin(p.x*80.0+s*2.0+t*1.6);'+
+    'rc*=0.74+0.36*braid;'+
+    'rc*=0.66+0.62*smoothstep(thick,-thick,p.y-wav);'+
+    'col=mix(col,rc,rope*go);'+
+    'col+=rc*exp(-d*13.0)*0.16*go;'+
+    'col+=vec3(1.0)*smoothstep(thick*0.45,0.0,abs(p.y-wav+thick*0.42))*rope*0.30*go;}'+
+    'float anchor=smoothstep(0.075,0.055,length((p-vec2(-0.96,-0.12))*vec2(0.75,1.0)));'+
+    'col=mix(col,vec3(0.10,0.11,0.11),anchor);'+
+    'vec2 gp=p*17.0+vec2(t*0.25,t*0.9);float h=hash21(floor(gp));'+
+    'col+=vec3(0.93,0.96,0.93)*smoothstep(0.13,0.0,length(fract(gp)-0.5))*step(0.972,h)*0.6*go;'+
+    'float vig=smoothstep(1.45,0.28,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+   /* THE BAR — plates loading onto the sleeve one at a time, knurling
+     catching the light, chalk hanging in the air. */
+  barbell:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.6;'+
+    'float load=smoothstep(0.0,0.9,uProg);'+
+    'vec3 col=mix(vec3(0.036,0.038,0.036),vec3(0.014,0.015,0.015),smoothstep(0.2,1.5,length(p)));'+
+    'float flex=0.030*load*cos(p.x*1.7);'+                                 /* bar whip */
+    'float by=p.y+flex-0.02;'+
+    'float bar=smoothstep(0.030,0.022,abs(by))*step(abs(p.x),0.98);'+
+    'vec3 steel=mix(vec3(0.34,0.35,0.38),vec3(0.86,0.88,0.92),pow(clamp(0.5+0.5*sin(by*70.0+1.0),0.0,1.0),2.0));'+
+    'col=mix(col,steel,bar);'+
+    'float knurl=smoothstep(0.020,0.010,abs(by))*step(abs(p.x),0.34)*(0.5+0.5*sin(p.x*150.0));'+
+    'col=mix(col,vec3(0.55,0.57,0.60),knurl*0.5);'+                        /* knurling */
+    'for(int i=0;i<4;i++){float s=float(i);'+                              /* plates, loaded inner-out */
+    'float appear=smoothstep(s*0.20,s*0.20+0.18,load);'+
+    'float px=0.42+s*0.105;'+
+    'float pr=0.40-s*0.052;'+
+    'for(int sd=0;sd<2;sd++){float sg=(sd==0)?1.0:-1.0;'+
+    'vec2 q=p-vec2(sg*px,0.02);'+
+    'float dd=length(vec2(q.x/0.052,q.y/max(pr,1e-4)));'+                  /* plate seen edge-on */
+    'float pl=smoothstep(1.0,0.93,dd)*appear;'+
+    'vec3 pc=mix(uC1,uC2,s/3.0);'+
+    'col=mix(col,pc*0.30,pl);'+                                            /* dark face */
+    'col+=pc*smoothstep(1.0,0.90,dd)*smoothstep(0.74,0.90,dd)*1.15*appear;'+   /* bright rim */
+    'col+=vec3(1.0)*smoothstep(1.0,0.955,dd)*smoothstep(0.90,0.96,dd)*0.45*appear;'+
+    'col=mix(col,vec3(0.09,0.10,0.10),smoothstep(0.30,0.20,dd)*appear);'+  /* centre hole */
+    '}}'+
+        'vec2 gp=p*16.0+vec2(t*0.4,t*1.1);float h=hash21(floor(gp));'+         /* chalk dust */
+    'col+=vec3(0.92,0.95,0.92)*smoothstep(0.14,0.0,length(fract(gp)-0.5))*step(0.968,h)*0.55*load;'+
+    'col+=uC1*exp(-abs(by)*5.0)*0.06*load;'+
+    'col*=smoothstep(0.0,0.55,uProg);'+
+    'float vig=smoothstep(1.45,0.28,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* THE LAST REP — sweat thrown off in an arc, streaked by the motion,
+     shockwave rings on every impact. */
+  sweat:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT;'+
+    'float go=smoothstep(0.0,0.7,uProg);'+
+    'vec3 col=mix(vec3(0.028,0.030,0.030),vec3(0.012,0.013,0.014),smoothstep(0.2,1.5,length(p)));'+
+    'for(int i=0;i<26;i++){float s=float(i);'+
+    'float h=hash21(vec2(s,7.0)),h2=hash21(vec2(s,19.0));'+
+    'float life=fract(t*(0.34+h*0.26)+h2);'+
+    'float ang=-0.75+h*2.6;'+
+    'float spd=1.0+h2*0.95;'+
+    'vec2 pos=vec2(-0.88,-0.38)+vec2(cos(ang),sin(ang))*life*spd*2.1;'+
+    'pos.y-=1.70*life*life;'+                                              /* gravity */
+    'vec2 vel=normalize(vec2(cos(ang),sin(ang))-vec2(0.0,3.3*life));'+
+    'vec2 d=p-pos;'+
+    'float along=dot(d,vel),perp=dot(d,vec2(-vel.y,vel.x));'+
+    'float drop=smoothstep(0.046,0.0,length(vec2(along*0.30,perp)));'+     /* stretched by motion */
+    'float fade=smoothstep(1.0,0.72,life)*smoothstep(0.0,0.05,life);'+
+    'col+=mix(uC3,vec3(0.94,0.99,1.0),0.60)*drop*fade*2.1*go;'+
+    'col+=uC2*drop*fade*0.45*go;'+
+    'col+=uC2*smoothstep(0.12,0.0,length(d))*fade*0.10*go;}'+
+        'for(int i=0;i<3;i++){float s=float(i);'+                              /* impact rings */
+    'float rr=fract(t*0.5+s*0.333);'+
+    'float d=abs(length(p-vec2(0.10,-0.62))-rr*1.5);'+
+    'col+=mix(uC1,uC2,s*0.5)*smoothstep(0.035,0.0,d)*(1.0-rr)*0.75*go;}'+
+    'float grit=fbm(p*7.0+t*0.4);col+=uC1*grit*0.05*go;'+
+    'float vig=smoothstep(1.45,0.28,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

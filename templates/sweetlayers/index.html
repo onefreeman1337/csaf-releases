@@ -1,0 +1,355 @@
+<!--
+  SWEET LAYERS - Bakery & Cake Shop HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sweet Layers, bakery and cake shop website template demo · Aura</title>
+<meta name="description" content="Live demo of Sweet Layers, a one page bakery and cake shop website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/sweetlayers/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23F0708F'/%3E%3Cstop%20offset='1'%20stop-color='%23E0AC48'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50,2C55,27,73,45,98,50C73,55,55,73,50,98C45,73,27,55,2,50C27,45,45,27,50,2Z'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@300;400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-rgb:24,15,13; --panel:rgba(36,23,19,.78);
+    --card-a:rgba(48,30,24,.78); --card-b:rgba(32,20,16,.78);
+    --c1:#F49CB4; --c2:#F2D48F; --c3:#8A5A3B;
+    --c1-rgb:244,156,180; --c2-rgb:242,212,143;
+    --ink:#FFF4E6; --muted:#CBAF9C;
+    --line:rgba(255,244,230,.12); --line-2:rgba(255,244,230,.24);
+    --grad:linear-gradient(100deg,#F2D48F,#F49CB4 55%,#C97B8F);
+    --btn-ink:#40241A;
+    --font-display:"DM Serif Display",Georgia,serif;
+    --font-body:"Nunito","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Sweet <em>Layers</em></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#looks">The bakes</a><a href="#services">What we make</a><a href="#menu">Menu</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="#book" class="btn btn-primary">Order a cake</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Sweet Layers — bakery · Your City</span>
+  <h1><span class="hline"><span class="hline-in">Life's sweeter</span></span><span class="hline"><span class="hline-in">in <em class="gradient-text">layers.</em></span></span></h1>
+  <p class="lead">Daily bakes, custom celebration cakes and wedding tiers that taste even better than they look — and they look incredible.</p>
+  <div class="hero-cta">
+    <a href="#book" class="btn btn-primary">Order a cake</a>
+    <a href="#looks" class="btn btn-ghost">Drool first</a>
+  </div>
+  <div class="trust"><span>Baked fresh daily</span><span>Custom anything</span><span>Butter, never shortcuts</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Sourdough <b>✦</b> Croissants <b>✦</b> Custom Cakes <b>✦</b> Macarons <b>✦</b> Cookies <b>✦</b> Wedding Tiers <b>✦</b> Cupcakes <b>✦</b></span>
+      <span>Sourdough <b>✦</b> Croissants <b>✦</b> Custom Cakes <b>✦</b> Macarons <b>✦</b> Cookies <b>✦</b> Wedding Tiers <b>✦</b> Cupcakes <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what we make</span><h2>Butter, sugar, and a little showing off.</h2></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19h16M5 19c0-5 2-9 7-9s7 4 7 9M9 7c0-2 1-4 3-4s3 2 3 4"/></svg></div><h3>Daily bakes</h3><p>Croissants, sourdough and morning buns — out of the oven by 7am, gone by 10.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 21h14M6 21v-5h12v5M8 16v-4h8v4M10 12V9h4v3M12 9V6M12 6c-1 0-1.5-1-1-2 .5 1 1.5 1 1 2z"/></svg></div><h3>Celebration cakes</h3><p>Birthdays, showers, gender reveals — bring us the theme, we bring the gasp.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3l2 4 4 .5-3 3 .8 4.5L12 13l-3.8 2 .8-4.5-3-3L10 7z"/></svg></div><h3>Wedding tiers</h3><p>Tastings, sketches, delivery, setup — the sweetest part of the big day, handled.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="8" cy="8" r="4"/><circle cx="16" cy="16" r="4"/><path d="M8 8h.01M16 16h.01"/></svg></div><h3>Macarons &amp; more</h3><p>Towers, favors, and rainbow boxes — tiny, perfect, dangerous by the dozen.</p></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="cake">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the sweet layers way</span>
+      <h2>Watch it <em>rise.</em></h2>
+      <p>Layer by layer, sprinkle by sprinkle — that's how celebrations are built.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="looks">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">from the oven</span>
+          <h2>Today's case.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(Real bakes, straight from the oven — your photos live here.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-tart.jpg" alt="A seasonal berry tart" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Berry Tart</h3><span class="tag">Seasonal star</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-chocolate.jpg" alt="A tiered chocolate cake" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Chocolate Tiers</h3><span class="tag">Triple threat</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-croissant.jpg" alt="Golden croissants fresh from the oven" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Golden Croissants</h3><span class="tag">7am sharp</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-macaron.jpg" alt="A tower of macarons" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Macaron Tower</h3><span class="tag">Party centerpiece</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-bread.jpg" alt="Rustic loaves with a crackled crust" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Rustic Loaves</h3><span class="tag">Crackle included</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-birthday.jpg" alt="A birthday cake with sprinkles" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Birthday Magic</h3><span class="tag">Sprinkles inside too</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="layers">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">built by hand</span>
+      <h2>Layer after <em>layer.</em></h2>
+      <p>Sponge, cream, fruit, repeat. Patience you can actually taste.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="menu">
+    <div class="sec-head center reveal"><span class="eyebrow">menu</span><h2>Warning: everything's good.</h2><p>Example prices — the bakery sets the real case.</p></div>
+    <div class="menu reveal">
+      <h3>Morning</h3>
+      <div class="menu-item"><span class="name">Butter croissant</span><span class="dots"></span><span class="price">$4.50</span></div>
+      <div class="menu-item"><span class="name">Pain au chocolat</span><span class="dots"></span><span class="price">$5.00</span></div>
+      <div class="menu-item"><span class="name">Sourdough loaf</span><span class="dots"></span><span class="price">$9.00</span></div>
+      <h3>Sweets</h3>
+      <div class="menu-item"><span class="name">Macarons<small>Box of six</small></span><span class="dots"></span><span class="price">$15</span></div>
+      <div class="menu-item"><span class="name">Chocolate chunk cookie</span><span class="dots"></span><span class="price">$3.50</span></div>
+      <div class="menu-item"><span class="name">Cake slice of the day</span><span class="dots"></span><span class="price">$6.50</span></div>
+      <h3>Custom cakes</h3>
+      <div class="menu-item"><span class="name">6-inch custom<small>Feeds 8–10 happy people</small></span><span class="dots"></span><span class="price">from $65</span></div>
+      <div class="menu-item"><span class="name">Tiered celebration<small>Consultation + sketch included</small></span><span class="dots"></span><span class="price">from $250</span></div>
+      <p class="menu-note">✦ Gluten-friendly options baked every Friday ✦</p>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="piping">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">by hand</span>
+      <h2>Piped, <em>not printed.</em></h2>
+      <p>Every rosette turned by hand. That is why no two are identical.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">sweet talk</span><h2>Crumbs of praise.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“My daughter's unicorn cake made her entire year. It was almost too pretty to cut. Almost. It was also the best cake I've ever eaten.”</p><div class="who"><div class="avatar">L</div><div><strong>Lauren M.</strong><small>Birthday mom · demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“The croissants are dangerously good. I've restructured my morning commute around them. Zero regrets.”</p><div class="who"><div class="avatar">O</div><div><strong>Omar H.</strong><small>7am regular · demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“Our wedding cake was the most photographed guest at the reception. The tasting appointment alone was worth the booking.”</p><div class="who"><div class="avatar">K</div><div><strong>Kayla &amp; Sam</strong><small>Wedding couple · demo review</small></div></div></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="oven">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">out of the oven</span>
+      <h2>Warm at <em>seven.</em></h2>
+      <p>Baked before sunrise so the first customer gets the best of it.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">good to know</span><h2>Before you order.</h2></div>
+    <div class="faq reveal">
+      <details open><summary>How far ahead should I order a custom cake? <span class="plus">+</span></summary><p>One week for most celebration cakes, 4–6 weeks for tiered and wedding cakes. Rush? Ask — we love a challenge.</p></details>
+      <details><summary>Do you have gluten-free options? <span class="plus">+</span></summary><p>Gluten-friendly bakes land every Friday, and most custom cakes can be made GF — just tell us when ordering.</p></details>
+      <details><summary>Do you deliver? <span class="plus">+</span></summary><p>Custom cakes, yes — carefully, in a van with air conditioning and a very cautious driver.</p></details>
+      <details><summary>Can we do a wedding tasting? <span class="plus">+</span></summary><p>Please do. Six flavors, two fillings each, unlimited opinions. Book a slot below.</p></details>
+      <details><summary>What time do fresh bakes come out? <span class="plus">+</span></summary><p>7am on the dot. The croissant line forms at 6:55. You think we're joking.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="book">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">visit the bakery</span>
+        <h2>Let's bake your day.</h2>
+        <p class="lead">Order a cake, book a tasting, or just come smell the air in here.</p>
+        <ul class="info-list">
+          <li><b>📍</b><span>123 Main Street, Your City <span class="ph">replace</span></span></li>
+          <li><b>📞</b><span>(555) 000-0000 <span class="ph">replace</span></span></li>
+          <li><b>🕑</b><span>Wed–Sun · 7am–3pm <span class="ph">confirm</span></span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram ↗</a><a href="#">TikTok ↗</a><a href="#">Facebook ↗</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jamie Park" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" /></div>
+        <div><label for="service">What are we making?</label>
+          <select id="service" name="service"><option>Celebration cake</option><option>Wedding cake + tasting</option><option>Macaron order</option><option>Cookie / cupcake box</option><option>Big bread order</option><option>Surprise me</option></select>
+        </div>
+        <div><label for="date">Needed by</label><input id="date" name="date" type="date" /></div>
+        <div><label for="notes">The dream</label><textarea id="notes" name="notes" placeholder="Dinosaur cake for a 5-year-old who takes dinosaurs VERY seriously..."></textarea></div>
+        <button type="submit" class="btn btn-primary">Start my order</button>
+        <p class="form-note">Opens your email app with everything filled in. We reply with a sketch.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Sweet Layers · All rights reserved.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com', /* TEMPLATE: swap for the client's real email */
+  formSubject:'Cake order',
+  /* HERO: frosting marble — pink, chocolate and butter swirls + sugar sparkle */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*1.7;float t=uT*0.05;'+
+    'vec2 q=vec2(fbm(p+vec2(t,-t*0.7)),fbm(p+vec2(6.1,2.4)-t));'+
+    'vec2 r=vec2(fbm(p+2.4*q+vec2(2.2,8.1)+t*0.6),fbm(p+2.4*q+vec2(7.4,3.6)-t*0.5));'+
+    'float f=fbm(p+2.7*r+t);f=f*0.5+0.5;'+
+    'vec3 pinkF=vec3(0.95,0.64,0.72);vec3 choc=vec3(0.42,0.26,0.17);vec3 butter=vec3(0.95,0.84,0.55);'+
+    'vec3 col=mix(choc*0.55,pinkF,smoothstep(0.25,0.9,f));'+
+    'col=mix(col,butter,clamp(smoothstep(0.6,1.0,r.y*0.5+0.5),0.0,1.0)*0.5);'+
+    'col=mix(vec3(0.075,0.05,0.045),col,smoothstep(0.08,0.85,f)*0.94);'+
+    'vec2 gp2=p*26.0;float h2=hash21(floor(gp2));'+
+    'vec3 sc=h2<0.33?pinkF:(h2<0.66?butter:vec3(1.0));'+
+    'col+=sc*smoothstep(0.1,0.0,length(fract(gp2)-0.5))*step(0.975,h2)*(0.4+0.4*sin(uT*3.0+h2*60.0));'+
+    'float vig=smoothstep(1.35,0.25,length(uv-0.5));col*=0.45+0.55*vig;'+
+    'col*=mix(1.0,0.24,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+  /* BREAK: sprinkle rain while a three-tier cake stacks itself, cherry on top */
+  breakFrag:
+    'void main(){vec2 uv=pixUV(210.0);float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;'+
+    'vec3 col=vec3(0.07,0.045,0.04);'+
+    'vec3 pinkF=vec3(0.95,0.64,0.72);vec3 choc=vec3(0.45,0.28,0.18);vec3 butter=vec3(0.95,0.84,0.55);vec3 creamB=vec3(1.0,0.96,0.9);'+
+    'for(int i=0;i<2;i++){float s=float(i);'+
+    'vec2 pp=p*(5.0+s*3.0);pp.y+=uT*(0.6+s*0.4);pp.x+=s*3.7;'+
+    'vec2 id=floor(pp);vec2 f2=fract(pp)-0.5;float h=hash21(id);'+
+    'float a=h*6.283;vec2 rf=rot(a)*f2;'+
+    'float capd=length(vec2(max(abs(rf.x)-0.12,0.0),rf.y*2.2));'+
+    'vec3 sc=h<0.33?pinkF:(h<0.66?butter:creamB);'+
+    'col+=sc*smoothstep(0.09,0.02,capd)*step(0.82,h)*(0.8-s*0.3);}'+
+    'float rise=smoothstep(0.05,0.85,uProg);'+
+    'for(int i=0;i<3;i++){float s=float(i);'+
+    'float tw=0.62-s*0.17;float th2=0.16;'+
+    'float yb=-0.45+s*0.235;'+
+    'float yy=p.y-(yb-(1.0-rise)*(0.9+s*0.35));'+
+    'vec2 dxy=vec2(max(abs(p.x)-tw,0.0),max(abs(yy-th2*0.5)-th2*0.5,0.0));'+
+    'float m=smoothstep(0.012,0.0,length(dxy));'+
+    'vec3 tier=(i==1)?pinkF:choc;if(i==2)tier=butter;'+
+    'col=mix(col,tier*(0.7+0.3*smoothstep(-tw,tw,p.x)),m*rise);'+
+    'float dripY=th2-0.02+0.018*sin(p.x*26.0+s*2.0);'+
+    'col=mix(col,creamB,smoothstep(0.014,0.0,abs(yy-dripY))*m*rise*0.9);}'+
+    'float cakeTop=-0.45+2.0*0.235+0.16;'+
+    'float cd=length(p-vec2(0.0,cakeTop+0.05-(1.0-rise)*1.6));'+
+    'col=mix(col,vec3(0.85,0.2,0.3),smoothstep(0.05,0.032,cd)*rise);'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* ==========================================================
+     Scenes bespoke to THIS demo — shared with no other page.
+     ========================================================== */
+  breakFrags:{  /* THE PIPE — buttercream piped in a rosette, ridge by ridge,
+     the star tip leaving its ribbed trail. */
+  piping:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.5;'+
+    'float draw=smoothstep(0.03,0.92,uProg);'+
+    'float r=length(p),a=atan(p.y,p.x);'+
+    'vec3 col=mix(vec3(0.075,0.055,0.048),vec3(0.030,0.022,0.020),smoothstep(0.2,1.4,r));'+
+    'col+=uC2*0.05*fbm(p*3.0+5.0);'+                                       /* cake surface */
+    'float turns=3.0;'+
+    'float k=(r*turns*6.283/0.86-a)/6.283;'+
+    'float arm=floor(k+0.5);'+
+    'float rs=0.86*(a+arm*6.283)/(turns*6.283);'+
+    'float sd=r-rs;'+                                                      /* signed dist across the tube */
+    'float tube=0.080;'+
+    'float on=step(r/0.86,draw)*step(r,0.84)*step(0.0,rs);'+               /* pipes outward from the centre */
+    'float body=smoothstep(tube,tube*0.62,abs(sd))*on;'+
+    'float nrm=clamp(sd/tube,-1.0,1.0);'+
+    'float lit=0.5-0.5*nrm;'+                                              /* lit on the inner shoulder */
+    'vec3 cream=mix(uC1*0.62,vec3(1.0,0.97,0.94),0.22+0.70*lit);'+
+    'float ridge=0.5+0.5*sin(a*9.0+r*30.0);'+                              /* star-tip ribs */
+    'cream*=0.84+0.26*ridge;'+
+    'col=mix(col,cream,body);'+
+    'col+=vec3(1.0)*pow(clamp(lit,0.0,1.0),5.0)*body*0.40;'+
+    'col-=vec3(0.11,0.08,0.07)*smoothstep(tube*1.5,tube,abs(sd))*on*0.55;'+
+    'float tipr=0.84*draw;'+
+    'float tipa=turns*6.283*tipr/0.86;'+
+    'vec2 tip=vec2(cos(tipa),sin(tipa))*tipr;'+
+    'col+=vec3(1.0,0.96,0.90)*exp(-length(p-tip)*11.0)*0.70*step(draw,0.99);'+
+        'vec2 gp=p*30.0;float h=hash21(floor(gp));'+                           /* sugar */
+    'col+=vec3(1.0)*smoothstep(0.10,0.0,length(fract(gp)-0.5))*step(0.980,h)*0.55*draw;'+
+    'float vig=smoothstep(1.45,0.30,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* THE OVEN — coils glowing, a loaf rising and colouring in the heat. */
+  oven:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.5;'+
+    'float bake=smoothstep(0.0,0.9,uProg);'+
+    'vec3 col=vec3(0.030,0.017,0.012);'+
+    'col+=vec3(0.16,0.055,0.018)*exp(-abs(p.y+0.86)*2.2);'+                /* floor heat */
+    'for(int i=0;i<2;i++){float s=float(i);'+                              /* elements */
+    'float yy=(s==0.0)?-0.80:0.72;'+
+    'float wig=0.030*sin(p.x*9.0+t*1.5+s*2.0);'+
+    'float d=abs(p.y-yy-wig);'+
+    'float coil=smoothstep(0.028,0.008,d)*smoothstep(0.96,0.86,abs(p.x));'+
+    'float glow=0.65+0.35*sin(t*2.0+s*1.7);'+
+    'col+=mix(vec3(1.0,0.30,0.06),vec3(1.0,0.62,0.20),glow)*coil*1.5;'+
+    'col+=vec3(1.0,0.35,0.10)*exp(-d*7.0)*0.30*glow*smoothstep(1.05,0.90,abs(p.x));}'+
+    'float base=-0.60;'+
+    'float wdt=0.52,hgt=0.14+0.34*bake;'+
+    'vec2 lp=vec2(p.x,p.y-base);'+
+    'float dome=length(vec2(lp.x/wdt,max(lp.y,0.0)/max(hgt,1e-4)));'+
+    'float loaf=smoothstep(1.0,0.965,dome)*step(-0.055,lp.y);'+            /* half-ellipse on the tray */
+    'float crust=smoothstep(0.30,1.0,bake);'+
+    'vec3 lc=mix(vec3(0.86,0.78,0.60),uC3,crust*0.88);'+
+    'lc*=0.62+0.62*smoothstep(1.0,0.15,dome);'+
+    'lc*=0.80+0.35*smoothstep(0.5,-0.2,lp.x/wdt);'+                        /* lit from the left */
+    'col=mix(col,lc,loaf);'+
+    'float score=smoothstep(0.020,0.006,abs(lp.x*0.85-lp.y*0.30-0.04))*loaf;'+
+    'col=mix(col,vec3(0.98,0.90,0.70),score*0.75*crust);'+
+    'col+=vec3(1.0,0.55,0.20)*loaf*0.09*bake;'+
+    'col=mix(col,vec3(0.06,0.05,0.05),smoothstep(0.020,0.0,abs(lp.y+0.055))*step(abs(lp.x),wdt));'+
+        'float sh=fbm(vec2(p.x*5.0,p.y*2.5-t*2.4));'+                          /* heat shimmer */
+    'col+=vec3(0.35,0.16,0.06)*sh*0.22;'+
+    'col*=smoothstep(0.0,0.6,uProg);'+
+    'float vig=smoothstep(1.40,0.28,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

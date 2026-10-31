@@ -1,0 +1,489 @@
+<!--
+  HEARTH - Remodeling & Construction HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hearth, remodeling and construction website template demo · Aura</title>
+<meta name="description" content="Live demo of Hearth, a one page remodeling and construction website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/hearth/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23E8C48A'/%3E%3Cstop%20offset='1'%20stop-color='%23C9873F'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50 10 92 44v6H8v-6z'%20fill='url(%23g)'/%3E%3Crect%20x='20'%20y='56'%20width='9'%20height='36'%20fill='url(%23g)'/%3E%3Crect%20x='45'%20y='56'%20width='9'%20height='36'%20fill='url(%23g)'/%3E%3Crect%20x='70'%20y='56'%20width='9'%20height='36'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    /* Warm timber, not slate and not ice — this template has to feel like
+       craftsmanship rather than an emergency callout. The sage green is the
+       trust colour and carries the guarantees. */
+    --bg-rgb:19,17,15; --panel:rgba(31,28,24,.82);
+    --card-a:rgba(40,35,29,.82); --card-b:rgba(26,23,19,.82);
+    --c1:#C9873F; --c2:#E8C48A; --c3:#4E7C6B;
+    --c1-rgb:201,135,63; --c2-rgb:232,196,138;
+    --ink:#F6F1E8; --muted:#A79B8A;
+    --line:rgba(246,241,232,.13); --line-2:rgba(246,241,232,.26);
+    --grad:linear-gradient(100deg,#E8C48A,#C9873F 58%,#A6672C);
+    --btn-ink:#1B1409;
+    --font-display:"Instrument Serif","Georgia",serif;
+    --font-body:"Inter","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  /* A serif display wants a little more air than the condensed faces do. */
+  h1,h2{letter-spacing:-.01em}
+  .creds{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.4rem}
+  .creds span{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--muted);border:1px solid var(--line);
+    border-radius:100px;padding:.5rem .85rem}
+  .creds b{color:var(--c2)}
+  /* The process ladder. This is the fear-reducer and the most important block on
+     the page: this buyer's nightmare is a contractor who vanishes at 60%. */
+  .ladder{display:grid;gap:.7rem;counter-reset:st}
+  .ladder li{list-style:none;position:relative;padding:1.15rem 1.3rem 1.15rem 4.2rem;
+    border:1px solid var(--line);border-radius:14px;background:var(--card-b)}
+  .ladder li::before{counter-increment:st;content:counter(st,decimal-leading-zero);
+    position:absolute;left:1.3rem;top:1.05rem;font-family:var(--font-mono);
+    font-size:1.35rem;color:var(--c1);opacity:.65}
+  .ladder h3{margin:0 0 .3rem;font-size:1.12rem}
+  .ladder p{margin:0;color:var(--muted);font-size:.94rem}
+  /* Guarantees — plain promises, stated flatly, which is what earns trust here. */
+  .promises{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.7rem;margin-top:1.6rem}
+  .promise{border:1px solid var(--line-2);border-radius:14px;padding:1.2rem;
+    background:linear-gradient(160deg,rgba(78,124,107,.14),rgba(78,124,107,.03))}
+  .promise b{display:block;font-family:var(--font-mono);font-size:.7rem;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--c3);margin-bottom:.45rem}
+  .promise span{color:var(--muted);font-size:.93rem}
+  .budget-note{color:var(--muted);font-size:.82rem;margin-top:-.4rem}
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Hearth <em>&amp;</em> Frame</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#work">Our work</a><a href="#services">What we build</a><a href="#process">How it works</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="#quote" class="btn btn-primary">Book a consultation</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Licensed CGC-000000 · bonded &amp; insured · Your County</span>
+  <h1><span class="hline"><span class="hline-in">The house you</span></span><span class="hline"><span class="hline-in">already own,</span></span><span class="hline"><span class="hline-in"><em class="gradient-text">finally right.</em></span></span></h1>
+  <p class="lead">Kitchens, bathrooms, additions and whole-home remodels. A fixed written price before we start, a schedule we hold to, and one person you can call the whole way through.</p>
+  <div class="hero-cta">
+    <a href="#quote" class="btn btn-primary">Book a free consultation</a>
+    <a href="#work" class="btn btn-ghost">See the work</a>
+  </div>
+  <div class="trust"><span>Fixed written quotes</span><span>Permits handled</span><span>Financing available</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Kitchens <b>✦</b> Bathrooms <b>✦</b> Additions <b>✦</b> Whole-home <b>✦</b> Custom builds <b>✦</b> Garages <b>✦</b> Decks &amp; porches <b>✦</b> ADUs <b>✦</b></span>
+      <span>Kitchens <b>✦</b> Bathrooms <b>✦</b> Additions <b>✦</b> Whole-home <b>✦</b> Custom builds <b>✦</b> Garages <b>✦</b> Decks &amp; porches <b>✦</b> ADUs <b>✦</b></span>
+    </div>
+  </div>
+
+  <!-- Work comes FIRST on this template. A remodel buyer decides with their eyes
+       long before they read a service list. -->
+  <section class="work-pin" id="work">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">selected work</span>
+          <h2>Twenty years of other people's houses.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(These become the builder's own project photos.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-kitchen.jpg" alt="A finished modern kitchen remodel" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Kitchen, taken back to studs</h3><span class="tag">Your City · 9 weeks</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-bathroom.jpg" alt="A renovated bathroom with tiled walk-in shower" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Primary bath</h3><span class="tag">Curbless shower</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-framing.jpg" alt="Timber framing of a house extension under construction" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Rear addition</h3><span class="tag">420 sq ft</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-living.jpg" alt="An open plan living room after renovation" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Wall removed, opened up</h3><span class="tag">Load-bearing · engineered</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-carpenter.jpg" alt="A carpenter working with timber on site" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Our own carpenters</h3><span class="tag">No day labour</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-exterior.jpg" alt="A finished home exterior after renovation" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Finished, and signed off</h3><span class="tag">Summerfield</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="frame">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the build</span>
+      <h2>It starts as <em>sticks.</em></h2>
+      <p>Everything you will love about the finished room is decided at this stage.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what we build</span><h2>Whole rooms, whole houses.</h2><p>Sample services — a real builder's actual list drops straight in.</p></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg></div><h3>Kitchens</h3><p>Cabinetry, stone, appliances, and the electrical and plumbing behind them. Usually six to ten weeks, and we will tell you which of those weeks you cannot cook.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 12h16v4a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M7 12V6a2 2 0 0 1 4 0"/></svg></div><h3>Bathrooms</h3><p>Waterproofing done properly under the tile, because that is the part that fails and the part nobody sees.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 3l9 8"/><path d="M6 10v10h12V10"/><path d="M14 20v-6h4v6"/></svg></div><h3>Additions &amp; ADUs</h3><p>Extra bedroom, bigger living space, or a separate unit out back. We handle the survey, the engineering and the permits.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 20h18M5 20V9l7-5 7 5v11"/><path d="M10 20v-6h4v6"/></svg></div><h3>Whole-home remodels</h3><p>For houses with good bones and a bad layout. Often better value than moving, once you have counted the realtor and the closing costs.</p></div>
+    </div>
+    <div class="creds reveal">
+      <span>Licensed <b>CGC-000000</b></span><span><b>Bonded</b> &amp; insured</span><span><b>Fixed</b> written quotes</span><span><b>Permits</b> handled</span><span>Serving <b>Your County</b></span>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="sawdust">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the craft</span>
+      <h2>Measured twice, <em>every time.</em></h2>
+      <p>Our own carpenters, on our own payroll. Nobody learns on your house.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="process">
+    <div class="sec-head center reveal"><span class="eyebrow">how it works</span><h2>No surprises. That is the whole promise.</h2><p>You will know the price and the schedule before a single thing is demolished.</p></div>
+    <ol class="ladder reveal">
+      <li><h3>Free in-home consultation</h3><p>We walk the space with you, talk about what you actually want, and give you a realistic range on the spot. No charge, no obligation, no salesperson.</p></li>
+      <li><h3>Design and a fixed written quote</h3><p>Drawings, a materials list, and one number. Not an estimate that drifts — a price. If we missed something, that is our problem, not your invoice.</p></li>
+      <li><h3>Permits and scheduling</h3><p>We pull the permits and book the inspections. You get a written start date and a written finish date before we begin.</p></li>
+      <li><h3>Build, with one point of contact</h3><p>The same person answers the phone all the way through. Weekly updates with photos, so you know where it is even when you are at work.</p></li>
+      <li><h3>Walkthrough and sign-off</h3><p>We walk it together, you list anything that is not right, and we finish that list before we ask for the final payment.</p></li>
+    </ol>
+    <div class="promises reveal">
+      <div class="promise"><b>Fixed price</b><span>The quote is the price. Change orders only happen if you change your mind, and always in writing first.</span></div>
+      <div class="promise"><b>A real schedule</b><span>Written start and finish dates. If we slip, you hear it from us before you notice it.</span></div>
+      <div class="promise"><b>Paid in stages</b><span>You never pay for work that has not been done. No large deposit up front.</span></div>
+      <div class="promise"><b>References, freely</b><span>Ask and we will give you the last ten clients' numbers. Call every one of them.</span></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="grain">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the materials</span>
+      <h2>Real timber, <em>chosen board by board.</em></h2>
+      <p>We would rather reject a bad piece than hide it behind trim.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">clients</span><h2>What people say.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“The quote we signed in March was the number we paid in July. After the last contractor we used, that alone was worth it.”</p><div class="who"><div class="avatar">K</div><div><strong>A Real Client</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“Weekly photos meant I never had to chase anybody. I always knew exactly where the job was.”</p><div class="who"><div class="avatar">S</div><div><strong>Another Client</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“They found rot in the subfloor, showed me photos the same morning, and told me what it would cost before touching it.”</p><div class="who"><div class="avatar">W</div><div><strong>Future Client</strong><small>demo review</small></div></div></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="dusk">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the handover</span>
+      <h2>And then you get <em>your evenings back.</em></h2>
+      <p>The dust goes, the trucks go, and it is just your house again — only better.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">questions</span><h2>The ones everybody asks.</h2></div>
+    <div class="faq reveal">
+      <details><summary>Will it go over budget? <span class="plus">+</span></summary><p>Not on our quotes. We price from drawings and a full materials list rather than a walk-round guess. The only thing that changes the number is you changing your mind, and that goes in writing before any work happens.</p></details>
+      <details><summary>How long will it take? <span class="plus">+</span></summary><p>A bathroom is typically three to five weeks, a kitchen six to ten, a rear addition three to five months. You get written start and finish dates before we begin.</p></details>
+      <details><summary>Can we live in the house during the work? <span class="plus">+</span></summary><p>Usually yes for a single room, and we dust-seal the rest of the house. For a whole-home remodel it is generally easier if you do not. We will be honest with you about which one yours is.</p></details>
+      <details><summary>Do you handle permits and inspections? <span class="plus">+</span></summary><p>Yes, all of it, including the engineering when a wall is load-bearing. Never let anyone talk you into skipping a permit — it surfaces the moment you try to sell.</p></details>
+      <details><summary>Are you licensed and insured? <span class="plus">+</span></summary><p>Licence CGC-000000, bonded and fully insured. Ask any contractor for their licence number and check it on the state website before you sign anything.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="quote">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">free consultation</span>
+        <h2>Tell us what you are thinking.</h2>
+        <p class="lead">Even if it is only an idea. We will walk the space, tell you honestly what it involves, and give you a realistic range before you spend anything.</p>
+        <ul class="info-list">
+          <li><b>📐</b><span>Free in-home consultation, no obligation</span></li>
+          <li><b>📄</b><span>Fixed written quote before anything is demolished</span></li>
+          <li><b>🛡️</b><span>Licensed CGC-000000 · bonded &amp; insured · locally owned</span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram &#8599;</a><a href="#">Facebook &#8599;</a><a href="#">Google &#8599;</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Sam Carter" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(352) 555-0176" required /></div>
+        <div><label for="service">What are you planning?</label>
+          <select id="service" name="service"><option>Kitchen remodel</option><option>Bathroom remodel</option><option>Addition or ADU</option><option>Whole-home remodel</option><option>Deck, porch or garage</option><option>Not sure yet — want advice</option></select>
+        </div>
+        <div><label for="budget">Rough budget</label>
+          <select id="budget" name="budget"><option>Under $25,000</option><option>$25,000 – $60,000</option><option>$60,000 – $120,000</option><option>$120,000+</option><option>No idea — that is what I need help with</option></select>
+        </div>
+        <p class="budget-note">Asking early saves you being sold something you never wanted.</p>
+        <div><label for="notes">Tell us about it</label><textarea id="notes" name="notes" placeholder="1970s kitchen, want to take the wall out to the dining room and start again. Hoping to begin in the autumn."></textarea></div>
+        <button type="submit" class="btn btn-primary">Book my consultation</button>
+        <p class="form-note">Demo form — on a real site this goes straight to the builder's inbox.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Hearth &amp; Frame · All rights reserved. Licence CGC-000000.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com',
+  formSubject:'New remodel enquiry (Hearth & Frame demo)',
+
+  /* HERO: warm timber grain drifting past, with a slow plane of light moving
+     across it. Calm and material rather than urgent — this buyer is browsing,
+     not panicking, and the hero should feel like standing in a finished room. */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.035;'+
+    'vec3 col=vec3(0.045,0.038,0.030);'+
+    /* grain: parallel lines warped so they flow like sawn timber, never straight */
+    'vec2 q=p*vec2(1.0,2.4);q.x+=t;'+
+    'float warp=fbm(vec2(q.x*0.9,q.y*0.5))*1.5;'+
+    'float lines=fbm(vec2(q.x*2.2+warp,q.y*0.30));'+
+    'float rings=abs(fract(lines*7.0+warp*0.6)-0.5);'+
+    'float grain=smoothstep(0.40,0.02,rings);'+
+    'vec3 light=mix(vec3(0.30,0.205,0.115),uC2*0.55,0.35);'+
+    'vec3 dark=vec3(0.115,0.075,0.042);'+
+    'col=mix(dark,light,grain*0.85);'+
+    /* fine fibre streaks along the grain direction */
+    'float fibre=smoothstep(0.62,0.98,fbm(vec2(q.x*26.0+warp*2.0,q.y*1.6)));'+
+    'col+=uC1*fibre*0.055;'+
+    /* a soft plane of light travelling across, like sun through a window */
+    'float sweep=smoothstep(0.85,0.0,abs(p.x-(fract(t*0.30)*2.6-1.3)+p.y*0.35));'+
+    'col+=mix(uC2,vec3(1.0,0.94,0.82),0.35)*sweep*0.20;'+
+    'col+=uC1*sweep*grain*0.16;'+
+    /* dust hanging in that light */
+    'vec2 dp=p*vec2(24.0,24.0)+vec2(t*3.0,sin(t*5.0)*0.4);'+
+    'float dh=hash21(floor(dp));'+
+    'col+=vec3(1.0,0.94,0.84)*step(0.988,dh)*smoothstep(0.5,0.0,length(fract(dp)-0.5))*sweep*1.6;'+
+    'float vig=smoothstep(1.35,0.30,length(uv-0.5));col*=0.46+0.54*vig;'+
+    'col*=mix(1.0,0.24,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  breakFrags:{
+
+  /* FRAME — a stud wall going up against a dusk sky, stud by stud, then the top
+     plate, then the trusses. Silhouette against sky, which is the composition
+     that reads instantly. A field of verticals with no skyline would just be
+     stripes. */
+  frame:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.65,uProg);'+
+    /* dusk sky */
+    'float g=smoothstep(-0.45,0.72,p.y);'+
+    'vec3 col=mix(mix(uC1,vec3(0.95,0.72,0.42),0.45),vec3(0.055,0.075,0.115),g);'+
+    'float cl=fbm(vec2(p.x*1.8+t*0.02,p.y*3.2));'+
+    'col+=mix(uC2,vec3(1.0,0.85,0.62),0.4)*exp(-abs(p.y-0.10)*7.0)*cl*cl*0.30;'+
+    /* ground */
+    'float ground=smoothstep(0.004,-0.004,p.y+0.36);'+
+    'col=mix(col,vec3(0.042,0.036,0.030),ground);'+
+    /* sole plate */
+    'float sole=step(abs(p.y+0.325),0.028)*step(abs(p.x),0.80);'+
+    /* studs, 16in on centre, rising left to right as the section arrives */
+    'float SP=0.107;'+
+    'float xi=(p.x+0.80)/SP;float si=floor(xi);float sf=fract(xi);'+
+    'float inwall=step(0.0,xi)*step(xi,15.0);'+
+    'float appear=clamp(uProg*2.6-si*0.115,0.0,1.0);appear=smoothstep(0.0,1.0,appear);'+
+    'float topY=-0.30+0.56*appear;'+
+    'float stud=step(abs(sf-0.5),0.155)*step(p.y,topY)*step(-0.33,p.y)*inwall;'+
+    /* top plate appears once the studs are up */
+    'float allUp=smoothstep(0.72,0.92,uProg);'+
+    'float plate=step(abs(p.y-0.26),0.030)*step(abs(p.x),0.80)*allUp;'+
+    /* a noggin row halfway */
+    'float nog=step(abs(p.y+0.03),0.020)*step(abs(sf-0.5),0.50)*inwall*step(0.35,appear);'+
+    'float timber=clamp(stud+sole+plate+nog,0.0,1.0);'+
+    'vec3 wood=mix(vec3(0.235,0.160,0.088),vec3(0.395,0.280,0.160),hash21(vec2(si,3.0)));'+
+    'wood*=0.85+0.30*fbm(vec2(p.x*22.0,p.y*7.0));'+
+    'col=mix(col,wood,timber*0.96);'+
+    /* lit edge on the sunward side of every stud */
+    'float lit=step(abs(sf-0.34),0.030)*step(p.y,topY)*step(-0.33,p.y)*inwall;'+
+    'col+=mix(uC2,vec3(1.0,0.92,0.78),0.4)*lit*0.40;'+
+    /* trusses rising last */
+    'float tp=smoothstep(0.86,1.0,uProg);'+
+    'for(int i=0;i<3;i++){float s=float(i);'+
+    'float cx=-0.46+s*0.46;'+
+    'float ty=0.28+0.26*(1.0-clamp(abs(p.x-cx)/0.26,0.0,1.0));'+
+    'float tr=smoothstep(0.020,0.0,abs(p.y-ty))*step(abs(p.x-cx),0.27)*tp;'+
+    'col=mix(col,vec3(0.30,0.215,0.125),tr*0.95);'+
+    'col+=uC2*tr*0.18;}'+
+    'col*=open;'+
+    'float vig=smoothstep(1.33,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* SAWDUST — a shaft of low light through a workshop with dust thrown up from a
+     cut. The beam gives it an origin and a direction; a bare particle field
+     would just be noise. */
+  sawdust:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.60,uProg);'+
+    'vec3 col=vec3(0.030,0.024,0.018);'+
+    /* the shaft: a wedge from upper left, edges softened by the dust in it */
+    'vec2 o=vec2(-1.05,0.62);'+
+    'vec2 d=p-o;'+
+    'float ang=atan(d.y,d.x);'+
+    'float centre=-0.62;'+
+    'float halfw=0.20+0.10*fbm(vec2(length(d)*2.0,t*0.25));'+
+    'float beam=smoothstep(halfw,0.0,abs(ang-centre))*smoothstep(2.6,0.25,length(d));'+
+    'col+=mix(uC2,vec3(1.0,0.94,0.80),0.45)*beam*0.30;'+
+    /* the timber being cut, a dark bar across the lower third */
+    'float bar=step(abs(p.y+0.24+p.x*0.10),0.085);'+
+    'vec3 wood=mix(vec3(0.20,0.135,0.075),vec3(0.33,0.235,0.135),fbm(vec2(p.x*14.0,p.y*40.0)));'+
+    'col=mix(col,wood,bar*0.95);'+
+    'col+=uC2*step(abs(p.y+0.24+p.x*0.10-0.085),0.010)*0.35;'+
+    /* the cut point, throwing sparks of dust */
+    'vec2 cut=vec2(0.16,-0.256);'+
+    'float glow=exp(-length((p-cut)*vec2(1.0,1.6))*11.0);'+
+    'col+=mix(uC1,uC2,0.6)*glow*0.60;'+
+    /* dust: two layers, arcing up and away from the cut, brightest inside the beam */
+    'for(int i=0;i<2;i++){float s=float(i);'+
+    'float sc=17.0+s*13.0;'+
+    'vec2 dp=(p-cut)*sc;'+
+    'dp.x-=t*(2.2+s*1.4);dp.y-=t*(1.1+s*0.7)-length(p-cut)*3.0;'+
+    'vec2 id=floor(dp);float h=hash21(id+s*29.0);'+
+    'float mote=step(0.955,h)*smoothstep(0.5,0.0,length(fract(dp)-0.5));'+
+    'float near=smoothstep(1.30,0.0,length(p-cut));'+
+    'col+=mix(uC2,vec3(1.0,0.95,0.85),0.5)*mote*near*(0.25+beam*1.9);}'+
+    /* ambient motes hanging in the shaft further out */
+    'vec2 ap=p*vec2(20.0,20.0)+vec2(t*0.9,sin(t*0.7)*0.5);'+
+    'float ah=hash21(floor(ap));'+
+    'col+=vec3(1.0,0.95,0.86)*step(0.987,ah)*smoothstep(0.5,0.0,length(fract(ap)-0.5))*beam*1.5;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.32,0.26,length(uv-0.5));col*=0.38+0.62*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* GRAIN — close on a sawn board: flowing grain bending around two knots.
+     The knots are ELONGATED and pushed off-centre on purpose. A centred ring
+     system with a bright middle reads as an eye, which has already burned us
+     once on the galaxy scene. */
+  grain:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.018;'+
+    'float open=smoothstep(0.0,0.55,uProg);'+
+    /* Directional grain. The y frequency is high and the x frequency low, so the
+       lines run ALONG the board like sawn timber instead of curling into swirls.
+       Turbulent fbm in both axes is what made the first version look like poured
+       caramel. */
+    'float undulate=fbm(vec2(p.x*1.15+t,p.y*0.45))*1.9;'+
+    'float cathedral=exp(-abs(p.x+0.30)*1.5)*0.55;'+
+    'float v=p.y*7.5+undulate+cathedral*sin(p.x*2.0);'+
+    'float band=abs(fract(v)-0.5);'+
+    'float grain=smoothstep(0.44,0.05,band);'+
+    /* a second finer set, slightly out of phase, for depth */
+    'float band2=abs(fract(v*2.6+0.31)-0.5);'+
+    'float fine=smoothstep(0.46,0.16,band2);'+
+    'vec3 light=mix(vec3(0.345,0.238,0.134),uC2*0.62,0.30);'+
+    'vec3 dark=vec3(0.118,0.076,0.043);'+
+    'vec3 col=mix(dark,light,grain*0.86);'+
+    'col=mix(col,dark,fine*0.16);'+
+    /* ONE knot, small, cropped by the right edge. A single cropped knot cannot
+       read as a pair of eyes the way two centred ones did. */
+    'vec2 kd=(p-vec2(0.80,-0.20))*vec2(1.0,1.45);'+
+    'float kr=length(kd);'+
+    'float whorl=smoothstep(0.38,0.04,abs(fract(kr*11.0)-0.5))*smoothstep(0.26,0.0,kr);'+
+    'col=mix(col,vec3(0.085,0.052,0.028),whorl*0.70);'+
+    'col=mix(col,vec3(0.052,0.030,0.016),smoothstep(0.055,0.0,kr)*0.75);'+
+    /* the grain lifts and parts around the knot */
+    'float lift=exp(-kr*3.4);'+
+    'col+=uC1*grain*lift*0.10;'+
+    /* fibre texture along the length */
+    'float fibre=smoothstep(0.62,0.98,fbm(vec2(p.x*34.0,p.y*2.0+undulate)));'+
+    'col+=uC1*fibre*0.065;'+
+    /* a plane shaving curling off the top of the board, catching the light */
+    'float sy=0.40+sin(p.x*4.6+uT*0.6)*0.05;'+
+    'float shav=smoothstep(0.030,0.0,abs(p.y-sy))*smoothstep(1.0,0.05,abs(p.x));'+
+    'col+=mix(uC2,vec3(1.0,0.95,0.86),0.45)*shav*0.50;'+
+    'col+=uC2*smoothstep(0.055,0.0,abs(p.y-sy+0.030))*smoothstep(1.0,0.1,abs(p.x))*0.14;'+
+    /* raking light so the surface reads as a solid object */
+    'float rake=clamp(smoothstep(1.05,-0.30,p.x*0.55-p.y*1.10),0.0,1.0);'+
+    'col+=mix(uC1,uC2,0.55)*rake*grain*0.15;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.34,0.28,length(uv-0.5));col*=0.42+0.58*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* DUSK — the finished house at blue hour with the lights on. Composed low and
+     wide on purpose so it never echoes the centred gable in the roofing demo. */
+  dusk:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.60,uProg);'+
+    /* blue hour: warm only at the very bottom of the sky */
+    'float g=smoothstep(-0.30,0.85,p.y);'+
+    'vec3 col=mix(mix(uC1*0.75,vec3(0.55,0.42,0.36),0.55),vec3(0.035,0.052,0.090),g);'+
+    /* a few early stars up high */
+    'vec2 sp=p*vec2(52.0,52.0);float sh=hash21(floor(sp));'+
+    'col+=vec3(0.85,0.90,1.0)*step(0.9955,sh)*smoothstep(0.0,0.5,p.y)*(0.5+0.5*sin(t*1.6+sh*60.0));'+
+    /* tree line behind the house */
+    'float tree=0.0;'+
+    'for(int i=0;i<5;i++){float s=float(i);'+
+    'float cx=-0.95+s*0.48;'+
+    'float th=0.055+hash21(vec2(s,7.0))*0.065;'+
+    'float lump=th*(1.0-clamp(abs(p.x-cx)/0.34,0.0,1.0))+fbm(vec2(p.x*17.0+s*3.0,2.0))*0.055;'+
+    'tree=max(tree,step(p.y,-0.05+lump));}'+
+    'col=mix(col,vec3(0.030,0.040,0.050),tree*0.92);'+
+    /* the house: long, low, set to the right, with a shallow pitch */
+    'float roofY=-0.02-abs(p.x-0.16)*0.20;'+
+    'float walls=step(p.y,roofY)*step(abs(p.x-0.16),0.72);'+
+    'col=mix(col,vec3(0.030,0.030,0.038),walls);'+
+    'float eave=smoothstep(0.014,0.0,abs(p.y-roofY))*step(abs(p.x-0.16),0.72);'+
+    'col+=mix(uC1,vec3(0.7,0.75,0.85),0.45)*eave*0.30;'+
+    /* windows, warm, lighting one after another */
+    'for(int i=0;i<4;i++){float s=float(i);'+
+    'vec2 wc=vec2(-0.34+s*0.32,-0.20);'+
+    'float on=smoothstep(0.18+s*0.16,0.34+s*0.16,uProg);'+
+    'float win=step(abs(p.x-wc.x),0.072)*step(abs(p.y-wc.y),0.078)*walls;'+
+    'col=mix(col,mix(uC2,vec3(1.0,0.88,0.66),0.45)*0.95,win*on*0.92);'+
+    /* light spilling onto the ground under each window */
+    'float spill=exp(-length((p-wc-vec2(0.0,0.22))*vec2(1.6,2.6))*4.0);'+
+    'col+=mix(uC1,uC2,0.5)*spill*on*0.20;}'+
+    /* a porch lamp */
+    'vec2 lp=vec2(0.62,-0.10);'+
+    'float lamp=smoothstep(0.020,0.0,length(p-lp));'+
+    'col+=vec3(1.0,0.88,0.66)*lamp*1.4*smoothstep(0.25,0.55,uProg);'+
+    'col+=mix(uC2,vec3(1.0,0.85,0.60),0.4)*exp(-length(p-lp)*7.0)*0.35*smoothstep(0.25,0.55,uProg);'+
+    /* lawn */
+    'col=mix(col,vec3(0.028,0.038,0.030),step(p.y,-0.40)*0.85);'+
+    'col*=open;'+
+    'float vig=smoothstep(1.34,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

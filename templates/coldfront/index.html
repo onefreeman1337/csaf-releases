@@ -1,0 +1,478 @@
+<!--
+  COLDFRONT - HVAC & Home Services HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coldfront, HVAC and home services website template demo · Aura</title>
+<meta name="description" content="Live demo of Coldfront, a one page HVAC and home services website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/coldfront/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%2335C7F2'/%3E%3Cstop%20offset='1'%20stop-color='%237FE8D0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50 6v88M50 6M12 28l76 44M88 28L12 72'%20stroke='url(%23g)'%20stroke-width='9'%20stroke-linecap='round'%20fill='none'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    /* Ice and a single hot accent. Cold is the product; the orange is the
+       problem it solves, so it only ever appears on warnings and CTAs. */
+    --bg-rgb:8,14,22; --panel:rgba(16,26,38,.80);
+    --card-a:rgba(22,34,48,.80); --card-b:rgba(14,22,32,.80);
+    --c1:#35C7F2; --c2:#7FE8D0; --c3:#FF8A4C;
+    --c1-rgb:53,199,242; --c2-rgb:127,232,208;
+    --ink:#EEF6FB; --muted:#8FA5B8;
+    --line:rgba(238,246,251,.12); --line-2:rgba(238,246,251,.26);
+    --grad:linear-gradient(100deg,#7FE8D0,#35C7F2 58%,#1E9BD1);
+    --btn-ink:#04141C;
+    --font-display:"Barlow Condensed","Arial Narrow",sans-serif;
+    --font-body:"Inter","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  .emergency{background:linear-gradient(100deg,rgba(255,138,76,.18),rgba(255,90,40,.10));
+    border-top:1px solid rgba(255,138,76,.38);border-bottom:1px solid rgba(255,138,76,.38);
+    padding:.85rem 1rem;text-align:center;font-size:.95rem}
+  .emergency b{color:var(--c3)}
+  .emergency a{color:var(--ink);font-weight:600}
+  .callbar{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}
+  .btn-call{font-family:var(--font-mono);letter-spacing:.02em}
+  .creds{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.4rem}
+  .creds span{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--muted);border:1px solid var(--line);
+    border-radius:100px;padding:.5rem .85rem}
+  .creds b{color:var(--c2)}
+  .steps{counter-reset:s}
+  .steps .card{position:relative;padding-left:3.4rem}
+  .steps .card::before{counter-increment:s;content:counter(s,decimal-leading-zero);
+    position:absolute;left:1.15rem;top:1.15rem;font-family:var(--font-mono);
+    font-size:1.5rem;color:var(--c1);opacity:.55}
+  /* the maintenance-plan block: a recurring-revenue pitch, which is the single
+     most valuable thing an HVAC site can sell on the contractor's behalf */
+  .plan{border:1px solid var(--line-2);border-radius:16px;padding:1.6rem;
+    background:linear-gradient(160deg,rgba(53,199,242,.10),rgba(127,232,208,.04))}
+  .plan h3{margin-top:0}
+  .plan ul{list-style:none;padding:0;margin:1rem 0 0}
+  .plan li{padding:.45rem 0 .45rem 1.6rem;position:relative;color:var(--muted)}
+  .plan li::before{content:"❄";position:absolute;left:0;color:var(--c1)}
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Coldfront <em>Air</em></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#services">Services</a><a href="#work">Our work</a><a href="#plan">Maintenance</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="tel:3525550188" class="btn btn-primary btn-call">(352) 555-0188</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Licensed &amp; insured · CAC-000000 · Your County</span>
+  <h1><span class="hline"><span class="hline-in">It's 98 degrees</span></span><span class="hline"><span class="hline-in">and the air just</span></span><span class="hline"><span class="hline-in"><em class="gradient-text">stopped.</em></span></span></h1>
+  <p class="lead">We answer the phone, we come the same day, and we tell you honestly whether it needs a $200 capacitor or a new system. Most of the time it is the capacitor.</p>
+  <div class="hero-cta callbar">
+    <a href="tel:3525550188" class="btn btn-primary">📞 Call (352) 555-0188</a>
+    <a href="#quote" class="btn btn-ghost">Book a service call</a>
+  </div>
+  <div class="trust"><span>Same-day service</span><span>Up-front pricing</span><span>Financing available</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="emergency">
+    <b>⚠ No cooling right now?</b> Same-day emergency service, seven days a week — <a href="tel:3525550188">call (352) 555-0188</a>.
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>AC repair <b>✦</b> System replacement <b>✦</b> Heat pumps <b>✦</b> Ductwork <b>✦</b> Air quality <b>✦</b> Maintenance plans <b>✦</b> Mini-splits <b>✦</b> Thermostats <b>✦</b></span>
+      <span>AC repair <b>✦</b> System replacement <b>✦</b> Heat pumps <b>✦</b> Ductwork <b>✦</b> Air quality <b>✦</b> Maintenance plans <b>✦</b> Mini-splits <b>✦</b> Thermostats <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what we do</span><h2>Cooling, heating, and the air you breathe.</h2><p>Sample services — a real contractor's actual list drops straight in.</p></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2v20M4 6l16 12M20 6L4 18"/></svg></div><h3>Emergency AC repair</h3><p>Same day, seven days a week. Diagnostic fee quoted before we drive out, and waived if you go ahead with the repair.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M7 21h10M8 8h8M8 12h5"/></svg></div><h3>System replacement</h3><p>Properly sized for your house, not guessed from the old unit. A too-big system short-cycles and never pulls the humidity out.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 8h13a3 3 0 1 0-3-3M3 16h9a3 3 0 1 1-3 3"/></svg></div><h3>Ductwork &amp; airflow</h3><p>Leaky ducts in a hot attic throw away a third of what you paid to cool. We test, seal, and rebalance the rooms that never get cold.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Maintenance plans</h3><p>Two visits a year, priority scheduling, and no overtime rate. Most breakdowns we get called to were preventable in ten minutes.</p></div>
+    </div>
+    <div class="creds reveal">
+      <span>Licensed <b>CAC-000000</b></span><span>Fully <b>insured</b></span><span><b>Up-front</b> pricing</span><span><b>Financing</b> available</span><span>Serving <b>Your County</b></span>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="heat">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the problem</span>
+      <h2>August does not <em>negotiate.</em></h2>
+      <p>A dead compressor in Florida is not an inconvenience. It is an emergency.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="work">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">our work</span>
+          <h2>Installs and rescues.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(These become the contractor's own job photos.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-condenser.jpg" alt="A new outdoor condenser unit installed beside a house" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>New condenser</h3><span class="tag">Your City · 3-ton</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-tech.jpg" alt="A technician servicing an air conditioning system" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Same-day rescue</h3><span class="tag">Called at 9, cold by noon</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-ducts.jpg" alt="Ductwork running through an attic space" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Duct replacement</h3><span class="tag">Belleview</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-thermostat.jpg" alt="A smart thermostat on a wall" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Smart controls</h3><span class="tag">Zoned</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-airhandler.jpg" alt="An indoor air handler unit" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Air handler swap</h3><span class="tag">Summerfield</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-home.jpg" alt="A comfortable cool living room interior" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>The point of it all</h3><span class="tag">72 and quiet</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="coil">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the fix</span>
+      <h2>Cold starts <em>here.</em></h2>
+      <p>Clean coils, correct charge, sealed ducts. In that order, every time.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="plan">
+    <div class="sec-head center reveal"><span class="eyebrow">maintenance</span><h2>The plan that stops the 2am call.</h2><p>Sample pricing — the contractor's real plan slots straight in.</p></div>
+    <div class="plan reveal">
+      <h3>Coldfront Comfort Club — <span class="gradient-text">$19/month</span></h3>
+      <ul>
+        <li>Two full system tune-ups a year, spring and fall</li>
+        <li>Priority scheduling — you go to the front of the queue in a heatwave</li>
+        <li>No overtime rate, ever, including weekends</li>
+        <li>15% off any repair</li>
+        <li>Keeps the manufacturer warranty valid, which annual service is required for</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="flow">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the delivery</span>
+      <h2>Every room, <em>evenly.</em></h2>
+      <p>If the back bedroom is always warmer, that is a ductwork problem, not a thermostat problem.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">neighbours</span><h2>What people say.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“Called at nine in the morning in the middle of August. Cold air by lunchtime. They did not try to sell me a whole new system.”</p><div class="who"><div class="avatar">J</div><div><strong>A Real Customer</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“The last company quoted me eleven thousand. These guys found a burnt contactor and charged me under three hundred.”</p><div class="who"><div class="avatar">T</div><div><strong>Another Customer</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“Sealed our attic ducts and the back bedroom is finally the same temperature as the rest of the house.”</p><div class="who"><div class="avatar">P</div><div><strong>Future Customer</strong><small>demo review</small></div></div></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="frost">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the result</span>
+      <h2>Quiet, dry, <em>cold.</em></h2>
+      <p>You should never have to think about your air conditioning. That is the whole job.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">questions</span><h2>The ones everybody asks.</h2></div>
+    <div class="faq reveal">
+      <details><summary>Do I need a whole new system? <span class="plus">+</span></summary><p>Usually not. Capacitors, contactors and low charge cause most no-cool calls and are a few hundred dollars. We will tell you when a replacement genuinely makes more sense than another repair.</p></details>
+      <details><summary>How fast can you get here? <span class="plus">+</span></summary><p>Same day for no-cool calls, seven days a week. Maintenance-plan customers go to the front of the queue when it is 98 degrees and everyone is calling at once.</p></details>
+      <details><summary>What does a service call cost? <span class="plus">+</span></summary><p>We quote the diagnostic fee on the phone before we drive out, and waive it if you go ahead with the repair. You will never get a surprise invoice from us.</p></details>
+      <details><summary>Do you offer financing? <span class="plus">+</span></summary><p>Yes, on replacements. A system dying in August is not something most households have budgeted for, so we will show you monthly options before you decide anything.</p></details>
+      <details><summary>Why is one room always hotter? <span class="plus">+</span></summary><p>Almost always airflow — a crushed duct, a leaking run in the attic, or a system that was never balanced. It is measurable, and it is fixable.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="quote">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">book a visit</span>
+        <h2>Let's get it cold again.</h2>
+        <p class="lead">Tell us what it is doing and we will tell you what it needs. Same-day slots for anything that has stopped cooling.</p>
+        <ul class="info-list">
+          <li><b>📞</b><span>Not cooling right now? Call <a href="tel:3525550188">(352) 555-0188</a> — we answer.</span></li>
+          <li><b>⚡</b><span>Same-day emergency service, seven days a week</span></li>
+          <li><b>🛡️</b><span>Licensed CAC-000000 · fully insured · locally owned</span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram &#8599;</a><a href="#">Facebook &#8599;</a><a href="#">Google &#8599;</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Sam Carter" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(352) 555-0188" required /></div>
+        <div><label for="address">Service address</label><input id="address" name="address" type="text" placeholder="123 SE 5th Ave, Your City" /></div>
+        <div><label for="service">What is it doing?</label>
+          <select id="service" name="service"><option>Not cooling at all — urgent</option><option>Cooling weakly / running constantly</option><option>Making a noise or smell</option><option>Want a replacement quote</option><option>Maintenance plan / tune-up</option><option>One room never gets cold</option></select>
+        </div>
+        <div><label for="notes">Anything else</label><textarea id="notes" name="notes" placeholder="Outside unit is running but the air from the vents is warm. Started last night."></textarea></div>
+        <button type="submit" class="btn btn-primary">Book my service call</button>
+        <p class="form-note">Demo form — on a real site this goes straight to the contractor's phone and inbox.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Coldfront Air &amp; Heat · All rights reserved. Licence CAC-000000.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com',
+  formSubject:'New HVAC enquiry (Coldfront demo)',
+
+  /* HERO: cold air pouring down over a warm room. Two temperatures fighting,
+     which is the entire product in one image. Layered descending ribbons with
+     a warm floor glow being pushed back. */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.10;'+
+    'vec3 col=vec3(0.020,0.030,0.044);'+
+    /* warm air sitting low, the thing being displaced */
+    'float warm=smoothstep(0.15,-0.55,p.y)*(0.6+0.4*fbm(vec2(p.x*2.4,p.y*3.0-t*0.8)));'+
+    'col+=uC3*warm*0.22;'+
+    /* cold ribbons falling and spreading as they descend */
+    'for(int i=0;i<6;i++){float s=float(i);'+
+    'float spread=1.0+smoothstep(0.5,-0.6,p.y)*1.6;'+
+    'float x=p.x/spread+sin(p.y*2.2+t*(1.1+s*0.2)+s*1.4)*0.10;'+
+    'float lane=abs(fract(x*1.7+s*0.19)-0.5);'+
+    'float ribbon=smoothstep(0.16,0.0,lane);'+
+    'float fall=fract(p.y*0.5-t*(0.55+s*0.13)+hash21(vec2(s,4.0)));'+
+    'float body=smoothstep(0.95,0.25,fall);'+
+    'vec3 cold=mix(uC1,uC2,fract(s*0.31+t*0.4));'+
+    'col+=cold*ribbon*body*0.16;}'+
+    /* frost motes carried in the stream */
+    'vec2 fp=p*vec2(30.0,22.0)+vec2(0.0,-t*7.0);'+
+    'float fh=hash21(floor(fp));'+
+    'col+=mix(uC2,vec3(1.0),0.5)*step(0.982,fh)*smoothstep(0.5,0.0,length(fract(fp)-0.5))*0.9;'+
+    /* the cold front line itself, sweeping down the frame */
+    'float front=smoothstep(0.06,0.0,abs(p.y-(0.30-fract(t*0.35)*1.1)));'+
+    'col+=mix(uC1,uC2,0.5)*front*0.20;'+
+    'float vig=smoothstep(1.35,0.30,length(uv-0.5));col*=0.44+0.56*vig;'+
+    'col*=mix(1.0,0.24,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  breakFrags:{
+
+  /* HEAT — brutal August: a bleached sky, hot asphalt, heavy shimmer, and a
+     condenser unit sitting in it with its fan turning. The distortion is applied
+     to the sampling coordinate so everything behind it wobbles together. */
+  heat:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.70,uProg);'+
+    'float g=smoothstep(0.30,-0.45,p.y);'+
+    'vec2 w=p;'+
+    'w.x+=sin(p.y*24.0-t*3.2)*0.010*g+(fbm(vec2(p.x*5.0,p.y*9.0-t*1.7))-0.5)*0.055*g;'+
+    'w.y+=(fbm(vec2(p.x*7.0+t*1.1,p.y*6.0))-0.5)*0.026*g;'+
+    'float sg=smoothstep(-0.18,0.72,w.y);'+
+    'vec3 col=mix(mix(vec3(1.0,0.90,0.70),uC3,0.30),vec3(0.10,0.34,0.58),sg);'+
+    'vec2 sp=w-vec2(0.34,0.30);float sd=length(sp);'+
+    'col+=vec3(1.0,0.97,0.88)*aa(sd-0.072)*1.7;'+
+    'col+=vec3(1.0,0.86,0.58)*exp(-sd*3.6)*0.50;'+
+    'float ground=aa(w.y+0.14);'+
+    'vec3 tar=mix(vec3(0.085,0.085,0.095),vec3(0.175,0.170,0.165),fbm(vec2(w.x*9.0,w.y*30.0)));'+
+    'col=mix(col,tar,ground);'+
+    'col+=vec3(0.95,0.90,0.80)*exp(-abs(w.y+0.14)*20.0)*0.34;'+
+    /* the condenser: a lit box with a SLOTTED grille. Concentric rings inside a
+       rounded box read as a camera lens, so the grille is now straight slats. */
+    'vec2 cu=w-vec2(-0.36,0.02);'+
+    'float box=aa(max(abs(cu.x)-0.155,abs(cu.y)-0.150));'+
+    'vec3 shell=mix(vec3(0.048,0.055,0.068),vec3(0.10,0.112,0.128),smoothstep(-0.15,0.15,cu.y));'+
+    'col=mix(col,shell,box);'+
+    /* top grille: horizontal slats, lit, with the fan turning behind them */
+    'float slat=aaBand(fract(cu.y*26.0)-0.5,0.30)*box*step(0.0,cu.y);'+
+    'float ang=atan(cu.y,cu.x)+t*6.0;'+
+    'float blade=smoothstep(0.28,0.52,abs(fract(ang/6.2831*3.0)-0.5))*smoothstep(0.13,0.0,length(cu));'+
+    'col+=vec3(0.20,0.26,0.32)*blade*box*0.55;'+
+    'col=mix(col,vec3(0.030,0.036,0.046),slat*0.75);'+
+    'col+=vec3(0.42,0.50,0.60)*aaBand(fract(cu.y*26.0)-0.5,0.06)*box*step(0.0,cu.y)*0.30;'+
+    /* side fins, lit so the cabinet has form */
+    'float fins=box*step(0.10,abs(cu.x))*aaBand(fract(cu.y*70.0)-0.5,0.26);'+
+    'col+=vec3(0.26,0.31,0.37)*fins*0.55;'+
+    'col+=vec3(0.70,0.78,0.86)*aaBand(abs(cu.x)-0.155,0.004)*0.35;'+
+    /* the heat it dumps, rolling upward continuously */
+    'float plume=smoothstep(0.16,0.0,abs(cu.x))*smoothstep(0.0,0.42,cu.y-0.15)*smoothstep(0.62,0.20,cu.y);'+
+    'col+=uC3*plume*0.18*(0.55+0.45*fbm(vec2(cu.x*8.0,cu.y*6.0-t*2.6)));'+
+    'col*=open;'+
+    'float vig=smoothstep(1.32,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* COIL — a lit metal coil. Fins get a real height field so they catch a
+     specular highlight; the frost creeps on its own clock as well as on scroll. */
+  coil:
+    'float clH(vec2 P,float t){'+
+    'float fin=abs(fract(P.x*54.0+sin(P.y*3.0)*0.6)-0.5);'+
+    'float h=(0.5-fin)*0.9;'+
+    'for(int i=0;i<4;i++){float s=float(i);float ty=-0.24+s*0.16;'+
+    'h+=exp(-abs(P.y-ty)*26.0)*0.85;}'+
+    'h+=(fbm(P*vec2(120.0,120.0))-0.5)*0.10;'+
+    'return h;}'+
+
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.60,uProg);'+
+    'vec3 col=vec3(0.012,0.017,0.026);'+
+    'float block=aa(max(abs(p.y)-0.34,abs(p.x)-0.86));'+
+    /* normal from the fin height field, then light it as metal */
+    'vec2 e=vec2(1.4/uRes.y,0.0);'+
+    'float hL=clH(p-e.xy,t),hR=clH(p+e.xy,t),hD=clH(p-e.yx,t),hU=clH(p+e.yx,t);'+
+    'vec3 n=nrmH(hL,hR,hD,hU,0.42);'+
+    'vec3 L=normalize(vec3(0.42,0.66,0.62));'+
+    'vec3 alu=vec3(0.180,0.205,0.235);'+
+    'vec3 surf=lit(alu,n,L,mix(uC1,vec3(1.0),0.35),64.0,0.55);'+
+    'col=mix(col,surf,block);'+
+    /* copper tubes, shaded as cylinders rather than flat bars */
+    'for(int i=0;i<4;i++){float s=float(i);float ty=-0.24+s*0.16;'+
+    'float d=(p.y-ty)/0.032;'+
+    'float on=block*aa(abs(p.y-ty)-0.032);'+
+    'float round=sqrt(max(1.0-d*d,0.0));'+
+    'vec3 cu=mix(vec3(0.055,0.040,0.030),vec3(0.165,0.115,0.075),round);'+
+    'cu+=vec3(0.55,0.44,0.32)*pow(clamp(round,0.0,1.0),9.0)*0.22;'+
+    'col=mix(col,cu,on*0.96);'+
+    'col*=ao(aaBand(abs(p.y-ty)-0.038,0.010)*0.9,0.45);}'+
+    /* frost: creeps with scroll AND keeps crawling on its own clock */
+    'float front=uProg*2.0-0.55+sin(t*0.30)*0.06;'+
+    'float fn=fbm(vec2(p.x*7.0+t*0.05,p.y*11.0));'+
+    'float frost=smoothstep(front+0.30,front-0.30,p.x+fn*0.42-0.55)*block;'+
+    'float crystal=smoothstep(0.50,0.80,fbm(vec2(p.x*30.0,p.y*30.0)+fn*3.0+t*0.04));'+
+    'vec3 ice=mix(uC1,vec3(0.93,0.99,1.0),0.66);'+
+    'col=mix(col,ice,frost*crystal*0.86);'+
+    'col+=mix(uC2,vec3(1.0),0.4)*frost*crystal*0.13;'+
+    'vec2 gp=p*vec2(150.0,150.0);float gh=hash21(floor(gp));'+
+    'col+=vec3(1.0)*step(0.9960,gh)*frost*(0.45+0.55*sin(t*3.0+gh*40.0));'+
+    /* cold air spilling out of the bottom, drifting */
+    'float spill=smoothstep(0.0,-0.30,p.y+0.34)*smoothstep(-0.62,-0.34,p.y);'+
+    'col+=mix(uC1,uC2,0.5)*spill*0.15*(0.55+0.45*fbm(vec2(p.x*6.0-t*0.5,p.y*8.0+t*1.6)));'+
+    'col+=vec3(0.44,0.52,0.60)*aaBand(abs(p.y)-0.34,0.005)*step(abs(p.x),0.86)*0.60;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.34,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* FLOW — the streams now TRAVEL rather than just pulsing in place, and the
+     whole fan sways so the scene is never still. */
+  flow:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.60,uProg);'+
+    'vec3 col=vec3(0.014,0.022,0.034);'+
+    'col+=uC3*smoothstep(0.30,-0.50,p.y)*0.055;'+
+    /* the register, lit */
+    'vec2 v=p-vec2(-0.24,0.40);'+
+    'float vent=aa(max(abs(v.x)-0.26,abs(v.y)-0.055));'+
+    'col=mix(col,vec3(0.062,0.075,0.090),vent);'+
+    'float louvre=vent*aaBand(fract(v.y*34.0)-0.5,0.24);'+
+    'col+=vec3(0.34,0.41,0.48)*louvre*0.70;'+
+    'col+=vec3(0.55,0.64,0.72)*aaBand(abs(v.y)-0.055,0.004)*step(abs(v.x),0.26)*0.55;'+
+    /* seven streams, swaying as a group and carrying travelling pulses */
+    'float sway=sin(t*0.55)*0.055;'+
+    'for(int i=0;i<7;i++){float s=float(i);'+
+    'float lane=(s-3.0)/3.0;'+
+    'float prog=clamp((0.40-p.y)*1.05,0.0,1.6);'+
+    'float cx=-0.24+lane*(0.16+prog*0.62)+sin(prog*2.4+t*1.5+s*1.1)*0.055*prog+sway*prog;'+
+    'float d=abs(p.x-cx);'+
+    'float w=0.022+prog*0.040;'+
+    'float stream=smoothstep(w,0.0,d)*step(p.y,0.345);'+
+    'float pulse=0.45+0.55*sin(prog*9.0-t*5.4+s*1.7);'+
+    'float packet=smoothstep(0.72,1.0,sin(prog*5.0-t*3.2+s*2.1));'+
+    'vec3 cold=mix(uC1,uC2,fract(s*0.23+0.15));'+
+    'col+=cold*stream*pulse*0.34*smoothstep(1.70,0.15,prog);'+
+    'col+=mix(cold,vec3(1.0),0.45)*stream*packet*0.30*smoothstep(1.6,0.2,prog);}'+
+    /* motes riding the flow, faster */
+    'vec2 fp=vec2(p.x*16.0,p.y*14.0-t*5.2);'+
+    'float fh=hash21(floor(fp));'+
+    'col+=mix(uC2,vec3(1.0),0.5)*step(0.984,fh)*smoothstep(0.5,0.0,length(fract(fp)-0.5))*step(p.y,0.34)*0.9;'+
+    'col+=mix(uC1,uC2,0.4)*smoothstep(-0.30,-0.60,p.y)*0.12*(0.85+0.15*sin(t*1.2));'+
+    'col*=open;'+
+    'float vig=smoothstep(1.34,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* FROST — irregular seeds growing at different rates, and still growing on uT
+     after the scroll stops. Six evenly spaced identical stars read as wallpaper. */
+  frost:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.55,uProg);'+
+    'float grow=clamp(uProg*1.10+t*0.006,0.0,1.25);'+
+    'vec3 col=vec3(0.013,0.023,0.038);'+
+    'col+=uC3*exp(-length(p*vec2(0.7,1.2))*2.3)*0.05;'+
+    'col+=mix(uC1,uC2,0.35)*exp(-length(p*vec2(0.9,1.3))*2.0)*0.10;'+
+    /* Frost ferns ALONG a direction, it does not explode from a point. Each
+       fern is a wandering vein sweeping up-right with ribs off both sides. */
+    'float ice=0.0;float rim=0.0;'+
+    'vec2 dir=normalize(vec2(0.86,0.51));'+
+    'vec2 perp=vec2(-dir.y,dir.x);'+
+    'for(int i=0;i<7;i++){float s=float(i);'+
+    'float off=(s-3.0)*0.165+hash21(vec2(s,3.0))*0.07;'+
+    'vec2 q=p-perp*off+dir*0.95;'+
+    'float along=dot(q,dir);'+
+    'float across=dot(q,perp);'+
+    /* the vein wanders instead of running straight */
+    'float wander=fbm(vec2(along*1.5,s*7.0))*0.30+sin(along*2.3+s*2.1)*0.045;'+
+    'float dv=across-wander;'+
+    'float rate=0.80+hash21(vec2(s,9.0))*0.7;'+
+    'float reach=2.05*clamp(grow*rate,0.0,1.0);'+
+    'float onv=smoothstep(reach,reach-0.30,along)*step(0.0,along);'+
+    'float vein=aaBand(dv,0.011)*onv;'+
+    /* ribs branching off the vein at a shallow angle, shortening toward the tip */
+    'float rib=aaBand(fract(along*17.0+s*0.37)-0.5,0.085)*'+
+    'smoothstep(0.20+0.10*sin(along*9.0),0.0,abs(dv))*onv;'+
+    'float fine=aaBand(fract(along*44.0+s*0.2)-0.5,0.16)*'+
+    'smoothstep(0.075,0.0,abs(dv))*onv;'+
+    'float f=clamp(vein+rib*0.80+fine*0.45,0.0,1.0);'+
+    'ice=max(ice,f);'+
+    'rim=max(rim,f*smoothstep(reach-0.55,reach,along));}'+
+    /* grainy hoar filling in behind the growing edge */
+    'float hoar=smoothstep(0.58,0.82,fbm(vec2(p.x*14.0,p.y*14.0)+t*0.02));'+
+    'ice=clamp(ice+hoar*ice*0.7,0.0,1.0);'+
+    'col=mix(col,mix(uC1,vec3(0.91,0.98,1.0),0.70),ice*0.88);'+
+    'col+=mix(uC2,vec3(1.0),0.55)*clamp(rim,0.0,1.0)*0.50;'+
+    'vec2 gp=p*vec2(170.0,170.0);float gh=hash21(floor(gp));'+
+    'col+=vec3(1.0)*step(0.9955,gh)*ice*(0.42+0.58*sin(t*2.6+gh*50.0));'+
+    'col+=mix(uC1,uC2,0.5)*fbm(vec2(p.x*2.2+t*0.05,p.y*2.6-t*0.05))*0.05;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.34,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

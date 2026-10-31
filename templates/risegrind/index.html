@@ -1,0 +1,427 @@
+<!--
+  RISE & GRIND - Coffee Shop & Cafe HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rise and Grind, coffee shop and cafe website template demo · Aura</title>
+<meta name="description" content="Live demo of Rise and Grind, a one page coffee shop and cafe website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/risegrind/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23E0B37A'/%3E%3Cstop%20offset='1'%20stop-color='%23B0682C'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50,2C55,27,73,45,98,50C73,55,55,73,50,98C45,73,27,55,2,50C27,45,45,27,50,2Z'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Karla:wght@300;400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-rgb:20,13,8; --panel:rgba(34,21,16,.75);
+    --card-a:rgba(46,29,20,.75); --card-b:rgba(30,19,13,.75);
+    --c1:#C97F3D; --c2:#F2DEC4; --c3:#8A5A2B;
+    --c1-rgb:201,127,61; --c2-rgb:242,222,196;
+    --ink:#FAF3EA; --muted:#C7AE97;
+    --line:rgba(250,243,234,.12); --line-2:rgba(250,243,234,.24);
+    --grad:linear-gradient(100deg,#F2DEC4,#C97F3D 55%,#8A5A2B);
+    --btn-ink:#2C1A0D;
+    --font-display:"Bricolage Grotesque","Trebuchet MS",sans-serif;
+    --font-body:"Karla","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Rise <em>&amp;</em> Grind</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#looks">The space</a><a href="#services">What we do</a><a href="#menu">Menu</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="#book" class="btn btn-primary">Order ahead</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Rise &amp; Grind — craft coffee · Your City</span>
+  <h1><span class="hline"><span class="hline-in">Mornings,</span></span><span class="hline"><span class="hline-in"><em class="gradient-text">perfected.</em></span></span></h1>
+  <p class="lead">Slow pours, serious espresso, and pastries out of the oven at 7am. Your third place, done right — come for the coffee, stay for the light.</p>
+  <div class="hero-cta">
+    <a href="#menu" class="btn btn-primary">See the menu</a>
+    <a href="#looks" class="btn btn-ghost">Peek inside</a>
+  </div>
+  <div class="trust"><span>Beans roasted weekly</span><span>Baked in-house daily</span><span>Oat milk always free</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Espresso <b>✦</b> Pour Over <b>✦</b> Cold Brew <b>✦</b> Matcha <b>✦</b> Croissants <b>✦</b> Breakfast <b>✦</b> House Roast <b>✦</b> Chai <b>✦</b></span>
+      <span>Espresso <b>✦</b> Pour Over <b>✦</b> Cold Brew <b>✦</b> Matcha <b>✦</b> Croissants <b>✦</b> Breakfast <b>✦</b> House Roast <b>✦</b> Chai <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what we do</span><h2>Coffee worth slowing down for.</h2></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/></svg></div><h3>Craft espresso</h3><p>Dialed in every morning, pulled on a machine we love more than our cars.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v3M8 6c0 4 8 4 8 0M6 10h12l-1.5 10h-9z"/></svg></div><h3>Brew bar</h3><p>Pour over, aeropress, cold brew — single origins treated with respect.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19h16M6 19c0-6 2-11 6-11s6 5 6 11M9 8c0-2 1.5-4 3-4"/></svg></div><h3>Fresh pastries</h3><p>Croissants, morning buns and seasonal bakes — from our oven, daily.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 3h12l-2 7H8zM8 10l-2 11h12l-2-11M9 14h6"/></svg></div><h3>Beans to go</h3><p>Take the house roast home — whole bean or ground for your setup.</p></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="signature">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the rise &amp; grind way</span>
+      <h2>Poured with <em>patience.</em></h2>
+      <p>Every cup gets the time it deserves. So do you.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="looks">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">the space</span>
+          <h2>Come sit awhile.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(Real mornings, real light — this is the gallery your photos live in.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-window.jpg" alt="Morning light across a cafe window bar" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Morning light</h3><span class="tag">The window bar</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-bar.jpg" alt="A barista working the espresso machine" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>The bar</h3><span class="tag">Where magic happens</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-latte.jpg" alt="A rosetta poured into a flat white" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Latte art</h3><span class="tag">Rosettas daily</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-pastry.jpg" alt="Pastries in the display case" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Pastry case</h3><span class="tag">Get here early</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-nook.jpg" alt="A quiet corner table in the cafe" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Corner nook</h3><span class="tag">Laptop friendly</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-patio.jpg" alt="The outdoor patio seating" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>The patio</h3><span class="tag">Dog friendly, always</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="pour">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the pour</span>
+      <h2>Poured <em>slow.</em></h2>
+      <p>Milk meets crema. Thirty seconds that decide the whole cup.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="menu">
+    <div class="sec-head center reveal"><span class="eyebrow">menu</span><h2>Order the usual. Or don't.</h2><p>Example prices — set the real menu with the shop.</p></div>
+    <div class="menu reveal">
+      <h3>Espresso &amp; more</h3>
+      <div class="menu-item"><span class="name">Espresso<small>Double shot, house roast</small></span><span class="dots"></span><span class="price">$3.50</span></div>
+      <div class="menu-item"><span class="name">Latte<small>Rosetta included, no charge</small></span><span class="dots"></span><span class="price">$5.00</span></div>
+      <div class="menu-item"><span class="name">Cold brew<small>Steeped 18 hours</small></span><span class="dots"></span><span class="price">$5.50</span></div>
+      <div class="menu-item"><span class="name">Matcha latte<small>Ceremonial grade</small></span><span class="dots"></span><span class="price">$6.00</span></div>
+      <h3>From the oven</h3>
+      <div class="menu-item"><span class="name">Butter croissant</span><span class="dots"></span><span class="price">$4.50</span></div>
+      <div class="menu-item"><span class="name">Avocado toast</span><span class="dots"></span><span class="price">$9.00</span></div>
+      <div class="menu-item"><span class="name">Breakfast sandwich</span><span class="dots"></span><span class="price">$8.00</span></div>
+      <h3>Beans to go</h3>
+      <div class="menu-item"><span class="name">House blend · 12oz</span><span class="dots"></span><span class="price">$16</span></div>
+      <div class="menu-item"><span class="name">Single origin · 12oz</span><span class="dots"></span><span class="price">$19</span></div>
+      <p class="menu-note">✦ Oat, almond and whole — never an upcharge ✦</p>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="shot">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the shot</span>
+      <h2>Pulled to <em>order.</em></h2>
+      <p>Twenty-eight seconds, weighed both ends. Every single cup.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">regulars say</span><h2>The neighborhood's living room.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“Best latte in the city, and it's not close. The rosetta is so pretty I feel bad drinking it. I don't stay feeling bad for long.”</p><div class="who"><div class="avatar">J</div><div><strong>Jordan T.</strong><small>Daily regular · demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“I came for wifi and stayed three years. The staff know my order, my dog's name, and exactly when I need a refill.”</p><div class="who"><div class="avatar">S</div><div><strong>Sam W.</strong><small>Corner nook resident · demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“Their croissants sell out by 9am and honestly? Deserved. Set an alarm. Thank me later.”</p><div class="who"><div class="avatar">A</div><div><strong>Alexis P.</strong><small>Pastry devotee · demo review</small></div></div></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="drip">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the brew bar</span>
+      <h2>Drip by <em>drip.</em></h2>
+      <p>Four minutes, one cone, zero shortcuts. Slow is the whole point.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">good to know</span><h2>Quick questions, honest answers.</h2></div>
+    <div class="faq reveal">
+      <details open><summary>Do you have wifi? <span class="plus">+</span></summary><p>Fast and free. Password's on the chalkboard. Laptops welcome except weekend peak hours at the big table.</p></details>
+      <details><summary>Are dogs allowed? <span class="plus">+</span></summary><p>On the patio, absolutely — water bowls and treats provided. Inside, service animals only.</p></details>
+      <details><summary>Can I buy your beans wholesale? <span class="plus">+</span></summary><p>Yes! We supply cafés and offices around the city. Email us for the wholesale sheet.</p></details>
+      <details><summary>Do you take mobile orders? <span class="plus">+</span></summary><p>Order ahead through the form below or our app partners — your drink hits the pickup bar in minutes.</p></details>
+      <details><summary>What are your hours? <span class="plus">+</span></summary><p>Mon–Fri 6:30am–5pm, weekends 7am–4pm. Pastries land at 7 sharp.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="book">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">find us</span>
+        <h2>Your table's waiting.</h2>
+        <p class="lead">Swing by, order ahead, or ask about catering — we love a good office coffee takeover.</p>
+        <ul class="info-list">
+          <li><b>📍</b><span>123 Main Street, Your City <span class="ph">replace</span></span></li>
+          <li><b>📞</b><span>(555) 000-0000 <span class="ph">replace</span></span></li>
+          <li><b>🕑</b><span>Mon–Fri 6:30–5 · Sat–Sun 7–4 <span class="ph">confirm</span></span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram ↗</a><a href="#">TikTok ↗</a><a href="#">Order app ↗</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Casey Nguyen" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" /></div>
+        <div><label for="service">What can we get you?</label>
+          <select id="service" name="service"><option>Order ahead — drinks</option><option>Order ahead — drinks + food</option><option>Catering inquiry</option><option>Wholesale beans</option><option>Just saying hi</option></select>
+        </div>
+        <div><label for="notes">The details</label><textarea id="notes" name="notes" placeholder="2 oat lattes + 1 croissant, pickup around 8:15..."></textarea></div>
+        <button type="submit" class="btn btn-primary">Send it</button>
+        <p class="form-note">Opens your email app with everything filled in. We'll confirm right away.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Rise &amp; Grind · All rights reserved.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com', /* TEMPLATE: swap for the client's real email */
+  formSubject:'Rise & Grind order',
+  /* HERO: liquid latte — crema marbling, rising steam, sugar sparkle */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*1.7;float t=uT*0.05;'+
+    'vec2 q=vec2(fbm(p+vec2(t,-t*0.8)),fbm(p+vec2(5.2,1.3)-t));'+
+    'vec2 r=vec2(fbm(p+2.3*q+vec2(1.7,9.2)+t*0.7),fbm(p+2.3*q+vec2(8.3,2.8)-t*0.5));'+
+    'float f=fbm(p+2.6*r+t);f=f*0.5+0.5;'+
+    'vec3 dark=vec3(0.055,0.032,0.02);'+
+    'vec3 crema=vec3(0.91,0.72,0.49);vec3 caramel=vec3(0.66,0.42,0.19);vec3 cream=vec3(0.96,0.87,0.72);'+
+    'vec3 col=mix(caramel*0.5,crema,smoothstep(0.25,0.9,f));'+
+    'col=mix(col,cream,clamp(smoothstep(0.62,1.0,r.y*0.5+0.5),0.0,1.0)*0.5);'+
+    'col=mix(dark,col,smoothstep(0.08,0.85,f)*0.95);'+
+    'float steam=fbm(vec2(p.x*2.6,p.y*1.6-uT*0.22));'+
+    'col+=cream*smoothstep(0.62,0.95,steam)*smoothstep(-0.2,0.8,p.y)*0.18;'+
+    'vec2 gp=p*30.0;float h=hash21(floor(gp));'+
+    'col+=cream*smoothstep(0.1,0.0,length(fract(gp)-0.5))*step(0.985,h)*(0.4+0.4*sin(uT*3.0+h*50.0));'+
+    'float vig=smoothstep(1.35,0.25,length(uv-0.5));col*=0.45+0.55*vig;'+
+    'col*=mix(1.0,0.24,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+  /* BREAK: steam ribbons rise over a cup arc; a rosetta draws itself */
+  breakFrag:
+    'void main(){vec2 uv=pixUV(200.0);float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;'+
+    'vec3 crema=vec3(0.91,0.72,0.49);vec3 cream=vec3(0.96,0.87,0.72);'+
+    'vec3 col=vec3(0.05,0.03,0.02);'+
+    'for(int i=0;i<3;i++){float s=float(i);'+
+    'float x=p.x+sin(p.y*2.2+uT*(0.5+s*0.2)+s*2.1)*0.16-(s-1.0)*0.34;'+
+    'float w=fbm(vec2(x*3.0,p.y*1.4-uT*0.35+s*7.0));'+
+    'col+=cream*smoothstep(0.55,0.95,w)*smoothstep(-0.55,0.5,p.y)*(0.16-s*0.03);}'+
+    'float r=length(p-vec2(0.0,0.15));'+
+    'float sweep=smoothstep(0.0,1.0,uProg*1.3);'+
+    'float cup=smoothstep(0.012,0.002,abs(r-0.62))*smoothstep(0.05,-0.1,p.y-0.15);'+
+    'col+=crema*cup*1.1*sweep;'+
+    'vec2 lp=p-vec2(0.0,-0.12);'+
+    'float th=atan(lp.x,lp.y-0.1);float rr=length(lp);'+
+    'float leaf=abs(fract(th*3.5+rr*6.0)-0.5)*2.0;'+
+    'float mask=smoothstep(0.42,0.0,rr)*smoothstep(0.0,-0.4,p.y-0.28);'+
+    'col+=mix(crema,cream,0.5)*smoothstep(0.35,0.0,leaf)*mask*sweep*0.9;'+
+    'vec2 gp=p*14.0+vec2(0.0,uT*0.15);vec2 f2=fract(gp)-0.5;float h=hash21(floor(gp));'+
+    'col+=vec3(0.45,0.28,0.13)*smoothstep(0.16,0.0,length(f2))*step(0.94,h)*0.5;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* ==========================================================
+     Scenes bespoke to THIS café — nothing here is shared with
+     another demo. Each is a recognisable moment from the shop.
+     ========================================================== */
+  breakFrags:{
+
+  /* THE POUR — overhead cup: crema surface, then a rosetta drawn
+     leaf by leaf in steamed milk as you scroll. */
+  pour:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.35;'+
+    'float open=smoothstep(0.0,0.8,uProg);'+
+    'float r=length(p);'+
+    'vec3 col=mix(vec3(0.055,0.036,0.026),vec3(0.030,0.019,0.014),smoothstep(0.2,1.6,r));'+
+    'col+=vec3(0.05,0.033,0.022)*fbm(p*3.0+7.0);'+                    /* wood grain */
+    'float sauc=smoothstep(0.96,0.935,r);'+
+    'col=mix(col,vec3(0.20,0.155,0.135),sauc);'+
+    'col+=vec3(0.30,0.24,0.21)*smoothstep(0.96,0.90,r)*smoothstep(0.83,0.94,r);'+
+    'float R=0.70;float cup=smoothstep(R,R-0.014,r);'+
+    'float rim=smoothstep(R,R-0.028,r)*smoothstep(R-0.072,R-0.042,r);'+
+    'vec3 crema=mix(vec3(0.31,0.165,0.075),vec3(0.50,0.30,0.145),fbm(p*5.0+t*0.25));'+
+    'crema*=0.85+0.30*fbm(p*17.0-t*0.5);'+                             /* micro-foam */
+    'col=mix(col,crema,cup);'+
+    'float grow=smoothstep(0.04,0.80,uProg);'+
+    'vec2 q=p*rot(-1.5708);'+
+    /* rosetta: each leaf is a crescent sweeping BACK from the stem and
+       tapering to nothing at its tip — straight bars read as a fish skeleton */
+    'float stem=smoothstep(0.030,0.010,abs(q.x))*smoothstep(0.64,-0.60,q.y)*step(-0.64,q.y);'+
+    'float leaves=0.0;'+
+    'for(int i=0;i<10;i++){float s=float(i);'+
+    'float u=s/9.0;'+
+    'float yy=-0.50+u*1.00;'+
+    'float span=0.36*(1.0-u*0.80);'+
+    'float appear=smoothstep(u*0.72,u*0.72+0.20,grow);'+
+    'float ax=abs(q.x);'+
+    'float centre=yy+0.80*ax*ax;'+
+    'float wid=0.058*(1.0-ax/max(span,0.001));'+
+    'float leaf=smoothstep(max(wid,0.0),0.0,abs(q.y-centre))*step(ax,span);'+
+    'leaves=max(leaves,leaf*appear);}'+
+    'float milk=clamp(stem*grow+leaves,0.0,1.0)*cup;'+
+    'vec3 mlk=mix(vec3(0.93,0.87,0.77),vec3(1.0,0.97,0.92),fbm(p*11.0+t));'+
+    'col=mix(col,mlk,milk*0.96);'+
+    'col=mix(col,mlk*0.72,smoothstep(0.055,0.0,abs(milk-0.55))*0.35*cup);'+
+    'col=mix(col,vec3(0.93,0.88,0.83),rim*0.92);'+
+    'col*=1.0-smoothstep(R-0.13,R,r)*0.38*cup;'+                       /* inner shadow */
+    'float st=fbm(vec2(p.x*3.2+sin(t*0.9),p.y*1.7-t*1.5));'+
+    'col+=vec3(0.92,0.87,0.82)*smoothstep(0.58,0.96,st)*smoothstep(0.15,0.95,p.y)*0.11;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.45,0.30,length(uv-0.5));col*=0.4+0.6*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* THE ROOM — the shop at opening: window light in volumetric
+     shafts, pendant lamps, table silhouettes, dust in the air. */
+  /* THE POUR-OVER — water beading off the cone, the carafe filling,
+     ripples spreading on the surface. */
+  drip:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT;'+
+    'float fill=smoothstep(0.05,0.92,uProg);'+
+    'vec3 col=mix(vec3(0.055,0.036,0.026),vec3(0.016,0.011,0.009),smoothstep(0.1,1.4,length(p)));'+
+    'col+=uC1*0.10*exp(-length(p-vec2(0.62,0.62))*1.7);'+
+    'float cy=-0.28;'+
+    'float halfW=mix(0.20,0.46,smoothstep(-0.72,cy,p.y));'+
+    'float inCar=step(abs(p.x),halfW)*step(-0.72,p.y)*step(p.y,cy);'+
+    'float wall=smoothstep(0.016,0.004,abs(abs(p.x)-halfW))*step(-0.72,p.y)*step(p.y,cy);'+
+    'float lvl=-0.72+(cy+0.72)*fill;'+
+    'float brew=inCar*step(p.y,lvl);'+
+    'vec3 bc=mix(vec3(0.24,0.105,0.045),vec3(0.44,0.20,0.085),smoothstep(-0.72,lvl,p.y));'+
+    'col=mix(col,bc,brew*0.96);'+
+    'col=mix(col,vec3(0.10,0.09,0.10),inCar*(1.0-step(p.y,lvl))*0.16);'+
+    'float rip=0.0;'+
+    'for(int k=0;k<3;k++){float s=float(k);'+
+    'float ph=fract(t*0.8+s*0.333);'+
+    'rip+=smoothstep(0.030,0.0,abs(abs(p.x)-ph*halfW))*(1.0-ph);}'+
+    'col+=vec3(0.85,0.62,0.36)*rip*inCar*step(lvl-0.03,p.y)*step(p.y,lvl+0.01)*0.85*fill;'+
+    'col+=vec3(0.95,0.80,0.58)*smoothstep(0.010,0.0,abs(p.y-lvl))*inCar*0.55*fill;'+
+    'col+=vec3(0.92,0.96,1.0)*wall*0.42;'+
+    'col+=vec3(1.0)*smoothstep(0.012,0.0,abs(p.x+halfW*0.55))*inCar*0.10;'+
+    'float coneY=p.y-0.30;'+
+    'float coneHalf=max(0.0,0.42-(0.30-p.y)*0.0);'+
+    'float cw=0.42*smoothstep(-0.14,0.34,p.y);'+
+    'float inCone=step(abs(p.x),cw)*step(0.02,p.y)*step(p.y,0.36);'+
+    'float coneEdge=smoothstep(0.014,0.004,abs(abs(p.x)-cw))*step(0.02,p.y)*step(p.y,0.36);'+
+    'col=mix(col,vec3(0.10,0.075,0.062),inCone*0.85);'+
+    'col+=mix(uC2,vec3(1.0),0.35)*coneEdge*0.65;'+
+    'float bed=inCone*smoothstep(0.16,0.03,p.y);'+
+    'col=mix(col,vec3(0.19,0.085,0.038)*(0.85+0.30*fbm(p*14.0)),bed);'+
+    'float bloomR=smoothstep(0.0,0.5,uProg);'+
+    'col+=vec3(0.55,0.28,0.10)*bed*fbm(p*7.0+t*0.5)*0.45*bloomR;'+
+    'float dt=fract(t*1.05);'+
+    'float dy=0.02-dt*0.30;'+
+    'vec2 dp=p-vec2(0.0,dy);'+
+    'float drop=smoothstep(0.026,0.0,length(dp*vec2(1.5,0.72)));'+
+    'col+=vec3(0.85,0.60,0.34)*drop*1.5;'+
+    'col+=vec3(0.95,0.75,0.48)*smoothstep(0.010,0.0,abs(p.x))*step(dy,p.y)*step(p.y,0.02)*0.35;'+
+    'float st=fbm(vec2(p.x*3.4+sin(t*0.8),p.y*1.6-t*1.3));'+
+    'col+=vec3(0.90,0.84,0.78)*smoothstep(0.60,0.97,st)*smoothstep(-0.30,0.30,p.y)*0.10;'+
+    'col*=smoothstep(0.0,0.55,uProg);'+
+    'float vig=smoothstep(1.45,0.28,length(uv-0.5));col*=0.38+0.62*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* THE SHOT — two ropes of espresso twisting out of a naked portafilter,
+     crema building in the cup below. */
+  shot:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT;'+
+    'float pull=smoothstep(0.04,0.90,uProg);'+
+    'vec3 col=mix(vec3(0.048,0.030,0.022),vec3(0.014,0.009,0.007),smoothstep(0.1,1.4,length(p)));'+
+    'col+=uC1*0.09*exp(-length(p-vec2(0.72,0.70))*1.8);'+
+    'float basketY=0.62;'+
+    'float bw=0.30-0.10*smoothstep(basketY-0.20,basketY,p.y);'+
+    'float basket=step(abs(p.x),bw)*step(basketY-0.22,p.y)*step(p.y,basketY+0.16);'+
+    'col=mix(col,vec3(0.16,0.165,0.175),basket);'+
+    'col+=vec3(0.55,0.58,0.62)*smoothstep(0.014,0.0,abs(abs(p.x)-bw))*step(basketY-0.22,p.y)*step(p.y,basketY+0.16)*0.55;'+
+    'col=mix(col,vec3(0.085,0.045,0.022),step(abs(p.x),bw*0.92)*step(basketY-0.02,p.y)*step(p.y,basketY+0.10));'+
+    'float top=basketY-0.22;'+
+    'float cupY=-0.52;'+
+    'for(int i=0;i<2;i++){float sg=(i==0)?1.0:-1.0;'+
+    'float fall=clamp((top-p.y)/max(top-cupY,1e-4),0.0,1.0);'+
+    'float twist=sg*0.085*sin(fall*7.0-t*5.5);'+
+    'float cx=sg*0.055*(1.0-fall*0.92)+twist*fall;'+
+    'float w=(0.030-0.014*fall)*pull;'+
+    'float d=abs(p.x-cx);'+
+    'float inStream=smoothstep(w,w*0.35,d)*step(p.y,top)*step(cupY+0.02,p.y)*step(0.02,pull);'+
+    'vec3 sc=mix(vec3(0.40,0.19,0.075),vec3(0.86,0.55,0.26),1.0-d/max(w,1e-4));'+
+    'col=mix(col,sc,inStream);'+
+    'col+=vec3(1.0,0.78,0.45)*smoothstep(w*0.30,0.0,abs(p.x-cx+w*0.28))*inStream*0.55;'+
+    'col+=vec3(0.9,0.55,0.25)*exp(-d*38.0)*step(p.y,top)*step(cupY,p.y)*0.18*pull;}'+
+    'float ct=clamp((p.y-(cupY-0.30))/0.64,0.0,1.0);'+'float cw=0.30+0.19*sqrt(ct)-0.05*ct*ct;'+
+    'float inCup=step(abs(p.x),cw)*step(cupY-0.30,p.y)*step(p.y,cupY+0.34);'+
+    'float rim=smoothstep(0.016,0.004,abs(abs(p.x)-cw))*step(cupY-0.30,p.y)*step(p.y,cupY+0.34);'+
+    'float lvl=cupY-0.28+0.56*pull;'+
+    'float liquid=inCup*step(p.y,lvl);'+
+    'vec3 esp=mix(vec3(0.115,0.052,0.024),vec3(0.26,0.115,0.050),smoothstep(cupY-0.30,lvl,p.y));'+
+    'col=mix(col,esp,liquid);'+
+    'float cremaT=smoothstep(0.055,0.012,abs(p.y-lvl))*inCup;'+
+    'float foam=fbm(vec2(p.x*16.0,p.y*16.0-t*0.5))*0.6+fbm(vec2(p.x*34.0,p.y*34.0+t*0.3))*0.4;'+'vec3 crema=mix(vec3(0.58,0.32,0.14),vec3(0.93,0.68,0.36),foam);'+
+    'col=mix(col,crema,cremaT*0.95*pull);'+
+    'col+=crema*0.34*smoothstep(0.105,0.030,abs(p.y-lvl))*inCup*pull;'+'col+=vec3(1.0,0.82,0.52)*smoothstep(0.014,0.0,abs(p.y-lvl-0.020))*inCup*0.35*pull;'+
+    'col=mix(col,vec3(0.90,0.88,0.86),rim*0.85);'+
+    'col+=vec3(1.0)*smoothstep(0.012,0.0,abs(p.x+cw*0.58))*inCup*0.12;'+
+    'col*=1.0-smoothstep(cw-0.17,cw,abs(p.x))*0.45*inCup;'+'col*=1.0-smoothstep(lvl,lvl-0.13,p.y)*0.18*inCup;'+
+    'float st=fbm(vec2(p.x*3.6+sin(t*0.9),p.y*1.7-t*1.4));'+
+    'col+=vec3(0.90,0.84,0.78)*smoothstep(0.62,0.97,st)*smoothstep(-0.10,0.55,p.y)*step(p.y,top-0.02)*0.09;'+
+    'col*=smoothstep(0.0,0.5,uProg);'+
+    'float vig=smoothstep(1.45,0.28,length(uv-0.5));col*=0.38+0.62*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

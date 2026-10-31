@@ -1,0 +1,542 @@
+<!--
+  IRONCLAD - Roofing & Contractor HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ironclad, roofing and contractor website template demo · Aura</title>
+<meta name="description" content="Live demo of Ironclad, a one page roofing and contractor website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/ironclad/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23FF7A29'/%3E%3Cstop%20offset='1'%20stop-color='%23FFC24B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50,8L92,42v6H78v44H22V48H8v-6z'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    /* Slate and ember. Deliberately nothing like the beauty demos — this has to
+       read as a trade that climbs on your roof, not a studio. */
+    --bg-rgb:12,16,22; --panel:rgba(21,27,36,.80);
+    --card-a:rgba(28,35,46,.80); --card-b:rgba(18,23,31,.80);
+    --c1:#FF7A29; --c2:#FFC24B; --c3:#4F9CD9;
+    --c1-rgb:255,122,41; --c2-rgb:255,194,75;
+    --ink:#F2F5F9; --muted:#94A3B5;
+    --line:rgba(242,245,249,.12); --line-2:rgba(242,245,249,.26);
+    --grad:linear-gradient(100deg,#FFC24B,#FF7A29 58%,#E8541F);
+    --btn-ink:#14100A;
+    --font-display:"Barlow Condensed","Arial Narrow",sans-serif;
+    --font-body:"Inter","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  /* Trade-specific bits the shared stylesheet has no reason to carry. */
+  .emergency{background:linear-gradient(100deg,rgba(255,122,41,.16),rgba(232,84,31,.10));
+    border-top:1px solid rgba(255,122,41,.35);border-bottom:1px solid rgba(255,122,41,.35);
+    padding:.85rem 1rem;text-align:center;font-size:.95rem}
+  .emergency b{color:var(--c2)}
+  .emergency a{color:var(--ink);font-weight:600}
+  .callbar{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}
+  .btn-call{font-family:var(--font-mono);letter-spacing:.02em}
+  .creds{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.4rem}
+  .creds span{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--muted);border:1px solid var(--line);
+    border-radius:100px;padding:.5rem .85rem}
+  .creds b{color:var(--c2)}
+  .steps{counter-reset:s}
+  .steps .card{position:relative;padding-left:3.4rem}
+  .steps .card::before{counter-increment:s;content:counter(s,decimal-leading-zero);
+    position:absolute;left:1.15rem;top:1.15rem;font-family:var(--font-mono);
+    font-size:1.5rem;color:var(--c1);opacity:.55}
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+  .ba figure{margin:0;position:relative}
+  .ba img{width:100%;height:100%;object-fit:cover;display:block;border-radius:10px}
+  .ba figcaption{position:absolute;left:.6rem;top:.6rem;background:rgba(8,10,14,.72);
+    font-family:var(--font-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;
+    padding:.35rem .6rem;border-radius:5px}
+  @media (max-width:640px){ .ba{grid-template-columns:1fr} }
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Ironclad <em>Roofing</em></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#services">Services</a><a href="#work">Our work</a><a href="#why">Why us</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="tel:3525550142" class="btn btn-primary btn-call">(352) 555-0142</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Licensed &amp; insured · CCC-000000 · Your County</span>
+  <h1><span class="hline"><span class="hline-in">Your roof is the</span></span><span class="hline"><span class="hline-in">only thing between</span></span><span class="hline"><span class="hline-in">you and <em class="gradient-text">the storm.</em></span></span></h1>
+  <p class="lead">Leaks, missing shingles, storm damage, or a roof that has simply run out of years. We inspect it free, tell you straight, and do it once — properly.</p>
+  <div class="hero-cta callbar">
+    <a href="tel:3525550142" class="btn btn-primary">📞 Call (352) 555-0142</a>
+    <a href="#quote" class="btn btn-ghost">Get a free inspection</a>
+  </div>
+  <div class="trust"><span>Free inspections</span><span>Insurance claims handled</span><span>Workmanship warranty</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="emergency">
+    <b>⚠ Storm damage?</b> We run emergency tarping 24/7 — <a href="tel:3525550142">call (352) 555-0142</a> before the next rain.
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Shingle <b>✦</b> Metal <b>✦</b> Flat &amp; TPO <b>✦</b> Tile <b>✦</b> Storm damage <b>✦</b> Leak repair <b>✦</b> Gutters <b>✦</b> Skylights <b>✦</b></span>
+      <span>Shingle <b>✦</b> Metal <b>✦</b> Flat &amp; TPO <b>✦</b> Tile <b>✦</b> Storm damage <b>✦</b> Leak repair <b>✦</b> Gutters <b>✦</b> Skylights <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what we do</span><h2>Every roof, every problem.</h2><p>Sample services — a real contractor's actual list drops straight in.</p></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 11 12 3l10 8"/><path d="M5 10v10h14V10"/></svg></div><h3>Roof replacement</h3><p>Full tear-off and rebuild. Architectural shingle, metal, or tile — with the underlayment done right, because that is the part that actually keeps water out.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v6M12 21a5 5 0 0 0 5-5c0-3-5-9-5-9s-5 6-5 9a5 5 0 0 0 5 5z"/></svg></div><h3>Leak repair</h3><p>We find where the water actually gets in, which is almost never where the stain is. Same-week appointments on active leaks.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><h3>Storm &amp; hail damage</h3><p>Free documented inspection, photos your adjuster will accept, and we deal with the insurance company so you do not have to.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 8h18l-2 4H5z"/><path d="M5 12v6M19 12v6M7 20h10"/></svg></div><h3>Gutters &amp; soffit</h3><p>Seamless gutters, guards, fascia and soffit. Half the "roof leaks" we get called out to are really a gutter problem.</p></div>
+    </div>
+    <div class="creds reveal">
+      <span>Licensed <b>CCC-000000</b></span><span>Fully <b>insured</b></span><span><b>Free</b> inspections</span><span><b>Financing</b> available</span><span>Serving <b>Your County</b></span>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="storm">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">why it matters</span>
+      <h2>It only has to fail <em>once.</em></h2>
+      <p>One bad night is the difference between a repair and a rebuilt ceiling.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="work">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">our work</span>
+          <h2>Before, and after.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(These become the contractor's own job photos.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-tearoff.jpg" alt="A roof mid tear-off with underlayment exposed" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Full tear-off</h3><span class="tag">Your City · 28 squares</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-shingle.jpg" alt="New architectural shingles laid in neat courses" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Architectural shingle</h3><span class="tag">30-year system</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-metal.jpg" alt="A standing seam metal roof in sunlight" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Standing seam metal</h3><span class="tag">Belleview</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-storm.jpg" alt="Storm damaged roof with displaced shingles" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Storm claim</h3><span class="tag">Approved in 9 days</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-crew.jpg" alt="A roofing crew working on a residential roof" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Our crew</h3><span class="tag">No subcontractors</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-house.jpg" alt="A finished home exterior with a new roof" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Finished</h3><span class="tag">Summerfield</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="shingle">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the work</span>
+      <h2>Course by <em>course.</em></h2>
+      <p>Nailed to spec, sealed at every overlap. Boring, and that is the point.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="why">
+    <div class="sec-head center reveal"><span class="eyebrow">why us</span><h2>What you actually get.</h2><p>The things homeowners ask about before they call anyone.</p></div>
+    <div class="grid services-grid steps">
+      <div class="card reveal"><h3>Free, honest inspection</h3><p>We photograph everything and show you. If it has five good years left, we will tell you that instead of selling you a roof.</p></div>
+      <div class="card reveal d1"><h3>A written scope</h3><p>Materials, layers, ventilation, flashing, and the price. One page, plain English, no line item called "miscellaneous".</p></div>
+      <div class="card reveal d2"><h3>We handle the claim</h3><p>Documentation your adjuster accepts, and we meet them on site. Most homeowners pay their deductible and nothing more.</p></div>
+      <div class="card reveal d3"><h3>Warranty in writing</h3><p>Manufacturer warranty on the materials, our own on the workmanship. Both handed to you on the day we finish.</p></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="ridge">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the morning after</span>
+      <h2>And then, <em>morning.</em></h2>
+      <p>Rotten decking replaced, ridge capped, everything sealed. You sleep through the next one.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">neighbours</span><h2>What people say.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“Storm took half our shingles on a Sunday night. They tarped it Monday morning and the new roof was on inside two weeks.”</p><div class="who"><div class="avatar">D</div><div><strong>A Real Customer</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“Two other companies told me I needed a full replacement. These guys showed me photos and fixed the flashing for a few hundred dollars.”</p><div class="who"><div class="avatar">M</div><div><strong>Another Customer</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“They dealt with the insurance company start to finish. I paid my deductible and that was it.”</p><div class="who"><div class="avatar">R</div><div><strong>Future Customer</strong><small>demo review</small></div></div></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="shield">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the promise</span>
+      <h2>Dry, and <em>staying that way.</em></h2>
+      <p>Everything above is just how we get to this.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">questions</span><h2>The ones everybody asks.</h2></div>
+    <div class="faq reveal">
+      <details><summary>Will my insurance cover it? <span class="plus">+</span></summary><p>Often, if the damage came from a storm rather than age. The free inspection tells you either way, and we document it properly so the claim stands up.</p></details>
+      <details><summary>How long does a roof take? <span class="plus">+</span></summary><p>Most single-family homes are a one to three day job once materials are on site. Weather is the only real variable.</p></details>
+      <details><summary>Do you offer financing? <span class="plus">+</span></summary><p>Yes — monthly plans so a sudden roof does not have to be a sudden bill. We will show you the numbers before you commit to anything.</p></details>
+      <details><summary>What if it leaks after you finish? <span class="plus">+</span></summary><p>We come back and fix it, at no charge, under the workmanship warranty. That is the whole point of it being in writing.</p></details>
+      <details><summary>Are you actually licensed? <span class="plus">+</span></summary><p>Licence CCC-000000, and fully insured. Ask any roofer for both numbers before you let them on your property.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="quote">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">free inspection</span>
+        <h2>Find out what it actually needs.</h2>
+        <p class="lead">No charge, no pressure. We climb it, photograph it, and tell you honestly whether it needs a repair, a replacement, or nothing at all yet.</p>
+        <ul class="info-list">
+          <li><b>📞</b><span>Prefer to talk? <a href="tel:3525550142">(352) 555-0142</a> — we answer.</span></li>
+          <li><b>⚡</b><span>Active leak? Say so below and we come the same week.</span></li>
+          <li><b>🛡️</b><span>Licensed CCC-000000 · fully insured · locally owned</span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram &#8599;</a><a href="#">Facebook &#8599;</a><a href="#">Google &#8599;</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Sam Carter" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(352) 555-0142" required /></div>
+        <div><label for="address">Property address</label><input id="address" name="address" type="text" placeholder="123 SE 5th Ave, Your City" /></div>
+        <div><label for="service">What is going on?</label>
+          <select id="service" name="service"><option>Active leak — urgent</option><option>Storm or hail damage</option><option>Roof is old, want it checked</option><option>Buying or selling a home</option><option>Gutters / soffit / fascia</option><option>Something else</option></select>
+        </div>
+        <div><label for="notes">Anything else</label><textarea id="notes" name="notes" placeholder="Stain on the ceiling in the back bedroom, started after the storm last week."></textarea></div>
+        <button type="submit" class="btn btn-primary">Book my free inspection</button>
+        <p class="form-note">Demo form — on a real site this goes straight to the contractor's phone and inbox.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Ironclad Roofing Co. · All rights reserved. Licence CCC-000000.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com',
+  formSubject:'New roofing enquiry (Ironclad demo)',
+
+  /* HERO: a close-up shingle field with golden-hour light raking across it.
+     Deliberately NOT in perspective - the first attempt projected the plane and
+     the columns converged to a point, which read as a starburst. Flat and close
+     reads as a roof immediately. The proportion is what sells it: a tab is
+     roughly 3.5x wider than the course is tall. Square tabs read as brick. */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.04;'+
+    'p*=rot(-0.055);'+
+    'float EXPO=0.118;float TAB=0.42;'+
+    'float yi=(p.y+t*0.30)/EXPO;float row=floor(yi);float rf=fract(yi);'+
+    'float xoff=mod(row,2.0)*0.5+hash21(vec2(row,3.0))*0.05;'+
+    'float xi=p.x/TAB+xoff;float tab=floor(xi);float tf=fract(xi);'+
+    'float h=hash21(vec2(tab,row));'+
+    'vec3 slate=mix(vec3(0.078,0.084,0.096),vec3(0.150,0.144,0.138),h);'+
+    'slate*=0.82+0.34*fbm(vec2(xi*2.6,yi*2.6));'+
+    'vec3 col=slate;'+
+    /* the keyway: a narrow slot cut UP from the butt edge. This notch is the
+       single detail that makes it read as shingle rather than tile or brick. */
+    'float key=smoothstep(0.030,0.010,abs(tf-0.5))*smoothstep(0.62,0.08,rf);'+
+    'col=mix(col,vec3(0.016,0.018,0.024),key*0.92);'+
+    /* deep shadow cast by the course above, then its bright weathered lip */
+    'float shad=smoothstep(0.15,0.0,rf);'+
+    'col*=1.0-shad*0.62;'+
+    'float lip=smoothstep(0.055,0.0,abs(rf-0.165));'+
+    'col+=vec3(0.30,0.29,0.28)*lip*0.35;'+
+    /* raking light from upper right */
+    'float rake=clamp(smoothstep(1.25,-0.55,p.x*0.7-p.y*1.35),0.0,1.0);'+
+    'col+=mix(uC1,uC2,0.5)*rake*0.34;'+
+    'col+=uC2*pow(rake,7.0)*0.34;'+
+    /* mineral granules - sparse, or it reads as noise */
+    'vec2 gp=p*vec2(210.0,210.0);float gh=hash21(floor(gp));'+
+    'col+=vec3(0.96,0.89,0.76)*step(0.9935,gh)*(1.0-key)*(0.35+0.40*sin(uT*1.8+gh*60.0));'+
+    'col+=uC3*smoothstep(0.30,0.55,p.y)*0.10;'+
+    'float vig=smoothstep(1.35,0.30,length(uv-0.5));col*=0.44+0.56*vig;'+
+    'col*=mix(1.0,0.24,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  breakFrags:{
+
+  /* STORM - rain driving across a gable silhouette, lightning behind it. */
+  storm:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.22;'+
+    'float open=smoothstep(0.0,0.80,uProg);'+
+    /* --- the material: wet slate, graded and domain-warped --- */
+    'float g=smoothstep(-1.0,0.9,p.y+0.16*sin(p.x*1.6+t));'+
+    'vec3 col=mix(uC3*0.10,vec3(0.085,0.100,0.132),g);'+
+    'float w=fbm(p*2.2+vec2(t*0.30,0.0));'+
+    'w=fbm(p*3.0+w*1.30);'+
+    'col+=mix(uC3,vec3(0.40,0.50,0.66),0.5)*w*0.20;'+
+    /* fine surface grain, the brushed-metal trick from blade */
+    'float comb=0.5+0.5*sin(p.y*150.0+p.x*8.0);'+
+    'col+=vec3(0.28,0.33,0.40)*comb*0.030*g;'+
+    /* --- the light event: a sheet of lightning sweeping across --- */
+    'float sweep=fract(t*0.40);'+
+    'float lx=sweep*3.2-1.6;'+
+    'float d=abs(p.x-lx-0.13*sin(p.y*2.4+t*1.7));'+
+    'col+=vec3(1.0)*aa(d-0.0055)*1.25*open;'+
+    'col+=mix(uC3,vec3(0.80,0.88,1.00),0.55)*exp(-d*6.5)*0.55*open;'+
+    /* the wet surface flares where the blade passes - this is what sells "wet" */
+    'col+=vec3(0.62,0.74,0.92)*exp(-d*2.0)*w*w*0.75*open;'+
+    /* a second, dimmer trailing sheet so it feels like a real storm front */
+    'float d2=abs(p.x-(lx-0.85)-0.10*sin(p.y*3.1+t));'+
+    'col+=mix(uC3,vec3(0.7,0.8,1.0),0.5)*exp(-d2*9.0)*0.16*open;'+
+    /* --- rain, kept subtle so it reads as weather not confetti --- */
+    'vec2 rp=p;rp.x+=rp.y*0.30;'+
+    'for(int i=0;i<3;i++){float s=float(i);'+
+    'float dens=9.0+s*7.0;float spd=1.7+s*1.0;'+
+    'vec2 cell=vec2(rp.x*dens,rp.y*1.3-uT*spd);'+
+    'vec2 id=floor(cell);vec2 f=fract(cell);'+
+    'float rh=hash21(id+vec2(s*31.0,s*17.0));'+
+    'float streak=smoothstep(0.36,0.02,abs(f.x-0.5))*smoothstep(0.92,0.06,f.y);'+
+    'float lit2=1.0+exp(-d*3.0)*3.5;'+
+    'col+=vec3(0.50,0.60,0.78)*streak*step(0.64,rh)*(0.11-s*0.022)*lit2;}'+
+    'col*=open;'+
+    'float vig=smoothstep(1.35,0.30,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* SHINGLE - courses landing one after another as you scroll. Same proportion
+     rule as the hero (wide tabs, short exposure) or it turns into brickwork,
+     and the deck underneath is grey ply, not orange, for the same reason. */
+  shingle:
+    /* height field for the shingle surface, sampled four times to build a normal */
+    'float shH(vec2 P,float EXPO,float TAB,float slide,float uP){'+
+    'float yi=P.y/EXPO;float row=floor(yi);float rf=fract(yi);'+
+    'float arrive=clamp(uP*1.45*9.0-row,0.0,1.0);arrive=smoothstep(0.0,1.0,arrive);'+
+    'if(arrive<0.002) return -0.55;'+
+    'float xoff=mod(row,2.0)*0.5+hash21(vec2(row,9.0))*0.05;'+
+    'float xi=(P.x+(1.0-arrive)*1.7)/TAB+xoff;float tf=fract(xi);'+
+    /* the course lies flat, with its butt edge standing proud of the one below */
+    'float h=smoothstep(0.0,0.055,rf)*0.62+0.30;'+
+    /* keyway slot cut up from the butt edge */
+    'float key=smoothstep(0.030,0.010,abs(tf-0.5))*smoothstep(0.62,0.08,rf);'+
+    'h-=key*0.70;'+
+    /* laminated second layer on the upper part of an architectural shingle */
+    'h+=smoothstep(0.40,0.52,rf)*0.16;'+
+    /* mineral granules - the micro-relief that makes it catch light like grit */
+    'h+=(fbm(P*vec2(220.0,220.0))-0.5)*0.22;'+
+    'h+=(hash21(floor(P*vec2(420.0,420.0)))-0.5)*0.10;'+
+    'return h;}'+
+
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float slope=-0.34;float ridgeY=0.26+p.x*slope;'+
+    /* aa() makes this a one-pixel edge at any canvas size */
+    'float below=aa(p.y-ridgeY);'+
+
+    /* ---------- sky ---------- */
+    'float sg=smoothstep(-0.1,0.75,p.y);'+
+    'vec3 col=mix(vec3(0.090,0.104,0.132),vec3(0.028,0.040,0.068),sg);'+
+    'float cloud=fbm(vec2(p.x*1.7+t*0.03,p.y*3.0));'+
+    'col+=mix(uC3,vec3(0.80,0.85,0.95),0.4)*cloud*cloud*0.11;'+
+
+    /* ---------- roof surface ---------- */
+    'vec2 q=vec2(p.x,p.y-ridgeY);'+
+    'float EXPO=0.115;float TAB=0.46;'+
+    'float yi=(-q.y)/EXPO;float row=floor(yi);float rf=fract(yi);'+
+    'float arrive=clamp(uProg*1.45*9.0-row,0.0,1.0);arrive=smoothstep(0.0,1.0,arrive);'+
+    'float xoff=mod(row,2.0)*0.5+hash21(vec2(row,9.0))*0.05;'+
+    'float xi=(q.x+(1.0-arrive)*1.7)/TAB+xoff;float tab=floor(xi);float tf=fract(xi);'+
+    'float placed=step(0.002,arrive)*step(0.0,yi);'+
+
+    /* bare deck where the courses have not landed yet */
+    'float ply=fbm(vec2(q.x*7.0,q.y*24.0));'+
+    'vec3 deck=mix(vec3(0.058,0.058,0.060),vec3(0.086,0.085,0.084),ply);'+
+    'deck*=0.85+0.30*hash21(floor(vec2(q.x*3.0,q.y*3.0)));'+
+    'col=mix(col,deck,below);'+
+
+    /* albedo: slate, varied per tab, weathered along the length */
+    'float h=hash21(vec2(tab,row));'+
+    'vec3 albedo=mix(vec3(0.062,0.068,0.080),vec3(0.132,0.130,0.128),h);'+
+    'albedo*=0.80+0.36*fbm(vec2(xi*2.6,yi*2.6));'+
+    'albedo=mix(albedo,albedo*vec3(1.06,1.00,0.94),fbm(vec2(q.x*3.0,q.y*9.0)));'+
+
+    /* normal from the height field, then real lighting */
+    'vec2 e=vec2(1.6/uRes.y,0.0);'+
+    'vec2 sp2=vec2(q.x,-q.y);'+
+    'float hL=shH(sp2-e.xy,EXPO,TAB,0.0,uProg);'+
+    'float hR=shH(sp2+e.xy,EXPO,TAB,0.0,uProg);'+
+    'float hD=shH(sp2-e.yx,EXPO,TAB,0.0,uProg);'+
+    'float hU=shH(sp2+e.yx,EXPO,TAB,0.0,uProg);'+
+    'vec3 n=nrmH(hL,hR,hD,hU,0.55);'+
+    'vec3 L=normalize(vec3(0.52,0.60,0.60));'+
+    'vec3 sun=mix(uC2,vec3(1.0,0.94,0.84),0.45);'+
+    'vec3 surf=lit(albedo,n,L,sun,16.0,0.32);'+
+
+    /* contact darkening in the shadow the course above throws */
+    'float occ=smoothstep(0.16,0.0,rf);'+
+    'surf*=ao(occ,0.62);'+
+    /* and inside the keyway slots */
+    'float key=smoothstep(0.030,0.010,abs(tf-0.5))*smoothstep(0.62,0.08,rf);'+
+    'surf*=ao(key,0.80);'+
+
+    /* Granules. The first pass ADDED bright points and it read as snow scattered
+       on the roof. Real mineral grit is dense, fine and low contrast — it belongs
+       in the albedo as tonal variation, not as highlights on top. Only a very
+       few catch the sun outright, and even those stay dim. */
+    'vec2 gcell=vec2(xi*TAB,q.y)*vec2(520.0,520.0);'+
+    'float gh=hash21(floor(gcell));'+
+    'surf*=0.86+0.30*gh;'+
+    'float gh2=hash21(floor(gcell*0.37)+41.0);'+
+    'surf*=0.93+0.14*gh2;'+
+    'surf+=vec3(0.88,0.84,0.76)*step(0.9988,gh)*(1.0-key)*0.22;'+
+
+    'col=mix(col,surf,placed*below*0.99);'+
+
+    /* nails, and the glint as a course lands */
+    'float fresh=smoothstep(0.70,1.0,arrive)*smoothstep(1.0,0.86,arrive);'+
+    'float n1=aa(length(vec2((tf-0.28)*TAB,(rf-0.74)*EXPO))-0.006);'+
+    'float n2=aa(length(vec2((tf-0.72)*TAB,(rf-0.74)*EXPO))-0.006);'+
+    'col+=uC2*(n1+n2)*placed*below*(0.22+fresh*3.0);'+
+
+    /* the drip edge - a genuinely sharp lit line, which is the detail that
+       makes the whole plane read as a solid object with a boundary */
+    'float edge=aaBand(p.y-ridgeY,0.0075);'+
+    'col+=mix(uC2,vec3(1.0,0.96,0.90),0.50)*edge*0.75;'+
+    'float under=smoothstep(0.050,0.0,abs(p.y-ridgeY+0.026))*below;'+
+    'col*=1.0-under*0.38;'+
+
+    /* one narrow warm gleam near the ridge */
+    'float gleam=clamp(smoothstep(0.40,0.0,abs(q.y+0.12))*smoothstep(1.0,-0.2,q.x),0.0,1.0);'+
+    'col+=mix(uC1,uC2,0.6)*gleam*placed*below*0.10;'+
+
+    'float vig=smoothstep(1.35,0.30,length(uv-0.5));col*=0.44+0.56*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* RIDGE - sunrise behind a capped roofline. This replaces an attic-interior
+     scene that never read as anything but a bright X. Interiors in pure GLSL
+     are the hard case; a silhouette against a sky is instantly legible, and
+     "the morning after the storm" is the better story anyway. */
+  ridge:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.05;'+
+    'float open=smoothstep(0.0,0.70,uProg);'+
+    /* sky: cold above, warm at the horizon */
+    'float g=smoothstep(-0.35,0.60,p.y);'+
+    'vec3 warm=mix(uC1,vec3(1.0,0.80,0.42),0.50);'+
+    'vec3 col=mix(warm,vec3(0.040,0.058,0.105),g);'+
+    /* sun sitting low, off-centre so it never becomes a bullseye */
+    'vec2 sp=p-vec2(-0.26,-0.045);float sd=length(sp);'+
+    'col+=mix(uC2,vec3(1.0,0.96,0.86),0.55)*smoothstep(0.135,0.088,sd)*1.25;'+
+    'col+=uC2*exp(-sd*3.0)*0.55;'+
+    /* horizontal cloud bars catching the light */
+    'for(int i=0;i<4;i++){float s=float(i);'+
+    'float cy=p.y-(0.035+s*0.115);'+
+    'float band=exp(-abs(cy)*(20.0-s*3.6));'+
+    'float n=fbm(vec2(p.x*(1.9+s*0.8)+t*(0.7+s*0.35),s*9.0));'+
+    'col+=mix(uC2,vec3(1.0,0.86,0.62),0.45)*band*n*n*0.42;}'+
+    /* far roof, then near roof, both solid silhouettes */
+    'float far=-0.20+0.22*(1.0-clamp(abs(p.x-0.46)/0.46,0.0,1.0));'+
+    'float fb=step(p.y,far)*step(abs(p.x-0.46),0.50);'+
+    'col=mix(col,vec3(0.048,0.044,0.058),fb*0.92);'+
+    'float near=-0.28+0.34*(1.0-clamp(abs(p.x+0.28)/0.62,0.0,1.0));'+
+    'float nb=step(p.y,near)*step(abs(p.x+0.28),0.66);'+
+    'col=mix(col,vec3(0.016,0.016,0.022),nb);'+
+    /* ridge cap: little tabs marching along the peak of the near roof */
+    'float capBand=smoothstep(0.028,0.0,abs(p.y-near))*step(abs(p.x+0.28),0.66);'+
+    'float capTab=smoothstep(0.30,0.46,abs(fract((p.x+0.28)*22.0)-0.5));'+
+    'col=mix(col,vec3(0.075,0.070,0.080),capBand*0.9);'+
+    'col+=mix(uC2,vec3(1.0),0.4)*capBand*capTab*0.55;'+
+    /* wet shingle still glistening on the lit slope */
+    'float slope=nb*smoothstep(0.0,-0.55,p.y)*smoothstep(-0.9,-0.1,p.x);'+
+    'vec2 wp=p*vec2(60.0,120.0);float wh=hash21(floor(wp));'+
+    'col+=uC2*step(0.988,wh)*slope*0.9;'+
+    /* two birds, small and unmistakably chevrons */
+    'for(int b=0;b<2;b++){float s=float(b);'+
+    'vec2 bp=p-vec2(0.30+s*0.16+sin(uT*0.20+s)*0.05,0.30+s*0.075);'+
+    'float wing=smoothstep(0.012,0.0,abs(abs(bp.x)-bp.y*0.85)-0.004)*step(abs(bp.x),0.030)*step(0.0,bp.y);'+
+    'col=mix(col,vec3(0.05,0.05,0.07),wing*0.85);}'+
+    'col*=open;'+
+    'float vig=smoothstep(1.34,0.28,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* SHIELD - rain sheeting off a wide low roof plane with a warm room glowing
+     underneath. The arc centre is pushed far below the frame so only a shallow
+     crown crosses it: a centred circle with a bright core reads as an eye. */
+  shield:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT;'+
+    'float open=smoothstep(0.0,0.65,uProg);'+
+    'vec3 col=vec3(0.022,0.028,0.038);'+
+    'col=mix(col,vec3(0.052,0.066,0.090),fbm(vec2(p.x*1.4,p.y*2.0-t*0.05)));'+
+    'vec2 c=vec2(0.0,-1.15);float R=1.34;'+
+    'float r=length((p-c)*vec2(0.58,1.0));'+
+    'float surf=r-R;'+
+    'float inside=smoothstep(0.010,-0.010,surf);'+
+    'float ang=atan(p.x-c.x,p.y-c.y);'+
+    /* rain, stopping dead at the shell */
+    'vec2 rp=p;rp.x+=rp.y*0.16;'+
+    'for(int i=0;i<3;i++){float s=float(i);'+
+    'float dens=17.0+s*12.0;float spd=2.6+s*1.4;'+
+    'vec2 cell=vec2(rp.x*dens,rp.y*2.0-t*spd);'+
+    'vec2 id=floor(cell);vec2 f=fract(cell);'+
+    'float rh=hash21(id+vec2(s*23.0,s*7.0));'+
+    'float on=step(0.58,rh);'+
+    'float streak=smoothstep(0.38,0.02,abs(f.x-0.5))*smoothstep(0.90,0.05,f.y);'+
+    'col+=vec3(0.50,0.62,0.82)*streak*on*(1.0-inside)*(0.19-s*0.035);}'+
+    /* the roof itself: dark, with shingle courses running along the arc */
+    'float course=smoothstep(0.34,0.50,abs(fract((R-r)*26.0)-0.5));'+
+    'float tabline=smoothstep(0.40,0.48,abs(fract(ang*34.0)-0.5));'+
+    'vec3 shell=mix(vec3(0.055,0.060,0.072),vec3(0.105,0.104,0.108),course*0.8+tabline*0.2);'+
+    'col=mix(col,shell,inside*0.95);'+
+    /* warm room glowing beneath - the whole point of the scene */
+    'float room=smoothstep(0.0,-0.42,surf);'+
+    'col+=mix(uC1,uC2,0.55)*room*0.34;'+
+    'col+=uC2*smoothstep(0.0,-0.14,surf)*0.22;'+
+    /* wet lit rim where the water runs */
+    'float rim=smoothstep(0.026,0.0,abs(surf));'+
+    'col+=mix(uC1,uC2,0.45)*rim*0.60;'+
+    'col+=vec3(1.0,0.93,0.82)*smoothstep(0.008,0.0,abs(surf))*0.30;'+
+    'float run=smoothstep(0.050,0.0,abs(surf+0.026));'+
+    'float flow=0.5+0.5*sin(ang*30.0-t*6.0);'+
+    'col+=vec3(0.62,0.74,0.92)*run*flow*0.32;'+
+    /* droplets flicking off the crest */
+    'float ih=hash21(vec2(floor(ang*26.0),floor(t*7.0)));'+
+    'col+=vec3(0.82,0.90,1.0)*rim*step(0.90,ih)*0.55;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.32,0.28,length(uv-0.5));col*=0.38+0.62*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

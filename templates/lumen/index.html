@@ -1,0 +1,344 @@
+<!--
+  LUMEN - Multipurpose Small Business HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lumen, any small business website template demo · Aura</title>
+<meta name="description" content="Live demo of Lumen, a one page any small business website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/lumen/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%236C7BFF'/%3E%3Cstop%20offset='1'%20stop-color='%232ECCB4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50,2C55,27,73,45,98,50C73,55,55,73,50,98C45,73,27,55,2,50C27,45,45,27,50,2Z'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-rgb:10,10,14; --panel:rgba(20,25,36,.78);
+    --card-a:rgba(27,33,48,.78); --card-b:rgba(17,21,32,.78);
+    --c1:#F5A623; --c2:#FF6B9D; --c3:#5BD1D7;
+    --c1-rgb:245,166,35; --c2-rgb:255,107,157;
+    --ink:#EEF2FA; --muted:#9AA6C0;
+    --line:rgba(238,242,250,.12); --line-2:rgba(238,242,250,.24);
+    --grad:linear-gradient(100deg,#F5A623,#FF6B9D 55%,#5BD1D7);
+    --btn-ink:#0E1120;
+    --font-display:"Space Grotesk","Trebuchet MS",sans-serif;
+    --font-body:"Inter","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Lumen <em>&amp;</em> Co.</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#looks">Showcase</a><a href="#services">What you get</a><a href="#menu">Offerings</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="#book" class="btn btn-primary">Get in touch</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Lumen &amp; Co. — this could be your business</span>
+  <h1><span class="hline"><span class="hline-in">Your business,</span></span><span class="hline"><span class="hline-in"><em class="gradient-text">elevated.</em></span></span></h1>
+  <p class="lead">Not a salon, café or gym? Doesn't matter. This demo is the shape of what your website could feel like — bold, alive, and unmistakably yours.</p>
+  <div class="hero-cta">
+    <a href="#book" class="btn btn-primary">Imagine yours</a>
+    <a href="#looks" class="btn btn-ghost">See the showcase</a>
+  </div>
+  <div class="trust"><span>Any industry</span><span>Fully custom</span><span>Live in weeks</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Consulting <b>✦</b> Real Estate <b>✦</b> Photography <b>✦</b> Studios <b>✦</b> Interiors <b>✦</b> Pet Care <b>✦</b> Events <b>✦</b> Anything <b>✦</b></span>
+      <span>Consulting <b>✦</b> Real Estate <b>✦</b> Photography <b>✦</b> Tattoo <b>✦</b> Auto Detail <b>✦</b> Pet Care <b>✦</b> Events <b>✦</b> Anything <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what you get</span><h2>Every trade deserves a stage.</h2></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></div><h3>Your services</h3><p>Whatever you offer, presented so clearly people can't help but want it.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="m21 16-5-4-9 7"/></svg></div><h3>Your work</h3><p>A gliding gallery for your photos, projects, listings — whatever you're proud of.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8 3v3M16 3v3M3 9h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></svg></div><h3>Your bookings</h3><p>Calls, quotes, appointments — one tap from any page, straight to you.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="m12 3 2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg></div><h3>Your story</h3><p>Cinematic scroll moments — like this page — that make people remember you.</p></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="shape">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the point of this page</span>
+      <h2>Whatever shape your dream takes.</h2>
+      <p>Watch it morph — your website bends to your business, never the other way.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="looks">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">generated, not stock</span>
+          <h2>Every frame, made for you.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(Every image here is generated in the browser — none of it exists anywhere else.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-strata.jpg" alt="Generated artwork — molten strata" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Molten</h3><span class="tag">Strata</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-bloom.jpg" alt="Generated artwork — bloom rings" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Bloom</h3><span class="tag">Radial light</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-lattice.jpg" alt="Generated artwork — folding lattice" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Lattice</h3><span class="tag">Structure</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-plume.jpg" alt="Generated artwork — drifting plume" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Plume</h3><span class="tag">Soft volume</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-filament.jpg" alt="Generated artwork — light filaments" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Filament</h3><span class="tag">Woven light</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-prism.jpg" alt="Generated artwork — refracted spectrum" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Spectrum</h3><span class="tag">Refraction</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="grid">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the blueprint</span>
+      <h2>Built from <em>nothing.</em></h2>
+      <p>Whatever you do, it starts as an empty page. Then it does not.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="menu">
+    <div class="sec-head center reveal"><span class="eyebrow">offerings</span><h2>Your menu of services.</h2><p>Sample structure — your real offerings and prices slot right in.</p></div>
+    <div class="menu reveal">
+      <h3>Core services</h3>
+      <div class="menu-item"><span class="name">Consultation<small>Always a good place to start</small></span><span class="dots"></span><span class="price">Free</span></div>
+      <div class="menu-item"><span class="name">Signature service<small>The thing you're known for</small></span><span class="dots"></span><span class="price">$95</span></div>
+      <div class="menu-item"><span class="name">Premium package<small>The full experience</small></span><span class="dots"></span><span class="price">$250</span></div>
+      <h3>Ongoing</h3>
+      <div class="menu-item"><span class="name">Membership / retainer<small>For clients who keep coming back</small></span><span class="dots"></span><span class="price">$49/mo</span></div>
+      <p class="menu-note">✦ This whole menu reshapes to fit your actual business ✦</p>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="orbit">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the shape</span>
+      <h2>Order out of <em>chaos.</em></h2>
+      <p>Scattered ideas, one clear structure. That is the whole job.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">social proof</span><h2>Your happy clients go here.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“This is where your best review lives — the one that makes new customers stop scrolling and start dialing.”</p><div class="who"><div class="avatar">A</div><div><strong>A Real Client</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“Short, specific praise converts better than any ad. Your website should show it off beautifully. Like this.”</p><div class="who"><div class="avatar">B</div><div><strong>Another Client</strong><small>demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“Three glowing reviews and suddenly you look like the obvious choice in town. Because you are.”</p><div class="who"><div class="avatar">C</div><div><strong>Future Fan</strong><small>demo review</small></div></div></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="prism">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">one of one</span>
+      <h2>Same light. <em>Different</em> spectrum.</h2>
+      <p>Everyone gets a website. Yours gets a signature.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">how this works</span><h2>Questions every visitor asks.</h2></div>
+    <div class="faq reveal">
+      <details open><summary>Is this a real business? <span class="plus">+</span></summary><p>Lumen &amp; Co. is a demo by Your Studio — a living example of what YOUR website could be, whatever your industry.</p></details>
+      <details><summary>My business isn't like the other demos. Can you still build mine? <span class="plus">+</span></summary><p>That's exactly why this page exists. Every Your Studio site is designed from scratch around your brand, your customers, your vibe.</p></details>
+      <details><summary>How fast could mine be live? <span class="plus">+</span></summary><p>Most sites launch in 2–3 weeks; full 3D flagships in 4–6. You'll see a custom preview before you commit to anything.</p></details>
+      <details><summary>What does it cost? <span class="plus">+</span></summary><p>Your Studio sites run $1,500–$7,500+ depending on scope — agency-caliber work without the $15k+ agency invoice.</p></details>
+      <details><summary>Where do I start? <span class="plus">+</span></summary><p>The form below goes straight to the studio. Tell us what you do — we'll show you what you could look like.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="book">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">make it yours</span>
+        <h2>Every empire starts with hello.</h2>
+        <p class="lead">Tell Your Studio about your business, and watch this template turn into your website.</p>
+        <ul class="info-list">
+          <li><b>💡</b><span>This demo becomes yours — name, colors, story and all</span></li>
+          <li><b>⚡</b><span>Custom preview before you pay a cent</span></li>
+          <li><b>💗</b><span>Built 1-on-1 with the studio — no outsourcing</span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram &#8599;</a><a href="#">Facebook &#8599;</a><a href="#">Google &#8599;</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Sam Carter" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" /></div>
+        <div><label for="service">Your kind of business</label>
+          <select id="service" name="service"><option>Service business</option><option>Retail / products</option><option>Creative / portfolio</option><option>Food &amp; drink</option><option>Health &amp; wellness</option><option>Something else entirely</option></select>
+        </div>
+        <div><label for="notes">Tell us about it</label><textarea id="notes" name="notes" placeholder="I detail cars / walk dogs / shoot weddings / sell candles... and I want a site that stops thumbs."></textarea></div>
+        <button type="submit" class="btn btn-primary">Show me my site</button>
+        <p class="form-note">Goes straight to Your Studio. You'll hear back within a day.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Lumen &amp; Co. · All rights reserved.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com', /* misc demo routes straight to Your Studio */
+  formSubject:'New business enquiry (Nova demo)',
+  /* HERO: prism threads — luminous ribbons cycling through the whole spectrum */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*1.8;float t=uT*0.08;'+
+    'vec3 col=vec3(0.035,0.045,0.07);'+
+    'for(int i=0;i<5;i++){float s=float(i);'+
+    'float y=p.y+sin(p.x*1.7+t*(1.0+s*0.25)+s*1.7)*0.35+(s-2.0)*0.16;'+
+    'float w=fbm(vec2(p.x*2.0+s*3.0,t*2.0));'+
+    'float line=smoothstep(0.10+w*0.05,0.0,abs(y));'+
+    'vec3 hue=0.5+0.5*cos(6.283*(s*0.15+t*0.3)+vec3(0.0,2.09,4.19));'+
+    'col+=hue*line*0.28;}'+
+    'vec2 gp=p*28.0;float h=hash21(floor(gp));'+
+    'col+=vec3(0.9)*smoothstep(0.1,0.0,length(fract(gp)-0.5))*step(0.98,h)*(0.4+0.4*sin(uT*2.5+h*40.0));'+
+    'float vig=smoothstep(1.4,0.3,length(uv-0.5));col*=0.45+0.55*vig;'+
+    'col*=mix(1.0,0.24,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+  /* BREAK: the shapeshifter — circle, square, star, triangle, forever becoming */
+  breakFrag:
+    'void main(){vec2 uv=pixUV(220.0);float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;'+
+    'float r=length(p);float th=atan(p.y,p.x);'+
+    'float cyc=fract(uT*0.08);float ph=cyc*4.0;'+
+    'float circle=1.0;'+
+    'float square=1.0/max(max(abs(cos(th)),abs(sin(th))),0.55);square=min(square,1.6);'+
+    'float star=1.0+0.32*cos(th*5.0);'+
+    'float tri=1.0/max(cos(mod(th+1.5708,2.0944)-1.0472),0.42);tri=min(tri,1.9);'+
+    'float a=fract(ph);int seg=int(floor(ph));'+
+    'float s0=circle;float s1=square;'+
+    'if(seg==1){s0=square;s1=star;}else if(seg==2){s0=star;s1=tri;}else if(seg==3){s0=tri;s1=circle;}'+
+    'float sh=mix(s0,s1,smoothstep(0.2,0.8,a));'+
+    'float R=0.62*smoothstep(0.0,0.85,uProg);'+
+    'float d=abs(r-R*sh*0.6);'+
+    'vec3 hue=0.5+0.5*cos(6.283*(cyc+vec3(0.0,0.33,0.67)));'+
+    'vec3 col=vec3(0.03,0.04,0.06);'+
+    'col+=hue*smoothstep(0.02,0.003,d)*1.2;'+
+    'col+=hue*exp(-d*6.0)*0.3;'+
+    'vec2 gp=p*20.0;float h=hash21(floor(gp));'+
+    'col+=vec3(0.8,0.9,1.0)*smoothstep(0.1,0.0,length(fract(gp)-0.5))*step(0.975,h)*0.4;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* ==========================================================
+     Scenes bespoke to THIS demo — shared with no other page.
+     ========================================================== */
+  breakFrags:{  /* THE GRID — a holographic landscape drawing itself toward the horizon:
+     any business, any shape, rendered in light. */
+  grid:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.35;'+
+    'float on=smoothstep(0.0,0.8,uProg);'+
+    'vec3 col=mix(vec3(0.016,0.018,0.032),vec3(0.030,0.020,0.052),smoothstep(-0.5,0.6,p.y));'+
+    'float hz=0.10;'+                                                      /* horizon line */
+    'col+=mix(uC1,uC3,0.5)*exp(-abs(p.y-hz)*9.0)*0.45*on;'+
+    'col+=uC2*exp(-abs(p.y-hz)*26.0)*0.55*on;'+
+    'float below=step(p.y,hz-0.004);'+
+    'float depth=(hz-p.y);'+
+    'float persp=1.0/max(depth,0.004);'+
+    'float zz=persp*0.16+t;'+
+    'float rows=abs(fract(zz)-0.5)*2.0;'+
+    'float rowLine=smoothstep(0.90,1.0,rows)*below;'+
+    'float xw=p.x*persp*0.30;'+
+    'float cols=abs(fract(xw)-0.5)*2.0;'+
+    'float colLine=smoothstep(0.93,1.0,cols)*below;'+
+    'float wave=0.05*sin(p.x*4.0+t*1.6)*smoothstep(0.0,0.6,depth);'+
+    'float fade=exp(-depth*2.1);'+
+    'vec3 gl=mix(uC1,uC2,0.5+0.5*sin(zz*0.7));'+
+    'col+=gl*(rowLine*0.85+colLine*0.55)*(0.25+fade)*on;'+
+    'col+=gl*rowLine*fade*0.5*on;'+
+    'for(int i=0;i<5;i++){float s=float(i);'+                              /* rising light pillars */
+    'float x=-0.62+s*0.31;'+
+    'float hgt=0.10+0.20*abs(sin(t*0.8+s*1.7));'+
+    'float d=abs(p.x-x);'+
+    'float bar=smoothstep(0.012,0.0,d)*step(p.y,hz)*step(hz-hgt,p.y);'+
+    'col+=mix(uC3,uC2,s/4.0)*bar*1.1*on;'+
+    'col+=mix(uC3,uC2,s/4.0)*exp(-d*22.0)*step(p.y,hz)*step(hz-hgt,p.y)*0.35*on;}'+
+    'vec2 gp=p*30.0+vec2(0.0,-t*0.5);float h=hash21(floor(gp));'+
+    'col+=vec3(0.9,0.95,1.0)*smoothstep(0.10,0.0,length(fract(gp)-0.5))*step(0.984,h)*step(hz,p.y)*0.7;'+
+    'float vig=smoothstep(1.30,0.25,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* THE ORBIT — scattered points pulled into clean concentric rings:
+     the shape a business takes once someone gives it one. */
+  orbit:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.35;'+
+    'float lock=smoothstep(0.0,0.85,uProg);'+                              /* chaos -> order */
+    'vec3 col=mix(vec3(0.018,0.020,0.034),vec3(0.010,0.010,0.020),smoothstep(0.2,1.5,length(p)));'+
+    'for(int i=0;i<3;i++){float s=float(i);'+                              /* the rings themselves */
+    'float R=0.30+s*0.22;'+
+    'float d=abs(length(p)-R);'+
+    'float ring=smoothstep(0.006,0.0,d)*lock;'+
+    'col+=mix(uC1,uC3,s*0.5)*ring*0.75;'+
+    'col+=mix(uC1,uC3,s*0.5)*exp(-d*26.0)*0.16*lock;}'+
+    'for(int i=0;i<26;i++){float s=float(i);'+
+    'float h=hash21(vec2(s,5.0)),h2=hash21(vec2(s,29.0)),h3=hash21(vec2(s,53.0));'+
+    'float ringI=floor(h*3.0);'+
+    'float R=0.30+ringI*0.22;'+
+    'float sp=(0.5+h2*0.7)*(ringI==1.0?-1.0:1.0);'+
+    'float a=h*6.283+t*sp;'+
+    'vec2 home=vec2(cos(a),sin(a))*R;'+
+    'vec2 wild=vec2(cos(h2*6.283+t*0.5),sin(h3*6.283+t*0.4))*(0.35+h*0.95);'+
+    'vec2 pos=mix(wild,home,lock);'+
+    'float d=length(p-pos);'+
+    'float sz=0.010+h3*0.011;'+
+    'vec3 pc=mix(uC2,uC3,h2);'+
+    'col+=pc*smoothstep(sz,0.0,d)*1.5;'+
+    'col+=pc*exp(-d*20.0)*0.30;'+
+    'float trail=smoothstep(0.004,0.0,abs(length(p)-R))*smoothstep(0.55,0.0,abs(atan(p.y,p.x)-a))*lock;'+
+    'col+=pc*trail*0.30;}'+
+    'col+=mix(uC1,uC2,0.5)*exp(-length(p)*5.5)*0.30*lock;'+                /* core */
+    'col+=vec3(1.0)*exp(-length(p)*16.0)*0.35*lock;'+
+    'float vig=smoothstep(1.40,0.26,length(uv-0.5));col*=0.36+0.64*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

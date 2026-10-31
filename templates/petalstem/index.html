@@ -1,0 +1,375 @@
+<!--
+  PETAL & STEM - Florist & Flower Shop HTML Template
+  ---------------------------------------------------------------
+  Plain HTML, CSS and JavaScript. No build step, no bundler,
+  no jQuery, no framework - open index.html and it runs.
+  Backgrounds are real WebGL (GLSL) with a CSS gradient fallback.
+
+  Full instructions: ../documentation/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Petal and Stem, florist and flower shop website template demo · Aura</title>
+<meta name="description" content="Live demo of Petal and Stem, a one page florist and flower shop website template with WebGL backgrounds. All business details are invented samples. Part of Aura, 11 WebGL website templates." />
+<link rel="canonical" href="https://onefreeman1337.github.io/csaf-releases/templates/petalstem/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23E5738C'/%3E%3Cstop%20offset='1'%20stop-color='%237FA36D'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d='M50,2C55,27,73,45,98,50C73,55,55,73,50,98C45,73,27,55,2,50C27,45,45,27,50,2Z'%20fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>document.documentElement.className='js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Mulish:wght@300;400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-rgb:13,20,15; --panel:rgba(22,33,26,.75);
+    --card-a:rgba(30,44,34,.75); --card-b:rgba(20,30,23,.75);
+    --c1:#E58FA2; --c2:#9DBB8F; --c3:#B9A7D9;
+    --c1-rgb:229,143,162; --c2-rgb:157,187,143;
+    --ink:#F4EFE6; --muted:#AEC0A8;
+    --line:rgba(244,239,230,.12); --line-2:rgba(244,239,230,.24);
+    --grad:linear-gradient(100deg,#F2E8D8,#E58FA2 50%,#B9A7D9);
+    --btn-ink:#2A1A20;
+    --font-display:"Cormorant Garamond",Georgia,serif;
+    --font-body:"Mulish","Segoe UI",sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  .hero h1{ font-weight:600; }
+</style>
+<link rel="stylesheet" href="assets/css/fx.css" />
+</head>
+
+<body>
+<canvas id="heroGL" aria-hidden="true"></canvas>
+<div class="hero-fallback" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo logo-fx" href="#top"><span class="logo-orbit" aria-hidden="true"><i></i><i></i><i></i></span>Petal <em>&amp;</em> Stem</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#looks">Arrangements</a><a href="#services">Services</a><a href="#menu">Pricing</a><a href="#faq">FAQ</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:1rem">
+      <a href="#book" class="btn btn-primary">Order flowers</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <span class="hero-badge"><span class="dot"></span> Petal &amp; Stem — florist · Your City</span>
+  <h1><span class="hline"><span class="hline-in">Say it with</span></span><span class="hline"><span class="hline-in"><em class="gradient-text">flowers.</em></span></span></h1>
+  <p class="lead">Custom bouquets, wedding florals and weekly stems — grown with love, arranged with soul, delivered with care.</p>
+  <div class="hero-cta">
+    <a href="#book" class="btn btn-primary">Order flowers</a>
+    <a href="#looks" class="btn btn-ghost">See arrangements</a>
+  </div>
+  <div class="trust"><span>Same-day delivery</span><span>Locally sourced</span><span>Wedding specialists</span></div>
+  <div class="scroll-cue" aria-hidden="true"><span>scroll</span><span class="line"></span></div>
+</header>
+
+<div class="stage">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Bouquets <b>✦</b> Weddings <b>✦</b> Events <b>✦</b> Subscriptions <b>✦</b> Plants <b>✦</b> Dried Blooms <b>✦</b> Sympathy <b>✦</b></span>
+      <span>Bouquets <b>✦</b> Weddings <b>✦</b> Events <b>✦</b> Subscriptions <b>✦</b> Plants <b>✦</b> Dried Blooms <b>✦</b> Sympathy <b>✦</b></span>
+    </div>
+  </div>
+
+  <section class="section wrap" id="services">
+    <div class="sec-head reveal"><span class="eyebrow">what we grow</span><h2>Every occasion deserves petals.</h2></div>
+    <div class="grid services-grid">
+      <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21V11M12 11c-4 0-6-3-6-6 3 0 6 2 6 6zM12 11c4 0 6-3 6-6-3 0-6 2-6 6z"/></svg></div><h3>Custom bouquets</h3><p>Tell us the feeling — we'll build it in blooms, wrapped and ribboned.</p></div>
+      <div class="card reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3a3 3 0 0 1 3 3c0 2-3 5-3 5S9 8 9 6a3 3 0 0 1 3-3zM5 21c2-6 12-6 14 0"/></svg></div><h3>Weddings &amp; events</h3><p>From bouquet to arch to last-dance petals — full-service florals.</p></div>
+      <div class="card reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM12 8v4l3 2"/></svg></div><h3>Subscriptions</h3><p>Fresh stems on your table every week. Cancel or pause anytime.</p></div>
+      <div class="card reveal d3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 21V9a6 6 0 0 1 12 0v12M6 15h12"/></svg></div><h3>Plants &amp; care</h3><p>Houseplants that thrive, plus honest advice to keep them that way.</p></div>
+    </div>
+  </section>
+
+  <section class="story-break" data-break="signature">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">the petal &amp; stem promise</span>
+      <h2>Grown with love, arranged with <em>soul.</em></h2>
+      <p>Watch it bloom — that's how every order feels.</p>
+    </div>
+  </section>
+
+  <section class="work-pin" id="looks">
+    <div class="work-sticky">
+      <div class="work-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">recent arrangements</span>
+          <h2>Fresh from the studio.</h2>
+          <p>Keep scrolling — the gallery glides. <em>(Real arrangements — this is the gallery your photos live in.)</em></p>
+        </div>
+        <span class="work-hint">scroll ↓ to travel →</span>
+      </div>
+      <div class="work-track" id="workTrack">
+        <article class="work-card"><div class="thumb"><img src="assets/img/01-blush.jpg" alt="A blush bouquet of roses and peonies" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Blush Romance</h3><span class="tag">Roses · peonies</span></div><span class="wnum">01 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/02-wild.jpg" alt="A loose wildflower bouquet" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Wildflower</h3><span class="tag">Meadow-picked feel</span></div><span class="wnum">02 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/03-white.jpg" alt="A sculptural white arrangement" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Modern White</h3><span class="tag">Clean · sculptural</span></div><span class="wnum">03 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/04-amber.jpg" alt="An autumn arrangement with dried accents" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Autumn Amber</h3><span class="tag">Warm · dried accents</span></div><span class="wnum">04 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/05-lavender.jpg" alt="A soft lavender bouquet" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Lavender Dream</h3><span class="tag">Soft · fragrant</span></div><span class="wnum">05 / 06</span></div></article>
+        <article class="work-card"><div class="thumb"><img src="assets/img/06-garden.jpg" alt="A big joyful garden-party arrangement" loading="lazy" decoding="async" /></div><div class="work-meta"><div><h3>Garden Party</h3><span class="tag">Big · joyful</span></div><span class="wnum">06 / 06</span></div></article>
+      </div>
+      <div class="work-progress"><i id="workProgress"></i></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="rose">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">in season</span>
+      <h2>Everything <em>opens</em> eventually.</h2>
+      <p>Cut this morning, arranged this afternoon, on your table tonight.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="menu">
+    <div class="sec-head center reveal"><span class="eyebrow">pricing</span><h2>Beauty for every budget.</h2><p>Example prices — the shop sets the real list.</p></div>
+    <div class="menu reveal">
+      <h3>Bouquets</h3>
+      <div class="menu-item"><span class="name">Petite<small>A sweet gesture</small></span><span class="dots"></span><span class="price">$45</span></div>
+      <div class="menu-item"><span class="name">Classic<small>The crowd-pleaser</small></span><span class="dots"></span><span class="price">$75</span></div>
+      <div class="menu-item"><span class="name">Statement<small>Jaw, meet floor</small></span><span class="dots"></span><span class="price">$120</span></div>
+      <h3>Subscriptions</h3>
+      <div class="menu-item"><span class="name">Weekly stems</span><span class="dots"></span><span class="price">$60/wk</span></div>
+      <div class="menu-item"><span class="name">Every other week</span><span class="dots"></span><span class="price">$65</span></div>
+      <h3>Weddings &amp; events</h3>
+      <div class="menu-item"><span class="name">Full-service florals<small>Free consultation first</small></span><span class="dots"></span><span class="price">from $500</span></div>
+      <p class="menu-note">✦ Same-day delivery on orders before 1pm ✦</p>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="petals">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">petal by petal</span>
+      <h2>Softness, <em>engineered.</em></h2>
+      <p>Every stem placed by hand. Nothing here is accidental.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="reviews">
+    <div class="sec-head center reveal"><span class="eyebrow">love notes</span><h2>Petals with a fan club.</h2></div>
+    <!-- SAMPLE REVIEWS - replace with the real ones before launch. -->
+    <div class="grid quotes-grid">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>“Our wedding looked like a fairytale. Guests are still talking about the arch. I cried, my mom cried, the photographer cried.”</p><div class="who"><div class="avatar">E</div><div><strong>Emily &amp; Jake</strong><small>Wedding couple · demo review</small></div></div></div>
+      <div class="quote reveal d1"><div class="stars">★★★★★</div><p>“The weekly subscription is my favorite self-care. Every Friday my kitchen turns into a garden.”</p><div class="who"><div class="avatar">N</div><div><strong>Nia F.</strong><small>Subscriber · demo review</small></div></div></div>
+      <div class="quote reveal d2"><div class="stars">★★★★★</div><p>“Ordered a 'just because' bouquet at noon, it arrived by 4 with a handwritten note. She said yes to a second date. Coincidence? No.”</p><div class="who"><div class="avatar">D</div><div><strong>Devon R.</strong><small>Smooth operator · demo review</small></div></div></div>
+    </div>
+  </section>
+
+
+  <section class="story-break" data-break="vase">
+    <canvas aria-hidden="true"></canvas>
+    <div class="break-fallback" aria-hidden="true"></div>
+    <div class="break-cap reveal">
+      <span class="eyebrow">kept fresh</span>
+      <h2>Cool water, <em>clean</em> cuts.</h2>
+      <p>Conditioned daily so they last the week, not the weekend.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="faq">
+    <div class="sec-head center reveal"><span class="eyebrow">good to know</span><h2>Fresh answers.</h2></div>
+    <div class="faq reveal">
+      <details open><summary>Do you deliver? <span class="plus">+</span></summary><p>Yes — same-day across the city for orders placed before 1pm, next-day beyond that.</p></details>
+      <details><summary>How far ahead should I book wedding florals? <span class="plus">+</span></summary><p>Three to six months is ideal, but reach out regardless — we've pulled off beautiful miracles on short notice.</p></details>
+      <details><summary>How do I make my flowers last? <span class="plus">+</span></summary><p>Fresh water every two days, a snip of the stems, and keep them out of direct sun. Every bouquet comes with care notes.</p></details>
+      <details><summary>Can I pause my subscription? <span class="plus">+</span></summary><p>Anytime, no questions. Going on vacation? Gift that week's stems to a friend instead.</p></details>
+      <details><summary>Do you do sympathy arrangements? <span class="plus">+</span></summary><p>With extra care. Tell us about them, and we'll make something worthy.</p></details>
+    </div>
+  </section>
+
+  <section class="section wrap" id="book">
+    <div class="contact">
+      <div class="contact-left reveal">
+        <span class="eyebrow">visit the studio</span>
+        <h2>Let's make something bloom.</h2>
+        <p class="lead">Order below, call us, or wander in — the studio always smells amazing.</p>
+        <ul class="info-list">
+          <li><b>📍</b><span>123 Main Street, Your City <span class="ph">replace</span></span></li>
+          <li><b>📞</b><span>(555) 000-0000 <span class="ph">replace</span></span></li>
+          <li><b>🕑</b><span>Tue–Sat · 9am–6pm <span class="ph">confirm</span></span></li>
+        </ul>
+        <div class="socials"><a href="#">Instagram ↗</a><a href="#">Pinterest ↗</a><a href="#">Facebook ↗</a></div>
+      </div>
+      <form class="reveal d1" id="bookForm">
+        <div><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Riley Bennett" required /></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" /></div>
+        <div><label for="service">What do you need?</label>
+          <select id="service" name="service"><option>Petite bouquet</option><option>Classic bouquet</option><option>Statement bouquet</option><option>Weekly subscription</option><option>Wedding / event consultation</option><option>Something custom</option></select>
+        </div>
+        <div><label for="date">Needed by</label><input id="date" name="date" type="date" /></div>
+        <div><label for="notes">Tell us the story</label><textarea id="notes" name="notes" placeholder="Anniversary — she loves peonies and the color coral..."></textarea></div>
+        <button type="submit" class="btn btn-primary">Send my order</button>
+        <p class="form-note">Opens your email app with everything filled in. We confirm same day.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Petal &amp; Stem · All rights reserved.</span>
+      <span class="credit">Design &amp; build by <a href="#">Your Studio</a></span>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.SITE={
+  email:'hello@yourdomain.com', /* TEMPLATE: swap for the client's real email */
+  formSubject:'Flower order',
+  /* HERO: breathing watercolor blooms in rose, sage and lavender */
+  heroFrag:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*1.9;float t=uT*0.07;'+
+    'vec3 col=vec3(0.045,0.075,0.055);'+
+    'vec3 rose=vec3(0.9,0.56,0.64);vec3 sage=vec3(0.62,0.73,0.56);vec3 lav=vec3(0.73,0.65,0.85);vec3 creamF=vec3(0.95,0.91,0.85);'+
+    'for(int i=0;i<4;i++){float s=float(i);'+
+    'vec2 c=vec2(sin(t*0.5+s*1.9)*0.6,cos(t*0.4+s*2.3)*0.42);'+
+    'vec2 d=p-c;float rr=length(d);float th=atan(d.y,d.x);'+
+    'float pet=abs(cos(th*2.5+s));'+
+    'float bloom=smoothstep(0.4*pet+0.12,0.0,rr)*(0.62+0.2*sin(t*1.2+s*2.0));'+
+    'vec3 bc=(s<1.0)?rose:((s<2.0)?sage:((s<3.0)?lav:creamF));'+
+    'col=mix(col,bc,bloom*0.5);}'+
+    'float w=fbm(p*2.0+t);col=mix(col,creamF,smoothstep(0.72,0.98,w)*0.12);'+
+    'float vig=smoothstep(1.4,0.3,length(uv-0.5));col*=0.5+0.5*vig;'+
+    'col*=mix(1.0,0.25,clamp(uProg,0.0,1.0));col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+  /* BREAK: a rose-curve flower blooms open with scroll; petals drift down */
+  breakFrag:
+    'void main(){vec2 uv=pixUV(220.0);float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.1;'+
+    'vec3 col=vec3(0.04,0.07,0.05);'+
+    'vec3 rose=vec3(0.9,0.56,0.64);vec3 gold=vec3(0.93,0.8,0.55);vec3 sage=vec3(0.62,0.73,0.56);'+
+    'float openv=smoothstep(0.05,0.9,uProg);'+
+    'float r=length(p);float th=atan(p.y,p.x);'+
+    'for(int i=0;i<2;i++){float s=float(i);'+
+    'float R=(0.55-s*0.18)*openv;'+
+    'float pr=R*abs(cos(th*3.0+uT*0.1+s*0.5));'+
+    'float d=abs(r-pr);'+
+    'col+=mix(rose,sage,s)*smoothstep(0.02+s*0.01,0.002,d)*smoothstep(1.2,0.4,r)*(1.0-s*0.35);}'+
+    'col+=gold*smoothstep(0.09*openv,0.0,r)*1.2;'+
+    'vec2 pp=p*4.0;pp.y+=uT*0.5;pp.x+=sin(uT*0.7+p.y*2.0)*0.3;'+
+    'vec2 id=floor(pp);vec2 f2=fract(pp)-0.5;float h=hash21(id);'+
+    'float petd=length(f2*vec2(1.0,1.6));'+
+    'col+=rose*smoothstep(0.18,0.04,petd)*step(0.9,h)*0.55;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* ==========================================================
+     Scenes bespoke to THIS demo — shared with no other page.
+     ========================================================== */
+  breakFrags:{  /* THE ROSE — looking straight down into a rose: nested whorls of petals
+     opening from the outside in, each with a lit rim and a soft crease. */
+  rose:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.10;'+
+    'float open=smoothstep(0.0,0.85,uProg);'+
+    'float r=length(p),a=atan(p.y,p.x);'+
+    'vec3 col=mix(vec3(0.045,0.030,0.040),vec3(0.014,0.010,0.014),smoothstep(0.3,1.5,r));'+
+    'for(int i=0;i<7;i++){float s=float(i);'+                       /* outer whorl first, inner over it */
+    'float R=(0.80-s*0.107)*open;'+
+    'float lobes=5.0+s*1.6;'+
+    'float rt=t*(0.10+s*0.035)+s*0.85;'+
+    'float wob=0.050*cos(lobes*(a+rt))+0.018*cos(lobes*2.0*(a-rt));'+
+    'float edge=R+wob;'+
+    'float inside=smoothstep(edge,edge-0.016,r);'+
+    'vec3 pc=mix(uC1*0.42,uC1,s/6.0);'+
+    'pc=mix(pc,vec3(1.0,0.93,0.95),0.34*smoothstep(edge-0.13,edge,r));'+   /* lit rim */
+    'pc=mix(pc,uC3*0.7,0.20*smoothstep(0.5,0.0,r/max(edge,1e-4)));'+
+    'col=mix(col,pc,inside);'+
+    'col=mix(col,uC1*0.30,smoothstep(0.010,0.0,abs(r-edge))*0.75*inside);'+ /* petal crease */
+    'col+=vec3(1.0,0.94,0.95)*smoothstep(0.006,0.0,abs(r-edge))*0.16;}'+
+    'float cs=0.09*open;'+                                                 /* tight furled centre */
+    'float spiral=abs(fract((a/6.283)+r*3.4-t*0.5)-0.5)*2.0;'+
+    'col=mix(col,mix(uC1*0.55,vec3(1.0,0.9,0.93),0.35),smoothstep(cs,0.0,r-0.02)*0.0+smoothstep(0.24,0.0,r)*smoothstep(0.55,0.95,spiral)*0.55);'+
+    'col+=uC1*exp(-r*4.0)*0.14*open;'+
+    'vec2 gp=p*26.0+vec2(t,-t*0.6);float h=hash21(floor(gp));'+            /* pollen drift */
+    'col+=uC2*smoothstep(0.11,0.0,length(fract(gp)-0.5))*step(0.980,h)*0.5*open;'+
+    'float vig=smoothstep(1.45,0.28,length(uv-0.5));col*=0.38+0.62*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* THE VASE — stems standing in glass, water line catching the light,
+     the glass bending what sits behind it. */
+  vase:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0)*2.0;float t=uT*0.4;'+
+    'float open=smoothstep(0.0,0.8,uProg);'+
+    'vec3 col=mix(vec3(0.050,0.042,0.048),vec3(0.016,0.014,0.018),smoothstep(0.2,1.4,length(p)));'+
+    'float shelf=smoothstep(-0.66,-0.70,p.y);'+
+    'col=mix(col,vec3(0.075,0.060,0.058),shelf);'+
+    'float neck=0.20,belly=0.36;'+
+    'float prof=mix(neck,belly,smoothstep(0.30,-0.45,p.y))*(1.0-0.35*smoothstep(-0.50,-0.70,p.y));'+
+    'float inVase=smoothstep(0.012,0.0,abs(p.x)-prof)*step(-0.70,p.y)*step(p.y,0.34);'+
+    'for(int i=0;i<7;i++){float s=float(i);'+                              /* stems */
+    'float h=hash21(vec2(s,3.0));'+
+    'float x0=(s-3.0)*0.052+(h-0.5)*0.03;'+
+    'float lean=(s-3.0)*0.16+(h-0.5)*0.12;'+
+    'float top=0.34+0.34*h;'+
+    'float yy=clamp(p.y,-0.62,top);'+
+    'float k=(yy+0.62)/max(top+0.62,1e-4);'+
+    'float sx=x0+lean*k*k;'+
+    'float d=abs(p.x-sx);'+
+    'float stem=smoothstep(0.010,0.004,d)*step(-0.62,p.y)*step(p.y,top)*step(s*0.11,open*1.3);'+
+    'col=mix(col,mix(uC2*0.55,uC2,h),stem);'+
+    'col+=uC2*smoothstep(0.005,0.0,d)*stem*0.30;'+
+    'float bud=smoothstep(0.055,0.030,length((p-vec2(x0+lean,top))*vec2(1.0,1.35)));'+  /* bloom on top */
+    'col=mix(col,mix(uC1,vec3(1.0,0.94,0.95),h*0.4),bud*step(s*0.11,open*1.3));}'+
+    'float water=smoothstep(0.0,-0.02,p.y+0.16);'+                         /* water inside the glass */
+    'vec3 wat=mix(uC3*0.30,uC2*0.28,0.5)+vec3(0.02);'+
+    'col=mix(col,mix(col,wat,0.55),inVase*water);'+
+    'col+=vec3(0.85,0.92,0.95)*smoothstep(0.012,0.0,abs(p.y+0.16))*inVase*0.55;'+ /* meniscus */
+    'float glassEdge=smoothstep(0.020,0.0,abs(abs(p.x)-prof))*step(-0.70,p.y)*step(p.y,0.34);'+
+    'col+=vec3(0.90,0.95,1.0)*glassEdge*0.42;'+
+    'col+=vec3(1.0)*smoothstep(0.014,0.0,abs(p.x+prof*0.62))*inVase*0.20;'+ /* specular strip */
+    'col+=uC3*exp(-length(p-vec2(0.0,-0.40))*3.0)*0.10*inVase;'+
+    'vec2 gp=p*24.0+vec2(-t*0.3,t*0.4);float gh=hash21(floor(gp));'+
+    'col+=uC1*smoothstep(0.11,0.0,length(fract(gp)-0.5))*step(0.982,gh)*0.45*open;'+
+    'col*=open;'+
+    'float vig=smoothstep(1.45,0.30,length(uv-0.5));col*=0.38+0.62*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}',
+
+  /* PETAL FALL — petals tumbling through depth, each a creased teardrop
+     catching light as it turns. */
+  petals:
+    'void main(){vec2 uv=gl_FragCoord.xy/uRes;float asp=uRes.x/uRes.y;'+
+    'vec2 p=(uv-0.5)*vec2(asp,1.0);float t=uT*0.24;'+
+    'vec3 col=mix(uC3*0.10,uC1*0.13,uv.y);'+
+    'for(int L=0;L<3;L++){float s=float(L);'+
+    'float sc=4.2+s*3.0;'+
+    'vec2 gp=vec2(p.x*sc+sin(t*(0.5+s*0.18)+s)*1.7,p.y*sc+t*(1.05+s*0.7));'+
+    'vec2 id=floor(gp);float h=hash21(id+s*19.0);'+
+    'if(h>0.93){'+                                                         /* sparse — a drift, not a blizzard */
+    'vec2 f2=fract(gp)-0.5;'+
+    'float spin=h*6.283+t*(1.3+h);'+
+    'vec2 q=f2*rot(spin);'+
+    'float edgeOn=0.40+0.60*abs(sin(spin*0.7));'+                          /* turning edge-on */
+    'vec2 q2=vec2(q.x/max(edgeOn,0.16),q.y)*vec2(2.7,1.15);'+
+    'float taper=1.0+0.60*q2.y;'+                                          /* teardrop, not a disc */
+    'float petal=length(vec2(q2.x/max(taper,0.22),q2.y));'+
+    'float body=smoothstep(0.44,0.36,petal);'+
+    'vec3 pc=mix(uC1,vec3(1.0,0.95,0.96),0.22+0.42*h);'+
+    'pc*=0.62+0.55*smoothstep(0.35,-0.20,q.y);'+
+    'col=mix(col,pc,body*(0.95-s*0.15));'+
+    'col=mix(col,uC1*0.50,smoothstep(0.016,0.0,abs(q2.x))*body*0.60);'+    /* centre vein */
+    'col+=vec3(1.0)*smoothstep(0.44,0.41,petal)*smoothstep(0.37,0.41,petal)*0.30;'+
+    '}}'+
+    'col*=smoothstep(0.0,0.75,uProg);'+
+    'float vig=smoothstep(1.3,0.30,length(uv-0.5));col*=0.40+0.60*vig;'+
+    'col=fxGrade(col);gl_FragColor=vec4(col,1.0);}'
+
+  }
+};
+</script>
+<script src="assets/js/fx.js"></script>
+<style>body{padding-bottom:46px}</style><div id="aura-demo-bar" style="position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:#0b0710;color:#fff;font:13px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:7px 10px;border-top:1px solid rgba(255,255,255,.22)">Template demo with sample details. Part of <a href="https://csaf.itch.io/aura-webgl-website-templates" style="color:#74e6e0;font-weight:700">Aura, 11 WebGL templates, $29 on itch</a></div>
+</body>
+</html>

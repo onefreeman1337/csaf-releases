@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 748 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 750 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T16:09:26.109Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T18:55:22.462Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -34,9 +34,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 03 — Worlds Tileset for RPG Maker MZ, Tiled, Godot & Unity: Snow, Desert & Volcanic [16x16]
 
-Store: https://csaf.itch.io/verdant-03-worlds · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-03-worlds/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-03-worlds · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-03-worlds/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 03 Worlds is a 16x16 snow, desert and volcanic tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 330 tiles, each biome joining the Verdant grass.
+Verdant 03 Worlds is a 16x16 snow, desert and volcanic tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 330 tiles, each biome joining the Verdant grass.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -50,9 +50,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 05 — Depths Tileset for RPG Maker MZ, Tiled, Godot & Unity: Dungeon, Cave & Crypt [16x16]
 
-Store: https://csaf.itch.io/verdant-05-depths · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-05-depths/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-05-depths · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-05-depths/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 05 Depths is a 16x16 pixel art dungeon, cave and crypt tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 236 tiles with stairs and doors. Royalty free for commercial games, with a free series sampler to try first.
+Verdant 05 Depths is a 16x16 pixel art dungeon, cave and crypt tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 236 tiles with stairs and doors.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1200,7 +1200,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthhands-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-collection/ · Paid
 
-Both Hearthhands packs, one download, one palette The Working Day and Market and Craft together: 19 working villagers — baker, farmer, fisher, herbalist, herder, miner, shopkeeper, smith, woodcutter, carter, chandler, cooper, fishmonger, innkeeper, potter, scribe, tanner, washerwoman, weaver.
+The Hearthhands Collection is 19 top down villager sprites for RPG Maker MZ and Godot 4, at 200 and 100 px, on one 43 colour palette. Royalty free, with a free sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1668,7 +1668,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/reelhouse-slot-machine-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reelhouse-slot-machine-sound-effects/ · Paid
 
-One slot cabinet, every sound it makes 126 slot machine sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): the lever, buttons, coins, tokens and a note acceptor; the reels spinning at three speeds, a stop for each of 5 reels building into the...
+Reelhouse is 126 slot machine sound effects in WAV and OGG for Unity, Unreal, Godot, GameMaker and RPG Maker, from one electromechanical cabinet. Royalty free, with a free demo of 17 sounds.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1852,7 +1852,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wade-liquid-and-submerged-movement · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/wade-liquid-and-submerged-movement/ · Paid
 
-135 sounds of water, indexed by how deep it is. Most packs answer "I need water footsteps" with a folder called water holding a handful of splashes.
+Wade is 135 water sound effects for Unity, Godot, RPG Maker and GameMaker, with every movement sound authored at 5 depths. Royalty free for commercial games, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2160,7 +2160,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/the-long-campaign · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-long-campaign/ · Paid
 
-Fifty tracks. One oath.
+The Long Campaign is a 50 track European high fantasy music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3004,7 +3004,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/table-service · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/table-service/ · Paid · Engines: RPG Maker
 
-A serving rush played on the map you already built. Customers walk in and take the seats at your own tables. They ring for service, order, wait for the kitchen, eat, pay and tip, or run out of patience and walk out.
+Table Service is a restaurant minigame plugin for RPG Maker MZ: 8 to 15 parties a night sit down at the tables on the map you already built. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3036,7 +3036,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/threads · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threads/ · Paid · Engines: RPG Maker
 
-Your game has multiple endings. Your players cannot see them. They finished on ending three, and they have no idea there were six.
+Threads is a player facing story flowchart plugin for RPG Maker MZ and MV: every branch, branch jump, and an ending gallery with 48 emblem motifs. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3044,7 +3044,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/threshold · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threshold/ · Paid · Engines: RPG Maker
 
-Every door in your own tileset opens the way it was drawn. Threshold is a plugin for RPG Maker MZ.
+Threshold is an RPG Maker MZ plugin with 8 kinds of opening: every door, gate, hatch and cave mouth in your own tileset opens from that tile's own pixels.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3060,7 +3060,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/timber · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/timber/ · Paid · Engines: RPG Maker
 
-Every tree in your own tileset can be cut down. Timber turns the trees already painted on your maps into trees the player can fell. Face a tree and press OK: it shudders, a notch opens in its own bark, chips and leaves fly.
+Timber is a tree cutting plugin for RPG Maker MZ with 6 kinds of fall, cut from the trees already painted on your maps, with nothing to draw. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3076,7 +3076,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/township · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/township/ · Paid · Engines: RPG Maker
 
-Township gives every NPC a real day.
+Township is an NPC daily routine plugin for RPG Maker MZ and MV: 9 plugin commands give every townsperson a real day, overnight shifts included. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3092,7 +3092,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/unveil · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/unveil/ · Paid · Engines: RPG Maker
 
-A Qix-style minigame for your RPG, and the prize is one of your own pictures. Unveil puts one of your pictures under a veil.
+Unveil is a Qix style minigame plugin for RPG Maker MZ with 3 veils drawn in code: the player claims the board to reveal one of your own pictures. Royalty free, with a free lite version.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3100,7 +3100,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdict-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/verdict-core/ · Paid · Engines: RPG Maker
 
-Keep your clue system. This is the part where the player has to be right. Every clue plugin for RPG Maker MZ tracks what the player has found. None of them resolves a piece of evidence against a claim.
+Verdict Core is an investigation plugin for RPG Maker MZ and MV with 4 scenes: a case file, a cross examination, a corkboard and a deduction sheet. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3132,7 +3132,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/vivarium · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vivarium/ · Paid · Engines: RPG Maker
 
-Your maps are beautiful. Nothing lives in them. A meadow in RPG Maker MZ is a painted floor. The pond is still, the grass is empty, and at night nothing glows.
+Vivarium is an ambient wildlife plugin for RPG Maker MZ with 43 species in 9 families, drawn in code and placed by your map, with no events to set up.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3156,7 +3156,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/warhost · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/warhost/ · Paid · Engines: RPG Maker
 
-Army battles for RPG Maker MZ. Two hosts of regiments meet on a painted field. Every soldier is drawn: foot, pikes, archers, horse and mages, in each army's colours.
+Warhost is an army battle plugin for RPG Maker MZ and MV: up to 240 drawn figures a side, 4 formations and 5 painted fields, with no image files to import.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3164,7 +3164,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/windowskin-foundry · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/windowskin-foundry/ · Paid · Engines: RPG Maker
 
-Give every window in your game a worked-material frame.
+Windowskin Foundry is 44 windowskins and a plugin for RPG Maker MZ, in 11 worked materials by 4 corner ornaments, re-struck in your tileset's colours.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3186,7 +3186,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 81 products.
+GML systems and assets for GameMaker. 82 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3475,6 +3475,14 @@ Store: https://csaf.itch.io/hallmark-gamemaker · Our page: https://onefreeman13
 Every item your loot system rolls gets its own maker's mark: a round, punched guild stamp struck from the item itself and drawn as vector geometry at any size, from a 16 px inventory icon to a 200 px plate.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
+
+### Haversack: 48 Container Grid Inventory for GameMaker
+
+Store: https://csaf.itch.io/haversack-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/haversack-gamemaker/ · Paid · Engines: GameMaker
+
+Haversack is a grid inventory for GameMaker 2024.14 in pure GML: 55 drawn items with real footprints, 48 drawn containers, and a free Windows demo. Items have shapes, not boxes.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Hearth - Interiors That Furnish Themselves From Purpose And Occupant
 
@@ -4140,7 +4148,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/typecase · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/typecase/ · Paid · Engines: Unity
 
-TextMesh Pro only builds a font asset from a TTF or OTF file, so a pixel font that exists as a PNG sheet cannot be typed in TMP at all.
+Typecase is a pixel font tool for Unity 6 with 3 ways to read a PNG sheet into a real TextMesh Pro font asset, keeping the colours you drew. Royalty free for your games.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4876,7 +4884,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/wardlock · Our page: https://onefreeman1337.github.io/csaf-releases/games/wardlock/ · Paid · free browser demo on the page
 
-A locksmith's bench, a brass plate, and a lock that will not open until you understand it. WARDLOCK is a real Game Boy cartridge — a 32,768-byte ROM you can put on a flash cart or an Analogue Pocket — containing forty-eight warded locks.
+WARDLOCK is a logic puzzle game on a real Game Boy ROM with 48 warded locks, each shipped with its proven fewest moves. Play the first 16 free in your browser on this page.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4908,13 +4916,13 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/witness-mark · Our page: https://onefreeman1337.github.io/csaf-releases/games/witness-mark/ · Paid · free browser demo on the page
 
-A 32 KB Game Boy ROM. Free browser demo right here — five cases, no download. A witness mark is a real term from horology: the faint trace one part leaves on another, which a restorer reads to work out where things originally sat.
+WITNESS MARK is a deduction game on a real Game Boy ROM with 160 proved fair cases and 390 suspects. Play five cases free in your browser on this page.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Free browser games
 
-Free games that play in the browser. 66 products.
+Free games that play in the browser. 67 products.
 
 ### AFFINEUR
 
@@ -5417,6 +5425,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/torchwater · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/torchwater/ · Free
 
 Light the water, draw the shoal, land the season. TORCHWATER is a free incremental for your browser about a cove's fire-fishing fleet. On dark summer nights your boats row out and light the fires at their bows.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### UFO SALVAGE
+
+Store: https://csaf.itch.io/ufo-salvage · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/ufo-salvage/ · Free
+
+The aliens lost. The saucers are still in the fields. UFO SALVAGE is a free browser salvage incremental with 7 counties and a different generated saucer every time: tow them home before the Army gets there, strip them, and sell the parts.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5940,7 +5956,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/tidewater-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/tidewater-godot/ · Paid · Engines: Godot
 
-48 2D water shaders for Godot 4: lakes, seas, pools, waterfalls and underwater Tidewater puts water into your 2D game that is computed while it runs.
+Tidewater is 48 2D water shaders for Godot 4: top down lakes, side on pools, waterfalls and underwater filters, computed while your game runs. Royalty free, with a free lite version.
 
 AI disclosure: AI Assisted, Code, Graphics
 
