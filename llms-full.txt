@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 737 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-30T20:22:34.748Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T00:24:03.660Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -316,7 +316,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-38-cascades · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-38-cascades/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Waterfalls you build on the 16x16 grid. A river crosses the upland, runs white through rapids, goes over the edge and falls down a cliff of any height into a plunge pool, and every piece of it is a tile that animates.
+Verdant 38 Cascades is a 16x16 waterfall tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 489 tiles of falls, rapids and cliffs, with 42 animations.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1348,7 +1348,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/blip-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-dialogue-voices/ · Paid
 
-104 dialogue sounds. 13 speakers, not one blip pitched 13 ways. New: Blip 02, a second cast. Thirteen more speakers with the same eight cues and the same file names, measured against these thirteen so that none of the 26 collide.
+Blip is 104 dialogue sound effects in 13 voices for text boxes, in WAV and OGG for RPG Maker, Godot, Unity, GameMaker, Unreal or the web. Royalty free, with a free demo of 4 complete voices.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1364,7 +1364,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/blip-02-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-02-dialogue-voices/ · Paid
 
-104 dialogue sounds. 13 new speakers, each a different synthesis method. A second cast for text advance dialogue, the ticks and chirps a text box plays as a line types out.
+Blip 02 is 104 dialogue sound effects in 13 new voices, in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1428,7 +1428,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/creature-vocal-forge-monster-voice-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/creature-vocal-forge-monster-voice-sound-effects/ · Paid
 
-12 monsters, every one a whole voice set 120 creature voice sound effects. 12 creatures, and every one ships the same 6 states: idle, alert, attack, hurt, death, special.
+Creature Vocal Forge is 120 monster voice sound effects, 12 creatures with 6 states each, in WAV and OGG for RPG Maker, Godot, Unity or Unreal. Free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1580,7 +1580,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/leeward-ships-sea-and-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/leeward-ships-sea-and-harbour/ · Paid
 
-Everything in this pack is the same ship.
+Leeward is 165 ship, sea and harbour sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5576,7 +5576,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/clean-slate-modern-minimal-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/clean-slate-modern-minimal-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A flat, light, modern UI kit for casual and puzzle games, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Clean Slate is a flat, light UI kit of 58 widgets in pixel and HD, with files for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5900,7 +5900,7 @@ Deep Station is a pack of 14 low poly PS1-style sci-fi horror characters for God
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fort Vale: 14 PSX Modern Soldier Characters (Rigged, Animated)
+### Fort Vale: 14 Animated PSX Modern Soldier Characters
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
@@ -5932,7 +5932,7 @@ A party of 14 fantasy adventurers for your PS1-style RPG: low poly, hand painted
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Last Shift: 13 PSX Survival Horror Characters (Rigged, Animated)
+### Last Shift: 13 Animated PSX Survival Horror Characters
 
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
