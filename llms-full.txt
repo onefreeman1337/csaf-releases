@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 739 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 740 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T03:03:24.418Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T06:25:46.094Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2198,7 +2198,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 117 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 118 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2525,6 +2525,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/fathom · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fathom/ · Paid · Engines: RPG Maker
 
 Your own maps, under the sea. One notetag, and the plugin draws the rest. RPG Maker MZ has no underwater mode.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Fetch: 10 Doppelganger Boss Looks for RPG Maker MZ
+
+Store: https://csaf.itch.io/fetch-doppelganger-bosses · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fetch-doppelganger-bosses/ · Paid · Engines: RPG Maker
+
+Fetch is an RPG Maker MZ plugin that copies your party into real enemies for a mirror-match boss, drawn from each hero's own battler sheet in 10 looks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
