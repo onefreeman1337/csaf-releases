@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 739 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T02:23:16.941Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T03:03:24.418Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1308,7 +1308,7 @@ Sound effect packs for games, synthesised procedurally. File formats and counts 
 
 Store: https://csaf.itch.io/akatsuki-anime-jrpg-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/akatsuki-anime-jrpg-sfx/ · Paid
 
-One palette. Every slot a JRPG needs. Bronze, glass, bamboo, cypress and steel — struck, and left to ring in one room. Most anime-flavoured packs are a folder: some bright chimes, some sword sounds, some sparkle, assembled from wherever.
+Akatsuki is 112 anime and JRPG sound effects in WAV and OGG for Unity, Godot, Unreal, GameMaker and RPG Maker: menus, steel, magic, summons and shrines.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1880,7 +1880,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ashen-realm · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/ashen-realm/ · Paid
 
-Ashen Realm is a 44 track soulslike score for games: a kingdom gone to ash, its roads and ruins, its cathedral and its barrows, nine fights from a common battle to the final boss, and one bonfire.
+Ashen Realm is a 44 track soulslike music pack in OGG and MIDI for RPG Maker, Godot, Unity and GameMaker: a kingdom gone to ash, nine fights and one bonfire.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2204,7 +2204,7 @@ Plugins for RPG Maker MZ, shipped as readable JavaScript source. 117 products.
 
 Store: https://csaf.itch.io/ajar · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ajar/ · Paid · Engines: RPG Maker
 
-Search the furniture, and watch it open. Ajar turns the dressers, desks, barrels, jars, pots, baskets, sacks and bookshelves already in your tileset into furniture the player can search.
+Ajar is a 2 file RPG Maker MZ plugin that makes the drawers, barrels, jars, sacks and shelves in your own tileset open when searched. Royalty free in commercial games, with no art files to draw.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2252,7 +2252,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/arras · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/arras/ · Paid · Engines: RPG Maker
 
-A hanging that records what your player actually did. Arras takes the switches your game set, the variables it moved, the victories and the choices, and weaves them into an embroidered frieze in the Bayeux manner.
+Arras is a 6 file RPG Maker MZ plugin that weaves what your player did into an embroidered Bayeux style frieze. Royalty free in commercial games, with no art files to draw.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2284,7 +2284,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/augury · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/augury/ · Paid · Engines: RPG Maker
 
-Your game already has a fortune-teller. This is the deck she reads from. Augury generates a complete 78-card arcana — 22 trumps and four suits of fourteen — from 46 hand-authored motifs, drawn as vector geometry while your game runs.
+Augury is a 6 file RPG Maker MZ and MV plugin that draws a 78 card tarot deck with no image files and deals readings into your switches and variables.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4460,7 +4460,7 @@ Games for desktop and the browser. Where a game is paid, a free browser demo is 
 
 Store: https://csaf.itch.io/anatomist · Our page: https://onefreeman1337.github.io/csaf-releases/games/anatomist/ · Paid · free browser demo on the page
 
-A real 32 KB Game Boy cartridge. The free browser demo is right here on this page — floors one to four, no download, no account.
+ANATOMIST is a Game Boy roguelike where a monster's shape is its stat block: 8,640 creatures drawn by a real 32 KB cartridge. The free browser demo on this page is floors 1 to 4, with no download and no account.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5964,10 +5964,10 @@ Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 6 Free Low Poly 3D Characters
+### PSX Characters Sampler: 7 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 6 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 7 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
