@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 745 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 747 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T10:41:38.237Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T14:39:22.274Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -66,9 +66,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 07 — Interiors Tileset for RPG Maker MZ, Tiled, Godot & Unity: Inn, Cottage, Workshop, Chapel & Study [16x16]
 
-Store: https://csaf.itch.io/verdant-07-interiors · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-07-interiors/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-07-interiors · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-07-interiors/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 07 Interiors is a 16x16 interior tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 386 tiles for an inn, a cottage, a workshop, a chapel and a study.
+Verdant 07 Interiors is a 16x16 interior tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 386 tiles for an inn, a cottage, a workshop, a chapel and a study.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -106,9 +106,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 12 — Scarp Tileset for RPG Maker MZ, Tiled, Godot & Unity: 16x16 Elevation
 
-Store: https://csaf.itch.io/verdant-12-scarp · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-12-scarp/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-12-scarp · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-12-scarp/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 12 Scarp is a 16x16 elevation tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 414 tiles and an upland plateau that reads as raised. Royalty free for commercial games, with a free series sampler to try first.
+Verdant 12 Scarp is a 16x16 elevation tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 414 tiles and an upland plateau that reads as raised.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1088,7 +1088,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-reforged-01-restless-dead · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-reforged-01-restless-dead/ · Paid
 
-Eight undead, and every one of them fights: the banshee, ghoul, gravebound, lich, mummy, skeleton, wight and wraith.
+Mourncrest Reforged 01 is 8 undead sprites at 160 and 80 px with idle, walk, strike, hurt and death, plus RPG Maker MZ and Godot 4 files. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1104,7 +1104,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/neonward-01-street-cast · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-01-street-cast/ · Paid
 
-Nine cyberpunk street characters for a top-down game: a street samurai, a netrunner, a corporate agent, an android, an augmented bruiser, a courier, a street-food vendor, a street kid and a riot enforcer.
+Neonward 01 is 9 cyberpunk street sprites at 128 and 64 px with idle and a 6 frame walk, plus RPG Maker MZ and Godot 4 files. Royalty free. The whole cast on their walk cycles.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1628,7 +1628,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/overdub-rpg-maker-mz-default-sound-replacement · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/overdub-rpg-maker-mz-default-sound-replacement/ · Paid
 
-Every default sound a new MZ project plays, re-voiced 137 new sound effects, each named exactly like an RPG Maker MZ default sound effect.
+Overdub is 137 sound effects for RPG Maker MZ, each named like a default, so copying one folder re-voices every menu, hit and spell. Royalty free. Every slot on the System tab, already pointed at the new file.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1858,7 +1858,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 44 products.
+Game music packs. Formats and track counts are stated on each store page. 45 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1972,6 +1972,14 @@ The original Game Boy could play four notes at a time. Two pulse channels, one w
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Four Riders: 44 Track Western Music Pack
+
+Store: https://csaf.itch.io/four-riders · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/four-riders/ · Paid
+
+Four Riders is a 44 track western music pack for any game engine: a frontier score cast like a film, with one instrument for each of four riders.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Frostfall - The White North - Winter Fantasy RPG Game Music Pack - 44 Tracks
 
 Store: https://csaf.itch.io/frostfall · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/frostfall/ · Paid
@@ -2056,7 +2064,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/saltline · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/saltline/ · Paid
 
-Forty-two tracks for a game set at sea, and not one of them is a shanty.
+Saltline is a 42 track voyage and harbour music pack for any game engine: 53 minutes of OGG with editable MIDI and tagged loops. Royalty free, with 4 free tracks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2214,7 +2222,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 118 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 119 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2744,6 +2752,14 @@ Every weapon and every piece of armour in your game draws its own engraved plate
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Over the Shoulder: 3 Back-View Battles for RPG Maker MZ
+
+Store: https://csaf.itch.io/over-the-shoulder · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/over-the-shoulder/ · Paid · Engines: RPG Maker
+
+Over the Shoulder is an RPG Maker MZ plugin that shows your party from behind in battle, from your own walk sheets, with 3 stagings and 50 floors. Two plugin files, no art to draw, commercial use with no royalty.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Patina — Every Item Shows What It Has Been Through
 
 Store: https://csaf.itch.io/patina · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/patina/ · Paid · Engines: RPG Maker
@@ -2812,7 +2828,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/quizmaster · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quizmaster/ · Paid · Engines: RPG Maker
 
-A quiz show for your RPG, with the questions written from your own database.
+Quizmaster is an RPG Maker MZ plugin for quiz shows and exams on 6 drawn stages, with the questions written from your own database. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2844,7 +2860,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/round-up · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/round-up/ · Paid · Engines: RPG Maker
 
-Drive the flock into the pen before the bell. Round-up is a herding minigame for RPG Maker MZ, played on your own map. Paint a pen with a region ID, call one plugin command, and a generated flock scatters across your farmyard.
+Round-up is a herding minigame plugin for RPG Maker MZ, played on your own map: drive a flock of up to 32 generated animals into the pen before the bell.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2884,7 +2900,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/scathe · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scathe/ · Paid · Engines: RPG Maker
 
-Battle damage you can see, drawn into your own enemy art. Every enemy shows the damage it takes.
+Scathe is an RPG Maker MZ plugin that draws battle damage into your own enemy art, with 6 materials and 3 HP bands: gashes, cracks, char, frost and burns.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4748,7 +4764,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/proofmark · Our page: https://onefreeman1337.github.io/csaf-releases/games/proofmark/ · Paid · free browser demo on the page
 
-A real 32 KB Game Boy cartridge. Free browser demo below — days one and two, no download. New in 1.3.1: the title has its own struck slab-serif lettering.
+PROOFMARK is a real 32 KB Game Boy deduction game: work out each day's hidden rule from 5,760 generated coins. The free browser demo is days one and two.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
