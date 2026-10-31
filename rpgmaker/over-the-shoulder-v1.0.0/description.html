@@ -1,0 +1,30 @@
+<p>Over the Shoulder is an RPG Maker MZ plugin that shows your party from behind in battle, from your own walk sheets, with 3 stagings and 50 floors. Two plugin files, no art to draw, commercial use with no royalty. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/over-the-shoulder/README.md">Read the documentation before you buy.</a></p>
+<p><img src="{{IMG:over_the_shoulder.gif}}" alt="MZ's side-view fight cuts to the same fight seen from behind the party, then a round of blows, then the party turning round at victory"></p>
+<p><em>These pictures use our own sprites, enemies and backdrops; none of them ship. Your figures come from your own sheets.</em></p>
+<p>MZ can show your party from the side, or not at all. Back-view battles have been asked for since 2016, and the answer was always the same: draw every actor a new sheet. Every walk sheet already holds a back view, and this plugin uses it.</p>
+<h2>What you get</h2>
+<ul>
+<li><strong>Your party from behind,</strong> from each actor's own sheet: they walk in, step up, lunge on an attack, recoil on a hit, and collapse when they fall.</li>
+<li><strong>Three stagings:</strong> a line, a rank into the distance, and a duel on raised discs with enemy HP plates.</li>
+<li><strong>50 floors</strong> laid to the horizon and tinted toward your battleback. Auto picks one from the file name.</li>
+<li><strong>Eight themes</strong> for the plates, commands and battle messages, with your faces in the medallions.</li>
+<li><strong>A camera</strong> that follows the action, and a party that turns round at victory.</li>
+</ul>
+<p><img src="{{IMG:2_the_duel.png}}" alt="A duel on a checker floor: one armoured figure from behind on a raised disc, a huge ogre on another, the other three actors waiting behind"></p>
+<h2>What it leaves alone</h2>
+<p>Skills, states, damage formulas, troops and your enemy database stay MZ's, in a side-view or front-view project. There is no catching or type chart: the duel is a layout. It draws no weapons. A rough back row stays rough at three times the size, and <code>&lt;ots-back: Name&gt;</code> takes hand-drawn art.</p>
+<p><img src="{{IMG:4_fifty_floors.png}}" alt="A board of all 50 floors laid flat to the horizon: stone, wood, cloth, grass, sand, snow, lava, metal and more"></p>
+<!--COMPAT:start-->
+<hr>
+<h3>Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> <code>OverTheShoulderCore.js</code>, <code>OverTheShoulder.js</code>. Any order works.</p>
+
+<p><strong>Core methods extended: 30 by saved-original prototype extension, <em>none replaced</em>.</strong> The full list is in the guide.</p>
+<p>Nothing is clobbered, but while a battle is staged the plugin draws the actors itself, so a plugin that changes MZ's side-view actors will not show. It is tested with the stock scripts only.</p>
+<p>It defines 4 methods its classes only inherited: if another plugin redefines one of those, load Over the Shoulder after it.</p>
+<p><strong>Not tested with VisuStella Battle Core,</strong> which rewrites the same battle sprites. While that plugin is on, Over the Shoulder stands down and says so in the console; one setting runs it anyway, at your own risk.</p>
+<hr>
+<!--COMPAT:end-->
+<p><strong>From the same studio:</strong> <a href="https://csaf.itch.io/stature">Stature</a>, taller side-view battlers from your sheets. <a href="https://csaf.itch.io/posture">Posture</a>, stances on the map. <a href="https://csaf.itch.io/fray">Fray</a>, your cast worn by damage. <a href="https://csaf.itch.io/fetch-doppelganger-bosses">Fetch</a>, your party as a boss. The creatures on one plate are <a href="https://csaf.itch.io/pocketfolk-01-first-partners">Pocketfolk 01</a>.</p>
+<p>Code written with AI assistance; the enemies and backdrops in these pictures are AI illustrations, and the sprites are AI-generated.</p>
