@@ -1,0 +1,36 @@
+<p>Fetch is an RPG Maker MZ plugin that copies your party into real enemies for a mirror-match boss, drawn from each hero's own battler sheet in 10 looks. Two plugin files, no art to draw, commercial use with no royalty. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/fetch/README.md">Read the documentation before you buy.</a></p>
+<p><img src="{{IMG:fetch_rise.gif}}" alt="Four twins in four looks face their four heroes, then each hero's floor shadow crosses the field and a twin stands up out of it"></p>
+<p><em>These pictures use our own HD battlers and backdrops; neither ships. Your twins come from your art, and one plate shows stock-size sheets on a bright field.</em></p>
+<p>A fetch is a folklore double, and this one is read from the live hero when the fight starts: level, stats, equipment, traits and learned skills. A database enemy freezes the day you type it.</p>
+<h2>What you get</h2>
+<ul>
+<li><strong>Ten looks:</strong> Shadow, Void, Mirror, Ink, Ember, Frost, Phantom, Gilded, Glitch and Crimson, on every frame of the sheet.</li>
+<li><strong>All 18 side-view motions,</strong> and front-view battles drawn from the hero's map sprite, which walks on the spot.</li>
+<li><strong>A brain that chooses as it moves:</strong> it heals an ally under half HP, takes a kill, and hits the hero its skills hurt most, taking the best choice about 7 times in 10 by default.</li>
+<li><strong>Habits:</strong> each twin leans toward what its hero has really been used for.</li>
+<li><strong>An entrance:</strong> each hero's floor shadow crosses the field and the twin rises from it.</li>
+</ul>
+<p><img src="{{IMG:1_both_sides.png}}" alt="Four twins in four different looks face the four heroes they were copied from"></p>
+<h2>Three ways to use it</h2>
+<ul>
+<li>The <strong>Mirror Match</strong> command starts the fight.</li>
+<li><strong>Arm the Next Battle,</strong> then Battle Processing, keeps your If Win branch.</li>
+<li>Note an enemy <code>&lt;fetch: party&gt;</code> or <code>&lt;fetch: member 2&gt;</code> and place it in any troop. Each twin earns its rewards.</li>
+</ul>
+<p><img src="{{IMG:2_ten_looks.png}}" alt="One Mage beside all ten looks"></p>
+<p>Max HP defaults to 60% because full-HP fights run long; 100% is an exact copy.</p>
+<!--COMPAT:start-->
+<hr>
+<h3>Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> <code>FetchCore.js</code>, <code>Fetch.js</code>. Any order works.</p>
+
+<p><strong>Core methods extended: 21 by saved-original prototype extension, <em>none replaced</em>.</strong> The full list is in the guide.</p>
+<p>Because nothing is clobbered, Fetch co-exists with other plugins that patch the same seams. It is tested with the stock scripts only.</p>
+
+<p>It defines 5 methods its classes only inherited: if another plugin redefines one of those, load Fetch after it.</p>
+<p><strong>Not tested with VisuStella Battle Core:</strong> it is a paid plugin that has not been run against Fetch here, and it adds its own side-view enemy path, so try one fight before relying on the two together.</p>
+<hr>
+<!--COMPAT:end-->
+<p><strong>From the same studio:</strong> <a href="https://csaf.itch.io/bout">Bout</a>, real-time actor fights. <a href="https://csaf.itch.io/plinth">Plinth</a>, your cast as statues. <a href="https://csaf.itch.io/fray">Fray</a>, your cast worn by damage. <a href="https://csaf.itch.io/colosseum-core">Colosseum Core</a>, tournaments.</p>
+<p>Code written with AI assistance; the cover and the capture hall are AI illustrations.</p>
