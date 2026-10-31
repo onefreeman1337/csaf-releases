@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 750 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 751 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T18:55:22.462Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T21:13:49.923Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -18,9 +18,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 01 — Overworld Tileset for RPG Maker MZ, Tiled, Godot & Unity [16x16]
 
-Store: https://csaf.itch.io/verdant-01-overworld · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-01-overworld/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-01-overworld · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-01-overworld/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 01 is a 16x16 pixel art overworld tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: grass, dirt, sand, stone and water in 239 tiles. Royalty free for commercial games, and the series has a free sampler you can test first.
+Verdant 01 is a 16x16 pixel art overworld tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: grass, dirt, sand, stone and water in 239 tiles.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -58,9 +58,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 06 — Gothic Tileset for RPG Maker MZ, Tiled, Godot & Unity: Chapel, Graveyard & Ruin [16x16]
 
-Store: https://csaf.itch.io/verdant-06-gothic · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-06-gothic/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-06-gothic · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-06-gothic/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 06 Gothic is a 16x16 chapel and graveyard tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 356 tiles with stained glass, tombs and ruined walls.
+Verdant 06 Gothic is a 16x16 chapel and graveyard tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 356 tiles with stained glass, tombs and ruins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -74,9 +74,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 08 — Mire Tileset for RPG Maker MZ, Tiled, Godot & Unity: Blackwater, Boardwalk & Bog [16x16]
 
-Store: https://csaf.itch.io/verdant-08-mire · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-08-mire/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-08-mire · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-08-mire/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 08 Mire is a 16x16 swamp tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 470 tiles of black water, peat bank, duckweed, sedge and a plank causeway.
+Verdant 08 Mire is a 16x16 swamp tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 470 tiles of black water, peat bank, sedge and plank causeway.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5994,7 +5994,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 8 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 9 products.
 
 ### Deep Station: 14 PSX Space Horror Crew (Rigged, Animated)
 
@@ -6041,6 +6041,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
 Last Shift is 13 low poly PSX survivors, each rigged with 45 animation clips, with GLB and FBX files for Godot, Unity and Unreal. Free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Outpost: 14 Animated PSX Sci-Fi Marines and Crew
+
+Store: https://csaf.itch.io/outpost-psx-sci-fi-marines · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/outpost-psx-sci-fi-marines/ · Paid · Engines: Blender
+
+Outpost is a pack of 14 low poly PS1-style sci-fi characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
