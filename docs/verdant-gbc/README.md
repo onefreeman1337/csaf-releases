@@ -12,7 +12,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 # Verdant GBC: Route, Cave and Town Tileset [16x16]
 
-**Verdant GBC: Route, Cave and Town Tileset** is a 16x16 Game Boy Color tileset volume for GB Studio colour mode, Tiled, Godot 4, RPG Maker MZ and Unity: the Route, the Cave, the Town and the Interiors in one download, in four seasons (spring, summer, autumn, winter) that differ by palette and nothing else. It holds **794 tiles at 16x16**: 12 complete 47-mask sets (autotiles), 85 distinct objects, 3 animated waterfall pieces and 7 sample scenes, each sample scene already a GB Studio background in all four seasons. Commercial use is allowed in unlimited projects, including Game Boy Color ROMs, with no royalty and no attribution required; you may not resell the pack itself. The wider Verdant series has a free sampler: the Verdant 00 Series Sampler (https://csaf.itch.io/verdant-00-sample).
+**Verdant GBC: Route, Cave and Town Tileset** is a 16x16 Game Boy Color tileset volume for GB Studio colour mode, Tiled, Godot 4, RPG Maker MZ and Unity: the Route, the Cave, the Town and the Interiors in one download, in four seasons (spring, summer, autumn, winter) that differ by palette and nothing else. It holds **794 tiles at 16x16**: 12 complete 47-mask sets (autotiles), 88 distinct objects (85 static objects and 3 animated waterfall pieces) and 7 sample scenes, each sample scene already a GB Studio background in all four seasons. Commercial use is allowed in unlimited projects, including Game Boy Color ROMs, with no royalty and no attribution required; you may not resell the pack itself. The wider Verdant series has a free sampler: the Verdant 00 Series Sampler (https://csaf.itch.io/verdant-00-sample).
 
 ## What is in it
 
