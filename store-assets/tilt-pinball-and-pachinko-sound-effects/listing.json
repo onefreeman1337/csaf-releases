@@ -1,0 +1,26 @@
+{
+  "title": "Tilt: 184 Pinball and Pachinko Sound Effects",
+  "slug": "tilt-pinball-and-pachinko-sound-effects",
+  "priceUSD": 9.99,
+  "priceTier": "default",
+  "shortText": "184 pinball and pachinko sounds: flippers, bumpers, rolling loops and peg ladders.",
+  "tags": [
+    "sound-effects",
+    "royalty-free",
+    "game-audio",
+    "wav",
+    "pinball",
+    "pachinko",
+    "arcade",
+    "retro",
+    "physics",
+    "casual"
+  ],
+  "html": "<p>Tilt is 184 pinball and pachinko sound effects for Unity, Unreal, Godot, GameMaker and any game engine: one wooden table and one pachinko machine.</p>\n<p>Royalty free for commercial games, no credit required. A free demo of 20 sounds is on this page.</p>\n<p>@@IMG:shot_0_a_ball_in_play.gif@@</p>\n<h3>What is inside</h3>\n<p>184 sounds · 24 seamless loops · 14 ladders · WAV + OGG · 20 sound free demo</p>\n<ul>\n<li><strong>Flippers</strong> (16 files): left and right, firing, held on the coil and dropping, plus the bat meeting the ball at four strengths.</li>\n<li><strong>Bumpers and targets</strong> (34): pop bumpers in three voices, slingshots, a drop target bank and its reset, rollovers, posts, and a spinner hit five ways.</li>\n<li><strong>Ball handling</strong> (28): the plunger, four launch strengths, a saucer, a ball lock, multiball, two balls clacking, the drain.</li>\n<li><strong>The ball rolling</strong> (15): wood, plastic ramp and steel wire, each at three speeds as seamless loops, with the joins between them.</li>\n<li><strong>Machine state</strong> (29): tilt, knocker, coin in, score chimes, score reels, bonus count, game start and game over.</li>\n<li><strong>Peg boards</strong> (42): peg hits in glass, brass and stone, each a 10 step ladder that climbs with the shot, plus the bucket and board clear.</li>\n<li><strong>The pachinko machine</strong> (20): nail hits, falling balls, the launcher, tulips, the big gate and the payout.</li>\n</ul>\n<p>@@IMG:shot_1_the_table.png@@</p>\n<p>Each part sits where it stands on a table. Every waveform is a shipped file.</p>\n<p>@@IMG:shot_4_ladders.png@@</p>\n<p>Wire the rung to a number your game already has: the hit count, the ball speed, the pull.</p>\n<h3>Works with</h3>\n<p><strong>Unity, Unreal, Godot 4, GameMaker, RPG Maker MV and MZ, and HTML5</strong>: use the WAV or OGG files directly. Loop points are written into the loop files. Import notes are in the <a href=\"https://github.com/onefreeman1337/csaf-releases/blob/main/docs/tilt-pinball-and-pachinko-sound-effects/README.md\">readme</a>.</p>\n<h3>Try it free</h3>\n<p>The demo on this page holds a whole ball from the plunger to the drain, every state of the left flipper, a drop target bank, three steps of a peg ladder and two pachinko sounds.</p>\n<h3>Licence and how it was made</h3>\n<p>Royalty free for commercial games, no credit required. Do not resell the sounds as a pack. Every sound is synthesised in code, with no generative audio model, samples or recordings. The code and the cover art were made with AI tools. Nothing here is a tune or a voice.</p>\n<h3>Versions</h3>\n<p>v1.0.0: first release, 184 sounds.</p>\n<h3>More from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/reelhouse-slot-machine-sound-effects\">Reelhouse: Slot Machine Sound Effects</a>, the other coin machine: reels, a hopper and a casino floor.</li>\n<li><a href=\"https://csaf.itch.io/escapement-clockwork-sfx\">Escapement: Clockwork, Brass and the Machine Room</a>, springs, ratchets and struck brass.</li>\n<li><a href=\"https://csaf.itch.io/barrage-shmup-bullet-hell-sound-effects\">Barrage: Shmup and Bullet Hell Sound Effects</a>, for the rest of the arcade.</li>\n</ul>\n<p>Made by Core Systems Asset Factory.</p>",
+  "links": [
+    "https://github.com/onefreeman1337/csaf-releases/blob/main/docs/tilt-pinball-and-pachinko-sound-effects/README.md",
+    "https://csaf.itch.io/reelhouse-slot-machine-sound-effects",
+    "https://csaf.itch.io/escapement-clockwork-sfx",
+    "https://csaf.itch.io/barrage-shmup-bullet-hell-sound-effects"
+  ]
+}
