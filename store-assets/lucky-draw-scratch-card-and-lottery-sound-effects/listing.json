@@ -1,0 +1,26 @@
+{
+  "title": "Lucky Draw: 150 Scratch, Prize Wheel, Lottery and Bingo SFX",
+  "slug": "lucky-draw-scratch-card-and-lottery-sound-effects",
+  "priceUSD": 8.99,
+  "priceTier": "default",
+  "shortText": "150 scratch card, prize wheel, lottery, bingo and raffle sounds, with loops.",
+  "tags": [
+    "sound-effects",
+    "royalty-free",
+    "game-audio",
+    "casino",
+    "gambling",
+    "slot-machine",
+    "lottery",
+    "bingo",
+    "scratch-card",
+    "prize-wheel"
+  ],
+  "html": "<p>Lucky Draw is 150 scratch card, prize wheel, lottery and bingo sound effects for Unity, Unreal, Godot, GameMaker and any game engine.</p>\n<p>Royalty free for commercial games, no credit required. A free demo of 16 sounds is on this page.</p>\n<p>@@IMG:shot_0_a_draw.gif@@</p>\n<h3>What is inside</h3>\n<p>150 sounds · 28 seamless loops · 12 ladders · WAV + OGG · 16 sound free demo</p>\n<ul>\n<li><strong>Scratch cards</strong> (39 files): silver foil, gold foil and grey latex, each at three speeds as a seamless loop that plays while the pointer drags, plus strokes, cells clearing, symbols matching and the result.</li>\n<li><strong>Prize wheels</strong> (29): a tabletop, booth and carnival wheel, each with a spin start, three tick speeds, a stop, a near miss that falls back a segment, and single peg ticks.</li>\n<li><strong>The lottery draw</strong> (21): a ball drum at three loads, an air machine, the chute, the cradle and a number board.</li>\n<li><strong>Bingo</strong> (24): a cage at three crank speeds, an ink dauber, marker discs, and a line, two lines and a full house.</li>\n<li><strong>The raffle</strong> (16): a tin drum of paper tickets, torn, drawn and unfolded.</li>\n<li><strong>Wins and the counter</strong> (21): five win tiers from a small prize to the jackpot, a cash box, a ticket printer, a desk bell and tokens.</li>\n</ul>\n<p>@@IMG:shot_1_the_booth.png@@</p>\n<p>Every waveform is a shipped file.</p>\n<p>@@IMG:shot_3_the_scratch_grid.png@@</p>\n<p>Each coating climbs in brightness with drag speed.</p>\n<h3>Works with</h3>\n<p><strong>Unity, Unreal, Godot 4, GameMaker, RPG Maker MV and MZ, and HTML5</strong>: use the WAV or OGG files directly. Loop points are written into the loop files. Import notes are in the <a href=\"https://github.com/onefreeman1337/csaf-releases/blob/main/docs/lucky-draw-scratch-card-and-lottery-sound-effects/README.md\">readme</a>.</p>\n<p>The five win tiers keep the timing of the win ladder in our slot machine pack, so the two can sit in one game.</p>\n<h3>Try it free</h3>\n<p>The demo holds a whole scratch card, a wheel from throw to stop, a lottery ball from gate to cradle, the dauber, a raffle ticket and two win tiers.</p>\n<h3>Licence and how it was made</h3>\n<p>Royalty free for commercial games, no credit required. Do not resell the sounds as a pack. Every sound is synthesised in code, with no generative audio model, samples or recordings. The code and the cover art were made with AI tools. Nothing here is a tune or a voice, and there are no number callouts.</p>\n<h3>Versions</h3>\n<p>v1.0.0: first release, 150 sounds.</p>\n<h3>More from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/reelhouse-slot-machine-sound-effects\">Reelhouse: Slot Machine Sound Effects</a>, the reels, the hopper and the casino floor.</li>\n<li><a href=\"https://csaf.itch.io/tilt-pinball-and-pachinko-sound-effects\">Tilt: Pinball and Pachinko Sound Effects</a>, a wooden table and a pachinko machine.</li>\n<li><a href=\"https://csaf.itch.io/shuffle-and-tell-deckbuilder-sfx\">Shuffle and Tell: the Deckbuilder Card Table</a>, cards, chips and the table.</li>\n</ul>\n<p>Made by Core Systems Asset Factory.</p>",
+  "links": [
+    "https://github.com/onefreeman1337/csaf-releases/blob/main/docs/lucky-draw-scratch-card-and-lottery-sound-effects/README.md",
+    "https://csaf.itch.io/reelhouse-slot-machine-sound-effects",
+    "https://csaf.itch.io/tilt-pinball-and-pachinko-sound-effects",
+    "https://csaf.itch.io/shuffle-and-tell-deckbuilder-sfx"
+  ]
+}
