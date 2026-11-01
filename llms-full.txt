@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 751 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 752 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T21:13:49.923Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-10-31T22:03:57.033Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -82,9 +82,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 09 — Town Tileset for RPG Maker MZ, Tiled, Godot & Unity: Street, Market, Housefronts & Gardens [16x16]
 
-Store: https://csaf.itch.io/verdant-09-town · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-09-town/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-09-town · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-09-town/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 09 Town is a 16x16 market town tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 510 tiles of cobbled street, housefronts, two roofs and gardens.
+Verdant 09 Town is a 16x16 market town tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 510 tiles of street, housefronts, two roofs and gardens.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5814,7 +5814,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 22 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 23 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -5845,6 +5845,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/cartography-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/cartography-godot/ · Paid · Engines: Godot
 
 Cartography: a journey map for Godot 4 that draws itself as the player explores, in 48 styles Your player walks; the map draws itself.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### CSAF Godot Collection: 21 Addon Packs for Godot 4
+
+Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
+
+The CSAF Godot Collection puts all 21 of our paid Godot 4.7 addon packs in one project: 1,127 presets for 2D games, royalty free. New packs join it free on the day they launch.
 
 AI disclosure: AI Assisted, Code, Graphics
 
