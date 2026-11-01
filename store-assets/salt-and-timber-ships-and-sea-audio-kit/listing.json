@@ -1,0 +1,25 @@
+{
+  "title": "Salt and Timber: 165 Ship Sound Effects and 42 Music Tracks",
+  "slug": "salt-and-timber-ships-and-sea-audio-kit",
+  "priceUSD": 19.99,
+  "priceTier": "premium",
+  "shortText": "165 ship and sea sound effects and a 42 track score, mapped to 17 game moments.",
+  "tags": [
+    "sound-effects",
+    "music",
+    "soundtrack",
+    "royalty-free",
+    "game-audio",
+    "nautical",
+    "ships",
+    "ocean",
+    "ambient",
+    "wav"
+  ],
+  "html": "<p>Salt and Timber is 165 ship and sea sound effects and 42 music tracks for Unity, Unreal, Godot, GameMaker and any engine, mapped to 17 game moments.</p>\n<p>Two complete packs from this studio in one download, unchanged: Leeward (the sound effects) and Saltline (the score), plus a cue map that joins them. Royalty free for commercial games, no credit required. A free demo is on this page.</p>\n<p>@@IMG:shot_0_the_cue_map.gif@@</p>\n<h3>What is inside</h3>\n<p>165 sound effects · 42 music tracks · 17 moment cue map · WAV, OGG and MIDI</p>\n<ul>\n<li><strong>Sound effects</strong> (165 files, WAV and OGG): rope, timber, sail, iron, water, bells, deck, cannon, harbour, menu sounds, stingers, and 7 seamless ambience loops.</li>\n<li><strong>Music</strong> (42 tracks, 53.5 minutes, OGG plus editable MIDI): the harbour, the shop, the taproom, leaving port, open water, the night watch, fog, a storm, boarding, the wreck and landfall. 38 tracks loop with sample accurate loop tags; 4 are stingers.</li>\n<li><strong>The cue map</strong> (CUE_MAP.md and kit.json): 17 game moments, each naming the music that plays under it and the sound families that belong in it. Every file is placed at least once.</li>\n</ul>\n<p>@@IMG:shot_1_the_cue_map.png@@</p>\n<p>Open the moment you are building and drop in what it lists.</p>\n<p>@@IMG:shot_2_the_score.png@@</p>\n<h3>Works with</h3>\n<p><strong>Unity, Unreal, Godot 4, GameMaker, RPG Maker MV and MZ, and HTML5</strong>: use the WAV or OGG files directly. The ambience loops carry loop points in the WAV; the music carries LOOPSTART and LOOPLENGTH tags that RPG Maker reads as is. Import notes for each engine are in the <a href=\"https://github.com/onefreeman1337/csaf-releases/blob/main/docs/salt-and-timber-ships-and-sea-audio-kit/README.md\">readme</a>.</p>\n<h3>Try it free</h3>\n<p>The demo holds 4 moments (title screen and main menu, becalmed, weather and the squall and landfall): 4 tracks and the 9 sounds that belong with them, the same files as in the kit.</p>\n<h3>Licence and how it was made</h3>\n<p>Royalty free for commercial games and videos, no credit required. Do not resell the files as sounds or music. The sound effects are synthesised in code and the music is composed as MIDI in code and rendered with a soundfont licensed for commercial use: no generative audio model, no samples, no recordings. The code and the cover art were made with AI tools.</p>\n<h3>The two packs on their own</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/leeward-ships-sea-and-harbour\">Leeward: Ships, Sea and Harbour</a>: the sound effects alone.</li>\n<li><a href=\"https://csaf.itch.io/saltline\">Saltline: A Voyage and Harbour Score</a>: the score alone.</li>\n</ul>\n<p>This kit holds both, complete, and the map between them.</p>\n<h3>Versions</h3>\n<p>v1.0.0: first release.</p>\n<p>Made by Core Systems Asset Factory.</p>",
+  "links": [
+    "https://github.com/onefreeman1337/csaf-releases/blob/main/docs/salt-and-timber-ships-and-sea-audio-kit/README.md",
+    "https://csaf.itch.io/leeward-ships-sea-and-harbour",
+    "https://csaf.itch.io/saltline"
+  ]
+}
