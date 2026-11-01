@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 758 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 760 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-01T18:36:23.907Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-01T20:53:54.295Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -144,11 +144,11 @@ Verdant 16 East Asian Village is a 16x16 Japanese village tileset for RPG Maker 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 17 — Urban Decay Tileset for RPG Maker MZ, Tiled & Godot: Cracked Streets & Ruined Interiors [16x16]
+### Verdant 17: Urban Decay City Ruins Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-17-urban-decay · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-17-urban-decay/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-Verdant 17 Urban Decay is a 16x16 pixel art tileset of a derelict city block: cracked roads, broken pavement, collapsed masonry, vacant lots and ruined interiors, for RPG Maker MZ, Tiled and Godot 4.
+Verdant 17 Urban Decay is a 16x16 pixel art tileset of a derelict city block for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -160,11 +160,11 @@ Verdant 18 Victorian Industrial is a 16x16 pixel art tileset of a Victorian work
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 19 — Haunted House Tileset for RPG Maker MZ, Tiled, Godot & Unity: Rotten Boards & Cobwebs [16x16]
+### Verdant 19: Haunted Victorian House Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-19-haunted-house · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-19-haunted-house/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 19 Haunted House is a 16x16 pixel art tileset of an abandoned Victorian house: rotten boards, peeling wallpaper, dust sheets, cobwebs and a cellar, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
+Verdant 19 Haunted House is a 16x16 pixel art tileset of an abandoned Victorian house for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -186,9 +186,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 22 — Sewers Tileset for RPG Maker MZ, Tiled, Godot & Unity: Brick Vault, Flowing Channel & Grate [16x16]
 
-Store: https://csaf.itch.io/verdant-22-sewers · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-22-sewers/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-22-sewers · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-22-sewers/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 22 Sewers is a 16x16 Victorian sewer tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 689 tiles of brick vault, flowing channel and iron grate.
+Verdant 22 Sewers is a 16x16 Victorian sewer tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 689 tiles of brick vault, channel and iron grate.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -208,11 +208,11 @@ Verdant 24 Desert Kingdom is a 16x16 desert town tileset for RPG Maker MZ, Tiled
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 25 — Infernal Tileset for RPG Maker MZ, Tiled, Godot & Unity: Lava, Basalt, Ash & Brimstone [16x16]
+### Verdant 25: Infernal Lava and Basalt Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-25-infernal · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-25-infernal/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 25 Infernal is a 16x16 pixel art tileset of a volcanic underworld: lava channels, cooling crust, basalt, ash, sulphur flats and the workings left in them, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
+Verdant 25 Infernal is a 16x16 pixel art tileset of a volcanic underworld for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -314,9 +314,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 38 — Cascades: Animated Waterfalls, Rapids, Tall Cliffs Tileset for RPG Maker MZ, Tiled, Godot & Unity [16x16]
 
-Store: https://csaf.itch.io/verdant-38-cascades · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-38-cascades/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-38-cascades · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-38-cascades/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 38 Cascades is a 16x16 waterfall tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 489 tiles of falls, rapids and cliffs, with 42 animations.
+Verdant 38 Cascades is a 16x16 waterfall tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 489 tiles of falls, rapids and cliffs. Royalty free for commercial games, with a free series sampler to try first.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -338,9 +338,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 41 — Taiga Tileset for RPG Maker MZ, Tiled, Godot & Unity: Snow, Spruce, Frozen River & Bog [16x16]
 
-Store: https://csaf.itch.io/verdant-41-taiga · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-41-taiga/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-41-taiga · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-41-taiga/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 41 Taiga is a 16x16 winter forest tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 345 tiles of snow, spruce, frozen river, lichen and bog.
+Verdant 41 Taiga is a 16x16 winter forest tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 345 tiles of snow, spruce, river ice, lichen and bog.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -696,11 +696,11 @@ Store: https://csaf.itch.io/verdant-hd-02-farmstead · Our page: https://onefree
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Hex 01 — Hex Terrain Tileset for Godot & Tiled: Strategy Map Tiles, Roads & Rivers [32x32]
+### Verdant Hex 01: Godot Hex Map Terrain Tileset [32x32]
 
 Store: https://csaf.itch.io/verdant-hex-01-hex-terrain · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hex-01-hex-terrain/ · Paid · Engines: Tiled, Godot
 
-Verdant Hex 01 is a 32x32 pointy-top hex tileset in pixel art, for Godot 4 and Tiled (RPG Maker MZ cannot draw hex maps, so there is no MZ importer).
+Verdant Hex 01 is a 32x32 pointy top hex tileset in pixel art for Godot 4 and Tiled, made for strategy maps, board games and overworlds.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -980,11 +980,11 @@ Store: https://csaf.itch.io/hearthhands-side-town-keep-road · Our page: https:/
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kithfell 01: Companions and Beasts — 128x128 & 64x64 animal sprites
+### Kithfell 01: Companions and Beasts, 128x128 Animal Sprites
 
 Store: https://csaf.itch.io/kithfell-01-companions-and-beasts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-01-companions-and-beasts/ · Paid
 
-Four animal sprites for top-down games: herd dog, draught horse, brown bear and mane lion, each in 4 directions with a standing pose and a 9-frame walk, drawn natively at 128x128 and 64x64.
+Kithfell 01 Companions and Beasts is four animal sprites for RPG Maker MZ, Godot 4 and any top down game: herd dog, draught horse, brown bear and mane lion.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1052,11 +1052,11 @@ Six undead characters for top-down RPGs — skeleton, ghoul, wight, wraith, grav
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest 02: The Pale Choir — 64x64 cultist sprite pack
+### Mourncrest 02: The Pale Choir, 64x64 Cultist Sprites
 
 Store: https://csaf.itch.io/mourncrest-02-pale-choir · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-02-pale-choir/ · Paid
 
-Five robed cultist sprites for top-down RPGs: cultist, acolyte, censer bearer, hierophant and thrall, each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128 on one 48-colour palette.
+Mourncrest 02 The Pale Choir is five robed cultist sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1068,11 +1068,11 @@ Five dungeon creature sprites for top-down RPGs: dire bat, carrion crow, tomb sp
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest 04: The Iron Wardens — 64x64 armoured character sprites
+### Mourncrest 04: Iron Wardens, 64x64 Armoured Knight Sprites
 
 Store: https://csaf.itch.io/mourncrest-04-iron-wardens · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-04-iron-wardens/ · Paid
 
-Three armoured monster-hunter sprites for top-down RPGs: knight, templar and inquisitor, each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128 on one 70-colour palette.
+Mourncrest 04 The Iron Wardens is three armoured monster hunter sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1252,11 +1252,11 @@ Wildmark 01 is 4 top down hero sprites, an elf, a warrior, a mage and a rogue, w
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark 02: The Second Rank — 128x128 & 64x64 character sprites
+### Wildmark 02: The Second Rank, 128x128 RPG Character Sprites
 
 Store: https://csaf.itch.io/wildmark-02-the-second-rank · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-02-the-second-rank/ · Paid
 
-Four fantasy adventurer sprites for top-down RPGs: priest, vanguard, alchemist and forester, each in 4 directions with a standing pose and a 6-frame walk, drawn natively at 128x128 and 64x64.
+Wildmark 02 The Second Rank is four fantasy adventurer sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3218,7 +3218,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 82 products.
+GML systems and assets for GameMaker. 83 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3467,6 +3467,14 @@ Store: https://csaf.itch.io/fairway-gamemaker · Our page: https://onefreeman133
 Fairway is a mini golf system for GameMaker 2024.14 in pure GML, with a runnable demo room.
 
 AI disclosure: AI Assisted, Code, Graphics
+
+### Folio: Page-Turning Book with 48 Papers for GameMaker
+
+Store: https://csaf.itch.io/folio-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/folio-gamemaker/ · Paid · Engines: GameMaker
+
+Folio is a page-turning book for GameMaker 2024.14 in pure GML: 48 generated papers, pages set from your own text, and a free Windows demo.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Forage - Mushrooms That Draw Themselves, And One Of Them Will Kill You
 
@@ -6050,7 +6058,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 9 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 10 products.
 
 ### Deep Station: 14 PSX Space Horror Crew (Rigged, Animated)
 
@@ -6073,6 +6081,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/greyhollow-psx-townsfolk · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/greyhollow-psx-townsfolk/ · Paid · Engines: Blender
 
 Greyhollow is a pack of 14 low poly PS1-style medieval townsfolk characters for Godot 4, Unity and Unreal.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Grimsnout: 14 Animated PSX Orcs, Goblins and Brutes
+
+Store: https://csaf.itch.io/grimsnout-psx-orcs-goblins · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/grimsnout-psx-orcs-goblins/ · Paid · Engines: Blender
+
+Grimsnout is a pack of 14 low poly PS1-style orcs, goblins and an ogre for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
