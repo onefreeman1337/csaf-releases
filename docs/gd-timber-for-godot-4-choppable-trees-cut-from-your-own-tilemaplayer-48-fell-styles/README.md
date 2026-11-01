@@ -26,7 +26,9 @@ Version 1.0.0 · Godot 4.7 (run on 4.7.2; older 4.x versions were not run) · Co
 
 ## Install
 
-1. Copy `addons/timber/` into your project's `addons/` folder. There is no plugin to enable.
+1. Copy `addons/timber/` into your project's `addons/` folder. There is no plugin to enable. Keep that path: the styles
+   and preset scenes name `res://addons/timber/`, so a renamed or moved folder cannot load them (Godot names the path it
+   tried).
 2. Open `demo/demo.tscn` in this project to see it first: click a tree, it falls away from the side you clicked.
 
 `addons/timber/demo_trees/` and `addons/timber/presets/` are demo art and showcase scenes; you can delete both once your
