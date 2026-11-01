@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 752 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 758 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-10-31T22:03:57.033Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-01T18:36:23.907Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -90,9 +90,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 10 — Harbour Tileset for RPG Maker MZ, Tiled & Godot: Docks, Hulls & Tide Edge [16x16]
 
-Store: https://csaf.itch.io/verdant-10-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-10-harbour/ · Paid · Engines: RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-10-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-10-harbour/ · Paid · Engines: GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 10 Harbour is a 16x16 harbour tileset for RPG Maker MZ, Tiled and Godot 4: 581 tiles of granite quay, plank wharf, warehouses and dock gear. Royalty free for commercial games, with a free series sampler to try first.
+Verdant 10 Harbour is a 16x16 harbour tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 581 tiles of granite quay, plank wharf, warehouses and dock gear.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -114,9 +114,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 13 — Castle Tileset for RPG Maker MZ, Tiled & Godot: Curtain Wall, Keep & Gatehouse [16x16]
 
-Store: https://csaf.itch.io/verdant-13-castle · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-13-castle/ · Paid · Engines: RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-13-castle · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-13-castle/ · Paid · Engines: GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 13 Castle is a 16x16 castle tileset for RPG Maker MZ, Tiled and Godot 4: 603 tiles of curtain wall, keep, moat and gatehouse. Royalty free for commercial games, with a free series sampler to try first.
+Verdant 13 Castle is a 16x16 castle tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 603 tiles of curtain wall, keep, moat and gatehouse. Royalty free for commercial games, with a free series sampler to try first.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -138,9 +138,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 16 — East Asian Village Tileset for RPG Maker MZ, Tiled & Godot: Shrine, Rice Paddies & Village Houses [16x16]
 
-Store: https://csaf.itch.io/verdant-16-east-asian · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-16-east-asian/ · Paid · Engines: RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-16-east-asian · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-16-east-asian/ · Paid · Engines: GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 16 East Asian Village is a 16x16 Japanese village tileset for RPG Maker MZ, Tiled and Godot 4: 678 tiles of shrine approach, rice paddies and houses.
+Verdant 16 East Asian Village is a 16x16 Japanese village tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 678 tiles of shrine, rice paddies and houses.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -168,19 +168,19 @@ Verdant 19 Haunted House is a 16x16 pixel art tileset of an abandoned Victorian 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 20 — Prison Tileset for RPG Maker MZ, Tiled, Godot & Unity: Cellblock, Bars & Yard [16x16]
+### Verdant 20: Prison Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-20-prison · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-20-prison/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 20 Prison is a 16x16 pixel art tileset of one prison wing: cells, steel bars, the landing walkway, the outer wall and the exercise yard, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
+Verdant 20 Prison is a 16x16 pixel art prison tileset for RPG Maker MZ, Tiled, Godot 4 and Unity 6. It covers one Victorian prison wing: cells, steel bars, the landing walkway, the ablutions, the outer wall and the exercise yard.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 21 — School Tileset for RPG Maker MZ, Tiled, Godot & Unity: Classroom, Corridor, Gym & Yard [16x16]
+### Verdant 21: School Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-21-school · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-21-school/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 21 School is a 16x16 pixel art tileset of a whole school: classrooms, a science lab, the corridor, hall, library, dining hall and the yard, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
+Verdant 21 School is a 16x16 pixel art school tileset for RPG Maker MZ, Tiled, Godot 4 and Unity 6. It covers classrooms, a science lab, the corridor, hall, library, dining hall and the yard.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -194,17 +194,17 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 23 — Ruins Tileset for RPG Maker MZ, Tiled, Godot & Unity: Colonnade, Mosaic Plaza & Overgrowth [16x16]
 
-Store: https://csaf.itch.io/verdant-23-ruins · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-23-ruins/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-23-ruins · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-23-ruins/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 23 Ruins is a 16x16 classical ruin tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 698 tiles for a colonnade, a mosaic plaza and overgrown courts.
+Verdant 23 Ruins is a 16x16 ruin tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 698 tiles for a colonnade, a mosaic plaza and overgrown courts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 24 — Desert Kingdom Tileset for RPG Maker MZ, Tiled, Godot & Unity: Mudbrick, Sandstone Court & Oasis [16x16]
 
-Store: https://csaf.itch.io/verdant-24-desert · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-24-desert/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-24-desert · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-24-desert/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 24 Desert Kingdom is a 16x16 desert town tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 640 tiles of mudbrick wall, sandstone court and oasis.
+Verdant 24 Desert Kingdom is a 16x16 desert town tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 640 tiles of mudbrick, sandstone and oasis.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -330,9 +330,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 40 — Atlas: Parchment & Natural Colour World Map Tileset for RPG Maker MZ, Tiled & Godot [16x16]
 
-Store: https://csaf.itch.io/verdant-40-atlas · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-40-atlas/ · Paid · Engines: RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-40-atlas · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-40-atlas/ · Paid · Engines: GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 40 Atlas is a 16x16 world map tileset for RPG Maker MZ, Tiled and Godot 4: 700 tiles, each drawn once as a parchment chart and once in natural colour.
+Verdant 40 Atlas is a 16x16 world map tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 700 tiles, each drawn as a parchment chart and in natural colour.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -584,7 +584,7 @@ A candy world you can build a level from: 550 tiles at 16x16 in one 59-colour pa
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 71 — Tamer Interiors: Indoor Tileset, Healing Hall, Mart, Gym & Lab for Monster-Tamer RPGs [16x16]
+### Verdant 71: Tamer Interiors Tileset for Monster RPGs [16x16]
 
 Store: https://csaf.itch.io/verdant-71-tamer-interiors · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-71-tamer-interiors/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -600,7 +600,7 @@ A domed desert city you can build a level from: 535 tiles at 16x16 in one 81-col
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 73 — Tavern: Taproom & Inn Tileset, a Bar Counter That Turns Any Corner, Booths & Bard Stage [16x16]
+### Verdant 73: Tavern and Inn Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-73-tavern · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-73-tavern/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -608,7 +608,7 @@ The tavern every RPG town needs, at 16x16: 428 tiles in one 98 colour palette. C
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 74 — Dungeon Charts: Parchment Dungeon Map Tileset, Autotiled Rooms, Caves, Doors, Stairs & Symbols [16x16]
+### Verdant 74: Dungeon Charts, Parchment Map Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-74-dungeon-charts · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-74-dungeon-charts/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -624,7 +624,7 @@ A hot spring hillside at 16x16: 1,137 tiles in one 86 colour palette. Commercial
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Ancient Realms — Wuxia Sect Mountain, Jade Jungle Temple and Elven Terraces Tilesets [16x16]
+### Verdant Ancient Realms: Wuxia, Jungle, Elf Tilesets [16x16]
 
 Store: https://csaf.itch.io/verdant-ancient-realms · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-ancient-realms/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -656,7 +656,7 @@ Verdant Forge is a pixel art tileset generator for Tiled, Godot 4 and RPG Maker 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant GB — Game Boy Tileset: Overworld, Town and Dungeon in 4 Shades, GB Studio Ready [16x16]
+### Verdant GB: Game Boy Tileset in 4 Shades, GB Studio [16x16]
 
 Store: https://csaf.itch.io/verdant-gb · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-gb/ · Paid · Engines: Unity, Tiled, Godot
 
@@ -730,9 +730,9 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant Props — 70 Props Across Ten Biomes for RPG Maker MZ, Tiled, Godot & Unity [16x16]
 
-Store: https://csaf.itch.io/verdant-props · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-props/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-props · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-props/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 70 props across 10 biomes, each on transparency and on its own ground.
+Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 70 props across 10 biomes, each transparent and grounded.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -744,7 +744,7 @@ Store: https://csaf.itch.io/verdant-seasons · Our page: https://onefreeman1337.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Showground — Sports Grounds, Playhouse and Aquarium Tilesets [16x16]
+### Verdant Showground: Three Town Venue Tilesets [16x16]
 
 Store: https://csaf.itch.io/verdant-showground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-showground/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -752,7 +752,7 @@ Verdant Showground is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Side Depths: Infernal Halls, Desert Tomb & Crypt, a Side-View Platformer Tileset [16x16]
+### Verdant Side Depths: Lava, Tomb and Crypt Platformer Tileset
 
 Store: https://csaf.itch.io/verdant-side-depths · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side-depths/ · Paid · Engines: Tiled, Godot
 
@@ -768,7 +768,7 @@ Verdant Side Sampler is 214 free 16x16 side-view platformer tiles for Godot 4 an
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Side Village: Market Street, Walk-In Homes & Farm, a Side-View Platformer Tileset [16x16]
+### Verdant Side Village: Town and Farm Platformer Tiles [16x16]
 
 Store: https://csaf.itch.io/verdant-side-village · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side-village/ · Paid · Engines: Tiled, Godot
 
@@ -776,7 +776,7 @@ Verdant Side Village is a 16x16 side-view platformer tileset for Godot 4 and Til
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Side: Greenwood, Keep & Undercroft, a Side-View Platformer Tileset Volume [16x16]
+### Verdant Side: Greenwood, Keep, Undercroft Platformer Tiles
 
 Store: https://csaf.itch.io/verdant-side · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side/ · Paid · Engines: Tiled, Godot
 
@@ -784,7 +784,7 @@ Verdant Side is a 16x16 side-view platformer tileset for Godot 4 and Tiled: thre
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Wonders — the Poison Fen, the Sky Isles and the Great Tree [16x16]
+### Verdant Wonders: Poison Fen, Sky Isles, Great Tree [16x16]
 
 Store: https://csaf.itch.io/verdant-wonders · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-wonders/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -794,7 +794,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 65 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 66 products.
 
 ### Cart & Keel: 25 Medieval Cart, Wagon and Boat Sprites
 
@@ -828,7 +828,7 @@ The 12 creatures of Deepwarren 01: The Living Dark as RPG Maker MZ battlers.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Deepwarren Sampler: Free Dungeon Monster Sprites, Giant Rat and Bat [160x160 & 176x176]
+### Deepwarren Sampler: Free Giant Rat and Bat Monster Sprites
 
 Store: https://csaf.itch.io/deepwarren-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-sampler/ · Free · pay what you want
 
@@ -860,7 +860,7 @@ Store: https://csaf.itch.io/farmstead-00-the-yard-flock · Our page: https://one
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Farmstead 01 Actions: Rest, Graze and Run (144x144 & 72x72 farm animal sprites)
+### Farmstead 01 Actions: Rest, Graze and Run [144 & 72 px]
 
 Store: https://csaf.itch.io/farmstead-01-actions-rest-graze-and-run · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-01-actions-rest-graze-and-run/ · Paid
 
@@ -964,7 +964,7 @@ A face for every villager in the dialogue box. 38 portraits for all 19 villagers
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearthhands Sampler: 6 Free Villager Sprites, Top-Down RPG [200x200 & 100x100]
+### Hearthhands Sampler: 6 Free Villager Sprites [200 & 100 px]
 
 Store: https://csaf.itch.io/hearthhands-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-sampler/ · Free · pay what you want
 
@@ -1012,7 +1012,7 @@ Eight woodland animals for a top-down game: a red deer stag and hind, a wild boa
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kithfell Pet Shop: 10 Dog and 6 Cat Breeds + 53 Pet Props (top-down sprites)
+### Kithfell Pet Shop: 16 Dog and Cat Breeds and 53 Pet Props
 
 Store: https://csaf.itch.io/kithfell-pet-shop · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-pet-shop/ · Paid
 
@@ -1020,7 +1020,7 @@ A top-down pixel-art sprite pack of 10 dog breeds, 6 cat breeds and 53 pet-shop 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kithfell Sampler: 3 Free Animal Sprites, Horse, Beagle and Fox [128x128]
+### Kithfell Sampler: 3 Free Animal Sprites [128x128]
 
 Store: https://csaf.itch.io/kithfell-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-sampler/ · Free · pay what you want
 
@@ -1081,6 +1081,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/mourncrest-05-grave-goods · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-05-grave-goods/ · Paid
 
 45 graveyard props for top-down games — sarcophagi, coffins, headstones, braziers, urns, bone piles, altars, grave markers, tools and the small things a burial ground is actually full of.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Mourncrest Collection: 19 Dark Fantasy Sprites [64 & 128 px]
+
+Store: https://csaf.itch.io/mourncrest-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-collection/ · Paid
+
+The Mourncrest Collection is 19 dark fantasy sprites for RPG Maker MZ, Godot or any engine, packs 01 to 04 in one download. Each has 4 directions and a 3 frame walk, drawn natively at 64x64 and 128x128.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1212,19 +1220,19 @@ Store: https://csaf.itch.io/kithfell-collection · Our page: https://onefreeman1
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### The Mourncrest Collection - all four packs, 19 characters, 64x64 & 128x128
-
-Store: https://csaf.itch.io/mourncrest-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-collection/ · Paid
-
-Mourncrest packs 01 to 04 in one download: 19 graveyard-fantasy sprites for top-down RPGs (6 undead, 5 cultists, 5 barrow beasts and the 3 armoured wardens who hunt them), each in 4 directions with a 3-frame walk, drawn natively at 64x64 and 128x128.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### The Wildmark Collection - all three packs, 8 characters, 128x128 & 64x64
 
 Store: https://csaf.itch.io/wildmark-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-collection/ · Paid
 
 Wildmark 01, Wildmark 02 and Wildmark Actions 01 in one download: 8 fantasy adventurer sprites for top-down RPGs (elf, warrior, mage, rogue, priest, vanguard, alchemist and forester), each in 4 directions with a standing pose and a 6-frame walk, plus strike, hurt and death for the first four, at...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Tidewell: 48 Animated Fish and Water Creature Sprites
+
+Store: https://csaf.itch.io/tidewell · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/tidewell/ · Paid
+
+Tidewell is 48 animated pixel-art fish and water creatures at 64x64 for Godot, GameMaker, Unity or any 2D engine, each with a swim loop and a catch animation.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1318,7 +1326,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 68 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 69 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1624,7 +1632,7 @@ Survival sound effects where the tools wear out: fresh, worn, failing, broken 10
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Overdub II: RPG Maker MZ Default Event Sounds and Background Loops
+### Overdub II: RPG Maker MZ Event Sounds and BGS Loops
 
 Store: https://csaf.itch.io/overdub-ii-rpg-maker-mz-event-sounds-and-bgs · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/overdub-ii-rpg-maker-mz-event-sounds-and-bgs/ · Paid
 
@@ -1669,6 +1677,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/reelhouse-slot-machine-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reelhouse-slot-machine-sound-effects/ · Paid
 
 Reelhouse is 126 slot machine sound effects in WAV and OGG for Unity, Unreal, Godot, GameMaker and RPG Maker, from one electromechanical cabinet. Royalty free, with a free demo of 17 sounds.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Salt and Timber: 165 Ship Sound Effects and 42 Music Tracks
+
+Store: https://csaf.itch.io/salt-and-timber-ships-and-sea-audio-kit · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/salt-and-timber-ships-and-sea-audio-kit/ · Paid
+
+Salt and Timber is 165 ship and sea sound effects and 42 music tracks for Unity, Unreal, Godot, GameMaker and any engine, mapped to 17 game moments.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1740,7 +1756,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/skald-norse-viking-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/skald-norse-viking-sound-effects/ · Paid
 
-The Norse saga, as one sound 125 viking and Norse sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): the shield wall as a system, 10 war horn signals, 8 Elder Futhark runes with a charge, a release and a fizzle each, seidr staffs and bone...
+Skald is 125 Norse and viking sound effects in WAV and OGG for any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1804,7 +1820,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/trail-ranch-and-fort-western-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/trail-ranch-and-fort-western-sound-effects/ · Paid
 
-The western frontier outside town, every source placed 117 western sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5), for the frontier beyond main street: the ranch and the cattle drive (8 herd loops, a small and a big herd at a walk, trot,...
+Trail, Ranch and Fort is 117 western sound effects in WAV and OGG for any engine. It covers the frontier outside town: the ranch and the cattle drive, the gold rush placer camp and the frontier fort, with 6 place loops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1828,7 +1844,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/undertow-fishing-horror-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/undertow-fishing-horror-sound-effects/ · Paid
 
-Fishing at night, when something is down there 112 fishing horror sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): the fishing loop scored for dread.
+Undertow is 112 fishing horror sound effects in WAV and OGG for any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1866,7 +1882,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 45 products.
+Game music packs. Formats and track counts are stated on each store page. 46 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -2060,7 +2076,7 @@ Overdub Score replaces every piece of music a new RPG Maker MZ project plays: al
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Overture - Free Game Music Sampler - 68 Tracks from 34 Albums (OGG + MIDI)
+### Overture: 68 Free Game Music Tracks from 34 Albums
 
 Store: https://csaf.itch.io/free-game-music-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/free-game-music-sampler/ · Free · pay what you want
 
@@ -2097,6 +2113,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/spooky-season · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/spooky-season/ · Paid
 
 Spooky Season is a 44 track Halloween score for games: the trick-or-treat lane and the pumpkin patch, a haunted manor room by room, the churchyard and the crypt, a battle set, the headless horseman and the witching hour.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Storybook: 44 Track Fairy Tale Music Pack
+
+Store: https://csaf.itch.io/storybook · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/storybook/ · Paid
+
+Storybook is a 44 track fairy tale music pack for any game engine: one book in five chapters, and a music box storyteller opens every full piece.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2188,19 +2212,19 @@ The Turning Sky is a 44 track exploration score for open world games, built in p
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Throne and Shadow - Court Intrigue Music Pack, Medieval Kingdom Orchestral BGM - 44 Tracks
+### Throne and Shadow: Medieval Court Intrigue Music, 44 Tracks
 
 Store: https://csaf.itch.io/throne-and-shadow · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/throne-and-shadow/ · Paid
 
-Throne and Shadow is a 44 track court intrigue music pack for kingdom, management, strategy and RPG games: 38 full looping pieces and 6 short cues, 57:54 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
+Throne and Shadow is a 44 track court intrigue music pack for kingdom, strategy and RPG games in Godot, Unity, GameMaker or RPG Maker.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Unfathomed - Cosmic Horror Music Pack, Dark Orchestral and Choir BGM - 44 Tracks
+### Unfathomed: Cosmic Horror Music Pack with Choir, 44 Tracks
 
 Store: https://csaf.itch.io/unfathomed · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/unfathomed/ · Paid
 
-Unfathomed is a 44 track cosmic horror music pack for investigation, exploration and survival horror games: 38 full looping pieces and 6 short cues, 59:38 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
+Unfathomed is a 44 track cosmic horror music pack for investigation, exploration and survival horror games in Godot, Unity, GameMaker or RPG Maker.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2230,7 +2254,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 119 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 120 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2392,11 +2416,11 @@ What this is, in plain words: Chimera Battle is a creature battle plugin for RPG
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Chimera Core - Creature Genetics, Breeding & Evolution for RPG Maker MZ
+### Chimera Core: Creature Genetics and Breeding, RPG Maker MZ
 
 Store: https://csaf.itch.io/chimera-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-core/ · Paid · Engines: RPG Maker
 
-Your capture plugin gets the creature. Then what? You've built the capture system. The player throws the thing, the bar shakes, the creature joins the party.
+Chimera Core is an RPG Maker MZ plugin that gives every captured creature 8 hidden stat genes, so two of one species at one level are measurably different.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3000,6 +3024,14 @@ Strew dresses the maps you made by hand, from your own tileset, in one keypress.
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Stricken: 43 Map State Looks for RPG Maker MZ
+
+Store: https://csaf.itch.io/stricken · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stricken/ · Paid · Engines: RPG Maker
+
+Stricken is an RPG Maker MZ plugin that shows your party's states on the map, struck into each member's own walking sprite with 43 generated looks. Two plugin files, no art to draw, commercial use with no royalty.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Table Service - Restaurant Serving Minigame on Your Own Map for RPG Maker MZ
 
 Store: https://csaf.itch.io/table-service · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/table-service/ · Paid · Engines: RPG Maker
@@ -3252,7 +3284,7 @@ Barrage is a bullet pattern system for GameMaker 2024.14 and later (built and ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Battalia - Army Battles for GameMaker
+### Battalia: Army Battles for GameMaker
 
 Store: https://csaf.itch.io/battalia-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/battalia-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3324,7 +3356,7 @@ As your player explores, Charter inks a hand-drawn manuscript chart of what they
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Chicane - Top-Down Racing for GameMaker
+### Chicane: Top Down Racing for GameMaker
 
 Store: https://csaf.itch.io/chicane-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/chicane-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3396,7 +3428,7 @@ Dossier generates a mystery and then draws it. Exhibits establish facts. Testimo
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Drawn in Code - Free GameMaker Sampler: Skill Tree, Item Icons, Spring UI
+### Drawn in Code: Free GameMaker Sampler, 3 Systems in GML
 
 Store: https://csaf.itch.io/drawn-in-code-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/drawn-in-code-gamemaker/ · Free · pay what you want · Engines: GameMaker
 
@@ -3428,7 +3460,7 @@ Every card framework on sale hands you a shuffle and a hand — and then you sti
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fairway - Mini Golf for GameMaker
+### Fairway: Mini Golf for GameMaker
 
 Store: https://csaf.itch.io/fairway-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/fairway-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3500,7 +3532,7 @@ A picture of a gear cannot mesh with another picture of a gear. The clockwork sh
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Hurrah - Celebration Effects for GameMaker
+### Hurrah: Celebration Effects for GameMaker
 
 Store: https://csaf.itch.io/hurrah-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/hurrah-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3516,7 +3548,7 @@ Title cards for GameMaker: every place your player walks into and every boss the
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Jackpot - Generated Slot Machines for GameMaker
+### Jackpot: Generated Slot Machines for GameMaker
 
 Store: https://csaf.itch.io/jackpot-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/jackpot-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3652,7 +3684,7 @@ Eight minigames for GameMaker, and not one of them ships a picture. Every trace,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pendant - Spot the Difference From Any Picture, for GameMaker
+### Pendant: Spot the Difference From Any Picture, GameMaker
 
 Store: https://csaf.itch.io/pendant-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/pendant-gamemaker/ · Paid · Engines: GameMaker
 
@@ -4518,7 +4550,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 50 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 51 products.
 
 ### ANATOMIST
 
@@ -4772,7 +4804,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/plumbline · Our page: https://onefreeman1337.github.io/csaf-releases/games/plumbline/ · Paid · free browser demo on the page
 
-PLUMBLINE is a short metroidvania for Windows with no keys, no upgrades and no items: the only thing that opens the way forward is what you learn.
+PLUMBLINE is a short metroidvania for Windows in 4 regions, with no keys, no upgrades and no items. The only thing that opens the way forward is what you learn.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4880,6 +4912,14 @@ Ice is a bridge. Flood is a road. Drought is a door. One overworld, drawn four t
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
+### TINDERBOX
+
+Store: https://csaf.itch.io/tinderbox · Our page: https://onefreeman1337.github.io/csaf-releases/games/tinderbox/ · Paid · free browser demo on the page
+
+TINDERBOX is a top-down firefighting action game for Windows with a free browser demo: seven burning buildings, 40 people and 11 animals to get out. You are the fire warden of an old timber town with a barrel of water on your back.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
 ### WARDLOCK
 
 Store: https://csaf.itch.io/wardlock · Our page: https://onefreeman1337.github.io/csaf-releases/games/wardlock/ · Paid · free browser demo on the page
@@ -4936,7 +4976,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/anagama · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/anagama/ · Free
 
-An anagama is a kiln that is a tunnel up a hillside. You light a fire at the bottom and for the next several days the flame climbs, and everything it touches on the way is changed by it.
+ANAGAMA is a free browser incremental about a wood-fired kiln: 10 vessel forms, 5 surface families, up to 6 chambers, and every pot drawn by its own firing.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5000,7 +5040,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/carillon · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/carillon/ · Free
 
-A tower defence whose towers never shoot. You do not place guns. You hang bells. Every bell sounds a ring on the metronome, and the ring spreads out across the valley.
+CARILLON is a free tower defence game for the browser: 4 bell metals, 12 waves and a real ending, and the only weapon is where two rings cross. You do not place guns.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5096,7 +5136,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/frostledger · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/frostledger/ · Free
 
-The frozen ground here yields impossibly well, and the price is not money. A smallholding in a valley the winter never leaves.
+FROSTLEDGER is a free incremental farming game for the browser with a horror at its centre: 42 things to buy, 36 memories to lose, and two endings. A smallholding in a valley the winter never leaves.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5128,7 +5168,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/halflight · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/halflight/ · Free
 
-Everything in the vault is decaying. That is what pays you. You run a containment vault.
+HALFLIGHT is a free incremental management game for the browser: you run a vault of 43 decaying isotopes across 5 decay chains, and the decay is what pays you.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5344,7 +5384,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/swallet · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/swallet/ · Free
 
-You are the cave. Cut chambers into a hill, put things in them, and decide what happens to the people who come down looking for whatever they think is in there.
+SWALLET is a free incremental dungeon management game for the browser: you are the cave, with 12 fixtures, 4 bands of rock and 5 kinds of delver coming down.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5440,7 +5480,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/understory · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/understory/ · Free
 
-The forest floor eats everything. You are what does the eating. You are the mycelium under a forest floor. Spread hyphae across the litter, digest what you reach, and fruit where it counts.
+UNDERSTORY is a free incremental game for the browser: you are the mycelium under a forest floor, with 48 fruiting bodies to grow and 4 substrates to open.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5626,7 +5666,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 23 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 24 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5648,7 +5688,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/bookbinder-grimoire-bestiary-and-field-journal-book-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/bookbinder-grimoire-bestiary-and-field-journal-book-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Three book UIs in one kit: a spellbook, a monster bestiary and an explorer's field journal Bookbinder is a book and journal UI kit for RPGs and adventure games: three complete books, the Grimoire, the Bestiary and the Field Journal, each with 83 widgets in 183 widget states, in pixel mode and HD...
+Bookbinder is a book UI kit with 3 complete books for RPGs and adventure games, for Godot, Unity, RPG Maker MZ and three more engines.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5780,6 +5820,14 @@ HP, MP and boss bars that work in your engine, plus a full UI to match Status Li
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Sundial: 87 Widget Clock, Weather and Calendar UI Kit
+
+Store: https://csaf.itch.io/sundial-clock-day-night-and-weather-hud-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/sundial-clock-day-night-and-weather-hud-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Sundial is a time-of-day HUD kit for Godot 4 and five more engines: a clock, a day-night arc, weather badges and a calendar, 87 widgets in pixel and HD.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Tiny Delve: 16px Dungeon Crawler UI Kit (Pixel + HD)
 
 Store: https://csaf.itch.io/tiny-delve-16px-dungeon-crawler-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/tiny-delve-16px-dungeon-crawler-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
@@ -5788,7 +5836,7 @@ A dungeon crawler UI kit: skull-cornered windows, a minimap, counters and torche
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Sampler: 12 Free Pixel UI Themes for Godot, RPG Maker MZ, Unity, Unreal and GameMaker
+### UI Kit Sampler: 12 Free Pixel UI Themes
 
 Store: https://csaf.itch.io/ui-kit-sampler-12-free-pixel-ui-themes · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-sampler-12-free-pixel-ui-themes/ · Free · pay what you want · Engines: Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
@@ -5832,7 +5880,7 @@ Augury for Godot 4: 78 tarot cards drawn in code Augury is a Godot 4.7 addon tha
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Broadsheet: 48 Letters, Notices and Coins Drawn From Your Game Data, for Godot 4
+### Broadsheet: 48 Letters, Notices and Coins for Godot 4
 
 Store: https://csaf.itch.io/broadsheet-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/broadsheet-godot/ · Paid · Engines: Godot
 
@@ -5880,11 +5928,11 @@ Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Glimpse: See Characters Behind Trees, Walls and Roofs in Godot 4, 48 Styles
+### Glimpse: See Behind Trees, Walls and Roofs in Godot 4
 
 Store: https://csaf.itch.io/glimpse-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/glimpse-godot/ · Paid · Engines: Godot
 
-Glimpse: see your characters behind trees, walls and roofs in Godot 4 Glimpse is a Godot 4.7 addon for top down and 3/4 view 2D games: when a character walks behind a tree, a wall or a roof, the thing in front opens around them and the part still covered is drawn through it as a silhouette.
+Glimpse is a Godot 4.7 addon with 48 styles for top down and 3/4 view 2D games. When a character walks behind a tree, a wall or a roof, the thing in front opens around them and the part still covered is drawn through it as a silhouette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5912,7 +5960,7 @@ Jigsaw for Godot 4: any picture becomes a puzzle your players solve, in 48 style
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kickup: 48 Surface Aware 2D Movement Dust Presets for Godot 4
+### Kickup: 48 Surface Aware Movement Dust Presets for Godot 4
 
 Store: https://csaf.itch.io/kickup-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/kickup-godot/ · Paid · Engines: Godot
 
@@ -5928,7 +5976,7 @@ Lantern: 48 2D lighting presets for Godot 4, from window light to a whole day an
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Scathe for Godot 4: Battle Damage Drawn Into Your Own Sprites
+### Scathe: Battle Damage Drawn Into Your Sprites for Godot 4
 
 Store: https://csaf.itch.io/scathe-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/scathe-godot/ · Paid · Engines: Godot
 
@@ -5976,7 +6024,7 @@ Store: https://csaf.itch.io/verdigris-godot · Our page: https://onefreeman1337.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Vivarium: 48 Species of Small Life Drawn in Code, for Godot 4
+### Vivarium: 48 Small Animals and Insects for Godot 4 Maps
 
 Store: https://csaf.itch.io/vivarium-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/vivarium-godot/ · Paid · Engines: Godot
 
@@ -6068,10 +6116,10 @@ Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 7 Free Low Poly 3D Characters
+### PSX Characters Sampler: 8 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 7 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 8 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
