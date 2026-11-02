@@ -50,21 +50,25 @@ Every form keeps the creature recognisable: it is re-toned from the battler's ow
 | Form | What it becomes |
 | --- | --- |
 | `ascended` | gilded, with feathered wings, a halo and rays of light behind it |
-| `corrupted` | its light inverted to violet, glowing veins, tendrils curling from its sides |
+| `corrupted` | drained to void violet, glowing veins, tendrils curling from its sides |
 | `enraged` | charred dark, split with molten cracks, flames rising from every upward edge |
 | `frozen` | a frost coat, ice shards along its outline, icicles hanging under it |
-| `armoured` | riveted steel plates over its outer parts, spikes along its top |
-| `crystal` | cut into facets of its own colour, crystal clusters breaking out of its top |
-| `overgrown` | antlers of living wood, vines with leaves and flowers, moss on top |
+| `armoured` | riveted blue steel plates over its outer parts, spikes along its top |
+| `crystal` | cut into gem facets of a jewel tone near its own colour, crystal clusters breaking out of its top |
+| `overgrown` | antlers of living wood, twining vines with leaves and flowers, moss on top |
 | `rot` | its edges eaten away, sores, ooze dripping from underneath |
 | `overdrive` | chromed panels with glowing seams, a reactor in its chest, antennae |
 | `shadow` | a darkness in its shape, smoke rising off it, its highlights burning red |
 | `celestial` | filled with a night sky and stars, rings in orbit around it |
 | `husk` | its outer skin turned to stone and bursting apart on the light inside |
 
+Seven forms change the outline a great deal (wings, tendrils, flames, ice, crystals, antlers, smoke). Armoured, Rot, Overdrive and Husk change mostly the surface, with spikes, drips, antennae or flying chips at the edge.
+
 Each form has an aura behind it that breathes, and every form but Armoured has motes around it (embers, snow, petals, spores, sparks, stars or drifting light). Both can be turned off.
 
-A boss looks the same every time it changes: the drawing is seeded by the enemy's id. Two different bosses in the same form are drawn differently.
+A boss looks the same every time it changes: the drawing is seeded by the enemy's id. Two different bosses in the same form are drawn differently. A boss recoloured with **Battler Hue** is forged from its recoloured art, so its flames, ice and gold keep their own colours.
+
+A form is never shown so tall that it leaves the top of the screen: a boss standing near the top is shown a little smaller instead. Wide forms (wings, tendrils) can overlap enemies standing beside the boss.
 
 ## The four transformations
 
@@ -72,7 +76,7 @@ A boss looks the same every time it changes: the drawing is seeded by the enemy'
 | --- | --- |
 | `swell` | the boss swells, white-hot, then the new form arrives in a flash and settles |
 | `shatter` | the old form breaks into pieces cut from its own picture that fly apart; the new form fades in |
-| `burn` | the old form burns away from the feet up in the new form's colour, uncovering the new form beneath |
+| `burn` | the old form chars and burns away from the feet up behind a hot ember edge, uncovering the new form beneath |
 | `molt` | the old form crouches and splits down the middle; the halves peel away and the new form rises |
 
 Before every transformation the boss holds for about half a second, flashing and shaking.
@@ -80,13 +84,15 @@ Before every transformation the boss holds for about half a second, flashing and
 ## How a phase plays
 
 - The threshold is a share of max HP. When the boss's HP reaches it, phase two is earned.
-- **Overkill guard** (on by default): the blow that crosses the threshold cannot kill. The boss holds at 1 HP and changes first. The damage number still shows the full blow.
+- **Overkill guard** (on by default): the blow that crosses the threshold cannot kill. The boss holds at 1 HP and changes first. The damage number still shows the full blow. The guard covers HP damage only: an instant-death state still kills a boss that has a phase left.
 - The change plays **between actions**, never in the middle of one: every hit of the current action lands first, then the battle waits while the change plays. In a turn-based battle it never plays over the party's command windows.
-- When it lands, without `becomes`, the boss stays the same enemy and every parameter rises by **Stat rise (%)**. With `becomes N`, it turns into enemy N through MZ's own transform (its name, stats and actions) and is drawn as the new form.
+- **Your own troop events come first.** A troop page whose condition the boss has just met (for example "Enemy HP <= 50%") runs before the change, while the boss is still at that HP. So a half-HP line of dialogue plays, then the boss changes.
+- When it lands, without `becomes`, the boss stays the same enemy and every parameter rises by **Stat rise (%)**. With `becomes N`, it turns into enemy N through MZ's own transform (its name, stats and actions). It is still drawn from the boss's own art: enemy N's own image and its own Encore tags are not used.
 - HP: `full` (default) starts the new form at full HP; `carry` keeps the share of HP it had.
 - States: `clear` (default) removes states and buffs with the old form; `keep` carries them over.
 - One blow can cross two thresholds. With `carry`, the next phase then plays right after the first; with `full`, the refill lifts the boss back above the next threshold and it waits for its own turn.
 - With no phase left, the boss dies normally.
+- MZ's own **Transform** event command still works: if you transform a boss whose form is showing, the form steps aside and the new enemy's image shows. Its next Encore phase is drawn from that new image.
 
 ## Parameters
 
@@ -119,14 +125,16 @@ Front-view enemy battlers (`img/enemies`) and side-view enemy battlers (`img/sv_
 
 ## Compatibility
 
-- Encore extends the engine's own methods and saves every original it extends (enemy setup, HP, parameters, the enemy sprite, the battle scene's start, `BattleManager.update`). It replaces none of them.
+- Encore extends the engine's own methods and saves and calls every original it extends (enemy setup, HP, parameters, the enemy sprite, the battle scene's start, `BattleManager.update`). It takes over at two moments, on purpose: while a change is pending or playing, `BattleManager.update` waits (the battle pauses), and while a form is shown, the enemy sprite shows the form instead of reloading the battler image.
+- Encore gives `Game_Enemy` its own `gainHp` and `paramRate` (each calls the version it inherits). Place Encore **below** any plugin that changes HP damage or parameters, so that plugin's change still reaches enemies.
 - **Scathe** (ours): its damage marks start again, clean, on the new form.
 - An animated-battler plugin that replaces the enemy's image every frame will cover the new form. Not yet tested with VisuStella's Battle Core.
+- Skill animations aim at the middle of the sprite's image, and a form with wings or flames is taller than the creature, so on those forms an animation can land a little high.
 - Works with the stock turn-based and time-progress battles.
 
 ## Performance
 
-The forms are drawn once, at the moment a change begins, from the battler's own pixels, while the boss holds. A very large battler (over 1,000 px) makes that hold pause while its form is drawn. During play nothing is redrawn: the aura and the motes move as sprites. In our frame test, phase two at rest in a battle drew 34 draw calls a frame with no texture uploads and no bitmap redraws.
+The forms are drawn once, from the battler's own pixels, the moment a change begins: the battle pauses for that instant, then the boss holds. A very large battler (over 1,000 px) makes that pause long enough to notice. During play nothing is redrawn: the aura and the motes move as sprites. In our frame test, phase two at rest in a battle drew 34 draw calls a frame with no texture uploads and no bitmap redraws.
 
 ## Credits
 
