@@ -1,0 +1,31 @@
+<p>Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 grid for Godot 4 and Tiled: a meadow, a river valley and a rocky highland. Every ground blends into its neighbours through generated corner tiles, so a map reads as one landscape. Commercial licence, no credit needed.</p>
+<p><img src="{{IMG:demo_iso_map_build.gif}}" alt="The sample map built layer by layer: grass, flowers, paths, tilled soil, sand, water, heather, scree, rock, cliffs and props"></p>
+<h2>What is inside</h2>
+<p>240 tiles · 10 terrains · 9 blended overlay sets · 48 cliff blocks · 26 props · one 91 colour palette · PNG, Godot 4 and Tiled files</p>
+<ul>
+<li><strong>40 terrain fills</strong>: 10 terrains x 4 variants.</li>
+<li><strong>126 corner transitions</strong>: all 14 corner shapes for each of the 9 overlays.</li>
+<li><strong>48 cliff blocks</strong>: 1, 2 and 3 levels high, for terraces with real height.</li>
+<li><strong>26 props</strong>: oaks, a willow, pines, a haystack, fences, reeds, stepping stones, boulders, a standing stone, ruin walls.</li>
+<li><strong>A 24x24 sample map</strong> as PNG, Tiled .tmx and JSON, plus tiles.json with role, mask and passability per tile.</li>
+</ul>
+<p><img src="{{IMG:shot_1_the_map.png}}" alt="The whole 24x24 sample map: meadow and farm, the river with its banks, and the highland terraces"></p>
+<p>The sample map in the download, at 1x. Every tile in it is a shipped tile, placed by id.</p>
+<h2>Godot 4</h2>
+<p>The .tres TileSet loads from any folder, one terrain set per overlay. Paint "Blank (paint first)", then the terrain, and Godot picks every corner tile. Loaded and verified in Godot 4.7.2: its painter chose the predicted tile in 168 of 168 cells for every terrain, and the Readme's steps rebuilt the sample map cell for cell.</p>
+<h2>Tiled</h2>
+<p>16 .tsx tilesets with every tile named by id, and the sample .tmx, opened and rendered by Tiled 1.12.2's own tmxrasterizer: 591,602 pixels, 0 different from the shipped PNG. Transitions are placed by id; the Tiled terrain brush is not set up.</p>
+<p><img src="{{IMG:shot_5_every_corner.png}}" alt="Shallow water over grass in all 14 corner shapes, plus the fill and the bare grass"></p>
+<p>One overlay, every corner shape. All nine ship the full set.</p>
+<h2>Proofs in the download</h2>
+<p>Every tile's wrap boundary is measured against its own interior, and every 4x4 repetition is rendered and reviewed. Grid, palette and autotile completeness are machine-proven: 91 colours, all 135 corner slots present.</p>
+<p>For Godot 4, Tiled and any engine that reads PNG and JSON. There is no RPG Maker, Unity or GameMaker importer, and nothing is animated.</p>
+<h2>Also in Verdant</h2>
+<ul>
+<li><a href="https://csaf.itch.io/verdant-hex-01-hex-terrain">Verdant Hex 01</a> ($5.99): grass, desert, snow and sea hexes.</li>
+<li><a href="https://csaf.itch.io/verdant-hex-02-volcanic-jungle-wetland">Verdant Hex 02</a> ($5.99): ash, lava, jungle and swamp hexes.</li>
+</ul>
+<h2>Licence and how it was made</h2>
+<p>Use the tiles in commercial and free games, no credit needed; do not resell them as a tile pack. The tiles are drawn by a procedural engine whose code was written with AI tools, so Graphics and Code are tagged AI.</p>
+<p><strong>Follow <a href="https://csaf.itch.io">CSAF on itch</a></strong> for the next Verdant Iso volume.</p>
+<p>Made by Core Systems Asset Factory.</p>
