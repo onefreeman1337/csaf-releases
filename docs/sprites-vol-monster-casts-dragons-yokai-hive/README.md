@@ -1,9 +1,9 @@
-# Bestiary: Dragons, Yokai and the Giant Hive — Documentation
+# Bestiary: Dragons, Yokai and Giant Bugs — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** Bestiary: Dragons, Yokai and the Giant Hive  
+**Product:** Bestiary: Dragons, Yokai and Giant Bugs  
 **Engine:** PixelLab API (REST, from Node) — engine-agnostic PNG/sheet output  
 **Docs published:** 2026-11-02
 
