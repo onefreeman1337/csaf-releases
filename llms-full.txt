@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 768 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 771 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T02:30:31.211Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T04:38:30.662Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -802,7 +802,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 66 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 67 products.
+
+### Brinemark: 13 Pirate, Navy and Smuggler Sprites
+
+Store: https://csaf.itch.io/brinemark-pirate-crew-navy-smugglers · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/brinemark-pirate-crew-navy-smugglers/ · Paid · Engines: Godot
+
+Brinemark is 13 top-down pixel art sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: pirates, navy and smugglers. Use them in commercial and free games, no credit needed.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Cart & Keel: 25 Medieval Cart, Wagon and Boat Sprites
 
@@ -1334,7 +1342,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 70 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 71 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1429,6 +1437,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/brass-and-pressure-steampunk-combat-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/brass-and-pressure-steampunk-combat-sound-effects/ · Paid
 
 A steampunk battle, as one sound 129 sound effects for steampunk combat: five steam and air guns in every state, six gadget weapons, three clockwork foes that wind down as they lose health, brass armour, a battle interface and four battle beds, in one brass, iron and steam sound.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Cartridge: 133 16-bit RPG World Sounds and BGS Loops
+
+Store: https://csaf.itch.io/cartridge-16-bit-rpg-world-sounds · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/cartridge-16-bit-rpg-world-sounds/ · Paid
+
+Cartridge is 133 retro RPG world sound effects and background loops for RPG Maker MZ and MV, Godot, Unity, GameMaker and any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5304,7 +5320,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/polder · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/polder/ · Free
 
-Every water game on the shelf treats water as a number you pile up. Here the water is the ground you are standing on. You are granted a salt fen, an eight year lease and no sea bank at all.
+POLDER is a free browser incremental where the water is the ground you are standing on. You are granted a salt fen, an eight year lease and no sea bank at all.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5722,7 +5738,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 25 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 26 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5905,6 +5921,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/ui-kit-sampler-12-free-pixel-ui-themes · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-sampler-12-free-pixel-ui-themes/ · Free · pay what you want · Engines: Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A free sampler of twelve pixel art game UI themes, one from each of our paid UI kits.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Unfurl: 79 Widget Animated Scroll and Map UI Kit
+
+Store: https://csaf.itch.io/unfurl-animated-scroll-map-and-letter-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/unfurl-animated-scroll-map-and-letter-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Unfurl is a scroll, map and letter UI kit for Godot 4 and five more engines: 79 widgets in pixel and HD, and scrolls that unroll on screen at any size.
 
 AI disclosure: AI Assisted, Code, Graphics
 
