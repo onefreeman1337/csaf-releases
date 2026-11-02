@@ -1,20 +1,20 @@
-# CSAF Godot Collection: Every 2D Addon Pack on One Page, Plus Every New One — Documentation
+# CSAF Godot Collection: 21 Addon Packs for Godot 4 — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** CSAF Godot Collection: Every 2D Addon Pack on One Page, Plus Every New One  
+**Product:** CSAF Godot Collection: 21 Addon Packs for Godot 4  
 **Engine:** Godot 4.7.2 addon packs (Tools/godot, GDScript + .gdshader, 2D-first): Line A1 VFX and shader packs of 40+ runtime-computed presets with exported parameters, compiling under BOTH Forward+ and Compatibility; Line A2 ports of CSAF's SOLD RPG Maker winners (sigil-core, wrack, jigsaw); Line B Chronicle's systems re-shipped with their designed look after the JRPG has played them (M1). PROVEN by Kernel/godot/gd_gate.js (headless import + --check-only parse + demo run, then every preset photographed WINDOWED under forward_plus and gl_compatibility against an empty-stage control, two visibility instruments, dedupe.js + a pixel-level pair check, raw-source, docs, no .godot cache; the agent then LOOKS). See Wings/Godot/CLAUDE.md.  
-**Docs published:** 2026-10-31
+**Docs published:** 2026-11-02
 
 
 ---
 
-# CSAF Godot Collection - 21 addon packs for Godot 4 in one project
+# CSAF Godot Collection - 22 addon packs for Godot 4 in one project
 
-Every paid Godot addon pack from Core Systems Asset Factory in one download: **21 addons, 1,127 presets**, all loading together in one
+Every paid Godot addon pack from Core Systems Asset Factory in one download: **22 addons, 1,175 presets**, all loading together in one
 Godot 4.7 project. Weather, water, fog of war, lighting, shadows, occlusion, movement dust, combat VFX, spell seals, breakables, doors, small life,
-sea life, journey maps, tapestries, tarot, notices, jigsaw puzzles, battle damage and material ageing. 2D only. Every preset is computed at runtime by
+sea life, journey maps, tapestries, tarot, notices, jigsaw puzzles, battle damage, material ageing and trees that fall. 2D only. Every preset is computed at runtime by
 shaders, particles or `_draw()` code, with its parameters exposed.
 
 - **Godot version:** built and tested on **Godot 4.7.2**, under **both renderers: Forward+ and Compatibility**. Older 4.x versions were NOT run, so they are not claimed.
@@ -35,11 +35,15 @@ The first time a scene opens, the screen says it is drawing while shaders compil
 ## Use one in your game
 
 Copy `godot/addons/<name>/` into your own project's `addons/` folder, as that pack's Readme says. There is no plugin to enable; the classes register themselves. Keep the folder name, because each addon's scenes reference
-`res://addons/<name>/` by path. Copy one, some or all of them: no addon depends on another, none uses `demos/` or `collection/`, and all 21 load together with no class name clash.
+`res://addons/<name>/` by path. Copy one, some or all of them: no addon depends on another, none uses `demos/` or `collection/`, and all 22 load together with no class name clash.
 
 ## Memory
 
 Vivarium and Fathom paint each species into a texture once and keep it, shared between nodes. A game showing a few species at game size uses little. At the large size the store pictures use, opening all 60 Fathom presets one after another in one run reached about 900 MB of textures, and Vulkan on our test machine's integrated AMD Radeon then began refusing buffers. If you swap species a lot, call `FathomAtlas.clear_cache()` or `VivariumAtlas.clear_cache()` after a scene change: with that call the same 60 presets stayed under 30 MB with no errors.
+
+## One measured limit under Compatibility
+
+Every addon loads and runs alone and together. One stress case is not safe under Compatibility: with Cartography and Fogbank scenes alive at the same time, half of each kind, 56 scenes ran clean three times out of three, and 64 crashed the engine three times out of three. Forward+ ran 96 with no crash. Raising `rendering/gl_compatibility/item_buffer_size` in Project Settings to 131072 moved the crash point up, to between 80 and 96 scenes. Each addon alone, and these two together at up to 56 scenes, ran clean under both renderers.
 
 ## What is inside
 
@@ -66,8 +70,9 @@ Vivarium and Fathom paint each species into a texture once and keep it, shared b
 | `addons/vivarium/` | 48 species of small life drawn in code, placed from your TileMapLayer | 48 | [its page](https://csaf.itch.io/vivarium-godot) |
 | `addons/threshold/` | 48 door, gate and chest openings rebuilt from your own tiles | 48 | [its page](https://csaf.itch.io/threshold-godot) |
 | `addons/fathom/` | Underwater levels: 48 sea creatures and 12 seas drawn in code | 60 | [its page](https://csaf.itch.io/fathom-godot) |
+| `addons/timber/` | Choppable trees cut from your own TileMapLayer: 48 fell styles | 48 | [its page](https://csaf.itch.io/timber-godot) |
 
-That is **1,127 presets** in all. Each addon's full preset list and every parameter are in `docs/<name>/Readme_for_Users.md`.
+That is **1,175 presets** in all. Each addon's full preset list and every parameter are in `docs/<name>/Readme_for_Users.md`.
 
 ## New packs
 
