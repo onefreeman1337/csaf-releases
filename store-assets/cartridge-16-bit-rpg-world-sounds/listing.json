@@ -1,0 +1,26 @@
+{
+  "title": "Cartridge: 133 16-bit RPG World Sounds and BGS Loops",
+  "slug": "cartridge-16-bit-rpg-world-sounds",
+  "priceUSD": 7.99,
+  "priceTier": "default",
+  "shortText": "133 retro RPG world sounds: 33 BGS loops, chests, doors, creatures.",
+  "tags": [
+    "sound-effects",
+    "royalty-free",
+    "retro",
+    "16-bit",
+    "rpg",
+    "rpg-maker",
+    "ambience",
+    "loops",
+    "pixel-art",
+    "jrpg"
+  ],
+  "html": "<p>Cartridge is 133 retro RPG world sound effects and background loops for RPG Maker MZ and MV, Godot, Unity, GameMaker and any engine.</p>\n<p>33 of them are seamless BGS loops with the loop tags RPG Maker reads, so Play BGS loops them with no plugin. A free demo of 12 sounds is on this page.</p>\n<p>@@IMG:shot_0_a_map.gif@@</p>\n<h3>What is inside</h3>\n<p>133 sounds · 33 seamless loops · 10 whole mechanisms · WAV + OGG · 12 sound free demo</p>\n<ul>\n<li><strong>Weather</strong> (14 files, 9 loops): rain at three strengths, a storm, wind from plains to blizzard, snow, desert wind, thunder.</li>\n<li><strong>Nature and water</strong> (17, 9 loops): forest birds, insects, crickets, frogs, a swamp, a river, a waterfall, a shore, a spring.</li>\n<li><strong>Caves and dungeons</strong> (15, 6 loops): cave drips, lava, a dungeon hum, a sewer, an ice cavern, a haunted manor, torches, chains.</li>\n<li><strong>Towns and interiors</strong> (9, 7 loops): a town square, a tavern, a castle hall, a campfire, a hearth, a ship, a windmill.</li>\n<li><strong>Chests and doors</strong> (20): three chests and two doors that open, close or rattle locked, a gate, a key.</li>\n<li><strong>Switches and secrets</strong> (15): levers, switches, plates, a push block, secret passages, a warp, a healing spring.</li>\n<li><strong>Terrain and travel</strong> (20): bushes, grass, splashes, ladders, stairs, ice, mud, a rope bridge.</li>\n<li><strong>Creatures</strong> (23): yells and footfalls in four sizes, a boss roar, slimes, bats, a ghost.</li>\n</ul>\n<p>@@IMG:shot_1_the_world_map.png@@</p>\n<p>@@IMG:shot_3_the_chain.png@@</p>\n<p>One modelled 16 bit console chain makes every file: a 22 sample instrument bank in a 4 bit block code (32,256 bytes), Gaussian interpolation, a noise generator, at most 5 voices at once, an echo unit, out at 32,000 Hz.</p>\n<h3>Works with</h3>\n<p><strong>RPG Maker MZ and MV, Godot 4, Unity, Unreal, GameMaker and HTML5</strong>: use the OGG or WAV files directly. Loop points are written into every loop file. Import notes are in the <a href=\"https://github.com/onefreeman1337/csaf-releases/blob/main/docs/cartridge-16-bit-rpg-world-sounds/README.md\">readme</a>.</p>\n<h3>Try it free</h3>\n<p>The demo holds rain, forest, cave and town loops, a chest, a door and a monster.</p>\n<h3>Licence and how it was made</h3>\n<p>Royalty free, no credit required. Do not resell the sounds as a pack. Every sound is synthesised in code: no generative audio model, samples or recordings. The code and the cover art were made with AI tools. There is no music and there are no voices; battle, menu and spell sounds are not in this pack.</p>\n<h3>More from the same studio</h3>\n<ul>\n<li><a href=\"https://csaf.itch.io/overdub-ii-rpg-maker-mz-event-sounds-and-bgs\">Overdub II: RPG Maker MZ Event Sounds and BGS</a>, the engine's own event file names, modern voice.</li>\n<li><a href=\"https://csaf.itch.io/portcullis-dungeon-mechanisms\">Portcullis: Dungeon Mechanisms</a>, doors, chests and traps, full fidelity.</li>\n<li><a href=\"https://csaf.itch.io/creature-vocal-forge-monster-voice-sound-effects\">Creature Vocal Forge: Monster Voice Sets</a>, monsters with every state.</li>\n</ul>\n<p>Made by Core Systems Asset Factory.</p>",
+  "links": [
+    "https://github.com/onefreeman1337/csaf-releases/blob/main/docs/cartridge-16-bit-rpg-world-sounds/README.md",
+    "https://csaf.itch.io/overdub-ii-rpg-maker-mz-event-sounds-and-bgs",
+    "https://csaf.itch.io/portcullis-dungeon-mechanisms",
+    "https://csaf.itch.io/creature-vocal-forge-monster-voice-sound-effects"
+  ]
+}
