@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 777 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 778 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T17:38:44.296Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T18:18:56.956Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 100 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 101 products.
 
 ### Verdant 00: Free Tileset Sampler, 878 Tiles [16x16]
 
@@ -624,6 +624,14 @@ A hot spring hillside at 16x16: 1,137 tiles in one 86 colour palette. Commercial
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant 8-Bit: NES RPG Tileset for RPG Maker MZ [16x16]
+
+Store: https://csaf.itch.io/verdant-8bit · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-8bit/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Verdant 8-Bit is a 16x16 NES-style tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 2,113 tiles of overworld, castle town, interiors, cavern and lava keep.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Ancient Realms: Wuxia, Jungle, Elf Tilesets [16x16]
 
 Store: https://csaf.itch.io/verdant-ancient-realms · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-ancient-realms/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
@@ -1116,11 +1124,11 @@ The Mourncrest Collection is 19 dark fantasy sprites for RPG Maker MZ, Godot or 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest Portraits — 44 dialogue portraits, 64x64 & 128x128 + MZ face sets
+### Mourncrest Portraits: 44 Dialogue Face Sprites [64 & 128 px]
 
 Store: https://csaf.itch.io/mourncrest-portraits · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-portraits/ · Paid
 
-A face for every character in the dialogue box. 44 portraits for all 22 characters of Mourncrest packs 00 to 04, in two expressions, neutral and fury.
+Mourncrest Portraits is 44 pixel art dialogue portraits for RPG Maker MZ and any other engine: 22 dark fantasy characters, each in neutral and fury. Licence below, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2552,11 +2560,11 @@ RPG Maker will happily run a battle. It will not make that battle mean anything.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Courtcard — Every Card In Your Deck, Drawn By The Plugin, for RPG Maker MZ
+### Courtcard: Generated Card Art for RPG Maker MZ
 
 Store: https://csaf.itch.io/courtcard · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/courtcard/ · Paid · Engines: RPG Maker
 
-Courtcard draws the face of every card in your game, from the data you already have.
+Courtcard is 9 RPG Maker MZ plugin files that draw a face for every card in your game from your own skill and item data: 480 faces, 6 stocks, no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4832,11 +4840,11 @@ LAST CART OUT is a one-thumb HTML5 mine cart escape you play in the browser: six
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Linguist of the Deep
+### Linguist of the Deep: Alien Language Puzzle, Free Demo
 
 Store: https://csaf.itch.io/linguist-of-the-deep · Our page: https://onefreeman1337.github.io/csaf-releases/games/linguist-of-the-deep/ · Paid · free browser demo on the page
 
-Learn a language nobody will teach you. An alien reef is talking. Shoals, rays, anglers and eels speak to each other in short sentences of glowing glyphs, and then they do what they said.
+Linguist of the Deep is a puzzle adventure: learn 18 glyphs of an alien language by watching a reef speak, across 7 zones. The first 3 zones are a free browser demo.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 

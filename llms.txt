@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF)
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 777 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 778 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
 Each product page gives the product title, its line, the engines it is made for, the opening of its public description, its tags, its AI disclosure exactly as the store page states it, whether it is free or paid, and one link to its itch.io page.
 
 ## Catalogue
 
-- [Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/): 100 products. Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page.
+- [Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/): 101 products. Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page.
 - [Sprite packs](https://onefreeman1337.github.io/csaf-releases/sprite-packs/): 67 products. Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page.
 - [Sound effect packs](https://onefreeman1337.github.io/csaf-releases/sound-effects/): 72 products. Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page.
 - [Game music packs](https://onefreeman1337.github.io/csaf-releases/game-music/): 48 products. Game music packs. Formats and track counts are stated on each store page.
@@ -23,10 +23,10 @@ Each product page gives the product title, its line, the engines it is made for,
 
 ## Catalogue by engine
 
-- [Godot 4 tilesets](https://onefreeman1337.github.io/csaf-releases/godot-4-tilesets/): 96 tileset packs for Godot 4.
-- [Tiled tilesets](https://onefreeman1337.github.io/csaf-releases/tiled-tilesets/): 96 tileset packs for Tiled.
-- [RPG Maker MZ tilesets](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-tilesets/): 85 tileset packs for RPG Maker MZ.
-- [Unity tilesets](https://onefreeman1337.github.io/csaf-releases/unity-tilesets/): 55 tileset packs for Unity.
+- [Godot 4 tilesets](https://onefreeman1337.github.io/csaf-releases/godot-4-tilesets/): 97 tileset packs for Godot 4.
+- [Tiled tilesets](https://onefreeman1337.github.io/csaf-releases/tiled-tilesets/): 97 tileset packs for Tiled.
+- [RPG Maker MZ tilesets](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-tilesets/): 86 tileset packs for RPG Maker MZ.
+- [Unity tilesets](https://onefreeman1337.github.io/csaf-releases/unity-tilesets/): 56 tileset packs for Unity.
 - [GameMaker tilesets](https://onefreeman1337.github.io/csaf-releases/gamemaker-tilesets/): 19 tileset packs for GameMaker.
 - [GameMaker UI kits](https://onefreeman1337.github.io/csaf-releases/gamemaker-ui-kits/): 27 game UI kits for GameMaker.
 - [Godot 4 UI kits](https://onefreeman1337.github.io/csaf-releases/godot-4-ui-kits/): 27 game UI kits for Godot 4.
