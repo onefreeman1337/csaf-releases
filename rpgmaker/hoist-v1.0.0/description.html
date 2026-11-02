@@ -1,0 +1,30 @@
+<p>Hoist is an RPG Maker MZ plugin for Zelda style pick up and throw, with lift, carry and throw poses in all 4 facings made from your own walking sprites. Three plugin files and eight sample objects, commercial use with no royalty. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/hoist/README.md">Read the documentation before you buy.</a></p>
+<p><img src="{{IMG:shot_1_hoist.gif}}" alt="A knight lifts a clay pot overhead, walks left and back with it held up, then throws it at a straw training dummy; the pot arcs over its shadow, shatters, and knocks the dummy flat"></p>
+<p><em>These pictures use our own knight, our own objects and a yard painted in code. On your map the poses are made from your own sheets.</em></p>
+<p>RPG Maker users have asked for lift sprites since at least 2014, and the free pick up and throw plugins move the object while the hero stands as before: buyers on their pages say they drew their own lift sprites. Hoist draws them for you.</p>
+<h2>What you get</h2>
+<ul>
+<li><strong>Three poses for every walking sheet,</strong> in all 4 facings: a squat that reaches for the object, a carry walk with the arms raised and the legs still stepping, and the throw. Made when the sheet loads, from its own arms, sleeves and hands.</li>
+<li><strong>Any event can be lifted</strong> with the note tag <code>&lt;hoist&gt;</code>: a tile from your tileset or a character sheet frame.</li>
+<li><strong>The throw</strong> arcs from overhead over a shadow, up to 3 tiles by default, stops short of walls and splashes into water.</li>
+<li><strong>Where it lands</strong> it breaks into pieces of its own picture, or lands whole with <code>&lt;hoist: keep&gt;</code>. A <code>&lt;hoist target&gt;</code> it hits gets a self switch: a dummy falls, a brazier lights.</li>
+<li><strong>With <a href="https://csaf.itch.io/smithereens">Smithereens</a> installed,</strong> the object breaks the way its material would.</li>
+<li><strong>8 sample objects:</strong> pot, urn, crate, barrel, rock, bush, sack and a training dummy.</li>
+</ul>
+<p><img src="{{IMG:shot_2_steps.png}}" alt="Six engine frames of one throw: squat and reach, raise it, carry it, throw, in the air over its shadow, and the pot breaking on the dummy"></p>
+<h2>How it runs</h2>
+<p>The pose sheets are drawn once, when the player's sheet loads. Measured in the real engine on a loop of lift, carry, throw and break: 10.1 draw calls a frame, against 10 with nothing carried, and no texture uploads. Keyboard, gamepad, mouse and touch all work; a save taken mid throw loads back mid throw.</p>
+<p><img src="{{IMG:shot_4_cast.png}}" alt="Twelve walking sheets in three styles, each shown in the carry pose facing down and facing right with a clay pot held overhead"></p>
+<!--COMPAT:start-->
+<hr>
+<h3>Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> <code>PostureCore.js</code>, <code>HoistCore.js</code>, <code>Hoist.js</code>. Any order works, and one PostureCore.js serves Hoist, Posture and Embrace together.</p>
+
+<p><strong>Core methods extended: 16 by saved-original prototype extension, <em>none replaced</em>.</strong> The full list is in the guide.</p>
+<p>Tested with Smithereens installed beside it. Untested: pixel movement, VisuStella Events &amp; Movement Core, and plugins that swap the player's sprite sheet, which Hoist does while carrying.</p>
+<p><code>Game_Event</code> gets its own <code>updateJump</code> and <code>jumpHeight</code>, which run the engine's versions for every event Hoist has not thrown.</p>
+<hr>
+<!--COMPAT:end-->
+<p><strong>From the same studio:</strong> <a href="https://csaf.itch.io/smithereens">Smithereens</a>, pots and crates that break by material. <a href="https://csaf.itch.io/posture">Posture</a>, sit and sleep poses from your sheets. <a href="https://csaf.itch.io/ajar">Ajar</a>, drawers and lids that open. <a href="https://csaf.itch.io/timber">Timber</a>, trees you can cut down.</p>
+<p>Code written with AI assistance; the knight and the objects in these pictures were made with AI assistance, and every pose on them is drawn by the plugin.</p>
