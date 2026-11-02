@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 773 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 774 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T07:35:31.235Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T08:02:39.461Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2310,7 +2310,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 121 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 122 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2589,6 +2589,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/embrace · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/ · Paid · Engines: RPG Maker
 
 Embrace is a plugin for RPG Maker MZ with 9 pair poses, made from two characters' own walking sheets: hugs, kisses, hand holding and carries. Royalty free in your games.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Encore: 12 Boss Second Phases for RPG Maker MZ
+
+Store: https://csaf.itch.io/encore-boss-second-phases · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/encore-boss-second-phases/ · Paid · Engines: RPG Maker
+
+Encore is an RPG Maker MZ plugin that gives your bosses a second phase generated from the battler image they already have: 12 forms and 4 drawn transformations, set with one note tag.
 
 AI disclosure: AI Assisted, Code, Graphics
 
