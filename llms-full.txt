@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 778 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 780 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T18:18:56.956Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T19:48:36.433Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1938,7 +1938,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 48 products.
+Game music packs. Formats and track counts are stated on each store page. 49 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -2153,6 +2153,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/free-game-music-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/free-game-music-sampler/ · Free · pay what you want
 
 Overture is a free game music sampler: 68 tracks, two from each of our 34 game music albums, as OGG Vorbis (44.1 kHz stereo) with loop points in the file, plus the editable MIDI source of every track.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Quiet Hours: 44 Track Lofi Game Music Pack
+
+Store: https://csaf.itch.io/quiet-hours · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/quiet-hours/ · Paid
+
+Quiet Hours is a 44 track lofi music pack for any game engine: nine game screens at four times of day, in OGG and MIDI.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5066,7 +5074,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Free browser games
 
-Free games that play in the browser. 68 products.
+Free games that play in the browser. 69 products.
 
 ### AFFINEUR
 
@@ -5457,6 +5465,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/spall · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/spall/ · Free
 
 A match-3 where the board is your mech. The grid is a walking machine's armour plating, laid out as a silhouette: head, torso, two arms, two legs. When something hits you, it spalls the plates in the region it struck.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### SPOILHEAP
+
+Store: https://csaf.itch.io/spoilheap · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/spoilheap/ · Free
+
+Digging it destroys it. Your notes are all that is left. SPOILHEAP is a free browser archaeology incremental with 7 generated fields and 57 kinds of find: run a rescue dig before the machine arrives, and get it on paper.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6032,11 +6048,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: 22 Addon Packs for Godot 4
+### CSAF Godot Collection: 23 Addon Packs for Godot 4
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-The CSAF Godot Collection puts all 22 of our paid Godot 4.7 addon packs in one project: 1,175 presets for 2D games, royalty free. New packs join it free on the day they launch.
+The CSAF Godot Collection puts all 23 of our paid Godot 4.7 addon packs in one project: 1,223 presets for 2D games, royalty free. New packs join it free on the day they launch.
 
 AI disclosure: AI Assisted, Code, Graphics
 
