@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 764 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 768 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-01T23:19:19.590Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T02:30:31.211Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -120,11 +120,11 @@ Verdant 13 Castle is a 16x16 castle tileset for RPG Maker MZ, Tiled, Godot 4 and
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 14 — Modern Institutional Interiors for RPG Maker MZ, Tiled & Godot: Office, Lobby & Studio [16x16]
+### Verdant 14: Office and Lobby Interior Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-14-institutional · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-14-institutional/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-635 tiles at 16x16. A modern working building: an open-plan office, a lobby, a corridor spine and a studio — with 11 complete 47-mask autotile sets, 20 objects, 3 animated sets and ready importers for RPG Maker MZ, Tiled and Godot.
+Verdant 14 Institutional is a 16x16 pixel art tileset of a modern office for RPG Maker MZ, Tiled and Godot 4: open plan office, lobby, corridor and studio.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -224,11 +224,11 @@ Store: https://csaf.itch.io/verdant-26-deep-ocean · Our page: https://onefreema
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 27 — Elemental Dungeon Tileset for RPG Maker MZ, Tiled & Godot: Fire, Ice, Flora & Storm Halls [16x16]
+### Verdant 27: Elemental Dungeon Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-27-elemental-dungeon · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-27-elemental-dungeon/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-Verdant 27 Elemental Dungeon is a 16x16 pixel art tileset of a dungeon with four elemental halls (fire, ice, flora and storm) off one flagstone nave, for RPG Maker MZ, Tiled and Godot 4.
+Verdant 27 Elemental Dungeon is a 16x16 pixel art tileset for RPG Maker MZ, Tiled and Godot 4: four halls of fire, ice, flora and storm off one nave. A rune channel carries each hall's light across the flagstone floor.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1898,7 +1898,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 46 products.
+Game music packs. Formats and track counts are stated on each store page. 47 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1937,6 +1937,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/ashen-realm · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/ashen-realm/ · Paid
 
 Ashen Realm is a 44 track soulslike music pack in OGG and MIDI for RPG Maker, Godot, Unity and GameMaker: a kingdom gone to ash, nine fights and one bonfire.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Astral Grimoire: 44 Track PC-98 Fantasy RPG Music Pack
+
+Store: https://csaf.itch.io/astral-grimoire · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/astral-grimoire/ · Paid
+
+Astral Grimoire is a 44 track fantasy RPG music pack for any game engine, written to the sound budget of a late 1980s PC-98 computer.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2270,7 +2278,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 120 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 121 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2456,11 +2464,11 @@ Everywhere the player has walked is redrawn as a hand-inked land survey on aged 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Chronicle Core - Branching Quests, Choices, Faction Reputation & World State for RPG Maker MZ
+### Chronicle Core: Branching Quests for RPG Maker MZ
 
 Store: https://csaf.itch.io/chronicle-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chronicle-core/ · Paid · Engines: RPG Maker
 
-What this is, in plain words: Chronicle Core is a quest consequence plugin for RPG Maker MZ (version 1.0, tested on the stock MZ scripts). The download holds three JavaScript plugin files (raw, readable source), a Readme and a licence.
+Chronicle Core is a quest plugin for RPG Maker MZ with 12 commands: branching outcomes that close each other off, faction reputation and world state.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2693,6 +2701,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/herbarium · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/herbarium/ · Paid · Engines: RPG Maker
 
 Your alchemy system has thirty reagents and thirty copies of the same leaf icon. Every crafting and alchemy plugin you can buy hands you the data — the recipes, the effects, the inventory hooks — and then asks you for the art.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hoist: Pick Up and Throw, 3 Poses for RPG Maker MZ
+
+Store: https://csaf.itch.io/hoist · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hoist/ · Paid · Engines: RPG Maker
+
+Hoist is an RPG Maker MZ plugin for Zelda style pick up and throw, with lift, carry and throw poses in all 4 facings made from your own walking sprites.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3292,11 +3308,11 @@ A crafting system normally ships as logic plus a folder of icons — and the ico
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Barrage - Bullet Patterns Whose Art Answers To The Pattern
+### Barrage: Bullet Hell Patterns for GameMaker
 
 Store: https://csaf.itch.io/barrage-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/barrage-gamemaker/ · Paid · Engines: GameMaker
 
-Barrage is a bullet pattern system for GameMaker 2024.14 and later (built and gated on runtime 2024.14.4.268), written in pure GML, in which every projectile draws its own art from the pattern that fired it.
+Barrage is a pure GML bullet pattern system for GameMaker 2024.14 and later, in which every projectile draws its own art from the pattern that fired it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4574,7 +4590,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 51 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 52 products.
 
 ### ANATOMIST
 
@@ -4621,6 +4637,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/bolthole · Our page: https://onefreeman1337.github.io/csaf-releases/games/bolthole/ · Paid · free browser demo on the page
 
 BOLTHOLE is a twin-stick action-adventure in one barred keep. You move with one hand and aim every crossbow bolt with the other, while the dead fire back.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### BONEFOLD
+
+Store: https://csaf.itch.io/bonefold · Our page: https://onefreeman1337.github.io/csaf-releases/games/bonefold/ · Paid · free browser demo on the page
+
+BONEFOLD is a top-down necromancer action game for Windows with a free browser demo: 12 rooms, 3 bosses and 13 kinds of foe that get up and fight for you.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4986,7 +5010,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ## Free browser games
 
-Free games that play in the browser. 67 products.
+Free games that play in the browser. 68 products.
 
 ### AFFINEUR
 
@@ -5216,7 +5240,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/kaiju-disposal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/kaiju-disposal/ · Free
 
-The heroes won. Now somebody has to move it. KAIJU DISPOSAL is a free clean-up incremental for your browser.
+The heroes won. Now somebody has to move it. KAIJU DISPOSAL is a free clean-up incremental for your browser with 12 contracts.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5257,6 +5281,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/out-of-sorts · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/out-of-sorts/ · Free
 
 A typing roguelite set in a letterpress print shop. Words crawl down the galley towards your composing stick. Type one and you set it, and the trouble it was carrying goes away.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### OVERSHOT
+
+Store: https://csaf.itch.io/overshot · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/overshot/ · Free
+
+Shift gears as the river shifts. OVERSHOT is a free browser incremental made for GitHub Game Off 2026: run a water mill with 5 machines on one shaft through the seasons, and buy the freehold.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6164,10 +6196,10 @@ Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 8 Free Low Poly 3D Characters
+### PSX Characters Sampler: 9 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 8 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 9 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
