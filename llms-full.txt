@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 776 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 777 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T09:11:28.959Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T17:38:44.296Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -216,11 +216,11 @@ Verdant 25 Infernal is a 16x16 pixel art tileset of a volcanic underworld for RP
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 26 — Deep Ocean Tileset for RPG Maker MZ, Tiled & Godot: Reef, Trench, Kelp & Vents [16x16]
+### Verdant 26: Deep Ocean Tileset, Reef and Trench [16x16]
 
 Store: https://csaf.itch.io/verdant-26-deep-ocean · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-26-deep-ocean/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-1052 tiles at 16x16 for the sea floor: a lit shell sand shelf, abyssal ooze, a coral reef, a kelp forest, a drowned city's pavement, talus, columnar vent rock and a trench that drops into black — with the wreck, the reef heads and the ruins lying on it.
+Verdant 26 Deep Ocean is a 16x16 pixel art tileset of the sea floor for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2408,11 +2408,11 @@ Augury is a 6 file RPG Maker MZ and MV plugin that draws a 78 card tarot deck wi
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Barrage - Undertale-Style Dodge Battles for RPG Maker MZ (bullet patterns generated from your enemies)
+### Barrage: Undertale Style Dodge Battles for RPG Maker MZ
 
 Store: https://csaf.itch.io/barrage · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrage/ · Paid · Engines: RPG Maker
 
-Every enemy attack becomes a dodge. When an enemy uses a skill that damages your party, the battle pauses and a framed arena opens.
+Barrage is 3 RPG Maker MZ plugins that turn every enemy attack into an Undertale style dodge, composed from your own database. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2512,13 +2512,13 @@ Chronicle Core is a quest plugin for RPG Maker MZ with 12 commands: branching ou
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Cipher Core - An Invented Language Your Players Learn, for RPG Maker MZ
+### Cipher Core: Invented Language Puzzle for RPG Maker MZ
 
 Store: https://csaf.itch.io/cipher-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cipher-core/ · Paid · Engines: RPG Maker
 
-RPG Maker will happily show the player ancient writing. It will not make them earn it. A picture of runes, a switch, a translated message — the engine can fake a mystery, but it cannot make a language a puzzle.
+Cipher Core is 3 RPG Maker MZ plugins for an invented written language: 122 glyphs stay unread until the player proves what they mean. Royalty free in commercial games.
 
-AI disclosure: AI Assisted, Code, Graphics
+AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Cloudshadow — weather that throws a real shadow, for RPG Maker MZ
 
@@ -2744,11 +2744,11 @@ The animals that walk your maps. Hedgerow fills your maps with the small animals
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Herbarium — every reagent draws its own botanical plate (MZ)
+### Herbarium: Generated Botanical Plates for RPG Maker MZ
 
 Store: https://csaf.itch.io/herbarium · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/herbarium/ · Paid · Engines: RPG Maker
 
-Your alchemy system has thirty reagents and thirty copies of the same leaf icon. Every crafting and alchemy plugin you can buy hands you the data — the recipes, the effects, the inventory hooks — and then asks you for the art.
+Herbarium is 4 RPG Maker MZ plugins that draw a botanical plate for every herb, root and fungus from that item's own data. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2984,11 +2984,11 @@ I Spy scenes made from your own items and characters. Rummage is a plugin for RP
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sampler - Picross Puzzles Stitched as Cross-Stitch for RPG Maker MZ
+### Sampler: Picross Cross-Stitch Minigame for RPG Maker MZ
 
 Store: https://csaf.itch.io/sampler · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sampler/ · Paid · Engines: RPG Maker
 
-Picross for your RPG, finished as needlework. The player fills a chart from the number clues along its rows and columns.
+Sampler is 3 RPG Maker MZ plugins that add generated picross puzzles, each one finished as a cross-stitch sampler in an embroidery hoop. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5770,7 +5770,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 26 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 27 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5817,6 +5817,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/codex-pages-book-and-journal-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/codex-pages-book-and-journal-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 Codex Pages is an 83 widget book and journal UI kit in pixel and HD, with files for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Royalty free in your games, and a free sampler ships on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Crucible: 107 Widget Crafting and Alchemy UI Kit
+
+Store: https://csaf.itch.io/crucible-crafting-cooking-and-alchemy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/crucible-crafting-cooking-and-alchemy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Crucible is a crafting, cooking and alchemy UI kit for Godot 4 and five more engines: 107 widgets of copper pipe, oak and amber glass, in pixel and HD.
 
 AI disclosure: AI Assisted, Code, Graphics
 
