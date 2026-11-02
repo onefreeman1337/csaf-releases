@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 780 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 782 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T19:48:36.433Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T21:43:34.229Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -644,7 +644,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-playground · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-playground/ · Free
 
-Autotiling is the feature every tile pack advertises and almost none of them let you try. Paint dirt onto grass and watch a complete 47-mask blob autotile set decide, tile by tile, which of its 47 pieces belongs in each cell.
+Verdant Autotile Playground is a free browser tool for a 47-mask autotile set, with importers for RPG Maker MZ, Tiled and Godot in its free tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -818,7 +818,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 67 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 68 products.
+
+### Bestiary: 12 Dragon, Yokai and Giant Bug Sprites
+
+Store: https://csaf.itch.io/bestiary-dragons-yokai-giant-bugs · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/bestiary-dragons-yokai-giant-bugs/ · Paid · Engines: Godot
+
+Bestiary is 12 top-down pixel art monster sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: dragons, yokai and giant bugs. Use them in commercial and free games, no credit needed.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Brinemark: 13 Pirate, Navy and Smuggler Sprites
 
@@ -876,11 +884,11 @@ Deepwarren Side is 15 pixel art side-view monster sprites for Godot 4 and any en
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Emberwrit 01: Strikes and Impacts — 10 animated pixel VFX
+### Emberwrit 01: 10 Strike and Impact VFX Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/emberwrit-01-strikes-and-impacts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/emberwrit-01-strikes-and-impacts/ · Paid
 
-10 animated pixel-art visual effects for 2D games, on transparent ground, at 128 and 64 pixels. Fire, earth and light: impacts, rings, bursts, debris, dust, a flame loop, a critical star and a slash arc.
+Emberwrit 01 is 10 animated pixel art VFX for 2D games at 128 and 64 px, as PNG frames, sheets and a Godot 4 importer. Commercial use is fine, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2334,7 +2342,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 122 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 123 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2821,6 +2829,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/journeywork · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/journeywork/ · Paid · Engines: RPG Maker
 
 Your NPCs have jobs. They do not have workplaces. A routine plugin walks a smith to the corner of the map at 8am, and he stands on bare grass turning in random directions.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Knack: 12 Work Animations for RPG Maker MZ
+
+Store: https://csaf.itch.io/knack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/knack/ · Paid · Engines: RPG Maker
+
+Knack is an RPG Maker MZ plugin with 12 work animations, from chopping wood to fishing, made from your own walking sprites in all 4 facings. Three plugin files and 8 sample objects, commercial use with no royalty.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4864,7 +4880,7 @@ The dungeon does what the stones you carry add up to. You go down wearing a carv
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### MILLWRIGHT
+### MILLWRIGHT: A Windmill Placement Puzzle, Free Demo
 
 Store: https://csaf.itch.io/millwright · Our page: https://onefreeman1337.github.io/csaf-releases/games/millwright/ · Paid · free browser demo on the page
 
