@@ -10,9 +10,9 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 ---
 
-# CSAF Godot Collection - 22 addon packs for Godot 4 in one project
+# CSAF Godot Collection - 23 addon packs for Godot 4 in one project
 
-Every paid Godot addon pack from Core Systems Asset Factory in one download: **22 addons, 1,175 presets**, all loading together in one
+Every paid Godot addon pack from Core Systems Asset Factory in one download: **23 addons, 1,223 presets**, all loading together in one
 Godot 4.7 project. Weather, water, fog of war, lighting, shadows, occlusion, movement dust, combat VFX, spell seals, breakables, doors, small life,
 sea life, journey maps, tapestries, tarot, notices, jigsaw puzzles, battle damage, material ageing and trees that fall. 2D only. Every preset is computed at runtime by
 shaders, particles or `_draw()` code, with its parameters exposed.
@@ -35,7 +35,7 @@ The first time a scene opens, the screen says it is drawing while shaders compil
 ## Use one in your game
 
 Copy `godot/addons/<name>/` into your own project's `addons/` folder, as that pack's Readme says. There is no plugin to enable; the classes register themselves. Keep the folder name, because each addon's scenes reference
-`res://addons/<name>/` by path. Copy one, some or all of them: no addon depends on another, none uses `demos/` or `collection/`, and all 22 load together with no class name clash.
+`res://addons/<name>/` by path. Copy one, some or all of them: no addon depends on another, none uses `demos/` or `collection/`, and all 23 load together with no class name clash.
 
 ## Memory
 
@@ -71,8 +71,9 @@ Every addon loads and runs alone and together. One stress case is not safe under
 | `addons/threshold/` | 48 door, gate and chest openings rebuilt from your own tiles | 48 | [its page](https://csaf.itch.io/threshold-godot) |
 | `addons/fathom/` | Underwater levels: 48 sea creatures and 12 seas drawn in code | 60 | [its page](https://csaf.itch.io/fathom-godot) |
 | `addons/timber/` | Choppable trees cut from your own TileMapLayer: 48 fell styles | 48 | [its page](https://csaf.itch.io/timber-godot) |
+| `addons/warhost/` | Army battles soldier by soldier under generated banners: 48 staged battles | 48 | [its page](https://csaf.itch.io/warhost-godot) |
 
-That is **1,175 presets** in all. Each addon's full preset list and every parameter are in `docs/<name>/Readme_for_Users.md`.
+That is **1,223 presets** in all. Each addon's full preset list and every parameter are in `docs/<name>/Readme_for_Users.md`.
 
 ## New packs
 
