@@ -5,18 +5,18 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** PSX Characters Sampler (free)  
 **Engine:** Low-poly PSX-era 3D model packs (Blender 5.2.3 headless under Tools/blender + MPFB/MakeHuman, CC0 output): rigged, animated character packs of 12-14 bodies x 3 palette skins (40+ entities), 300-1,575 tris each, ONE 256 px RGB555 texture per skin, the CC0 Quaternius humanoid skeleton with its 45 CC0 clips, GLB per skin + FBX + OBJ + .blend, the shipped PSX shader; bodies are built from code and PAINTED by OpenAI over their own orthographic renders (Kernel/capture/image_gen.js --ref, ~$0.16 per character), projected back and baked (Kernel/poly3d/build_pack.js). PROVEN by Kernel/poly3d/psx_gate.js (sha256, GLB containers, PNG sizes, tri budgets, distinct skins, look sheets, pack law, --break-test) + fresh_install.js (blank Godot 4 import); the agent then LOOKS at every sheet and a fresh subagent on Fable reviews (operator 2026-10-23). Themes: everything the itch top-sellers shelf shows transacting, never one genre. Creatures and props open at Roadmap M1. See Wings/Poly3D/CLAUDE.md.  
-**Docs published:** 2026-10-31
+**Docs published:** 2026-11-02
 
 
 ---
 
-# PSX Characters Sampler - 7 free low-poly characters
+# PSX Characters Sampler - 9 free low-poly characters
 
 Core Systems Asset Factory - free sampler of our PlayStation-era 3D character packs.
 
-**7 characters, 22 palette skins in total · 45 animation clips + a reference T-pose on every character · one 256 x 256 px texture per skin · 1495-1499 triangles per character.**
+**9 characters, 28 palette skins in total · 45 animation clips + a reference T-pose on every character · one 256 x 256 px texture per skin · 1495-1499 triangles per character.**
 
-One character from each of our seven paid PSX character packs, with every file the full pack ships per character, free to use in commercial games. Each one is the same character that pack offers as its own free download.
+One character from each of our nine paid PSX character packs, with every file the full pack ships per character, free to use in commercial games. Each one is the same character that pack offers as its own free download.
 
 ## Characters
 
@@ -29,6 +29,8 @@ One character from each of our seven paid PSX character packs, with every file t
 | Innkeeper | `gh_innkeeper` | 1497 | 3 | 46 | [Greyhollow](https://csaf.itch.io/greyhollow-psx-townsfolk) (medieval townsfolk, 14 characters) |
 | Station engineer | `ds_engineer` | 1499 | 3 | 46 | [Deep Station](https://csaf.itch.io/deep-station-psx-space-horror-crew) (sci-fi horror, 14 characters) |
 | Plague doctor | `pg_plague_doctor` | 1496 | 3 | 46 | [Pale Hours](https://csaf.itch.io/pale-hours-psx-ghosts) (supernatural horror, 14 characters) |
+| Marine sergeant | `op_sergeant` | 1496 | 3 | 46 | [Outpost](https://csaf.itch.io/outpost-psx-sci-fi-marines) (sci-fi colony, 14 characters) |
+| Orc warrior | `gs_warrior` | 1499 | 3 | 46 | [Grimsnout](https://csaf.itch.io/grimsnout-psx-orcs-goblins) (orc and goblin, 14 characters) |
 
 ## The full packs
 
@@ -39,6 +41,8 @@ One character from each of our seven paid PSX character packs, with every file t
 - **Greyhollow** - 14 characters x 3 skins = 42 entities, the working people of a walled medieval market town: smith, guard, innkeeper, priest, miller, merchant and more: https://csaf.itch.io/greyhollow-psx-townsfolk
 - **Deep Station** - 14 characters x 3 skins = 42 entities, the crew of a deep space mining station gone wrong: engineer, captain, medic, security officer, android, pilot, two infected and more: https://csaf.itch.io/deep-station-psx-space-horror-crew
 - **Pale Hours** - 14 characters x 3 skins = 42 entities, a cast of ghosts: a plague doctor, a drowned bride, a burned nun, a hanged man, a lost soldier and more: https://csaf.itch.io/pale-hours-psx-ghosts
+- **Outpost** - 14 characters x 3 skins = 42 entities, the marines and crew of a frontier colony outpost: a rifleman, a sergeant, a heavy trooper, a pilot, an engineer, an android and more: https://csaf.itch.io/outpost-psx-sci-fi-marines
+- **Grimsnout** - 14 characters x 3 skins = 42 entities, a warband of orcs, goblins and an ogre at three real heights: warrior, warchief, shaman, huntress, goblin scout, hexer and more: https://csaf.itch.io/grimsnout-psx-orcs-goblins
 
 Every pack uses the same skeleton, the same clip list and the same PSX shader as this sampler, so the characters here drop into the same scene as the full casts.
 
@@ -67,7 +71,7 @@ The rig is the open (CC0) Quaternius Universal humanoid skeleton (53 bones, Rigi
 
 ## Scale and style
 
-Characters stand about 1.8 m tall, Z-up in Blender / Y-up in glTF. The look is the mid-1990s console era: low triangle counts, hand-painted 256 px textures, no normal maps. Use nearest filtering and the PSX shader for the full effect (vertex snapping, affine texture warp, dithering, fog - every parameter is a slider).
+Characters stand about 1.8 m tall (orc warrior 1.90 m: that pack scales his armature object, so the clips scale with it), Z-up in Blender / Y-up in glTF. The look is the mid-1990s console era: low triangle counts, hand-painted 256 px textures, no normal maps. Use nearest filtering and the PSX shader for the full effect (vertex snapping, affine texture warp, dithering, fog - every parameter is a slider).
 
 ## Licence
 
