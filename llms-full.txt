@@ -1,14 +1,14 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 771 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 773 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T04:38:30.662Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T07:35:31.235Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 99 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 100 products.
 
-### Verdant 00 — Series Sampler: 16 Biomes from the Paid Packs, Free [16x16]
+### Verdant 00: Free Tileset Sampler, 878 Tiles [16x16]
 
 Store: https://csaf.itch.io/verdant-00-sample · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-00-sample/ · Free · pay what you want
 
@@ -720,6 +720,14 @@ Verdant Ironworks is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, G
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Iso 01: 240 Isometric Tiles for Godot and Tiled
+
+Store: https://csaf.itch.io/verdant-iso-01-meadow-river-highland · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-iso-01-meadow-river-highland/ · Paid · Engines: Tiled, Godot
+
+Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 grid for Godot 4 and Tiled: a meadow, a river valley and a rocky highland. Every ground blends into its neighbours through generated corner tiles, so a map reads as one landscape.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Library: The Complete Tileset Collection, All Packs
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
@@ -1052,19 +1060,19 @@ Lantern and Tallow is 2 original pixel fonts for JRPG screens, for Godot and any
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest 00: The First Rung — Free Undead Sprites [64x64]
+### Mourncrest 00: 3 Free Undead Sprites [64x64]
 
 Store: https://csaf.itch.io/mourncrest-00-the-first-rung · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-00-the-first-rung/ · Free · pay what you want
 
-A free three-character way into the Mourncrest series. Three of the common dead: a risen gravedigger, a shambling villager and a bloated drowned corpse, a standing pose in each of four directions, at native 64x64.
+Mourncrest 00 is a free pack of 3 undead sprites for Godot 4, RPG Maker and other top down engines: a standing pose in 4 directions at 64x64. Free to use in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest 01: The Restless Dead — Top-Down Undead Character Sprites [64x64]
+### Mourncrest 01: 6 Free Undead Sprites [64 & 128 px]
 
 Store: https://csaf.itch.io/mourncrest-01-restless-dead · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-01-restless-dead/ · Free · pay what you want
 
-Six undead characters for top-down RPGs — skeleton, ghoul, wight, wraith, gravebound and bone-hound — drawn at native 64×64 and 128×128 in one shared palette.
+Mourncrest 01 is a free pack of 6 undead sprites for RPG Maker MZ, Godot 4 and other top down engines, walking in 4 directions at 64x64 and 128x128. Free to use in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1914,7 +1922,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 47 products.
+Game music packs. Formats and track counts are stated on each store page. 48 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -1961,6 +1969,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/astral-grimoire · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/astral-grimoire/ · Paid
 
 Astral Grimoire is a 44 track fantasy RPG music pack for any game engine, written to the sound budget of a late 1980s PC-98 computer.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Attract Mode: 46 Track 1983 Arcade Music Pack
+
+Store: https://csaf.itch.io/attract-mode · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/attract-mode/ · Paid
+
+Attract Mode is a 46 track retro arcade music pack for any game engine: the complete cue sheets of four 1983 style coin op games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2400,11 +2416,11 @@ Keep your permadeath plugin. This is the part the player comes back to visit. Yo
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Bazaar Core - Supply, Demand, Stock & Trade Routes for RPG Maker MZ
+### Bazaar Core: Shop Economy and Trade Routes for RPG Maker MZ
 
 Store: https://csaf.itch.io/bazaar-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bazaar-core/ · Free · pay what you want · Engines: RPG Maker
 
-Keep your shop plugin. This is the economy underneath it. Every shop plugin for MZ governs how a shop looks, or when it unlocks. Not one of them makes a price or a stock level respond to anything.
+Bazaar Core is a free RPG Maker MZ plugin with 9 commands: finite shop stock, prices set by supply and demand, and price gaps between towns.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2808,11 +2824,11 @@ Every icon in your menus moves by what it is. Blades glint, gems twinkle, potion
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Loop Core - Time Loop Engine, Persistent Knowledge & Loop Ledger for RPG Maker MZ
+### Loop Core: Time Loop Engine for RPG Maker MZ
 
 Store: https://csaf.itch.io/loop-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/loop-core/ · Paid · Engines: RPG Maker
 
-Majora’s Mask. Outer Wilds. Deathloop. 12 Minutes. The mechanic is easy to describe and miserable to hand-roll — because a time loop is not really about time.
+Loop Core is 3 RPG Maker MZ plugins for time loop games: the world rewinds to an anchor, and the player keeps every fact they learned. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3396,11 +3412,11 @@ The message box drawn as an object, and a different object for every speaker.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Charter - Illuminated Auto-Cartography for GameMaker
+### Charter: Auto Map and Fog of War for GameMaker
 
 Store: https://csaf.itch.io/charter-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/charter-gamemaker/ · Paid · Engines: GameMaker
 
-As your player explores, Charter inks a hand-drawn manuscript chart of what they have actually seen.
+Charter is a GameMaker library that inks a manuscript map of what your player has seen, with 44 landmark marks in 4 ink styles.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3484,11 +3500,11 @@ Drawn in Code is a free GameMaker sampler (GameMaker 2024.14 and later, built an
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Effigy - Every NPC Generates Its Own Portrait
+### Effigy: Generated NPC Portraits for GameMaker
 
 Store: https://csaf.itch.io/effigy-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/effigy-gamemaker/ · Paid · Engines: GameMaker
 
-Effigy gives every character in your game a face that is theirs alone — and not one of them is a PNG. A villager, a guard, a merchant, a nameless bandit: each one composes its own portrait from its own properties.
+Effigy is a GameMaker library that draws a portrait for every NPC from its own traits: 12 head forms, 10 hair masses and 120 silhouettes, in pure GML.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3660,11 +3676,11 @@ Ore, gems and specimens for GameMaker, computed from a seed and drawn in pure GM
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Loom - Secondary Animation for GameMaker
+### Loom: Free Cape, Hair and Rope Physics for GameMaker
 
 Store: https://csaf.itch.io/loom-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/loom-gamemaker/ · Free · pay what you want · Engines: GameMaker
 
-Characters in expensive games trail things: a cape that lags a jump, hair that whips on a turn, a lantern swinging on its chain.
+Loom is a free GameMaker library: capes, hair, tails, ropes, chains and pennants that trail any sprite with real lag, added in 3 lines of GML. rig = new LoomRig(loom_preset_cape()); // Create rig.step(x, y, image_index, image_xscale, delta_time); // Step rig.draw(); // Draw What is inside 6...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4664,7 +4680,7 @@ BONEFOLD is a top-down necromancer action game for Windows with a free browser d
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CAIRNWAKE
+### CAIRNWAKE: Real Time Positioning JRPG, Free Demo
 
 Store: https://csaf.itch.io/cairnwake · Our page: https://onefreeman1337.github.io/csaf-releases/games/cairnwake/ · Paid · free browser demo on the page
 
@@ -4848,11 +4864,11 @@ NOCTUARY is a picross game for Windows with 66 plates, and each one you solve de
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ONE ROOM DREAD
+### ONE ROOM DREAD: Horror Deduction, Free Demo
 
 Store: https://csaf.itch.io/one-room-dread · Our page: https://onefreeman1337.github.io/csaf-releases/games/one-room-dread/ · Paid · free browser demo on the page
 
-Something is in the room with you. You cannot fight it. You cannot leave. You can only name it — and to name it you have to work out what it is, in the dark, with a lamp that is burning down.
+Something is in the room with you. You cannot fight it. You cannot leave. You can only name it, and to name it you have to work out what it is, in the dark, with a lamp that is burning down.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4952,15 +4968,15 @@ Every clue is a line you draw. Crossbow bolts are stuck in the walls of Castle H
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### THE BRASS ORRERY
+### THE BRASS ORRERY: Steampunk Build RPG, Free Demo
 
 Store: https://csaf.itch.io/brass-orrery · Our page: https://onefreeman1337.github.io/csaf-releases/games/brass-orrery/ · Paid · free browser demo on the page
 
-Most games hand you a class and let you climb a tree. The Brass Orrery hands you a five-pointed star and asks what shape you want to close in it. Strength, Toughness, Agility, Resistance, Spirit sit at the five points.
+THE BRASS ORRERY is a turn based RPG where you build a fighter by closing shapes in a five pointed star: 16 nodes, 18 classes, no menu. Strength, Toughness, Agility, Resistance, Spirit sit at the five points.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### THE LONG DEFEAT
+### THE LONG DEFEAT: A Level 99 Descent RPG, Free Demo
 
 Store: https://csaf.itch.io/the-long-defeat · Our page: https://onefreeman1337.github.io/csaf-releases/games/the-long-defeat/ · Paid · free browser demo on the page
 
@@ -5048,7 +5064,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/anneal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/anneal/ · Free
 
-You steer a stream of glowing motes up a foundry shaft. The pour has a COUNT — how many motes you carry — and a TEMPER: EMBER, FROST or IRON. Both matter, and they are not the same thing.
+You steer a stream of glowing motes up a foundry shaft. The pour has a COUNT (how many motes you carry) and a TEMPER: EMBER, FROST or IRON. Both matter, and they are not the same thing.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5056,7 +5072,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/banneret-succession · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/banneret-succession/ · Free
 
-You never move a knight. You plant a banner — and every knight in the House charges it at once. A charge that never started is a death. Knights who fall are dead.
+You never move a knight. You plant a banner, and every knight in the House charges it at once. A charge that never started is a death. Knights who fall are dead.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5112,7 +5128,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/charge-barge · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/charge-barge/ · Free
 
-Drive a storm-powered ironclad up an insane hostile coastline. Everything in this game is charge — the run, the money, the miracles, the ram.
+Drive a storm-powered ironclad up an insane hostile coastline. Everything in this game is charge: the run, the money, the miracles, the ram.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5152,7 +5168,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/contempt · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/contempt/ · Free
 
-A courtroom where the trial is the fight. Opposing counsel raises an argument. You have a fraction of a second to name the objection that answers it — and only the right one works.
+A courtroom where the trial is the fight. Opposing counsel raises an argument. You have a fraction of a second to name the objection that answers it, and only the right one works.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5360,7 +5376,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/rustbloom · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/rustbloom/ · Free
 
-You never find the key. You forge it. In most games like this, a locked thing asks what you are carrying. A bramble wall wants the fire rod, and there is exactly one fire rod.
+You never find the key. You forge it. A locked thing usually asks what you are carrying. A bramble wall wants the fire rod, and there is exactly one fire rod.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5384,7 +5400,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/second-intent · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/second-intent/ · Free
 
-Every timing-duel tells you that you lost the exchange. This one tells you why — to the millisecond, on every single input.
+SECOND INTENT is a free timing duel that tells you why you lost each exchange, to the millisecond, on every single input.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5432,7 +5448,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/starchart · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/starchart/ · Free
 
-Every voyage you fly is inscribed forever. The route you took IS the constellation. You fly a route between stars on flux and hull.
+STARCHART is a free browser roguelite of 4 sectors and 48 generated star forms: every route you fly is inscribed as a constellation you keep.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5504,7 +5520,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/the-last-flock · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/the-last-flock/ · Free
 
-Your army is a crowd you shape with movement alone — and it dies. Stand still and they ring you. Run and they spear. There is not one order button in this game.
+Your army is a crowd you shape with movement alone, and it dies. Stand still and they ring you. Run and they spear. There is not one order button in this game.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5984,11 +6000,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: 21 Addon Packs for Godot 4
+### CSAF Godot Collection: 22 Addon Packs for Godot 4
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-The CSAF Godot Collection puts all 21 of our paid Godot 4.7 addon packs in one project: 1,127 presets for 2D games, royalty free. New packs join it free on the day they launch.
+The CSAF Godot Collection puts all 22 of our paid Godot 4.7 addon packs in one project: 1,175 presets for 2D games, royalty free. New packs join it free on the day they launch.
 
 AI disclosure: AI Assisted, Code, Graphics
 
