@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 774 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 776 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T08:02:39.461Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T09:11:28.959Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1252,11 +1252,11 @@ Tidewell is 48 animated pixel-art fish and water creatures at 64x64 for Godot, G
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wayfarer 01: The Green Road - 128x128 & 64x64 traveller sprites, 4 directions, walk + idle
+### Wayfarer 01: 4 Top Down Traveller Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/wayfarer-01-the-green-road · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wayfarer-01-the-green-road/ · Paid
 
-Four travellers who belong on the same road A hooded adventurer with a longsword across her back. An old pedlar under a towering willow pack-frame. A helmed outrider walking escort.
+Wayfarer 01 is 4 top down traveller sprites for RPG Maker MZ, Godot and any 2D engine: 4 directions, a 6 frame walk and an idle, at 128 and 64 px. Commercial use, no royalty.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1350,7 +1350,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 71 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 72 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1557,6 +1557,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/footfall-footstep-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/footfall-footstep-sfx/ · Paid
 
 Footfall is 576 footstep sound effects for Unity, Godot, Unreal, GameMaker and the web, on 12 surfaces at 4 gaits and 3 weights. Royalty free, with a free demo.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Grindline: 149 Skateboard Sound Effects
+
+Store: https://csaf.itch.io/grindline-skateboard-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/grindline-skateboard-sound-effects/ · Paid
+
+Grindline is 149 skateboard sound effects for Unity, Unreal, Godot, GameMaker and any game engine, with 29 seamless loops in WAV and OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2840,11 +2848,11 @@ Loop Core is 3 RPG Maker MZ plugins for time loop games: the world rewinds to an
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Lucidity - Sanity, Stress & Hallucinations for RPG Maker MZ
+### Lucidity: Sanity and Hallucinations for RPG Maker MZ
 
 Store: https://csaf.itch.io/lucidity · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lucidity/ · Paid · Engines: RPG Maker
 
-A sanity meter tells your player a number. This decides what is in the room. Lucidity is one value your game erodes, five tiers it falls through, and a director that makes each tier true in the world.
+Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers it falls through, and 44 apparitions drawn by code as it falls. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3892,11 +3900,11 @@ A packing puzzle for your GameMaker game, every one generated and every one solv
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Trove - Procedural Item Icons & Inventory for GameMaker
+### Trove: 900 Item Icons and Inventory for GameMaker
 
 Store: https://csaf.itch.io/trove-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/trove-gamemaker/ · Paid · Engines: GameMaker
 
-Every inventory asset for GameMaker ships the box and expects you to bring the pictures. The most expensive one says so in its own store text.
+Trove is 900 item icons for GameMaker, 75 forms in 12 materials drawn in code, plus a complete animated inventory to show them in. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5974,7 +5982,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 24 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 25 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -6149,6 +6157,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/vivarium-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/vivarium-godot/ · Paid · Engines: Godot
 
 Vivarium for Godot 4: 48 species of small life drawn in code Vivarium is a Godot 4.7 addon that fills your 2D maps with the small life a real place has: 48 species in 10 families (butterflies, moths, fireflies, dragonflies, bees, fish, frogs, bats, pond skaters and lizards), placed by reading...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Warhost: 48 Army Battles for Godot 4
+
+Store: https://csaf.itch.io/warhost-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/warhost-godot/ · Paid · Engines: Godot
+
+Warhost is a Godot 4.7 addon for army battles: 48 staged battles on 12 fields, every soldier, banner and field drawn in code. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
