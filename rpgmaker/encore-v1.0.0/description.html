@@ -1,0 +1,34 @@
+<p>Encore is an RPG Maker MZ plugin that gives your bosses a second phase generated from the battler image they already have: 12 forms and 4 drawn transformations, set with one note tag. Two plugin files, commercial use, no royalty. <a href="https://github.com/onefreeman1337/csaf-releases/blob/main/docs/encore/README.md">Read the documentation before you buy.</a></p>
+<p><img src="{{IMG:1_encore_change.gif}}" alt="A stone golem boss holds and flashes white, swells, and arrives as its Enraged form: charred black, split with molten cracks, flames rising, embers drifting up"></p>
+<p><em>These pictures use our own pixel art battlers in a hall we painted; they are not included. In your game the forms are made from your own enemy images, painted or pixel art.</em></p>
+<p>MZ's own Enemy Transform needs a second battler you draw yourself and shows only a swap. Encore makes the second phase for every boss in your database from the art you have, and draws the change.</p>
+<h2>What you get</h2>
+<ul>
+<li><strong>12 phase two forms:</strong> Ascended, Corrupted, Enraged, Frozen, Armoured, Crystal, Overgrown, Rot, Overdrive, Shadow, Celestial and Husk. The creature stays recognisable and grows wings, flames, ice, crystals, vines, smoke or orbits from its own outline.</li>
+<li><strong>4 drawn transformations:</strong> swell, shatter, molt and burn, after a hold where the boss flashes and shakes.</li>
+<li><strong>One note tag:</strong> <code>&lt;Encore: enraged 40% burn&gt;</code>. More tags give more phases. A phase can raise the boss's stats or turn it into another enemy.</li>
+<li><strong>An overkill guard:</strong> the blow that crosses the threshold cannot kill, so the change always plays, between actions.</li>
+</ul>
+<p><img src="{{IMG:2_twelve_forms.png}}" alt="One stone golem battler and the twelve phase two forms Encore generated from it, each labelled"></p>
+<h2>How it runs</h2>
+<p>A form is drawn once, when its change begins. Measured in the real engine with phase two at rest: 34 draw calls a frame against 31 with no form, and no texture uploads. Pixel art at 2x or larger keeps its own pixel grid.</p>
+<p><img src="{{IMG:4_how_a_phase_plays.png}}" alt="Six engine frames of one fight with HP bars: an eye monster at full HP, a blow to 58% and it holds, it shatters, its Celestial form at full HP, a blow to 22% and it burns away, its Shadow form"></p>
+<!--COMPAT:start-->
+<hr>
+<h3>Compatibility</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong> <code>EncoreCore.js</code>, <code>Encore.js</code>. Any order works.</p>
+<p>If <code>EncoreCore.js</code> is switched off, battles run as if Encore were not installed and the console says once which file to turn on.</p>
+<p><strong>Core methods extended: 7 by saved-original prototype extension, <em>none replaced</em>.</strong> The full list is in the guide.</p>
+<p>Two moments are taken over on purpose: while a change plays the battle waits, and while a form is shown the enemy sprite shows the form instead of reloading its image. Place Encore below plugins that change HP damage or parameters. Tested beside our Scathe (its damage marks restart clean on the new form), with MZ's own Transform command, in front view and side view, turn-based and time-progress battles. Not yet tested with VisuStella's Battle Core. An animated-battler plugin that replaces the enemy image every frame will cover the new form.</p>
+<p><strong>It also extends one method on a core singleton, the same way: original saved and called through:</strong> <code>BattleManager.update</code>. Another plugin patching that one keeps working.</p>
+<p><strong>It also defines 3 methods that their core class only inherited:</strong> <code>Game_Enemy.prototype.gainHp</code> (inherited from <code>Game_Battler</code>), <code>Game_Enemy.prototype.paramRate</code> (inherited from <code>Game_BattlerBase</code>), <code>Sprite_Enemy.prototype.destroy</code> (inherited from <code>Sprite</code>). That touches those classes only, never the parent. If another plugin redefines the same method on the same class, load Encore after it.</p>
+<hr>
+<!--COMPAT:end-->
+<h2>From the same studio</h2>
+<ul>
+<li><a href="https://csaf.itch.io/fetch-doppelganger-bosses">Fetch</a>: the party copied into real enemies for a mirror match boss.</li>
+<li><a href="https://csaf.itch.io/scathe">Scathe</a>: battle damage you can see on every enemy.</li>
+<li><a href="https://csaf.itch.io/intertitle">Intertitle</a>: a composed title card for places and bosses.</li>
+</ul>
+<p>Every line of Encore was written with AI assistance. It ships no images, fonts or audio.</p>
