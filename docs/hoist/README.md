@@ -48,8 +48,8 @@ Give the event the priority "Same as characters" so it blocks the way until it i
 
 Every walking sheet the player uses gets two sheets made for it when it loads, never during play:
 
-- **Carry walk**, all four facings, three walk frames: the arms found from the character's own walk (the pixels that swing), erased and raised beside the head in the sheet's own sleeve, hand and outline colours, the legs still stepping.
-- **Lift and throw**, all four facings: a squat with the arms reaching low, the carry stand, and the throw's follow-through.
+- **Carry walk**, all four facings, three walk frames: the arms found from the character's own walk (the pixels that swing), erased and raised past the head in the sheet's own sleeve and outline colours, with hands in the face's own skin colour under the object, the legs still stepping. From the side, the near arm rises in front of the face and the far hand shows behind the head.
+- **Lift and throw**, all four facings: a squat with the hands together low in front, the carry stand, and the throw's follow-through.
 
 It works on 48 px sheets, big `$` sheets and tall sheets.
 
