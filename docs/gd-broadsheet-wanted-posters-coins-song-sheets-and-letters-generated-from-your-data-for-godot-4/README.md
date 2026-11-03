@@ -179,6 +179,11 @@ Every preset was rendered and checked under **Forward+** and **Compatibility** (
 the ASCII letters, digits and common punctuation; accented letters and non-Latin scripts are not drawn (they are
 skipped, never shown as boxes).
 
+## Changes
+
+- **1.0.2:** under Forward+ and Mobile, a portrait struck on a coin lost most of its face, hair and clothing, because its picture was read in the wrong colour space. It now keeps them, as Compatibility always did. A portrait's outline still reads slightly deeper under Forward+. Under Compatibility, a plain coin field can show faint height rings that Forward+ does not.
+- **1.0.1:** one coin restaged as a stack; the demo's lettering.
+
 ## Licence
 
 See LICENSE.txt: use it in any number of games; no resale or redistribution of the files as a pack; no AI training. AI-generated: see LICENSE.txt.
