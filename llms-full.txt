@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 784 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 787 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T22:51:48.838Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T03:14:41.244Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -740,7 +740,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 94 packs and 53,711 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 96 packs and 56,064 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1954,7 +1954,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 49 products.
+Game music packs. Formats and track counts are stated on each store page. 50 products.
 
 ### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
 
@@ -2017,6 +2017,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/bright-and-cute · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/bright-and-cute/ · Paid
 
 Bright & Cute is a 44 track score for casual, puzzle and match 3 games: the title, the menu, the level map, eight level themes, the shop, the idle screen, the pause, the results, the bonus round and the short cues a casual game fires all day.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Canopy: 44 Track Jungle Adventure Music Pack
+
+Store: https://csaf.itch.io/canopy · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/canopy/ · Paid
+
+Canopy is a 44 track jungle adventure music pack for any game engine: one expedition in six legs, in OGG and MIDI. It ships 38 full looping pieces and 6 short cues, royalty free for commercial games, with four full tracks free on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3288,11 +3296,11 @@ Vivarium is an ambient wildlife plugin for RPG Maker MZ with 43 species in 9 fam
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Voyage Core - Sailing, Wind, Cargo & Storms for RPG Maker MZ
+### Voyage Core: Sea Travel, Wind and Cargo for RPG Maker MZ
 
 Store: https://csaf.itch.io/voyage-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/voyage-core/ · Paid · Engines: RPG Maker
 
-RPG Maker gives you a boat, a ship and an airship. They are teleports with a sprite. You board, you steer, you arrive, and nothing about the passage mattered.
+Voyage Core is 3 plugins for RPG Maker MZ that turn sea travel into gameplay: wind, cargo weight, spoilage, storms and ports whose prices move. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3956,11 +3964,11 @@ Hide a picture from your game under a veil and let the player cut it away.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Verdure - A Cultivation System That Draws Its Own Plants
+### Verdure: Plant Growth and Gardens for GameMaker, 48 Species
 
 Store: https://csaf.itch.io/verdure-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/verdure-gamemaker/ · Paid · Engines: GameMaker
 
-Verdure is a cultivation system for GameMaker whose plants are drawn by the product.
+Verdure is a plant growth system for GameMaker with 48 species in 8 families, each one growing on screen through 6 named stages. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5818,7 +5826,7 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 27 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 28 products.
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -5873,6 +5881,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/crucible-crafting-cooking-and-alchemy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/crucible-crafting-cooking-and-alchemy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 Crucible is a crafting, cooking and alchemy UI kit for Godot 4 and five more engines: 107 widgets of copper pipe, oak and amber glass, in pixel and HD.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### CSAF UI Kit Collection: 26 Game UI Kits, 30 Themes
+
+Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+All 26 of our paid game UI kits in one download: 30 themes and 2,314 widgets, pixel and HD, with files for Godot 4, Unity, RPG Maker MZ and three more engines.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6250,7 +6266,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 10 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 11 products.
 
 ### Deep Station: 14 PSX Space Horror Crew (Rigged, Animated)
 
@@ -6308,6 +6324,14 @@ Last Shift is 13 low poly PSX survivors, each rigged with 45 animation clips, wi
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Night Beat: 14 Animated PSX Police, Detectives and SWAT
+
+Store: https://csaf.itch.io/night-beat-psx-police · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/night-beat-psx-police/ · Paid · Engines: Blender
+
+Night Beat is a pack of 14 low poly PS1-style police officers, detectives and SWAT for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Outpost: 14 Animated PSX Sci-Fi Marines and Crew
 
 Store: https://csaf.itch.io/outpost-psx-sci-fi-marines · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/outpost-psx-sci-fi-marines/ · Paid · Engines: Blender
@@ -6324,10 +6348,10 @@ Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 9 Free Low Poly 3D Characters
+### PSX Characters Sampler: 10 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 9 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 10 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
