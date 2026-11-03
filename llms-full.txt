@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 782 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 784 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-02T21:43:34.229Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-02T22:51:48.838Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1116,11 +1116,11 @@ Mourncrest 04 The Iron Wardens is three armoured monster hunter sprites for RPG 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest 05: Grave Goods — 45 graveyard object sprites, 64x64 & 128x128
+### Mourncrest 05: Grave Goods, 45 Graveyard Sprites [64 & 128]
 
 Store: https://csaf.itch.io/mourncrest-05-grave-goods · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-05-grave-goods/ · Paid
 
-45 graveyard props for top-down games — sarcophagi, coffins, headstones, braziers, urns, bone piles, altars, grave markers, tools and the small things a burial ground is actually full of.
+Mourncrest 05 is 45 top down graveyard prop sprites at 64 and 128 px for Godot, Unity, GameMaker or any engine that reads PNG. Royalty free. The whole roster, drawn at one size here so you can see each object.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1160,7 +1160,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/neonward-01-street-cast · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-01-street-cast/ · Paid
 
-Neonward 01 is 9 cyberpunk street sprites at 128 and 64 px with idle and a 6 frame walk, plus RPG Maker MZ and Godot 4 files. Royalty free. The whole cast on their walk cycles.
+Neonward 01 is 9 cyberpunk street sprites at 128 and 64 px with idle and a 6 frame walk, plus RPG Maker MZ and Godot 4 files. Royalty free. Free demo on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1366,7 +1366,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 72 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 73 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1453,6 +1453,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blip-04-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-04-dialogue-voices/ · Paid
 
 A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a different synthesis method.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Bonbon: 185 Candy World Sound Effects
+
+Store: https://csaf.itch.io/bonbon-candy-world-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/bonbon-candy-world-sound-effects/ · Paid
+
+Bonbon is 185 candy world sound effects for Unity, Unreal, Godot, GameMaker and any game engine, with 14 seamless loops in WAV and OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6030,7 +6038,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 25 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 26 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -6189,6 +6197,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/timber-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/timber-godot/ · Paid · Engines: Godot
 
 Timber is a Godot 4.7 addon that makes the trees on your TileMapLayer choppable: 48 fell styles, every chip, log and stump drawn in code. Royalty free in your games.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Township: 50 Working Places and NPC Routines for Godot 4
+
+Store: https://csaf.itch.io/township-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/township-godot/ · Paid · Engines: Godot
+
+Township is a Godot 4.7 addon for NPC daily routines on your own TileMapLayer, with 50 working places drawn in code that wake when their people arrive.
 
 AI disclosure: AI Assisted, Code, Graphics
 
