@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T10:57:33.916Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T12:30:42.130Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -264,11 +264,11 @@ Store: https://csaf.itch.io/verdant-31-clinic-ward · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 32 — Orbital Station Tileset for RPG Maker MZ, Tiled & Godot: Hangar, Bridge, Engineering & Conduit [16x16]
+### Verdant 32: Orbital Station Tileset, 637 Tiles [16x16]
 
 Store: https://csaf.itch.io/verdant-32-orbital-station · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-32-orbital-station/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-637 tiles at 16x16 for a hangar bay, a command deck and an engineering space: deck plating, shielded reactor plate, hangar floor, bright alloy decking, non-slip tread plate, faced bulkheads and cable conduit — with the cast a station is recognised by, from cargo containers and fuel drums to a...
+Verdant 32 is 637 16x16 tiles for RPG Maker MZ, Tiled and Godot 4: a station's hangar bay, command deck and engineering space, with 10 autotile sets. Commercial use is allowed in unlimited projects, with no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -688,11 +688,11 @@ Most tile packs ship a tree. A game where the player harvests needs the tree, th
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant HD 01 — Highland Tileset for RPGs: Meadow, Scarp, Crag & Tarn [32x32]
+### Verdant HD 01: Highland Tileset, 8 Autotile Sets [32x32]
 
 Store: https://csaf.itch.io/verdant-hd-01-highland · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hd-01-highland/ · Paid · Engines: Tiled, Godot
 
-497 tiles at 32x32. 8 complete 47-mask autotile sets, 26 objects, animated water and a burning fire pit — and the feature this series has never shipped before: terrain that reads as being at two different heights.
+Verdant HD 01 is 497 32x32 highland tiles for Godot 4, Tiled and any engine that takes your own tile size: meadow, scarp, crag, moor and tarn at two heights.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3312,11 +3312,11 @@ Voyage Core is 3 plugins for RPG Maker MZ that turn sea travel into gameplay: wi
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wanted Posters — every bounty prints its own broadside
+### Wanted Posters: Generated Bounty Board for RPG Maker MZ
 
 Store: https://csaf.itch.io/wanted-posters · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wanted-posters/ · Paid · Engines: RPG Maker
 
-Your quest log knows a bounty exists. Nobody in the world can see it. Wanted Posters prints one.
+Wanted Posters is a 4 plugin bounty board for RPG Maker MZ: every bounty prints its own broadside, with an engraved beast, period type and a wax seal.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3628,11 +3628,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Grimoire — Spellbook & Casting System for GameMaker
+### Grimoire: Spellbook and Casting System for GameMaker
 
 Store: https://csaf.itch.io/grimoire-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/grimoire-gamemaker/ · Paid · Engines: GameMaker
 
-Your spell list needs an icon per spell. This one draws them. Every magic system you can buy hands you the data structure and the cooldown timer, then asks you for the art.
+Grimoire is a spell and casting system for GameMaker that draws 8,064 distinct seals from each spell's own data, with 6 coronas and a paged spellbook.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3796,11 +3796,11 @@ Missive writes every letter your game delivers in its sender's own hand.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Muster - Battlefields That Draw Themselves
+### Muster: Tactical Battlefield Generator for GameMaker
 
 Store: https://csaf.itch.io/muster-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/muster-gamemaker/ · Paid · Engines: GameMaker
 
-Keep your battle engine. This is the ground it is fought on. Muster composes a whole tactical battlefield from a seed and draws it in pure GML: elevation, ground, cover, hazards, deployment zones and objectives.
+Muster is a tactical battlefield generator for GameMaker: 52 terrain features, 8 biomes and 8 seasons composed from a seed and drawn in pure GML. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3836,11 +3836,11 @@ Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pliant — Sprite Mesh Deformation for GameMaker
+### Pliant: 12 Sprite Mesh Deformers for GameMaker
 
 Store: https://csaf.itch.io/pliant · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/pliant/ · Paid · Engines: GameMaker
 
-GameMaker can scale a sprite and rotate it. It cannot bend one. image_angle moves the whole rectangle; image_xscale stretches it evenly. The interior never moves.
+Pliant is 12 sprite mesh deformers for GameMaker, in pure GML: flags ripple, jellies wobble, grass sways and a struck sprite shatters into its own pieces.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4644,11 +4644,11 @@ A Movable actor that casts a dynamic shadow makes the renderer throw away its ca
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Cue Forge - UE5 plugin
+### Sound Cue Forge: Port Sound Cues to MetaSounds in UE5
 
 Store: https://csaf.itch.io/sound-cue-forge · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/sound-cue-forge/ · Paid · Engines: Unreal Engine
 
-You have a library of Sound Cues and MetaSounds is where the engine is going. There is no button that ports a cue: each one is rebuilt by hand, and the moment it is, every Blueprint, component and DataTable row still plays the old asset.
+Sound Cue Forge is a plugin for Unreal Engine 5.8 that ports your Sound Cues to MetaSound Sources, relinks the assets that play them and journals every write.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4808,11 +4808,11 @@ DOWNBEAT is a short rhythm action game for Windows, with a free demo you can pla
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Dowser
+### Dowser: Minesweeper With No Numbers, Free Demo
 
 Store: https://csaf.itch.io/dowser · Our page: https://onefreeman1337.github.io/csaf-releases/games/dowser/ · Paid · free browser demo on the page
 
-Minesweeper with no numbers. Nobody hands you a count here.
+Dowser is minesweeper with no numbers, in 15 fields and 3 digs. The first 4 fields are free in your browser. Nobody hands you a count here.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4848,11 +4848,11 @@ The beasts in the night byre are in the wrong stalls. Trade them home for the le
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### HEADGATE
+### HEADGATE: A Time Travel Western, Free Demo
 
 Store: https://csaf.itch.io/headgate · Our page: https://onefreeman1337.github.io/csaf-releases/games/headgate/ · Paid · free browser demo on the page
 
-You are a resurveyor, sent to Sufferance to re-establish section corners that were lost in 1873. Where a monument still stands in both years, your transit sights through time.
+HEADGATE is a time travel western in 17 places and 3 endings: a resurveyor re-stages 1873, and the present redraws. The first half is free in your browser.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
