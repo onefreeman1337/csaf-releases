@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T18:22:38.504Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T20:34:20.568Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -128,11 +128,11 @@ Verdant 14 Institutional is a 16x16 pixel art tileset of a modern office for RPG
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 15 — Palace Tileset for RPG Maker MZ, Tiled & Godot: Throne Hall, State Rooms & Gilded Court [16x16]
+### Verdant 15: Palace and Throne Hall Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-15-palace · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-15-palace/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-546 tiles at 16x16.
+Verdant 15 is a 546 tile 16x16 palace tileset for RPG Maker MZ, Tiled and Godot 4: a marble throne hall, panelled state rooms and a tessellated court.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -240,11 +240,11 @@ Verdant 28 is 554 16x16 tiles for RPG Maker MZ, Tiled and Godot 4: an old growth
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 29 — Crystal Hollows Tileset for RPG Maker MZ, Tiled & Godot: Amethyst, Quartz, Lichen & Geode Walls [16x16]
+### Verdant 29: Crystal Hollows Cave Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-29-crystal-hollows · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-29-crystal-hollows/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-498 tiles at 16x16 for a crystal cavern: dark fractured cavestone, glow lichen, amethyst crystal fields, a quartz-sand trail, and raised geode walls with a violet crystal lip, with crystal clusters in four hues, columns and spires, geodes, stalagmites and flowstone, a rune obelisk, a crystal...
+Verdant 29 is a 498 tile 16x16 crystal cave tileset for RPG Maker MZ, Tiled and Godot 4: cavestone, glow lichen, amethyst fields and raised geode walls.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -280,11 +280,11 @@ Verdant 33 is a 527 tile 16x16 fungal cavern tileset for RPG Maker MZ, Tiled and
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 34 — Neon District Tileset for RPG Maker MZ, Tiled & Godot: Wet Streets, Neon Signs, Puddles & Plaza [16x16]
+### Verdant 34: Neon District Street Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-34-neon-district · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-34-neon-district/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-365 tiles at 16x16 for a city street at night, in the rain: wet asphalt, a sidewalk standing on a kerb, a polished plaza and standing water on all three.
+Verdant 34 is a 365 tile 16x16 night street tileset for RPG Maker MZ, Tiled and Godot 4: wet asphalt, a kerbed sidewalk, neon signs and puddles. Commercial use is permitted in unlimited projects with no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1204,11 +1204,11 @@ Store: https://csaf.itch.io/sigilcast-01-ember-school · Our page: https://onefr
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Skyfoundling 01: Flying Fauna - birds & insects with ground shadows, 128x128 & 64x64
+### Skyfoundling 01: 10 Bird and Insect Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/skyfoundling-01-flying-fauna · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/skyfoundling-01-flying-fauna/ · Paid
 
-Ten birds and flying insects, each with a looping wing-flap in four directions and a ground shadow for every frame. Pack #1 of Skyfoundling, a flying-fauna series: one palette, one 128px cell, one shadow format.
+Skyfoundling 01 is 10 flying bird and insect sprites with ground shadows for Godot 4 or any engine, at 128 and 64 px. Use them in commercial and non commercial games, unlimited projects and units, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1864,11 +1864,11 @@ Squall is 104 weather sound effects in WAV and OGG for RPG Maker, Godot, Unity, 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Steel and Bone — Medieval Combat Impacts
+### Steel and Bone: 144 Medieval Combat Sound Effects
 
 Store: https://csaf.itch.io/steel-and-bone-medieval-combat-impacts · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/steel-and-bone-medieval-combat-impacts/ · Paid
 
-144 medieval combat impacts, filed by what hits what. A combat system does not ask for "axe". It asks for "axe on mail", because the armour decides the sound as much as the weapon does.
+Steel and Bone is 144 medieval combat sound effects for Unity, Unreal, Godot, GameMaker and web: 8 weapons struck on 6 materials, filed by what hits what.
 
 AI disclosure: AI Assisted, Code, Graphics
 
