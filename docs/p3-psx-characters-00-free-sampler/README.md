@@ -5,18 +5,18 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** PSX Characters Sampler (free)  
 **Engine:** Low-poly PSX-era 3D model packs (Blender 5.2.3 headless under Tools/blender + MPFB/MakeHuman, CC0 output): rigged, animated character packs of 12-14 bodies x 3 palette skins (40+ entities), 300-1,575 tris each, ONE 256 px RGB555 texture per skin, the CC0 Quaternius humanoid skeleton with its 45 CC0 clips, GLB per skin + FBX + OBJ + .blend, the shipped PSX shader; bodies are built from code and PAINTED by OpenAI over their own orthographic renders (Kernel/capture/image_gen.js --ref, ~$0.16 per character), projected back and baked (Kernel/poly3d/build_pack.js). PROVEN by Kernel/poly3d/psx_gate.js (sha256, GLB containers, PNG sizes, tri budgets, distinct skins, look sheets, pack law, --break-test) + fresh_install.js (blank Godot 4 import); the agent then LOOKS at every sheet and a fresh subagent on Fable reviews (operator 2026-10-23). Themes: everything the itch top-sellers shelf shows transacting, never one genre. Creatures and props open at Roadmap M1. See Wings/Poly3D/CLAUDE.md.  
-**Docs published:** 2026-11-02
+**Docs published:** 2026-11-03
 
 
 ---
 
-# PSX Characters Sampler - 9 free low-poly characters
+# PSX Characters Sampler - 10 free low-poly characters
 
 Core Systems Asset Factory - free sampler of our PlayStation-era 3D character packs.
 
-**9 characters, 28 palette skins in total · 45 animation clips + a reference T-pose on every character · one 256 x 256 px texture per skin · 1495-1499 triangles per character.**
+**10 characters, 31 palette skins in total · 45 animation clips + a reference T-pose on every character · one 256 x 256 px texture per skin · 1495-1499 triangles per character.**
 
-One character from each of our nine paid PSX character packs, with every file the full pack ships per character, free to use in commercial games. Each one is the same character that pack offers as its own free download.
+One character from each of our ten paid PSX character packs, with every file the full pack ships per character, free to use in commercial games. Each one is the same character that pack offers as its own free download.
 
 ## Characters
 
@@ -31,6 +31,7 @@ One character from each of our nine paid PSX character packs, with every file th
 | Plague doctor | `pg_plague_doctor` | 1496 | 3 | 46 | [Pale Hours](https://csaf.itch.io/pale-hours-psx-ghosts) (supernatural horror, 14 characters) |
 | Marine sergeant | `op_sergeant` | 1496 | 3 | 46 | [Outpost](https://csaf.itch.io/outpost-psx-sci-fi-marines) (sci-fi colony, 14 characters) |
 | Orc warrior | `gs_warrior` | 1499 | 3 | 46 | [Grimsnout](https://csaf.itch.io/grimsnout-psx-orcs-goblins) (orc and goblin, 14 characters) |
+| Patrol officer | `nb_patrol` | 1496 | 3 | 46 | [Night Beat](https://csaf.itch.io/night-beat-psx-police) (police, 14 characters) |
 
 ## The full packs
 
@@ -43,6 +44,7 @@ One character from each of our nine paid PSX character packs, with every file th
 - **Pale Hours** - 14 characters x 3 skins = 42 entities, a cast of ghosts: a plague doctor, a drowned bride, a burned nun, a hanged man, a lost soldier and more: https://csaf.itch.io/pale-hours-psx-ghosts
 - **Outpost** - 14 characters x 3 skins = 42 entities, the marines and crew of a frontier colony outpost: a rifleman, a sergeant, a heavy trooper, a pilot, an engineer, an android and more: https://csaf.itch.io/outpost-psx-sci-fi-marines
 - **Grimsnout** - 14 characters x 3 skins = 42 entities, a warband of orcs, goblins and an ogre at three real heights: warrior, warchief, shaman, huntress, goblin scout, hexer and more: https://csaf.itch.io/grimsnout-psx-orcs-goblins
+- **Night Beat** - 14 characters x 3 skins = 42 entities, a whole precinct: patrol officer, homicide detective, SWAT pointman and breacher, sergeant, state trooper, riot officer, forensic technician and more: https://csaf.itch.io/night-beat-psx-police
 
 Every pack uses the same skeleton, the same clip list and the same PSX shader as this sampler, so the characters here drop into the same scene as the full casts.
 
