@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T20:34:20.568Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T22:58:41.156Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1424,14 +1424,6 @@ A shoot em up escalates. These sounds escalate with it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Blip — Dialogue Voices for Text-Advance
-
-Store: https://csaf.itch.io/blip-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-dialogue-voices/ · Paid
-
-Blip is 104 dialogue sound effects in 13 voices for text boxes, in WAV and OGG for RPG Maker, Godot, Unity, GameMaker, Unreal or the web. Royalty free, with a free demo of 4 complete voices.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Blip 00: Free Dialogue Voices Sampler
 
 Store: https://csaf.itch.io/blip-00-free-dialogue-voices-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-00-free-dialogue-voices-sampler/ · Free · pay what you want
@@ -1461,6 +1453,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blip-04-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-04-dialogue-voices/ · Paid
 
 A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a different synthesis method.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Blip: 104 Dialogue Sound Effects for Text Boxes
+
+Store: https://csaf.itch.io/blip-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-dialogue-voices/ · Paid
+
+Blip is 104 dialogue sound effects in 13 voices for text boxes, in WAV and OGG for RPG Maker, Godot, Unity, GameMaker, Unreal or the web. Royalty free, with a free demo of 4 complete voices.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1964,19 +1964,19 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Game music packs. Formats and track counts are stated on each store page. 50 products.
 
-### Adversary - Battle & Boss Suite - One Theme From First Encounter To Final Phase
+### Adversary: 10 Track Battle and Boss Music Pack
 
 Store: https://csaf.itch.io/adversary-battle-boss-suite · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/adversary-battle-boss-suite/ · Paid
 
-The final boss is audibly the same material as the first random encounter. Most music packs go wide, giving you one track per location.
+Adversary is a 10 track battle and boss music pack for RPG Maker MZ, Godot, Unity and GameMaker, built on one four note theme from first fight to final boss.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Aetherbound Vol. I - JRPG Music Pack
+### Aetherbound Vol. I: 14 Track JRPG Music Pack
 
 Store: https://csaf.itch.io/aetherbound-vol-1 · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/aetherbound-vol-1/ · Paid
 
-Most game music packs are a grab-bag. Tracks bundled together because they share a genre. Drop three of them into one project and your player hears the seams: different rooms, different instruments, different composers.
+Aetherbound Vol. I is a 14 track JRPG music pack for RPG Maker MZ, Godot, Unity and GameMaker, written as one album from one family of themes. It is royalty free for commercial games, and three full tracks are free to download on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2132,11 +2132,11 @@ Hearthmoot is a 42 track folk village music pack for RPG Maker MZ, Godot, Unity 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Horror Manor - PSX Survival Horror Music Pack - 42 Tracks
+### Horror Manor: 42 Track PSX Survival Horror Music Pack
 
 Store: https://csaf.itch.io/horror-manor · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/horror-manor/ · Paid
 
-One house. One lullaby. 42 tracks. Somewhere upstairs there is a music box, and the tune it plays is five notes long: a child's rock down a third and back, then one step up onto the wrong note and home.
+Horror Manor is a 42 track PSX survival horror music pack for RPG Maker MZ, Godot, Unity and GameMaker, every room built from one five note lullaby. It is royalty free in games, and two full tracks are free to download on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2592,11 +2592,11 @@ A colophon is the printer's inscription at the end of a book — the device, the
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Colosseum Core - Tournaments, Rivals, Seasons & Belts for RPG Maker MZ
+### Colosseum Core: Tournaments and Rivals for RPG Maker MZ
 
 Store: https://csaf.itch.io/colosseum-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/colosseum-core/ · Paid · Engines: RPG Maker
 
-RPG Maker will happily run a battle. It will not make that battle mean anything.
+Colosseum Core is a 3 file tournament plugin for RPG Maker MZ: seeded brackets, rivals that level and remember you, weight classes, seasons and belts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2624,11 +2624,11 @@ Derby is a snail racing and betting minigame for RPG Maker MZ with 5 drawn cours
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Elytra — Every Insect Your Game Declares, Drawn at Runtime, for RPG Maker MZ
+### Elytra: Generated Insect Bestiary for RPG Maker MZ
 
 Store: https://csaf.itch.io/elytra · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/elytra/ · Paid · Engines: RPG Maker
 
-Your bestiary already has beetles in it. Elytra draws them — a distinct specimen for every creature your project declares, built from a row you already wrote and rendered at run time.
+Elytra is a plugin for RPG Maker MZ that draws an insect specimen for each creature in your database: 224 from names alone, with no image files. Use it in unlimited games, commercial or free, with no royalties.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2872,11 +2872,11 @@ Break the glass, win the picture. Leadlight is a brick-breaker minigame for RPG 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Lineage - The Evolution Atlas for RPG Maker MZ
+### Lineage: Branching Evolution Atlas for RPG Maker MZ
 
 Store: https://csaf.itch.io/lineage · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lineage/ · Paid · Engines: RPG Maker
 
-Your game already knows which creature becomes which. Your player does not — and no amount of text explains a branching family the way a picture of it does.
+Lineage is an evolution atlas plugin for RPG Maker MZ: it draws each species from your database with 65 body plans, 8 element palettes and 6 growth stages.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3176,11 +3176,11 @@ Table Service is a restaurant minigame plugin for RPG Maker MZ: 8 to 15 parties 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Taproom - Tavern Board Games vs NPCs (Morris, Fox and Geese, Oware, Fanorona) for RPG Maker MZ
+### Taproom: 4 Tavern Board Games vs NPCs for RPG Maker MZ
 
 Store: https://csaf.itch.io/taproom · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/taproom/ · Paid · Engines: RPG Maker
 
-Four old tavern board games your player can sit down and play against the people of your world, for gold. Nine Men's Morris, Fox and Geese, Oware and Fanorona, each on a board the plugin draws, against an opponent who thinks.
+Taproom is a plugin for RPG Maker MZ with 4 tavern board games your player plays against NPCs for gold: Morris, Oware, Fanorona, Fox and Geese.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3232,11 +3232,11 @@ Timber is a tree cutting plugin for RPG Maker MZ with 6 kinds of fall, cut from 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Touchpaper — Elemental Surface Chemistry for RPG Maker MZ
+### Touchpaper: Elemental Surface Chemistry for RPG Maker MZ
 
 Store: https://csaf.itch.io/touchpaper · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/touchpaper/ · Paid · Engines: RPG Maker
 
-Set fire to the grass and watch it decide what happens next. Touchpaper gives every tile on your map a surface, a temperature, a wetness and a charge, and then lets those argue with each other.
+Touchpaper is an elemental surface plugin for RPG Maker MZ with 43 ground states: fire, water, frost, oil and lightning act on each tile, and the map remembers.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6068,7 +6068,7 @@ Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and theme
 
 Store: https://csaf.itch.io/arras-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/arras-godot/ · Paid · Engines: Godot
 
-Arras for Godot 4: your playthrough, woven into a tapestry Arras is a Godot 4.7 addon that turns what a player did into a Bayeux style embroidered hanging they can open and scroll.
+Arras is a Godot 4 addon with 48 woven scenes: it turns a playthrough into a Bayeux style tapestry your players can open and scroll. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
