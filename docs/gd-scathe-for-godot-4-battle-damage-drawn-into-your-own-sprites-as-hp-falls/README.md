@@ -1,9 +1,9 @@
-# Scathe for Godot 4 - Battle Damage Drawn Into Your Own Sprites as HP Falls — Documentation
+# Scathe: Battle Damage Drawn Into Your Sprites for Godot 4 — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** Scathe for Godot 4 - Battle Damage Drawn Into Your Own Sprites as HP Falls  
+**Product:** Scathe: Battle Damage Drawn Into Your Sprites for Godot 4  
 **Engine:** Godot 4.7.2 addon packs (Tools/godot, GDScript + .gdshader, 2D-first): Line A1 VFX and shader packs of 40+ runtime-computed presets with exported parameters, compiling under BOTH Forward+ and Compatibility; Line A2 ports of CSAF's SOLD RPG Maker winners (sigil-core, wrack, jigsaw); Line B Chronicle's systems re-shipped with their designed look after the JRPG has played them (M1). PROVEN by Kernel/godot/gd_gate.js (headless import + --check-only parse + demo run, then every preset photographed WINDOWED under forward_plus and gl_compatibility against an empty-stage control, two visibility instruments, dedupe.js + a pixel-level pair check, raw-source, docs, no .godot cache; the agent then LOOKS). See Wings/Godot/CLAUDE.md.  
 **Docs published:** 2026-11-03
 
