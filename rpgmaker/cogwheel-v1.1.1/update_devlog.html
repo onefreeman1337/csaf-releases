@@ -1,0 +1,14 @@
+<p>Cogwheel 1.1.1 is up. It is a free update: download it again from your itch library.</p>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>Reset Room could leave the player standing over the hole it had just re-opened if no room entrance had been set. The player now goes to the entrance, or to the nearest safe tile.</li>
+<li>Set Room Entrance was forgotten the next time the game saved. It is now kept in the save. An entrance set under 1.1.0 was never stored, so run the command again; until then a stranded player goes to the nearest safe tile.</li>
+<li>A shattered boulder's shards jumped back to where the boulder started after a save and a load. They now stay where it broke.</li>
+</ul>
+<p><strong>Corrected</strong></p>
+<ul>
+<li>The guide and one store image promised four demo rooms that were never in the download. We are sorry about that. The guide now draws all four out tile by tile with the shortest solution to each, and every solution was played in the engine from that text. They are plans to build, not map files.</li>
+<li>The Plugin Manager note on the hole region said a blank box turns holes off. It does not: 0 does, and blank reads as the default. The notes and the guide now say so.</li>
+<li>The guide's command names now match the editor's, it says that only a block or boulder presses a plate, and it warns against putting two plates or receivers on one switch. The licence now names its holder.</li>
+</ul>
+<p>Tested headless in a blank MZ project from the same zip you download, on its own, not alongside other plugins and not in the desktop Playtest window.</p>
