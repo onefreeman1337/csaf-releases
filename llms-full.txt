@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T16:27:16.095Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T18:22:38.504Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -272,11 +272,11 @@ Verdant 32 is 637 16x16 tiles for RPG Maker MZ, Tiled and Godot 4: a station's h
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 33 — Fungal Hollows Tileset for RPG Maker MZ, Tiled & Godot: Giant Caps, Mycelium, Spores & Shale [16x16]
+### Verdant 33: Fungal Hollows Tileset, Giant Caps [16x16]
 
 Store: https://csaf.itch.io/verdant-33-fungal-hollows · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-33-fungal-hollows/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-527 tiles at 16x16 for a fungal cavern: a damp rot floor with violet shale breaking through it, golden spore drifts, a mycelium ribbon winding between them, and giant toadstool caps you raise as masses and stand on their own great stems.
+Verdant 33 is a 527 tile 16x16 fungal cavern tileset for RPG Maker MZ, Tiled and Godot 4: giant caps painted as a mass, with mycelium and spore drifts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -440,19 +440,19 @@ Three dungeons in one pack, each in a palette of its own: 493 tiles at 16x16 in 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 53 — Works: Factory Automation Tileset, Animated Conveyor Belts, Inserter Arms, Machines & Ore Fields [16x16]
+### Verdant 53: Factory Automation Tileset, Conveyors [16x16]
 
 Store: https://csaf.itch.io/verdant-53-works · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-53-works/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-A factory you can build a level from: 2,490 tiles at 16x16 in one locked 74-colour palette: animated conveyor belts in 3 tiers with every junction, 12 inserter arms, 11 animated machines, a pipe set, power poles and 10 complete autotile sets for ore fields and a mill floor, with a finished...
+Verdant 53 is a 2,490 tile 16x16 factory tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: animated belts, inserter arms, machines and ore fields. Commercial use is permitted in unlimited projects with no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 54 — Wilds Jungle Tileset for RPG Maker MZ, Tiled, Godot & Unity: Mangrove, Lagoon & Tropical Isle [16x16]
+### Verdant 54: Jungle, Mangrove and Lagoon Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-54-wilds · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-54-wilds/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Three tropical biomes for your map: 633 tiles at 16x16 in one 89-colour palette: a rainforest floor under kapok giants, a grey mangrove flat with a winding creek, and a palm beach running down to a turquoise lagoon whose surf washes in and out.
+Verdant 54 is a 633 tile 16x16 tropical tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: a rainforest, a mangrove flat and a lagoon beach with moving surf.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1816,11 +1816,11 @@ The card table a deckbuilder is played on 198 sounds for deckbuilders, card batt
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sixfold — Elemental Casting Chains
+### Sixfold: 108 Elemental Spell Sound Effects, 12 Stage Chains
 
 Store: https://csaf.itch.io/sixfold-elemental-casting-chains · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sixfold-elemental-casting-chains/ · Paid
 
-108 sound effects. 6 elements. One 12-stage casting chain, shipped complete for every single one. This is not a bag of magic sounds. It is a spell state machine, in audio.
+Sixfold is 108 spell sound effects for Unity, Godot, Unreal, GameMaker and RPG Maker: 6 elements, each shipping the same 12 stage casting chain. Royalty free in commercial games, no credit required, with a free demo below.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1872,11 +1872,11 @@ Store: https://csaf.itch.io/steel-and-bone-medieval-combat-impacts · Our page: 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Tally — Clicker and Idle Feedback Ladders
+### Tally: 137 Clicker and Idle Game Sound Effects
 
 Store: https://csaf.itch.io/tally-clicker-feedback · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/tally-clicker-feedback/ · Paid
 
-A clicker is not a game with a click in it. It is a game where one action fires thousands of times and has to keep feeling different as the numbers grow.
+Tally is 137 clicker and idle sound effects for Unity, Godot, GameMaker, RPG Maker and web games: 13 ladders that climb with your multiplier. Royalty free for commercial games, with no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2736,11 +2736,11 @@ Your party wears the fight. Fray is battle wear for RPG Maker MZ, drawn into you
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Frontispiece — The Title Screen, Generated, for RPG Maker MZ
+### Frontispiece: Generated Title Screens for RPG Maker MZ
 
 Store: https://csaf.itch.io/frontispiece · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/frontispiece/ · Paid · Engines: RPG Maker
 
-Every RPG Maker MZ game opens on the same screen. A picture, the title in the engine's own font with a black outline, and three centred rows in Kadokawa's Window.png.
+Frontispiece is a plugin for RPG Maker MZ that generates your title screen: 6 houses, 8 grounds and your title cut from 79 letterforms, with no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2768,19 +2768,19 @@ Goose is a party board game plugin for RPG Maker MZ: a dice race across 6 genera
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hallmark - Procedural Item Marks & Maker’s Punch Generator for RPG Maker MZ
+### Hallmark: 2,688 Weapon and Armour Icons for RPG Maker MZ
 
 Store: https://csaf.itch.io/hallmark · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hallmark/ · Paid · Engines: RPG Maker
 
-In stock RPG Maker, a legendary blade and a starter dagger are the same picture — a 32×32 tile from an iconset that ships with every project ever made.
+Hallmark is a plugin for RPG Maker MZ that gives every weapon and armour its own struck mark, chosen from 2,688 drawn in code. One licence covers unlimited games, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearsay — the world your party has only been told about, for RPG Maker MZ
+### Hearsay: Rumour Maps of Unvisited Places for RPG Maker MZ
 
 Store: https://csaf.itch.io/hearsay · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hearsay/ · Paid · Engines: RPG Maker
 
-Hearsay draws the part of your world the party has only heard about.
+Hearsay is a plugin for RPG Maker MZ that charts the places your party has only heard about, using 41 drawn marks and 4 grades of confidence. One licence covers unlimited games, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2848,11 +2848,11 @@ Jigsaw is an RPG Maker MZ and MV plugin that turns any picture in your game into
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Journeywork — Every Working NPC Gets A Workplace, for RPG Maker MZ
+### Journeywork: NPC Workplaces, 24 Trades for RPG Maker MZ
 
 Store: https://csaf.itch.io/journeywork · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/journeywork/ · Paid · Engines: RPG Maker
 
-Your NPCs have jobs. They do not have workplaces. A routine plugin walks a smith to the corner of the map at 8am, and he stands on bare grass turning in random directions.
+Journeywork is an RPG Maker MZ plugin that draws a workplace around every working NPC: 24 trades and 8 worked grounds, from one note tag and no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2912,11 +2912,11 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Niello — Generated Arms & Armour Plates for RPG Maker MZ
+### Niello: Generated Weapon and Armour Plates for RPG Maker MZ
 
 Store: https://csaf.itch.io/niello · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/niello/ · Paid · Engines: RPG Maker
 
-Every weapon and every piece of armour in your game draws its own engraved plate.
+Niello is an RPG Maker MZ plugin that gives every weapon and armour its own engraved plate, from 77 motifs and 9 alloys, and redraws it as the item is used.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3008,11 +3008,11 @@ Picture word puzzles for your RPG, built from the art your game already has. Reb
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Rebuttal - Danganronpa-Style Class-Trial Debates for RPG Maker MZ
+### Rebuttal: Danganronpa Style Debates for RPG Maker MZ
 
 Store: https://csaf.itch.io/rebuttal · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebuttal/ · Paid · Engines: RPG Maker
 
-Class-trial debates, inside your RPG Maker MZ game. The cast sits in a ring. One after another they make their statements, and every statement flies across the stage as big moving type.
+Rebuttal is a class trial debate plugin for RPG Maker MZ: statements fly past as big moving type, with 8 entrances and 7 paths, and the player shoots the lie.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3404,11 +3404,11 @@ Your game tells Arras what happened. Arras weaves it. A recap screen no two play
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Athanor - Synthesis & Transmutation for GameMaker
+### Athanor: Crafting System With Generated Art for GameMaker
 
 Store: https://csaf.itch.io/athanor-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/athanor-gamemaker/ · Paid · Engines: GameMaker
 
-A crafting system normally ships as logic plus a folder of icons — and the icons are the part that never fits your game. Athanor has no icons.
+Athanor is a crafting system for GameMaker in pure GML that draws its own art: 144 reagent glyphs, 20 result vessel families and a seal for every recipe.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3428,11 +3428,11 @@ Battalia is an army battle system for GameMaker 2024.14 in pure GML, with a runn
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Beacon — Procedural Energy Renderer for GameMaker
+### Beacon: Lightning and Energy Beams for GameMaker
 
 Store: https://csaf.itch.io/beacon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/beacon-gamemaker/ · Paid · Engines: GameMaker
 
-A sprite sheet cannot connect two things that move.
+Beacon is a GML renderer with 5 energy effects for GameMaker: lightning, beams, tethers, chains and trails, drawn as geometry every frame. One licence covers as many of your games as you like, commercial or free, with no royalties.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4944,11 +4944,11 @@ Something is in the room with you. You cannot fight it. You cannot leave. You ca
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PILOTAGE
+### PILOTAGE: A Fleet Mooring Puzzle, Free Demo
 
 Store: https://csaf.itch.io/pilotage · Our page: https://onefreeman1337.github.io/csaf-releases/games/pilotage/ · Paid · free browser demo on the page
 
-Bring the fleet home. Every boat needs a mooring of her own. At dusk a fishing fleet comes home to an anchorage among the islands. You run the pilot launch.
+PILOTAGE is a puzzle game with 40 anchorages: bring a fishing fleet home at dusk, every boat on a mooring of her own. Free in the browser for the first 10.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5024,11 +5024,11 @@ SOUNDER is a Game Boy railway game with 12 night shifts: you are the operator at
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### STRAYWOOD
+### STRAYWOOD: A Witch and Kittens Route Puzzle, Free Demo
 
 Store: https://csaf.itch.io/straywood · Our page: https://onefreeman1337.github.io/csaf-releases/games/straywood/ · Paid · free browser demo on the page
 
-The kittens have wandered into the wood. Bring every one of them home. At moonrise the kittens have strayed into the wood, and each one is waiting by a thicket or along the garden wall.
+STRAYWOOD is a puzzle game with 40 woods: fly a witch on her broom and carry every lost kitten home, three at a time. Free in the browser for the first 10.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5844,11 +5844,11 @@ A monster battle UI kit: name plates with level stubs, type coloured move ticket
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Bone and Brass: Dark Fantasy UI Kit (Pixel + HD)
+### Bone and Brass: Dark Fantasy UI Kit, 58 Widgets [Pixel + HD]
 
 Store: https://csaf.itch.io/bone-and-brass-dark-fantasy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/bone-and-brass-dark-fantasy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A grim dark fantasy interface: heavy bone frames, iron panels, tarnished brass, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Bone and Brass is a dark fantasy UI kit with 58 widgets in pixel and HD for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6144,7 +6144,7 @@ Gnomon: 2D sprite shadows for Godot 4, cast from your own sprites Gnomon is a Go
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Godot 4 Shader and VFX Sampler: 132 Free Presets From 11 Addons
+### Godot 4 Shader and VFX Sampler: 132 Free Presets
 
 Store: https://csaf.itch.io/godot-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-sampler/ · Free · pay what you want · Engines: Godot
 
