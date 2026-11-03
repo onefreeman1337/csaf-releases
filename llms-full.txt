@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T09:16:59.086Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T10:57:33.916Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -700,7 +700,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-hd-02-farmstead · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hd-02-farmstead/ · Paid · Engines: Tiled, Godot
 
-490 tiles at 32x32.
+Verdant HD 02 is 490 32x32 farm tiles for Godot 4, Tiled and any engine that takes your own tile size: pasture, hedgerow, plough, corn, stubble, yard and pond.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2408,11 +2408,11 @@ Aperture Core is a 3 plugin photo mode for RPG Maker MZ: the player frames a sho
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Armorial - Generated Heraldic Epilogues & Character Fates for RPG Maker MZ
+### Armorial: Epilogues With Coats of Arms for RPG Maker MZ
 
 Store: https://csaf.itch.io/armorial · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/armorial/ · Paid · Engines: RPG Maker
 
-Your game already knows what happened. Switches got flipped, variables went up, someone was spared or wasn’t.
+Armorial is a 3 file RPG Maker MZ plugin that ends your game with a fate plate for each character, and a coat of arms built from what the player did. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2880,11 +2880,11 @@ Your game already knows which creature becomes which. Your player does not — a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Liturgy — Every Menu Becomes A Printed Object, for RPG Maker MZ
+### Liturgy: Printed Ledger Menus for RPG Maker MZ
 
 Store: https://csaf.itch.io/liturgy · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/liturgy/ · Paid · Engines: RPG Maker
 
-Your menu is the one screen a player opens every session, and in most RPG Maker games it is four blue boxes.
+Liturgy is a 9 file RPG Maker MZ plugin that redraws the main menu, item list and status page as one printed ledger, in 6 house styles. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
