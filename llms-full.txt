@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 787 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T03:14:41.244Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T05:30:14.658Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -818,7 +818,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 68 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 69 products.
 
 ### Bestiary: 12 Dragon, Yokai and Giant Bug Sprites
 
@@ -932,11 +932,11 @@ The farmyard's young. A calf, foal, goat kid, lamb, piglet, gosling, duckling an
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Greenskin 01: The Muster — 144x144 & 72x72 goblin and orc sprites
+### Greenskin 01: 10 Goblin and Orc Sprites [144 & 72 px]
 
 Store: https://csaf.itch.io/greenskin-01-the-muster · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/greenskin-01-the-muster/ · Paid
 
-A whole goblinoid warband, in one style, at one true scale. Most enemy packs give you a goblin.
+Greenskin 01 is 10 top down goblin and orc sprites for RPG Maker MZ, Godot 4 or any engine: one warband, one palette, one true scale. Commercial use is allowed and no credit is needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1049,6 +1049,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/kithfell-03-the-wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-03-the-wildwood/ · Paid
 
 Eight woodland animals for a top-down game: a red deer stag and hind, a wild boar, a grey wolf, a red fox, a badger, a red squirrel and a brown rat. Pack #3 of Kithfell, our animal series: one palette, one 128px cell, one ground line.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Kithfell Companions: 16 Animal Battlers for RPG Maker MZ
+
+Store: https://csaf.itch.io/kithfell-companions-mz-battlers · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-companions-mz-battlers/ · Paid · Engines: RPG Maker
+
+Kithfell Companions is 16 animal side-view battlers for RPG Maker MZ, each with all 18 battle motions, ready for img/sv_actors with no plugin. Use them in commercial and free games, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2392,11 +2400,11 @@ Three free RPG Maker MZ minigames made from any picture in your project. Any Pic
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Aperture Core - In-Game Camera & Photo Mode for RPG Maker MZ
+### Aperture Core: Camera and Photo Mode for RPG Maker MZ
 
 Store: https://csaf.itch.io/aperture-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aperture-core/ · Free · pay what you want · Engines: RPG Maker
 
-Screenshot plugins are free. This is not one. A screenshot plugin writes a PNG to the player's hard drive, and nothing in your game ever knows it happened.
+Aperture Core is a 3 plugin photo mode for RPG Maker MZ: the player frames a shot, racks focus and presses the shutter, and the engine scores the print.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2528,19 +2536,19 @@ Chimera Core is an RPG Maker MZ plugin that gives every captured creature 8 hidd
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Chimera Field - Spawn Tables, Rarity Tiers, Variant Rates & Dex for RPG Maker MZ
+### Chimera Field: Spawn Tables and Dex for RPG Maker MZ
 
 Store: https://csaf.itch.io/chimera-field · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-field/ · Paid · Engines: RPG Maker
 
-Encounter plugins decide when a fight starts. Bestiaries record what you killed. Nothing on the store decides which species appears, where, how rare it is, or whether this one is a variant.
+Chimera Field is a 3 plugin set for RPG Maker MZ creature games: spawn tables per biome, rarity tiers, level bands, variant rates and a Field Guide. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Chorograph — the explored world, redrawn as an inked survey map
+### Chorograph: Inked Exploration Map for RPG Maker MZ
 
 Store: https://csaf.itch.io/chorograph · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chorograph/ · Paid · Engines: RPG Maker
 
-Everywhere the player has walked is redrawn as a hand-inked land survey on aged paper.
+Chorograph is a 4 file RPG Maker MZ plugin that redraws everywhere the party has walked as an inked land survey on aged paper, with no setup and no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2568,11 +2576,11 @@ Cloudshadow is a 2 file RPG Maker MZ plugin that reads your map and casts 5 kind
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Cogwheel — Dungeon Objects, Light Beams & Push Puzzles
+### Cogwheel: Push Blocks and Light Beams for RPG Maker MZ
 
 Store: https://csaf.itch.io/cogwheel · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cogwheel/ · Paid · Engines: RPG Maker
 
-Cogwheel turns dungeon objects into a property of the event, not a program inside it.
+Cogwheel is a 4 plugin dungeon puzzle kit for RPG Maker MZ: put a notetag on an event and it becomes a block, boulder, mirror or plate with its own drawn body.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2644,7 +2652,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/encore-boss-second-phases · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/encore-boss-second-phases/ · Paid · Engines: RPG Maker
 
-Encore is an RPG Maker MZ plugin that gives your bosses a second phase generated from the battler image they already have: 12 forms and 4 drawn transformations, set with one note tag.
+Encore gives RPG Maker MZ bosses a second phase drawn from their own battler: 12 forms and 4 drawn transformations, set with one note tag. Two plugin files, commercial use, no royalty.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2932,7 +2940,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/pelt · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pelt/ · Paid · Engines: RPG Maker
 
-Team dodgeball, inside your RPG. Pelt is a real-time dodgeball scene for RPG Maker MZ.
+Pelt is a team dodgeball minigame for RPG Maker MZ: your party plays any troop on 5 drawn courts, with special throws from their own skills. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2940,7 +2948,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/pendant · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pendant/ · Paid · Engines: RPG Maker
 
-Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of paintings in a drawn gallery.
+Pendant is a spot the difference plugin for RPG Maker MZ and MV: any picture, hung twice in a drawn gallery, with 1 to 12 generated differences. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2964,7 +2972,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/plinth · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/plinth/ · Paid · Engines: RPG Maker
 
-Statues of your own characters, struck from their own sprites. Plinth turns your cast and your monsters into statues.
+Plinth is an RPG Maker MZ plugin that strikes your own characters and monsters into statues in 7 materials, with live petrify and stone battlers. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2972,7 +2980,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/posture · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/posture/ · Paid · Engines: RPG Maker
 
-Your characters sit, kneel, sleep and wave. Every pose is made from the walking sheet they already have. Every MZ map is full of characters who can only stand and walk.
+Posture is an RPG Maker MZ plugin with 9 poses, made from each character's own walking sheet: sit, kneel, read, lie down, sleep, wave and more. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4752,11 +4760,11 @@ You never choose an action. You choose where your four characters stand, continu
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### COMPOSITOR
+### COMPOSITOR: A Game Boy Typesetting Puzzle, Free Demo
 
 Store: https://csaf.itch.io/compositor · Our page: https://onefreeman1337.github.io/csaf-releases/games/compositor/ · Paid · free browser demo on the page
 
-A type-setting puzzle for the Game Boy. You are a compositor. The copy line is pinned above the case, four lead sorts are lying loose in the forme, and the only tool you have is a blank quad you can shove them with.
+COMPOSITOR is a Game Boy typesetting puzzle with 40 formes: push four lead sorts into the composing stick in the right order and the line reads. The first 8 are free in your browser.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4888,11 +4896,11 @@ Linguist of the Deep is a puzzle adventure: learn 18 glyphs of an alien language
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### LODESTONE
+### LODESTONE: A Cave Descent Platformer, Free Demo
 
 Store: https://csaf.itch.io/lodestone · Our page: https://onefreeman1337.github.io/csaf-releases/games/lodestone/ · Paid · free browser demo on the page
 
-The dungeon does what the stones you carry add up to. You go down wearing a carved harness with four sockets.
+LODESTONE is a cave descent platformer with 12 shafts and 12 marks, where the dungeon does what the stones you carry add up to. The first 4 shafts are free in your browser.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4968,11 +4976,11 @@ Grow the roots. Share every path you can. A seed has landed in a meadow. Somewhe
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ROSE ENGINE
+### ROSE ENGINE: A Game Boy Arcade Survival Game, Free Demo
 
 Store: https://csaf.itch.io/rose-engine · Our page: https://onefreeman1337.github.io/csaf-releases/games/rose-engine/ · Paid · free browser demo on the page
 
-A rose engine is the lathe that cuts guilloche, the woven ornament on the face of a pocket watch. It works by moving a cutter against a rotating plate.
+ROSE ENGINE is a Game Boy arcade survival game with endless play: you stay alive inside a rose curve while the lathe cuts it around you. Six dials are free in your browser.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5024,11 +5032,11 @@ The kittens have wandered into the wood. Bring every one of them home. At moonri
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Stringline
+### Stringline: A Castle Whodunit Logic Puzzle, Free Demo
 
 Store: https://csaf.itch.io/stringline · Our page: https://onefreeman1337.github.io/csaf-releases/games/stringline/ · Paid · free browser demo on the page
 
-Every clue is a line you draw. Crossbow bolts are stuck in the walls of Castle Harrowgate and nobody saw the bow. You are the magistrate's stringer.
+Stringline is a castle whodunit in 15 cases, where every clue is a line you draw. The first 3 cases are free in your browser. Crossbow bolts are stuck in the walls of Castle Harrowgate and nobody saw the bow.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5304,7 +5312,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/gravity-plumber · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/gravity-plumber/ · Free
 
-Gravity is not a button here, and it is not yours. The room falls toward whichever of its four wall tanks is heaviest. All you control is where the water goes.
+Gravity Plumber is a free browser puzzle platformer with 24 chambers. The room falls toward whichever of its four wall tanks is heaviest, and all you control is where the water goes.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5576,7 +5584,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/tempo-drift · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/tempo-drift/ · Free
 
-A racer whose road is the beat. Every dash on the lane lines is one beat, and it lights up as you cross it. Change lanes on the beat and the song speeds up, and so does your car.
+TEMPO DRIFT is a free browser rhythm racer with 6 roads and 6 songs, where the road is the beat. Every dash on the lane lines is one beat, and it lights up as you cross it.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
