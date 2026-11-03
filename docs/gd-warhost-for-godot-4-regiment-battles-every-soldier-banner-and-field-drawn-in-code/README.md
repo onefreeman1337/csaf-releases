@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Warhost for Godot 4: Regiment Battles, Every Soldier, Banner and Field Drawn in Code  
 **Engine:** Godot 4.7.2 addon packs (Tools/godot, GDScript + .gdshader, 2D-first): Line A1 VFX and shader packs of 40+ runtime-computed presets with exported parameters, compiling under BOTH Forward+ and Compatibility; Line A2 ports of CSAF's SOLD RPG Maker winners (sigil-core, wrack, jigsaw); Line B Chronicle's systems re-shipped with their designed look after the JRPG has played them (M1). PROVEN by Kernel/godot/gd_gate.js (headless import + --check-only parse + demo run, then every preset photographed WINDOWED under forward_plus and gl_compatibility against an empty-stage control, two visibility instruments, dedupe.js + a pixel-level pair check, raw-source, docs, no .godot cache; the agent then LOOKS). See Wings/Godot/CLAUDE.md.  
-**Docs published:** 2026-11-02
+**Docs published:** 2026-11-03
 
 
 ---
@@ -20,7 +20,7 @@ regiments break and run. When it ends, the survivors of every regiment are hande
 Nothing is loaded: no image files, no sprite sheets, no battlebacks. The soldiers, banners, arrows, spells and the field
 itself are drawn by code at run time. 48 staged battles ship as presets on 12 fields.
 
-Version 1.0.0 · Godot 4.7 (run on 4.7.2; older 4.x versions were not run) · Core Systems Asset Factory
+Version 1.0.1 · Godot 4.7 (run on 4.7.2; older 4.x versions were not run) · Core Systems Asset Factory
 
 ---
 
@@ -157,7 +157,8 @@ exported property, so a preset is also a template.
 
 `WarhostHeraldry.arms(name, side)` returns a regiment's arms: a field, an ordinary (pale, fess, bend, chevron, cross,
 saltire, quarterly, chief, bordure, pile, barry, paly and more), a charge (star, crescent, tower, sword, key, bird, fleur
-and more) and a flag shape (swallowtail, square, pennon, gonfalon), always a metal on a colour or a colour on a metal.
+and more) and a flag shape (swallowtail, square, pennon, gonfalon). The field and what lies on it keep to the rule of tincture, a metal on a
+colour or a colour on a metal. A charge on an ordinary can be metal on metal, such as a gold star on a white fess.
 `WarhostHeraldry.paint(canvas_item, rect, arms)` draws one banner's cloth anywhere (a menu, a war record, a map).
 
 ---
