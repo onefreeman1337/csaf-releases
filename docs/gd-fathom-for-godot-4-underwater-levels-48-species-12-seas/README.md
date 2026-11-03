@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Fathom for Godot 4 - Underwater Levels: 48 Species and 12 Seas Drawn in Code  
 **Engine:** Godot 4.7.2 addon packs (Tools/godot, GDScript + .gdshader, 2D-first): Line A1 VFX and shader packs of 40+ runtime-computed presets with exported parameters, compiling under BOTH Forward+ and Compatibility; Line A2 ports of CSAF's SOLD RPG Maker winners (sigil-core, wrack, jigsaw); Line B Chronicle's systems re-shipped with their designed look after the JRPG has played them (M1). PROVEN by Kernel/godot/gd_gate.js (headless import + --check-only parse + demo run, then every preset photographed WINDOWED under forward_plus and gl_compatibility against an empty-stage control, two visibility instruments, dedupe.js + a pixel-level pair check, raw-source, docs, no .godot cache; the agent then LOOKS). See Wings/Godot/CLAUDE.md.  
-**Docs published:** 2026-10-31
+**Docs published:** 2026-11-03
 
 
 ---
@@ -196,9 +196,11 @@ d.midpoint.connect(func(): get_tree().change_scene_to_file("res://reef.tscn"))
 
 ## Cost and limits
 
-Two hundred creatures in one sea, with the grade, shafts and snow on, averaged under about 20 ms a frame, with no frame over about 52 ms, on our test machine (an integrated AMD Radeon, busy with other work at the time), under both renderers. Each creature is one textured quad a frame. A sea's atlas is painted once when the sea starts, in about 780 ms for that sea's species (a shoal of big animals makes a bigger atlas).
+Two hundred creatures in one sea, with the grade, shafts and snow on, averaged under about 30 ms a frame, with no frame over about 68 ms, on our test machine (an integrated AMD Radeon, busy with other work at the time), under both renderers. Each creature is one textured quad a frame. A sea's atlas is painted once when the sea starts, in about 1180 ms for that sea's species (a shoal of big animals makes a bigger atlas).
 
 Plants are one mesh swayed by a shader: no work per frame, one draw call. The grade and light each read or fill the whole screen once a frame.
+
+**Memory.** Each species is painted into a texture once and kept, shared between nodes, so a game showing a few species at game size uses little. At the large size the store pictures use, opening all 60 presets one after another in one run reached about 900 MB of textures, and Vulkan on our test machine's integrated AMD Radeon then began refusing buffers. All 60 alive at the same moment reached about 3.9 GB, a shape no game has. If you swap species a lot, call `FathomAtlas.clear_cache()` after a scene change: with that call the same 60 presets, opened one after another, stayed under 30 MB with no errors.
 
 - The addon reads the world from the camera's position and zoom: **a rotated Camera2D is not supported** (caustics and depth would not line up).
 - The grade sits on a CanvasLayer, so everything in your world under `grade_layer` goes under water, including your HUD if it is on a lower layer. Put your HUD above `grade_layer` + 2.
