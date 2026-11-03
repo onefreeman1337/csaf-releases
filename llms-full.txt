@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T13:32:14.938Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T16:27:16.095Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -480,11 +480,11 @@ The inside of your castle: 326 tiles at 16x16 in one 81-colour palette: a great 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 58 — Castle Ruin: Ruined Castle Tileset, Verdant 13 Castle After the Siege, Tile for Tile [16x16]
+### Verdant 58: Ruined Castle Tileset After the Siege [16x16]
 
 Store: https://csaf.itch.io/verdant-58-castle-ruin · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-58-castle-ruin/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Your castle, after the siege: 616 tiles at 16x16 in one 65-colour palette.
+Verdant 58 is a 616 tile 16x16 ruined castle tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: Verdant 13's castle after the siege, under the same tile names.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -512,11 +512,11 @@ Bridges, fords and stepping stones for a 16x16 map: 644 tiles in one 52-colour p
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 62 — Tamer Routes: Tall Grass, Ledges, Route Town & Cave for Monster-Tamer RPGs [16x16]
+### Verdant 62: Tamer Routes Tileset for Monster RPGs [16x16]
 
 Store: https://csaf.itch.io/verdant-62-tamer-routes · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-62-tamer-routes/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-The tiles a monster tamer route is made of, at 16x16: 490 tiles in one 55-colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+Verdant 62 is a 490 tile 16x16 tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: the tall grass, ledges, pond, cave and town of a monster tamer route.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -892,11 +892,11 @@ Emberwrit 01 is 10 animated pixel art VFX for 2D games at 128 and 64 px, as PNG 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Farmstead 00: The Yard Flock - 4 free farm bird sprites, 144x144 & 72x72
+### Farmstead 00: 4 Free Farm Bird Sprites [144 & 72 px]
 
 Store: https://csaf.itch.io/farmstead-00-the-yard-flock · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-00-the-yard-flock/ · Free · pay what you want
 
-4 farmyard birds, free: a rooster, a hen, a chick and a duckling, each with every facing and every animation they ship with in the paid Farmstead packs.
+Farmstead 00 is a free pack of 4 farm bird sprites for Godot 4, RPG Maker MZ and any 2D engine: a rooster, a hen, a chick and a duckling. Free for commercial and non commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -964,11 +964,11 @@ Ten more tradesfolk from the same village.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearthhands 03: Watch and Ward — 200x200 & 100x100 villager sprites with strike and hurt
+### Hearthhands 03: 10 Townsfolk Sprites [200 & 100 px]
 
 Store: https://csaf.itch.io/hearthhands-03-watch-and-ward · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-03-watch-and-ward/ · Paid
 
-The town watch, and the townsfolk who can fight.
+Hearthhands 03 is a pack of 10 villager sprites for RPG Maker MZ, Godot 4 and any 2D engine: the town watch, and the townsfolk who can fight. Commercial use in as many projects as you like, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1364,11 +1364,11 @@ The Wildmark Collection is 8 fantasy adventurer sprites for top down RPGs, all t
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Sampler: 4 Free Fantasy Character Sprites, Top-Down RPG [128x128 & 64x64]
+### Wildmark Sampler: 4 Free Fantasy Hero Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/wildmark-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-sampler/ · Free · pay what you want
 
-Four free fantasy adventurer sprites for top-down RPGs, taken file for file from the four paid Wildmark packs: a warrior (Wildmark 01), a forester (Wildmark 02), a dwarf (Wildmark 03) and a dragonkin brawler (Wildmark 04).
+Wildmark Sampler is a free pack of 4 fantasy hero sprites for RPG Maker MZ, Godot 4 and any 2D engine: a warrior, a forester, a dwarf and a dragonkin brawler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2384,11 +2384,11 @@ Your own maps, as islands in the sky. Aloft is an RPG Maker MZ plugin (three Jav
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Anvil - Forging Minigame for Crafting in RPG Maker MZ
+### Anvil: Forging Minigame for Crafting in RPG Maker MZ
 
 Store: https://csaf.itch.io/anvil · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/anvil/ · Paid · Engines: RPG Maker
 
-A hot-metal forging minigame for your RPG that plugs into your crafting.
+Anvil is a forging minigame plugin for RPG Maker MZ: the player hammers a glowing bar to a pattern generated from your own weapon, reads the heat by colour, then quenches it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2760,11 +2760,11 @@ Your item list says Potion. Beside it sits the same little bottle icon every oth
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Goose - Party Board Games for RPG Maker MZ (Generated Dice Boards, Forks, Rivals)
+### Goose: Party Board Game Plugin for RPG Maker MZ
 
 Store: https://csaf.itch.io/goose · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/goose/ · Paid · Engines: RPG Maker
 
-A party board game for your RPG, laid out and drawn by the plugin. Goose drops a Mario Party-style dice board into your game: a fairground, a tavern night, a festival side quest.
+Goose is a party board game plugin for RPG Maker MZ: a dice race across 6 generated landscapes, laid out and drawn by the plugin, against up to 3 rivals.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3288,11 +3288,11 @@ Your database already describes every creature in the game. Nothing draws its fa
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Vista — Procedural Battle Arenas for RPG Maker MZ
+### Vista: Generated Battle Backgrounds for RPG Maker MZ
 
 Store: https://csaf.itch.io/vista · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vista/ · Paid · Engines: RPG Maker
 
-Your battles happen somewhere.
+Vista is an RPG Maker MZ plugin that draws 240 kinds of illustrated battle background from your map's terrain, time and weather, with no image files. Use it in unlimited games, commercial or free, and keep 100% of your revenue.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4920,7 +4920,7 @@ MOONWORT is a short single-player narrative RPG for Windows, with a free demo yo
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### NIGHT PLOUGH
+### NIGHT PLOUGH: A Snow Plough Route Puzzle, Free Demo
 
 Store: https://csaf.itch.io/night-plough · Our page: https://onefreeman1337.github.io/csaf-releases/games/night-plough/ · Paid · free browser demo on the page
 
