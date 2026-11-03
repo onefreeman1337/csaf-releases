@@ -5,7 +5,7 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Township for Godot 4: NPC Daily Routines, Homes and Jobs, and a Town That Keeps Living Off-Screen  
 **Engine:** Godot 4.7.2 addon packs (Tools/godot, GDScript + .gdshader, 2D-first): Line A1 VFX and shader packs of 40+ runtime-computed presets with exported parameters, compiling under BOTH Forward+ and Compatibility; Line A2 ports of CSAF's SOLD RPG Maker winners (sigil-core, wrack, jigsaw); Line B Chronicle's systems re-shipped with their designed look after the JRPG has played them (M1). PROVEN by Kernel/godot/gd_gate.js (headless import + --check-only parse + demo run, then every preset photographed WINDOWED under forward_plus and gl_compatibility against an empty-stage control, two visibility instruments, dedupe.js + a pixel-level pair check, raw-source, docs, no .godot cache; the agent then LOOKS). See Wings/Godot/CLAUDE.md.  
-**Docs published:** 2026-11-02
+**Docs published:** 2026-11-03
 
 
 ---
@@ -20,7 +20,7 @@ round lights the street lamps one by one.
 Where someone is depends only on the clock. A scene loaded at noon, a save, a time skip and a person in a scene you have not loaded are all simply right,
 with no tracking code of yours and nothing stored but the time.
 
-Version 1.0.0 · Godot 4.7 (run on 4.7.2; older 4.x versions were not run) · Core Systems Asset Factory
+Version 1.0.1 · Godot 4.7 (run on 4.7.2; older 4.x versions were not run) · Core Systems Asset Factory
 
 ---
 
