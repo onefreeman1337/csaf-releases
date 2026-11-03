@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T05:30:14.658Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-03T06:28:35.375Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -232,11 +232,11 @@ Verdant 27 Elemental Dungeon is a 16x16 pixel art tileset for RPG Maker MZ, Tile
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 28 — Deep Forest Tileset for RPG Maker MZ, Tiled & Godot: Moss, Fern, Leaf Litter & Root Bank [16x16]
+### Verdant 28: Deep Forest Tileset, 8 Autotile Sets [16x16]
 
 Store: https://csaf.itch.io/verdant-28-deep-forest · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-28-deep-forest/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-554 tiles at 16x16 for an old-growth forest floor: dark loam, cushion moss, leaf litter, a sunlit fern understorey, a trodden trail, and a raised root bank that stands up out of the ground, with great oaks, pines and birches, deadfall, fungi, standing stones and a woodsman's camp.
+Verdant 28 is 554 16x16 tiles for RPG Maker MZ, Tiled and Godot 4: an old growth forest floor of moss, leaf litter, fern and trail, with a raised root bank.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -852,11 +852,11 @@ Deepwarren 01 is 12 dungeon monster sprites at 160 and 80 px with idle, walk, st
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Deepwarren 02 — The Winged Dark, 176x176 flying monster sprites
+### Deepwarren 02: 11 Flying Monster Sprites [176 & 88 px]
 
 Store: https://csaf.itch.io/deepwarren-02-the-winged-dark · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-02-the-winged-dark/ · Paid
 
-Eleven flying dungeon foes on the Deepwarren palette: a looping flight, strike, hurt and a death that falls to the floor.
+Deepwarren 02 is 11 flying dungeon monster sprites for any engine that reads PNG: a looping flight, strike, hurt and a death that falls to the floor. All at 176 and 88 px, on one palette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1044,11 +1044,11 @@ Kithfell 02 is 9 top down house pet sprites: 3 cats, 3 dogs, a rabbit, a ferret 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kithfell 03: The Wildwood — deer, wolf, fox, boar & woodland animals, 128x128 & 64x64 top-down sprites
+### Kithfell 03: 8 Woodland Animal Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/kithfell-03-the-wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-03-the-wildwood/ · Paid
 
-Eight woodland animals for a top-down game: a red deer stag and hind, a wild boar, a grey wolf, a red fox, a badger, a red squirrel and a brown rat. Pack #3 of Kithfell, our animal series: one palette, one 128px cell, one ground line.
+Kithfell 03 is 8 top down woodland animal sprites for RPG Maker MZ, Godot 4 or any engine: stag, hind, boar, wolf, fox, badger, squirrel and rat.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1180,11 +1180,11 @@ Nine top-down cyberpunk pixel art enemies for Godot 4, RPG Maker MZ or any engin
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pocketfolk 01: First Partners — 18 tamer creatures, battle front + back, 128x128 & 64x64
+### Pocketfolk 01: 18 Tamer Creature Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/pocketfolk-01-first-partners · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/pocketfolk-01-first-partners/ · Paid
 
-Eighteen original creatures for a creature-taming RPG, in six three-stage evolution lines, each with a battle FRONT, a battle BACK and a 4-direction overworld walk.
+Pocketfolk 01 is 18 creature sprites for a monster taming RPG in RPG Maker MZ, Godot 4 or any engine: six evolution lines with battle front, back and walk.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5016,11 +5016,11 @@ Your savings are a snowball. Your debt is an avalanche. Steer one working life, 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SOUNDER
+### SOUNDER: A Game Boy Telegraph Railway Game, Free Demo
 
 Store: https://csaf.itch.io/sounder · Our page: https://onefreeman1337.github.io/csaf-releases/games/sounder/ · Paid · free browser demo on the page
 
-You are the night operator at a small railway telegraph office. The dispatcher writes an order on a slip.
+SOUNDER is a Game Boy railway game with 12 night shifts: you are the operator at a small telegraph office, keying orders before two trains meet. The first 2 shifts are free in your browser.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5056,11 +5056,11 @@ You start at level 99 and the game takes it away. You go down the cairn at full 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### The Turning Year
+### The Turning Year: A Seasons Puzzle Adventure, Free Demo
 
 Store: https://csaf.itch.io/the-turning-year · Our page: https://onefreeman1337.github.io/csaf-releases/games/the-turning-year/ · Paid · free browser demo on the page
 
-Ice is a bridge. Flood is a road. Drought is a door. One overworld, drawn four times over (spring, summer, autumn, winter) and one dial that turns the whole world between them.
+The Turning Year is a puzzle adventure with 4 lands and one dial that turns the world through 4 seasons: ice is a bridge, flood a road, drought a door.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6096,11 +6096,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: 23 Addon Packs for Godot 4
+### CSAF Godot Collection: 24 Addon Packs for Godot 4
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-The CSAF Godot Collection puts all 23 of our paid Godot 4.7 addon packs in one project: 1,223 presets for 2D games, royalty free. New packs join it free on the day they launch.
+The CSAF Godot Collection puts all 24 of our paid Godot 4.7 addon packs in one project: 1,273 presets for 2D games, royalty free. New packs join it free on the day they launch.
 
 AI disclosure: AI Assisted, Code, Graphics
 
