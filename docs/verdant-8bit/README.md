@@ -5,7 +5,8 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** Verdant 8-Bit: NES RPG Tileset for RPG Maker MZ [16x16]  
 **Engine:** PixelLab API (REST, from Node) — grid-aligned tile sheets + autotiles  
-**Docs published:** 2026-11-02
+**Store page:** https://csaf.itch.io/verdant-8bit  
+**Docs published:** 2026-11-05
 
 
 ---
@@ -139,7 +140,7 @@ This is a tileset for modern engines drawn in the NES's look, not a cartridge: i
 
 ## Tiled
 
-`importers/Tiled/` holds one `.tsx` tileset per sheet, the terrain sets as Wang sets. `sample_maps/` holds 5 `.tmx` maps (The Overworld, The Castle Town, The Interiors, The Cavern, The Lava Keep), each opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel against its PNG. The animations play in Tiled: its renderer was advanced through them and compared frame by frame.
+`importers/Tiled/` holds one `.tsx` tileset per sheet. Each of the 22 terrain sets (the 4 animated ones included) and the 6 A4 wall-top blocks is a Tiled Wang set (mixed: corners and edges, one terrain colour), the kind Tiled's Terrain brush paints with: 46 of its 47 tiles carry a wang id, and the single-cell tile, which has no edge or corner to match, is stamped by hand. On an animated set each wang id names the shape's first frame, which carries the animation. Every wang id was looked up on a test map holding all 46 shapes and the result rendered by Tiled 1.12.2's own tmxrasterizer, identical to the pack's own tile table (6,552 cells). The brush itself was not driven, because no Tiled editor runs where this pack is built. The 12 roof and wall-face blocks (16 shapes each) are placed tile by tile. `sample_maps/` holds 5 `.tmx` maps (The Overworld, The Castle Town, The Interiors, The Cavern, The Lava Keep), each opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel against its PNG. The animations play in Tiled: its renderer was advanced through them and compared frame by frame.
 
 ## Godot 4
 
