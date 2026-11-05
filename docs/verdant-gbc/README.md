@@ -1,11 +1,12 @@
-# Verdant GBC: Route, Cave and Town in Game Boy Color, Four Seasons by Palette Swap, GB Studio Color Mode and RPG Maker MZ Ready [16x16] — Documentation
+# Verdant GBC: Route, Cave and Town Tileset [16x16] — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** Verdant GBC: Route, Cave and Town in Game Boy Color, Four Seasons by Palette Swap, GB Studio Color Mode and RPG Maker MZ Ready [16x16]  
+**Product:** Verdant GBC: Route, Cave and Town Tileset [16x16]  
 **Engine:** PixelLab API (REST, from Node) — grid-aligned tile sheets + autotiles  
-**Docs published:** 2026-10-31
+**Store page:** https://csaf.itch.io/verdant-gbc  
+**Docs published:** 2026-11-05
 
 
 ---
@@ -93,13 +94,13 @@ The count treats only identical 8x8 blocks as one tile and gives no credit for f
 
 GB Studio is not installed where this pack is built, so these scenes have not been opened in GB Studio. What was done instead: GB Studio's palette merge was re-implemented from its own source code (`autoColor.ts`, commit eb6aa8a), and every shipped background was run through it from the PNG on disk, in all 4 seasons, with colour correction off and at its default. Every pixel repaints to its own colour in both. `budget.json` beside the backgrounds holds the figures, scene by scene. Colour correction is a project setting and it is on by default: it treats each PNG colour as the colour wanted on screen, so the most saturated shades land a little off, because the correction cannot quite reach them. No palette loses a shade.
 
-To build your own scenes, paint them in Tiled with the `.tsx` sets (autotiling works there), export the map as a PNG and keep every 8x8 block inside one palette. `importers/GBStudio/palettes/` lists all seven palettes per environment, slot by slot, per season, for the palette editor. A scene of your own has no `.mono.png` until you make one; GB Studio's changelog says that since 4.2.0, extracting a background's palettes generates a matching one.
+To build your own scenes, paint them in Tiled with the `.tsx` sets (each autotile set is a Terrain brush there), export the map as a PNG and keep every 8x8 block inside one palette. `importers/GBStudio/palettes/` lists all seven palettes per environment, slot by slot, per season, for the palette editor. A scene of your own has no `.mono.png` until you make one; GB Studio's changelog says that since 4.2.0, extracting a background's palettes generates a matching one.
 
 ## Using it in other engines
 
 ### Tiled
 
-`importers/Tiled/` holds one `.tsx` tileset per sheet, the autotile sets as Wang sets. `sample_maps/` holds 7 `.tmx` maps (The Route, The Cave, The Town: Street, The Town: Square, Interior: Home, Interior: Shop, Interior: Clinic), each opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel against its PNG. The waterfall plays in Tiled: its renderer was advanced through the animation and compared frame by frame.
+`importers/Tiled/` holds one `.tsx` tileset per sheet. Each of the 12 autotile sets is a Tiled Wang set (mixed: corners and edges, one terrain colour), the kind Tiled's Terrain brush paints with: 46 of its 47 tiles carry a wang id, and the single-cell tile, which has no edge or corner to match, is stamped by hand. Every wang id was looked up on a test map holding all 46 shapes and the result rendered by Tiled 1.12.2's own tmxrasterizer, identical to the pack's own tile table (2,808 cells). The brush itself was not driven, because no Tiled editor runs where this pack is built. `sample_maps/` holds 7 `.tmx` maps (The Route, The Cave, The Town: Street, The Town: Square, Interior: Home, Interior: Shop, Interior: Clinic), each opened and rendered by Tiled 1.12.2's own tmxrasterizer and compared pixel for pixel against its PNG. The waterfall plays in Tiled: its renderer was advanced through the animation and compared frame by frame.
 
 ### Godot 4
 
