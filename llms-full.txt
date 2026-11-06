@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-06T05:03:04.613Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-06T09:15:03.217Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3556,11 +3556,11 @@ A race meeting your players can bet on.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Dossier - Investigation, Exhibit & Deduction System
+### Dossier: Detective Case Generator for GameMaker, 44 Exhibits
 
 Store: https://csaf.itch.io/dossier-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/dossier-gamemaker/ · Paid · Engines: GameMaker
 
-Dossier generates a mystery and then draws it. Exhibits establish facts. Testimony makes claims.
+Dossier is a detective mystery system for GameMaker: it deals a case from a seed, draws 44 kinds of exhibit, and finds the lie each one exposes. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
