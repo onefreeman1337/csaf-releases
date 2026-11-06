@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 790 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 791 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-06T19:38:29.422Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-06T22:20:40.250Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -818,7 +818,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 69 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 70 products.
 
 ### Bestiary: 12 Dragon, Yokai and Giant Bug Sprites
 
@@ -1225,6 +1225,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sparkfall-02-game-feel/ · Paid · Engines: Godot
 
 60 pixel-art game-feel effects for 2D games: the dust, hits, pickups and pop-ups that make jumping, fighting and collecting feel good. 51 one-shots and 9 loops, each 8 frames, at 64x64 and 32x32.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Sprite Library: 54 CSAF Sprite Packs, Plus Every New One
+
+Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
+
+Buy once, keep every pack that joins. The price rises as the library grows. How the future packs work When a new CSAF sprite pack comes out, its files are added to this page on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6036,11 +6044,11 @@ A dungeon crawler UI kit: skull-cornered windows, a minimap, counters and torche
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 26 CSAF UI Kits, Plus Every New One
+### UI Kit Collection: All 27 CSAF UI Kits, Plus Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Royalty free in your games, no credit required. Try twelve of the themes first in the free UI Kit Sampler. How new kits join When a new CSAF UI kit comes out, its files are added to this page on launch day.
+Every CSAF UI kit in one download: 27 kits, 31 themes and 2,425 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
