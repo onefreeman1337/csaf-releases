@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 789 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 790 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-06T17:53:00.237Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-06T19:38:29.422Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -740,7 +740,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 97 packs and 59,844 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 98 packs and 60,551 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1970,7 +1970,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 50 products.
+Game music packs. Formats and track counts are stated on each store page. 51 products.
 
 ### Adversary: 10 Track Battle and Boss Music Pack
 
@@ -2169,6 +2169,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/longships · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/longships/ · Paid
 
 Longships is a 44 track Norse saga score for RPGs: the longhall and the whale road, the barrow and the ice, a battle set, the jarl, the sea serpent and Ragnarok.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Music Library: 49 Game Music Albums, Plus Every New One
+
+Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
+
+CSAF Music Library is 49 royalty free game music albums, 2,166 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5900,14 +5908,6 @@ Crucible is a crafting, cooking and alchemy UI kit for Godot 4 and five more eng
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF UI Kit Collection: 26 Game UI Kits, 30 Themes
-
-Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
-
-All 26 of our paid game UI kits in one download: 30 themes and 2,314 widgets, pixel and HD, with files for Godot 4, Unity, RPG Maker MZ and three more engines.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Duct Tape: 80 Widget Grunge and Distressed UI Kit
 
 Store: https://csaf.itch.io/duct-tape-grunge-and-distressed-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/duct-tape-grunge-and-distressed-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
@@ -6033,6 +6033,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/tiny-delve-16px-dungeon-crawler-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/tiny-delve-16px-dungeon-crawler-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
 A dungeon crawler UI kit: skull-cornered windows, a minimap, counters and torches, ready for six engines Tiny Delve is a pixel art dungeon crawler and roguelike UI kit with 86 widgets in 155 widget states, in pixel mode and HD mode, with files for Godot 4 (4.7 tested), Unity 6, Unreal Engine,...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### UI Kit Collection: All 26 CSAF UI Kits, Plus Every New One
+
+Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Royalty free in your games, no credit required. Try twelve of the themes first in the free UI Kit Sampler. How new kits join When a new CSAF UI kit comes out, its files are added to this page on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6300,11 +6308,11 @@ Fort Vale is a pack of 14 low poly PS1-style modern soldier characters for Godot
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Greyhollow: 14 PSX Medieval Townsfolk (Rigged, Animated)
+### Greyhollow + Hollyfrost: 28 PSX Medieval and Christmas NPCs
 
 Store: https://csaf.itch.io/greyhollow-psx-townsfolk · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/greyhollow-psx-townsfolk/ · Paid · Engines: Blender
 
-Greyhollow is a pack of 14 low poly PS1-style medieval townsfolk characters for Godot 4, Unity and Unreal.
+Greyhollow + Hollyfrost is 28 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 medieval townsfolk and 14 Christmas characters. Free samplers of both are on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
