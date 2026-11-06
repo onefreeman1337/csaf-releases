@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-03T22:58:41.156Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-06T04:39:19.298Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -96,11 +96,11 @@ Verdant 10 Harbour is a 16x16 harbour tileset for RPG Maker MZ, Tiled, Godot 4 a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 11 — Vessel Tileset for RPG Maker MZ, Tiled & Godot: Deck, Hull, Hold & Open Sea [16x16]
+### Verdant 11: Ship Deck, Hull and Open Sea Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-11-vessel · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-11-vessel/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-A deck you can build a level ON, not a boat you can put on a map. 477 tiles, and 376 of them are the joins. A holystoned oak deck you can lay out. A bulwark that reads as standing up.
+Verdant 11 is a 477 tile 16x16 ship tileset for RPG Maker MZ, Tiled and Godot 4: a deck you can lay out and walk on, with a hold, a cabin and open sea.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -296,11 +296,11 @@ Store: https://csaf.itch.io/verdant-35-festival-fair · Our page: https://onefre
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 36 — Mediterranean Coast Tileset for RPG Maker MZ, Tiled & Godot: Harbour, Beach, Houses & Windmill [16x16]
+### Verdant 36: Mediterranean Coast Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-36-mediterranean-coast · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-36-mediterranean-coast/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-347 tiles at 16x16 for a harbour village on a sunny coast: beach sand, the sea with a surf line along the shore, red-earth terraces on the hill, a stone quay standing in the water, whitewashed houses under terracotta roofs, olive trees, parasols, rowboats and a windmill whose sails turn.
+Verdant 36 is a 347 tile 16x16 Mediterranean coast tileset for RPG Maker MZ, Tiled and Godot 4: a harbour village with a beach, a quay and a windmill.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -648,11 +648,11 @@ Verdant Autotile Playground is a free browser tool for a 47-mask autotile set, w
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Battlebacks: 40 Pixel Battle Backgrounds, 10 Biomes x 4 Times of Day, RPG Maker MZ, 1280x720 & VX Ace
+### Verdant Battlebacks: 40 Pixel RPG Battle Backgrounds
 
 Store: https://csaf.itch.io/verdant-battlebacks · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-battlebacks/ · Paid · Engines: RPG Maker
 
-40 battle backgrounds for RPG Maker, in the Verdant series' pixel-art look: 10 biomes, each at dawn, day, dusk and night.
+Verdant Battlebacks is 40 pixel art battle backgrounds for RPG Maker MZ, with 1280x720 and VX Ace sets: 10 biomes, each at dawn, day, dusk and night. Commercial use is permitted in unlimited projects with no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -996,11 +996,11 @@ The Hearthhands village on All Hallows' Eve.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearthhands Portraits — 38 dialogue portraits, 64x64 & 128x128 + MZ face sets
+### Hearthhands Portraits: 38 Dialogue Sprites [64 & 128 px]
 
 Store: https://csaf.itch.io/hearthhands-portraits · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-portraits/ · Paid
 
-A face for every villager in the dialogue box. 38 portraits for all 19 villagers of Hearthhands 01 and 02, in two expressions, neutral and smile.
+Hearthhands Portraits is 38 pixel art dialogue portraits for RPG Maker MZ and any other engine: 19 villagers, each in neutral and smile. Licence below, free sample on the Hearthhands Sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3444,11 +3444,11 @@ Every enemy band stages its own ground.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Borough - Settlement And Architecture That Draws Its Own Buildings
+### Borough: Procedural Town Buildings for GameMaker
 
 Store: https://csaf.itch.io/borough-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/borough-gamemaker/ · Paid · Engines: GameMaker
 
-Every image on this page was rendered by the product itself. There is not one sprite in the package. A tileset gives you a town that looks the same in the last hour of your game as in the first.
+Borough is a GameMaker system that draws a town street from code: 14 building types, each composed from the settlement's own state, with no sprites to import.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3716,11 +3716,11 @@ Kinetic UI is 8 spring animated interface widgets for GameMaker, drawn at runtim
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Lexicon - An Invented Written Language Your Player Learns To Read
+### Lexicon: Learnable Fantasy Alphabets for GameMaker
 
 Store: https://csaf.itch.io/lexicon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/lexicon-gamemaker/ · Paid · Engines: GameMaker
 
-Lexicon invents a complete writing system from a seed, writes it on everything in your game, and lets the player learn to read it. Signs, tombstones, spellbook pages, banners, dialogue.
+Lexicon is a GameMaker system that invents a 36 glyph writing system from a seed, writes it across your game and lets the player learn to read it. Royalty free in commercial games, and the alphabets it invents are yours.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3772,11 +3772,11 @@ Every creature carves its own mask. Masque reads the enemy and character records
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Menagerie — Companions, Breeding & Ancestry Emblems for GameMaker
+### Menagerie: Companion Breeding System for GameMaker
 
 Store: https://csaf.itch.io/menagerie-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/menagerie-gamemaker/ · Paid · Engines: GameMaker
 
-Menagerie is a complete companion system for GameMaker whose artwork the product draws itself.
+Menagerie is a companion and breeding system for GameMaker: 24 species marks, 8 bloodlines, and an emblem for each child composed from its ancestry. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
