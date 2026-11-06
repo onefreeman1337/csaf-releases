@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 789 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-06T11:00:52.195Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-06T17:53:00.237Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -248,11 +248,11 @@ Verdant 29 is a 498 tile 16x16 crystal cave tileset for RPG Maker MZ, Tiled and 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 30 — Rail Terminus Tileset for RPG Maker MZ, Tiled & Godot: Tracks, Platforms, Concourse & Yard [16x16]
+### Verdant 30: Rail Terminus Train Station Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-30-rail-terminus · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-30-rail-terminus/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-541 tiles at 16x16 for a railway terminus and the yard behind it: ballasted track running both ways, raised island platforms with a painted edge, a concourse hall floor, granite forecourt setts, weeds through the ballast and a cinder patch, with the landmarks a station is recognised by — a...
+Verdant 30 is a 541 tile 16x16 train station tileset for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -504,11 +504,11 @@ A wizard school's library, alchemy hall and observatory: 382 tiles at 16x16 in o
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 61 — Spans: Bridges, Fords & Stepping Stones Over Water and Chasm, Every Style in Both Directions [16x16]
+### Verdant 61: Bridge, Ford and Stepping Stone Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-61-spans · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-61-spans/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Bridges, fords and stepping stones for a 16x16 map: 644 tiles in one 52-colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+Verdant 61 is a 644 tile 16x16 bridge tileset for RPG Maker MZ, Tiled, Godot 4 and Unity. It holds 9 bridge styles over water and chasm, every one both ways, plus an animated ford and stepping stones.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -740,7 +740,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 96 packs and 56,064 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 97 packs and 59,844 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -940,11 +940,11 @@ Greenskin 01 is 10 top down goblin and orc sprites for RPG Maker MZ, Godot 4 or 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Grovekeep 01: Trees and Flora - 47 nature sprites, 128x128 & 64x64
+### Grovekeep 01: 47 Tree and Nature Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/grovekeep-01-trees-and-flora · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/grovekeep-01-trees-and-flora/ · Paid
 
-47 nature props in one style and one 64-colour palette: 12 trees and saplings, 7 shrubs and thickets, 7 ferns and grasses, 11 wildflowers, 4 fungi and 6 pieces of deadwood.
+47 nature sprites for Godot 4, RPG Maker MZ or any engine, in one style and one 64 colour palette. There are 12 trees and saplings, 7 shrubs and thickets, 7 ferns and grasses, 11 wildflowers, 4 fungi and 6 pieces of deadwood.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1228,11 +1228,11 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Streetlight 01: Modern Townsfolk — 128x128 & 64x64 top-down NPC sprites
+### Streetlight 01: 10 Modern Townsfolk Sprites [128 & 64 px]
 
 Store: https://csaf.itch.io/streetlight-01-modern-townsfolk · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/streetlight-01-modern-townsfolk/ · Paid
 
-Ten present-day townsfolk for a modern top-down game. Pack #1 of Streetlight, the first contemporary series in our catalogue: one palette, one grid, one ground line, so every future Streetlight pack drops onto the same map.
+Ten present day townsfolk sprites for a modern top down game in RPG Maker MZ, Godot 4 or any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1374,7 +1374,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 73 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 74 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1845,6 +1845,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/slackwater-fishing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/slackwater-fishing-sound-effects/ · Paid
 
 Slackwater is a pack of 129 fishing sound effects for any game engine: the cast, the bite, the fight on the drag and the catch, on 5 different waters.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Sound Library: Every CSAF Sound Effects Pack, Plus New Ones
+
+Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
+
+CSAF Sound Library is 10,445 royalty free sound effects in 69 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4792,7 +4800,7 @@ CSAF Pocket Anthology is 6 original Game Boy games as real 32 KB.gb ROMs, with a
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CUTBANK
+### CUTBANK: A Game Boy Geology Deduction Game, Free Demo
 
 Store: https://csaf.itch.io/cutbank · Our page: https://onefreeman1337.github.io/csaf-releases/games/cutbank/ · Paid · free browser demo on the page
 
@@ -6096,11 +6104,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: 24 Addon Packs for Godot 4
+### CSAF Godot Collection: All 25 Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-The CSAF Godot Collection puts all 24 of our paid Godot 4.7 addon packs in one project: 1,273 presets for 2D games, royalty free. New packs join it free on the day they launch.
+Every CSAF addon pack for Godot 4 in one project: 25 packs, 1,321 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth is only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
