@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 788 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-06T09:15:03.217Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-06T11:00:52.195Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -304,11 +304,11 @@ Verdant 36 is a 347 tile 16x16 Mediterranean coast tileset for RPG Maker MZ, Til
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 37 — Cloud Realm Tileset for RPG Maker MZ, Tiled & Godot: Sky Islands, Golden Gate & Rainbow [16x16]
+### Verdant 37: Cloud Realm Sky Island Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-37-cloud-realm · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-37-cloud-realm/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-335 tiles at 16x16 for a realm above the clouds: cloud islands floating in open sky with billowed edges and lavender undersides, gilded alabaster terraces, a golden brick path, pools of liquid light, a golden gate, a rainbow, trees of golden leaves, a fountain of light and an orrery whose...
+Verdant 37 is a 335 tile 16x16 cloud realm tileset for RPG Maker MZ, Tiled and Godot 4: cloud islands in open sky, gilded terraces, a golden gate and a rainbow.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -680,11 +680,11 @@ Verdant GBC is a 16x16 Game Boy Color tileset for GB Studio, Tiled, Godot 4, RPG
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Harvestables — 45 Props in 12 Harvest Chains [16x16]
+### Verdant Harvestables: Farm Props Tileset, 12 Chains [16x16]
 
 Store: https://csaf.itch.io/verdant-harvestables · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-harvestables/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-Most tile packs ship a tree. A game where the player harvests needs the tree, the chopped trunk, the stump, the regrowth, and the log that drops.
+Verdant Harvestables is a 16x16 props pack for RPG Maker MZ, Tiled and Godot 4: 45 props in 12 harvest chains, each chain ending in the item it drops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -744,11 +744,11 @@ Verdant Library is every paid Verdant tileset in one download: 96 packs and 56,0
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Openables — 34 Doors, Chests, Gates & Hatches That Open: RPG Maker MZ Event Sheets, Tiled & Godot [16x16]
+### Verdant Openables: 34 Opening Door and Chest Tiles [16x16]
 
 Store: https://csaf.itch.io/verdant-openables · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-openables/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-Every door, gate, shutter, cabinet, locker, chest and hatch in the Verdant series, made to open. 34 objects in the series' 16x16 pixel-art look, each in four states: closed, opening, opening, open.
+Verdant Openables is 34 doors, chests, gates and hatches that open, in 16x16 pixel art for RPG Maker MZ, Tiled and Godot 4. Each one has four states: closed, opening, opening and open.
 
 AI disclosure: AI Assisted, Code, Graphics
 
