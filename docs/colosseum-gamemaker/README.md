@@ -201,7 +201,7 @@ untouched rather than half-loaded.
 
 ## What was actually tested
 
-- **A real Igor build**, runtime `2024.14.4.268`, exit 0, 0 errors, 0 warnings, 179 resources compiled. The gate
+- **A real Igor build**, runtime `2024.14.4.268`, exit 0, 0 errors, 0 warnings, 178 resources compiled. The gate
   was proven able to fail on this package: a deliberate syntax break took it to *"NOT CLEAN - exit 1, 2 errors"*
   naming the `csm_board` script at line 44, and the file was then restored byte-identical.
 - **75 assertions, in engine, on the built executable** (`Colosseum.exe -selftest`), all passing. They cover the
