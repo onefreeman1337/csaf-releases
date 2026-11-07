@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 795 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-07T06:44:23.128Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-07T16:48:49.661Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -456,11 +456,11 @@ Verdant 54 is a 633 tile 16x16 tropical tileset for RPG Maker MZ, Tiled, Godot 4
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 55 — Frontier Wild West Tileset for RPG Maker MZ, Tiled, Godot & Unity: Boomtown, Prairie, Canyon [16x16]
+### Verdant 55: Wild West Frontier Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-55-frontier · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-55-frontier/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-A Wild West setting for your map: 344 tiles at 16x16 in one 67-colour palette: a boomtown with a two-storey saloon, a general store and a sandstone jail on a plank boardwalk, open golden prairie with a fenced corral, and a red-rock canyon with raised slickrock benches and a mine.
+Verdant 55 is a Wild West tileset at 16x16 for RPG Maker MZ, Tiled, Godot 4 and Unity: 344 tiles in one 67 colour palette. It covers a boomtown, open prairie and a red rock canyon.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1236,11 +1236,11 @@ Skyfoundling 01 is 10 flying bird and insect sprites with ground shadows for God
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sparkfall 01: Status Auras - 48 Pixel State Overlays for RPG Maker MZ, Godot and GameMaker
+### Sparkfall 01: 48 Status Effect Sprites for RPG Maker MZ
 
 Store: https://csaf.itch.io/sparkfall-01-status-auras · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sparkfall-01-status-auras/ · Paid
 
-48 looping pixel-art status effects for RPG Maker MZ state overlays, Godot 4 and GameMaker: 25 ailments and 23 buffs, each an 8-frame loop at 96x96 and 48x48.
+Sparkfall 01 is 48 looping pixel art status effects for RPG Maker MZ, Godot 4 and GameMaker: 25 ailments and 23 buffs, each an 8 frame loop at 96x96 and 48x48.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1252,7 +1252,7 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 54 CSAF Sprite Packs, Plus Every New One
+### Sprite Library: 55 CSAF Sprite Packs, Plus Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
@@ -1390,7 +1390,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 74 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 75 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1469,6 +1469,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blip-04-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-04-dialogue-voices/ · Paid
 
 A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a different synthesis method.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Blip Library: 7 Dialogue Sound Packs, Plus Every New One
+
+Store: https://csaf.itch.io/blip-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-library/ · Paid
+
+Blip Library is 1,329 royalty free dialogue sound effects in 7 packs for RPG Maker, Godot, Unity, GameMaker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2944,7 +2952,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: All 120 CSAF Plugins, Plus Every New One
+### MZ Plugin Library: All 121 CSAF Plugins, Plus Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
