@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 791 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 794 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-06T22:20:40.250Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-07T03:39:10.184Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 101 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 102 products.
 
 ### Verdant 00: Free Tileset Sampler, 878 Tiles [16x16]
 
@@ -320,11 +320,11 @@ Verdant 38 Cascades is a 16x16 waterfall tileset for RPG Maker MZ, Tiled, Godot 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 39 — Crossings: Dirt, Sand, Stone, Water & Snow Transitions for RPG Maker MZ, Tiled & Godot [16x16]
+### Verdant 39: Crossings Terrain Transition Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-39-crossings · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-39-crossings/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-Ground that meets ground, with no strip of grass in between. 12 complete 47-mask transition sets for the Verdant 16x16 series: a dirt road onto a beach, a pond sitting in sand, snow on stone, ash on dirt.
+Verdant 39 is a 592 tile 16x16 terrain transition tileset for RPG Maker MZ, Tiled and Godot 4. Ground meets ground with no strip of grass in between: a dirt road runs onto a beach, a pond sits in sand, snow lies on stone.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -400,11 +400,11 @@ A museum interior, complete enough to build a level from, in the Verdant series'
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 48 — Digital World: Cyberspace Tileset, 34 Objects, RPG Maker MZ, Tiled & Godot [16x16]
+### Verdant 48: Digital World Cyberspace Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-48-digital-world · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-48-digital-world/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-A digital world, complete enough to build a level from, in the Verdant series' 16x16 pixel-art look: the inside of a machine for the cyberspace dungeon an RPG keeps for its last act.
+Verdant 48 is a 389 tile 16x16 cyberspace tileset for RPG Maker MZ, Tiled and Godot 4.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -520,11 +520,11 @@ Verdant 62 is a 490 tile 16x16 tileset for RPG Maker MZ, Tiled, Godot 4 and Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 63 — Ice Palace: a Castle Made of Ice, Frozen Moat, Crystal Spires & Ice Throne [16x16]
+### Verdant 63: Ice Palace Winter Castle Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-63-ice-palace · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-63-ice-palace/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-A castle built of ice, complete enough to build a level from, at 16x16: 587 tiles in one locked 40-colour palette.
+Verdant 63 is a 587 tile 16x16 ice palace tileset for RPG Maker MZ, Tiled, Godot 4 and Unity.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -717,6 +717,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/verdant-hex-02-volcanic-jungle-wetland · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hex-02-volcanic-jungle-wetland/ · Paid · Engines: Tiled, Godot
 
 Verdant Hex 02 is a 32x32 pointy top hex tileset in pixel art for Godot 4 and Tiled: ash, lava, jungle and swamp for strategy maps and overworlds.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Verdant Interiors Library: All 5 Interior Tileset Packs
+
+Store: https://csaf.itch.io/verdant-interiors-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-interiors-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack. Works with RPG Maker MZ, Tiled and Godot 4. Free to try first: the Verdant 00 Series Sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -996,6 +1004,14 @@ The Hearthhands village on All Hallows' Eve.
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Hearthhands Library: 8 Villager Sprite Packs, Every New One
+
+Store: https://csaf.itch.io/hearthhands-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-collection/ · Paid
+
+Buy once, keep every Hearthhands pack that joins. How the future packs work When a new Hearthhands pack comes out, its files are added to this page on launch day.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Hearthhands Portraits: 38 Dialogue Sprites [64 & 128 px]
 
 Store: https://csaf.itch.io/hearthhands-portraits · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-portraits/ · Paid
@@ -1257,14 +1273,6 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/farmstead-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-collection/ · Paid
 
 24 farm animals and farmhands on one locked palette, every one in 4 directions, at 144x144 and 72x72. What is in it Farmstead 01: Byre and Barn (8): dairy cow, sow, ewe, billy goat, rooster, gander, milkmaid, stablehand.
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### The Hearthhands Collection - 19 villager sprites, 200x200 & 100x100
-
-Store: https://csaf.itch.io/hearthhands-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-collection/ · Paid
-
-The Hearthhands Collection is 19 top down villager sprites for RPG Maker MZ and Godot 4, at 200 and 100 px, on one 43 colour palette. Royalty free, with a free sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1860,7 +1868,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 10,445 royalty free sound effects in 69 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 10,847 royalty free sound effects in 72 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2180,11 +2188,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 49 Game Music Albums, Plus Every New One
+### Music Library: 50 Game Music Albums, Plus Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 49 royalty free game music albums, 2,166 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 50 royalty free game music albums, 2,210 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2390,7 +2398,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 123 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 124 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2632,11 +2640,11 @@ Courtcard is 9 RPG Maker MZ plugin files that draw a face for every card in your
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Creel — Every Fish Your Game Can Catch, Drawn at Runtime, for RPG Maker MZ
+### Creel: Generated Fish for RPG Maker MZ Fishing Games
 
 Store: https://csaf.itch.io/creel · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/creel/ · Paid · Engines: RPG Maker
 
-Every fishing plugin on this store sells you the catching. Not one of them draws the fish. They take the fish's appearance as an input you supply — an icon, a sprite, something you buy on the art shelf and wire in by hand.
+Creel is an RPG Maker MZ plugin that draws a distinct fish for every species your game declares: 12 body plans and 8 fin sets make 96 silhouettes. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2712,11 +2720,11 @@ Every HUD plugin for RPG Maker MZ lets you position a bar. None of them draw one
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Facet — every gem is cut and lit
+### Facet: Cut and Lit Gemstones for RPG Maker MZ
 
 Store: https://csaf.itch.io/facet · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/facet/ · Paid · Engines: RPG Maker
 
-Your database already knows which items are gems. It has never had a way to show one.
+Facet is an RPG Maker MZ plugin that draws every gem, ore and crystal in your database as a cut, lit stone: 13 cuts and 16 minerals, all drawn in code.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2933,6 +2941,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/lucidity · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lucidity/ · Paid · Engines: RPG Maker
 
 Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers it falls through, and 44 apparitions drawn by code as it falls. Royalty free in commercial games.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### MZ Plugin Library: All 120 CSAF Plugins, Plus Every New One
+
+Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
+
+Each plugin sits in its own folder exactly as its own page delivers it, with its own Readme, LICENSE and plugin commands. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4718,7 +4734,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 52 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 53 products.
 
 ### ANATOMIST
 
@@ -4805,6 +4821,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/cryptmarch · Our page: https://onefreeman1337.github.io/csaf-releases/games/cryptmarch/ · Paid · free browser demo on the page
 
 CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written by hand in HTML5.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### CSAF Games Library: All 44 Paid Games, Plus Every New One
+
+Store: https://csaf.itch.io/games-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/games-library/ · Paid
+
+Every new paid game from the line joins at no extra cost on its launch day.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6120,11 +6144,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: All 25 Addon Packs + Every New One
+### CSAF Godot Collection: All 26 Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 25 packs, 1,321 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth is only here for now.
+Every CSAF addon pack for Godot 4 in one project: 26 packs, 1,369 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth and Dungeon Forge are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6348,11 +6372,11 @@ Ironvale is 14 low poly PSX fantasy characters for Godot, Unity and Unreal, with
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Last Shift: 13 Animated PSX Survival Horror Characters
+### Last Shift + Blackwater: 27 PSX Survivors and Infected
 
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
-Last Shift is 13 low poly PSX survivors, each rigged with 45 animation clips, with GLB and FBX files for Godot, Unity and Unreal. Free sampler on this page.
+Last Shift + Blackwater is 27 low poly PS1-style survival horror characters for Godot 4, Unity and Unreal: 13 human survivors and 14 infected. Free samplers of both are on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
