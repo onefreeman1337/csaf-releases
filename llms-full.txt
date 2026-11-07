@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-07T16:48:49.661Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-07T19:39:02.517Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -748,7 +748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 98 packs and 60,551 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 99 packs and 61,124 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -996,11 +996,11 @@ The Hearthhands village harbour, at work.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearthhands Hallowtide: the Costumed Village — 200x200 & 100x100 Halloween villager sprites
+### Hearthhands Hallowtide: 10 Halloween Villager Sprites
 
 Store: https://csaf.itch.io/hearthhands-hallowtide · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-hallowtide/ · Paid
 
-The Hearthhands village on All Hallows' Eve.
+10 Hearthhands villagers in Halloween costume, for RPG Maker MZ and Godot 4 Each has an idle, a 6 frame walk and a 6 frame costume move in all four directions, at 200x200 and 100x100.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2196,11 +2196,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 50 Game Music Albums, Plus Every New One
+### Music Library: 51 Game Music Albums, Plus Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 50 royalty free game music albums, 2,210 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 51 royalty free game music albums, 2,254 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2348,11 +2348,11 @@ The Run is a 44 track score for a roguelike or dungeon crawler, from the hub bet
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### The Sunken Choir - A Gothic Dungeon Crawler Score - 42 Tracks
+### The Sunken Choir: 42 Track Gothic Dungeon Music Pack
 
 Store: https://csaf.itch.io/the-sunken-choir · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-sunken-choir/ · Paid
 
-Forty-two tracks for a game that goes down. A complete gothic dungeon-crawler score in one musical voice, built on a single idea: the cathedral is sinking, and every theme in the album is the same hymn heard at a different depth.
+A 42 track gothic dungeon crawler score built on one hymn 42 tracks, 67 minutes 40 seconds of music, OGG plus editable MIDI, 37 seamless loops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4840,7 +4840,7 @@ CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on on
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CSAF Games Library: All 44 Paid Games, Plus Every New One
+### CSAF Games Library: All 45 Paid Games, Plus Every New One
 
 Store: https://csaf.itch.io/games-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/games-library/ · Paid
 
