@@ -217,7 +217,7 @@ carry `cht` in their names), then rename your own calls from `cht_` to `ctn_`.
 GML has no unit test outside the engine — no headless runner, no mock, no assertion library. What
 this package has instead:
 
-- **`ctn_selftest`, run inside a real build.** **6,350 assertions, 0 failures**, on runtime
+- **`ctn_selftest`, run inside a real build.** **6,591 assertions, 0 failures**, on runtime
   `2024.14.4.268`. It sweeps all **1,128** species pairs for collisions, checks that every body plan
   closes at both ends, that every mark on a wing fits the wing at every station it covers, that the
   corpus is deterministic across identical calls, and that a careful approach never costs you ground.
