@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 794 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 795 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-07T03:39:10.184Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-07T06:21:40.195Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -392,11 +392,11 @@ An orc war camp, complete enough to build a level from, in the Verdant series' 1
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 47 — Museum: Gallery Interior Tileset with 50 Exhibits and Paintings, RPG Maker MZ, Tiled & Godot [16x16]
+### Verdant 47: Museum Interior Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-47-museum · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-47-museum/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-A museum interior, complete enough to build a level from, in the Verdant series' 16x16 pixel-art look: 354 tiles, 50 objects and a finished 40x28 sample map.
+Verdant 47 is a 354 tile 16x16 museum interior tileset for RPG Maker MZ, Tiled and Godot 4, with 50 exhibits and paintings.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -924,11 +924,11 @@ Farmstead 01 is 8 top down farm sprites, 6 animals and 2 farmhands, with files f
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Farmstead 02: Coop and Paddock — 144x144 & 72x72 farm animal sprites that graze
+### Farmstead 02: Coop and Paddock, 8 Farm Animal Sprites
 
 Store: https://csaf.itch.io/farmstead-02-coop-and-paddock · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-02-coop-and-paddock/ · Paid
 
-The farm animals that EAT. An ox, a donkey, an alpaca, a turkey, a hen and a drake, with a poultry keeper and a ploughman at the same world scale.
+Farmstead 02 is 8 farmyard sprites, 6 animals and 2 farmhands, in 4 directions at 144x144 and 72x72, with RPG Maker MZ sheets and Godot 4 files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1076,6 +1076,14 @@ Kithfell Companions is 16 animal side-view battlers for RPG Maker MZ, each with 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Kithfell Library: 6 Animal Sprite Packs, Every New One
+
+Store: https://csaf.itch.io/kithfell-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-collection/ · Paid
+
+Royalty free in commercial games, no credit required. Buy once, keep every Kithfell pack that joins. How the future packs work When a new Kithfell pack comes out, its files are added to this page on launch day.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Kithfell Pet Shop: 16 Dog and Cat Breeds and 53 Pet Props
 
 Store: https://csaf.itch.io/kithfell-pet-shop · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-pet-shop/ · Paid
@@ -1148,11 +1156,11 @@ Mourncrest 05 is 45 top down graveyard prop sprites at 64 and 128 px for Godot, 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Mourncrest Collection: 19 Dark Fantasy Sprites [64 & 128 px]
+### Mourncrest Library: 7 Undead Sprite Packs, Every New One
 
 Store: https://csaf.itch.io/mourncrest-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-collection/ · Paid
 
-The Mourncrest Collection is 19 dark fantasy sprites for RPG Maker MZ, Godot or any engine, packs 01 to 04 in one download. Each has 4 directions and a 3 frame walk, drawn natively at 64x64 and 128x128.
+Royalty free in commercial games, no credit required. Buy once, keep every Mourncrest pack that joins. How the future packs work When a new Mourncrest pack comes out, its files are added to this page on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1276,14 +1284,6 @@ Store: https://csaf.itch.io/farmstead-collection · Our page: https://onefreeman
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### The Kithfell Collection - 21 animal sprites, 128x128 & 64x64
-
-Store: https://csaf.itch.io/kithfell-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-collection/ · Paid
-
-21 animals on one locked palette, every one in 4 directions, at 128x128 and 64x64.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Tidewell: 48 Animated Fish and Water Creature Sprites
 
 Store: https://csaf.itch.io/tidewell · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/tidewell/ · Paid
@@ -1364,19 +1364,19 @@ A dodge roll and a block for the Wildmark 01 party, in every facing. The elf, wa
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Battlers: RPG Maker MZ Side-View Actors — 8 heroes, all 18 battle motions
+### Wildmark Battlers: Side-View Sprites for RPG Maker MZ
 
 Store: https://csaf.itch.io/wildmark-battlers-mz · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-battlers-mz/ · Paid
 
-The eight Wildmark adventurers as RPG Maker MZ side-view battlers.
+Wildmark Battlers is 8 RPG Maker MZ side-view actors with all 18 battle motions, at MZ's own sheet size and at HD size, with no plugin. They are the same 8 Wildmark heroes your players walk around the map, in the same 192-colour palette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Collection: 8 Fantasy Hero Sprites [128 & 64 px]
+### Wildmark Library: 7 Fantasy Hero Sprite Packs, Every New One
 
 Store: https://csaf.itch.io/wildmark-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-collection/ · Paid
 
-The Wildmark Collection is 8 fantasy adventurer sprites for top down RPGs, all three Wildmark packs in one download, for RPG Maker MZ, Godot 4 and any engine.
+Royalty free in commercial games, no credit required. Buy once, keep every Wildmark pack that joins. How the future packs work When a new Wildmark pack comes out, its files are added to this page on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1436,7 +1436,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/barrage-shmup-bullet-hell-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/barrage-shmup-bullet-hell-sound-effects/ · Paid
 
-A shoot em up escalates. These sounds escalate with it.
+Barrage is 138 shoot em up sound effects for Unity, Godot, GameMaker or any engine, grouped by the mechanic each one serves.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1748,7 +1748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/pit-lane-racing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/pit-lane-racing-sound-effects/ · Paid
 
-Five race engines, every rev, every pass by 110 racing sound effects: five cars, each with its own engine, plus tyres, crashes, boost, the race and the pit stop.
+Pit Lane is 110 racing sound effects for Unity, Godot, GameMaker or any engine: five cars, plus tyres, crashes, boost, the race and the pit stop.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2712,11 +2712,11 @@ Escapement is a clockwork gear puzzle plugin for RPG Maker MZ with 4 payoffs, 5 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Escutcheon — A HUD for RPG Maker MZ That Looks Made, Not Built
+### Escutcheon: Metal Party HUD Plates for RPG Maker MZ
 
 Store: https://csaf.itch.io/escutcheon-mz · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/escutcheon-mz/ · Paid · Engines: RPG Maker
 
-Every HUD plugin for RPG Maker MZ lets you position a bar. None of them draw one.
+Escutcheon is an RPG Maker MZ plugin that draws your party HUD as plates of worked metal, from 10 forms and 11 materials, with no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2752,11 +2752,11 @@ Your own towns, dressed for their festivals.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Formulary — Generated Recipe Plates for RPG Maker MZ
+### Formulary: Generated Recipe Plates for RPG Maker MZ
 
 Store: https://csaf.itch.io/formulary · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/formulary/ · Free · Engines: RPG Maker
 
-Your recipes already exist. They just look like a list.
+Formulary is an RPG Maker MZ plugin that draws each of your recipes as its own alchemical plate, from 58 motifs and 9 palettes.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2864,11 +2864,11 @@ Names and answers, written onto an object. Inscribe replaces RPG Maker MZ's name
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Intertitle
+### Intertitle: Map and Boss Title Cards for RPG Maker MZ
 
 Store: https://csaf.itch.io/intertitle · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/intertitle/ · Paid · Engines: RPG Maker
 
-Every place in your game has a name. RPG Maker announces it on a grey strip. When the party walks into a new map, RPG Maker MZ fades a line of text in over a dark band at the top of the screen.
+Intertitle is an RPG Maker MZ plugin that gives every map and every boss a title card, drawn in code in 5 constructions from data you already wrote.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3024,11 +3024,11 @@ Posture is an RPG Maker MZ plugin with 9 poses, made from each character's own w
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Quires — every book in your project binds itself
+### Quires: Bound Book Volumes for RPG Maker MZ
 
 Store: https://csaf.itch.io/quires · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quires/ · Paid · Engines: RPG Maker
 
-Your project already has books in it. Lore entries, skill tomes, quest journals, harbour ledgers, a sealed grimoire somebody put in a chest. Right now every one of them is the same icon.
+Quires is an RPG Maker MZ plugin that draws every book in your database as a bound volume, from 10 coverings and 19 tooled devices.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3056,11 +3056,11 @@ Rebuttal is a class trial debate plugin for RPG Maker MZ: statements fly past as
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Refectory
+### Refectory: Plated Food and Dishes for RPG Maker MZ
 
 Store: https://csaf.itch.io/refectory · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/refectory/ · Paid · Engines: RPG Maker
 
-Your cooking system already knows what went in. Nothing draws it. Every crafting and cooking plugin for MZ ends the same way: the recipe succeeds, and the player is handed a line of text and a 32-pixel icon.
+Refectory is an RPG Maker MZ plugin that draws each dish your cooking or crafting system makes, from 20 dish forms and 16 vessels.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3152,11 +3152,11 @@ Smithereens is a breakable objects plugin for RPG Maker MZ: 6 materials that eac
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Song Sheets
+### Song Sheets: Engraved Sheet Music Scores for RPG Maker MZ
 
 Store: https://csaf.itch.io/song-sheets · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/song-sheets/ · Paid · Engines: RPG Maker
 
-Every song in your game becomes a page worth keeping Your player finds a song. Right now that is a switch flipping and a line of text.
+Song Sheets is an RPG Maker MZ plugin that turns every song your player collects into an engraved score, in 10 musical traditions.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3256,11 +3256,11 @@ Threshold is an RPG Maker MZ plugin with 8 kinds of opening: every door, gate, h
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Tilestack - Mahjong Solitaire Minigame for RPG Maker MZ and MV (drawn tiles, generated layouts)
+### Tilestack: Mahjong Solitaire for RPG Maker MZ and MV
 
 Store: https://csaf.itch.io/tilestack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tilestack/ · Paid · Engines: RPG Maker
 
-Mahjong solitaire, inside your game. The player sits down at a table where a stack of carved tiles is laid out and clears it two at a time: remove any two free tiles that match.
+Tilestack is a mahjong solitaire minigame for RPG Maker MZ and MV, with 42 tile faces drawn by the plugin in 5 sets and no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3394,7 +3394,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 83 products.
+GML systems and assets for GameMaker. 84 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3540,11 +3540,11 @@ A top-down racing system in pure GML.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Chitin - Insects That Draw Their Own Shells
+### Chitin: 48 Generated Insects for GameMaker
 
 Store: https://csaf.itch.io/chitin-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/chitin-gamemaker/ · Paid · Engines: GameMaker
 
-A picture of a beetle cannot be a different species. The insect shelf for GameMaker is two listings.
+Chitin draws 48 insect species for GameMaker 2024 in pure GML, beetles, butterflies and moths built from numbers with no sprites, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3572,11 +3572,11 @@ Colophon is a save system whose save screen is drawn from the saves.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Colosseum - Tournaments Your Game Draws, for GameMaker
+### Colosseum: Tournament Brackets and Crests for GameMaker
 
 Store: https://csaf.itch.io/colosseum-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/colosseum-gamemaker/ · Paid · Engines: GameMaker
 
-Your game already decides who wins a fight. Colosseum runs the tournament around it, and draws it.
+Colosseum runs tournaments for GameMaker 2024 in pure GML: it seeds a field by rating, draws a single elimination bracket or a league, and draws the board, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3628,11 +3628,11 @@ A locked door is usually a switch and a line of text.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Facet - A Card Framework That Draws Its Own Faces
+### Facet: Playing Card Faces and Deck Logic for GameMaker
 
 Store: https://csaf.itch.io/facet-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/facet-gamemaker/ · Paid · Engines: GameMaker
 
-Every card framework on sale hands you a shuffle and a hand — and then you still owe an artist fifty-two drawings. That is the part that actually stops a card game getting made.
+Facet is a GameMaker card framework that draws 9,216 card faces at run time from each card's own data, in pure GML, with no sprites. It also runs the deck, the hand and the pile.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3665,6 +3665,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/frontispiece-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/frontispiece-gamemaker/ · Paid · Engines: GameMaker
 
 The title screen, generated, for GameMaker: your game's name CUT letter by letter into slate, leather, oak or lacquer, framed by a border and a cartouche, crowned with a device read from your game's own words, over a command menu built from the same furniture.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### GameMaker Library: 81 GML Assets, Plus Every New One
+
+Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
+
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 81 packages and 764 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3708,11 +3716,11 @@ You tell Hearth what a room is FOR and WHO LIVES IN IT. It furnishes the room. I
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Horologe - Mechanisms That Draw Themselves
+### Horologe: Clockwork Mechanisms Drawn in GML for GameMaker
 
 Store: https://csaf.itch.io/horologe-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/horologe-gamemaker/ · Paid · Engines: GameMaker
 
-A picture of a gear cannot mesh with another picture of a gear. The clockwork shelf for GameMaker is static art.
+Horologe is a GameMaker clockwork system that computes 12 machines from their tooth counts and draws them in pure GML, with no sprites.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3932,11 +3940,11 @@ Sit your player at a money-changer's counter and give them a weighing puzzle on 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Shoal - A Fishing System That Draws Its Own Fish
+### Shoal: Fishing System and Drawn Fish for GameMaker
 
 Store: https://csaf.itch.io/shoal-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/shoal-gamemaker/ · Paid · Engines: GameMaker
 
-Shoal is a complete fishing subsystem for GameMaker — and every fish in it is drawn from geometry at run time. There is no sprites/ folder in this package.
+Shoal is a GameMaker fishing system that draws all 9,600 of its fish in pure GML, with no sprites. It rolls what is in the water, runs the fight on the line and keeps a log of every catch.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3964,11 +3972,11 @@ A restaurant serving minigame for any GameMaker room.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Taproom - Tavern Board Games Against an Opponent Who Thinks, for GameMaker
+### Taproom: 4 Tavern Board Games with AI for GameMaker
 
 Store: https://csaf.itch.io/taproom-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/taproom-gamemaker/ · Paid · Engines: GameMaker
 
-Sit your player down across a tavern table from one of your characters and play one of four old board games for a stake: Nine Men's Morris, Fox and Geese, Oware or Fanorona.
+Taproom puts 4 old board games into GameMaker 2024: Nine Men's Morris, Fox and Geese, Oware and Fanorona, played at a drawn tavern table against an opponent at five strengths, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4036,11 +4044,11 @@ Fill your GameMaker rooms with the small life a real place has, placed by what t
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Voyage - Sea Travel as Gameplay, on a Chart the Product Draws, for GameMaker
+### Voyage: Sailing System and Drawn Sea Charts for GameMaker
 
 Store: https://csaf.itch.io/voyage-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/voyage-gamemaker/ · Paid · Engines: GameMaker
 
-Voyage makes the sea part of the game, not the loading screen between two ports. The wind has a direction and a strength, and your heading against it decides how fast she goes, so a dogleg can beat a straight line.
+Voyage is a GameMaker sailing system that draws its own sea chart in pure GML, in 4 styles with 6 ship rigs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5640,7 +5648,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/dyeworks · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/dyeworks/ · Free
 
-Run a small dye house through the seasons. Grow the dyes, keep the vats alive, and dip bolts of cloth until they match the colour the town ordered. THE DYEWORKS is a free browser incremental where the colour on the cloth is what you sell.
+THE DYEWORKS is a free browser incremental about a medieval dye house with 40 historical colours to match, 6 vats and 12 upgrades.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
