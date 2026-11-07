@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-07T19:39:02.517Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-07T22:08:01.738Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2308,11 +2308,11 @@ The Holy Order is a 44 track score for the holy order in a fantasy game, from th
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### The Keepsake - A Narrative Score for Piano and Music Box - 42 Tracks
+### The Keepsake: 42 Track Piano and Music Box Music Pack
 
 Store: https://csaf.itch.io/the-keepsake · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-keepsake/ · Paid
 
-Forty-two tracks for the scenes a combat pack leaves out.
+The Keepsake is a 42 track narrative music pack for RPG Maker, Godot, Unity and GameMaker: every theme played on piano, then remembered on a music box.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3200,11 +3200,11 @@ Give the player a rock face and two tools. Every blow cuts the rock back a layer
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Strew - Automatic Map Dressing for RPG Maker MZ (flower drifts, rocks, floor variants)
+### Strew: Automatic Map Dressing for RPG Maker MZ
 
 Store: https://csaf.itch.io/strew · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/strew/ · Paid · Engines: RPG Maker
 
-Strew dresses the maps you made by hand, from your own tileset, in one keypress.
+Strew is an RPG Maker MZ plugin that dresses the maps you made by hand, from your own tileset, in one keypress. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4776,11 +4776,11 @@ You are a charged particle. You cannot steer, you cannot thrust, and you cannot 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### AUGUR
+### AUGUR: A Vertical Shmup, Free Demo
 
 Store: https://csaf.itch.io/augur · Our page: https://onefreeman1337.github.io/csaf-releases/games/augur/ · Paid · free browser demo on the page
 
-What it is wearing is what it will do. AUGUR is a vertical cute’em up in which every enemy is assembled from parts, and each part is an honest promise about what that enemy is going to do.
+AUGUR is a vertical shoot 'em up for the browser in which every enemy is built from parts, and each part shows what it will fire. The first reach plays free on this page, and the full game is a paid download.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5544,7 +5544,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/seedlift · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/seedlift/ · Free
 
-A cozy farm that grows while you are away, and the only way to get new seed is to raid the wilds for it. SEEDLIFT crosses a farming incremental with an extraction raid.
+SEEDLIFT is a free browser farming incremental with 24 strains to collect, 4 zones to raid and 8 shop upgrades, where new seed only comes from raids. At home you sow, harvest and cross-breed.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6160,11 +6160,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: All 26 Addon Packs + Every New One
+### CSAF Godot Collection: All 27 Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 26 packs, 1,369 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth and Dungeon Forge are only here for now.
+Every CSAF addon pack for Godot 4 in one project: 27 packs, 1,417 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge and Cloudshadow are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6348,11 +6348,11 @@ Deep Station is a pack of 14 low poly PS1-style sci-fi horror characters for God
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fort Vale: 14 Animated PSX Modern Soldier Characters
+### Fort Vale + Crosstown: 28 PSX Soldiers and City Civilians
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
-Fort Vale is a pack of 14 low poly PS1-style modern soldier characters for Godot 4, Unity and Unreal.
+Fort Vale + Crosstown is 28 low poly PS1-style modern characters for Godot 4, Unity and Unreal: 14 soldiers and 14 city civilians. Free samplers of both are on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
