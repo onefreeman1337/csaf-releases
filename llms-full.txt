@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-07T22:08:01.738Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-07T23:58:41.713Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -464,11 +464,11 @@ Verdant 55 is a Wild West tileset at 16x16 for RPG Maker MZ, Tiled, Godot 4 and 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 56 — Mechanisms: Dungeon Puzzle Tileset, Switches, Plates, Spike Traps, Push Blocks, Breakable Walls [16x16]
+### Verdant 56: Dungeon Puzzle Mechanisms Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-56-mechanisms · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-56-mechanisms/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-The puzzle layer for a top-down dungeon: 12 mechanisms in 25 states, 3 animated cycles and breakable walls, at 16x16 in one 46-colour palette, every state its own tile and wired for RPG Maker MZ events, Tiled, Godot and Unity.
+Verdant 56 is a 16x16 dungeon puzzle tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 12 mechanisms in 25 states, each state its own tile. Use the tiles in commercial and free games, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1472,7 +1472,7 @@ A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a d
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Blip Library: 7 Dialogue Sound Packs, Plus Every New One
+### Blip Library: 7 Dialogue Sound Effects Packs, Plus New Ones
 
 Store: https://csaf.itch.io/blip-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-library/ · Paid
 
@@ -1876,7 +1876,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 10,847 royalty free sound effects in 72 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 11,204 royalty free sound effects in 75 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3676,11 +3676,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### GameMaker Library: 81 GML Assets, Plus Every New One
+### GameMaker Library: 82 GML Assets, Plus Every New One
 
 Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
 
-Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 81 packages and 764 GML scripts, no extensions or DLLs, royalty free in commercial games.
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 82 packages and 768 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4824,11 +4824,11 @@ COMPOSITOR is a Game Boy typesetting puzzle with 40 formes: push four lead sorts
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CRAQUELURE
+### CRAQUELURE: A Game Boy Color Forgery Game, Free Demo
 
 Store: https://csaf.itch.io/craquelure · Our page: https://onefreeman1337.github.io/csaf-releases/games/craquelure/ · Paid · free browser demo on the page
 
-A panel arrives with a docket claiming a date. One region of it is painted in a colour that did not exist yet. Find it. CRAQUELURE is a Game Boy Color game — a 256 kB ROM you can put on a flash cart — about authenticating paintings.
+CRAQUELURE is a Game Boy Color game about catching forged paintings, with 64 generated panels and three lamps. Three lots play free in your browser right here.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5964,7 +5964,7 @@ Duct Tape is a grunge UI kit for Godot 4 and five more engines: 80 widgets of to
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Dusk, Mint and Contrast: Modern Minimal UI Kit Volume (Dark Mode, Pastel, High Contrast)
+### Dusk, Mint and Contrast: Dark Mode and High Contrast UI Kit
 
 Store: https://csaf.itch.io/dusk-mint-and-contrast-modern-minimal-ui-kit-volume · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/dusk-mint-and-contrast-modern-minimal-ui-kit-volume/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
@@ -5988,7 +5988,7 @@ A card table UI kit for deckbuilders and card games, ready for six engines 88 wi
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fingerpost: RPG Cursor and Selection UI Kit (Mouse Cursors with Hotspots, Pixel + HD, 6 Engines)
+### Fingerpost: RPG Mouse Cursor and Selection UI Kit
 
 Store: https://csaf.itch.io/fingerpost-rpg-cursor-and-selection-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/fingerpost-rpg-cursor-and-selection-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
@@ -6028,7 +6028,7 @@ A sci-fi HUD: chamfered cyan frames, amber corner ticks, segmented gauges, ready
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### One Bit: 1-Bit UI Kit (Two Colours, Pixel + HD, Dither Tiles, Playdate Files)
+### One Bit: 1-Bit UI Kit with Dither Tiles and Playdate Files
 
 Store: https://csaf.itch.io/one-bit-1-bit-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/one-bit-1-bit-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot, Playdate
 
@@ -6060,7 +6060,7 @@ A minimal fantasy UI kit: vellum panels, ink hairlines, bookplate corners, ready
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Status Line: HP, MP and Boss Bar UI Kit (7 Bar Styles, Pixel + HD, 6 Engines)
+### Status Line: HP, MP and Boss Bar UI Kit, 7 Bar Styles
 
 Store: https://csaf.itch.io/status-line-hp-mp-and-boss-bar-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/status-line-hp-mp-and-boss-bar-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
@@ -6092,11 +6092,11 @@ Every CSAF UI kit in one download: 28 kits, 32 themes and 2,531 widgets for Godo
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Sampler: 12 Free Pixel UI Themes
+### UI Kit Sampler: 32 Free Pixel UI Themes
 
 Store: https://csaf.itch.io/ui-kit-sampler-12-free-pixel-ui-themes · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-sampler-12-free-pixel-ui-themes/ · Free · pay what you want · Engines: Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A free sampler of twelve pixel art game UI themes, one from each of our paid UI kits.
+A free sampler of 32 pixel art game UI themes for Godot 4, RPG Maker MZ, Unity, Unreal and GameMaker, one from each of our 28 paid UI kits.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6116,7 +6116,7 @@ A UI kit drawn in the Verdant tileset palette: mossy stone frames, leaf tufts, r
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wellglass: Action RPG Orb HUD UI Kit (Health and Mana Orbs, Pixel + HD, 6 Engines)
+### Wellglass: Action RPG Health and Mana Orb HUD UI Kit
 
 Store: https://csaf.itch.io/wellglass-action-rpg-orb-hud-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/wellglass-action-rpg-orb-hud-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
