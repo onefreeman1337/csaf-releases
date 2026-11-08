@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T05:09:01.194Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T08:54:28.319Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -472,11 +472,11 @@ Verdant 56 is a 16x16 dungeon puzzle tileset for RPG Maker MZ, Tiled, Godot 4 an
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 57 — Keep: Castle Interior Tileset for RPG Maker MZ, Tiled, Godot & Unity, Hall, Kitchens, Barracks [16x16]
+### Verdant 57: Castle Keep Interior Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-57-keep · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-57-keep/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-The inside of your castle: 326 tiles at 16x16 in one 81-colour palette: a great hall with a raised stone dais, strewn rushes, a long hearth and feast tables; the kitchens on red quarry tiles; the barracks on plank boards with a guardroom.
+Verdant 57 is a 326 tile, 16x16 pixel art tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: a castle keep with its great hall, kitchens and barracks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -748,7 +748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 99 packs and 61,124 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 100 packs and 62,191 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2624,11 +2624,11 @@ Cogwheel is a 4 plugin dungeon puzzle kit for RPG Maker MZ: put a notetag on an 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Colophon — A Save Screen for RPG Maker MZ That Prints What Is In The File
+### Colophon: Save Screen of Printed Leaves for RPG Maker MZ
 
 Store: https://csaf.itch.io/colophon · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/colophon/ · Paid · Engines: RPG Maker
 
-A colophon is the printer's inscription at the end of a book — the device, the place, the date, the hand that made it.
+Colophon is a save and load screen for RPG Maker MZ that prints every slot as a leaf, composed from 45 drawn parts by what that save contains. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3136,11 +3136,11 @@ Sentiment is an emotion battle plugin for RPG Maker MZ: 3 feelings with 3 rungs 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Shipwright
+### Shipwright: Generated Ship Portraits for RPG Maker MZ
 
 Store: https://csaf.itch.io/shipwright · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/shipwright/ · Paid · Engines: RPG Maker
 
-Name a ship. That is the whole setup.
+Shipwright is a plugin for RPG Maker MZ that draws any ship your game names as a shipwright's draught, from 16 hull classes and 10 rig plans. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3412,11 +3412,11 @@ Adversary is a boss system for GameMaker, written in pure GML. There is no sprit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Affliction - A Status System That Draws Its Own Icons
+### Affliction: Status Effects and 960 Icons for GameMaker
 
 Store: https://csaf.itch.io/affliction-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/affliction-gamemaker/ · Paid · Engines: GameMaker
 
-Buy a status-effect icon pack and you get 200 PNGs and no system. Buy a buff/debuff framework and you get stacking rules and no art.
+Affliction is a status effect system for GameMaker with 960 icons it draws in code: burn, chill, toxin, shock, mind and body. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3932,11 +3932,11 @@ Repast is a cooking system for GameMaker that draws every dish it makes from 46 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sampler - Picross Stitched Into an Embroidery Hoop, for GameMaker
+### Sampler: Picross in an Embroidery Hoop for GameMaker
 
 Store: https://csaf.itch.io/sampler-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/sampler-gamemaker/ · Paid · Engines: GameMaker
 
-Picross for your game, stitched. The player fills a chart from the number clues along its rows and columns, one cross-stitch at a time.
+Picross for your game, stitched. The player fills a chart from the number clues along its rows and columns, one cross stitch at a time.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5408,7 +5408,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/kaiju-disposal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/kaiju-disposal/ · Free
 
-The heroes won. Now somebody has to move it. KAIJU DISPOSAL is a free clean-up incremental for your browser with 12 contracts.
+KAIJU DISPOSAL is a free browser clean-up incremental with 12 contracts, and this page opens the CSAF Arcade: 37 free games in one window. The heroes won.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5440,7 +5440,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/otterbound · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/otterbound/ · Free
 
-Six otters, one raft, and a river that never ends the same way twice. You do not steer. The river does that. You decide three things, and everything else is consequence.
+OTTERBOUND is a free browser auto-battler: six otters on one raft, 3 leagues and 3 bosses, down a river that never runs the same way twice. You do not steer.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6160,11 +6160,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: All 27 Addon Packs + Every New One
+### CSAF Godot Collection: All 28 Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 27 packs, 1,417 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge and Cloudshadow are only here for now.
+Every CSAF addon pack for Godot 4 in one project: 28 packs, 1,465 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow and Creel are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6372,11 +6372,11 @@ Grimsnout is a pack of 14 low poly PS1-style orcs, goblins and an ogre for Godot
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hollow Congregation: 14 Animated PSX Cultist Characters
+### Hollow Congregation + Saint Oswin: 28 PSX Horror Characters
 
 Store: https://csaf.itch.io/hollow-congregation-psx-cultists · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollow-congregation-psx-cultists/ · Paid · Engines: Blender
 
-Hollow Congregation is a pack of 14 low poly PS1-style horror cultist characters for Godot 4, Unity and Unreal.
+Hollow Congregation + Saint Oswin is 28 low poly PS1-style horror characters for Godot 4, Unity and Unreal: 14 rural cultists and 14 staff and patients of a decaying asylum.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6420,10 +6420,10 @@ Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 10 Free Low Poly 3D Characters
+### PSX Characters Sampler: 13 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 10 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 13 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
