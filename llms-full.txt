@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T02:47:42.474Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T03:01:13.095Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3328,11 +3328,11 @@ The Souls loop for RPG Maker MZ. Rest at a shrine. Fall. Walk back for what you 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Visage
+### Visage: Carved Bestiary Masks for RPG Maker MZ
 
 Store: https://csaf.itch.io/visage · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/visage/ · Paid · Engines: RPG Maker
 
-Your database already describes every creature in the game. Nothing draws its face. An enemy in RPG Maker MZ is a name, a set of parameters, an element it strikes with, some drops and a line in your bestiary.
+Visage carves a mask for every creature in your RPG Maker MZ database from its own record: 10 face structures, 12 superstructures, 6 inlays and 5 ages.
 
 AI disclosure: AI Assisted, Code, Graphics
 
