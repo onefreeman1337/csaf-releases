@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T03:38:58.652Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T05:09:01.194Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3524,7 +3524,7 @@ Your branching story already has a shape. Branchwork draws it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Cartouche - The Message Box Drawn as an Object, for GameMaker
+### Cartouche: Generated Dialogue Boxes for GameMaker
 
 Store: https://csaf.itch.io/cartouche-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/cartouche-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3596,7 +3596,7 @@ Crest is a faction and reputation system for GameMaker in pure GML that draws a 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Derby - A Snail-Racing Betting Minigame, for GameMaker
+### Derby: Snail Racing Betting Minigame for GameMaker
 
 Store: https://csaf.itch.io/derby-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/derby-gamemaker/ · Paid · Engines: GameMaker
 
@@ -6084,11 +6084,11 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 28 CSAF UI Kits, Plus Every New One
+### UI Kit Collection: All 29 CSAF UI Kits, Plus Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 28 kits, 32 themes and 2,531 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 29 kits, 33 themes and 2,615 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
