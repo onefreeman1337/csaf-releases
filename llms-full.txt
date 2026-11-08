@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T08:54:28.319Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T09:38:28.358Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3676,11 +3676,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### GameMaker Library: 82 GML Assets, Plus Every New One
+### GameMaker Library: 83 GML Assets, Plus Every New One
 
 Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
 
-Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 82 packages and 768 GML scripts, no extensions or DLLs, royalty free in commercial games.
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 83 packages and 773 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
