@@ -1,19 +1,19 @@
-# CSAF Godot Collection: All 27 Addon Packs + Every New One — Documentation
+# CSAF Godot Collection: All 28 Addon Packs + Every New One — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** CSAF Godot Collection: All 27 Addon Packs + Every New One  
+**Product:** CSAF Godot Collection: All 28 Addon Packs + Every New One  
 **Engine:** Godot 4.7.2 addon packs (Tools/godot, GDScript + .gdshader, 2D-first): Line A1 VFX and shader packs of 40+ runtime-computed presets with exported parameters, compiling under BOTH Forward+ and Compatibility; Line A2 ports of CSAF's SOLD RPG Maker winners (sigil-core, wrack, jigsaw); Line B Chronicle's systems re-shipped with their designed look after the JRPG has played them (M1). PROVEN by Kernel/godot/gd_gate.js (headless import + --check-only parse + demo run, then every preset photographed WINDOWED under forward_plus and gl_compatibility against an empty-stage control, two visibility instruments, dedupe.js + a pixel-level pair check, raw-source, docs, no .godot cache; the agent then LOOKS). See Wings/Godot/CLAUDE.md.  
 **Store page:** https://csaf.itch.io/godot-collection  
-**Docs published:** 2026-11-07
+**Docs published:** 2026-11-08
 
 
 ---
 
-# CSAF Godot Collection - 27 addon packs for Godot 4 in one project
+# CSAF Godot Collection - 28 addon packs for Godot 4 in one project
 
-Every paid Godot addon pack from Core Systems Asset Factory in one download: **27 addons, 1,417 presets**, all loading together in one
+Every paid Godot addon pack from Core Systems Asset Factory in one download: **28 addons, 1,465 presets**, all loading together in one
 Godot 4.7 project. Weather, water, fog of war, lighting, shadows, occlusion, movement dust, combat VFX, spell seals, breakables, doors, small life,
 sea life, journey maps, tapestries, tarot, notices, jigsaw puzzles, battle damage, material ageing, trees that fall and statues struck from your own sprites. 2D only. Every preset is computed at runtime by
 shaders, particles or `_draw()` code, with its parameters exposed.
@@ -36,7 +36,7 @@ The first time a scene opens, the screen says it is drawing while shaders compil
 ## Use one in your game
 
 Copy `godot/addons/<name>/` into your own project's `addons/` folder, as that pack's Readme says. There is no plugin to enable; the classes register themselves. Keep the folder name, because each addon's scenes reference
-`res://addons/<name>/` by path. Copy one, some or all of them: no addon depends on another, none uses `demos/` or `collection/`, and all 27 load together with no class name clash.
+`res://addons/<name>/` by path. Copy one, some or all of them: no addon depends on another, none uses `demos/` or `collection/`, and all 28 load together with no class name clash.
 
 ## Memory
 
@@ -77,8 +77,9 @@ Every addon loads and runs alone and together. One stress case is not safe under
 | `addons/plinth/` | Statues struck from your own sprites: 48 materials, live petrify and a carved base | 48 | in this collection first; its own page follows |
 | `addons/dungeon_forge/` | Dungeons, caves and towns generated onto your own tiles: 48 level recipes | 48 | in this collection first; its own page follows |
 | `addons/cloudshadow/` | Cloud shadows that fall by surface on your own tiles: 48 skies | 48 | in this collection first; its own page follows |
+| `addons/creel/` | Fishing on your own water tiles: cast, bite, reel duel and 48 catches drawn in code | 48 | in this collection first; its own page follows |
 
-That is **1,417 presets** in all. Each addon's full preset list and every parameter are in `docs/<name>/Readme_for_Users.md`.
+That is **1,465 presets** in all. Each addon's full preset list and every parameter are in `docs/<name>/Readme_for_Users.md`.
 
 ## New packs
 
