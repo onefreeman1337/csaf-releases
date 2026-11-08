@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T11:24:31.950Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T13:35:22.032Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1252,7 +1252,7 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 56 CSAF Sprite Packs, Plus Every New One
+### Sprite Library: 57 CSAF Sprite Packs, Plus Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
@@ -2196,11 +2196,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 52 Game Music Albums, Plus Every New One
+### Music Library: 53 Game Music Albums, Plus Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 52 royalty free game music albums, 2,298 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 53 royalty free game music albums, 2,342 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3108,7 +3108,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/scales · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scales/ · Paid · Engines: RPG Maker
 
-Weighing puzzles for your RPG, on a brass balance at a money-changer's counter. One coin in the hoard is false. The player loads the pans, releases the beam, reads which side sank, and names the counterfeit within a set number of weighings.
+Scales is an RPG Maker MZ plugin that adds two weighing puzzles on a drawn brass balance: find the false coin among 3 to 13, or weigh out an exact order with a box of weights.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6084,11 +6084,11 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 29 CSAF UI Kits, Plus Every New One
+### UI Kit Collection: All 30 CSAF UI Kits, Plus Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 29 kits, 33 themes and 2,615 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 30 kits, 34 themes and 2,705 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
