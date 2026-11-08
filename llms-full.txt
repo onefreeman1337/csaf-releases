@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-07T23:58:41.713Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T02:47:42.474Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -256,11 +256,11 @@ Verdant 30 is a 541 tile 16x16 train station tileset for RPG Maker MZ, Tiled and
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant 31 — Clinic & Ward Tileset for RPG Maker MZ, Tiled & Godot: Ward, Theatre, Dispensary & Screens [16x16]
+### Verdant 31: Clinic and Hospital Ward Tileset [16x16]
 
 Store: https://csaf.itch.io/verdant-31-clinic-ward · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-31-clinic-ward/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-740 tiles at 16x16 for a hospital ward, an operating theatre and a dispensary: coved safety vinyl, conductive antistatic flooring with its earthing strip, brushed stainless benching, poured seamless resin, studded barrier matting, and drawn privacy screens round the bed bays — with the cast a...
+Verdant 31 is a 740 tile, 16x16 pixel art tileset for RPG Maker MZ, Tiled and Godot 4: a hospital ward, an operating theatre and a dispensary. Use the tiles in commercial and free games, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1408,11 +1408,11 @@ Potion making in sound: pours by viscosity, a brew you set by heat, and the alch
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Babble 01 — Syllabic Dialogue Voices
+### Babble 01: 650 Dialogue Voice Sound Effects, 10 Speakers
 
 Store: https://csaf.itch.io/babble-01-dialogue-voices · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/babble-01-dialogue-voices/ · Paid
 
-650 dialogue sounds. 10 speakers, each talking in a made up language of its own, in 5 moods. Text advance audio in the babble style.
+Babble 01 is 650 royalty free dialogue sound effects for RPG Maker, Godot and any engine: 10 speakers who talk in made up syllables, in 5 moods.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2552,11 +2552,11 @@ Ship-to-ship battles for RPG Maker MZ, drawn broadside-on like an age-of-sail pa
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Cartouche — The Message Box Drawn As An Object, for RPG Maker MZ
+### Cartouche: Message Boxes for Every Speaker in RPG Maker MZ
 
 Store: https://csaf.itch.io/cartouche · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cartouche/ · Paid · Engines: RPG Maker
 
-RPG Maker MZ replaces your dialogue with a blue rectangle. Cartouche replaces it with an object — a made thing, with a material, a worked frame, cut corners, rim treatments and a nameplate struck into its head rail.
+Cartouche is an RPG Maker MZ plugin that draws a different message box for every speaker, built from 40 materials, 28 frames and 26 corners. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2696,11 +2696,11 @@ Encore gives RPG Maker MZ bosses a second phase drawn from their own battler: 12
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Ephemeris — Every Month Prints Its Own Almanac Leaf, for RPG Maker MZ
+### Ephemeris: Drawn Almanac Calendar Pages for RPG Maker MZ
 
 Store: https://csaf.itch.io/ephemeris · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ephemeris/ · Paid · Engines: RPG Maker
 
-Your game already has months. It has no idea what they look like. Ephemeris draws the almanac.
+Ephemeris is an almanac for RPG Maker MZ: each month your project declares prints its own leaf from 12 engraved devices, 4 seasons, 5 papers and 5 rulings.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2952,7 +2952,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: All 121 CSAF Plugins, Plus Every New One
+### MZ Plugin Library: All 122 CSAF Plugins, Plus Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3296,11 +3296,11 @@ Township is an NPC daily routine plugin for RPG Maker MZ and MV: 9 plugin comman
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Tray - Packing Puzzle Minigame in Inlaid Wood for RPG Maker MZ
+### Tray: Wooden Packing Puzzle Minigame for RPG Maker MZ
 
 Store: https://csaf.itch.io/tray · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tray/ · Paid · Engines: RPG Maker
 
-A packing puzzle for your RPG, generated and drawn in inlaid wood. A shaped tray sits on the table and its pieces wait in a box beside it, turned every which way.
+Tray is an RPG Maker MZ plugin that adds a packing puzzle minigame: 6 tray shapes cut into 4 to 10 marquetry pieces, and every puzzle can be solved. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3908,11 +3908,11 @@ Psyche is a sanity system for horror games where the meter is the least of it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Puzzlework - Dungeon Puzzles Without Scripting Each Block, for GameMaker
+### Puzzlework: Push Block and Light Beam Puzzles for GameMaker
 
 Store: https://csaf.itch.io/puzzlework-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/puzzlework-gamemaker/ · Paid · Engines: GameMaker
 
-Zelda-style dungeon puzzles for GameMaker without scripting each block: push-blocks, ice, pits, water, boulders, pressure plates and light beams bent by mirrors.
+Puzzlework is a dungeon puzzle system for GameMaker with 45 drawn pieces: push blocks, ice, pits, water, boulders, pressure plates and mirrors that bend light.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3924,11 +3924,11 @@ Raiment draws the whole person.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Repast - A Cooking System That Draws Every Dish It Makes
+### Repast: Cooking System and Drawn Dishes for GameMaker
 
 Store: https://csaf.itch.io/repast-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/repast-gamemaker/ · Paid · Engines: GameMaker
 
-Repast is a complete cooking system for GameMaker that draws every dish it makes. Pure GML. No sprites, no shaders, no extensions, and no image files anywhere in the package.
+Repast is a cooking system for GameMaker that draws every dish it makes from 46 ingredient forms, 24 substances and 12 cook states, in pure GML. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4036,11 +4036,11 @@ Verdure is a plant growth system for GameMaker with 48 species in 8 families, ea
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Vestige - Every Award Strikes Its Own Medal
+### Vestige: Achievement System and Medals for GameMaker
 
 Store: https://csaf.itch.io/vestige-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/vestige-gamemaker/ · Paid · Engines: GameMaker
 
-Not an icon pack.
+Vestige is an achievement system for GameMaker that strikes a medal for every award from 42 devices, 12 blanks, 6 rims and 7 alloys, in pure GML. Use it in as many games as you like, commercial or free.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5904,7 +5904,7 @@ Game UI and GUI kits built from one theme: widgets with every state, nine-slice 
 
 Store: https://csaf.itch.io/arena-ticket-monster-battle-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/arena-ticket-monster-battle-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A monster battle UI kit: name plates with level stubs, type coloured move tickets, a capture charm and an arena, ready for six engines Arena Ticket is a pixel art UI kit for turn based monster battle and creature collecting games, with 101 widgets in 210 widget states, in pixel mode and HD mode,...
+Arena Ticket is a pixel art UI kit for turn based monster battle games, for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 101 widgets, every big frame bitten out like a ticket stub.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5928,7 +5928,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/casual-pop-chunky-bright-game-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/casual-pop-chunky-bright-game-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A chunky candy UI for casual and party games: thick ink outlines, a gloss shine, a thick lip, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Casual Pop is a chunky candy UI kit for casual and party games, for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 58 widgets with thick ink outlines and a gloss shine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5968,7 +5968,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/dusk-mint-and-contrast-modern-minimal-ui-kit-volume · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/dusk-mint-and-contrast-modern-minimal-ui-kit-volume/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Three modern minimal UI themes in one kit: a dark mode, a soft pastel and a high contrast theme, switchable at runtime Dusk, Mint and Contrast is a UI kit volume for casual, puzzle, cozy and any modern looking game: three complete themes with 58 widgets in 145 widget states each, in pixel mode...
+Dusk, Mint and Contrast is a UI kit volume for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: three complete modern themes, a dark mode, a soft pastel and a high contrast theme.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5976,7 +5976,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ember-court-pixel-rpg-dialogue-and-menu-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ember-court-pixel-rpg-dialogue-and-menu-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A gilt and plum pixel RPG interface, built around the dialogue box, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Ember Court is a gilt and plum pixel RPG UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 58 widgets built around the dialogue box.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5984,7 +5984,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/felt-table-card-game-and-deckbuilder-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/felt-table-card-game-and-deckbuilder-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A card table UI kit for deckbuilders and card games, ready for six engines 88 widgets in 173 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Felt Table is a card game and deckbuilder UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 88 widgets on mahogany rails and green baize.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5992,7 +5992,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fingerpost-rpg-cursor-and-selection-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/fingerpost-rpg-cursor-and-selection-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-RPG mouse cursors with their hotspots, animated menu fingers and a selection frame that fits any slot Fingerpost is an RPG cursor and selection kit: 17 mouse cursors (plated gauntlets in point, grab and open, a steel arrow, inspect, talk, attack, cast, use, loot, unlock, enter, forbidden,...
+Fingerpost is an RPG cursor and selection kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 17 mouse cursors with their hot pixels, menu fingers and a selection frame.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6000,7 +6000,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/four-shade-four-colour-handheld-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/four-shade-four-colour-handheld-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot, GB Studio
 
-A strict four-colour UI kit for handheld style games, ready for six engines and GB Studio 59 widgets in 126 widget states, in pixel mode and HD mode, generated from one theme in exactly four colours and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py, with GB Studio...
+Four Shade is a strict four-colour UI kit for handheld style games, for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ, Ren'Py and GB Studio: 59 widgets in exactly four colours.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6008,7 +6008,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthwood-cozy-farming-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/hearthwood-cozy-farming-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A cozy farming interface: honey wood frames, cream parchment, leaf green, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Hearthwood is a cozy farming UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 58 widgets in honey wood frames over cream parchment.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6016,7 +6016,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/iron-bastion-medieval-strategy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/iron-bastion-medieval-strategy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A castle UI for strategy games: stone walls, turrets with merlons, heraldic blue banners, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Iron Bastion is a castle UI kit for strategy games, for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 58 widgets with stone wall frames and turret corners.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6024,7 +6024,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/night-terminal-sci-fi-hud-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/night-terminal-sci-fi-hud-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A sci-fi HUD: chamfered cyan frames, amber corner ticks, segmented gauges, ready for six engines 64 widgets in 131 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Night Terminal is a sci-fi HUD kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 64 widgets with chamfered cyan frames and amber corner ticks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6032,7 +6032,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/one-bit-1-bit-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/one-bit-1-bit-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot, Playdate
 
-A strict two-colour (1-bit) UI kit, ready for six engines and Playdate One Bit is a 1-bit game UI kit: 74 widgets in 141 widget states, drawn in exactly two colours (ink and paper), in pixel mode and HD mode, with files for Godot 4 (4.7 tested), Unity 6 (tested), RPG Maker MZ (tested), Unreal...
+One Bit is a 1-bit UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ, Ren'Py and Playdate: 74 widgets drawn in exactly two colours, ink and paper.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6040,7 +6040,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/phone-line-visual-novel-phone-and-chat-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/phone-line-visual-novel-phone-and-chat-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A phone and chat UI kit for visual novels: a handset, chat bubbles, conversation rows and a lock screen, ready for six engines Phone Line is a pixel art phone and chat UI kit for visual novels and story games, with 102 widgets in 186 widget states, in pixel mode and HD mode, with files for...
+Phone Line is a pixel art phone and chat UI kit for visual novels, for Ren'Py, Godot 4, Unity, Unreal, GameMaker and RPG Maker MZ: 102 widgets, a stretchable handset and chat bubbles among them.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6056,7 +6056,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/silverpoint-minimal-fantasy-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/silverpoint-minimal-fantasy-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A minimal fantasy UI kit: vellum panels, ink hairlines, bookplate corners, ready for six engines 65 widgets in 153 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Silverpoint is a minimal fantasy UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 65 widgets on vellum panels with ink hairlines and bookplate corners.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6064,7 +6064,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/status-line-hp-mp-and-boss-bar-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/status-line-hp-mp-and-boss-bar-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-HP, MP and boss bars that work in your engine, plus a full UI to match Status Line is a health bar and boss bar UI kit: 7 bar styles, each shipped as 10 same-size layers (frame, six fills, damage trail, heal preview, glass), 70 bar layers in all, plus emblems, a boss name plate and a full game...
+Status Line is a health bar and boss bar UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 7 bar styles of 10 same-size layers each, plus a full UI in bolted steel.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6080,7 +6080,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/tiny-delve-16px-dungeon-crawler-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/tiny-delve-16px-dungeon-crawler-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A dungeon crawler UI kit: skull-cornered windows, a minimap, counters and torches, ready for six engines Tiny Delve is a pixel art dungeon crawler and roguelike UI kit with 86 widgets in 155 widget states, in pixel mode and HD mode, with files for Godot 4 (4.7 tested), Unity 6, Unreal Engine,...
+Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 86 widgets with a small bone skull over every corner.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6112,7 +6112,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-frame-ui-kit-for-the-verdant-tilesets · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/verdant-frame-ui-kit-for-the-verdant-tilesets/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A UI kit drawn in the Verdant tileset palette: mossy stone frames, leaf tufts, ready for six engines 58 widgets in 125 widget states, in pixel mode and HD mode, generated from one theme and wired for Godot 4, Unity, Unreal Engine, GameMaker, RPG Maker MZ and Ren'Py.
+Verdant Frame is a UI kit drawn in the Verdant tileset palette, for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: 58 widgets with mossy stone frames and leaf tufts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6120,7 +6120,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wellglass-action-rpg-orb-hud-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/wellglass-action-rpg-orb-hud-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Health and mana orbs that your engine fills, plus a full action RPG HUD to match Wellglass is an action RPG HUD kit: glass health and mana orbs shipped as layers your engine fills (socket, liquid, glass), 44 baked fill frames for engines without a vertical fill, skill sockets with an 8 frame...
+Wellglass is an action RPG HUD kit for Godot 4, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py: glass health and mana orbs shipped as layers your engine fills, plus a full UI in runed obsidian.
 
 AI disclosure: AI Assisted, Code, Graphics
 
