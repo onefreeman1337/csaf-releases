@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T09:38:28.358Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T11:24:31.950Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -936,7 +936,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/farmstead-03-spring-young · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-03-spring-young/ · Paid
 
-The farmyard's young. A calf, foal, goat kid, lamb, piglet, gosling, duckling and a chick, each one the young of an animal the Farmstead series already ships.
+Farmstead 03 is 8 young farm animal sprites for RPG Maker MZ, Godot 4 and any engine: a calf, foal, kid, lamb, piglet, gosling, duckling and chick. Commercial use, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1344,7 +1344,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-actions-02 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-02/ · Paid
 
-Combat states for the whole Wildmark company, in every facing. 68 new animation cycles, 388 frames per grid size, at 128×128 and 64×64.
+Wildmark Actions 02 adds 68 combat animation cycles to the 8 Wildmark characters: PNG sheets at 64 and 128 px for any engine, with Godot 4 SpriteFrames ready.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1876,7 +1876,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 11,204 royalty free sound effects in 75 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 11,558 royalty free sound effects in 78 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2952,7 +2952,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: All 122 CSAF Plugins, Plus Every New One
+### MZ Plugin Library: All 123 CSAF Plugins, Plus Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3528,7 +3528,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/cartouche-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/cartouche-gamemaker/ · Paid · Engines: GameMaker
 
-The message box drawn as an object, and a different object for every speaker.
+Cartouche is a dialogue box generator for GameMaker: it reads who is speaking and draws their own box in pure GML, from 40 materials and 26 corners. One commercial licence, unlimited games.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4792,11 +4792,11 @@ You never move a knight. You plant a banner. Every knight on the field charges i
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BOLTHOLE
+### BOLTHOLE: A Twin Stick Dungeon Crawler, Free Demo
 
 Store: https://csaf.itch.io/bolthole · Our page: https://onefreeman1337.github.io/csaf-releases/games/bolthole/ · Paid · free browser demo on the page
 
-BOLTHOLE is a twin-stick action-adventure in one barred keep. You move with one hand and aim every crossbow bolt with the other, while the dead fire back.
+BOLTHOLE is a twin stick action adventure for Windows with a free browser demo: 27 rooms, five wardens and four seals in one barred keep. You move with one hand and aim every crossbow bolt with the other, while the dead fire back.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
