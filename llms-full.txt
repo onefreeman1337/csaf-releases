@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T13:35:22.032Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-08T14:47:51.237Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -380,7 +380,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-45-walls-roofs · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-45-walls-roofs/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-The A3 and A4 pages for RPG Maker MZ, in the Verdant series' 16x16 pixel-art look: 16 roofs and 16 building walls on the A3 sheet, 24 wall tops and 24 wall faces on the A4 sheet, upscaled exactly 3x to MZ's 48px.
+RPG Maker MZ A3 and A4 pages in the Verdant 16x16 look: 16 roofs over 16 building walls, and 24 wall tops over 24 wall faces.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1812,7 +1812,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sfx-family-forge · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sfx-family-forge/ · Paid · free browser demo on the page
 
-One vessel. A whole family of sound effects. Free sound generators make one sound at a time from random settings, so the jump, the coin and the menu click rarely sound like the same game.
+116 matching sound effects in one click, for Godot, Unity or GameMaker SFX Family Forge makes a whole family of game sound effects at once: pick what the sounds are made of, press Forge, and every slot comes out of that one material.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3244,7 +3244,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/tether · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tether/ · Paid · Engines: RPG Maker
 
-Your characters have relationships. RPG Maker has nowhere to show them. Most relationship systems for RPG Maker MZ keep a number per pair and show it as a number, a bar or a heart in a menu list.
+A relationship chart for RPG Maker MZ: 5 kinds of bond, 6 weights, up to 16 characters Tether draws every bond between your characters as a cord you can read at a glance.
 
 AI disclosure: AI Assisted, Code, Graphics
 
