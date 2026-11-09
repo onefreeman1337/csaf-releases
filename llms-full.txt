@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-09T19:16:46.044Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-09T21:36:06.136Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -436,7 +436,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-52-delves · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-52-delves/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Three dungeons in one pack, each in a palette of its own: 493 tiles at 16x16 in one locked 81-colour palette, 7 complete autotile sets, 30 objects and 5 animated subjects, with a finished sample map for each dungeon.
+Verdant 52 Delves is a 493 tile, 16x16 pixel art dungeon tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: drowned halls, a goblin warren and a labyrinth.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1008,7 +1008,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthhands-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-collection/ · Paid
 
-Buy once, keep every Hearthhands pack that joins. How the future packs work When a new Hearthhands pack comes out, its files are added to this page on launch day.
+Royalty free in commercial games, no credit required. Buy once, keep every Hearthhands pack that joins. How the future packs work When a new Hearthhands pack comes out, its files are added to this page on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1252,7 +1252,7 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 57 CSAF Sprite Packs, Plus Every New One
+### Sprite Library: 58 CSAF Sprite Packs, Plus Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
@@ -6084,11 +6084,11 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 30 CSAF UI Kits, Plus Every New One
+### UI Kit Collection: All 31 CSAF UI Kits, Plus Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 30 kits, 34 themes and 2,705 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 31 kits, 35 themes and 2,792 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
