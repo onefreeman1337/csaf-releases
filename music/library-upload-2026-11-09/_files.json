@@ -1,0 +1,66 @@
+[
+ {
+  "f": "cover.png",
+  "bytes": 459130,
+  "sha256": "6dcc39acba388a16d0673a7c67974e1fef03438ef9c479d111e463e967290010",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ },
+ {
+  "f": "add_all-hours.png",
+  "bytes": 115677,
+  "sha256": "d2b7aa77f2c4f067d3b25295ec14c57239ab0b69fe906eb115f03c6ff0cdcf1e",
+  "w": 1280,
+  "h": 754,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2193187,
+  "sha256": "fcb7cf7615a856ff4699a7a029dc33e9d9c13efeaa8db23b3cf54bb482f80c39",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1234720,
+  "sha256": "6469cee5092b935347664fef130a0d115dde8c58461cd189944423620f936846",
+  "w": 1280,
+  "h": 1303,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 401451,
+  "sha256": "1f8da4bdf6e8d901a55481f2559721035cc796fcd338010605d0cd4db870fdf6",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_4_inside_3.png",
+  "bytes": 392106,
+  "sha256": "2ec611a7e2f35761566885ef96d92d925507b69aabbf6898e00c41e2f793a3b0",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 372893,
+  "sha256": "e00d63fe5f48797a9049281b52cb0783800cb2e3329a6bd64a2b4ee603d97147",
+  "w": 1280,
+  "h": 1394,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 95173,
+  "sha256": "036265ea6a1364ac0689a9c0d1b8592785e43f33da1c235e35aff60e56b54a3b",
+  "w": 1280,
+  "h": 846,
+  "kind": "png"
+ }
+]
