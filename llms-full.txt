@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-08T14:47:51.237Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-09T19:16:46.044Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -748,7 +748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 100 packs and 62,191 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 101 packs and 67,439 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -968,7 +968,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthhands-02-market-and-craft · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-02-market-and-craft/ · Paid
 
-Ten more tradesfolk from the same village.
+10 animated village tradesfolk for RPG Maker MZ, Godot 4 and any engine Hearthhands 02 is 10 villager sprites at 200 and 100 px, each with an idle, a walk and the job they are named for.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1876,7 +1876,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 11,558 royalty free sound effects in 78 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 11,918 royalty free sound effects in 81 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2196,11 +2196,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 53 Game Music Albums, Plus Every New One
+### Music Library: 54 Game Music Albums, Plus Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 53 royalty free game music albums, 2,342 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 54 royalty free game music albums, 2,398 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2980,7 +2980,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/patina · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/patina/ · Paid · Engines: RPG Maker
 
-A sword at 40/100 durability looks exactly like a sword at 100/100. Every durability, crafting and repair system for RPG Maker MZ decrements a number and leaves the picture untouched.
+Gear that shows its condition in RPG Maker MZ: 20 forms, 11 materials, 6 states Patina is an RPG Maker MZ plugin that turns the durability number your project already tracks into the picture of the item.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3440,7 +3440,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/armoury-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/armoury-gamemaker/ · Paid · Engines: GameMaker
 
-Armoury draws weapons. It does not ship pictures of them. Thirty-seven weapon forms - eighteen hand blades, six axes, four maces, three hammers and six polearms - built from data at runtime in pure GML.
+Armoury is a GameMaker weapon system in pure GML: 37 sword, axe, mace, hammer and polearm forms, drawn from data at runtime, with no sprites in the package.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6160,11 +6160,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: All 28 Addon Packs + Every New One
+### CSAF Godot Collection: All 29 Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 28 packs, 1,465 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow and Creel are only here for now.
+Every CSAF addon pack for Godot 4 in one project: 29 packs, 1,513 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow, Creel and Seam are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6388,11 +6388,11 @@ Ironvale is 14 low poly PSX fantasy characters for Godot, Unity and Unreal, with
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Last Shift + Blackwater: 27 PSX Survivors and Infected
+### Last Shift + Blackwater + Camp Redfern: 41 PSX Characters
 
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
-Last Shift + Blackwater is 27 low poly PS1-style survival horror characters for Godot 4, Unity and Unreal: 13 human survivors and 14 infected. Free samplers of both are on this page.
+41 low poly PS1-style horror characters for Godot 4, Unity and Unreal: 13 survivors, 14 infected and 14 summer camp counsellors and staff.
 
 AI disclosure: AI Assisted, Code, Graphics
 
