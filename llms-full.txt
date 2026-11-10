@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 798 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-10T09:30:31.547Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-10T14:52:02.265Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1252,7 +1252,7 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 59 CSAF Sprite Packs, Plus Every New One
+### Sprite Library: 60 CSAF Sprite Packs, Plus Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
@@ -1320,7 +1320,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-03-the-far-kin · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-03-the-far-kin/ · Paid
 
-Four adventurers of other folk, for the same company. A dwarf smith, a halfling burglar, a monk of the cat folk and a warlock of the horned folk.
+4 top down fantasy hero sprites at 128 and 64 px, for RPG Maker MZ and Godot 4 Wildmark 03 is four adventurers of other folk for the Wildmark party: a dwarf smith, a halfling burglar, a monk of the cat folk and a warlock of the horned folk.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1352,7 +1352,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-actions-03 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-03/ · Paid
 
-The everyday actions for the Wildmark 01 party, in every facing. Pick up, interact, knocked down and get up for the elf, warrior, mage and rogue: 64 new animation cycles, 384 frames per grid size, at 128×128 and 64×64.
+64 top down action cycles for 4 RPG heroes at 128 and 64 px, ready for Godot 4 and RPG Maker Wildmark Actions 03 gives the four Wildmark 01 heroes their everyday verbs: pick up, interact, knocked down and get up, in all four facings.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1628,7 +1628,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/harness-cloth-armour-gear-movement-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/harness-cloth-armour-gear-movement-sfx/ · Paid
 
-What your character's clothes, armour and kit do when they move, as a layer on top of your footsteps 152 foley sound effects for six garments: cloth, heavy cloak, leather, mail, plate, adventurer's kit.
+Harness is 152 cloth, armour and gear movement sound effects in WAV and OGG for Godot, Unity, GameMaker or any engine, royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1772,7 +1772,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/portcullis-dungeon-mechanisms · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/portcullis-dungeon-mechanisms/ · Paid
 
-Every mechanism in this pack ships its whole lifecycle. Not one "door open" one-shot — a handle, a start, a swing that loops for as long as your animation runs, a stop, a slam, and a rattle when it is locked.
+Portcullis is 123 dungeon mechanism sound effects in WAV and OGG for Godot, Unity or any engine: 24 mechanisms, each with its whole lifecycle. A door is more than one cue.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1836,7 +1836,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/shuffle-and-tell-deckbuilder-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/shuffle-and-tell-deckbuilder-sfx/ · Paid
 
-The card table a deckbuilder is played on 198 sounds for deckbuilders, card battlers and roguelike deck games.
+198 deckbuilder sound effects for Godot, Unity and GameMaker, as WAV and OGG Shuffle and Tell is 198 sound effects for deckbuilders, card battlers and roguelike deck games, all from one felt table: a deck, a brass counter dial, a few chips and a glass vial, so they sit together in a build.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2128,7 +2128,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/four-greens · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/four-greens/ · Paid
 
-The original Game Boy could play four notes at a time. Two pulse channels, one wave channel, one noise channel, one note each. Three of them are pitched.
+A 42 track Game Boy adventure score in MIDI and OGG for RPG Maker, Godot, Unity and GameMaker Four Greens is 42 tracks of adventure music written inside the original Game Boy's pitched voice budget: melody on pulse 1, one companion on pulse 2, bass on the wave channel, never more than 3 notes at...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2860,7 +2860,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/incantation · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/incantation/ · Paid · Engines: RPG Maker
 
-A typing battle for your RPG, with the words taken from your own database. Incantation is Typing of the Dead for RPG Maker MZ.
+Incantation is a typing battle plugin for RPG Maker MZ with 3 drawn stages and 3 difficulties, and every word comes from your own skills, enemies and items.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3600,7 +3600,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/derby-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/derby-gamemaker/ · Paid · Engines: GameMaker
 
-A race meeting your players can bet on.
+A snail race meeting for GameMaker: 12 runners, 5 courses, Win or Place bets Derby gives your GameMaker game a race meeting your players can bet on: 12 generated racing snails a seed, 5 drawn garden courses, Win or Place bets and the judge's photograph for close finishes.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3676,11 +3676,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### GameMaker Library: 84 GML Assets, Plus Every New One
+### GameMaker Library: 85 GML Assets, Plus Every New One
 
 Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
 
-Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 84 packages and 778 GML scripts, no extensions or DLLs, royalty free in commercial games.
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 85 packages and 782 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3848,7 +3848,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/missive-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/missive-gamemaker/ · Paid · Engines: GameMaker
 
-Missive writes every letter your game delivers in its sender's own hand.
+Handwritten letters for GameMaker: 6 hands, 8 papers, 10 wax seals, folded and opened Missive writes every letter your GameMaker game delivers in its sender's own hand.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3872,7 +3872,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/panoply-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/panoply-gamemaker/ · Paid · Engines: GameMaker
 
-A loot system normally ships as logic plus a folder of icons — and the icons are the part that never fits your game, because affixes are combinatorial and static art cannot cover them.
+Panoply is a loot and gear system for GameMaker that draws its own item cards: 900 base variants, 40 affix glyphs and seeded rolls, in pure GML with no sprites.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3904,7 +3904,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/psyche-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/psyche-gamemaker/ · Paid · Engines: GameMaker
 
-Psyche is a sanity system for horror games where the meter is the least of it.
+Psyche is a sanity system for GameMaker horror games: a dread meter in 5 tiers, and 48 apparitions drawn at run time that appear as it falls. The meter is the least of it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4750,7 +4750,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 53 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 54 products.
 
 ### ANATOMIST
 
@@ -4837,6 +4837,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/cryptmarch · Our page: https://onefreeman1337.github.io/csaf-releases/games/cryptmarch/ · Paid · free browser demo on the page
 
 CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written by hand in HTML5.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### CSAF Game Boy Library: 13 Original ROMs, Plus Every New One
+
+Store: https://csaf.itch.io/game-boy-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/game-boy-library/ · Paid · free browser demo on the page
+
+13 original Game Boy and Game Boy Color games as.gb ROM files, built with GBDK-2020: deduction cases, proved puzzles, two roguelikes and more, in one download.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4978,7 +4986,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### MOONWORT
 
-Store: https://csaf.itch.io/moonwort · Our page: https://onefreeman1337.github.io/csaf-releases/games/moonwort/ · Free
+Store: https://csaf.itch.io/moonwort · Our page: https://onefreeman1337.github.io/csaf-releases/games/moonwort/ · Paid · free browser demo on the page
 
 MOONWORT is a short single-player narrative RPG for Windows, with a free demo you can play in your browser on this page.
 
@@ -5400,7 +5408,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/ironroad · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/ironroad/ · Free
 
-A free beat-em-up down an elevated railway, one station at a time. Plays in your browser, on a keyboard, a mouse or a phone. The Iron Road runs over a neon city, and every station on it has a gang waiting on the platform.
+IRONROAD is a free beat 'em up for your browser: fight down 7 stations of an elevated railway and draft a 6 slot combo between them. It plays on a keyboard, a mouse or a phone.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6160,14 +6168,6 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: All 30 Addon Packs + Every New One
-
-Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
-
-Every CSAF addon pack for Godot 4 in one project: 30 packs, 1,561 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow, Creel, Seam and Equinox are only here for now.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Emberflux: 120 2D Combat VFX for Godot 4
 
 Store: https://csaf.itch.io/emberflux · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/emberflux/ · Paid · Engines: Godot
@@ -6213,6 +6213,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/godot-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-sampler/ · Free · pay what you want · Engines: Godot
 
 Godot 4 Shader and VFX Sampler: 132 free presets from 11 addons A free download for Godot 4.7: 11 2D addons with 132 ready presets between them, MIT licensed.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Godot Collection: All 31 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
+
+Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
+
+Every CSAF addon pack for Godot 4 in one project: 31 packs, 1,607 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow, Creel, Seam, Equinox and Refectory are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6324,7 +6332,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/weatherglass-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/weatherglass-godot/ · Paid · Engines: Godot
 
-48 weather and atmosphere layers for Godot 4, blended by one controller Weatherglass draws weather live with shaders: rain, snow, hail, fog, sandstorms, embers, aurora, lightning, sunsets, rainbows, fireflies, lanterns and more, 48 full-screen layers in four groups.
+48 weather and atmosphere layers for Godot 4, blended by one controller Weatherglass draws weather live with shaders: rain, snow, hail, fog, sandstorms, embers, aurora, lightning, sunsets, rainbows, fireflies, lanterns and more, 48 full screen layers in four groups.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6338,7 +6346,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 11 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 12 products.
 
 ### Deep Station: 14 PSX Space Horror Crew (Rigged, Animated)
 
@@ -6417,6 +6425,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/pale-hours-psx-ghosts · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/pale-hours-psx-ghosts/ · Paid · Engines: Blender
 
 Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### PSX Character Library: 15 Low Poly Packs + Every New One
+
+Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
+
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
