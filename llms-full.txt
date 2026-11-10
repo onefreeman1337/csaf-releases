@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 798 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-10T14:52:02.265Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-10T16:54:54.972Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -6092,11 +6092,11 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 31 CSAF UI Kits, Plus Every New One
+### UI Kit Collection: All 32 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 31 kits, 35 themes and 2,792 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 32 kits, 38 themes and 3,059 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
