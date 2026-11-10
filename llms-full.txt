@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 798 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-10T16:54:54.972Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-10T21:19:35.085Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -676,7 +676,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-gbc · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-gbc/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant GBC is a 16x16 Game Boy Color tileset for GB Studio, Tiled, Godot 4, RPG Maker MZ and Unity: 794 tiles, in four seasons that differ by palette alone.
+Want the whole set? Verdant GBC is a 16x16 Game Boy Color tileset for GB Studio, Tiled, Godot 4, RPG Maker MZ and Unity: 794 tiles, in four seasons that differ by palette alone.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2952,7 +2952,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: All 124 CSAF Plugins, Plus Every New One
+### MZ Plugin Library: All 125 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -5696,7 +5696,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/tidepost · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/tidepost/ · Free
 
-You carry the mail between 9 islands, and the ocean itself is the mechanic. Free, in your browser. The sea in TIDEPOST is a real current field.
+You carry the mail between 9 islands on a real ocean current that moves with the season. Free, in your browser, on a laptop or a phone. The pale lines on the chart are the current's true streamlines, not a picture of moving water.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6352,7 +6352,7 @@ Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px paint
 
 Store: https://csaf.itch.io/deep-station-psx-space-horror-crew · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/deep-station-psx-space-horror-crew/ · Paid · Engines: Blender
 
-Deep Station is a pack of 14 low poly PS1-style sci-fi horror characters for Godot 4, Unity and Unreal.
+Want the whole set? Deep Station is a pack of 14 low poly PS1-style sci-fi horror characters for Godot 4, Unity and Unreal.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6360,7 +6360,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
-Fort Vale + Crosstown is 28 low poly PS1-style modern characters for Godot 4, Unity and Unreal: 14 soldiers and 14 city civilians. Free samplers of both are on this page.
+Want the whole set? Fort Vale + Crosstown is 28 low poly PS1-style modern characters for Godot 4, Unity and Unreal: 14 soldiers and 14 city civilians.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6368,7 +6368,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/greyhollow-psx-townsfolk · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/greyhollow-psx-townsfolk/ · Paid · Engines: Blender
 
-Greyhollow + Hollyfrost is 28 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 medieval townsfolk and 14 Christmas characters. Free samplers of both are on this page.
+Want the whole set? Greyhollow + Hollyfrost is 28 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 medieval townsfolk and 14 Christmas characters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6376,7 +6376,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/grimsnout-psx-orcs-goblins · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/grimsnout-psx-orcs-goblins/ · Paid · Engines: Blender
 
-Grimsnout is a pack of 14 low poly PS1-style orcs, goblins and an ogre for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+Want the whole set? Grimsnout is a pack of 14 low poly PS1-style orcs, goblins and an ogre for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6384,7 +6384,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hollow-congregation-psx-cultists · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollow-congregation-psx-cultists/ · Paid · Engines: Blender
 
-Hollow Congregation + Saint Oswin is 28 low poly PS1-style horror characters for Godot 4, Unity and Unreal: 14 rural cultists and 14 staff and patients of a decaying asylum.
+Want the whole set? Hollow Congregation + Saint Oswin is 28 low poly PS1-style horror characters for Godot 4, Unity and Unreal: 14 rural cultists and 14 staff and patients of a decaying asylum.
 
 AI disclosure: AI Assisted, Code, Graphics
 
