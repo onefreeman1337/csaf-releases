@@ -1,0 +1,58 @@
+[
+ {
+  "f": "cover.png",
+  "bytes": 470518,
+  "sha256": "a870d8e0f7b791987d4f8708a97a6c8a172a641a1239fd122123bb926785d340",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ },
+ {
+  "f": "add_aero-aquatic.png",
+  "bytes": 344780,
+  "sha256": "a41a5eaa3f7308e09aee5827a5ec829c9efd0a2a3bc7907122b7c8987b3fa1c7",
+  "w": 1280,
+  "h": 800,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2251826,
+  "sha256": "8d947bb1eae45fe932d8de9d6410d167c188dcdbd45c548e8a5733d8846c717e",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1272366,
+  "sha256": "85686ffdf8b1919bdca439b8955dcebd3a4d8776eb3140e7045f5b6beb777c18",
+  "w": 1280,
+  "h": 1324,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 398350,
+  "sha256": "c14310afaf53bf97b69216b0f9b0602933b6bfce500632ecdd56c2316278b8bb",
+  "w": 1280,
+  "h": 1472,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 404753,
+  "sha256": "c04de21581079a285d2304fa85131348163e399fb5b34d2ea4d55123135d21cb",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 96192,
+  "sha256": "0c201693c67f0e788c3e5f27788812dd7612c078eed15e309047c5179d8d6244",
+  "w": 1280,
+  "h": 870,
+  "kind": "png"
+ }
+]
