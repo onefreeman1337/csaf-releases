@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-09T21:36:06.136Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-10T01:21:15.488Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -292,7 +292,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-35-festival-fair · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-35-festival-fair/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-372 tiles at 16x16 for a village fair on a green, in daylight: trodden paths, straw round the stalls, a plank stage and big striped marquees, with bell tents, market stalls, a carousel whose roof and horses turn, a high striker, a coconut shy and bunting to string between its poles.
+A village fair tileset for RPG Maker MZ, Tiled and Godot 4: 372 tiles at 16x16 Verdant 35 is a 16x16 tileset for a village fair on a green: trodden paths, straw, a plank stage and striped marquees, with bell tents, market stalls, a carousel whose roof and horses turn, a high striker, a coconut...
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1252,7 +1252,7 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 58 CSAF Sprite Packs, Plus Every New One
+### Sprite Library: 59 CSAF Sprite Packs, Plus Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
@@ -2524,7 +2524,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/bivouac · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bivouac/ · Paid · Engines: RPG Maker
 
-RPG Maker MZ gives every enemy the same nothing to stand on. A goblin rabble and a demon lord float at the same height over the same battleback, casting no shadow, leaving no trace, surrounded by no sign that anything lives there.
+Battle ground for every enemy troop in RPG Maker MZ: 10 grounds, 14 marks, 28 pieces of furniture Bivouac is an RPG Maker MZ plugin that reads the troops you already made and draws the ground each band holds.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2796,7 +2796,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/glaze · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/glaze/ · Paid · Engines: RPG Maker
 
-Your item list says Potion. Beside it sits the same little bottle icon every other RPG Maker game ships with, and beside that one sits the same icon again for Ether, and again for Antidote.
+Generated potion and item icons for RPG Maker MZ: 14 pot forms, 12 glazes, 8 kiln marks Glaze is an RPG Maker MZ plugin that reads your item database and draws a piece of pottery for every consumable, reagent and container in it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3084,7 +3084,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/rummage · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rummage/ · Paid · Engines: RPG Maker
 
-I Spy scenes made from your own items and characters. Rummage is a plugin for RPG Maker MZ that composes seek-and-find scenes out of what your project already has.
+I Spy scenes for RPG Maker MZ from your own database: 8 surfaces, 3 crowd grounds Rummage is an RPG Maker MZ plugin that builds seek and find scenes out of what your project already has.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3432,7 +3432,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/anvil-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/anvil-gamemaker/ · Paid · Engines: GameMaker
 
-A hot-metal forging minigame for your GameMaker crafting.
+A forging minigame for GameMaker, drawn in code: 6 weapon families, 5 metals Anvil is a hot metal forging minigame for GameMaker crafting, written in pure GML with no sprites.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3676,11 +3676,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### GameMaker Library: 83 GML Assets, Plus Every New One
+### GameMaker Library: 84 GML Assets, Plus Every New One
 
 Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
 
-Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 83 packages and 773 GML scripts, no extensions or DLLs, royalty free in commercial games.
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 84 packages and 778 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6160,11 +6160,11 @@ Cartography: a journey map for Godot 4 that draws itself as the player explores,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### CSAF Godot Collection: All 29 Addon Packs + Every New One
+### CSAF Godot Collection: All 30 Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 29 packs, 1,513 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow, Creel and Seam are only here for now.
+Every CSAF addon pack for Godot 4 in one project: 30 packs, 1,561 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow, Creel, Seam and Equinox are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
