@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 796 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-10T01:21:15.488Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-10T09:30:31.547Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -744,11 +744,11 @@ Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 grid for Godot 4 and 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: The Complete Tileset Collection, All Packs
+### Verdant Library: All 102 CSAF Tileset Packs, Plus Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 101 packs and 67,439 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 102 packs and 68,358 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1696,11 +1696,11 @@ Jianghu is 133 wuxia and xianxia sound effects for Unity, Godot, Unreal and Game
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kickoff: Ball Sports Sound Effects
+### Kickoff: 103 Ball Sports and Crowd Sound Effects
 
 Store: https://csaf.itch.io/kickoff-ball-sports-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/kickoff-ball-sports-sound-effects/ · Paid
 
-A match your game can raise 103 ball sports sound effects built around four ladders: the crowd brightens toward a roar, the strike hits harder, the shot clock beeps faster and the ball falls from higher, one rung at a time.
+Kickoff is 103 ball sports sound effects in WAV and OGG for Unity, Godot or any engine: four ladders your game can raise, plus a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1872,11 +1872,11 @@ Slackwater is a pack of 129 fishing sound effects for any game engine: the cast,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: Every CSAF Sound Effects Pack, Plus New Ones
+### Sound Library: All 85 CSAF Sound Effects Packs and New Ones
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 11,918 royalty free sound effects in 81 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 12,542 royalty free sound effects in 85 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2096,7 +2096,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/dramatis-personae · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/dramatis-personae/ · Paid
 
-Twelve people, twelve five note themes, 50 tracks. Most music packs sell places: a town, a cave, a battle. This one sells the cast.
+Dramatis Personae is a 50 track JRPG music pack for RPG Maker, Godot, Unity and GameMaker, built on 12 character themes. Royalty free, with the MIDI for every track and 2 full tracks free on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2172,11 +2172,11 @@ Horror Manor is a 42 track PSX survival horror music pack for RPG Maker MZ, Godo
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Ironmarch - A Complete Combat Score - 42 Tracks
+### Ironmarch: 42 Track RPG Battle and Boss Music Pack
 
 Store: https://csaf.itch.io/ironmarch · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/ironmarch/ · Paid
 
-Forty-two tracks for a long game's whole war, not for one fight.
+Ironmarch is a 42 track RPG battle music pack for RPG Maker MZ, Godot and Unity: OGG plus editable MIDI, loop tagged, with four full tracks free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2196,11 +2196,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 54 Game Music Albums, Plus Every New One
+### Music Library: 55 Game Music Albums, Plus Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 54 royalty free game music albums, 2,398 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 55 royalty free game music albums, 2,442 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2908,7 +2908,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/leadlight · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/leadlight/ · Paid · Engines: RPG Maker
 
-Break the glass, win the picture. Leadlight is a brick-breaker minigame for RPG Maker MZ.
+Leadlight is a brick breaker minigame plugin for RPG Maker MZ with 4 stained glass panes: the player breaks one cut from your own picture to reveal it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2952,7 +2952,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: All 123 CSAF Plugins, Plus Every New One
+### MZ Plugin Library: All 124 CSAF Plugins, Plus Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3196,7 +3196,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/strata · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/strata/ · Paid · Engines: RPG Maker
 
-Give the player a rock face and two tools. Every blow cuts the rock back a layer and puts stress on the face. Somewhere under it lie fossils, relics, crystals and ore.
+Strata is a dig minigame plugin for RPG Maker MZ: chip back 5 kinds of rock with a pick and a hammer to free fossils and relics before the face collapses.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3324,7 +3324,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/vigil · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vigil/ · Paid · Engines: RPG Maker
 
-The Souls loop for RPG Maker MZ. Rest at a shrine. Fall. Walk back for what you dropped.
+Vigil brings the Souls loop to RPG Maker MZ in 3 plugin files: rest at a shrine, fall, and walk back to the echo that holds what you dropped. Royalty free, with no image files and no common events to author.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4840,7 +4840,7 @@ CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on on
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CSAF Games Library: All 45 Paid Games, Plus Every New One
+### CSAF Games Library: All 46 Paid Games, Plus Every New One
 
 Store: https://csaf.itch.io/games-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/games-library/ · Paid
 
@@ -5616,7 +5616,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/swallet · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/swallet/ · Free
 
-SWALLET is a free incremental dungeon management game for the browser: you are the cave, with 12 fixtures, 4 bands of rock and 5 kinds of delver coming down.
+SWALLET is a free browser incremental where you are the cave: 12 fixtures, 4 bands of rock and 5 kinds of delver coming down to rob you. You cut chambers into a hill and put things in them.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
