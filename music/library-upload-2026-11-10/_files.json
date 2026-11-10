@@ -1,0 +1,50 @@
+[
+ {
+  "f": "cover.png",
+  "bytes": 470893,
+  "sha256": "efa4cb147a59a89bce46c82bfb7b81f27aba908b79cbd2fb3ea9f17c57420094",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ },
+ {
+  "f": "add_aero-desktop.png",
+  "bytes": 344838,
+  "sha256": "c2f2669eac41323fcec3403c24c963d537237e8ed85e40dfae4aeb4c25aa78ad",
+  "w": 1280,
+  "h": 800,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2227025,
+  "sha256": "8f99e873a37fe367026ad2274400cdd22fd565f3ffd8233a1b3bd4776dfc88a4",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1251406,
+  "sha256": "312e4b816745b6d7933ee8d1d4df3ecd9c5f2f8365fef1310912c845f9f13184",
+  "w": 1280,
+  "h": 1324,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 404753,
+  "sha256": "581a64d36824f1336b5f11b66ef45ba9b11c7af4d23c97cbf01829445c3c0056",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 94928,
+  "sha256": "383d319e045c93e9ee3eafa055df96b2d3e3cf54a97cc65a41e83ca443997e54",
+  "w": 1280,
+  "h": 870,
+  "kind": "png"
+ }
+]
