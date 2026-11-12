@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 798 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-10T21:19:35.085Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-12T14:53:59.751Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 102 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 103 products.
 
 ### Verdant 00: Free Tileset Sampler, 878 Tiles [16x16]
 
@@ -768,6 +768,14 @@ Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4, Unity a
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Retro Library: 5 Game Boy, GB Studio & NES Tilesets
+
+Store: https://csaf.itch.io/verdant-retro-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack. Free to try first: the Verdant 00 Series Sampler.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Seasons — One Meadow, Four Times a Year [16x16]
 
 Store: https://csaf.itch.io/verdant-seasons · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-seasons/ · Paid · Engines: RPG Maker, Tiled, Godot
@@ -1252,7 +1260,7 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 60 CSAF Sprite Packs, Plus Every New One
+### Sprite Library: 61 Pixel Art Sprite Packs (Characters, Monsters, VFX) + Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
@@ -1872,11 +1880,11 @@ Slackwater is a pack of 129 fishing sound effects for any game engine: the cast,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 85 CSAF Sound Effects Packs and New Ones
+### Sound Library: All 88 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 12,542 royalty free sound effects in 85 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 12,962 royalty free sound effects in 88 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2196,11 +2204,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 55 Game Music Albums, Plus Every New One
+### Music Library: 56 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 55 royalty free game music albums, 2,442 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 56 royalty free game music albums, 2,486 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3676,11 +3684,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### GameMaker Library: 85 GML Assets, Plus Every New One
+### GameMaker Library: 86 GML Assets, Plus Every New One
 
 Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
 
-Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 85 packages and 782 GML scripts, no extensions or DLLs, royalty free in commercial games.
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 86 packages and 788 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4848,7 +4856,7 @@ Store: https://csaf.itch.io/game-boy-library · Our page: https://onefreeman1337
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CSAF Games Library: All 46 Paid Games, Plus Every New One
+### CSAF Games Library: All 47 Paid Games, Plus Every New One
 
 Store: https://csaf.itch.io/games-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/games-library/ · Paid
 
@@ -5472,7 +5480,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/perigee · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/perigee/ · Free
 
-A settlement stands on a shelving coast. It wants water in some places and never in others, and it will not listen to you. You are not its god of harvests, only of tides.
+PERIGEE is a free browser tide game of 10 seasons with one control: the moon's orbit.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
