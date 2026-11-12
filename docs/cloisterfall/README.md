@@ -5,7 +5,8 @@ _Core Systems Asset Factory (CSAF). This page is the free, public documentation 
 
 **Product:** CLOISTERFALL  
 **Engine:** Hand-written HTML5 (Canvas + vanilla JS) — browser-native, no runtime to license. GameMaker only if its HTML5 module ever installs (licence grants it; module absent, Igor refused twice with "Signature is invalid"). RPG Maker MZ is BARRED for shipping: CLAUDE.md §8.5 forbids redistributing the Kadokawa runtime, and an itch upload is redistribution.  
-**Docs published:** 2026-11-10
+**Store page:** https://csaf.itch.io/games-library  
+**Docs published:** 2026-11-12
 
 
 ---
@@ -37,7 +38,7 @@ Touch screens: the left half of the screen is a stick; JUMP, AXE, DASH and BELL 
 
 - A foe that is winding up shows a red diamond and a red strip on the floor where it will strike. Step out, or hit it while it recovers.
 - Bosses brace through a wind-up: your axe barely marks them then. Ring the Matins Bell DURING a wind-up and it breaks them open.
-- Shrines (three candles on a plinth) heal you and are where you wake after a fall in battle.
+- Shrines (a lit arched alcove with three candles inside it) heal you and are where you wake after a fall in battle. Candles standing on a bare floor are not shrines.
 - The map (Tab / Select) pins every door you have seen with the icon of the relic it needs: a red ring until you have it, green once you do.
 
 ## Saving
