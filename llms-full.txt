@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-12T18:58:38.349Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-12T19:55:14.608Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -768,7 +768,7 @@ Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4, Unity a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Retro Library: 5 Game Boy, GB Studio & NES Tilesets
+### Verdant Retro Library: 6 Game Boy, GB Studio & NES Tilesets
 
 Store: https://csaf.itch.io/verdant-retro-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
@@ -848,7 +848,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/brinemark-pirate-crew-navy-smugglers · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/brinemark-pirate-crew-navy-smugglers/ · Paid · Engines: Godot
 
-Brinemark is 13 top-down pixel art sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: pirates, navy and smugglers. Use them in commercial and free games, no credit needed.
+Want the whole set? Brinemark is 13 top-down pixel art sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: pirates, navy and smugglers.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1836,7 +1836,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ship-systems-sci-fi-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/ship-systems-sci-fi-sfx/ · Paid
 
-Ship Systems is a pack of 139 sci-fi sound effects for any game engine: one spaceship's console, airlock, doors, reactor, drive, shields and alerts. Royalty free, with a free demo on this page.
+Want the whole set? Ship Systems is a pack of 139 sci-fi sound effects for any game engine: one spaceship's console, airlock, doors, reactor, drive, shields and alerts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2428,7 +2428,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/aloft · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aloft/ · Paid · Engines: RPG Maker
 
-Your own maps, as islands in the sky. Aloft is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that turns any map into a floating island. Put <aloft> in the map's note and leave the sky empty or paint it with a region.
+Want the whole set? Your own maps, as islands in the sky. Aloft is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that turns any map into a floating island.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2852,7 +2852,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hoist · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hoist/ · Paid · Engines: RPG Maker
 
-Hoist is an RPG Maker MZ plugin for Zelda style pick up and throw, with lift, carry and throw poses in all 4 facings made from your own walking sprites.
+Want the whole set? Hoist is an RPG Maker MZ plugin for Zelda style pick up and throw, with lift, carry and throw poses in all 4 facings made from your own walking sprites.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2960,7 +2960,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: All 125 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 126 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3028,7 +3028,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/plinth · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/plinth/ · Paid · Engines: RPG Maker
 
-Plinth is an RPG Maker MZ plugin that strikes your own characters and monsters into statues in 7 materials, with live petrify and stone battlers. Royalty free.
+Want the whole set? Plinth is an RPG Maker MZ plugin that strikes your own characters and monsters into statues in 7 materials, with live petrify and stone battlers.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3036,7 +3036,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/posture · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/posture/ · Paid · Engines: RPG Maker
 
-Posture is an RPG Maker MZ plugin with 9 poses, made from each character's own walking sheet: sit, kneel, read, lie down, sleep, wave and more. Royalty free.
+Want the whole set? Posture is an RPG Maker MZ plugin with 9 poses, made from each character's own walking sheet: sit, kneel, read, lie down, sleep, wave and more.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3268,7 +3268,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/threshold · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threshold/ · Paid · Engines: RPG Maker
 
-Threshold is an RPG Maker MZ plugin with 8 kinds of opening: every door, gate, hatch and cave mouth in your own tileset opens from that tile's own pixels.
+Want the whole set? Threshold is an RPG Maker MZ plugin with 8 kinds of opening: every door, gate, hatch and cave mouth in your own tileset opens from that tile's own pixels.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3300,7 +3300,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/township · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/township/ · Paid · Engines: RPG Maker
 
-Township is an NPC daily routine plugin for RPG Maker MZ and MV: 9 plugin commands give every townsperson a real day, overnight shifts included. Royalty free.
+Want the whole set? Township is an NPC daily routine plugin for RPG Maker MZ and MV: 9 plugin commands give every townsperson a real day, overnight shifts included.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4804,7 +4804,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/bolthole · Our page: https://onefreeman1337.github.io/csaf-releases/games/bolthole/ · Paid · free browser demo on the page
 
-BOLTHOLE is a twin stick action adventure for Windows with a free browser demo: 27 rooms, five wardens and four seals in one barred keep. You move with one hand and aim every crossbow bolt with the other, while the dead fire back.
+Want the whole set? BOLTHOLE is a twin stick action adventure for Windows with a free browser demo: 27 rooms, five wardens and four seals in one barred keep.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4868,7 +4868,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/pocket-anthology · Our page: https://onefreeman1337.github.io/csaf-releases/games/pocket-anthology/ · Paid · free browser demo on the page
 
-CSAF Pocket Anthology is 6 original Game Boy games as real 32 KB.gb ROMs, with a free demo of each one playable here in your browser. Run the full games in a Game Boy emulator or put them on a flash cartridge.
+Want the whole set? CSAF Pocket Anthology is 6 original Game Boy games as real 32 KB.gb ROMs, with a free demo of each one playable here in your browser.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4916,7 +4916,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/guiser · Our page: https://onefreeman1337.github.io/csaf-releases/games/guiser/ · Paid · free browser demo on the page
 
-One village. One night. Every costume is a key. It is All Hallows' Eve in Hallow End, and the Midnight Man woke early. The dead are up out of the churchyard and they will not go back to bed until someone rings the church bell at midnight.
+Want the whole set? One village. One night. Every costume is a key. It is All Hallows' Eve in Hallow End, and the Midnight Man woke early.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
