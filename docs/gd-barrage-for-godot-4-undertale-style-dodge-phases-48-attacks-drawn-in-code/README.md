@@ -68,7 +68,7 @@ arena.open(attack)
   patterns; foes take them in turn by `id`, so neighbouring foes never attack alike with the same kind of move.
 - **How fierce:** tier 0 to 4 from attack (magic for a magical move) and agility, measured against the median of your list.
 - **Bosses:** a foe with 3 times the median max HP (or `boss = true`) attacks in 2 phases of different patterns, 3 phases at
-  6 times. The arena resizes for each pattern.
+  6 times. The arena is sized for the first pattern and keeps that size through every phase.
 - The same foe, move and seed always compose the same attack.
 
 ### BarrageFoe
