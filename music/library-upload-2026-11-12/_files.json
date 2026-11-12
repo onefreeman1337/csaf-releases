@@ -1,0 +1,82 @@
+[
+ {
+  "f": "add_aero-plaza.png",
+  "bytes": 351532,
+  "sha256": "8420ccf013f46694a167090932552f7443c87c63438306ab37c91a8c84b3be06",
+  "w": 1280,
+  "h": 800,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2276021,
+  "sha256": "f69aaa148d261f8a468cd29dfe272d8e926f57aae4b137647147d4945cbac863",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1460028,
+  "sha256": "0dc2f2899ab2a8000be7cc5b51b6cd5806739a8257e5187cb69932fea731531d",
+  "w": 1280,
+  "h": 1324,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 340457,
+  "sha256": "9217bd6722f8759903f5cdeb279dde2a601a24fb9f6bf39532f93ce68c55837c",
+  "w": 1280,
+  "h": 1263,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 401431,
+  "sha256": "1eb25c31449fdfe82795460e18785e82a33ab44e92b568022018c7742927b567",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_4_inside_3.png",
+  "bytes": 392085,
+  "sha256": "0620233f820a83f7db021c2954f26303254a1b5a5013707c52537cad1c88108d",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 372874,
+  "sha256": "ca6c026c7316f3a1ef0d55f5652f74dea9689d018b9d318c31a59f1032e7fb75",
+  "w": 1280,
+  "h": 1394,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 148283,
+  "sha256": "9faacf2254c92ef2b8c1849bdf6ceaae81c7ac2609cf28bbffb357303a9db53d",
+  "w": 1280,
+  "h": 692,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 95715,
+  "sha256": "2973a8855d379cccaf1a95e86cb11cecd9ceae268a27ffe158f5f3996097282c",
+  "w": 1280,
+  "h": 870,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 470190,
+  "sha256": "e49e49086a665a2a7eb8e27f181fca30bc3af5657cd1dacc12a44cb7d798f6a6",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
