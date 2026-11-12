@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-12T14:53:59.751Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-12T18:58:38.349Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -26,7 +26,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Verdant 02: Elevation Tileset, Plateaus and Cliffs [16x16]
 
-Store: https://csaf.itch.io/verdant-02-elevation · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-02-elevation/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+Store: https://csaf.itch.io/verdant-02-elevation · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-02-elevation/ · Free · pay what you want · Engines: Unity, RPG Maker, Tiled, Godot
 
 Verdant 02 Elevation is a 16x16 pixel art tileset of 149 tiles for raised plateaus and cliffs seen from above, for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
@@ -140,7 +140,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-16-east-asian · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-16-east-asian/ · Paid · Engines: GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 16 East Asian Village is a 16x16 Japanese village tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 678 tiles of shrine, rice paddies and houses.
+Want the whole set? Verdant 16 East Asian Village is a 16x16 Japanese village tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 678 tiles of shrine, rice paddies and houses.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -516,7 +516,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-62-tamer-routes · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-62-tamer-routes/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 62 is a 490 tile 16x16 tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: the tall grass, ledges, pond, cave and town of a monster tamer route.
+Want the whole set? Verdant 62 is a 490 tile 16x16 tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: the tall grass, ledges, pond, cave and town of a monster tamer route.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -524,7 +524,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-63-ice-palace · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-63-ice-palace/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 63 is a 587 tile 16x16 ice palace tileset for RPG Maker MZ, Tiled, Godot 4 and Unity.
+Want the whole set? Verdant 63 is a 587 tile 16x16 ice palace tileset for RPG Maker MZ, Tiled, Godot 4 and Unity.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -708,7 +708,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-hex-01-hex-terrain · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hex-01-hex-terrain/ · Paid · Engines: Tiled, Godot
 
-Verdant Hex 01 is a 32x32 pointy top hex tileset in pixel art for Godot 4 and Tiled, made for strategy maps, board games and overworlds.
+Want the whole set? Verdant Hex 01 is a 32x32 pointy top hex tileset in pixel art for Godot 4 and Tiled, made for strategy maps, board games and overworlds.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -716,7 +716,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-hex-02-volcanic-jungle-wetland · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-hex-02-volcanic-jungle-wetland/ · Paid · Engines: Tiled, Godot
 
-Verdant Hex 02 is a 32x32 pointy top hex tileset in pixel art for Godot 4 and Tiled: ash, lava, jungle and swamp for strategy maps and overworlds.
+Want the whole set? Verdant Hex 02 is a 32x32 pointy top hex tileset in pixel art for Godot 4 and Tiled: ash, lava, jungle and swamp for strategy maps and overworlds.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -740,15 +740,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-iso-01-meadow-river-highland · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-iso-01-meadow-river-highland/ · Paid · Engines: Tiled, Godot
 
-Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 grid for Godot 4 and Tiled: a meadow, a river valley and a rocky highland. Every ground blends into its neighbours through generated corner tiles, so a map reads as one landscape.
+Want the whole set? Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 grid for Godot 4 and Tiled: a meadow, a river valley and a rocky highland.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: All 102 CSAF Tileset Packs, Plus Every New One
+### Verdant Library: All 103 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 102 packs and 68,358 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 103 packs and 69,088 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1064,7 +1064,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-02-house-pets · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-02-house-pets/ · Paid
 
-Kithfell 02 is 9 top down house pet sprites: 3 cats, 3 dogs, a rabbit, a ferret and a hedgehog, with RPG Maker MZ and Godot 4 files at 128 and 64 px. Free sample.
+Want the whole family? Kithfell 02 is 9 top down house pet sprites: 3 cats, 3 dogs, a rabbit, a ferret and a hedgehog, with RPG Maker MZ and Godot 4 files at 128 and 64 px.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1740,7 +1740,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/lucky-draw-scratch-card-and-lottery-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/lucky-draw-scratch-card-and-lottery-sound-effects/ · Paid
 
-Lucky Draw is 150 scratch card, prize wheel, lottery and bingo sound effects for Unity, Unreal, Godot, GameMaker and any game engine. Royalty free for commercial games, no credit required.
+Want the whole set? Lucky Draw is 150 scratch card, prize wheel, lottery and bingo sound effects for Unity, Unreal, Godot, GameMaker and any game engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2128,7 +2128,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fm-drive · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/fm-drive/ · Paid
 
-FM Drive is a 44 track 16 bit action game music pack written to the Mega Drive / Genesis sound budget: 38 full looping pieces and 6 short cues, 32:51 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources and a channel map.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2256,7 +2256,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sengoku · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/sengoku/ · Paid
 
-Sengoku is a 44 track score for feudal Japanese fantasy games: a mountain shrine, the high road through a province at war, a village under curfew, the bamboo grove by moonlight, the castle walls and the daimyo's court, the temples and the graves, nine fights from the first ronin to the last...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2540,7 +2540,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/bout · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bout/ · Paid · Engines: RPG Maker
 
-Bout is a 3 file RPG Maker MZ plugin: a real-time 1v1 fighting game where your actors fight in 5 arenas with specials made from their own skills. Royalty free in commercial games, with no new art to add.
+Want the whole set? Bout is a 3 file RPG Maker MZ plugin: a real-time 1v1 fighting game where your actors fight in 5 arenas with specials made from their own skills.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2578,7 +2578,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ### Chimera Core: Creature Genetics and Breeding, RPG Maker MZ
 
-Store: https://csaf.itch.io/chimera-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-core/ · Paid · Engines: RPG Maker
+Store: https://csaf.itch.io/chimera-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-core/ · Free · pay what you want · Engines: RPG Maker
 
 Chimera Core is an RPG Maker MZ plugin that gives every captured creature 8 hidden stat genes, so two of one species at one level are measurably different.
 
@@ -2620,7 +2620,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/cloudshadow · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cloudshadow/ · Paid · Engines: RPG Maker
 
-Cloudshadow is a 2 file RPG Maker MZ plugin that reads your map and casts 5 kinds of cloud sky, with a shadow that lands differently on water, roof and grass.
+Want the whole set? Cloudshadow is a 2 file RPG Maker MZ plugin that reads your map and casts 5 kinds of cloud sky, with a shadow that lands differently on water, roof and grass.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2700,7 +2700,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/encore-boss-second-phases · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/encore-boss-second-phases/ · Paid · Engines: RPG Maker
 
-Encore gives RPG Maker MZ bosses a second phase drawn from their own battler: 12 forms and 4 drawn transformations, set with one note tag. Two plugin files, commercial use, no royalty.
+Want the whole set? Encore gives RPG Maker MZ bosses a second phase drawn from their own battler: 12 forms and 4 drawn transformations, set with one note tag.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2908,7 +2908,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/knack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/knack/ · Paid · Engines: RPG Maker
 
-Knack is an RPG Maker MZ plugin with 12 work animations, from chopping wood to fishing, made from your own walking sprites in all 4 facings. Three plugin files and 8 sample objects, commercial use with no royalty.
+Want the whole set? Knack is an RPG Maker MZ plugin with 12 work animations, from chopping wood to fishing, made from your own walking sprites in all 4 facings.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2980,7 +2980,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/over-the-shoulder · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/over-the-shoulder/ · Paid · Engines: RPG Maker
 
-Over the Shoulder is an RPG Maker MZ plugin that shows your party from behind in battle, from your own walk sheets, with 3 stagings and 50 floors. Two plugin files, no art to draw, commercial use with no royalty.
+Want the whole set? Over the Shoulder is an RPG Maker MZ plugin that shows your party from behind in battle, from your own walk sheets, with 3 stagings and 50 floors.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3156,7 +3156,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sigil-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sigil-core/ · Paid · Engines: RPG Maker
 
-Sigil Core is a 3 file RPG Maker MZ and MV plugin that draws an animated magic circle for every skill, from that skill's own data. Royalty free in commercial games, with no art files to draw.
+Want the whole set? Sigil Core is a 3 file RPG Maker MZ and MV plugin that draws an animated magic circle for every skill, from that skill's own data.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3188,7 +3188,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/spellwright · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/spellwright/ · Paid · Engines: RPG Maker
 
-Your players write their own spells.
+Want the whole set? Your players write their own spells.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3380,7 +3380,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/warhost · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/warhost/ · Paid · Engines: RPG Maker
 
-Warhost is an army battle plugin for RPG Maker MZ and MV: up to 240 drawn figures a side, 4 formations and 5 painted fields, with no image files to import.
+Want the whole set? Warhost is an army battle plugin for RPG Maker MZ and MV: up to 240 drawn figures a side, 4 formations and 5 painted fields, with no image files to import.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3388,7 +3388,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/windowskin-foundry · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/windowskin-foundry/ · Paid · Engines: RPG Maker
 
-Windowskin Foundry is 44 windowskins and a plugin for RPG Maker MZ, in 11 worked materials by 4 corner ornaments, re-struck in your tileset's colours.
+Want the whole set? Windowskin Foundry is 44 windowskins and a plugin for RPG Maker MZ, in 11 worked materials by 4 corner ornaments, re-struck in your tileset's colours.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6100,11 +6100,11 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 32 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
+### UI Kit Collection: All 33 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 32 kits, 38 themes and 3,059 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 33 kits, 41 themes and 3,446 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6212,7 +6212,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/gnomon-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/gnomon-godot/ · Paid · Engines: Godot
 
-Gnomon: 2D sprite shadows for Godot 4, cast from your own sprites Gnomon is a Godot 4.7 addon that gives every 2D sprite a shadow cut from its own pixels: 48 shadow styles in six families, three nodes (GnomonLayer, GnomonCaster2D, GnomonReceiver2D) and four shaders, in plain GDScript and Godot...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6224,11 +6224,11 @@ Godot 4 Shader and VFX Sampler: 132 free presets from 11 addons A free download 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Godot Collection: All 31 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
+### Godot Collection: All 32 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 31 packs, 1,607 presets for 2D games, royalty free, and every new pack joins on launch day. Plinth, Dungeon Forge, Cloudshadow, Creel, Seam, Equinox and Refectory are only here for now.
+Every CSAF addon pack for Godot 4 in one project: 32 packs, 1,655 presets for 2D games, royalty free, and every new pack joins on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
