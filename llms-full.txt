@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-12T19:55:14.608Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-12T21:45:03.566Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -20,7 +20,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-01-overworld · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-01-overworld/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 01 is a 16x16 pixel art overworld tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: grass, dirt, sand, stone and water in 239 tiles.
+Want the whole set? Verdant 01 is a 16x16 pixel art overworld tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: grass, dirt, sand, stone and water in 239 tiles.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -468,7 +468,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-56-mechanisms · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-56-mechanisms/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 56 is a 16x16 dungeon puzzle tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 12 mechanisms in 25 states, each state its own tile. Use the tiles in commercial and free games, no credit needed.
+Want the whole set? Verdant 56 is a 16x16 dungeon puzzle tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: 12 mechanisms in 25 states, each state its own tile.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -652,7 +652,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-battlebacks · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-battlebacks/ · Paid · Engines: RPG Maker
 
-Verdant Battlebacks is 40 pixel art battle backgrounds for RPG Maker MZ, with 1280x720 and VX Ace sets: 10 biomes, each at dawn, day, dusk and night. Commercial use is permitted in unlimited projects with no attribution required.
+Want the whole set? Verdant Battlebacks is 40 pixel art battle backgrounds for RPG Maker MZ, with 1280x720 and VX Ace sets: 10 biomes, each at dawn, day, dusk and night.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -856,7 +856,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/cart-and-keel · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/cart-and-keel/ · Paid
 
-Cart & Keel is 25 pixel art medieval vehicle sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: carts, wagons, riverboats and small ships.
+Want the whole set? Cart & Keel is 25 pixel art medieval vehicle sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: carts, wagons, riverboats and small ships.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1480,11 +1480,11 @@ A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a d
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Blip Library: 7 Dialogue Sound Effects Packs, Plus New Ones
+### Blip Library: 10 Dialogue Sound Effects Packs, Plus New Ones
 
 Store: https://csaf.itch.io/blip-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-library/ · Paid
 
-Blip Library is 1,329 royalty free dialogue sound effects in 7 packs for RPG Maker, Godot, Unity, GameMaker and any engine that plays WAV or OGG.
+Blip Library is 1,749 royalty free dialogue sound effects in 10 packs for RPG Maker, Godot, Unity, GameMaker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1500,7 +1500,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/bonbon-candy-world-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/bonbon-candy-world-sound-effects/ · Paid
 
-Bonbon is 185 candy world sound effects for Unity, Unreal, Godot, GameMaker and any game engine, with 14 seamless loops in WAV and OGG.
+Want the whole set? Bonbon is 185 candy world sound effects for Unity, Unreal, Godot, GameMaker and any game engine, with 14 seamless loops in WAV and OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2064,7 +2064,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/bright-and-cute · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/bright-and-cute/ · Paid
 
-Bright & Cute is a 44 track score for casual, puzzle and match 3 games: the title, the menu, the level map, eight level themes, the shop, the idle screen, the pause, the results, the bonus round and the short cues a casual game fires all day.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2204,11 +2204,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 56 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
+### Music Library: 57 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 56 royalty free game music albums, 2,486 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 57 royalty free game music albums, 2,530 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2392,7 +2392,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wayfarer · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/wayfarer/ · Paid
 
-Wayfarer is a 42 track JRPG overworld and travel music pack for RPG Maker MZ, Godot, Unity, GameMaker or any engine, as OGG plus editable MIDI. Royalty free for commercial games, no credit required.
+Want the whole set? Wayfarer is a 42 track JRPG overworld and travel music pack for RPG Maker MZ, Godot, Unity, GameMaker or any engine, as OGG plus editable MIDI.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2500,7 +2500,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/augury · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/augury/ · Paid · Engines: RPG Maker
 
-Augury is a 6 file RPG Maker MZ and MV plugin that draws a 78 card tarot deck with no image files and deals readings into your switches and variables.
+Want the whole set? Augury is a 6 file RPG Maker MZ and MV plugin that draws a 78 card tarot deck with no image files and deals readings into your switches and variables.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -2508,7 +2508,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/barrage · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrage/ · Paid · Engines: RPG Maker
 
-Barrage is 3 RPG Maker MZ plugins that turn every enemy attack into an Undertale style dodge, composed from your own database. Royalty free in commercial games.
+Want the whole set? Barrage is 3 RPG Maker MZ plugins that turn every enemy attack into an Undertale style dodge, composed from your own database. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3284,7 +3284,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/timber · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/timber/ · Paid · Engines: RPG Maker
 
-Timber is a tree cutting plugin for RPG Maker MZ with 6 kinds of fall, cut from the trees already painted on your maps, with nothing to draw. Royalty free.
+Want the whole set? Timber is a tree cutting plugin for RPG Maker MZ with 6 kinds of fall, cut from the trees already painted on your maps, with nothing to draw.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3396,7 +3396,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wrack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wrack/ · Paid · Engines: RPG Maker
 
-Wrack is a 2 file RPG Maker MZ plugin that shows your own town burned, ruined, overgrown or abandoned, made from the tileset it already uses. Royalty free in commercial games, with no art files to draw.
+Want the whole set? Wrack is a 2 file RPG Maker MZ plugin that shows your own town burned, ruined, overgrown or abandoned, made from the tileset it already uses.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5052,7 +5052,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/rootwork · Our page: https://onefreeman1337.github.io/csaf-releases/games/rootwork/ · Paid · free browser demo on the page
 
-Grow the roots. Share every path you can. A seed has landed in a meadow. Somewhere under it, pools of water sit in the soil between the clay and the stones.
+Want the whole set? Grow the roots. Share every path you can. A seed has landed in a meadow. Somewhere under it, pools of water sit in the soil between the clay and the stones.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
