@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T08:03:20.028Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T08:29:11.717Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1336,7 +1336,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-04-dragonkin · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-04-dragonkin/ · Paid
 
-Six dragonborn adventurers for the same company. A knight, a brawler, an archer, a warden, a sorcerer and a priest of the dragon folk, each with a scaled dragon's head in a different lineage colour.
+Want the whole family? Six dragonborn adventurers for the same company. A knight, a brawler, an archer, a warden, a sorcerer and a priest of the dragon folk, each with a scaled dragon's head in a different lineage colour.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1444,7 +1444,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/barrage-shmup-bullet-hell-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/barrage-shmup-bullet-hell-sound-effects/ · Paid
 
-Barrage is 138 shoot em up sound effects for Unity, Godot, GameMaker or any engine, grouped by the mechanic each one serves.
+Want the whole set? Barrage is 138 shoot em up sound effects for Unity, Godot, GameMaker or any engine, grouped by the mechanic each one serves.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1628,7 +1628,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/grindline-skateboard-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/grindline-skateboard-sound-effects/ · Paid
 
-Grindline is 149 skateboard sound effects for Unity, Unreal, Godot, GameMaker and any game engine, with 29 seamless loops in WAV and OGG.
+Want the whole set? Grindline is 149 skateboard sound effects for Unity, Unreal, Godot, GameMaker and any game engine, with 29 seamless loops in WAV and OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1644,7 +1644,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/haulage-vehicle-motor-machine-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/haulage-vehicle-motor-machine-sfx/ · Paid
 
-Haulage is 150 engine, vehicle and machine sound effects for Unity, Godot, GameMaker, Unreal and the web, and every motor ships a load ladder. Royalty free, with a free demo.
+Want the whole set? Haulage is 150 engine, vehicle and machine sound effects for Unity, Godot, GameMaker, Unreal and the web, and every motor ships a load ladder.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1652,7 +1652,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/haymaker-fighting-game-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/haymaker-fighting-game-sound-effects/ · Paid
 
-Every system cue a fighting game fires 134 fighting game sound effects in one arcade voice: hits on 7 strengths to the body and the face, a hit stop for every strength, guard and guard break, parry, throws, the super, an energy projectile, a 10 step combo counter, the round and the KO.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1700,7 +1700,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/jianghu-wuxia-xianxia-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/jianghu-wuxia-xianxia-sound-effects/ · Paid
 
-Jianghu is 133 wuxia and xianxia sound effects for Unity, Godot, Unreal and GameMaker, built from one palette of jade, iron, silk and qi. Royalty free, with a free demo.
+Want the whole set? Jianghu is 133 wuxia and xianxia sound effects for Unity, Godot, Unreal and GameMaker, built from one palette of jade, iron, silk and qi.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1764,7 +1764,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/pit-lane-racing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/pit-lane-racing-sound-effects/ · Paid
 
-Pit Lane is 110 racing sound effects for Unity, Godot, GameMaker or any engine: five cars, plus tyres, crashes, boost, the race and the pit stop.
+Want the whole set? Pit Lane is 110 racing sound effects for Unity, Godot, GameMaker or any engine: five cars, plus tyres, crashes, boost, the race and the pit stop.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1788,7 +1788,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/reelhouse-slot-machine-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reelhouse-slot-machine-sound-effects/ · Paid
 
-Reelhouse is 126 slot machine sound effects in WAV and OGG for Unity, Unreal, Godot, GameMaker and RPG Maker, from one electromechanical cabinet. Royalty free, with a free demo of 17 sounds.
+Want the whole set? Reelhouse is 126 slot machine sound effects in WAV and OGG for Unity, Unreal, Godot, GameMaker and RPG Maker, from one electromechanical cabinet.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1812,7 +1812,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/servo-robots-mechs-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/servo-robots-mechs-sound-effects/ · Paid
 
-A robot body your game can drive 106 robot and mech sound effects built around four ladders: the footsteps land heavier, the power core brightens, the alert beeps faster and the malfunction runs longer, one rung at a time.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1932,7 +1932,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/tilt-pinball-and-pachinko-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/tilt-pinball-and-pachinko-sound-effects/ · Paid
 
-Tilt is 184 pinball and pachinko sound effects for Unity, Unreal, Godot, GameMaker and any game engine: one wooden table and one pachinko machine. Royalty free for commercial games, no credit required.
+Want the whole set? Tilt is 184 pinball and pachinko sound effects for Unity, Unreal, Godot, GameMaker and any game engine: one wooden table and one pachinko machine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2016,7 +2016,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/aetherbound-vol-1 · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/aetherbound-vol-1/ · Paid
 
-Aetherbound Vol. I is a 14 track JRPG music pack for RPG Maker MZ, Godot, Unity and GameMaker, written as one album from one family of themes. It is royalty free for commercial games, and three full tracks are free to download on this page.
+Want the whole set? Aetherbound Vol. I is a 14 track JRPG music pack for RPG Maker MZ, Godot, Unity and GameMaker, written as one album from one family of themes.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2248,7 +2248,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/saltline · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/saltline/ · Paid
 
-Saltline is a 42 track voyage and harbour music pack for any game engine: 53 minutes of OGG with editable MIDI and tagged loops. Royalty free, with 4 free tracks.
+Want the whole set? Saltline is a 42 track voyage and harbour music pack for any game engine: 53 minutes of OGG with editable MIDI and tagged loops. Royalty free, with 4 free tracks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2684,7 +2684,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/emaki · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/emaki/ · Paid · Engines: RPG Maker
 
-Emaki is an RPG Maker MZ plugin that paints what the player did as a Japanese handscroll: 16 figures, 10 compositions and 6 pigment sets, all drawn in code.
+Want the whole set? Emaki is an RPG Maker MZ plugin that paints what the player did as a Japanese handscroll: 16 figures, 10 compositions and 6 pigment sets, all drawn in code.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3440,7 +3440,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/anvil-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/anvil-gamemaker/ · Paid · Engines: GameMaker
 
-A forging minigame for GameMaker, drawn in code: 6 weapon families, 5 metals Anvil is a hot metal forging minigame for GameMaker crafting, written in pure GML with no sprites.
+Want the whole set? A forging minigame for GameMaker, drawn in code: 6 weapon families, 5 metals Anvil is a hot metal forging minigame for GameMaker crafting, written in pure GML with no sprites.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3480,7 +3480,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/battalia-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/battalia-gamemaker/ · Paid · Engines: GameMaker
 
-Battalia is an army battle system for GameMaker 2024.14 in pure GML, with a runnable demo room.
+Want the whole set? Battalia is an army battle system for GameMaker 2024.14 in pure GML, with a runnable demo room.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4828,7 +4828,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/compositor · Our page: https://onefreeman1337.github.io/csaf-releases/games/compositor/ · Paid · free browser demo on the page
 
-COMPOSITOR is a Game Boy typesetting puzzle with 40 formes: push four lead sorts into the composing stick in the right order and the line reads. The first 8 are free in your browser.
+Want the whole set? COMPOSITOR is a Game Boy typesetting puzzle with 40 formes: push four lead sorts into the composing stick in the right order and the line reads.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6196,7 +6196,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fogbank-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fogbank-godot/ · Paid · Engines: Godot
 
-Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not seen is hidden. What they have seen is remembered. What they can see right now is clear, and your own walls block sight.
+Want the whole set? Fogbank: 2D fog of war for Godot 4 in 48 generated looks What the player has not seen is hidden. What they have seen is remembered.
 
 AI disclosure: AI Assisted, Code, Graphics
 
