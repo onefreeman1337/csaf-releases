@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T08:29:11.717Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T15:37:06.235Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1000,7 +1000,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthhands-05-harbour-hands · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-05-harbour-hands/ · Paid
 
-The Hearthhands village harbour, at work.
+Want the whole family? The Hearthhands village harbour, at work.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1200,7 +1200,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/neonward-01-street-cast · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-01-street-cast/ · Paid
 
-Neonward 01 is 9 cyberpunk street sprites at 128 and 64 px with idle and a 6 frame walk, plus RPG Maker MZ and Godot 4 files. Royalty free. Free demo on this page.
+Want the whole set? Neonward 01 is 9 cyberpunk street sprites at 128 and 64 px with idle and a 6 frame walk, plus RPG Maker MZ and Godot 4 files. Royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1876,15 +1876,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/slackwater-fishing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/slackwater-fishing-sound-effects/ · Paid
 
-Slackwater is a pack of 129 fishing sound effects for any game engine: the cast, the bite, the fight on the drag and the catch, on 5 different waters.
+Want the whole set? Slackwater is a pack of 129 fishing sound effects for any game engine: the cast, the bite, the fight on the drag and the catch, on 5 different waters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 88 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 91 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 12,962 royalty free sound effects in 88 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 13,315 royalty free sound effects in 91 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1972,7 +1972,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/unseen-stealth-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/unseen-stealth-sound-effects/ · Paid
 
-The sound of a stealth game's detection ladder, and everything around it 103 stealth sound effects: tension that stacks as suspicion rises, a filling detection meter, escalations and their matched releases, distractions, takedowns, lockpicking, cameras, laser grids and alarms, hiding, light and...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2192,7 +2192,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/jade-mountains · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/jade-mountains/ · Paid
 
-Jade Mountains is a 44 track wuxia music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops. Royalty free, with 3 free tracks.
+Want the whole set? Jade Mountains is a 44 track wuxia music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2240,7 +2240,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/quiet-hours · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/quiet-hours/ · Paid
 
-Quiet Hours is a 44 track lofi music pack for any game engine: nine game screens at four times of day, in OGG and MIDI.
+Want the whole set? Quiet Hours is a 44 track lofi music pack for any game engine: nine game screens at four times of day, in OGG and MIDI.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2492,7 +2492,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/asterism · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/asterism/ · Paid · Engines: RPG Maker
 
-Asterism is a skill tree plugin for RPG Maker MZ where every node draws its own star from that skill's data: 56 motifs and 336,000 possible stars.
+Want the whole set? Asterism is a skill tree plugin for RPG Maker MZ where every node draws its own star from that skill's data: 56 motifs and 336,000 possible stars.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2892,7 +2892,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/jigsaw · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/jigsaw/ · Paid · Engines: RPG Maker
 
-Jigsaw is an RPG Maker MZ and MV plugin that turns any picture in your game into a jigsaw of 4 to 256 pieces on a drawn table. Royalty free, with a free lite cut.
+Want the whole set? Jigsaw is an RPG Maker MZ and MV plugin that turns any picture in your game into a jigsaw of 4 to 256 pieces on a drawn table. Royalty free, with a free lite cut.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3012,7 +3012,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/pennant · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pennant/ · Paid · Engines: RPG Maker
 
-Capture the flag, played by your own party. What this is, in plain words: Pennant is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a real-time capture-the-flag minigame to your game.
+Want the whole set? Capture the flag, played by your own party. What this is, in plain words: Pennant is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a real-time capture-the-flag minigame to your game.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3124,7 +3124,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/scathe · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scathe/ · Paid · Engines: RPG Maker
 
-Scathe is an RPG Maker MZ plugin that draws battle damage into your own enemy art, with 6 materials and 3 HP bands: gashes, cracks, char, frost and burns.
+Want the whole set? Scathe is an RPG Maker MZ plugin that draws battle damage into your own enemy art, with 6 materials and 3 HP bands: gashes, cracks, char, frost and burns.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3140,7 +3140,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sentiment · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sentiment/ · Paid · Engines: RPG Maker
 
-Sentiment is an emotion battle plugin for RPG Maker MZ: 3 feelings with 3 rungs each, drawn over the portraits and battlers you already have. Royalty free.
+Want the whole set? Sentiment is an emotion battle plugin for RPG Maker MZ: 3 feelings with 3 rungs each, drawn over the portraits and battlers you already have.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3276,7 +3276,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/tilestack · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tilestack/ · Paid · Engines: RPG Maker
 
-Tilestack is a mahjong solitaire minigame for RPG Maker MZ and MV, with 42 tile faces drawn by the plugin in 5 sets and no image files.
+Want the whole set? Tilestack is a mahjong solitaire minigame for RPG Maker MZ and MV, with 42 tile faces drawn by the plugin in 5 sets and no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3760,7 +3760,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/jackpot-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/jackpot-gamemaker/ · Paid · Engines: GameMaker
 
-Slot machines for your GameMaker game, generated and drawn by the package, playable out of the box, and honest about their maths: every machine's return to player is computed exactly from its reel strips, and its pay table can be tuned to the figure you choose.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3776,7 +3776,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/kinetic-ui · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/kinetic-ui/ · Paid · Engines: GameMaker
 
-Kinetic UI is 8 spring animated interface widgets for GameMaker, drawn at runtime from 14 primitives in pure GML, with 4 themes and a runnable demo room.
+Want the whole set? Kinetic UI is 8 spring animated interface widgets for GameMaker, drawn at runtime from 14 primitives in pure GML, with 4 themes and a runnable demo room.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3848,7 +3848,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/meridian-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/meridian-gamemaker/ · Paid · Engines: GameMaker
 
-Meridian is a skill tree system for GameMaker that draws its own 480 icons, from 60 motifs in 8 discipline palettes, with 4 layouts and full progression.
+Want the whole set? Meridian is a skill tree system for GameMaker that draws its own 480 icons, from 60 motifs in 8 discipline palettes, with 4 layouts and full progression.
 
 AI disclosure: AI Assisted, Code, Graphics
 
