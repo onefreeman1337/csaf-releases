@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T02:27:13.168Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T02:47:05.809Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -36,7 +36,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-03-worlds · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-03-worlds/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 03 Worlds is a 16x16 snow, desert and volcanic tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 330 tiles, each biome joining the Verdant grass.
+Want the whole set? Verdant 03 Worlds is a 16x16 snow, desert and volcanic tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 330 tiles, each biome joining the Verdant grass.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -444,7 +444,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-53-works · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-53-works/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 53 is a 2,490 tile 16x16 factory tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: animated belts, inserter arms, machines and ore fields. Commercial use is permitted in unlimited projects with no attribution required.
+Want the whole set? Verdant 53 is a 2,490 tile 16x16 factory tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: animated belts, inserter arms, machines and ore fields.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -556,7 +556,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-67-scarp-slopes · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-67-scarp-slopes/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-An add-on for Verdant 12 — Scarp: 72 pieces at 16x16 in Scarp's own 21-colour palette that turn its cliffs, roads, bracken and scree on a 45 degree diagonal, plus stairs and ramps cut into the scarp.
+Want the whole set? An add-on for Verdant 12 — Scarp: 72 pieces at 16x16 in Scarp's own 21-colour palette that turn its cliffs, roads, bracken and scree on a 45 degree diagonal, plus stairs and ramps cut into the scarp.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -620,7 +620,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-75-springs · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-75-springs/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-A hot spring hillside at 16x16: 1,137 tiles in one 86 colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
+Want the whole set? A hot spring hillside at 16x16: 1,137 tiles in one 86 colour palette. Commercial use permitted in unlimited projects, no attribution required; you may not resell the tiles themselves as an asset pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1376,7 +1376,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-battlers-mz · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-battlers-mz/ · Paid
 
-Wildmark Battlers is 8 RPG Maker MZ side-view actors with all 18 battle motions, at MZ's own sheet size and at HD size, with no plugin. They are the same 8 Wildmark heroes your players walk around the map, in the same 192-colour palette.
+Want the whole family? Wildmark Battlers is 8 RPG Maker MZ side-view actors with all 18 battle motions, at MZ's own sheet size and at HD size, with no plugin.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1868,7 +1868,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/skald-norse-viking-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/skald-norse-viking-sound-effects/ · Paid
 
-Skald is 125 Norse and viking sound effects in WAV and OGG for any engine.
+Want the whole set? Skald is 125 Norse and viking sound effects in WAV and OGG for any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2006,7 +2006,7 @@ Game music packs. Formats and track counts are stated on each store page. 51 pro
 
 ### Adversary: 10 Track Battle and Boss Music Pack
 
-Store: https://csaf.itch.io/adversary-battle-boss-suite · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/adversary-battle-boss-suite/ · Paid
+Store: https://csaf.itch.io/adversary-battle-boss-suite · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/adversary-battle-boss-suite/ · Free · pay what you want
 
 Adversary is a 10 track battle and boss music pack for RPG Maker MZ, Godot, Unity and GameMaker, built on one four note theme from first fight to final boss.
 
@@ -2288,7 +2288,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/the-blight · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-blight/ · Paid
 
-The Blight is a 44 track folk horror music pack for any game engine: a plague village and a witch trial, from May Day to the ashes, in five acts.
+Want the whole set? The Blight is a 44 track folk horror music pack for any game engine: a plague village and a witch trial, from May Day to the ashes, in five acts.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2572,7 +2572,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/chimera-battle · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-battle/ · Paid · Engines: RPG Maker
 
-Chimera Battle is a creature battle plugin for RPG Maker MZ with 18 editable types, moves with PP, status effects and an AI that reads the matchup. It works inside MZ's own battle system, and a skill you have not tagged is left alone.
+Want the whole set? Chimera Battle is a creature battle plugin for RPG Maker MZ with 18 editable types, moves with PP, status effects and an AI that reads the matchup.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3324,7 +3324,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdict-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/verdict-core/ · Paid · Engines: RPG Maker
 
-Verdict Core is an investigation plugin for RPG Maker MZ and MV with 4 scenes: a case file, a cross examination, a corkboard and a deduction sheet. Royalty free.
+Want the whole set? Verdict Core is an investigation plugin for RPG Maker MZ and MV with 4 scenes: a case file, a cross examination, a corkboard and a deduction sheet.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5076,7 +5076,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/sidelong · Our page: https://onefreeman1337.github.io/csaf-releases/games/sidelong/ · Paid · free browser demo on the page
 
-An action RPG with no attack button. You cut a monster by running into it off centre or from behind. Meet it head on and you both take the blow. Play the free demo in your browser above.
+Want the whole set? An action RPG with no attack button. You cut a monster by running into it off centre or from behind. Meet it head on and you both take the blow.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
