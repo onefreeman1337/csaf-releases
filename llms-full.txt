@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T02:47:05.809Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T05:45:32.980Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -452,7 +452,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-54-wilds · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-54-wilds/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 54 is a 633 tile 16x16 tropical tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: a rainforest, a mangrove flat and a lagoon beach with moving surf.
+Want the whole set? Verdant 54 is a 633 tile 16x16 tropical tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: a rainforest, a mangrove flat and a lagoon beach with moving surf.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -476,7 +476,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-57-keep · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-57-keep/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 57 is a 326 tile, 16x16 pixel art tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: a castle keep with its great hall, kitchens and barracks.
+Want the whole set? Verdant 57 is a 326 tile, 16x16 pixel art tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: a castle keep with its great hall, kitchens and barracks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1048,7 +1048,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-01-companions-and-beasts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-01-companions-and-beasts/ · Paid
 
-Kithfell 01 Companions and Beasts is four animal sprites for RPG Maker MZ, Godot 4 and any top down game: herd dog, draught horse, brown bear and mane lion.
+Want the whole family? Kithfell 01 Companions and Beasts is four animal sprites for RPG Maker MZ, Godot 4 and any top down game: herd dog, draught horse, brown bear and mane lion.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1404,7 +1404,7 @@ Sound effect packs for games, synthesised procedurally. File formats and counts 
 
 Store: https://csaf.itch.io/akatsuki-anime-jrpg-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/akatsuki-anime-jrpg-sfx/ · Paid
 
-Akatsuki is 112 anime and JRPG sound effects in WAV and OGG for Unity, Godot, Unreal, GameMaker and RPG Maker: menus, steel, magic, summons and shrines.
+Want the whole set? Akatsuki is 112 anime and JRPG sound effects in WAV and OGG for Unity, Godot, Unreal, GameMaker and RPG Maker: menus, steel, magic, summons and shrines.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2040,7 +2040,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ashen-realm · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/ashen-realm/ · Paid
 
-Ashen Realm is a 44 track soulslike music pack in OGG and MIDI for RPG Maker, Godot, Unity and GameMaker: a kingdom gone to ash, nine fights and one bonfire.
+Want the whole set? Ashen Realm is a 44 track soulslike music pack in OGG and MIDI for RPG Maker, Godot, Unity and GameMaker: a kingdom gone to ash, nine fights and one bonfire.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2408,7 +2408,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/zarya · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/zarya/ · Paid
 
-Zarya is a 44 track score for a Slavic folk village in a fantasy game: the izba hearth at dawn, the green and the well, the market square and the haggle, the smithy and the water mill, the wooden church and its bells, the elder's hall, the river at dusk, the birch road and the forest at night,...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2748,7 +2748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fathom · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fathom/ · Paid · Engines: RPG Maker
 
-Fathom is a plugin for RPG Maker MZ that puts your own maps under the sea from one notetag, with caustics, light shafts and 48 drawn sea creatures. Royalty free in your games.
+Want the whole set? Fathom is a plugin for RPG Maker MZ that puts your own maps under the sea from one notetag, with caustics, light shafts and 48 drawn sea creatures.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2960,7 +2960,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 126 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 127 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3656,7 +3656,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fairway-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/fairway-gamemaker/ · Paid · Engines: GameMaker
 
-Fairway is a mini golf system for GameMaker 2024.14 in pure GML, with a runnable demo room.
+Want the whole set? Fairway is a mini golf system for GameMaker 2024.14 in pure GML, with a runnable demo room.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6180,7 +6180,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/emberflux · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/emberflux/ · Paid · Engines: Godot
 
-120 combat effects for 2D Godot games, in six elements that are six different shapes 120 hit, slash, burst, projectile, buff and status effects for Godot 4, every one a shader computed at runtime.
+Want the whole set? 120 combat effects for 2D Godot games, in six elements that are six different shapes 120 hit, slash, burst, projectile, buff and status effects for Godot 4, every one a shader computed at runtime.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6224,11 +6224,11 @@ Godot 4 Shader and VFX Sampler: 132 free presets from 11 addons A free download 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Godot Collection: All 32 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
+### Godot Collection: All 33 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 32 packs, 1,655 presets for 2D games, royalty free, and every new pack joins on launch day.
+Every CSAF addon pack for Godot 4 in one project: 33 packs, 1,703 presets for 2D games, royalty free, and every new pack joins on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6252,7 +6252,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/lantern-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/lantern-godot/ · Paid · Engines: Godot
 
-Lantern: 48 2D lighting presets for Godot 4, from window light to a whole day and night Light that has a shape, flames that live, a sky that runs the day, and darkness that follows your player.
+Want the whole set? Lantern: 48 2D lighting presets for Godot 4, from window light to a whole day and night Light that has a shape, flames that live, a sky that runs the day, and darkness that follows your player.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6436,11 +6436,11 @@ Want the whole set? Pale Hours is a pack of 14 low poly PS1-style ghost characte
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 15 Low Poly Packs + Every New One
+### PSX Character Library: 16 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games.
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Ashfall: 14 PSX Post-Apocalyptic Raiders and Wastelanders, added in v1.2.0 (2026-11-13).
 
 AI disclosure: AI Assisted, Code, Graphics
 
