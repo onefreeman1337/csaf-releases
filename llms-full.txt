@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-12T21:45:03.566Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-12T23:17:27.313Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -880,7 +880,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/deepwarren-battlers-mz · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-battlers-mz/ · Paid
 
-The 12 creatures of Deepwarren 01: The Living Dark as RPG Maker MZ battlers.
+Want the whole set? The 12 creatures of Deepwarren 01: The Living Dark as RPG Maker MZ battlers.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -960,7 +960,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/grovekeep-01-trees-and-flora · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/grovekeep-01-trees-and-flora/ · Paid
 
-47 nature sprites for Godot 4, RPG Maker MZ or any engine, in one style and one 64 colour palette. There are 12 trees and saplings, 7 shrubs and thickets, 7 ferns and grasses, 11 wildflowers, 4 fungi and 6 pieces of deadwood.
+Want the whole set? 47 nature sprites for Godot 4, RPG Maker MZ or any engine, in one style and one 64 colour palette.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1072,7 +1072,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-03-the-wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-03-the-wildwood/ · Paid
 
-Kithfell 03 is 8 top down woodland animal sprites for RPG Maker MZ, Godot 4 or any engine: stag, hind, boar, wolf, fox, badger, squirrel and rat.
+Want the whole family? Kithfell 03 is 8 top down woodland animal sprites for RPG Maker MZ, Godot 4 or any engine: stag, hind, boar, wolf, fox, badger, squirrel and rat.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1380,7 +1380,7 @@ Wildmark Battlers is 8 RPG Maker MZ side-view actors with all 18 battle motions,
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Library: 7 Fantasy Hero Sprite Packs, Every New One
+### Wildmark Library: 8 Fantasy Hero Sprite Packs, Every New One
 
 Store: https://csaf.itch.io/wildmark-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-collection/ · Paid
 
@@ -1804,7 +1804,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sengoku-shinobi-samurai-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sengoku-shinobi-samurai-sound-effects/ · Paid
 
-Feudal Japan, from one palette 106 sound effects for a game set in feudal Japan: the menus, the katana, the shinobi's kit, the castle, the shrine and the war camp, all struck, slid and rung from the same few materials.
+Want the whole set? Feudal Japan, from one palette 106 sound effects for a game set in feudal Japan: the menus, the katana, the shinobi's kit, the castle, the shrine and the war camp, all struck, slid and rung from the same few materials.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3100,7 +3100,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sampler · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sampler/ · Paid · Engines: RPG Maker
 
-Sampler is 3 RPG Maker MZ plugins that add generated picross puzzles, each one finished as a cross-stitch sampler in an embroidery hoop. Royalty free in commercial games.
+Want the whole set? Sampler is 3 RPG Maker MZ plugins that add generated picross puzzles, each one finished as a cross-stitch sampler in an embroidery hoop.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3784,7 +3784,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/lexicon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/lexicon-gamemaker/ · Paid · Engines: GameMaker
 
-Lexicon is a GameMaker system that invents a 36 glyph writing system from a seed, writes it across your game and lets the player learn to read it. Royalty free in commercial games, and the alphabets it invents are yours.
+Want the whole set? Lexicon is a GameMaker system that invents a 36 glyph writing system from a seed, writes it across your game and lets the player learn to read it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4856,7 +4856,7 @@ Store: https://csaf.itch.io/game-boy-library · Our page: https://onefreeman1337
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CSAF Games Library: All 47 Paid Games, Plus Every New One
+### CSAF Games Library: All 48 Paid Games, Plus Every New One
 
 Store: https://csaf.itch.io/games-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/games-library/ · Paid
 
@@ -4948,7 +4948,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/holloway · Our page: https://onefreeman1337.github.io/csaf-releases/games/holloway/ · Paid · free browser demo on the page
 
-HOLLOWAY is a top-down adventure on a hand-built highland: a sword, four tools and three barrows. Every new game reshuffles which chest holds which tool or key, and which barrow sits behind which mouth.
+Want the whole set? HOLLOWAY is a top-down adventure on a hand-built highland: a sword, four tools and three barrows. Every new game reshuffles which chest holds which tool or key, and which barrow sits behind which mouth.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5296,7 +5296,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/cleave · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/cleave/ · Free
 
-cleave (v.): to split apart. cleave (v.): to cling to. Five cards are dealt into one row. You and the end of the world draft from that same row. Every card has two faces.
+Five cards are dealt into one row. You and the end of the world draft from that same row. Every card has two faces. Take THE LONG RAIN and it is a cistern that keeps your district from burning.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6400,7 +6400,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ironvale-psx-fantasy-adventurers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/ironvale-psx-fantasy-adventurers/ · Paid · Engines: Blender
 
-Ironvale is 14 low poly PSX fantasy characters for Godot, Unity and Unreal, with 3 palette skins and 45 animation clips each. Royalty free, with a free sampler.
+Want the whole set? Ironvale is 14 low poly PSX fantasy characters for Godot, Unity and Unreal, with 3 palette skins and 45 animation clips each. Royalty free, with a free sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6408,7 +6408,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/last-shift-psx-survivors · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/last-shift-psx-survivors/ · Paid · Engines: Blender
 
-41 low poly PS1-style horror characters for Godot 4, Unity and Unreal: 13 survivors, 14 infected and 14 summer camp counsellors and staff.
+Want the whole set? 41 low poly PS1-style horror characters for Godot 4, Unity and Unreal: 13 survivors, 14 infected and 14 summer camp counsellors and staff.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6416,7 +6416,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/night-beat-psx-police · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/night-beat-psx-police/ · Paid · Engines: Blender
 
-Night Beat is a pack of 14 low poly PS1-style police officers, detectives and SWAT for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+Want the whole set? Night Beat is a pack of 14 low poly PS1-style police officers, detectives and SWAT for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6424,7 +6424,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/outpost-psx-sci-fi-marines · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/outpost-psx-sci-fi-marines/ · Paid · Engines: Blender
 
-Outpost is a pack of 14 low poly PS1-style sci-fi characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+Want the whole set? Outpost is a pack of 14 low poly PS1-style sci-fi characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6432,7 +6432,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/pale-hours-psx-ghosts · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/pale-hours-psx-ghosts/ · Paid · Engines: Blender
 
-Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+Want the whole set? Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
