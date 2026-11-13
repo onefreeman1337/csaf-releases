@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T15:37:06.235Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T17:14:47.768Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -60,7 +60,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-06-gothic · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-06-gothic/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 06 Gothic is a 16x16 chapel and graveyard tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 356 tiles with stained glass, tombs and ruins.
+Want the whole set? Verdant 06 Gothic is a 16x16 chapel and graveyard tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 356 tiles with stained glass, tombs and ruins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -172,7 +172,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-20-prison · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-20-prison/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 20 Prison is a 16x16 pixel art prison tileset for RPG Maker MZ, Tiled, Godot 4 and Unity 6. It covers one Victorian prison wing: cells, steel bars, the landing walkway, the ablutions, the outer wall and the exercise yard.
+Want the whole set? Verdant 20 Prison is a 16x16 pixel art prison tileset for RPG Maker MZ, Tiled, Godot 4 and Unity 6.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -348,7 +348,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-42-market · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-42-market/ · Paid · Engines: RPG Maker, Tiled, Godot
 
-The shops a fantasy town needs, stocked or sold out. 444 tiles at 16x16 in one 92-colour palette: a weaponsmith, an armourer, an apothecary, a bakery, a magic stall and an adventurers' guild inside one market hall.
+Want the whole set? The shops a fantasy town needs, stocked or sold out. 444 tiles at 16x16 in one 92-colour palette: a weaponsmith, an armourer, an apothecary, a bakery, a magic stall and an adventurers' guild inside one market hall.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1340,11 +1340,11 @@ Want the whole family? Six dragonborn adventurers for the same company. A knight
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Actions 01: Strike, Hurt, Death — 128x128 & 64x64 action sprites
+### Wildmark Actions 01: 204 Strike, Hurt and Death Frames
 
 Store: https://csaf.itch.io/wildmark-actions-01 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-01/ · Paid
 
-Wildmark Actions 01 is strike, hurt and death sprites for 4 top down heroes in 3 directions, with Godot 4 files at 128 and 64 px. Free sample. The strike.
+Wildmark Actions 01 is 204 strike, hurt and death frames per grid for 4 top down heroes in 3 directions, at 128 and 64 px, with Godot 4 files. Free sample.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2072,7 +2072,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/canopy · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/canopy/ · Paid
 
-Canopy is a 44 track jungle adventure music pack for any game engine: one expedition in six legs, in OGG and MIDI. It ships 38 full looping pieces and 6 short cues, royalty free for commercial games, with four full tracks free on this page.
+Want the whole set? Canopy is a 44 track jungle adventure music pack for any game engine: one expedition in six legs, in OGG and MIDI.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2960,7 +2960,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 127 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 128 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3164,7 +3164,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/smithereens · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/smithereens/ · Paid · Engines: RPG Maker
 
-Smithereens is a breakable objects plugin for RPG Maker MZ: 6 materials that each break their own way, cut from the pixels of your own art. Royalty free.
+Want the whole set? Smithereens is a breakable objects plugin for RPG Maker MZ: 6 materials that each break their own way, cut from the pixels of your own art.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3196,7 +3196,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/stature · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stature/ · Paid · Engines: RPG Maker
 
-Stature is a battler plugin for RPG Maker MZ that makes your side view battlers taller from the sheets you already have, in all 18 battle motions. Royalty free.
+Want the whole set? Stature is a battler plugin for RPG Maker MZ that makes your side view battlers taller from the sheets you already have, in all 18 battle motions.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3552,7 +3552,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/chicane-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/chicane-gamemaker/ · Paid · Engines: GameMaker
 
-A top-down racing system in pure GML.
+Want the whole set? A top-down racing system in pure GML.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6156,7 +6156,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/augury-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/augury-godot/ · Paid · Engines: Godot
 
-Augury for Godot 4: 78 tarot cards drawn in code Augury is a Godot 4.7 addon that prints the whole tarot deck at runtime with GDScript _draw() code: all 78 cards (22 major arcana, 40 pip cards in authored arrangements, 16 court cards) in 8 deck styles, upright or reversed, face up or face down,...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
