@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-12T23:17:27.313Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T02:27:13.168Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -332,7 +332,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-40-atlas · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-40-atlas/ · Paid · Engines: GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 40 Atlas is a 16x16 world map tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 700 tiles, each drawn as a parchment chart and in natural colour.
+Want the whole set? Verdant 40 Atlas is a 16x16 world map tileset for RPG Maker MZ, Tiled, Godot 4 and GameMaker: 700 tiles, each drawn as a parchment chart and in natural colour.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -636,7 +636,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-ancient-realms · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-ancient-realms/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant Ancient Realms is a 16x16 pixel art tileset volume for RPG Maker MZ, Tiled, Godot 4 and Unity: three ancient realms in one download, a wuxia Sect Mountain above a sea of cloud, a Jade Temple step pyramid in the jungle, and the Elven Terraces.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1796,7 +1796,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/salt-and-timber-ships-and-sea-audio-kit · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/salt-and-timber-ships-and-sea-audio-kit/ · Paid
 
-Salt and Timber is 165 ship and sea sound effects and 42 music tracks for Unity, Unreal, Godot, GameMaker and any engine, mapped to 17 game moments.
+Want the whole set? Salt and Timber is 165 ship and sea sound effects and 42 music tracks for Unity, Unreal, Godot, GameMaker and any engine, mapped to 17 game moments.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2476,7 +2476,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ascent · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ascent/ · Paid · Engines: RPG Maker
 
-Climbing minigames for RPG Maker MZ, climbed by your own hero. What this is, in plain words: Ascent is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a climbing minigame to your game.
+Want the whole set? Climbing minigames for RPG Maker MZ, climbed by your own hero. What this is, in plain words: Ascent is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a climbing minigame to your game.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2484,7 +2484,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/askew · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/askew/ · Paid · Engines: RPG Maker
 
-Walk the corridor again. Something is wrong. Or is it? What this is, in plain words: Askew is an RPG Maker MZ plugin (two JavaScript files, MZ 1.x) that turns any map you already made into an Exit 8-style anomaly loop.
+Want the whole set? Walk the corridor again. Something is wrong. Or is it? What this is, in plain words: Askew is an RPG Maker MZ plugin (two JavaScript files, MZ 1.x) that turns any map you already made into an Exit 8-style anomaly loop.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5352,7 +5352,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/floodmark · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/floodmark/ · Free
 
-Every spring the river comes up over the valley. You do not stop it. You aim it. Silt from the floodwater is the only fertility your fields will ever get.
+A free town builder on a 165-tile valley: every spring the river comes up over it. You do not stop it. You aim it. Silt from the floodwater is the only fertility your fields will ever get.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6364,11 +6364,11 @@ Want the whole set? Deep Station is a pack of 14 low poly PS1-style sci-fi horro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fort Vale + Crosstown: 28 PSX Soldiers and City Civilians
+### Fort Vale + Crosstown + Ashfall: 42 PSX Characters
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
-Want the whole set? Fort Vale + Crosstown is 28 low poly PS1-style modern characters for Godot 4, Unity and Unreal: 14 soldiers and 14 city civilians.
+Want the whole set? 42 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 soldiers, 14 city civilians and 14 wasteland raiders and survivors.
 
 AI disclosure: AI Assisted, Code, Graphics
 
