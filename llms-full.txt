@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T17:14:47.768Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T19:59:08.117Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -564,7 +564,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-68-storeys · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-68-storeys/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-An add-on for Verdant 07 — Interiors: 255 tiles at 16x16 that give its one-storey rooms a way up and a way down.
+Want the whole set? An add-on for Verdant 07 — Interiors: 255 tiles at 16x16 that give its one-storey rooms a way up and a way down.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -840,7 +840,7 @@ Pixel art sprite packs: characters, creatures, objects and effects. Sizes, direc
 
 Store: https://csaf.itch.io/bestiary-dragons-yokai-giant-bugs · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/bestiary-dragons-yokai-giant-bugs/ · Paid · Engines: Godot
 
-Bestiary is 12 top-down pixel art monster sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: dragons, yokai and giant bugs. Use them in commercial and free games, no credit needed.
+Want the whole set? Bestiary is 12 top-down pixel art monster sprites for Godot 4, RPG Maker MZ and any engine that reads PNG sheets: dragons, yokai and giant bugs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -896,7 +896,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/deepwarren-side · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-side/ · Paid
 
-Deepwarren Side is 15 pixel art side-view monster sprites for Godot 4 and any engine that reads PNG sheets: crypt undead, cavern beasts and wildwood monsters.
+Want the whole set? Deepwarren Side is 15 pixel art side-view monster sprites for Godot 4 and any engine that reads PNG sheets: crypt undead, cavern beasts and wildwood monsters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1032,7 +1032,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthhands-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-sampler/ · Free · pay what you want
 
-Six free villager sprites for top-down RPGs and town or farming games, taken file for file from the six paid Hearthhands character packs: a farmer (Hearthhands 01), a fishmonger (02), a town crier (03), a pinafore girl (04), a salt raker (05) and a villager in a pumpkin-head costume (Hallowtide).
+Want the whole family?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1080,7 +1080,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-companions-mz-battlers · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-companions-mz-battlers/ · Paid · Engines: RPG Maker
 
-Kithfell Companions is 16 animal side-view battlers for RPG Maker MZ, each with all 18 battle motions, ready for img/sv_actors with no plugin. Use them in commercial and free games, no credit needed.
+Want the whole family? Kithfell Companions is 16 animal side-view battlers for RPG Maker MZ, each with all 18 battle motions, ready for img/sv_actors with no plugin.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1096,7 +1096,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-pet-shop · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-pet-shop/ · Paid
 
-A top-down pixel-art sprite pack of 10 dog breeds, 6 cat breeds and 53 pet-shop props for Godot 4, RPG Maker MZ, Unity, GameMaker or any engine that reads PNGs.
+Want the whole family? A top-down pixel-art sprite pack of 10 dog breeds, 6 cat breeds and 53 pet-shop props for Godot 4, RPG Maker MZ, Unity, GameMaker or any engine that reads PNGs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1104,7 +1104,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-sampler/ · Free · pay what you want
 
-Free animal sprites for top-down RPGs, farming and cozy games, taken file for file from the paid Kithfell packs: a draught horse (Kithfell 01), a beagle (Kithfell 02), a red fox (Kithfell 03), and the beagle lying down (Kithfell 02 Actions).
+Want the whole family?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1128,7 +1128,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-01-restless-dead · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-01-restless-dead/ · Free · pay what you want
 
-Mourncrest 01 is a free pack of 6 undead sprites for RPG Maker MZ, Godot 4 and other top down engines, walking in 4 directions at 64x64 and 128x128. Free to use in commercial games.
+Want the whole family? Mourncrest 01 is a free pack of 6 undead sprites for RPG Maker MZ, Godot 4 and other top down engines, walking in 4 directions at 64x64 and 128x128.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1260,11 +1260,11 @@ Store: https://csaf.itch.io/sparkfall-02-game-feel · Our page: https://onefreem
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sprite Library: 61 Pixel Art Sprite Packs (Characters, Monsters, VFX) + Every New One
+### Sprite Library: 63 Pixel Art Sprite Packs (Characters, Monsters, VFX) + Every New One
 
 Store: https://csaf.itch.io/sprite-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/ · Paid
 
-Buy once, keep every pack that joins. The price rises as the library grows. How the future packs work When a new CSAF sprite pack comes out, its files are added to this page on launch day.
+Buy once, keep every pack that joins. The price rises as the library grows. How the future packs work Every new CSAF sprite pack is added here on its launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1296,7 +1296,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/tidewell · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/tidewell/ · Paid
 
-Tidewell is 48 animated pixel-art fish and water creatures at 64x64 for Godot, GameMaker, Unity or any 2D engine, each with a swim loop and a catch animation.
+Want the whole set? Tidewell is 48 animated pixel-art fish and water creatures at 64x64 for Godot, GameMaker, Unity or any 2D engine, each with a swim loop and a catch animation.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1312,7 +1312,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-01-the-party · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-01-the-party/ · Paid
 
-Wildmark 01 is 4 top down hero sprites, an elf, a warrior, a mage and a rogue, with RPG Maker MZ and Godot 4 files at 128 and 64 px. Free sample. The walk cycle.
+Want the whole family? Wildmark 01 is 4 top down hero sprites, an elf, a warrior, a mage and a rogue, with RPG Maker MZ and Godot 4 files at 128 and 64 px.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1320,7 +1320,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-02-the-second-rank · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-02-the-second-rank/ · Paid
 
-Wildmark 02 The Second Rank is four fantasy adventurer sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
+Want the whole family? Wildmark 02 The Second Rank is four fantasy adventurer sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1340,11 +1340,11 @@ Want the whole family? Six dragonborn adventurers for the same company. A knight
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Actions 01: 204 Strike, Hurt and Death Frames
+### Wildmark Actions 01: 204 Strike, Hurt and Death Sprites
 
 Store: https://csaf.itch.io/wildmark-actions-01 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-01/ · Paid
 
-Wildmark Actions 01 is 204 strike, hurt and death frames per grid for 4 top down heroes in 3 directions, at 128 and 64 px, with Godot 4 files. Free sample.
+Want the whole family? Wildmark Actions 01 is 204 strike, hurt and death frames per grid for 4 top down heroes in 3 directions, at 128 and 64 px, with Godot 4 files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1380,7 +1380,7 @@ Want the whole family? Wildmark Battlers is 8 RPG Maker MZ side-view actors with
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildmark Library: 8 Fantasy Hero Sprite Packs, Every New One
+### Wildmark Library: 10 Fantasy Hero Sprite Packs + New Ones
 
 Store: https://csaf.itch.io/wildmark-collection · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-collection/ · Paid
 
@@ -1392,7 +1392,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-sampler/ · Free · pay what you want
 
-Wildmark Sampler is a free pack of 4 fantasy hero sprites for RPG Maker MZ, Godot 4 and any 2D engine: a warrior, a forester, a dwarf and a dragonkin brawler.
+Want the whole family? Wildmark Sampler is a free pack of 4 fantasy hero sprites for RPG Maker MZ, Godot 4 and any 2D engine: a warrior, a forester, a dwarf and a dragonkin brawler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1524,7 +1524,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/casebook-detective-investigation-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/casebook-detective-investigation-sound-effects/ · Paid
 
-The whole investigation, as one sound 124 sound effects for detective, mystery and investigation games: examine, evidence sorted by kind, the corkboard, the deduction, the interrogation and the accusation, in one paper, brass and rain sound.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1556,7 +1556,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/creature-vocal-forge-monster-voice-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/creature-vocal-forge-monster-voice-sound-effects/ · Paid
 
-Creature Vocal Forge is 120 monster voice sound effects, 12 creatures with 6 states each, in WAV and OGG for RPG Maker, Godot, Unity or Unreal. Free demo.
+Want the whole set? Creature Vocal Forge is 120 monster voice sound effects, 12 creatures with 6 states each, in WAV and OGG for RPG Maker, Godot, Unity or Unreal.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1580,7 +1580,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/duat-ancient-egypt-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/duat-ancient-egypt-sound-effects/ · Paid
 
-Ancient Egypt, as one sound 137 Ancient Egypt sound effects in WAV and OGG for any game engine (Unity, Unreal, Godot, GameMaker, RPG Maker and HTML5): tomb mechanisms, hieroglyph puzzle stones, 8 spells of the gods with a charge, a release and a fizzle each, scarabs, cobras and mummies, bronze...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1596,7 +1596,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/escapement-clockwork-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/escapement-clockwork-sfx/ · Paid
 
-Escapement is 109 clockwork, steam and machine sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
+Want the whole set? Escapement is 109 clockwork, steam and machine sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1604,7 +1604,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/exclusion-irradiated-zone-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/exclusion-irradiated-zone-sound-effects/ · Paid
 
-An exclusion zone in sound: a Geiger counter you set by dose, and the dead town around it 103 post apocalyptic sound effects: a Geiger counter at 8 dose levels from a few ticks to a roar, a dosimeter, the hazmat kit, rust and scrap struck three ways, steam, acid and live cables, footsteps on...
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1716,7 +1716,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/leeward-ships-sea-and-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/leeward-ships-sea-and-harbour/ · Paid
 
-Leeward is 165 ship, sea and harbour sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
+Want the whole set? Leeward is 165 ship, sea and harbour sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1860,7 +1860,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sixgun-western-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sixgun-western-sound-effects/ · Paid
 
-Sixgun is a pack of 145 western sound effects for any game engine: three period guns in three places, horses at four gaits, the saloon and the town. Royalty free, with a 29 sound free demo on this page.
+Want the whole set? Sixgun is a pack of 145 western sound effects for any game engine: three period guns in three places, horses at four gaits, the saloon and the town.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2144,7 +2144,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/four-riders · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/four-riders/ · Paid
 
-Four Riders is a 44 track western music pack for any game engine: a frontier score cast like a film, with one instrument for each of four riders.
+Want the whole set? Four Riders is a 44 track western music pack for any game engine: a frontier score cast like a film, with one instrument for each of four riders.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2596,7 +2596,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/chorograph · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chorograph/ · Paid · Engines: RPG Maker
 
-Chorograph is a 4 file RPG Maker MZ plugin that redraws everywhere the party has walked as an inked land survey on aged paper, with no setup and no image files.
+Want the whole set? Chorograph is a 4 file RPG Maker MZ plugin that redraws everywhere the party has walked as an inked land survey on aged paper, with no setup and no image files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2692,7 +2692,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/embrace · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/ · Paid · Engines: RPG Maker
 
-Embrace is a plugin for RPG Maker MZ with 9 pair poses, made from two characters' own walking sheets: hugs, kisses, hand holding and carries. Royalty free in your games.
+Want the whole set? Embrace is a plugin for RPG Maker MZ with 9 pair poses, made from two characters' own walking sheets: hugs, kisses, hand holding and carries.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2756,7 +2756,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fetch-doppelganger-bosses · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fetch-doppelganger-bosses/ · Paid · Engines: RPG Maker
 
-Fetch is an RPG Maker MZ plugin that copies your party into real enemies for a mirror-match boss, drawn from each hero's own battler sheet in 10 looks.
+Want the whole set? Fetch is an RPG Maker MZ plugin that copies your party into real enemies for a mirror-match boss, drawn from each hero's own battler sheet in 10 looks.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2972,7 +2972,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/niello · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/niello/ · Paid · Engines: RPG Maker
 
-Niello is an RPG Maker MZ plugin that gives every weapon and armour its own engraved plate, from 77 motifs and 9 alloys, and redraws it as the item is used.
+Want the whole set? Niello is an RPG Maker MZ plugin that gives every weapon and armour its own engraved plate, from 77 motifs and 9 alloys, and redraws it as the item is used.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3052,7 +3052,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/quizmaster · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quizmaster/ · Paid · Engines: RPG Maker
 
-Quizmaster is an RPG Maker MZ plugin for quiz shows and exams on 6 drawn stages, with the questions written from your own database. Royalty free in your games.
+Want the whole set? Quizmaster is an RPG Maker MZ plugin for quiz shows and exams on 6 drawn stages, with the questions written from your own database.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3060,7 +3060,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/rebus · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebus/ · Paid · Engines: RPG Maker
 
-Picture word puzzles for your RPG, built from the art your game already has. Rebus turns your database into a word game. It pins two to four of your icons that share a name to a cork board and asks what they have in common.
+Want the whole set? Picture word puzzles for your RPG, built from the art your game already has. Rebus turns your database into a word game.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3576,7 +3576,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/cloudshadow-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/cloudshadow-gamemaker/ · Paid · Engines: GameMaker
 
-Cloudshadow is a GameMaker package that reads your room and draws 13 skies of drifting cloud shadow over it, every frame, as one quad. Use it in unlimited commercial or free games, with a painted demo room in the download.
+Want the whole set? Cloudshadow is a GameMaker package that reads your room and draws 13 skies of drifting cloud shadow over it, every frame, as one quad.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3608,7 +3608,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/derby-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/derby-gamemaker/ · Paid · Engines: GameMaker
 
-A snail race meeting for GameMaker: 12 runners, 5 courses, Win or Place bets Derby gives your GameMaker game a race meeting your players can bet on: 12 generated racing snails a seed, 5 drawn garden courses, Win or Place bets and the judge's photograph for close finishes.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3704,7 +3704,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/halation-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/halation-gamemaker/ · Paid · Engines: GameMaker
 
-Halation is a lens flare system for GameMaker 2024.14 with 80 designs: 8 lens kits by 10 light kinds, every ghost, spike and ring drawn in pure GML.
+Want the whole set? Halation is a lens flare system for GameMaker 2024.14 with 80 designs: 8 lens kits by 10 light kinds, every ghost, spike and ring drawn in pure GML.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3768,7 +3768,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/jigsaw-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/jigsaw-gamemaker/ · Paid · Engines: GameMaker
 
-Turn any picture in your game into a jigsaw the player assembles on a drawn table: a sprite, a background, or a surface.
+Want the whole set? Turn any picture in your game into a jigsaw the player assembles on a drawn table: a sprite, a background, or a surface.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4304,11 +4304,11 @@ Armoury plates that know where your equipment came from. You never pick an icon 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Rekey - EntityId Migrator for Unity 6.5+
+### PSX Character Library: 16 Low Poly Packs + Every New One
 
-Store: https://csaf.itch.io/rekey · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/rekey/ · Paid · Engines: Unity
+Store: https://csaf.itch.io/rekey · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/rekey/ · Paid · Engines: Blender
 
-Unity 6.5 says error CS0619: 'Object.GetInstanceID()' is obsolete: 'Use GetEntityId instead.' and your project stops compiling. Rekey gets it compiling again.
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Ashfall: 14 PSX Post-Apocalyptic Raiders and Wastelanders, added in v1.2.0 (2026-11-13).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4812,7 +4812,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/bonefold · Our page: https://onefreeman1337.github.io/csaf-releases/games/bonefold/ · Paid · free browser demo on the page
 
-BONEFOLD is a top-down necromancer action game for Windows with a free browser demo: 12 rooms, 3 bosses and 13 kinds of foe that get up and fight for you.
+Want the whole set? BONEFOLD is a top-down necromancer action game for Windows with a free browser demo: 12 rooms, 3 bosses and 13 kinds of foe that get up and fight for you.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4820,7 +4820,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/cairnwake · Our page: https://onefreeman1337.github.io/csaf-releases/games/cairnwake/ · Paid · free browser demo on the page
 
-You never choose an action. You choose where your four characters stand, continuously, while the fight is already running. What each of them does is decided by their rank and by who is standing beside them.
+Want the whole set? You never choose an action. You choose where your four characters stand, continuously, while the fight is already running. What each of them does is decided by their rank and by who is standing beside them.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4844,7 +4844,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/cryptmarch · Our page: https://onefreeman1337.github.io/csaf-releases/games/cryptmarch/ · Paid · free browser demo on the page
 
-CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written by hand in HTML5.
+Want the whole set? CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written by hand in HTML5.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5148,7 +5148,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/tinderbox · Our page: https://onefreeman1337.github.io/csaf-releases/games/tinderbox/ · Paid · free browser demo on the page
 
-TINDERBOX is a top-down firefighting action game for Windows with a free browser demo: seven burning buildings, 40 people and 11 animals to get out. You are the fire warden of an old timber town with a barrel of water on your back.
+Want the whole set? TINDERBOX is a top-down firefighting action game for Windows with a free browser demo: seven burning buildings, 40 people and 11 animals to get out.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5172,7 +5172,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/wintering · Our page: https://onefreeman1337.github.io/csaf-releases/games/wintering/ · Paid · free browser demo on the page
 
-WINTERING is a short top-down survival action game for Windows, with a free demo you can play in your browser on this page: the first three days of the winter.
+Want the whole set? WINTERING is a short top-down survival action game for Windows, with a free demo you can play in your browser on this page: the first three days of the winter.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5188,7 +5188,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/witness-mark · Our page: https://onefreeman1337.github.io/csaf-releases/games/witness-mark/ · Paid · free browser demo on the page
 
-WITNESS MARK is a deduction game on a real Game Boy ROM with 160 proved fair cases and 390 suspects. Play five cases free in your browser on this page.
+Want the whole set? WITNESS MARK is a deduction game on a real Game Boy ROM with 160 proved fair cases and 390 suspects. Play five cases free in your browser on this page.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5744,7 +5744,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/what-we-burn · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/what-we-burn/ · Free
 
-The house is full of things that belonged to people you loved. The fire will ask for every one of them. Every one of them is worth more than the heat.
+A free horror game you play in the browser, about the cost of staying warm. The house is full of things that belonged to people you loved. The fire will ask for every one of them.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6172,7 +6172,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/cartography-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/cartography-godot/ · Paid · Engines: Godot
 
-Cartography: a journey map for Godot 4 that draws itself as the player explores, in 48 styles Your player walks; the map draws itself.
+Want the whole set? Cartography: a journey map for Godot 4 that draws itself as the player explores, in 48 styles Your player walks; the map draws itself.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6188,7 +6188,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/fathom-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fathom-godot/ · Paid · Engines: Godot
 
-Fathom is a Godot 4.7 addon that turns any 2D scene into an underwater level: 48 species and 12 seas, every one drawn in code. Royalty free in your games.
+Want the whole set? Fathom is a Godot 4.7 addon that turns any 2D scene into an underwater level: 48 species and 12 seas, every one drawn in code. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6236,7 +6236,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/jigsaw-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/jigsaw-godot/ · Paid · Engines: Godot
 
-Jigsaw for Godot 4: any picture becomes a puzzle your players solve, in 48 styles Drop any Texture2D in and get a playable jigsaw.
+Want the whole set? Jigsaw for Godot 4: any picture becomes a puzzle your players solve, in 48 styles Drop any Texture2D in and get a playable jigsaw.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6244,7 +6244,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kickup-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/kickup-godot/ · Paid · Engines: Godot
 
-Kickup: 2D movement dust for Godot 4 that reads the ground Kickup is a Godot 4.7 addon of 48 movement dust presets: footstep puffs, run trails, landing throws, skid sprays, dash bursts and wall slides on eight surfaces (dirt, grass, sand, snow, mud, shallow water, stone and wood).
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6292,7 +6292,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/tidewater-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/tidewater-godot/ · Paid · Engines: Godot
 
-Tidewater is 48 2D water shaders for Godot 4: top down lakes, side on pools, waterfalls and underwater filters, computed while your game runs. Royalty free, with a free lite version.
+Want the whole set? Tidewater is 48 2D water shaders for Godot 4: top down lakes, side on pools, waterfalls and underwater filters, computed while your game runs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6308,7 +6308,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/township-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/township-godot/ · Paid · Engines: Godot
 
-Township is a Godot 4.7 addon for NPC daily routines on your own TileMapLayer, with 50 working places drawn in code that wake when their people arrive.
+Want the whole set? Township is a Godot 4.7 addon for NPC daily routines on your own TileMapLayer, with 50 working places drawn in code that wake when their people arrive.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6332,7 +6332,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/warhost-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/warhost-godot/ · Paid · Engines: Godot
 
-Warhost is a Godot 4.7 addon for army battles: 48 staged battles on 12 fields, every soldier, banner and field drawn in code. Royalty free in your games.
+Want the whole set? Warhost is a Godot 4.7 addon for army battles: 48 staged battles on 12 fields, every soldier, banner and field drawn in code. Royalty free in your games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6340,7 +6340,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/weatherglass-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/weatherglass-godot/ · Paid · Engines: Godot
 
-48 weather and atmosphere layers for Godot 4, blended by one controller Weatherglass draws weather live with shaders: rain, snow, hail, fog, sandstorms, embers, aurora, lightning, sunsets, rainbows, fireflies, lanterns and more, 48 full screen layers in four groups.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6364,11 +6364,11 @@ Want the whole set? Deep Station is a pack of 14 low poly PS1-style sci-fi horro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fort Vale + Crosstown + Ashfall: 42 PSX Characters
+### Fort Vale: 56 PSX Soldiers, Civilians, Raiders and Gangsters
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
-Want the whole set? 42 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 soldiers, 14 city civilians and 14 wasteland raiders and survivors.
+Want the whole set? 56 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 soldiers, 14 city civilians, 14 wasteland raiders and 14 crime syndicate gangsters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
