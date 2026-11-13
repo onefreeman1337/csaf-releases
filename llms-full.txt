@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-13T05:45:32.980Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-13T07:56:20.403Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -52,7 +52,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-05-depths · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-05-depths/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 05 Depths is a 16x16 pixel art dungeon, cave and crypt tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 236 tiles with stairs and doors.
+Want the whole set? Verdant 05 Depths is a 16x16 pixel art dungeon, cave and crypt tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 236 tiles with stairs and doors.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -180,7 +180,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-21-school · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-21-school/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 21 School is a 16x16 pixel art school tileset for RPG Maker MZ, Tiled, Godot 4 and Unity 6. It covers classrooms, a science lab, the corridor, hall, library, dining hall and the yard.
+Want the whole set? Verdant 21 School is a 16x16 pixel art school tileset for RPG Maker MZ, Tiled, Godot 4 and Unity 6. It covers classrooms, a science lab, the corridor, hall, library, dining hall and the yard.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -188,7 +188,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-22-sewers · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-22-sewers/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 22 Sewers is a 16x16 Victorian sewer tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 689 tiles of brick vault, channel and iron grate.
+Want the whole set? Verdant 22 Sewers is a 16x16 Victorian sewer tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 689 tiles of brick vault, channel and iron grate.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -316,7 +316,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-38-cascades · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-38-cascades/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
 
-Verdant 38 Cascades is a 16x16 waterfall tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 489 tiles of falls, rapids and cliffs. Royalty free for commercial games, with a free series sampler to try first.
+Want the whole set? Verdant 38 Cascades is a 16x16 waterfall tileset for RPG Maker MZ, Tiled, Godot 4, Unity and GameMaker: 489 tiles of falls, rapids and cliffs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -484,7 +484,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/verdant-58-castle-ruin · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-58-castle-ruin/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant 58 is a 616 tile 16x16 ruined castle tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: Verdant 13's castle after the siege, under the same tile names.
+Want the whole set? Verdant 58 is a 616 tile 16x16 ruined castle tileset for RPG Maker MZ, Tiled, Godot 4 and Unity: Verdant 13's castle after the siege, under the same tile names.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -744,11 +744,11 @@ Want the whole set? Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 g
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: All 103 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
+### Verdant Library: All 104 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 103 packs and 69,088 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 104 packs and 69,539 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -768,11 +768,11 @@ Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4, Unity a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Retro Library: 6 Game Boy, GB Studio & NES Tilesets
+### Verdant Retro Library: 7 Game Boy, GB Studio & NES Tilesets
 
 Store: https://csaf.itch.io/verdant-retro-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack. Free to try first: the Verdant 00 Series Sampler.
+Verdant Retro Library is 7 Verdant Game Boy, GBC and NES style tilesets in one download: 6,643 tiles for Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2344,7 +2344,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/the-long-campaign · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-long-campaign/ · Paid
 
-The Long Campaign is a 50 track European high fantasy music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops. Royalty free, with a free demo.
+Want the whole set? The Long Campaign is a 50 track European high fantasy music pack for RPG Maker MZ, Godot, Unity and GameMaker, with editable MIDI and seamless loops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3132,7 +3132,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/schuss · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/schuss/ · Paid · Engines: RPG Maker
 
-Schuss is a downhill minigame plugin for RPG Maker MZ: 5 ways down and 42 drawn obstacle forms, on courses the plugin lays out itself. Royalty free. Call one plugin command and the screen scrolls down a groomed slope, a mine or a river.
+Want the whole set? Schuss is a downhill minigame plugin for RPG Maker MZ: 5 ways down and 42 drawn obstacle forms, on courses the plugin lays out itself.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3244,7 +3244,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/temperament · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/temperament/ · Paid · Engines: RPG Maker
 
-Ask the player who they are, and let the answer choose. Temperament is a personality quiz for RPG Maker MZ, the kind of opening the Mystery Dungeon games made famous.
+Want the whole set? Ask the player who they are, and let the answer choose. Temperament is a personality quiz for RPG Maker MZ, the kind of opening the Mystery Dungeon games made famous.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3952,7 +3952,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/scales-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/scales-gamemaker/ · Paid · Engines: GameMaker
 
-Sit your player at a money-changer's counter and give them a weighing puzzle on a brass balance: find the false coin in a hoard in the fewest weighings, or weigh out an exact order with a box of weights.
+Want the whole set? Sit your player at a money-changer's counter and give them a weighing puzzle on a brass balance: find the false coin in a hoard in the fewest weighings, or weigh out an exact order with a box of weights.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
