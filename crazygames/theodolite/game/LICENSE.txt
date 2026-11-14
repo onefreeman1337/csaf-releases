@@ -1,0 +1,45 @@
+THEODOLITE
+Copyright (c) 2026 Core Systems Asset Factory (CSAF).
+All rights reserved.
+
+FREE TO PLAY
+------------
+This game is distributed free of charge. You may play it, link to it, stream it,
+record it, and write about it, including monetised video and streaming, without
+asking permission and without owing anything.
+
+WHAT YOU MAY NOT DO
+-------------------
+  · Sell it, or include it in anything sold.
+  · Re-upload or re-host it as your own work, on itch.io, Game Jolt or anywhere else.
+  · Remove or alter the attribution above.
+
+SOURCE
+------
+This is a browser game, so its source is readable by anyone who opens the page.
+That is a property of the medium, not a grant of licence. You are welcome to read
+it, learn from it, and quote short passages with attribution. You may not
+redistribute it, modified or otherwise, as a game of your own.
+
+THIRD-PARTY CONTENT
+-------------------
+There is none. The two plates in art/ (the map paper and the office's green
+baize) were generated for this game by the studio's own procedural pixel engine;
+everything else on screen, every hill, wood, town and trig station included, is
+drawn by the game from its own simulation. The music loop was composed for this
+game and rendered by the studio's own synthesiser; every sound effect is
+synthesised live in the browser. See CREDITS.txt.
+
+NO WARRANTY
+-----------
+Provided "as is", without warranty of any kind, express or implied. The authors
+are not liable for any claim, damage or other liability arising from the use of
+this software.
+
+A NOTE ON THE SURVEY
+--------------------
+The survey follows the shape of a real triangulation (a measured baseline, trig
+stations fixed from pairs of stations already known, error that grows with long
+sights and badly shaped triangles, heliotropes flashing sunlight through haze,
+plane-table parties filling in the detail), with the numbers compressed so a
+season takes half a minute. It is a game, not a textbook.

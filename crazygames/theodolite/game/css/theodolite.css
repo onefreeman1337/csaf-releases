@@ -1,0 +1,10 @@
+/* THEODOLITE - page shell only; the game draws everything inside #cv. */
+html, body { margin: 0; padding: 0; background: #15110c; overflow: hidden; height: 100%; }
+body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+main { display: flex; align-items: center; justify-content: center; width: 100vw; height: 100vh; height: 100dvh; }
+/* scoped to the id, never a bare canvas rule. The element keeps the LOGICAL surface's aspect, which
+   game.js sets as a CSS variable when it picks the landscape or portrait shape, so the picture is never
+   letterboxed inside its own box and a tap maps to the game with one scale on both axes. */
+#cv { display: block; outline: none; touch-action: none; background: #15110c;
+  aspect-ratio: var(--ar, 1.6); width: min(100vw, calc(100dvh * var(--ar, 1.6))); height: auto; max-height: 100dvh; }
+.fallback { color: #f2e8d2; font: 16px Georgia, serif; text-align: center; padding: 2rem; }

@@ -1,0 +1,59 @@
+THEODOLITE - credits
+====================
+
+Made by Core Systems Asset Factory.
+
+WHAT SHIPS
+----------
+  index.html, css/theodolite.css, js/cg_platform.js, js/sim.js, js/audio.js, js/game.js,
+  art/plate_paper.png, art/plate_baize.png,
+  audio/theodolite_theme.ogg, and these three text files.
+
+PICTURES
+--------
+  Two plates ship: the map's cream paper with its fibres and foxing
+  (plate_paper.png) and the survey office's green baize desk (plate_baize.png),
+  each 128 px and seamless, generated for this game by the studio's own
+  procedural pixel engine. No diffusion model and no stock texture was used.
+  Everything else is drawn at runtime by js/game.js from the simulation in
+  js/sim.js. Unsurveyed ground is a pencil sketch; each cell the plane-tables
+  ink becomes an engraving: a wash by the kind of ground, hachures down every
+  slope, trees in the woods, hedgerows on the low ground, water lining on the
+  lakes and along the coast, contour lines traced over the heights, and the
+  towns with their spires and names. Over it, the network: trig stations,
+  observed sights in red ink, sights still to read in pencil, the observing
+  parties at their theodolites and the heliotropes flashing from the far
+  stations.
+
+MUSIC
+-----
+  "Baseline", composed for this game (G major, a walking pace in 4/4 at 84 BPM,
+  a 64-beat loop that joins end to start without a gap, with a high two-note
+  bird call every other bar). Written as note data and rendered by the studio's
+  own synthesiser; no generative audio model and no sample library.
+
+SOUND
+-----
+  Every effect is synthesised live in the browser by js/audio.js with WebAudio
+  oscillators and one fixed buffer of noise: a wooden knock when a station is
+  raised, a small bell when a sight is read, two rising tones when a station is
+  fixed, a quill scratching as the ground is inked, a clank for a tower or a new
+  party, coins, a chime, a rubber stamp for a published sheet, a low swell when
+  the fog comes in and a rising cadence when the county is done.
+
+TYPE
+----
+  The browser's own Georgia and Trebuchet MS / Verdana stacks. No web font is
+  downloaded.
+
+THIS BUILD
+----------
+  The CrazyGames build. js/cg_platform.js connects the game to the CrazyGames
+  SDK: your survey is kept by CrazyGames' own save, the site's mute setting
+  is obeyed, and the game pauses and goes quiet while an advert plays.
+
+AI DISCLOSURE
+-------------
+  This game was written with AI assistance: the code, the text, and the code
+  that draws and generates every picture. No generative image or audio model was
+  used in the game.
