@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-14T03:01:40.055Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-14T03:50:05.668Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -5216,7 +5216,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/anneal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/anneal/ · Free
 
-You steer a stream of glowing motes up a foundry shaft. The pour has a COUNT (how many motes you carry) and a TEMPER: EMBER, FROST or IRON. Both matter, and they are not the same thing.
+A free browser game in twelve channels: steer a stream of glowing motes up a foundry shaft, where every crucible changes how many you carry and what they are made of.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
