@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-14T18:07:49.718Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-14T20:17:39.700Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -6112,7 +6112,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/ui-kit-sampler-12-free-pixel-ui-themes · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-sampler-12-free-pixel-ui-themes/ · Free · pay what you want · Engines: Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A free sampler of 32 pixel art game UI themes for Godot 4, RPG Maker MZ, Unity, Unreal and GameMaker, one from each of our 28 paid UI kits.
+A free sampler of 32 pixel art game UI themes for Godot 4, RPG Maker MZ, Unity, Unreal and GameMaker, one from each of the first 28 paid UI kits.
 
 AI disclosure: AI Assisted, Code, Graphics
 
