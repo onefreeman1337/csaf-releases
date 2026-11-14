@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-14T07:00:31.895Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-14T16:49:29.481Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -744,11 +744,11 @@ Want the whole set? Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 g
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: All 105 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
+### Verdant Library: All 106 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 105 packs and 70,021 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 106 packs and 70,742 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1880,11 +1880,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 97 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 100 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 13,959 royalty free sound effects in 97 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 14,276 royalty free sound effects in 100 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
