@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-15T03:25:19.835Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-15T16:17:18.101Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1208,7 +1208,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/neonward-gangs-corp-security-machines · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-gangs-corp-security-machines/ · Paid
 
-Nine top-down cyberpunk pixel art enemies for Godot 4, RPG Maker MZ or any engine that reads PNG sprite sheets.
+Want the whole set? Nine top-down cyberpunk pixel art enemies for Godot 4, RPG Maker MZ or any engine that reads PNG sprite sheets.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1708,7 +1708,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kickoff-ball-sports-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/kickoff-ball-sports-sound-effects/ · Paid
 
-Kickoff is 103 ball sports sound effects in WAV and OGG for Unity, Godot or any engine: four ladders your game can raise, plus a free demo.
+Want the whole set? Kickoff is 103 ball sports sound effects in WAV and OGG for Unity, Godot or any engine: four ladders your game can raise, plus a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6100,11 +6100,11 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 36 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
+### UI Kit Collection: All 37 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 36 kits, 50 themes and 4,340 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 37 kits, 53 themes and 4,643 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6364,11 +6364,11 @@ Want the whole set? Deep Station is a pack of 14 low poly PS1-style sci-fi horro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Fort Vale: 56 PSX Soldiers, Civilians, Raiders and Gangsters
+### Fort Vale: 70 PSX Soldiers, Civilians, Raiders and Gangsters
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
-Want the whole set? 56 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 soldiers, 14 city civilians, 14 wasteland raiders and 14 crime syndicate gangsters.
+Want the whole set? 70 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 modern soldiers, 14 Second World War soldiers, 14 city civilians, 14 wasteland raiders and 14 crime syndicate gangsters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
