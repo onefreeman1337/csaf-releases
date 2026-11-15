@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-15T16:17:18.101Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-15T16:40:20.175Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -720,11 +720,11 @@ Want the whole set? Verdant Hex 02 is a 32x32 pointy top hex tileset in pixel ar
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Interiors Library: All 5 Interior Tileset Packs
+### Verdant Interiors Library: All 7 Interior Tileset Packs
 
 Store: https://csaf.itch.io/verdant-interiors-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-interiors-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack. Works with RPG Maker MZ, Tiled and Godot 4. Free to try first: the Verdant 00 Series Sampler.
+Verdant Interiors Library is every paid Verdant interiors tileset in one download: 7 packs and 3,394 tiles for Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1820,7 +1820,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sfx-family-forge · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sfx-family-forge/ · Paid · free browser demo on the page
 
-116 matching sound effects in one click, for Godot, Unity or GameMaker SFX Family Forge makes a whole family of game sound effects at once: pick what the sounds are made of, press Forge, and every slot comes out of that one material.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
