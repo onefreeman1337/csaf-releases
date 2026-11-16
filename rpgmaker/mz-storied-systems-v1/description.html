@@ -1,0 +1,61 @@
+<p><em>Also inside the <a href="https://csaf.itch.io/mz-plugin-library">MZ Plugin Library</a>: every CSAF MZ plugin in one download, and every new one joins it.</em></p>
+<p>Storied Systems adds 4 signature RPG systems to RPG Maker MZ, built from your own database and art: run maps, enemy intents, party skits and paper cutouts.</p>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTE3MDgyNy8zMjQwMjEwMS5naWY=/original/R61s6W.gif" alt="Delve drawing a branching run map through your own battles, events, shops and rests in RPG Maker MZ"></p>
+<p>Four parts, 11 raw JavaScript plugin files, no image files. Use one part, any two, or all four: each works alone, and all four were tested on together in the engine. Licence: any commercial or free RPG Maker project, no royalty; the source may not be redistributed as a plugin pack.</p>
+<hr>
+<h3>⚠️ Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>ForesightCore.js</code>: Storied Systems / Foresight core: reads a chosen skill into a forecast (no drawing, no engine patches).</li>
+<li><code>ForesightDraw.js</code>: Storied Systems / Foresight drawing: the forecast plate, the target card and the clash burst.</li>
+<li><code>Foresight.js</code>: Storied Systems / Foresight: every enemy shows what it will do next, drawn from the skill it chose. Moves can clash.</li>
+<li><code>AsideCore.js</code>: Storied Systems / Aside: the rules (skit tags, availability, expiry, party chat pools, motions). Needs Aside.js.</li>
+<li><code>AsideDraw.js</code>: Storied Systems / Aside: the drawing (painted backdrop, portrait frames, captions, tab, log, ring). Needs Aside.js.</li>
+<li><code>Aside.js</code>: Storied Systems / Aside: optional party skits the player chooses to watch, staged with your own faces on the map painted down, a skit log and party...</li>
+<li><code>PapercutCore.js</code>: Papercut 1/2 - the paper itself: 20 stocks, the die-cut, the card back and the turn. Needs Papercut.js.</li>
+<li><code>Papercut.js</code>: Papercut 2/2 - your own characters as paper cutouts that spin to turn, on the map and in battle.</li>
+<li><code>DelveCore.js</code>: Storied Systems / Delve: the rules (act map generation, fairness rules, runs, reward drafts, saves). Needs Delve.js.</li>
+<li><code>DelveDraw.js</code>: Storied Systems / Delve: the drawing (the chart in ink and wash, node marks, fog, reward cards). Needs Delve.js.</li>
+<li><code>Delve.js</code>: Storied Systems / Delve: Slay the Spire-style run maps. Every run draws a branching chart through your own battles, events, shops and rest sites.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every check of the four parts working together was run three times, with all 11 files in alphabetical order, in reverse order and in a shuffled order, and passed each time. Install only the parts you want: each part's own files. Aside and Delve both extend <code>Scene_Map.updateScene</code>, <code>Window_MenuCommand.addOriginalCommands</code> and <code>Scene_Menu.createCommandWindow</code>, and each calls the original it saved, so both parts' additions run in either order.</p>
+<p><strong>Core methods extended: 27 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_System.prototype.onAfterLoad</code>, <code>Scene_Map.prototype.createDisplayObjects</code>, <code>Scene_Map.prototype.start</code>, <code>Scene_Map.prototype.updateScene</code>, <code>Window_MenuCommand.prototype.addOriginalCommands</code>, <code>Scene_Menu.prototype.createCommandWindow</code>, <code>Sprite_Battleback.prototype.battleback1Name</code>, <code>Sprite_Battleback.prototype.battleback2Name</code>, <code>Game_Enemy.prototype.makeActions</code>, <code>Game_Action.prototype.makeDamageValue</code>, <code>Window_BattleLog.prototype.updateWaitMode</code>, <code>Spriteset_Battle.prototype.createLowerLayer</code>, <code>Spriteset_Base.prototype.update</code>, <code>Spriteset_Map.prototype.createCharacters</code>, <code>Game_CharacterBase.prototype.setDirection</code>, <code>Game_Event.prototype.update</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.characterPatternY</code>, <code>Sprite_Character.prototype.updateOther</code>, <code>Sprite_Character.prototype.updateHalfBodySprites</code>, <code>Sprite_Character.prototype.updateVisibility</code>, <code>Sprite_Battler.prototype.createDamageSprite</code>, <code>Sprite_Actor.prototype.updateBitmap</code>, <code>Sprite_Actor.prototype.update</code>, <code>Sprite_Enemy.prototype.updateBitmap</code>, <code>Sprite_Enemy.prototype.updateCollapse</code>, <code>Sprite_Enemy.prototype.update</code>.</p>
+<p>Because nothing is clobbered, Storied Systems co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends 4 methods on core singletons, the same way: original saved and called through:</strong> <code>BattleManager.startInput</code>, <code>BattleManager.endAction</code>, <code>BattleManager.setup</code>, <code>BattleManager.startAction</code>. Another plugin patching those keeps working.</p>
+<p><strong>It also defines 3 methods that their core class only inherited:</strong> <code>Game_Enemy.prototype.clearTpbChargeTime</code> (inherited from <code>Game_Battler</code>), <code>Game_Enemy.prototype.initTpbChargeTime</code> (inherited from <code>Game_Battler</code>), <code>Game_Enemy.prototype.startTpbTurn</code> (inherited from <code>Game_Battler</code>). That touches <code>Game_Enemy</code> only, never the parent. If another plugin redefines the same method on the same class, load Storied Systems after it.</p>
+
+<h2>Delve: run maps</h2>
+<ul>
+<li>Every run draws a branching chart in ink and wash through your own troops, common events, shops and rest sites.</li>
+<li>Four terrains (forest, crypt, coast, spire), reward drafts of three, an act boss sealed at the top.</li>
+<li>Generated under fairness rules, so no route is a dead end. One plugin command starts a run.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTE3MDgyNy8zMjQwMjE2My5wbmc=/original/%2BgV7DD.png" alt="Four Delve acts: forest, crypt, coast and spire"></p>
+<h2>Foresight: enemy intents</h2>
+<ul>
+<li>Every enemy shows the move it has already chosen: the kind of move, its element, the damage it will do to the party member it picked.</li>
+<li>Attacks that meet a telegraphed attack clash, and the stronger breaks the other.</li>
+<li>Bluffs, sealed moves and a Scan state through note tags.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTE3MDgyNy8zMjQwMjEyMS5naWY=/original/EPFK%2Fy.gif" alt="Foresight forecast plates over enemies in an RPG Maker MZ battle"></p>
+<h2>Aside: party skits</h2>
+<ul>
+<li>A paper tab offers a short optional scene; the player chooses to watch it, or misses it.</li>
+<li>Staged with your own face graphics over the map painted down. Party chat and a skit log in the menu.</li>
+</ul>
+<h2>Papercut: paper cutouts</h2>
+<ul>
+<li>Your own character sheets and battlers re-struck as paper cutouts: a die-cut edge from each silhouette, a card back mid-turn, a lifted shadow.</li>
+<li>20 paper stocks. Characters flip to turn, on the map and in battle.</li>
+</ul>
+<h2>Tested together</h2>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTE3MDgyNy8zMjQwMjExNi5wbmc=/original/TTuMJl.png" alt="Foresight plates over Papercut cutouts in the same battle"></p>
+<ul>
+<li>A Delve battle shows Foresight's plates over Papercut's cutouts; an Aside skit plays on the cut map.</li>
+<li>One save carries all four parts, and still loads with any one part turned off.</li>
+<li>The same checks pass with the files in alphabetical, reversed and shuffled order.</li>
+</ul>
+<h2>Already own the Library?</h2>
+<p>All four parts are inside the <a href="https://csaf.itch.io/mz-plugin-library">MZ Plugin Library</a>, byte for byte the same files, with every other CSAF MZ plugin.</p>
+<p>Made by Core Systems Asset Factory. Every line of code was written with AI assistance and tested in the MZ engine; the art in the screenshots is our own and is not included.</p>
