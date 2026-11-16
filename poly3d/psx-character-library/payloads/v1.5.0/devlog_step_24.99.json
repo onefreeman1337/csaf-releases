@@ -1,0 +1,13 @@
+{
+ "title": "PSX Character Library: $24.99 for new buyers from 7 December",
+ "type": "update",
+ "bodyHtml": "<p><strong>The PSX Character Library goes from $19.99 to $24.99 for new buyers on 7 December 2026.</strong> If you already own it, nothing changes: you keep every pack that joins, at no extra cost.</p>\n<p>Why now: since 13 November this page has said the price rises by $5 for new buyers each time three more packs join, counted from 16 packs. Eight Angles joined as pack number 19, so this is the first step. Until 7 December 2026 the price stays $19.99.</p>\n<p>What the Library holds today: 19 packs, 265 rigged PSX characters and 808 skinned entities, $85.90 if bought one by one across their 10 pages, plus every pack we release after this. The next step is $29.99 at 22 packs, announced here with its own date at least five days ahead. $29.99 is the ceiling.</p>\n<p>Want to try the rig, the clips and the shader first? One character from every pack is free in the <a href=\"https://csaf.itch.io/psx-characters-sampler\">PSX Characters Sampler</a>.</p>\n<p>Questions go in the comments on the page. If the Library helps your game, a quick rating is the best way to support the next pack.</p>",
+ "step": {
+  "at": 19,
+  "usd": 24.99,
+  "date": "2026-12-07",
+  "reached": "2026-11-16 (v1.5.0, Eight Angles, session 64)",
+  "why": "Ops/Social/sales_calendar.json read 2026-11-16: Black Friday expected 2026-11-25 18:00Z to 2026-12-03 18:00Z (2024's ran to 12-05); Winter expected 2026-12-17 18:00Z, so its seven-day window opens 2026-12-10 18:00Z. 2026-12-07 is after every precedent end and outside that window; 21 days after the announcement."
+ },
+ "daysAhead": 21
+}
