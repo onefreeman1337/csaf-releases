@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-16T01:15:13.178Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-16T04:12:07.473Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -5504,7 +5504,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/promptbox · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/promptbox/ · Free
 
-The overture runs three minutes. At the end of it the curtain goes up on a corpse, and then it runs again. You are the prompter, in the hooded box at the lip of the stage.
+PROMPTBOX is a free three-minute time-loop mystery for the browser: five of an opera company, nine rooms backstage, and a casebook that survives every reset.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
