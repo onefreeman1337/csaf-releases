@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 800 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-16T18:16:27.320Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-16T20:49:01.699Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2414,7 +2414,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 124 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 125 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -3197,6 +3197,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/stature · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stature/ · Paid · Engines: RPG Maker
 
 Want the whole set? Stature is a battler plugin for RPG Maker MZ that makes your side view battlers taller from the sheets you already have, in all 18 battle motions.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Storied Systems: 4 Signature RPG Systems for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-storied-systems · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-storied-systems/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5424,7 +5432,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/kaiju-disposal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/kaiju-disposal/ · Free
 
-KAIJU DISPOSAL is a free browser clean-up incremental with 12 contracts, and this page opens the CSAF Arcade: 37 free games in one window. The heroes won.
+KAIJU DISPOSAL is a free browser clean-up incremental with 12 contracts, and this page opens the CSAF Arcade: 39 free games in one window. The heroes won.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
