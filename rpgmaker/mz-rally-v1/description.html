@@ -1,0 +1,51 @@
+<p><em>Also inside the <a href="https://csaf.itch.io/mz-plugin-library">MZ Plugin Library</a>: every CSAF MZ plugin in one download, and every new one joins it.</em></p>
+<p>Rally turns walking sprites into side-view battlers for RPG Maker MZ: 3 plugins build all 18 battle motions for your party and your enemies, and 13 combat poses on the map.</p>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTEzNTEzMC8zMjQwNTcyMy5naWY=/original/3H0FVA.gif" alt="A Rally party and a Rally troop fighting in RPG Maker MZ's side-view battle, every frame built from walking sprites"></p>
+<p>Three parts, 6 raw JavaScript plugin files, no image files. Use one part, any two, or all three: each works alone, and all three were tested together in the engine. Licence: any commercial or free RPG Maker project, no royalty; the source may not be redistributed as a plugin pack.</p>
+<hr>
+<h3>⚠️ Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PostureCore.js</code>: Posture core - derives sitting, kneeling, lying, sleeping, collapsed, waving and cheering frames from a walking sheet. Place ABOVE Posture.</li>
+<li><code>KnackCore.js</code>: Knack core - derives 12 looping work animations (with a drawn tool) from a walking sheet. Any order works; PostureCore, KnackCore, Knack reads best.</li>
+<li><code>RallyCore.js</code>: Rally core - builds an 18-motion side-view battler sheet from a walking sheet (facing left for actors, right for foes) and the same poses on the map...</li>
+<li><code>RallyActors.js</code>: Rally Actors - side-view battlers built from each actor's walking sprite: all 18 motions, the equipped weapon drawn in. No SV art needed.</li>
+<li><code>RallyFoes.js</code>: Rally Foes - any character sheet fights as a side-view enemy: the 18 derived motions, built from the sheet's own right-facing row.</li>
+<li><code>RallyField.js</code>: [CSAF] Rally Field: 13 combat poses on the map in all four facings, made from each character's own walking sheet.</li>
+</ol>
+<p>This order reads sensibly in the list and <strong>nothing depends on it</strong>. Every check of the three parts working together was run three times, with all 6 files in this order, in reverse order and in a shuffled order, and passed each time. Install only the parts you want: the three cores plus that part's file. Rally Actors and Rally Foes both extend <code>Scene_Battle.create</code> and <code>Scene_Battle.terminate</code>, and each calls the original it saved, so both parts' additions run in either order. <code>PostureCore.js</code> and <code>KnackCore.js</code> are the same files Posture and Knack ship, byte for byte: keep one copy.</p>
+<p><strong>Core methods extended: 24 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Sprite_Actor.prototype.updateBitmap</code>, <code>Sprite_Actor.prototype.setupWeaponAnimation</code>, <code>Scene_Battle.prototype.create</code>, <code>Scene_Battle.prototype.terminate</code>, <code>Game_CharacterBase.prototype.update</code>, <code>Game_Player.prototype.canMove</code>, <code>Game_Follower.prototype.chaseCharacter</code>, <code>Game_Player.prototype.performTransfer</code>, <code>Game_Interpreter.prototype.updateWaitMode</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.characterBlockX</code>, <code>Sprite_Character.prototype.characterBlockY</code>, <code>Sprite_Character.prototype.characterPatternX</code>, <code>Sprite_Character.prototype.patternWidth</code>, <code>Sprite_Character.prototype.patternHeight</code>, <code>Sprite_Character.prototype.updateCharacterFrame</code>, <code>Sprite_Balloon.prototype.updatePosition</code>, <code>Sprite_Enemy.prototype.updateBitmap</code>, <code>Sprite_Enemy.prototype.updateFrame</code>, <code>Sprite_Enemy.prototype.update</code>, <code>Sprite_Enemy.prototype.updateStateSprite</code>, <code>Sprite_Enemy.prototype.startBossCollapse</code>, <code>Game_Enemy.prototype.performAction</code>, <code>Game_Enemy.prototype.performDamage</code>.</p>
+<p>Because nothing is clobbered, Rally co-exists with other plugins that patch the same seams, including large suites.</p>
+<p><strong>It also extends one method on a core singleton, the same way: original saved and called through:</strong> <code>BattleManager.processDefeat</code>. Another plugin patching that one keeps working.</p>
+<p><strong>It also defines 4 methods that their core class only inherited:</strong> <code>Game_Enemy.prototype.performEvasion</code> (inherited from <code>Game_Battler</code>), <code>Game_Enemy.prototype.performMagicEvasion</code> (inherited from <code>Game_Battler</code>), <code>Game_Enemy.prototype.performCounter</code> (inherited from <code>Game_Battler</code>), <code>Game_Enemy.prototype.refresh</code> (inherited from <code>Game_Battler</code>). That touches <code>Game_Enemy</code> only, never the parent. If another plugin redefines the same method on the same class, load Rally after it.</p>
+
+<h2>Rally Actors: your party</h2>
+<ul>
+<li>Any actor with a walking sheet and no SV battler image fights in MZ's own side-view battle.</li>
+<li>A full 9 x 6 battler sheet is built at the start of a battle: all 18 motions, 3 frames each.</li>
+<li>The equipped weapon is drawn in: 12 weapon forms plus bare hands, picked through MZ's own attack motion table.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTEzNTEzMC8zMjQwNTc2Mi5wbmc=/original/b2%2Fayo.png" alt="All 18 side-view motions built from one walking sheet"></p>
+<h2>Rally Foes: your enemies</h2>
+<ul>
+<li>Tag an enemy with a character sheet and it fights facing the party with the same 18 motions, from the sheet's own right-facing row.</li>
+<li>It walks in, steps forward on its turn, recoils, kneels when hurt, falls and cheers if the party falls.</li>
+<li>The bandit the player met in town is the bandit they fight.</li>
+</ul>
+<h2>Rally Field: on the map</h2>
+<ul>
+<li>One plugin command poses the player, a follower or any event: 13 combat poses in all four facings.</li>
+<li>Once, hold or loop, with a wait for cutscenes. Saved with the game.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTEzNTEzMC8zMjQwNTc1NS5naWY=/original/rr6IdU.gif" alt="Rally Field combat poses on the map in four facings"></p>
+<h2>Tested together</h2>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTEzNTEzMC8zMjQwNTc2OC5wbmc=/original/8ltKaQ.png" alt="The same drawings on the map and in battle"></p>
+<ul>
+<li>Both sides of one battle on Rally sheets, fought to a win.</li>
+<li>A hero's map pose is his battle sheet, pixel for pixel: 78 of 78 cells measured.</li>
+<li>One save carries all three parts and still loads with any one turned off. The same checks pass in three plugin orders.</li>
+</ul>
+<h2>Already own the Library?</h2>
+<p>All three parts are inside the <a href="https://csaf.itch.io/mz-plugin-library">MZ Plugin Library</a>, byte for byte the same files. For a back-view battle where the party is seen from behind, from the same walking sheets, see <a href="https://csaf.itch.io/mz-over-the-shoulder">Over the Shoulder</a>. Our other MZ volume, <a href="https://csaf.itch.io/mz-storied-systems">Storied Systems</a>, holds four RPG systems: run maps, enemy intents, skits and paper cutouts.</p>
+<p>Made by Core Systems Asset Factory. Every line of code was written with AI assistance and tested in the MZ engine; the characters in the screenshots are our own test art and are not included.</p>
