@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-15T16:40:20.175Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-16T00:25:22.101Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -6224,11 +6224,11 @@ Godot 4 Shader and VFX Sampler: 132 free presets from 11 addons A free download 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Godot Collection: All 36 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
+### Godot Collection: All 37 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 36 packs, 1,895 presets for 2D games, royalty free, and every new pack joins on launch day. The newest 12 are only here for now.
+Every CSAF addon pack for Godot 4 in one project: 37 packs, 1,943 presets for 2D games, royalty free, and every new pack joins on launch day. The newest 13 are only here for now.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6436,18 +6436,18 @@ Want the whole set? Pale Hours is a pack of 14 low poly PS1-style ghost characte
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 17 Low Poly Packs + Every New One
+### PSX Character Library: 18 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Syndicate: 14 PSX Gangsters, Hitmen and Enforcers, added in v1.3.0 (2026-11-13).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Foxhole: 14 PSX WW2 Soldiers, Allied and Axis, added in v1.4.0 (2026-11-15).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 17 Free Low Poly 3D Characters
+### PSX Characters Sampler: 18 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 17 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 18 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
