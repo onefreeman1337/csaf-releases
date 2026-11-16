@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 799 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-16T12:58:36.563Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-16T16:18:38.004Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2428,7 +2428,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/aloft · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aloft/ · Paid · Engines: RPG Maker
 
-Want the whole set? Your own maps, as islands in the sky. Aloft is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that turns any map into a floating island.
+Want the whole set? Aloft is an RPG Maker MZ plugin that turns any of your maps into islands in the sky: 5 dressings, 49 kinds of art, a rock underside cut from your own edge tiles and a sea of clouds below.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3188,7 +3188,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/spellwright · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/spellwright/ · Paid · Engines: RPG Maker
 
-Want the whole set? Your players write their own spells.
+Want the whole set? Spellwright is a spell crafting plugin for RPG Maker MZ: players combine spells their hero knows, pick 1 of 5 magnitudes, name the result and watch its circle draw itself.
 
 AI disclosure: AI Assisted, Code, Graphics
 
