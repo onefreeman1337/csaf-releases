@@ -1,0 +1,66 @@
+[
+ {
+  "f": "add_almanac.png",
+  "bytes": 116952,
+  "sha256": "41c2154298bffc3be425861b1845dc8cd54a8c56678768e1e2e4095eaa2cc365",
+  "w": 1280,
+  "h": 754,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2308186,
+  "sha256": "213f8f810c0ccdf814f362f2817fb628283ca78dc085314807ff68582e1f0770",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1478275,
+  "sha256": "ea97a0c832ca271a1a607b8cb915dcc2fb5a5ccdaaa361004af04e4a0e1bcee3",
+  "w": 1280,
+  "h": 1324,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 340427,
+  "sha256": "1881bd4ff369e62d5337585f7d5dd093771dbb5c5af49eab6248d12994b86968",
+  "w": 1280,
+  "h": 1263,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 318890,
+  "sha256": "bf135087c1eb500324811565449139b6ea3ad2293c91c5551118c68df889e1c7",
+  "w": 1280,
+  "h": 1238,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 256363,
+  "sha256": "6530f576de017723a8e286267010259dd1861ca42a1c04d8edc483116db8182d",
+  "w": 1280,
+  "h": 1057,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 102866,
+  "sha256": "f5747c4ba9c0181065e5610e3aec8454ec37c1f0d2c9596855dc063ea325db7f",
+  "w": 1280,
+  "h": 893,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 468605,
+  "sha256": "6ba9f6eff167b776e316993b7c13c7d3509a0cae4fac6358698d90a102c5a163",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
