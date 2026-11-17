@@ -1,0 +1,18 @@
+[
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 351409,
+  "sha256": "667985ade29a75dab95fc50eb4c3cf28b0c2bffce44b74cf43862f0ef69f5256",
+  "w": 1280,
+  "h": 1369,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 223013,
+  "sha256": "6f8e122424411c726da41f329c05df4c5d3e7818cc30f25fc85bc022a0b4e32a",
+  "w": 1280,
+  "h": 926,
+  "kind": "png"
+ }
+]
