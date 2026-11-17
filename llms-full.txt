@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 804 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 805 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-17T16:02:16.942Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-17T21:24:48.784Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1480,11 +1480,11 @@ A village cast of dialogue voices 104 dialogue sounds. 13 new speakers, each a d
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Blip Library: 10 Dialogue Sound Effects Packs, Plus New Ones
+### Blip Library: 13 Dialogue Sound Effects Packs, Plus New Ones
 
 Store: https://csaf.itch.io/blip-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-library/ · Paid
 
-Blip Library is 1,749 royalty free dialogue sound effects in 10 packs for RPG Maker, Godot, Unity, GameMaker and any engine that plays WAV or OGG.
+Blip Library is 2,061 royalty free dialogue sound effects in 13 packs for RPG Maker, Godot, Unity, GameMaker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1540,7 +1540,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/clamber-climbing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/clamber-climbing-sound-effects/ · Paid
 
-Every hold a game climbs, one hand on all of them 648 climbing sounds on 12 holds: grab, let go, shimmy, climb up, climb down and slip, at three body weights, 3 takes in every cell, plus 12 seamless climbing loops.
+Want the whole set? Every hold a game climbs, one hand on all of them 648 climbing sounds on 12 holds: grab, let go, shimmy, climb up, climb down and slip, at three body weights, 3 takes in every cell, plus 12 seamless climbing loops.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1880,11 +1880,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 106 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 109 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 14,966 royalty free sound effects in 106 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 15,278 royalty free sound effects in 109 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1892,7 +1892,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/sounding-underwater-deep-sea-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sounding-underwater-deep-sea-sound-effects/ · Paid
 
-A dive your game can take deeper 102 underwater sound effects built around four ladders: the water gets darker, the sonar contact closes, the diver breathes faster and the hull groans longer, one rung at a time.
+Want the whole set? A dive your game can take deeper 102 underwater sound effects built around four ladders: the water gets darker, the sonar contact closes, the diver breathes faster and the hull groans longer, one rung at a time.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2002,13 +2002,21 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 52 products.
+Game music packs. Formats and track counts are stated on each store page. 53 products.
 
 ### Adversary: 10 Track Battle and Boss Music Pack
 
 Store: https://csaf.itch.io/adversary-battle-boss-suite · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/adversary-battle-boss-suite/ · Free · pay what you want
 
 Adversary is a 10 track battle and boss music pack for RPG Maker MZ, Godot, Unity and GameMaker, built on one four note theme from first fight to final boss.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Aero Days: 132 Frutiger Aero Game Music Tracks
+
+Store: https://csaf.itch.io/aero-days · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/aero-days/ · Paid
+
+Want the whole set? Aero Days is 132 game music tracks in the Frutiger Aero style of 2000s console menus: three complete scores for Godot, Unity, GameMaker or RPG Maker.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2288,7 +2296,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/storybook · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/storybook/ · Paid
 
-Storybook is a 44 track fairy tale music pack for any game engine: one book in five chapters, and a music box storyteller opens every full piece.
+Want the whole set? Storybook is a 44 track fairy tale music pack for any game engine: one book in five chapters, and a music box storyteller opens every full piece.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2444,7 +2452,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/anvil · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/anvil/ · Paid · Engines: RPG Maker
 
-Anvil is a forging minigame plugin for RPG Maker MZ: the player hammers a glowing bar to a pattern generated from your own weapon, reads the heat by colour, then quenches it.
+Want the whole set? Anvil is a forging minigame plugin for RPG Maker MZ: the player hammers a glowing bar to a pattern generated from your own weapon, reads the heat by colour, then quenches it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2804,7 +2812,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/gargoyle · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/gargoyle/ · Paid · Engines: RPG Maker
 
-They move when you look away.
+Want the whole set? They move when you look away.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2844,7 +2852,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hedgerow · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hedgerow/ · Paid · Engines: RPG Maker
 
-The animals that walk your maps. Hedgerow fills your maps with the small animals a real place has.
+Want the whole set? The animals that walk your maps. Hedgerow fills your maps with the small animals a real place has.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2940,7 +2948,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/liturgy · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/liturgy/ · Paid · Engines: RPG Maker
 
-Liturgy is a 9 file RPG Maker MZ plugin that redraws the main menu, item list and status page as one printed ledger, in 6 house styles. Royalty free in commercial games.
+Want the whole set? Liturgy is a 9 file RPG Maker MZ plugin that redraws the main menu, item list and status page as one printed ledger, in 6 house styles.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2968,7 +2976,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 131 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 132 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -4344,11 +4352,11 @@ Armoury plates that know where your equipment came from. You never pick an icon 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 16 Low Poly Packs + Every New One
+### PSX Character Library: 20 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/rekey · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/rekey/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Ashfall: 14 PSX Post-Apocalyptic Raiders and Wastelanders, added in v1.2.0 (2026-11-13).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Oathfall: 14 PSX Dark Fantasy Knights and Undead Warriors, added in v1.6.0 (2026-11-17).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6476,18 +6484,18 @@ Want the whole set? Pale Hours is a pack of 14 low poly PS1-style ghost characte
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 19 Low Poly Packs + Every New One
+### PSX Character Library: 20 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games.
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Oathfall: 14 PSX Dark Fantasy Knights and Undead Warriors, added in v1.6.0 (2026-11-17).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 19 Free Low Poly 3D Characters
+### PSX Characters Sampler: 20 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 19 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 20 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
