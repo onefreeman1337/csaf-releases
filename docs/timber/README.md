@@ -1,233 +1,267 @@
-# Timber - Tree Cutting for RPG Maker MZ: Your Own Tileset Trees Topple, Burst and Split Into Logs — Documentation
+# Timber: Choppable Trees Cut from Your Own Sprites and Tiles for GameMaker — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** Timber - Tree Cutting for RPG Maker MZ: Your Own Tileset Trees Topple, Burst and Split Into Logs  
-**Engine:** RPG Maker MZ  
-**Store page:** https://csaf.itch.io/timber  
-**Docs published:** 2026-11-05
+**Product:** Timber: Choppable Trees Cut from Your Own Sprites and Tiles for GameMaker  
+**Engine:** GameMaker 2024+  
+**Docs published:** 2026-11-17
 
 
 ---
 
-# Timber for RPG Maker MZ
+# Timber - Choppable Trees Cut from Your Own Sprites and Tiles, for GameMaker
 
-**Every tree in your own tileset can be cut down.** Face a tree and press OK: it shudders, a notch opens in its own
-bark, chips and leaves fly. The last chop fells it with weight. It tips slowly, then fast, lands with a bounce and a
-shake, its crown bursts into its own leaves, the trunk splits into logs, and a stump with rings stays on the spot. Over
-play time a sapling grows from it and the tree comes back.
+**Timber makes the trees already in your GameMaker game choppable (2024.14, tested on runtime 2024.14.4.268), in pure GML with
+a runnable demo room.** Give it a tree SPRITE you already draw, or let it find the trees on your TILE LAYER, and every blow
+shudders the tree and opens a notch in its own bark while chips and leaves fly. The last blow brings it down in one of 8 ways
+(topple, crash, snap, whip, uproot, slice, shatter, burn), always away from the side it was struck from. The crown breaks into
+clumps and leaves cut from its own pixels, the trunk splits into logs cut from its own bark, and a stump with a cut face stays.
+After a while it grows back from a sapling. 6 kinds of tree (broadleaf, conifer, palm, dead, birch, giant mushroom) x 8 falls
+= 48 styles, and every number in a style is yours to change.
 
-Every leaf, chip, log, splinter, stump and sapling is cut from the pixels of the tree you painted. No tree sprite
-sheets, no events on every tree, no art to draw.
+Every leaf, chip, log, stump face, crater and ember is drawn at run time from the tree you painted: no tree sprite sheets, no
+frame art. It is a GameMaker port of our Timber for RPG Maker MZ and for Godot 4. One commercial licence covers all your games.
 
-Version 1.0.0 · Core Systems Asset Factory
+Every picture on the store page was rendered by this package in a blank GameMaker project.
 
 ---
+
+## What is in the package
+
+| | |
+| --- | --- |
+| `tmb_core` | the 48 styles, reading a tree out of its pixels, the blows, the eight falls, debris, logs, regrowth, save data - **no drawing calls** |
+| `tmb_styles` | the style table (generated from the same numbers the Godot and MZ editions ship) |
+| `tmb_draw` | making trees from your sprite or your tiles, and drawing the standing tree, the notch, the fall, the stump, the logs and the debris |
+| `tmb_forest` | many trees at once: scan a tile layer, add sprite trees, strike whatever stands at a point, step, draw back to front, save |
+| `tmb_demo` + `obj_tmb_demo` + `rm_tmb_demo` | THE WOODLOT: fourteen sprite trees and five tile trees on a meadow, a woodcutter and a browser of all 48 styles |
+| `tmb_selftest` | the in-engine test suite (run the demo with `-selftest`) |
+| 15 sprites + `ts_tmb_demo` | the demo trees and meadow (from this studio's Verdant tilesets), used only by the demo and the suite |
+| 4 fonts | `fnt_timber_display_s/_l` (from Oswald Bold) and `fnt_timber_body_s/_l` (Barlow Condensed SemiBold), SIL OFL 1.1, used only by the demo |
 
 ## Install
 
-1. Copy the four files from `js/plugins` into your project's `js/plugins` folder:
-   `TimberCore.js`, `SmithereensCore.js`, `SmithereensCut.js`, `Timber.js`.
-2. In the Plugin Manager, add all four and switch them ON. Their order does not matter: Timber.js finds the other
-   three the first time it needs them.
-3. If you already own our Smithereens plugin, its `SmithereensCore.js` and `SmithereensCut.js` are the same two files.
-   Keep one copy of each.
+1. In GameMaker: **Tools > Import Local Package**, choose `Timber.yymps`, **Add All**, **Import**.
+2. Run the project with `rm_tmb_demo` first in the room order to open THE WOODLOT.
 
-That is all for MZ's own trees. Start a test play on a map with the stock **Outside** tileset and chop one.
+The raw `.gml` sources are also in the `Timber/` folder of this download, readable without GameMaker.
 
----
+**THE WOODLOT's keys:** click a tree to chop it (it falls away from the side you clicked), 1 to 8 pick the fall for trees not yet
+struck, R grows everything back, A lets the woodcutter loose, TAB opens the browser of all 48 styles chopping themselves.
 
-## Which trees can be cut
+## Quickstart: one tree from your sprite
 
-**MZ's stock trees work at once.** On the Outside tileset: the tree, the large tree, both snowy conifers, both dead
-trees, the palm and both mushroom clusters. On SF Outside: the tree. Forest canopy fill tiles, streetlights and the
-tree in a planter box are left alone.
+```gml
+// Create event of the object that owns the tree (a tree sprite with a transparent background)
+my_tree = tmb_tree_create(spr_my_oak, 0, x, y, "broadleaf-topple", { regrow_time: 60 });
 
-**Your own tilesets: one terrain tag.**
+// Step event: strike it when the player swings, then advance it
+if (keyboard_check_pressed(vk_space) && point_distance(my_player_x, my_player_y, x, y) < 24) {
+    tmb_chop(my_tree, my_player_x, my_player_y);   // it falls away from the player (my_player_x/y: where your player stands)
+}
+tmb_step(my_tree, delta_time / 1000000);
 
-1. Database, Tilesets tab, pick the tileset, switch the editor to **Terrain Tag** mode.
-2. Give every tile of every tree the same tag, 1 to 7 (one click per tile).
-3. Either set the parameter **Tree terrain tag** to that number, or write it in the tileset's **Note** box:
+// Draw event (draw it instead of the sprite)
+tmb_draw(my_tree);
 
-```
-<Timber Tag 6>
-```
-
-To name the kind instead of letting Timber read it from the picture, add it after a colon. Several tags can be listed:
-
-```
-<Timber Tag 6>
-<Timber Tag 5: conifer>
-<Timber Tag 4: crystal>
+// Clean Up event
+tmb_free(my_tree);
 ```
 
-Kinds: `broadleaf`, `conifer`, `palm`, `dead`, `mushroom`, `crystal`. Naming the kind is always exact. Read from the
-picture, Timber called 24 of our 25 test trees right; the miss was a white quartz spire it read as a dead tree, so name
-pale crystals.
+`tmb_tree_create(sprite, subimg, x, y, style, options)` stands the tree exactly where `draw_sprite(sprite, subimg, x, y)` would draw
+it; the sprite's own origin is honoured. Read it once (it copies the frame's pixels) and keep the struct.
 
-**A region works too.** Set **Tree region** and paint that region on a tree's cells to make only those trees
-choppable.
+## Quickstart: every tree on your tile layer
 
-What makes a group of tiles one tree: the tiles you painted together from the palette, the way you would paint a two
-or three tile tree, on the upper layers. The bottom row needs a tile without the star (the trunk). A 1 x 1 tile works
-too (a mushroom cluster, a crystal). Two trees of the same tile standing side by side stay two trees.
+```gml
+// Create event of a controller object
+var my_words = tmb_tile_words({}, 8, 0, 1, 2, 2, "broadleaf");   // tileset 8 tiles wide: a 2 x 2 tree at atlas column 0, row 1
+tmb_tile_words(my_words, 8, 5, 1, 2, 3, "conifer-snap");        // a 2 x 3 pine whose fall is snap
+my_wood = 0;
+my_forest = tmb_forest_create({ regrow_time: 120, on_log: function(_tree, _x, _y) { my_wood += 1; } });
+tmb_forest_scan_tiles(my_forest, layer_tilemap_get_id(layer_get_id("Trees")), my_words);
 
----
+// Step event
+if (mouse_check_button_pressed(mb_left)) tmb_forest_chop_at(my_forest, mouse_x, mouse_y, my_player_x, my_player_y);
+tmb_forest_step(my_forest, delta_time / 1000000);
 
-## Cutting a tree down
+// Draw event (of an object drawn above your tile layer)
+tmb_forest_draw(my_forest);
 
-Face the **bottom row** of a tree and press **OK** (Enter, Space, Z, or the gamepad's A button). The player leans into
-each blow. Chops to fell:
+// Clean Up event
+tmb_forest_free(my_forest);
+```
 
-| Kind | Chops |
-| --- | --- |
-| broadleaf | 3 |
-| conifer | 4 |
-| palm | 2 |
-| dead | 2 |
-| mushroom | 1 |
-| crystal | 3 |
+**Which cells make one tree.** Two neighbouring cells belong to one tree when their tiles are neighbours the same way in the
+tileset, so a 2 x 3 tree painted from the atlas is one tree and two copies of it standing side by side stay two trees. A mirrored
+or flipped tile reads its neighbour the other way round. A rotated tile is read rotated (untested on real art).
 
-Or one number for every tree: **Chops to fell**.
+**What happens on the layer.** A tree nobody has struck is still drawn by YOUR tile layer. The first blow lifts it: its cells are
+emptied and Timber draws it from then on. When it grows back, the exact tiles (index, mirror and flip) go back on the layer, and
+`tmb_free` / `tmb_forest_free` put back any tree still lifted, so the level is left as you painted it.
 
-**Which way it falls.** Struck from the side, a tree falls away from the player. Struck from the front or the back, it
-falls to whichever side has more open ground. Trees always fall sideways: on MZ's tilted top-down view a tree lying
-toward or away from the camera would be drawn at under half its height.
+**What it needs from your art:** trees with a transparent background, on their own layer (not baked into the ground tiles).
 
-**Needing an axe.** **Needs weapon**, **Needs item** and **Needs switch** gate the chop. Without them, OK at a tree
-does nothing, or runs **When not allowed** (a common event: "You need an axe.").
+## What happens when a tree is struck
 
----
-
-## How each kind comes down
-
-| Kind | The fall | When it lands | What is left |
+| Kind | Blows | Debris | What is left |
 | --- | --- | --- | --- |
-| broadleaf | topples about the cut | the crown bursts into its own leaves | 3 logs and a ringed stump |
-| conifer | topples, faster | the crown breaks into wide boughs that slide apart | 4 thin logs and a stump |
-| palm | whips over: the crown lags, then springs past | the fronds burst | 5 short segments and a stump |
-| dead | snaps at the cut, drops into it, tips | shatters into splinters | a jagged stump |
-| mushroom | flops over | the cap bursts into slow spores | the stem's stub |
-| crystal | does not fall: shatters where it stands | facets fly | the crystal's base |
+| broadleaf | 3 | leaves and clumps of its own crown, chips | 3 logs, a ringed stump |
+| conifer | 4 | needles, wide boughs, cones, snow if the crown carries snow | 4 logs, a ringed stump |
+| palm | 2 | fronds, coconuts | 5 short segments, a fibrous stump |
+| dead | 2 | splinters and twigs | 2 logs, a split grey stump |
+| birch | 3 | small leaves, white bark curls | 3 white logs, a pale stump |
+| mushroom | 2 | glowing spores, soft flesh | 2 stem pieces, a flesh stump |
 
-A snowy tree drops snow at every chop. The soft drawn shadow under a tree stays on the ground and fades as it falls.
-The logs lie a few seconds (**Logs stay**), then go, and the wood item's icon rises from the pile if you set one.
-Leaves, chips and splinters stay on the ground for **Debris stays** seconds.
-
-**Stumps** stand where the trunk stood and block that cell (**Stumps block**). The rest of the tree's cells open up.
-
-**Regrowing.** After **Regrow time** seconds of play (default 300), the tree is back. A sapling shows from the stump in
-the last 60% of that time and grows in three steps. Set it to 0 and felled trees stay felled. A map note overrides it:
-
-```
-<Timber Regrow: 600>
-```
-
----
-
-## What it gives the player
-
-**Wood item** and **Wood per tree** for broadleaf, conifer, palm and dead trees; **Mushroom item** and **Crystal item**
-(one each) for those kinds. **Count variable** goes up by one for every tree felled. **Common event on fell** runs every
-time a tree comes down.
-
----
-
-## Map note
-
-```
-<Timber Off>
-```
-
-No tree on that map can be cut.
-
----
-
-## Plugin commands
-
-| Command | What it does |
+| Fall | How it comes down |
 | --- | --- |
-| Chop Tree In Front | one chop at the tree the player faces |
-| Chop Tree At | one chop at a cell (a tree's bottom row) |
-| Fell Tree At | fells a tree at once |
-| Regrow All | every felled tree on this map grows back now |
-| Allow Chopping | turns the OK-button chop off or on (saved) |
+| topple | topples about the notch, bounces, the crown breaks up, the trunk splits into logs |
+| crash | falls heavier and faster, a cloud of dust, the logs roll apart |
+| snap | snaps at the notch with a jagged break, drops into it, then tips (2 logs at most) |
+| whip | the crown lags behind, then springs past as it lands |
+| uproot | no notch: the blows loosen it, it tips over roots and all and leaves a crater (no logs) |
+| slice | one bright stroke cuts it through at an angle; the top slides off and falls |
+| shatter | does not fall: it bursts apart where it stands into square pieces of itself (no logs) |
+| burn | each blow is fire: it chars from the foot up, falls burning and lands as ash and embers (no logs) |
 
-`Chop Tree At` and `Fell Tree At` take a fall direction: `player`, `east`, `west`, `north`, `south`. North and south
-fall to the open side, like a chop from the front.
+Blows are the kind's number for topple, crash, snap, whip and shatter; uproot takes one more, slice and burn one fewer (never
+under 2). Struck from the left a tree falls right, struck from the right it falls left. Trees always fall sideways, so a tree
+lying on the ground is drawn at its full length in both top-down and side views.
 
-## Script calls (for Conditional Branch)
+## Styles
 
+A style is a struct; every field is a slider. `tmb_style(id)` returns a COPY you can edit:
+
+```gml
+var my_style = tmb_style("conifer-crash");
+my_style.tint = make_colour_rgb(255, 210, 160);   // autumn: every colour taken from your tree is multiplied by this
+my_style.chops = 6;                              // a tougher tree
+my_tree2 = tmb_tree_create(spr_my_pine, 0, x, y, my_style);
 ```
-Timber.isTree(x, y)     // true when a standing tree's bottom row is at x, y
-Timber.felledCount()    // trees felled on this map that have not grown back
-```
 
----
-
-## Parameters
-
-| Parameter | Default | What it does |
+| Field | Default | What it does |
 | --- | --- | --- |
-| Chop with the OK button | true | face a tree's bottom and press OK to chop |
-| Needs item | 0 | the party must hold this item (0 = none) |
-| Needs weapon | 0 | the party must hold or wear this weapon (0 = none) |
-| Needs switch | 0 | chopping only while this switch is ON (0 = always) |
-| When not allowed | 0 | common event when OK is pressed without what is needed |
-| Tree terrain tag | 0 | tiles with this terrain tag are trees, in every tileset |
-| Tree region | 0 | upper-layer tiles on cells with this region are trees |
-| Stock MZ trees | true | MZ's own stock tree tiles can be cut |
-| Chops to fell | 0 | one number for every tree (0 = by kind) |
-| Regrow time (seconds) | 300 | seconds of play before a felled tree is back (0 = never) |
-| Stumps block | true | a stump blocks its cell |
-| Wood item | 0 | given for broadleaf, conifer, palm and dead trees |
-| Wood per tree | 3 | how many |
-| Mushroom item | 0 | given for a mushroom |
-| Crystal item | 0 | given for a crystal |
-| Count variable | 0 | goes up by one per tree felled |
-| Common event on fell | 0 | runs when a tree comes down |
-| Shake on landing | true | a small screen shake when a tree lands |
-| Sound: chop | Blow3 | a sound from your audio/se folder |
-| Sound: fall | Crash | |
-| Sound: shatter | Break | dead trees, crystals |
-| Pieces on screen | 160 | leaves, chips and splinters at once |
-| Debris stays (seconds) | 12 | then they fade (0 = until the map changes) |
-| Logs stay (seconds) | 5 | |
+| `kind`, `fall` | from the id | 0..5 and 0..7, in the order of `tmb_kind_names()` and `tmb_fall_names()` |
+| `chops` | by kind and fall | blows to bring it down (1..12) |
+| `speed` | 1 | time scale for the whole life of the tree (0.25..4) |
+| `weight` | by style | how hard the fall pulls (0.2..4) |
+| `bounce` | by style | how far it rebounds when it lands (0..0.8) |
+| `debris` | by style | amount of leaves, chips and dust (0..3) |
+| `particle_size` | 1 | debris pixel size in pixels of your art (1..4) |
+| `shudder` | by style | how hard each blow shakes the tree (0..3) |
+| `logs` | by kind | logs the trunk splits into (0..8) |
+| `tint` | `c_white` | multiplies every colour sampled from your tree |
+| `wood` | by kind | cut wood: notches, log ends, stump rings, chips |
+| `accent` | by style | the style's own light: embers, the slice glint, spores |
+| `dust` | by style | dust on landing (0..3) |
+| `debris_stay`, `logs_stay` | 8, 5 | seconds debris and logs lie before they fade (0 = until it regrows) |
+| `slice_angle` | 28 | tilt of the SLICE cut, in degrees (0..60) |
 
-The three sounds name MZ's own stock sound effects; pick any from your own `audio/se`.
+A missing field is filled from the style's own kind and fall, and every number is clamped to its range, so a partial struct such
+as `{ kind: 1, fall: 2, chops: 5 }` works. An unknown id gives `undefined`; a tree given `undefined` uses broadleaf-topple and
+says so in the output log.
 
----
+## Calls
 
-## Saves, speed and compatibility
+**Making and placing trees**
 
-**Saves.** A save keeps which trees fell and when, nothing else: one small entry per felled tree. A chop that has not
-felled its tree yet is kept while you stay on the map (the menu included) and resets when you leave it.
+| Call | What it does |
+| --- | --- |
+| `tmb_tree_create(sprite, subimg, x, y, style, [options])` | a tree from your sprite (see the quickstart); `tree.ok` is false and `tree.why` says why when the picture cannot be read |
+| `tmb_tree_from_tiles(tilemap, cell_x, cell_y, cells_w, cells_h, style, [options])` | a tree from a rectangle of cells on your tile layer |
+| `tmb_tree_place(tree, x, y, [scale])` | move a tree so its FOOT (the bottom of the trunk) stands at (x, y), optionally at a new scale |
+| `tmb_style(id)` | a copy of a shipped style by id, by a kind or fall alone, or by index 0..47 |
+| `tmb_style_ids()`, `tmb_kind_names()`, `tmb_fall_names()` | the 48 ids, the 6 kinds, the 8 falls |
 
-**Speed.** Each tree's picture is read once, while the map fades in. After that, chopping, falling and regrowing read
-no pixels at all. Measured in the real engine on our showroom map, a tree felled every few seconds: about 13 draw calls a
-frame and fewer than one texture upload every four frames, inside the limits we hold every plugin to.
+Options (all optional): `scale` (1), `seed` (0, the debris pattern), `regrow_time` (300 seconds; 0 = never), `side_view` (false:
+debris scatters round the foot; true: it lands on one ground line, for platformers), and five callbacks: `on_hit(tree,
+chops_left)`, `on_felled(tree, direction)`, `on_landed(tree, force)`, `on_log(tree, x, y)` (once per log, at the log's place in
+the room: give wood here) and `on_regrown(tree)`. A callback written inline in the options struct runs in the scope of the
+instance that made the tree, so it can read and change that instance's variables.
 
-**Compatibility.** Timber extends MZ's map, player and tilemap code without replacing any of it (every original is
-called). It changes no window or menu. A Change Tileset event is handled: trees are found again in the new tileset and
-felled trees stay felled.
+**Striking, stepping, drawing**
 
----
+| Call | What it does |
+| --- | --- |
+| `tmb_chop(tree, from_x, from_y)` | one blow from a striker at (from_x, from_y); returns true when this blow felled it |
+| `tmb_fell(tree, from_x)` | bring it down now, away from from_x |
+| `tmb_fell_toward(tree, direction)` | bring it down now toward 1 (right) or -1 (left) |
+| `tmb_step(tree, dt)` | advance by dt seconds (60 fixed steps a second inside, so the same fall plays the same at any frame rate) |
+| `tmb_draw(tree)` | draw it as it is now; honours your camera and any world matrix, restores every GPU setting it changes |
+| `tmb_free(tree)` | free its sprites and buffers (a lifted tile tree puts its tiles back first) |
 
-## What it does not do
+Call `tmb_chop` and `tmb_step` from a Step event and `tmb_draw` from a Draw event. Old pictures are freed on the next `tmb_step`,
+after the frame that drew them.
 
-- Overworld forest autotiles (the A1 and A2 forest tiles) and trees placed as events are not cut.
-- No touch or mouse chop: on touch devices, call **Chop Tree In Front** from an event or button.
-- No skill levels or tool tiers. A switch, an item or a weapon can be required, and a common event runs on every fell.
+**State**
 
----
+| Call | What it does |
+| --- | --- |
+| `tmb_is_standing(tree)` | true while it stands and a blow still does something |
+| `tmb_chops_left(tree)` | blows still needed |
+| `tmb_fall_direction(tree)` | 1 = it fell (or will fall) right, -1 = left |
+| `tmb_regrow_seconds_left(tree)` | seconds until it stands again (-1 while it stands, or when it never grows back) |
+| `tmb_regrow_now(tree, seconds)` | grow back now, the sapling rising from the stump in three steps |
+| `tmb_set_felled(tree, direction, regrow_seconds_left)` | the felled state at once, no animation: the stump only |
+| `tmb_reset(tree)` | standing and untouched again, at once |
+| `tmb_play_story(tree, loop, direction)` | the tree chops itself (chop, fall, lie, grow back), as the demo's browser does |
+| `tmb_seek(tree, phase, direction)` | freeze on one moment: 0 mid-chop, 1 the moment that shows the fall best, 2 after it landed |
+| `tmb_unfreeze(tree)` | let a tree frozen by `tmb_seek` run again |
+| `tmb_save(tree)`, `tmb_load(tree, data)` | a small struct for a felled tree (`felled`, `dir`, `left`); loading brings it back as a stump that grows back over the time left |
 
-## Credits, licence and AI disclosure
+**Many trees**
 
-Core Systems Asset Factory. See LICENSE.txt. `SmithereensCore.js` and `SmithereensCut.js` are this studio's own code,
-shared with its Smithereens plugin.
+| Call | What it does |
+| --- | --- |
+| `tmb_forest_create([options])` | an empty forest; its options go to every tree it makes (each tree's seed is offset) |
+| `tmb_tile_words(words, columns, atlas_x, atlas_y, w, h, word)` | mark a rectangle of TILESET tiles as one kind of tree; returns the struct so calls chain |
+| `tmb_forest_scan_tiles(forest, tilemap, words)` | find the trees on a tile layer; returns how many |
+| `tmb_forest_add(forest, tree)`, `tmb_forest_add_sprite(forest, sprite, subimg, x, y, style)` | add a tree |
+| `tmb_forest_tree_at(forest, x, y)`, `tmb_tree_hit_test(tree, x, y)` | the standing tree at a room point (its own opaque pixels, or the trunk and a pixel either side near the foot) |
+| `tmb_forest_chop_at(forest, x, y, from_x, from_y)` | strike what stands there: 0 nothing, 1 a blow, 2 felled by this blow |
+| `tmb_forest_step(forest, dt)`, `tmb_forest_draw(forest)` | step every tree; draw them back to front by the y of the foot |
+| `tmb_forest_tree_count(forest)`, `tmb_forest_felled_count(forest)` | trees in it; trees not standing right now |
+| `tmb_forest_regrow_all(forest, seconds)` | grow every felled tree back |
+| `tmb_forest_save(forest)`, `tmb_forest_load(forest, data)` | one save struct per tree, in the order they were added |
+| `tmb_forest_free(forest)` | free every tree |
 
-The code in this product was produced with AI assistance. No images, sounds or authored narrative text ship with it.
+**Depth.** `tmb_forest_draw` sorts the forest's own trees. To sort trees against your characters, draw each tree from an object
+of its own with `depth = -y`, calling `tmb_draw` on that one tree.
+
+**Saves.** Scan the same layer and add the same sprites in the same order, then call `tmb_forest_load(my_forest, saved)`: felled
+trees come back as stumps at once and grow back over the time that was left.
+
+## Proof and measured numbers
+
+The package's own suite (50 assertions) runs on a real GameMaker build: the 14 demo trees are read (foot, trunk, crown, cut, and
+where the foot lands in the room), the blow count and the notch's side and depth are checked, all 48 styles fall to rest both
+ways (landing exactly once, the right number of logs, debris bounded, the side view's single ground line), regrowth puts back an
+unnotched tree, saves round-trip, the tile scan finds exactly the painted trees (two copies side by side stay two, a mirrored tree
+joins), a lifted tree empties exactly its cells and gets the same tiles back, the 8 falls of each kind are measured as distinct
+pictures at their best moment, a caller's world matrix is honoured, and bad input is refused without a crash.
+
+<!-- measured:start -->
+- Reading a tree out of its sprite (once, when you create it): 4.0 to 4.1 ms a tree, averaged over the 14 demo trees, two runs.
+- The busiest frame measured: all 19 trees of a forest falling at the same moment, worst step 31.4 to 39.6 ms over 90 frames (the frames where crowns burst into debris). Trees felled one at a time cost a fraction of that.
+- These are the VM build on a busy Windows machine; YYC was not built.
+<!-- measured:end -->
+
+## Compatibility and limits
+
+- GameMaker 2024.14 or newer with the GMS2 runtime; tested on runtime 2024.14.4.268, Windows, VM. HTML5, mobile, consoles and YYC
+  were not built. GMRT was not tested.
+- Your tree pictures are read once into a buffer, so a tree costs about four times its pixel count in memory, plus up to five
+  sprites of its own size while it falls. Trees up to 2048 x 2048 pixels are accepted; trees of 16 to 64 pixels are what it was
+  built and tested on.
+- Every global and macro is prefixed `tmb_` or `TMB_`; the only global variable is `global.__tmb_px` (a 2 x 2 white sprite the
+  package draws once for its square marks).
+
+## Licence, credits and AI disclosure
+
+Core Systems Asset Factory. See LICENSE.txt. The demo trees and meadow tiles are from this studio's Verdant tilesets; they are
+covered by this package's licence for use in your games, not for redistribution as art (see `Timber/fonts/THIRD-PARTY-NOTICES.txt`,
+which also carries the font notices). The code in this package was written with AI, and the demo art is AI-generated.
 
 
 ---
