@@ -1,0 +1,50 @@
+<p><em>Also inside the <a href="https://csaf.itch.io/mz-plugin-library">MZ Plugin Library</a>: every CSAF MZ plugin in one download, and every new one joins it.</em></p>
+<p>Stride gives every walking sprite in RPG Maker MZ 29 new drawings: 3 plugins add a real run cycle, idles and gaits, made from each character's own walking sheet.</p>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTA0MjUzOS8zMjQ1MzExNi5naWY=/original/lnR%2BTZ.gif" alt="MZ's dash beside Stride Run: the same sprite walking faster, then running with a long stride and pumping arms"></p>
+<p>Three parts, 8 raw JavaScript plugin files, no image files. Nothing to draw: the hero, the followers and every event get their drawings when they first need them. Use one part, any two, or all three: each works alone, and all three were tested together in the engine. Licence: any commercial or free RPG Maker project, no royalty; the source may not be redistributed as a plugin pack.</p>
+<hr>
+<h3>⚠️ Compatibility: the question you actually have</h3>
+<p><strong>Tested against RPG Maker MZ with the stock scripts unmodified</strong>, verified by running the plugin in the real engine rather than only in tests.</p>
+<p><strong>Plugin Manager order:</strong></p>
+<ol>
+<li><code>PostureCore.js</code>: Posture core - derives sitting, kneeling, lying, sleeping, collapsed, waving and cheering frames from a walking sheet. Place ABOVE Posture.</li>
+<li><code>KnackCore.js</code>: Knack core - derives 12 looping work animations (with a drawn tool) from a walking sheet. Any order works; PostureCore, KnackCore, Knack reads best.</li>
+<li><code>StrideCore.js</code>: Stride core - derives a six-frame run cycle in four facings from a walking sheet.</li>
+<li><code>StrideRun.js</code>: Stride Run - a real run cycle when characters dash, drawn from their own walking sprites.</li>
+<li><code>StrideIdleCore.js</code>: Stride Idle core - derives nine idle drawings in four facings from a walking sheet.</li>
+<li><code>StrideIdle.js</code>: Stride Idle - characters that stand still breathe, blink, shift their weight, glance around, set their hands on their hips and doze, drawn from their...</li>
+<li><code>StrideGaitsCore.js</code>: Stride Gaits core - derives a limp, a tired trudge, a sneak, a wade, a jump tuck and a landing in four facings from a walking sheet.</li>
+<li><code>StrideGaits.js</code>: Stride Gaits - characters limp at low HP, trudge when tired, sneak, wade through water and tuck their knees in a jump, drawn from their own walking...</li>
+</ol>
+<p><strong>Core methods extended: 12 by saved-original prototype extension, <em>none replaced</em>:</strong> <code>Game_BattlerBase.prototype.refresh</code>, <code>Game_BattlerBase.prototype.recoverAll</code>, <code>Game_CharacterBase.prototype.update</code>, <code>Game_CharacterBase.prototype.realMoveSpeed</code>, <code>Game_Player.prototype.isDashing</code>, <code>Sprite_Character.prototype.updateBitmap</code>, <code>Sprite_Character.prototype.characterBlockX</code>, <code>Sprite_Character.prototype.characterBlockY</code>, <code>Sprite_Character.prototype.characterPatternX</code>, <code>Sprite_Character.prototype.patternWidth</code>, <code>Sprite_Character.prototype.patternHeight</code>, <code>Sprite_Balloon.prototype.updatePosition</code>.</p>
+<p>Nothing is clobbered: every file saves the original method and calls it, so other plugins that patch the same seams keep running. Tested with only these plugins loaded; not tested with VisuStella Events and Movement Core or other plugins that swap walking sheets.</p>
+
+<h2>Stride Run: a real run</h2>
+<ul>
+<li>When the player dashes, the party runs instead of walking faster: 6 drawings in each of the 4 facings.</li>
+<li>A long stride, a lean into the run, arms bent and pumping, in the sheet's own colours.</li>
+<li>Tag an event to make it run too.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTA0MjUzOS8zMjQ1MzE1OC5wbmc=/original/ZuX7%2Fv.png" alt="One walking sheet and the 29 drawings the three parts make from it"></p>
+<h2>Stride Idle: standing still</h2>
+<ul>
+<li>A character that stands still breathes, blinks, shifts its weight, glances around, sets its hands on its hips and dozes: 9 drawings in each facing.</li>
+<li>Each character keeps its own rhythm, so a crowd never breathes in step.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTA0MjUzOS8zMjQ1MzE2NS5naWY=/original/j7S3xF.gif" alt="Standing in MZ beside Stride Idle: the same three sprites breathing, a hand on the hip, a blink"></p>
+<h2>Stride Gaits: the game decides</h2>
+<ul>
+<li>A limp below 25% HP, a tired trudge when poisoned, a crouched sneak on the Hide state, wading on the water tiles you mark, a tucked jump and a landing: 14 drawings in each facing.</li>
+<li>Switched on by HP, states, switches, regions and jumps. No event commands needed.</li>
+</ul>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTA0MjUzOS8zMjQ1MzE2OC5naWY=/original/rUc8Nh.gif" alt="Walking in MZ beside Stride Gaits: the same sprites sneaking, limping and trudging"></p>
+<h2>Tested together</h2>
+<p><img src="https://img.itch.zone/aW1hZ2UvNTA0MjUzOS8zMjQ1MzE2My5wbmc=/original/LMNwiF.png" alt="All three parts at once on one map: two running, a limp, a sneak, a wade and the party idling"></p>
+<ul>
+<li>One hero, three parts: he idles standing, runs on the dash key, and at low HP limps even with the dash key held.</li>
+<li>A limper standing still idles; a poisoned follower keeps its tired drawing while it stands.</li>
+<li>One save carries all three parts and still loads with any one turned off. The same checks pass in three plugin orders.</li>
+</ul>
+<h2>Already own the Library?</h2>
+<p>All three parts are inside the <a href="https://csaf.itch.io/mz-plugin-library">MZ Plugin Library</a>, byte for byte the same files. From the same walking sheets: <a href="https://csaf.itch.io/mz-rally">Rally</a> makes side-view battlers and combat poses, <a href="https://csaf.itch.io/posture">Posture</a> makes sitting, kneeling and lying poses, and <a href="https://csaf.itch.io/knack">Knack</a> makes work animations.</p>
+<p>Made by Core Systems Asset Factory. Every line of code was written with AI assistance and tested in the MZ engine; the characters in the screenshots are our own test art and are not included.</p>
