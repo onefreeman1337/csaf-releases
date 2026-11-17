@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 804 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-17T02:02:07.146Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-17T16:02:16.942Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2212,11 +2212,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 57 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
+### Music Library: 58 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 57 royalty free game music albums, 2,530 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 58 royalty free game music albums, 2,574 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2968,7 +2968,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 130 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 131 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -4890,6 +4890,14 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### CSAF Game Boy Library: 13 Original ROMs, Plus Every New One
 
+Store: https://csaf.itch.io/festoon · Our page: https://onefreeman1337.github.io/csaf-releases/games/festoon/ · Paid · free browser demo on the page
+
+13 original Game Boy and Game Boy Color games as.gb ROM files, built with GBDK-2020: deduction cases, proved puzzles, two roguelikes and more, in one download.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### CSAF Game Boy Library: 13 Original ROMs, Plus Every New One
+
 Store: https://csaf.itch.io/game-boy-library · Our page: https://onefreeman1337.github.io/csaf-releases/games/game-boy-library/ · Paid · free browser demo on the page
 
 13 original Game Boy and Game Boy Color games as.gb ROM files, built with GBDK-2020: deduction cases, proved puzzles, two roguelikes and more, in one download.
@@ -4933,14 +4941,6 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/dowser · Our page: https://onefreeman1337.github.io/csaf-releases/games/dowser/ · Paid · free browser demo on the page
 
 Dowser is minesweeper with no numbers, in 15 fields and 3 digs. The first 4 fields are free in your browser. Nobody hands you a count here.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
-### FESTOON
-
-Store: https://csaf.itch.io/festoon · Our page: https://onefreeman1337.github.io/csaf-releases/games/festoon/ · Paid · free browser demo on the page
-
-String the festival lanterns through an old tree. Light every one with the fewest strings there are. Every fork of the tree holds a dark paper lantern.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6436,11 +6436,11 @@ Want the whole set? 42 PS1-style horror characters for Godot 4, Unity and Unreal
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Ironvale: 14 PSX Fantasy Characters (Rigged, Animated)
+### Ironvale + Oathfall: 28 PSX Fantasy Characters
 
 Store: https://csaf.itch.io/ironvale-psx-fantasy-adventurers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/ironvale-psx-fantasy-adventurers/ · Paid · Engines: Blender
 
-Want the whole set? Ironvale is 14 low poly PSX fantasy characters for Godot, Unity and Unreal, with 3 palette skins and 45 animation clips each. Royalty free, with a free sampler.
+Want the whole set? Ironvale + Oathfall is 28 low poly PS1-style fantasy characters for Godot 4, Unity and Unreal: 14 heroic adventurers and 14 dark fantasy knights and undead warriors to fight them.
 
 AI disclosure: AI Assisted, Code, Graphics
 
