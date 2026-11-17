@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 800 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 804 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-16T20:49:01.699Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-17T01:33:15.939Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2002,7 +2002,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Game music packs
 
-Game music packs. Formats and track counts are stated on each store page. 51 products.
+Game music packs. Formats and track counts are stated on each store page. 52 products.
 
 ### Adversary: 10 Track Battle and Boss Music Pack
 
@@ -2033,6 +2033,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/airship · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/airship/ · Paid
 
 Airship is a 44 track score for steampunk and airship games: the helm and the boiler deck, a clockwork capital with its market, workshop, clock tower and music hall, the moors and the coal seam, a clockwork vault, sky battles, two bosses and the cues a game fires all day.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Arcade Genre Scores: 132 Racing, Rhythm and FPS Tracks
+
+Store: https://csaf.itch.io/arcade-genre-scores · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/arcade-genre-scores/ · Paid
+
+Arcade Genre Scores is 132 game music tracks for any engine: three complete scores, one each for a racing game, a rhythm game and a retro FPS. Every track ships as OGG with sample-accurate loop tags and as editable MIDI, royalty free.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2414,7 +2422,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 125 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 126 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -3056,6 +3064,14 @@ Want the whole set? Quizmaster is an RPG Maker MZ plugin for quiz shows and exam
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Rally: 3 Side-View Battler Plugins for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-rally · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-rally/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Rebus - Picture Word Puzzles for RPG Maker MZ, Built From Your Own Database
 
 Store: https://csaf.itch.io/rebus · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebus/ · Paid · Engines: RPG Maker
@@ -3418,7 +3434,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## GameMaker assets
 
-GML systems and assets for GameMaker. 84 products.
+GML systems and assets for GameMaker. 86 products.
 
 ### Adversary — Multi-Phase Bosses for GameMaker
 
@@ -3451,6 +3467,14 @@ Store: https://csaf.itch.io/anvil-gamemaker · Our page: https://onefreeman1337.
 Want the whole set? A forging minigame for GameMaker, drawn in code: 6 weapon families, 5 metals Anvil is a hot metal forging minigame for GameMaker crafting, written in pure GML with no sprites.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
+
+### Arcade Cabinet: 3 Minigames for GameMaker
+
+Store: https://csaf.itch.io/arcade-cabinet-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/arcade-cabinet-gamemaker/ · Paid · Engines: GameMaker
+
+Want the whole set? Arcade Cabinet is 3 complete minigames for GameMaker 2024.14 in pure GML, each with its own demo room: peg boards, downhill runs and a game-show quiz.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Armoury - Weapons That Forge Themselves
 
@@ -3692,11 +3716,11 @@ The title screen, generated, for GameMaker: your game's name CUT letter by lette
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### GameMaker Library: 87 GML Assets, Plus Every New One
+### GameMaker Library: 88 GML Assets, Plus Every New One
 
 Store: https://csaf.itch.io/gamemaker-library · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/ · Paid · Engines: GameMaker
 
-Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 87 packages and 792 GML scripts, no extensions or DLLs, royalty free in commercial games.
+Each asset sits in its own folder exactly as its own page delivers it: its.yymps package, its own Readme and LICENSE, and a runnable demo room. 88 packages and 798 GML scripts, no extensions or DLLs, royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3987,6 +4011,14 @@ Store: https://csaf.itch.io/strata-gamemaker · Our page: https://onefreeman1337
 Give the player a rock face and two tools. Strata is a generated excavation dig for GameMaker: every blow cuts the rock back a layer or two and puts stress on the face, and somewhere under it lie fossils, relics, crystals or ore.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
+
+### Swing, Smash and Soar: 3 Action Systems for GameMaker
+
+Store: https://csaf.itch.io/swing-smash-soar-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/swing-smash-soar-gamemaker/ · Paid · Engines: GameMaker
+
+Want the whole set? Swing, Smash and Soar is 3 action-adventure systems for GameMaker 2024.14 in pure GML, each with its own demo room: melee swings, breakables and a Mode 7 flight view.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Table Service - A Restaurant Serving Minigame for GameMaker
 
