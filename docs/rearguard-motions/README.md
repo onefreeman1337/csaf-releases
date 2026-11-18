@@ -1,16 +1,17 @@
-# Rearguard Motions: battle motions seen from behind for Over the Shoulder, derived from your own walking sprites, for RPG Maker MZ — Documentation
+# Rearguard Motions — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** Rearguard Motions: battle motions seen from behind for Over the Shoulder, derived from your own walking sprites, for RPG Maker MZ  
+**Product:** Rearguard Motions  
 **Engine:** RPG Maker MZ  
-**Docs published:** 2026-11-17
+**Store page:** https://csaf.itch.io/mz-plugin-library  
+**Docs published:** 2026-11-18
 
 
 ---
 
-# Rearguard Motions v1.0.0 for RPG Maker MZ
+# Rearguard Motions v1.0.1 for RPG Maker MZ
 
 Part 1 of **Rearguard** by Core Systems Asset Factory (https://csaf.itch.io). An add-on for **Over the Shoulder**.
 
@@ -123,7 +124,9 @@ With Over the Shoulder's Turn round at victory switched off, the party cheers fr
 ## Performance
 
 A back-view sheet is built once per look (sheet, character, weapon form, metal) when the battle starts and kept
-for later battles; nothing is built or allocated per frame. Measured in the real engine with Over the Shoulder
+for later battles; nothing is built or allocated per frame. Every member of the battle party is built at the start,
+including members another plugin keeps off the field (Rearguard Duels' bench), so a member sent in mid-battle does
+not pause the frame it arrives on. Measured in the real engine with Over the Shoulder
 and four actors in a running battle: within the budget of 60 draw calls a frame, with no texture uploads while
 the fight plays. The numbers are in the compatibility notes below and in the test report.
 
@@ -150,6 +153,13 @@ stands down while it is on, and then Rearguard Motions does nothing.
 
 The on/off switch lives in `$gameSystem._rearguard` (`{v: 1, on}`), plain data with a version number. Nothing
 drawn is saved. A save made with the plugin on loads the same with it removed: MZ ignores the extra field.
+
+## Changes
+
+- **1.0.1** (2026-11-18): the back-view sheets are built for the whole battle party when the battle starts, not only
+  for the members on the field. With Rearguard Duels, each bench member's sheet used to be built on the frame a
+  Switch sent them in, a visible pause on that frame (one sheet built per member sent in). No other change.
+- **1.0.0** (2026-11-17): first release.
 
 ## Licence
 
