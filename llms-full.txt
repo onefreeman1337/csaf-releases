@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 806 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 807 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-18T07:08:08.958Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-20T13:36:09.076Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -744,11 +744,11 @@ Want the whole set? Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 g
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: All 107 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
+### Verdant Library: All 108 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 107 packs and 70,921 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 108 packs and 71,640 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -834,7 +834,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sprite packs
 
-Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 70 products.
+Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page. 71 products.
 
 ### Bestiary: 12 Dragon, Yokai and Giant Bug Sprites
 
@@ -1209,6 +1209,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/neonward-gangs-corp-security-machines · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-gangs-corp-security-machines/ · Paid
 
 Want the whole set? Nine top-down cyberpunk pixel art enemies for Godot 4, RPG Maker MZ or any engine that reads PNG sprite sheets.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Pixel Font Library: 5 Font Pairs + Every New One
+
+Store: https://csaf.itch.io/pixel-font-library · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/pixel-font-library/ · Paid
+
+Royalty free in commercial games, no credit required. Buy once, keep every font pair that joins. How the future pairs work When a new CSAF font pair comes out, its files are added to this page on launch day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6156,19 +6164,19 @@ Tiny Delve is a pixel art dungeon crawler and roguelike UI kit for Godot 4, Unit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Collection: All 37 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
+### UI Kit Collection: All 38 Pixel Art and HD GUI Kits for Godot, Unity, GameMaker + Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 37 kits, 53 themes and 4,643 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 38 kits, 56 themes and 5,063 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Kit Sampler: 53 Free Pixel UI Themes
+### UI Kit Sampler: 56 Free Pixel UI Themes
 
 Store: https://csaf.itch.io/ui-kit-sampler-12-free-pixel-ui-themes · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-sampler-12-free-pixel-ui-themes/ · Free · pay what you want · Engines: Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-A free sampler of 53 pixel art game UI themes for Godot 4, RPG Maker MZ, Unity, Unreal and GameMaker, one from each of our 37 paid UI kits.
+A free sampler of 56 pixel art game UI themes for Godot 4, RPG Maker MZ, Unity, Unreal and GameMaker, one from each of our 38 paid UI kits.
 
 AI disclosure: AI Assisted, Code, Graphics
 
