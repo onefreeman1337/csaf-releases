@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 809 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 811 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-20T18:35:26.103Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-20T21:01:50.019Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2236,11 +2236,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 58 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
+### Music Library: 59 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 58 royalty free game music albums, 2,574 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 59 royalty free game music albums, 2,618 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6434,7 +6434,15 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 12 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 14 products.
+
+### Blackwater: 14 Animated PSX Zombies and Infected
+
+Store: https://csaf.itch.io/blackwater-psx-zombies · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/blackwater-psx-zombies/ · Paid · Engines: Blender
+
+Want the whole set? Blackwater is also sold on the Last Shift page, together with 13 PSX survivors on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Deep Station, Black Site: 28 PSX Horror Characters
 
@@ -6473,6 +6481,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/hollow-congregation-psx-cultists · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollow-congregation-psx-cultists/ · Paid · Engines: Blender
 
 Want the whole set? 42 PS1-style horror characters for Godot 4, Unity and Unreal: 14 cultists, 14 asylum staff and patients, and 14 retro FPS enemies that also ship as 8-direction sprites.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hollyfrost: 14 Animated PSX Christmas Characters
+
+Store: https://csaf.itch.io/hollyfrost-psx-christmas-characters · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollyfrost-psx-christmas-characters/ · Paid · Engines: Blender
+
+Want the whole set? Hollyfrost is also sold on the Greyhollow page, together with 14 PSX medieval townsfolk.
 
 AI disclosure: AI Assisted, Code, Graphics
 

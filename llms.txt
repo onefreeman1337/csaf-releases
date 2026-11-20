@@ -1,6 +1,6 @@
 # Core Systems Asset Factory (CSAF)
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 809 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 811 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
 Each product page gives the product title, its line, the engines it is made for, the opening of its public description, its tags, its AI disclosure exactly as the store page states it, whether it is free or paid, and one link to its itch.io page.
 
@@ -19,7 +19,7 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Voice packs](https://onefreeman1337.github.io/csaf-releases/voice-packs/): 20 products. Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page.
 - [UI kits](https://onefreeman1337.github.io/csaf-releases/ui-kits/): 29 products. Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page.
 - [Godot 4 addons](https://onefreeman1337.github.io/csaf-releases/godot-addons/): 26 products. Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page.
-- [3D model packs](https://onefreeman1337.github.io/csaf-releases/3d-models/): 12 products. Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page.
+- [3D model packs](https://onefreeman1337.github.io/csaf-releases/3d-models/): 14 products. Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page.
 
 ## Libraries: a whole line on one store page
 
@@ -36,7 +36,7 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Wildmark Library: 10 Fantasy Hero Sprite Packs + New Ones](https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-collection/): one itch.io page that holds the pixel art sprite packs of that set and each new one that joins it. Store page: https://csaf.itch.io/wildmark-collection
 - [Blip Library: 13 Dialogue Sound Effects Packs, Plus New Ones](https://onefreeman1337.github.io/csaf-releases/sound-effects/blip-library/): one itch.io page that holds the sound effect packs of that set and each new one that joins it. Store page: https://csaf.itch.io/blip-library
 - [Sound Library: All 124 Royalty Free Game Sound Effects Packs + Every New One](https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/): one itch.io page that holds the sound effect packs of that set and each new one that joins it. Store page: https://csaf.itch.io/sound-library
-- [Music Library: 58 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One](https://onefreeman1337.github.io/csaf-releases/game-music/music-library/): one itch.io page that holds the game music packs of that set and each new one that joins it. Store page: https://csaf.itch.io/music-library
+- [Music Library: 59 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One](https://onefreeman1337.github.io/csaf-releases/game-music/music-library/): one itch.io page that holds the game music packs of that set and each new one that joins it. Store page: https://csaf.itch.io/music-library
 - [MZ Plugin Library: 135 RPG Maker MZ Plugins + Every New One](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/): one itch.io page that holds the RPG Maker MZ plugins of that set and each new one that joins it. Store page: https://csaf.itch.io/mz-plugin-library
 - [GameMaker Library: 88 GML Assets, Plus Every New One](https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/gamemaker-library/): one itch.io page that holds the GameMaker assets of that set and each new one that joins it. Store page: https://csaf.itch.io/gamemaker-library
 - [CSAF Game Boy Library: 13 Original ROMs, Plus Every New One](https://onefreeman1337.github.io/csaf-releases/games/game-boy-library/): one itch.io page that holds the games of that set and each new one that joins it. Store page: https://csaf.itch.io/game-boy-library
@@ -59,7 +59,7 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Unity UI kits](https://onefreeman1337.github.io/csaf-releases/unity-ui-kits/): 29 game UI kits for Unity.
 - [Unreal Engine UI kits](https://onefreeman1337.github.io/csaf-releases/unreal-engine-ui-kits/): 29 game UI kits for Unreal Engine.
 - [Ren'Py UI kits](https://onefreeman1337.github.io/csaf-releases/ren-py-ui-kits/): 28 game UI kits for Ren'Py.
-- [Blender 3D model packs](https://onefreeman1337.github.io/csaf-releases/blender-3d-models/): 12 3D model packs for Blender.
+- [Blender 3D model packs](https://onefreeman1337.github.io/csaf-releases/blender-3d-models/): 14 3D model packs for Blender.
 
 ## Free browser games by genre
 
