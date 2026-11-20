@@ -1,0 +1,82 @@
+[
+ {
+  "f": "add_gloamhold.png",
+  "bytes": 1150729,
+  "sha256": "e68ebfb857574213b894e4f8fa7181c18512188b3e884242f863b901dbdef07c",
+  "w": 1280,
+  "h": 1125,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2319312,
+  "sha256": "d161a3abff7621bf795dc0e3baa343a98cd8afe8b68c31d665cd4970286d380d",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1327633,
+  "sha256": "35f472e2dbf05d467a50f5dc197908b1deb32742bc1a3e0e8f46f51072935ab7",
+  "w": 1280,
+  "h": 1324,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 364673,
+  "sha256": "a7bd31f8cf6f8373adeb452e28aeb6cd27d68c92eba5a865f51892c90f76773f",
+  "w": 1280,
+  "h": 1341,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 352605,
+  "sha256": "6a14d6707e76a1c91e0a603b4258377900a59e384936a7a17813b0c32887cfd1",
+  "w": 1280,
+  "h": 1369,
+  "kind": "png"
+ },
+ {
+  "f": "shot_4_inside_3.png",
+  "bytes": 393182,
+  "sha256": "9ae2c6d126cc0d3897ac62d98e7f5bd51be8626a6cb59c87a139437354f8224e",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 373968,
+  "sha256": "cbce110e08cdb406c977090e759b9d7f3ce1ad43e0ed497e8a1d6ef09ade061f",
+  "w": 1280,
+  "h": 1394,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 224090,
+  "sha256": "6149ec2466ed10ef75f9f91a34a24e8affd9b28e46d47ea6e1b9372cdb940b4e",
+  "w": 1280,
+  "h": 926,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 103959,
+  "sha256": "3eb43af3ebb1f390375c0f577b3456c8f9798ddf93ad49f34ae1eb0414e632b1",
+  "w": 1280,
+  "h": 893,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 471255,
+  "sha256": "fc181dddbcffb1e4860d1459f35ce9d7cc83acdddbc8a5c6bf4c1abe69da0c35",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
