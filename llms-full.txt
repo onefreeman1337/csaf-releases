@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 815 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 820 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-21T01:03:13.258Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-21T04:13:38.471Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3000,7 +3000,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 136 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 137 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -6442,7 +6442,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 17 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 22 products.
 
 ### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
@@ -6457,6 +6457,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/blackwater-psx-zombies · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/blackwater-psx-zombies/ · Paid · Engines: Blender
 
 Want the whole set? Blackwater is also sold on the Last Shift page, together with 13 PSX survivors on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Camp Redfern: 14 Animated PSX Summer Camp Cast
+
+Store: https://csaf.itch.io/camp-redfern-psx-summer-camp · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/camp-redfern-psx-summer-camp/ · Paid · Engines: Blender
+
+Want the whole set? Camp Redfern is also sold on the Last Shift page, together with 13 PSX survival horror survivors on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6476,11 +6484,27 @@ Want the whole set? Deep Station and Black Site are 28 low poly PS1-style horror
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Eight Angles: 14 Retro FPS Enemy Sprites and PSX Models
+
+Store: https://csaf.itch.io/eight-angles-retro-fps-enemies · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/eight-angles-retro-fps-enemies/ · Paid · Engines: Blender
+
+Want the whole set? Eight Angles is also sold on the Hollow Congregation page, together with the Hollow Congregation cultists and the Saint Oswin asylum cast on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Fort Vale: 70 PSX Soldiers, Civilians, Raiders and Gangsters
 
 Store: https://csaf.itch.io/fort-vale-psx-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/fort-vale-psx-soldiers/ · Paid · Engines: Blender
 
 Want the whole set? 70 low poly PS1-style characters for Godot 4, Unity and Unreal: 14 modern soldiers, 14 Second World War soldiers, 14 city civilians, 14 wasteland raiders and 14 crime syndicate gangsters.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Foxhole: 14 Animated PSX WW2 Soldiers, Allied and Axis
+
+Store: https://csaf.itch.io/foxhole-psx-ww2-soldiers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/foxhole-psx-ww2-soldiers/ · Paid · Engines: Blender
+
+Want the whole set? Foxhole is also sold on the Fort Vale page, together with the Fort Vale modern soldiers and three more PSX packs on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6540,6 +6564,14 @@ Want the whole set? Night Beat is a pack of 14 low poly PS1-style police officer
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Oathfall: 14 Animated PSX Dark Fantasy Knights and Undead
+
+Store: https://csaf.itch.io/oathfall-psx-dark-knights · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/oathfall-psx-dark-knights/ · Paid · Engines: Blender
+
+Want the whole set? Oathfall is also sold on the Ironvale page, together with the Ironvale fantasy adventurers and the Highcourt royal court on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Outpost: 14 Animated PSX Sci-Fi Marines and Crew
 
 Store: https://csaf.itch.io/outpost-psx-sci-fi-marines · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/outpost-psx-sci-fi-marines/ · Paid · Engines: Blender
@@ -6564,11 +6596,11 @@ Every new pack we release is added here on its launch day, free for everyone who
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 22 Free Low Poly 3D Characters
+### PSX Characters Sampler: 23 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 22 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 23 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6577,5 +6609,13 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/saint-oswin-psx-asylum · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/saint-oswin-psx-asylum/ · Paid · Engines: Blender
 
 Want the whole set? Saint Oswin is also sold on the Hollow Congregation page, together with 14 PSX cultists on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Syndicate: 14 Animated PSX Gangsters, Hitmen and Enforcers
+
+Store: https://csaf.itch.io/syndicate-psx-gangsters · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/syndicate-psx-gangsters/ · Paid · Engines: Blender
+
+Want the whole set? Syndicate is also sold on the Fort Vale page, together with the Fort Vale modern soldiers and three more PSX packs on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
