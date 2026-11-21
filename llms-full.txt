@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 824 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 825 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-21T21:17:29.988Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-21T23:24:36.727Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3000,7 +3000,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 138 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 139 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -6442,7 +6442,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 26 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 27 products.
 
 ### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
@@ -6641,6 +6641,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/saint-oswin-psx-asylum · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/saint-oswin-psx-asylum/ · Paid · Engines: Blender
 
 Want the whole set? Saint Oswin is also sold on the Hollow Congregation page, together with 14 PSX cultists on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Showa Dusk: 14 Animated PSX Japanese Horror Townsfolk
+
+Store: https://csaf.itch.io/showa-dusk-psx-japanese-horror-townsfolk · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/showa-dusk-psx-japanese-horror-townsfolk/ · Paid · Engines: Blender
+
+Want the whole set? Showa Dusk is 14 low poly PS1-style residents of a small rural Japanese town after dark, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
