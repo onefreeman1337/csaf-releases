@@ -1,10 +1,11 @@
-# Trailblazer Reap: cut tall grass, reeds and vines from your own tileset, for RPG Maker MZ — Documentation
+# Trailblazer Reap — Documentation
 
 _Core Systems Asset Factory (CSAF). This page is the free, public documentation for this product — no purchase required to read it._
 
 
-**Product:** Trailblazer Reap: cut tall grass, reeds and vines from your own tileset, for RPG Maker MZ  
+**Product:** Trailblazer Reap  
 **Engine:** RPG Maker MZ  
+**Store page:** https://csaf.itch.io/mz-plugin-library  
 **Docs published:** 2026-11-21
 
 
@@ -23,7 +24,7 @@ that is saved with the game.
 No events on every tuft, no cut-grass tiles, no clipping sheets to draw. It works on its own. It is also part 2 of
 Trailblazer, a set of plugins about things a player can do to your own map; you do not need any other part.
 
-Version 1.0.0 · Core Systems Asset Factory
+Version 1.0.1 · Core Systems Asset Factory
 
 ---
 
@@ -177,7 +178,8 @@ once that map has seen its cell grow back (with Regrow 0 it stays, because the c
 **Speed.** Every picture on a map is read from the tileset in one pass while the map fades in. After that, swinging,
 cutting and growing back read no pixels at all, and the frame loop allocates nothing. Measured in the real engine
 (headless Chrome, mowing a route through the demo field with a swing every 18 frames): **10** draw calls a frame, inside
-the 60 the studio's gate allows.
+the 60 the studio's gate allows. A swing that cuts several cells cuts them all at once, throws the first cell's clippings
+on that frame and each further cell's on the next frame, so no single frame breaks up three cells' clippings.
 
 **Compatibility.** Trailblazer Reap extends eight MZ methods and replaces none of them (every original is called):
 `Game_Map.prototype.setup`, `Game_Map.prototype.isBush`, `Game_Player.prototype.moveByInput`,
@@ -198,6 +200,16 @@ for that).
 - The swing key is a keyboard key. On a gamepad, OK swings. With touch or the mouse there is no OK on the map: swing with
   the Swing command from an event or a button.
 - RPG Maker MZ only (tested on 1.10.0), not MV.
+
+---
+
+## Changes
+
+- **1.0.1** (2026-11-21): a swing that cuts several cells throws the clippings of one cell per frame (the first at once,
+  the others one and two frames later) instead of all in one frame. The cut itself still lands at once. Found by the
+  frame gate of the Trailblazer volume, where a cut frame met Trailblazer Blast's and Vault's pieces in flight; measured
+  in one page, the heaviest frames fell by about a third.
+- **1.0.0** (2026-11-21): first release.
 
 ---
 
