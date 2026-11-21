@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 811 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 815 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-20T21:01:50.019Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-21T01:03:13.258Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1406,7 +1406,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 76 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 77 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1749,6 +1749,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/lucky-draw-scratch-card-and-lottery-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/lucky-draw-scratch-card-and-lottery-sound-effects/ · Paid
 
 Want the whole set? Lucky Draw is 150 scratch card, prize wheel, lottery and bingo sound effects for Unity, Unreal, Godot, GameMaker and any game engine.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Matchday: 367 Sports Sound Effects
+
+Store: https://csaf.itch.io/matchday-volleyball-baseball-ice-hockey-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/matchday-volleyball-baseball-ice-hockey-sound-effects/ · Paid
+
+Want the whole set? Matchday is 367 royalty free sound effects for volleyball, baseball and ice hockey games in Godot, Unity, GameMaker and any engine, in 3 packs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2992,7 +3000,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 135 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 136 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -6434,13 +6442,29 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 14 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 17 products.
+
+### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
+
+Store: https://csaf.itch.io/ashfall-psx-wastelanders · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/ashfall-psx-wastelanders/ · Paid · Engines: Blender
+
+Want the whole set? Ashfall is also sold on the Fort Vale page, together with 14 PSX modern soldiers on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Blackwater: 14 Animated PSX Zombies and Infected
 
 Store: https://csaf.itch.io/blackwater-psx-zombies · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/blackwater-psx-zombies/ · Paid · Engines: Blender
 
 Want the whole set? Blackwater is also sold on the Last Shift page, together with 13 PSX survivors on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Crosstown: 14 Animated PSX City Civilians
+
+Store: https://csaf.itch.io/crosstown-psx-city-civilians · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/crosstown-psx-city-civilians/ · Paid · Engines: Blender
+
+Want the whole set? Crosstown is also sold on the Fort Vale page, together with 14 PSX modern soldiers on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6532,11 +6556,11 @@ Want the whole set? Pale Hours is a pack of 14 low poly PS1-style ghost characte
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 22 Low Poly Packs + Every New One
+### PSX Character Library: 23 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Highcourt: 14 PSX Royal Court and Nobles, added in v1.8.0 (2026-11-18).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6545,5 +6569,13 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
 PSX Characters Sampler is 22 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Saint Oswin: 14 Animated PSX Asylum Staff and Patients
+
+Store: https://csaf.itch.io/saint-oswin-psx-asylum · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/saint-oswin-psx-asylum/ · Paid · Engines: Blender
+
+Want the whole set? Saint Oswin is also sold on the Hollow Congregation page, together with 14 PSX cultists on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
