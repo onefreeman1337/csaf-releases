@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 820 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 822 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-21T04:45:21.740Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-21T14:38:59.194Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -6442,7 +6442,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 22 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 24 products.
 
 ### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
@@ -6524,6 +6524,14 @@ Want the whole set? Grimsnout is a pack of 14 low poly PS1-style orcs, goblins a
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Highcourt: 14 Animated PSX Royal Court and Nobles
+
+Store: https://csaf.itch.io/highcourt-psx-royal-court · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/highcourt-psx-royal-court/ · Paid · Engines: Blender
+
+Want the whole set? Highcourt is also sold on the Ironvale page, together with the Ironvale fantasy adventurers and the Oathfall dark knights on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Hollow Congregation: 42 PSX Horror Characters + FPS Sprites
 
 Store: https://csaf.itch.io/hollow-congregation-psx-cultists · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/hollow-congregation-psx-cultists/ · Paid · Engines: Blender
@@ -6585,6 +6593,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/pale-hours-psx-ghosts · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/pale-hours-psx-ghosts/ · Paid · Engines: Blender
 
 Want the whole set? Pale Hours is a pack of 14 low poly PS1-style ghost characters for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Plaguewick: 14 Animated PSX Plague Village Characters
+
+Store: https://csaf.itch.io/plaguewick-psx-plague-village · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/plaguewick-psx-plague-village/ · Paid · Engines: Blender
+
+Want the whole set? Plaguewick is also sold on the Greyhollow page, together with the Greyhollow medieval townsfolk and the Hollyfrost Christmas characters on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
