@@ -37,7 +37,8 @@ When an actor uses the **Attack** command, the meter opens and the battle waits:
   (x1.50) at the centre, falling evenly to **Worst damage** (x0.50) at the edge.
 - Stopping inside the narrow **centre slot** is a **PERFECT** stop: Best damage, and a critical hit too if you
   turn on *Perfect is critical*.
-- A bar left to run off the far end is a **miss**: no damage, and MZ shows its own Miss.
+- A bar left to run off the far end is a **miss**: no damage, and the plugin draws MISS above the enemy.
+- A strike that lands **always hits**: the meter replaces MZ's hit roll (the enemy's own evasion still applies).
 - With several bars, each press stops the front-most moving bar, and the hit is the **average** of the bars
   (a missed bar counts zero). Every bar missed is a miss.
 
@@ -70,8 +71,9 @@ Each pattern has its own **one-bit slash**, drawn on the target in place of the 
 When a battle starts, each enemy's battler image is read once and redrawn on a grid of square dots
 (*Dot size*, 3 px by default, the same for the whole troop):
 
-- **line** (default): a white outline, the battler's own ink lines inside it, and a printed dot screen on its
-  brightest areas, on a black body.
+- **line** (default): a white outline and the battler's own ink lines inside it, on a black body. Where a battler
+  has a large bright area (a white pelt, a pale robe), *Highlight tone* prints a dot screen on it; small or dark
+  battlers usually get none.
 - **dither**: a dotted body shaded by the battler's own light, inside the outline.
 - **ink**: the print reversed, a white body with black lines and a white rim.
 
