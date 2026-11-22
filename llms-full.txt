@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 834 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T06:37:39.315Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T09:41:24.378Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -5564,11 +5564,11 @@ IRONROAD is a free beat 'em up for your browser: fight down 7 stations of an ele
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### KAIJU DISPOSAL
+### KAIJU DISPOSAL: a monster management incremental, free in your browser
 
 Store: https://csaf.itch.io/kaiju-disposal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/kaiju-disposal/ · Free
 
-KAIJU DISPOSAL is a free browser clean-up incremental with 12 contracts, and this page opens the CSAF Arcade: 39 free games in one window. The heroes won.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6692,19 +6692,19 @@ Want the whole set? Plaguewick is also sold on the Greyhollow page, together wit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 25 Low Poly Packs + Every New One
+### PSX Character Library: 26 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Showa Dusk: 14 PSX Japanese Horror Townsfolk, added in v1.11.0 (2026-11-22).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Courtyard: 14 PSX Post-Soviet Residents, added in v1.12.0 (2026-11-22).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 25 Free Low Poly 3D Characters
+### PSX Characters Sampler: 26 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 25 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 26 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
 
