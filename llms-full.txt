@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 834 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 835 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T10:26:37.832Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T12:06:47.821Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -6506,7 +6506,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 28 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 29 products.
 
 ### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
@@ -6545,6 +6545,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/camp-redfern-psx-summer-camp · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/camp-redfern-psx-summer-camp/ · Paid · Engines: Blender
 
 Want the whole set? Camp Redfern is also sold on the Last Shift page, together with 13 PSX survival horror survivors on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Cordon: 14 Animated PSX Exclusion Zone Characters
+
+Store: https://csaf.itch.io/cordon-psx-exclusion-zone-characters · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/cordon-psx-exclusion-zone-characters/ · Paid · Engines: Blender
+
+Want the whole set? Cordon is 14 low poly PS1-style characters of a Soviet era nuclear exclusion zone, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
