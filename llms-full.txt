@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 834 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T09:41:24.378Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T10:26:37.832Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -744,11 +744,11 @@ Want the whole set? Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 g
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: All 108 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
+### Verdant Library: All 109 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 108 packs and 71,640 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 109 packs and 72,837 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -5564,7 +5564,7 @@ IRONROAD is a free beat 'em up for your browser: fight down 7 stations of an ele
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### KAIJU DISPOSAL: a monster management incremental, free in your browser
+### KAIJU DISPOSAL: monster incremental and 38 more free games
 
 Store: https://csaf.itch.io/kaiju-disposal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/kaiju-disposal/ · Free
 
