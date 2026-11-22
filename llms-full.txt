@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 835 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 836 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T12:06:47.821Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T13:46:32.240Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1406,7 +1406,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 85 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 86 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1712,6 +1712,14 @@ Hearthlight is 107 cozy farming sound effects for RPG Maker, Godot, Unity, GameM
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Home Crowd: 344 Sports Sound Effects
+
+Store: https://csaf.itch.io/home-crowd-soccer-basketball-football-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/home-crowd-soccer-basketball-football-sound-effects/ · Paid
+
+Want the whole set? Home Crowd is 344 royalty free sound effects for soccer, basketball and American football games in Godot, Unity, GameMaker and any engine, in 3 packs.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Hullward: 419 PSX Sci-Fi Sound Effects
 
 Store: https://csaf.itch.io/hullward · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hullward/ · Paid
@@ -1952,11 +1960,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 142 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 145 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 19,652 royalty free sound effects in 142 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 19,996 royalty free sound effects in 145 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6700,19 +6708,19 @@ Want the whole set? Plaguewick is also sold on the Greyhollow page, together wit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 26 Low Poly Packs + Every New One
+### PSX Character Library: 27 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Courtyard: 14 PSX Post-Soviet Residents, added in v1.12.0 (2026-11-22).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Cordon: 14 PSX Exclusion Zone Characters, added in v1.13.0 (2026-11-22).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 26 Free Low Poly 3D Characters
+### PSX Characters Sampler: 27 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 26 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 27 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
 
