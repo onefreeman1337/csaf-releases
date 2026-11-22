@@ -52,6 +52,8 @@ star, return). Rune names differ per set; meanings do not, so your game logic wo
 Slots: `norns` = past, present, future. `cross` = self, above, ahead, below, behind. `wheel` = north, northeast, east,
 southeast, south, southwest, west, northwest. `scatter` has no slots; read its `zone` instead.
 
+A cast redraws only while its stones move; once the last one settles it is drawn once and left alone.
+
 The same `cast_seed`, set and spread always fall the same way (a saved reading can be redrawn exactly).
 `cast()` with no argument picks a new seed; `cast(1234)` uses that one.
 
