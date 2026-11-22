@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 836 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T19:40:28.796Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T21:10:17.946Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -916,7 +916,7 @@ Farmstead 00 is a free pack of 4 farm bird sprites for Godot 4, RPG Maker MZ and
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Farmstead 01 Actions: Rest, Graze and Run [144 & 72 px]
+### Farmstead 01 Actions: Rest, Graze and Run, Farm Animal Sprites [144 & 72 px]
 
 Store: https://csaf.itch.io/farmstead-01-actions-rest-graze-and-run · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-01-actions-rest-graze-and-run/ · Paid
 
@@ -928,7 +928,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/farmstead-01-byre-and-barn · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-01-byre-and-barn/ · Paid
 
-Farmstead 01 is 8 top down farm sprites, 6 animals and 2 farmhands, with files for RPG Maker MZ and Godot 4 at 144 and 72 px. Commercial use, no credit needed.
+Want the whole set? Farmstead 01 is 8 top down farm sprites, 6 animals and 2 farmhands, with files for RPG Maker MZ and Godot 4 at 144 and 72 px. Commercial use, no credit needed.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1036,7 +1036,7 @@ Want the whole family?
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearthhands Side: Town, Keep and Road
+### Hearthhands Side: Town, Keep and Road, Medieval Side Scroller Sprites
 
 Store: https://csaf.itch.io/hearthhands-side-town-keep-road · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-side-town-keep-road/ · Paid
 
@@ -1056,7 +1056,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/kithfell-02-actions-rest-and-play · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-02-actions-rest-and-play/ · Paid
 
-Kithfell 02 Actions is 9 top down pet sprites that lie down, sleep and eat in 4 directions, with Godot 4 files at 128 and 64 px. Free sample. The pets going from sitting to resting and eating.
+Want the whole family? Kithfell 02 Actions is 9 top down pet sprites that lie down, sleep and eat in 4 directions, with Godot 4 files at 128 and 64 px.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1092,7 +1092,7 @@ Royalty free in commercial games, no credit required. Buy once, keep every Kithf
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Kithfell Pet Shop: 16 Dog and Cat Breeds and 53 Pet Props
+### Kithfell Pet Shop: 16 Dog and Cat Breeds and 53 Pet Props, Pixel Art Sprites
 
 Store: https://csaf.itch.io/kithfell-pet-shop · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-pet-shop/ · Paid
 
@@ -1112,7 +1112,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/lantern-and-tallow-pixel-fonts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/lantern-and-tallow-pixel-fonts/ · Paid
 
-Lantern and Tallow is 2 original pixel fonts for JRPG screens, for Godot and any engine that reads.fnt or.ttf, with 197 characters each. Royalty free in your games.
+Want every pair? Lantern and Tallow is 2 original pixel fonts for JRPG screens, for Godot and any engine that reads.fnt or.ttf, with 197 characters each.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1120,7 +1120,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-00-the-first-rung · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-00-the-first-rung/ · Free · pay what you want
 
-Mourncrest 00 is a free pack of 3 undead sprites for Godot 4, RPG Maker and other top down engines: a standing pose in 4 directions at 64x64. Free to use in commercial games.
+Want the whole family? Mourncrest 00 is a free pack of 3 undead sprites for Godot 4, RPG Maker and other top down engines: a standing pose in 4 directions at 64x64.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1136,7 +1136,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-02-pale-choir · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-02-pale-choir/ · Paid
 
-Mourncrest 02 The Pale Choir is five robed cultist sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
+Want the whole family? Mourncrest 02 The Pale Choir is five robed cultist sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1144,7 +1144,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-03-barrow-beasts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-03-barrow-beasts/ · Paid
 
-Mourncrest 03 Barrow Beasts is five dungeon creature sprites for RPG Maker MZ, Godot 4 and any top down RPG, drawn natively at 64x64 and 128x128. Commercial use in unlimited games, no royalty and no attribution required.
+Want the whole family? Mourncrest 03 Barrow Beasts is five dungeon creature sprites for RPG Maker MZ, Godot 4 and any top down RPG, drawn natively at 64x64 and 128x128.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1152,7 +1152,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-04-iron-wardens · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-04-iron-wardens/ · Paid
 
-Mourncrest 04 The Iron Wardens is three armoured monster hunter sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
+Want the whole family? Mourncrest 04 The Iron Wardens is three armoured monster hunter sprites for RPG Maker MZ, Godot 4 and any top down RPG. Commercial use in unlimited games, no royalty and no attribution required.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1184,7 +1184,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/mourncrest-reforged-01-restless-dead · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/mourncrest-reforged-01-restless-dead/ · Paid
 
-Mourncrest Reforged 01 is 8 undead sprites at 160 and 80 px with idle, walk, strike, hurt and death, plus RPG Maker MZ and Godot 4 files. Royalty free.
+Want the whole family? Mourncrest Reforged 01 is 8 undead sprites at 160 and 80 px with idle, walk, strike, hurt and death, plus RPG Maker MZ and Godot 4 files.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1204,7 +1204,7 @@ Want the whole set? Neonward 01 is 9 cyberpunk street sprites at 128 and 64 px w
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Neonward: Gangs, Corp Security and Machines (160x160 & 80x80)
+### Neonward: Gangs, Corp Security and Machines, Cyberpunk Sprites (160x160 & 80x80)
 
 Store: https://csaf.itch.io/neonward-gangs-corp-security-machines · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/neonward-gangs-corp-security-machines/ · Paid
 
@@ -1220,11 +1220,11 @@ Royalty free in commercial games, no credit required. Buy once, keep every font 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pocketfolk 01: 18 Tamer Creature Sprites [128 & 64 px]
+### Pocketfolk 01: 18 Monster Taming Overworld + Battle Sprites
 
 Store: https://csaf.itch.io/pocketfolk-01-first-partners · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/pocketfolk-01-first-partners/ · Paid
 
-Pocketfolk 01 is 18 creature sprites for a monster taming RPG in RPG Maker MZ, Godot 4 or any engine: six evolution lines with battle front, back and walk.
+Want the whole set? Pocketfolk 01 is 18 creature sprites for a monster taming RPG in RPG Maker MZ, Godot 4 or any engine: six evolution lines with battle front, back and walk.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1232,7 +1232,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/shroud-and-sallow-horror-pixel-fonts · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/shroud-and-sallow-horror-pixel-fonts/ · Paid
 
-Two original pixel fonts drawn as a pair for horror games. Sallow is the dialogue face: a narrow hand for notes, diary pages, dialogue, item text and menus that stays readable over a whole page (native 14 px).
+Want every pair? Two original pixel fonts drawn as a pair for horror games. Sallow is the dialogue face: a narrow hand for notes, diary pages, dialogue, item text and menus that stays readable over a whole page (native 14 px).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1376,7 +1376,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wildmark-actions-04 · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wildmark-actions-04/ · Paid
 
-A dodge roll and a block for the Wildmark 01 party, in every facing. The elf, warrior, mage and rogue get the two defensive moves an action game asks for: 64 new animation cycles, 432 frames per grid size, at 128×128 and 64×64.
+Want the whole family? A dodge roll and a block for the Wildmark 01 party, in every facing.
 
 AI disclosure: AI Assisted, Code, Graphics
 
