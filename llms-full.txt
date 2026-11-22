@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 825 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 833 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-21T23:24:36.727Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T00:53:23.955Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1406,7 +1406,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 77 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 85 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1544,6 +1544,14 @@ Store: https://csaf.itch.io/chokepoint-tower-defense-lane-command · Our page: h
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Clamber Traversal: 325 Grapple, Zipline and Glider Sounds
+
+Store: https://csaf.itch.io/clamber-traversal · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/clamber-traversal/ · Paid
+
+Want the whole set? Clamber Traversal is 325 royalty free sound effects for grappling hooks, ziplines, rappels and gliders in Godot, Unity, GameMaker and any engine, in 3 packs.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Clamber: Climbing Sound Effects
 
 Store: https://csaf.itch.io/clamber-climbing-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/clamber-climbing-sound-effects/ · Paid
@@ -1565,6 +1573,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/creature-vocal-forge-monster-voice-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/creature-vocal-forge-monster-voice-sound-effects/ · Paid
 
 Want the whole set? Creature Vocal Forge is 120 monster voice sound effects, 12 creatures with 6 states each, in WAV and OGG for RPG Maker, Godot, Unity or Unreal.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Cryptlight: 457 PSX Dark Fantasy Sound Effects
+
+Store: https://csaf.itch.io/cryptlight · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/cryptlight/ · Paid
+
+Want the whole set? Cryptlight is 457 royalty free PSX style sound effects for dark fantasy games in Godot, Unity, GameMaker and any engine, in three packs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1600,7 +1616,7 @@ Seventeen places, each shipped in the layers it is made of. Most ambience packs 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Escapement — Clockwork, Brass and the Machine Room
+### Escapement: Clockwork, Brass and the Machine Room Sound Effects
 
 Store: https://csaf.itch.io/escapement-clockwork-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/escapement-clockwork-sfx/ · Paid
 
@@ -1624,7 +1640,7 @@ The space journey, as one sound 121 space and sci fi sound effects in WAV and OG
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Footfall: Footstep Matrix, 12 Surfaces x 4 Gaits x 3 Weights
+### Footfall: Footstep Sound Effects Matrix, 12 Surfaces x 4 Gaits x 3 Weights
 
 Store: https://csaf.itch.io/footfall-footstep-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/footfall-footstep-sfx/ · Paid
 
@@ -1684,7 +1700,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/hearthlight-03-cozy-pet-care-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hearthlight-03-cozy-pet-care-sound-effects/ · Paid
 
-Every pet from greeting to sleep 126 cozy pet sound effects: 8 pets, and every one ships the same 8 stage care chain, from the moment it greets the player to the moment it falls asleep, each pet its own way.
+Want the whole set? Every pet from greeting to sleep 126 cozy pet sound effects: 8 pets, and every one ships the same 8 stage care chain, from the moment it greets the player to the moment it falls asleep, each pet its own way.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1693,6 +1709,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/hearthlight-cozy-farming-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hearthlight-cozy-farming-sound-effects/ · Paid
 
 Hearthlight is 107 cozy farming sound effects for RPG Maker, Godot, Unity, GameMaker or Unreal: 8 crops from planting to harvest. Royalty free, with a free demo.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hullward: 419 PSX Sci-Fi Sound Effects
+
+Store: https://csaf.itch.io/hullward · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/hullward/ · Paid
+
+Want the whole set? Hullward is 419 royalty free PSX style sound effects for sci-fi games in Godot, Unity, GameMaker and any engine, in three packs. Made for low poly station games.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1720,19 +1744,19 @@ Want the whole set? Kickoff is 103 ball sports sound effects in WAV and OGG for 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Leeward — Ships, Sea and Harbour
-
-Store: https://csaf.itch.io/leeward-ships-sea-and-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/leeward-ships-sea-and-harbour/ · Paid
-
-Want the whole set? Leeward is 165 ship, sea and harbour sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Leeward 02: The Sea Fight, Naval Battle Sound Effects
 
 Store: https://csaf.itch.io/leeward-02-the-sea-fight · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/leeward-02-the-sea-fight/ · Paid
 
 The same ship as Leeward, taken into a fight: incoming shot, hull hits, fire aboard, boarding and the sinking 124 naval battle sound effects: shot whistling in at four ranges, near misses by calibre, round, chain and grape shot striking the ship heard on deck, below decks and from another ship,...
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Leeward: Ships, Sea and Harbour Sound Effects
+
+Store: https://csaf.itch.io/leeward-ships-sea-and-harbour · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/leeward-ships-sea-and-harbour/ · Paid
+
+Want the whole set? Leeward is 165 ship, sea and harbour sound effects in WAV and OGG for RPG Maker, Godot, Unity, GameMaker or Unreal. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1749,6 +1773,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/lucky-draw-scratch-card-and-lottery-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/lucky-draw-scratch-card-and-lottery-sound-effects/ · Paid
 
 Want the whole set? Lucky Draw is 150 scratch card, prize wheel, lottery and bingo sound effects for Unity, Unreal, Godot, GameMaker and any game engine.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Mainspring: 338 Lighthouse, Clock Tower and Observatory SFX
+
+Store: https://csaf.itch.io/mainspring-lighthouse-clock-tower-observatory-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/mainspring-lighthouse-clock-tower-observatory-sound-effects/ · Paid
+
+Mainspring is 338 royalty free sound effects for a lighthouse, a clock tower and an observatory, for Godot, Unity, GameMaker and any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1805,6 +1837,22 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/portcullis-dungeon-mechanisms · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/portcullis-dungeon-mechanisms/ · Paid
 
 Portcullis is 123 dungeon mechanism sound effects in WAV and OGG for Godot, Unity or any engine: 24 mechanisms, each with its whole lifecycle. A door is more than one cue.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Reelhouse Floor: 320 Slot Machine Sound Effects
+
+Store: https://csaf.itch.io/reelhouse-floor-slot-machine-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reelhouse-floor-slot-machine-sound-effects/ · Paid
+
+Reelhouse Floor is 320 royalty free slot machine sound effects in 3 cabinets for Godot, Unity, GameMaker and any engine that plays WAV or OGG.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Reelhouse Tables: 327 Roulette, Dice and Chip Sound Effects
+
+Store: https://csaf.itch.io/reelhouse-tables-roulette-dice-chip-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reelhouse-tables-roulette-dice-chip-sound-effects/ · Paid
+
+Reelhouse Tables is 327 royalty free casino table sound effects in 3 packs for Godot, Unity, GameMaker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1904,11 +1952,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 133 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 139 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 18,453 royalty free sound effects in 133 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 19,330 royalty free sound effects in 139 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1917,6 +1965,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/sounding-underwater-deep-sea-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sounding-underwater-deep-sea-sound-effects/ · Paid
 
 Want the whole set? A dive your game can take deeper 102 underwater sound effects built around four ladders: the water gets darker, the sonar contact closes, the diver breathes faster and the hull groans longer, one rung at a time.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Spirit Beasts: 530 Xianxia Beast Voice Sound Effects
+
+Store: https://csaf.itch.io/spirit-beasts-xianxia-beast-voice-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/spirit-beasts-xianxia-beast-voice-sound-effects/ · Paid
+
+Spirit Beasts is 530 royalty free xianxia beast sound effects in 3 packs for Godot, Unity, GameMaker, RPG Maker and any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1936,11 +1992,19 @@ Steel and Bone is 144 medieval combat sound effects for Unity, Unreal, Godot, Ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Stratagem: 552 Tactics RPG Battle Sound Effects
+
+Store: https://csaf.itch.io/stratagem-tactics-rpg-battle-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/stratagem-tactics-rpg-battle-sound-effects/ · Paid
+
+Want the whole set? Stratagem is 552 royalty free tactics RPG battle sound effects in 3 voices for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Tally: 137 Clicker and Idle Game Sound Effects
 
 Store: https://csaf.itch.io/tally-clicker-feedback · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/tally-clicker-feedback/ · Paid
 
-Tally is 137 clicker and idle sound effects for Unity, Godot, GameMaker, RPG Maker and web games: 13 ladders that climb with your multiplier. Royalty free for commercial games, with no credit required.
+Want the whole set? Tally is 137 clicker and idle sound effects for Unity, Godot, GameMaker, RPG Maker and web games: 13 ladders that climb with your multiplier.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2008,7 +2072,7 @@ Natural disasters you drive with one value 104 sounds for eight disasters.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wade — Liquid, Wet and Submerged Movement
+### Wade: Liquid, Wet and Submerged Movement Sound Effects
 
 Store: https://csaf.itch.io/wade-liquid-and-submerged-movement · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/wade-liquid-and-submerged-movement/ · Paid
 
@@ -3000,7 +3064,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 139 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 140 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
