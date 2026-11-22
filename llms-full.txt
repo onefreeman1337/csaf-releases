@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 833 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 834 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T00:53:23.955Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-22T05:05:42.849Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -3064,7 +3064,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 140 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 141 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -6506,7 +6506,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 27 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 28 products.
 
 ### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
@@ -6545,6 +6545,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/camp-redfern-psx-summer-camp · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/camp-redfern-psx-summer-camp/ · Paid · Engines: Blender
 
 Want the whole set? Camp Redfern is also sold on the Last Shift page, together with 13 PSX survival horror survivors on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Courtyard: 14 Animated PSX Post-Soviet Residents
+
+Store: https://csaf.itch.io/courtyard-psx-post-soviet-residents · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/courtyard-psx-post-soviet-residents/ · Paid · Engines: Blender
+
+Want the whole set? Courtyard is 14 low poly PS1-style residents of a 1990s post-Soviet apartment block courtyard, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6684,19 +6692,19 @@ Want the whole set? Plaguewick is also sold on the Greyhollow page, together wit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 24 Low Poly Packs + Every New One
+### PSX Character Library: 25 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games.
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Showa Dusk: 14 PSX Japanese Horror Townsfolk, added in v1.11.0 (2026-11-22).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 24 Free Low Poly 3D Characters
+### PSX Characters Sampler: 25 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 24 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 25 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
 
