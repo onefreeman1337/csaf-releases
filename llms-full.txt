@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 836 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 837 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-22T21:10:17.946Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T00:57:37.065Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1406,7 +1406,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 86 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 87 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1912,6 +1912,14 @@ Breakables that tell the whole story: strain, crack, break, settle 110 breakable
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Shelf Life: 324 Store Simulator Sound Effects
+
+Store: https://csaf.itch.io/shelf-life-store-simulator-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/shelf-life-store-simulator-sound-effects/ · Paid
+
+Want the whole set? Shelf Life is 324 royalty free sound effects for store simulator games in Godot, Unity, GameMaker and any engine, in 3 packs.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Ship Systems: Sci-Fi Interface and Machinery SFX
 
 Store: https://csaf.itch.io/ship-systems-sci-fi-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/ship-systems-sci-fi-sfx/ · Paid
@@ -1960,11 +1968,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 145 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 148 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 19,996 royalty free sound effects in 145 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 20,320 royalty free sound effects in 148 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
