@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 837 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 838 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T00:57:37.065Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T03:13:24.025Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -4910,7 +4910,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Games
 
-Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 55 products.
+Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 56 products.
 
 ### ANATOMIST
 
@@ -5208,6 +5208,14 @@ PROOFMARK is a real 32 KB Game Boy deduction game: work out each day's hidden ru
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
+### RAMBACK: a PS1-style ram charge through five eras
+
+Store: https://csaf.itch.io/ramback · Our page: https://onefreeman1337.github.io/csaf-releases/games/ramback/ · Free · Engines: Three.js
+
+Made for the PS1 Aesthetic Game Jam (theme "Bash to the Past"), November 2026, and built in Bash.tv.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
 ### ROOTWORK
 
 Store: https://csaf.itch.io/rootwork · Our page: https://onefreeman1337.github.io/csaf-releases/games/rootwork/ · Paid · free browser demo on the page
@@ -5356,7 +5364,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Free games that play in the browser. 69 products.
 
-### AFFINEUR
+### AFFINEUR: a cozy food incremental, free in your browser
 
 Store: https://csaf.itch.io/affineur · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/affineur/ · Free
 
@@ -5364,7 +5372,7 @@ Milk in, wheels down, and time does the rest. AFFINEUR is a free cheese-cave inc
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ANAGAMA
+### ANAGAMA: an idle crafting incremental, free in your browser
 
 Store: https://csaf.itch.io/anagama · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/anagama/ · Free
 
@@ -5372,7 +5380,7 @@ ANAGAMA is a free browser incremental about a wood-fired kiln: 10 vessel forms, 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ANNEAL
+### ANNEAL: a minimalist puzzle incremental, free in your browser
 
 Store: https://csaf.itch.io/anneal · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/anneal/ · Free
 
@@ -5380,15 +5388,15 @@ A free browser game in twelve channels: steer a stream of glowing motes up a fou
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BANNERET: SUCCESSION
+### BANNERET: SUCCESSION, a medieval tactics roguelite, free in your browser
 
 Store: https://csaf.itch.io/banneret-succession · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/banneret-succession/ · Free
 
-You never move a knight. You plant a banner, and every knight in the House charges it at once. Free in your browser, on a desktop or a phone. A charge that never started is a death.
+You never move a knight. You plant a banner, and every knight in the House charges it at once. Free in your browser, on a desktop or a phone. From the same studio: THE KEPT YEAR, a pixel art JRPG in development.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BANNWALD
+### BANNWALD: an idle winter incremental, free in your browser
 
 Store: https://csaf.itch.io/bannwald · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/bannwald/ · Free
 
@@ -5396,7 +5404,7 @@ Above the village the slope fills with snow all winter. Under it runs the pass r
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BITTERWORKS
+### BITTERWORKS: an idle factory tycoon, free in your browser
 
 Store: https://csaf.itch.io/bitterworks · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/bitterworks/ · Free
 
@@ -5404,7 +5412,7 @@ A soda works on a drying salt lake. Sink wells into the brine under the bed, run
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BRATTICE
+### BRATTICE: an idle mining incremental, free in your browser
 
 Store: https://csaf.itch.io/brattice · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/brattice/ · Free
 
@@ -5412,7 +5420,7 @@ The coal is easy. The air is the game. BRATTICE is a free colliery incremental f
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BULLET HELL BOTANIST
+### BULLET HELL BOTANIST: a pixel art farming roguelite, free in your browser
 
 Store: https://csaf.itch.io/bullet-hell-botanist · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/bullet-hell-botanist/ · Free
 
@@ -5420,15 +5428,15 @@ You have no weapon. The garden shoots. A plant in flower is both your income and
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BUSY HOUR
+### BUSY HOUR: a historical economy incremental, free in your browser
 
 Store: https://csaf.itch.io/busy-hour · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/busy-hour/ · Free
 
-Size every board and every wire for the busiest hour of the day. BUSY HOUR is a free telephone-company incremental for your browser. It is 1895.
+Size every board and every wire for the busiest hour of the day. From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CARILLON
+### CARILLON: an idle tower defense roguelite, free in your browser
 
 Store: https://csaf.itch.io/carillon · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/carillon/ · Free
 
@@ -5436,7 +5444,7 @@ CARILLON is a free tower defence game for the browser: 4 bell metals, 12 waves a
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CHARGE BARGE
+### CHARGE BARGE: a naval shoot 'em up roguelite, free in your browser
 
 Store: https://csaf.itch.io/charge-barge · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/charge-barge/ · Free
 
@@ -5444,7 +5452,7 @@ Drive a storm-powered ironclad up an insane hostile coastline. Everything in thi
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CHRONOLOGY OF A GHOST
+### CHRONOLOGY OF A GHOST: a short noir deduction mystery, free in your browser
 
 Store: https://csaf.itch.io/chronology-of-a-ghost · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/chronology-of-a-ghost/ · Free
 
@@ -5452,7 +5460,7 @@ The people who were in this house are gone. Their shadows are not. Every room st
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CLEAVE
+### CLEAVE: a dark fantasy card roguelite, free in your browser
 
 Store: https://csaf.itch.io/cleave · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/cleave/ · Free
 
@@ -5460,7 +5468,7 @@ Five cards are dealt into one row. You and the end of the world draft from that 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CLERESTORY
+### CLERESTORY: a medieval architecture incremental, free in your browser
 
 Store: https://csaf.itch.io/clerestory · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/clerestory/ · Free
 
@@ -5468,7 +5476,7 @@ Build it as high as the stone allows. CLERESTORY is a free cathedral incremental
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### COMBWRIGHT
+### COMBWRIGHT: a cozy bee incremental, free in your browser
 
 Store: https://csaf.itch.io/combwright · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/combwright/ · Free
 
@@ -5476,7 +5484,7 @@ Lay out the comb. Raise the brood. Keep the colony through the winter. A free be
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CONTEMPT
+### CONTEMPT: a courtroom fighting roguelite, free in your browser
 
 Store: https://csaf.itch.io/contempt · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/contempt/ · Free
 
@@ -5484,7 +5492,7 @@ A courtroom where the trial is the fight. Opposing counsel raises an argument. Y
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### COPPICE
+### COPPICE: a cozy forest incremental, free in your browser
 
 Store: https://csaf.itch.io/coppice · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/coppice/ · Free
 
@@ -5492,7 +5500,7 @@ Cut the wood. It grows back. COPPICE is a free woodland incremental that plays i
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CROSSBLOOM
+### CROSSBLOOM: a cozy grid farming incremental, free in your browser
 
 Store: https://csaf.itch.io/crossbloom · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/crossbloom/ · Free
 
@@ -5500,7 +5508,7 @@ An apple tree cannot pollinate itself. CROSSBLOOM is a free orchard incremental 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ECHO LOCATOR
+### ECHO LOCATOR: a stealth horror game, free in your browser
 
 Store: https://csaf.itch.io/echo-locator · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/echo-locator/ · Free
 
@@ -5508,7 +5516,7 @@ Marchwood House is pitch dark and you cannot carry a light. Every sound you make
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### FLOODMARK
+### FLOODMARK: a medieval city builder, free in your browser
 
 Store: https://csaf.itch.io/floodmark · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/floodmark/ · Free
 
@@ -5516,7 +5524,7 @@ A free town builder on a 165-tile valley: every spring the river comes up over i
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### FLYWAY
+### FLYWAY: a nature incremental with birds, free in your browser
 
 Store: https://csaf.itch.io/flyway · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/flyway/ · Free
 
@@ -5524,7 +5532,7 @@ Every autumn, millions of small birds cross the sea at night. Most nights they f
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### FROSTLEDGER
+### FROSTLEDGER: a farming horror incremental, free in your browser
 
 Store: https://csaf.itch.io/frostledger · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/frostledger/ · Free
 
@@ -5532,15 +5540,15 @@ FROSTLEDGER is a free incremental farming game for the browser with a horror at 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### GALE WARNING
+### GALE WARNING: a sea weather incremental, free in your browser
 
 Store: https://csaf.itch.io/gale-warning · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/gale-warning/ · Free
 
-Your office never sees the weather. It sees what the telegraph wires in. GALE WARNING is a free forecasting game for your browser. It is 1861, and you run the first storm-warning office on a western coast.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. Your office never sees the weather.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### GASHOLDER
+### GASHOLDER: a Victorian economy incremental, free in your browser
 
 Store: https://csaf.itch.io/gasholder · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/gasholder/ · Free
 
@@ -5548,7 +5556,7 @@ The day makes the gas. The night burns it. GASHOLDER is a free gasworks incremen
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Gravity Plumber
+### Gravity Plumber: a steampunk physics puzzle platformer, free in your browser
 
 Store: https://csaf.itch.io/gravity-plumber · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/gravity-plumber/ · Free
 
@@ -5556,7 +5564,7 @@ Gravity Plumber is a free browser puzzle platformer with 24 chambers. The room f
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### HALFLIGHT
+### HALFLIGHT: a resource management incremental, free in your browser
 
 Store: https://csaf.itch.io/halflight · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/halflight/ · Free
 
@@ -5564,7 +5572,7 @@ HALFLIGHT is a free incremental management game for the browser: you run a vault
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### HEFTSTONE
+### HEFTSTONE: a relaxing sheep farming incremental, free in your browser
 
 Store: https://csaf.itch.io/heftstone · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/heftstone/ · Free
 
@@ -5572,11 +5580,11 @@ A flock that knows its own ground. HEFTSTONE is a free hill farm incremental tha
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### IRONROAD
+### IRONROAD: a neon cyberpunk brawler, free in your browser
 
 Store: https://csaf.itch.io/ironroad · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/ironroad/ · Free
 
-IRONROAD is a free beat 'em up for your browser: fight down 7 stations of an elevated railway and draft a 6 slot combo between them. It plays on a keyboard, a mouse or a phone.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5588,7 +5596,7 @@ From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### MAKE YOUR NUMBER
+### MAKE YOUR NUMBER: a logic deduction roguelite, free in your browser
 
 Store: https://csaf.itch.io/make-your-number · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/make-your-number/ · Free
 
@@ -5596,7 +5604,7 @@ A deduction game whose every case is generated, and then proven, before you ever
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### MOONPROOF
+### MOONPROOF: a werewolf management incremental, free in your browser
 
 Store: https://csaf.itch.io/moonproof · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/moonproof/ · Free
 
@@ -5604,7 +5612,7 @@ Fit the wards before the full moon. Hold the night. Seal the town. MOONPROOF is 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Museum of the Future
+### Museum of the Future: a cozy museum management game, free in your browser
 
 Store: https://csaf.itch.io/museum-of-the-future · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/museum-of-the-future/ · Free
 
@@ -5612,7 +5620,7 @@ Nobody remembers what any of this was. Make it up. Museum of the Future is a fre
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### OTTERBOUND
+### OTTERBOUND: a cozy auto battler roguelite, free in your browser
 
 Store: https://csaf.itch.io/otterbound · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/otterbound/ · Free
 
@@ -5620,7 +5628,7 @@ OTTERBOUND is a free browser auto-battler: six otters on one raft, 3 leagues and
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### OUT OF SORTS
+### OUT OF SORTS: a letterpress typing roguelite, free in your browser
 
 Store: https://csaf.itch.io/out-of-sorts · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/out-of-sorts/ · Free
 
@@ -5636,23 +5644,23 @@ Shift gears as the river shifts. OVERSHOT is a free browser incremental made for
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PERIGEE
+### PERIGEE: a minimalist physics simulation, free in your browser
 
 Store: https://csaf.itch.io/perigee · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/perigee/ · Free
 
-PERIGEE is a free browser tide game of 10 seasons with one control: the moon's orbit.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. PERIGEE is a free browser tide game of 10 seasons with one control: the moon's orbit.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### POLDER
+### POLDER: a historical economy incremental, free in your browser
 
 Store: https://csaf.itch.io/polder · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/polder/ · Free
 
-POLDER is a free browser incremental where the water is the ground you are standing on. You are granted a salt fen, an eight year lease and no sea bank at all.
+POLDER is a free browser incremental where the water is the ground you are standing on. From the same studio: THE KEPT YEAR, a pixel art JRPG in development.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PRISMHORN
+### PRISMHORN: an endless unicorn arcade roguelite, free in your browser
 
 Store: https://csaf.itch.io/prismhorn · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/prismhorn/ · Free
 
@@ -5660,7 +5668,7 @@ You never cast a spell. You cast a rainbow. One shaft of dawn strikes your horn 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PROMPTBOX
+### PROMPTBOX: a time loop detective mystery, free in your browser
 
 Store: https://csaf.itch.io/promptbox · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/promptbox/ · Free
 
@@ -5668,7 +5676,7 @@ PROMPTBOX is a free three-minute time-loop mystery for the browser: five of an o
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PYX
+### PYX: a medieval economy incremental, free in your browser
 
 Store: https://csaf.itch.io/pyx · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/pyx/ · Free
 
@@ -5676,7 +5684,7 @@ You run the realm's mint for a forty-year reign. You set the weight and the fine
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ROOTBOUND
+### ROOTBOUND: an idle gardening incremental, free in your browser
 
 Store: https://csaf.itch.io/rootbound · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/rootbound/ · Free
 
@@ -5684,15 +5692,15 @@ ROOTBOUND is a free browser garden simulation with 12 real plant species, where 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### RUSTBLOOM
+### RUSTBLOOM: a dark fantasy roguelite, free in your browser
 
 Store: https://csaf.itch.io/rustbloom · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/rustbloom/ · Free
 
-You never find the key. You forge it. A locked thing usually asks what you are carrying. A bramble wall wants the fire rod, and there is exactly one fire rod.
+You never find the key. You forge it. From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SCOURFAIR
+### SCOURFAIR: a cozy drawing incremental, free in your browser
 
 Store: https://csaf.itch.io/scourfair · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/scourfair/ · Free
 
@@ -5700,15 +5708,15 @@ Keep the white horse white, then cut your own. SCOURFAIR is a free incremental a
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SCRATCH-OFF TYCOON
+### SCRATCH-OFF TYCOON: a casual cards incremental, free in your browser
 
 Store: https://csaf.itch.io/scratch-off-tycoon · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/scratch-off-tycoon/ · Free
 
-Every coin you win, you rub off the foil yourself. SCRATCH-OFF TYCOON is a free browser game about a night kiosk and a coin that wears down. Buy a scratch card and rub it with your coin.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. Every coin you win, you rub off the foil yourself.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SECOND INTENT
+### SECOND INTENT: a minimalist duel fighting game, free in your browser
 
 Store: https://csaf.itch.io/second-intent · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/second-intent/ · Free
 
@@ -5716,7 +5724,7 @@ SECOND INTENT is a free timing duel that tells you why you lost each exchange, t
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SEEDLIFT
+### SEEDLIFT: a farming exploration incremental, free in your browser
 
 Store: https://csaf.itch.io/seedlift · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/seedlift/ · Free
 
@@ -5724,23 +5732,23 @@ SEEDLIFT is a free browser farming incremental with 24 strains to collect, 4 zon
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SHELLYARD
+### SHELLYARD: a relaxing fireworks crafting incremental, free in your browser
 
 Store: https://csaf.itch.io/shellyard · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/shellyard/ · Free
 
-A fireworks yard, shell by shell. SHELLYARD is a free fireworks yard incremental that plays in your browser. Every shed in the yard holds powder, and the licence it holds draws a circle that no other shed may stand inside.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. A fireworks yard, shell by shell.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SIDINGS
+### SIDINGS: a winter train management incremental, free in your browser
 
 Store: https://csaf.itch.io/sidings · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/sidings/ · Free
 
-SIDINGS is a free browser signalling sim of one winter railway: 5 places, 4 block sections, 7 tiers of signalling to buy, and one train allowed per section.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SPALL
+### SPALL: a match 3 mech roguelike, free in your browser
 
 Store: https://csaf.itch.io/spall · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/spall/ · Free
 
@@ -5748,15 +5756,15 @@ A match-3 where the board is your mech. The grid is a walking machine's armour p
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SPOILHEAP
+### SPOILHEAP: an archaeology incremental, free in your browser
 
 Store: https://csaf.itch.io/spoilheap · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/spoilheap/ · Free
 
-Digging it destroys it. Your notes are all that is left. SPOILHEAP is a free browser archaeology incremental with 7 generated fields and 57 kinds of find: run a rescue dig before the machine arrives, and get it on paper.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. Digging it destroys it. Your notes are all that is left.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### STAGHORN
+### STAGHORN: an idle underwater incremental, free in your browser
 
 Store: https://csaf.itch.io/staghorn · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/staghorn/ · Free
 
@@ -5764,35 +5772,35 @@ Grow a reef back. Keep it through the heat. STAGHORN is a free reef restoration 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### STARCHART
+### STARCHART: a minimalist space roguelite, free in your browser
 
 Store: https://csaf.itch.io/starchart · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/starchart/ · Free
 
-STARCHART is a free browser roguelite of 4 sectors and 48 generated star forms: every route you fly is inscribed as a constellation you keep.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SUGARHOUSE
+### SUGARHOUSE: a cozy farming incremental, free in your browser
 
 Store: https://csaf.itch.io/sugarhouse · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/sugarhouse/ · Free
 
-A maple sugaring incremental. The weather is the clock. Late February: a sugarbush under snow and a cold sugarhouse at the foot of the slope. Sap runs only on a day whose night froze and whose afternoon thawed, so you play the forecast.
+A maple sugaring incremental. The weather is the clock. From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SUMMIT POUND
+### SUMMIT POUND: a historical economy incremental, free in your browser
 
 Store: https://csaf.itch.io/summit-pound · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/summit-pound/ · Free
 
-On this canal the money that matters is water. SUMMIT POUND is a free canal company game for your browser. You run the summit pound, the highest stretch of a canal, with a flight of locks going down at each end.
+On this canal the money that matters is water. From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SWALLET
+### SWALLET: a dungeon crawler incremental, free in your browser
 
 Store: https://csaf.itch.io/swallet · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/swallet/ · Free
 
-SWALLET is a free browser incremental where you are the cave: 12 fixtures, 4 bands of rock and 5 kinds of delver coming down to rob you. You cut chambers into a hill and put things in them.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5804,7 +5812,7 @@ Ice melts by its exposed faces. A block with ice on all four sides keeps almost 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### TAKEN AS READ
+### TAKEN AS READ: a short narrative text adventure, free in your browser
 
 Store: https://csaf.itch.io/taken-as-read · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/taken-as-read/ · Free
 
@@ -5812,15 +5820,15 @@ He is not lying to you. He is legislating. A narrator describes the room you are
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### TEA ESTATE
+### TEA ESTATE: an idle tea farming incremental, free in your browser
 
 Store: https://csaf.itch.io/tea-estate · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/tea-estate/ · Free
 
-Pluck it fine, fire it right, and sell it by the grade. TEA ESTATE is a free incremental for your browser about a hill tea estate.
+Pluck it fine, fire it right, and sell it by the grade. From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### TEMPO DRIFT
+### TEMPO DRIFT: a retro rhythm racing game, free in your browser
 
 Store: https://csaf.itch.io/tempo-drift · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/tempo-drift/ · Free
 
@@ -5828,7 +5836,7 @@ TEMPO DRIFT is a free browser rhythm racer with 6 roads and 6 songs, where the r
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### THE DYEWORKS
+### THE DYEWORKS: a cozy medieval crafting incremental, free in your browser
 
 Store: https://csaf.itch.io/dyeworks · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/dyeworks/ · Free
 
@@ -5836,15 +5844,15 @@ THE DYEWORKS is a free browser incremental about a medieval dye house with 40 hi
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### THE LAST FLOCK
+### THE LAST FLOCK: a short duck swarm roguelite, free in your browser
 
 Store: https://csaf.itch.io/the-last-flock · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/the-last-flock/ · Free
 
-THE LAST FLOCK is a free browser survivors-like: shape a flock of up to 90 birds with movement alone, through 12 waves to the Old Heron, on a keyboard or a phone.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### THE WARM ROOM
+### THE WARM ROOM: a cozy winter incremental, free in your browser
 
 Store: https://csaf.itch.io/the-warm-room · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/the-warm-room/ · Free
 
@@ -5852,15 +5860,15 @@ THE WARM ROOM is a free browser management sim of 90 winter days: keep a derelic
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### THEODOLITE
+### THEODOLITE: a casual historical incremental, free in your browser
 
 Store: https://csaf.itch.io/theodolite · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/theodolite/ · Free
 
-Map a county by sight, by angle and by error. THEODOLITE is a free survey incremental that plays in your browser.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. Map a county by sight, by angle and by error.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### TIDEPOST
+### TIDEPOST: a cozy sailing exploration game, free in your browser
 
 Store: https://csaf.itch.io/tidepost · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/tidepost/ · Free
 
@@ -5868,23 +5876,23 @@ You carry the mail between 9 islands on a real ocean current that moves with the
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### TORCHWATER
+### TORCHWATER: an idle fishing incremental, free in your browser
 
 Store: https://csaf.itch.io/torchwater · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/torchwater/ · Free
 
-Light the water, draw the shoal, land the season. TORCHWATER is a free incremental for your browser about a cove's fire-fishing fleet. On dark summer nights your boats row out and light the fires at their bows.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. Light the water, draw the shoal, land the season.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### UFO SALVAGE
+### UFO SALVAGE: an alien comedy incremental, free in your browser
 
 Store: https://csaf.itch.io/ufo-salvage · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/ufo-salvage/ · Free
 
-The aliens lost. The saucers are still in the fields. UFO SALVAGE is a free browser salvage incremental with 7 counties and a different generated saucer every time: tow them home before the Army gets there, strip them, and sell the parts.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. The aliens lost. The saucers are still in the fields.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### UNDERSTORY
+### UNDERSTORY: an idle mushroom incremental, free in your browser
 
 Store: https://csaf.itch.io/understory · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/understory/ · Free
 
@@ -5892,7 +5900,7 @@ UNDERSTORY is a free incremental game for the browser: you are the mycelium unde
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Vampire's Morning Routine
+### Vampire's Morning Routine: a short stealth puzzle game, free in your browser
 
 Store: https://csaf.itch.io/vampires-morning-routine · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/vampires-morning-routine/ · Free
 
@@ -5900,7 +5908,7 @@ Dawn is coming and you are extremely not a morning person. Shut every window. Dr
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### WHAT WE BURN
+### WHAT WE BURN: a short narrative horror game, free in your browser
 
 Store: https://csaf.itch.io/what-we-burn · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/what-we-burn/ · Free
 
