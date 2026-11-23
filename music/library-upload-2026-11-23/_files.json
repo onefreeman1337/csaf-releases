@@ -1,0 +1,58 @@
+[
+ {
+  "f": "add_ticking-over.png",
+  "bytes": 132291,
+  "sha256": "8df6db29ef7b7b647a7f2dc6ef4c9137ba54ff96a1bc438ac571cb18d33b7e79",
+  "w": 1280,
+  "h": 865,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2396736,
+  "sha256": "9e83ec82c056cb59f43eb55d5eaea106be9ab5931ce18739eba0180de2d89f0e",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1365349,
+  "sha256": "6c428a5e47de66282e374492280a7328e3c2cc48b97c798bb754a0fe971b1df5",
+  "w": 1280,
+  "h": 1483,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 402765,
+  "sha256": "54d3003b2c02f8fa101021042f85bb64e560cd80e220b2d5885716437037ec34",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 373817,
+  "sha256": "8203242a3b54b034496875d6eb4c79254ddcbcd239da6df74fd0a10b02d05903",
+  "w": 1280,
+  "h": 1394,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 106736,
+  "sha256": "6f8c5b1ef3fb044395faafb85a32fa87a8b15a4a91985eb36cefd5ac4255ca47",
+  "w": 1280,
+  "h": 916,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 470042,
+  "sha256": "fe0377651077262743f3486b5e7bd782903e0bc0c610cc4999949e2899d2dd21",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
