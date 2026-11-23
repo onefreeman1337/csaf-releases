@@ -99,7 +99,7 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-openables/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-overworld-library/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-props/</loc><lastmod>2026-11-13</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-seasons/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-showground/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-side-depths/</loc><lastmod>2026-11-13</lastmod></url>
@@ -163,7 +163,7 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/sparkfall-01-status-auras/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/sparkfall-02-game-feel/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/sprite-library/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/streetlight-01-modern-townsfolk/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/streetlight-01-modern-townsfolk/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/deepwarren-collection/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/farmstead-collection/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/sprite-packs/tidewell/</loc><lastmod>2026-11-22</lastmod></url>
@@ -323,136 +323,137 @@
   <url><loc>https://onefreeman1337.github.io/csaf-releases/game-music/wildwood/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/game-music/zarya/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ajar/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aloft/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/anvil/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/any-picture-minigames-sampler/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aperture-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/armorial/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/arras/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ascent/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/askew/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/asterism/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/augury/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrage/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrow/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bazaar-core/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ajar/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aloft/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/anvil/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/any-picture-minigames-sampler/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/aperture-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/armorial/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/arras/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ascent/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/askew/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/asterism/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/augury/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrage/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrow/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bazaar-core/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bivouac/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bout/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bracket/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/broadside/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bout/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bracket/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/broadside/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-byplay/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cartouche/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-battle/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-field/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chorograph/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chronicle-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cipher-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cloudshadow/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cogwheel/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/colophon/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/colosseum-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/courtcard/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/creel/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/derby/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/elytra/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/emaki/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/encore-boss-second-phases/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ephemeris/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/epistolary/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/escapement/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/escutcheon-mz/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/facet/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fathom/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fetch-doppelganger-bosses/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cartouche/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-battle/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chimera-field/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chorograph/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chronicle-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cipher-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-clemency/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cloudshadow/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/cogwheel/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/colophon/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/colosseum-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/courtcard/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/creel/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/derby/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/elytra/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/emaki/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/encore-boss-second-phases/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ephemeris/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/epistolary/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/escapement/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/escutcheon-mz/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/facet/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fathom/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fetch-doppelganger-bosses/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fete/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/formulary/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fray/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/frontispiece/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/gargoyle/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/glaze/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/goose/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hallmark/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hearsay/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hedgerow/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/herbarium/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hoist/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/formulary/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/fray/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/frontispiece/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/gargoyle/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/glaze/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/goose/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hallmark/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hearsay/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hedgerow/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/herbarium/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/hoist/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/ident/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/incantation/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/inscribe/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/intertitle/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/jigsaw/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/journeywork/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/knack/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/leadlight/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lineage/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/liturgy/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/living-icons/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/loop-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lucidity/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/niello/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/over-the-shoulder/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/patina/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pelt/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pendant/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pennant/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/inscribe/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/intertitle/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/jigsaw/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/journeywork/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/knack/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/leadlight/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lineage/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/liturgy/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/living-icons/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/loop-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/lucidity/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/niello/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/over-the-shoulder/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/patina/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pelt/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pendant/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pennant/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pinfall/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/plinth/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/posture/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quires/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quizmaster/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-rally/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/plinth/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/posture/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quires/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/quizmaster/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-rally/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-rearguard/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebus/</loc><lastmod>2026-11-13</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebuttal/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/refectory/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/round-up/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rummage/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sampler/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sapper/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scales/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scathe/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/schuss/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sentiment/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/shipwright/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sigil-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/smithereens/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/song-sheets/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/specie/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/spellwright/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stature/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-storied-systems/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/strata/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/strew/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stricken/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebuttal/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/refectory/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/round-up/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rummage/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sampler/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sapper/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scales/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/scathe/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/schuss/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sentiment/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/shipwright/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/sigil-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/smithereens/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/song-sheets/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/specie/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/spellwright/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stature/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-storied-systems/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/strata/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/strew/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/stricken/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-stride/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/table-service/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/taproom/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/temperament/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tether/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threads/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threshold/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tilestack/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/timber/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/touchpaper/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/township/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/table-service/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/taproom/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/temperament/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tether/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threads/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threshold/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tilestack/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/timber/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/touchpaper/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/township/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-trailblazer/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tray/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/unveil/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/verdict-core/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/tray/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/unveil/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/verdict-core/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vigil/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/visage/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vista/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vivarium/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/voyage-core/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wanted-posters/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/warhost/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/windowskin-foundry/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wrack/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/your-own-art-sampler/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/visage/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vista/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/vivarium/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/voyage-core/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wanted-posters/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/warhost/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/windowskin-foundry/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/wrack/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/your-own-art-sampler/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/adversary-gamemaker/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/affliction-gamemaker/</loc><lastmod>2026-11-17</lastmod></url>

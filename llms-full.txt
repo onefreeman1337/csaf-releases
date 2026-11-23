@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 848 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 849 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T05:55:17.844Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T09:26:37.322Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -776,11 +776,11 @@ Verdant Props is a 16x16 props tileset for RPG Maker MZ, Tiled, Godot 4, Unity a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Retro Library: 8 Game Boy, GB Studio & NES Tilesets
+### Verdant Retro Library: 9 Game Boy, GB Studio & NES Tilesets
 
 Store: https://csaf.itch.io/verdant-retro-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant Retro Library is 8 Verdant Game Boy, GBC and NES style tilesets in one download: 7,125 tiles for Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Retro Library is 9 Verdant Game Boy, GBC and NES style tilesets in one download: 8,322 tiles for Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1288,7 +1288,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/streetlight-01-modern-townsfolk · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/streetlight-01-modern-townsfolk/ · Paid
 
-Ten present day townsfolk sprites for a modern top down game in RPG Maker MZ, Godot 4 or any engine.
+Want the whole set? Ten present day townsfolk sprites for a modern top down game in RPG Maker MZ, Godot 4 or any engine.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1984,11 +1984,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 148 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 151 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 20,320 royalty free sound effects in 148 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 20,653 royalty free sound effects in 151 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2550,7 +2550,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 130 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 131 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2600,7 +2600,7 @@ Armorial is a 3 file RPG Maker MZ plugin that ends your game with a fate plate f
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Arras — the playthrough, woven
+### Arras: the playthrough, woven, a Tapestry Plugin for RPG Maker MZ
 
 Store: https://csaf.itch.io/arras · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/arras/ · Paid · Engines: RPG Maker
 
@@ -2648,7 +2648,7 @@ Want the whole set? Barrage is 3 RPG Maker MZ plugins that turn every enemy atta
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Barrow — every death carves its own marker
+### Barrow: every death carves its own marker, Gravestone Plugin for RPG Maker MZ
 
 Store: https://csaf.itch.io/barrow · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/barrow/ · Paid · Engines: RPG Maker
 
@@ -2680,7 +2680,7 @@ Want the whole set? Bout is a 3 file RPG Maker MZ plugin: a real-time 1v1 fighti
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Bracket
+### Bracket: Shop Signs From What Each Shop Sells, RPG Maker MZ Plugin
 
 Store: https://csaf.itch.io/bracket · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/bracket/ · Paid · Engines: RPG Maker
 
@@ -2748,7 +2748,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/chronicle-core · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/chronicle-core/ · Paid · Engines: RPG Maker
 
-Chronicle Core is a quest plugin for RPG Maker MZ with 12 commands: branching outcomes that close each other off, faction reputation and world state.
+Want the whole set? Chronicle Core is a quest plugin for RPG Maker MZ with 12 commands: branching outcomes that close each other off, faction reputation and world state.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2759,6 +2759,14 @@ Store: https://csaf.itch.io/cipher-core · Our page: https://onefreeman1337.gith
 Cipher Core is 3 RPG Maker MZ plugins for an invented written language: 122 glyphs stay unread until the player proves what they mean. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
+
+### Clemency: 3 Undertale-Style Battle Plugins for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-clemency · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-clemency/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Cloudshadow — weather that throws a real shadow, for RPG Maker MZ
 
@@ -2832,7 +2840,7 @@ Want the whole set? Emaki is an RPG Maker MZ plugin that paints what the player 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Embrace - Hugs, Kisses, Holding Hands and Carries From Your Own Sprites for RPG Maker MZ
+### Embrace: Hug, Kiss and Carry Character Poses for RPG Maker MZ
 
 Store: https://csaf.itch.io/embrace · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/embrace/ · Paid · Engines: RPG Maker
 
@@ -2944,7 +2952,7 @@ Want the whole set? They move when you look away.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Glaze — every consumable is thrown its own vessel
+### Glaze: every consumable is thrown its own vessel, Item Icon Plugin for RPG Maker MZ
 
 Store: https://csaf.itch.io/glaze · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/glaze/ · Paid · Engines: RPG Maker
 
@@ -2956,7 +2964,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/goose · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/goose/ · Paid · Engines: RPG Maker
 
-Goose is a party board game plugin for RPG Maker MZ: a dice race across 6 generated landscapes, laid out and drawn by the plugin, against up to 3 rivals.
+Want the whole set? Goose is a party board game plugin for RPG Maker MZ: a dice race across 6 generated landscapes, laid out and drawn by the plugin, against up to 3 rivals.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3104,7 +3112,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 143 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 144 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3128,7 +3136,7 @@ Want the whole set? Over the Shoulder is an RPG Maker MZ plugin that shows your 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Patina — Every Item Shows What It Has Been Through
+### Patina: Every Item Shows What It Has Been Through, Durability Plugin for RPG Maker MZ
 
 Store: https://csaf.itch.io/patina · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/patina/ · Paid · Engines: RPG Maker
 
@@ -3176,7 +3184,7 @@ Want the whole set? Plinth is an RPG Maker MZ plugin that strikes your own chara
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Posture - Sit, Kneel, Sleep and Wave Poses From Your Own Sprites (RPG Maker MZ)
+### Posture: Character Poses From Your Own Sprites, RPG Maker MZ
 
 Store: https://csaf.itch.io/posture · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/posture/ · Paid · Engines: RPG Maker
 
@@ -3228,7 +3236,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/rebuttal · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebuttal/ · Paid · Engines: RPG Maker
 
-Rebuttal is a class trial debate plugin for RPG Maker MZ: statements fly past as big moving type, with 8 entrances and 7 paths, and the player shoots the lie.
+Want the whole set? Rebuttal is a class trial debate plugin for RPG Maker MZ: statements fly past as big moving type, with 8 entrances and 7 paths, and the player shoots the lie.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3252,7 +3260,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/rummage · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rummage/ · Paid · Engines: RPG Maker
 
-I Spy scenes for RPG Maker MZ from your own database: 8 surfaces, 3 crowd grounds Rummage is an RPG Maker MZ plugin that builds seek and find scenes out of what your project already has.
+Want the whole set? I Spy scenes for RPG Maker MZ from your own database: 8 surfaces, 3 crowd grounds Rummage is an RPG Maker MZ plugin that builds seek and find scenes out of what your project already has.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3436,7 +3444,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/threads · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/threads/ · Paid · Engines: RPG Maker
 
-Threads is a player facing story flowchart plugin for RPG Maker MZ and MV: every branch, branch jump, and an ending gallery with 48 emblem motifs. Royalty free.
+Want the whole set? Threads is a player facing story flowchart plugin for RPG Maker MZ and MV: every branch, branch jump, and an ending gallery with 48 emblem motifs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
