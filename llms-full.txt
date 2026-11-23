@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 838 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 839 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T03:13:24.025Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T05:32:21.480Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -5408,7 +5408,7 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 
 Store: https://csaf.itch.io/bitterworks · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/bitterworks/ · Free
 
-A soda works on a drying salt lake. Sink wells into the brine under the bed, run it east through evaporation pans, crystallise salt and bittern, still the bittern into potash, and burn the two back together into soda ash for the railhead.
+A soda works on a drying salt lake: a bed of 9 by 6 cells, eight years, one standing order.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -6082,7 +6082,15 @@ AI disclosure: AI Assisted, Code, Graphics, Sounds, Text
 
 ## UI kits
 
-Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 29 products.
+Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page. 30 products.
+
+### App Drawer: Dating App + Social Feed Phone UI Kit, 6 Looks
+
+Store: https://csaf.itch.io/app-drawer-dating-app-and-social-feed-phone-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/app-drawer-dating-app-and-social-feed-phone-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Want the whole set? App Drawer is a dating app and social feed phone UI kit for Godot 4 and five more engines: six app looks of 129 to 140 widgets each, pixel and HD.
+
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Arena Ticket: Monster Battle UI Kit (Pixel + HD)
 
@@ -6724,19 +6732,19 @@ Want the whole set? Plaguewick is also sold on the Greyhollow page, together wit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 27 Low Poly Packs + Every New One
+### PSX Character Library: 28 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Cordon: 14 PSX Exclusion Zone Characters, added in v1.13.0 (2026-11-22).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Kombinat: 14 PSX Soviet Factory, Rail and Metro Workers, added in v1.14.0 (2026-11-23).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 27 Free Low Poly 3D Characters
+### PSX Characters Sampler: 28 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 27 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 28 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
 
