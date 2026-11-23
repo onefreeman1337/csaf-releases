@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 850 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T10:58:08.614Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T11:21:04.012Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2348,11 +2348,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 60 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
+### Music Library: 61 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 60 royalty free game music albums, 2,660 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 61 royalty free game music albums, 2,716 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
