@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 852 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T18:15:34.309Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T20:45:40.995Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -720,11 +720,11 @@ Want the whole set? Verdant Hex 02 is a 32x32 pointy top hex tileset in pixel ar
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Interiors Library: All 7 Interior Tileset Packs
+### Verdant Interiors Library: All 8 Interior Tileset Packs
 
 Store: https://csaf.itch.io/verdant-interiors-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-interiors-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
 
-Verdant Interiors Library is every paid Verdant interiors tileset in one download: 7 packs and 3,394 tiles for Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Interiors Library is every paid Verdant interiors tileset in one download: 8 packs and 3,568 tiles for Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6300,6 +6300,14 @@ Phone Line is a pixel art phone and chat UI kit for visual novels, for Ren'Py, G
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Pixel Icon Library: 2 Packs, 1,206 RPG Item and UI Icons
+
+Store: https://csaf.itch.io/ui-glyphs-pixel-game-icons · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-glyphs-pixel-game-icons/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
+
+Want the whole set? 1,206 pixel game icons in two packs for Godot 4 and RPG Maker MZ: Satchel, 794 fantasy RPG item icons at 32 px, and UI Glyphs, 412 interface icons at 16 and 32 px, with files for Unity, Unreal, GameMaker and Ren'Py.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Proscenium: 9 Title, Settings, Save Screens, Godot UI Kit
 
 Store: https://csaf.itch.io/proscenium-title-settings-and-save-screen-ui-kit · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/proscenium-title-settings-and-save-screen-ui-kit/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
@@ -6348,19 +6356,11 @@ Want the whole set? Triple Stack is three UI kits for casual and idle games, for
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### UI Glyphs: 412 Pixel Game Icons for Godot and RPG Maker
-
-Store: https://csaf.itch.io/ui-glyphs-pixel-game-icons · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-glyphs-pixel-game-icons/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
-
-Want the whole set? 412 pixel game icons in 21 categories for Godot 4 and RPG Maker MZ, drawn at 16 and 32 px, with files for Unity, Unreal, GameMaker and Ren'Py.
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### UI Kit Collection: All 38 Pixel Art GUI Kits, Icons and Fonts, Files for Godot, Unity, GameMaker + Every New One
+### UI Kit Collection: All 39 Pixel Art GUI Kits, Icons and Fonts, Files for Godot, Unity, GameMaker + Every New One
 
 Store: https://csaf.itch.io/ui-kit-collection · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-kit-collection/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Every CSAF UI kit in one download: 38 kits, 56 themes and 5,063 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games, no credit required.
+Every CSAF UI kit in one download: 39 kits, 59 themes and 5,390 widgets for Godot 4, Unity and RPG Maker MZ. Royalty free in your games. Try 56 of the themes first in the free UI Kit Sampler.
 
 AI disclosure: AI Assisted, Code, Graphics
 
