@@ -1,12 +1,12 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 839 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 848 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T05:32:21.480Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T05:55:17.844Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
-Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 103 products.
+Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page. 104 products.
 
 ### Verdant 00: Free Tileset Sampler, 878 Tiles [16x16]
 
@@ -760,6 +760,14 @@ Verdant Openables is 34 doors, chests, gates and hatches that open, in 16x16 pix
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Verdant Overworld Library: 7 Town & Castle Tilesets
+
+Store: https://csaf.itch.io/verdant-overworld-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-overworld-library/ · Paid · Engines: Unity, RPG Maker, Tiled, Godot
+
+Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack. Free to try first: the Verdant 00 Series Sampler.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdant Props — 70 Props Across Ten Biomes for RPG Maker MZ, Tiled, Godot & Unity [16x16]
 
 Store: https://csaf.itch.io/verdant-props · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-props/ · Paid · Engines: Unity, GameMaker, RPG Maker, Tiled, Godot
@@ -1406,7 +1414,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 87 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 88 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1872,6 +1880,14 @@ Want the whole set? Reelhouse is 126 slot machine sound effects in WAV and OGG f
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Reroll: 322 Auto Battler Sound Effects
+
+Store: https://csaf.itch.io/reroll-auto-battler-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/reroll-auto-battler-sound-effects/ · Paid
+
+Want the whole set? Reroll is 322 royalty free auto battler sound effects in 3 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Salt and Timber: 165 Ship Sound Effects and 42 Music Tracks
 
 Store: https://csaf.itch.io/salt-and-timber-ships-and-sea-audio-kit · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/salt-and-timber-ships-and-sea-audio-kit/ · Paid
@@ -2204,19 +2220,19 @@ Compliance is a 44 track corporate dystopia music pack for any game engine: one 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Cozy Game Clock: 142 Life Sim Music Tracks
+
+Store: https://csaf.itch.io/cozy-game-clock · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/cozy-game-clock/ · Paid
+
+Want the whole set? Cozy Game Clock is 142 cozy game music tracks for life sim and farming games in Godot, Unity, GameMaker or RPG Maker: three complete scores on one game clock.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Deep Space - A Sci-Fi Space Game Music Pack - 44 Tracks
 
 Store: https://csaf.itch.io/deep-space · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/deep-space/ · Paid
 
 Deep Space is a 44 track score for space games: the bridge and the engine room, a station and its cantina, drift and the nebula, planetfall and alien ruins, a derelict to board, ship battles, two bosses and the cues a game fires all day.
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### Desert - Caravan, Dunes and the Sunken City - Fantasy Game Music Pack - 44 Tracks
-
-Store: https://csaf.itch.io/desert-caravan · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/desert-caravan/ · Paid
-
-Desert is a 44 track score for desert fantasy games: the caravan road and the dune sea, the oasis town, the bazaar and the sultan's court, the sandstorm and the salt flats, a city buried in the sand, the battles and bosses fought over it, a sand wyrm, and the cues a game fires all day.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2534,7 +2550,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 126 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 130 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -2677,6 +2693,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/broadside · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/broadside/ · Paid · Engines: RPG Maker
 
 Ship-to-ship battles for RPG Maker MZ, drawn broadside-on like an age-of-sail painting. Two sailing ships fight on a painted sea under a painted sky. Your ship rolls on the swell in the foreground; the enemy lies beyond her.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Byplay: 3 Character Pose Plugins for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-byplay · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-byplay/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3184,6 +3208,14 @@ Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and eve
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Rearguard: 4 Back-View Battle Plugins for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-rearguard · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-rearguard/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Rebus - Picture Word Puzzles for RPG Maker MZ, Built From Your Own Database
 
 Store: https://csaf.itch.io/rebus · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/rebus/ · Paid · Engines: RPG Maker
@@ -3360,6 +3392,14 @@ Stricken is an RPG Maker MZ plugin that shows your party's states on the map, st
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Stride: 3 Run, Idle and Gait Plugins for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-stride · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-stride/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Table Service - Restaurant Serving Minigame on Your Own Map for RPG Maker MZ
 
 Store: https://csaf.itch.io/table-service · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/table-service/ · Paid · Engines: RPG Maker
@@ -3437,6 +3477,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/township · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/township/ · Paid · Engines: RPG Maker
 
 Want the whole set? Township is an NPC daily routine plugin for RPG Maker MZ and MV: 9 plugin commands give every townsperson a real day, overnight shifts included.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Trailblazer: 3 Bomb, Cut and Hop Plugins for RPG Maker MZ
+
+Store: https://csaf.itch.io/mz-trailblazer · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-trailblazer/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6326,7 +6374,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Godot 4 addons
 
-Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 26 products.
+Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page. 28 products.
 
 ### Arras for Godot 4: Your Playthrough Woven Into a Tapestry
 
@@ -6373,6 +6421,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/fathom-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/fathom-godot/ · Paid · Engines: Godot
 
 Want the whole set? Fathom is a Godot 4.7 addon that turns any 2D scene into an underwater level: 48 species and 12 seas, every one drawn in code. Royalty free in your games.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Faultline: 148 Destruction Presets for Godot 4
+
+Store: https://csaf.itch.io/faultline-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/faultline-godot/ · Paid · Engines: Godot
+
+Want the whole set? Faultline is a Godot 4.7 volume of four 2D destruction addons with 148 presets, working on your own TileMapLayers and sprites under Forward+ and Compatibility.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6496,6 +6552,14 @@ Want the whole set? Township is a Godot 4.7 addon for NPC daily routines on your
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Undertow: 144 Water Presets for Godot 4
+
+Store: https://csaf.itch.io/undertow-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/undertow-godot/ · Paid · Engines: Godot
+
+Want the whole set? Undertow is a Godot 4.7 volume of three 2D water addons with 144 presets, working on your own TileMapLayers under Forward+ and Compatibility.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Verdigris: 48 Material Ageing Shaders for Godot 4
 
 Store: https://csaf.itch.io/verdigris-godot · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/verdigris-godot/ · Paid · Engines: Godot
@@ -6538,7 +6602,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## 3D model packs
 
-Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 29 products.
+Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page. 30 products.
 
 ### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
@@ -6681,6 +6745,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/ironvale-psx-fantasy-adventurers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/ironvale-psx-fantasy-adventurers/ · Paid · Engines: Blender
 
 Want the whole set? Ironvale, Oathfall and Highcourt are 42 low poly PS1-style fantasy characters for Godot 4, Unity and Unreal: 14 heroic adventurers, 14 dark knights and undead warriors, and 14 people of a royal court.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Kombinat: 14 Animated PSX Soviet Worker Characters
+
+Store: https://csaf.itch.io/kombinat-psx-soviet-factory-rail-and-metro-workers · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/kombinat-psx-soviet-factory-rail-and-metro-workers/ · Paid · Engines: Blender
+
+Want the whole set? Kombinat is 14 low poly PS1-style workers of a Soviet era industrial town, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 

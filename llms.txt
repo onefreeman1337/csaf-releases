@@ -1,16 +1,16 @@
 # Core Systems Asset Factory (CSAF)
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 839 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 848 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
 Each product page gives the product title, its line, the engines it is made for, the opening of its public description, its tags, its AI disclosure exactly as the store page states it, whether it is free or paid, and one link to its itch.io page.
 
 ## Catalogue
 
-- [Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/): 103 products. Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page.
+- [Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/): 104 products. Tileset packs for 2D games. Tile size, layout and engine importers are stated on each store page.
 - [Sprite packs](https://onefreeman1337.github.io/csaf-releases/sprite-packs/): 71 products. Pixel art sprite packs: characters, creatures, objects and effects. Sizes, directions and animations are stated on each store page.
-- [Sound effect packs](https://onefreeman1337.github.io/csaf-releases/sound-effects/): 87 products. Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page.
+- [Sound effect packs](https://onefreeman1337.github.io/csaf-releases/sound-effects/): 88 products. Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page.
 - [Game music packs](https://onefreeman1337.github.io/csaf-releases/game-music/): 53 products. Game music packs. Formats and track counts are stated on each store page.
-- [RPG Maker MZ plugins](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/): 126 products. Plugins for RPG Maker MZ, shipped as readable JavaScript source.
+- [RPG Maker MZ plugins](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/): 130 products. Plugins for RPG Maker MZ, shipped as readable JavaScript source.
 - [GameMaker assets](https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/): 86 products. GML systems and assets for GameMaker.
 - [Unity editor tools](https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/): 40 products. Editor tools for Unity 6.
 - [Unreal Engine 5 plugins](https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/): 43 products. Editor plugins for Unreal Engine 5.
@@ -18,13 +18,14 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Free browser games](https://onefreeman1337.github.io/csaf-releases/free-browser-games/): 69 products. Free games that play in the browser.
 - [Voice packs](https://onefreeman1337.github.io/csaf-releases/voice-packs/): 20 products. Spoken line packs for games, voiced with AI text to speech. Each pack has a free sampler; line counts and formats are stated on each store page.
 - [UI kits](https://onefreeman1337.github.io/csaf-releases/ui-kits/): 30 products. Game UI and GUI kits built from one theme: widgets with every state, nine-slice panels and exports for Godot, Unity, Unreal, GameMaker, RPG Maker MZ and Ren'Py. Widget counts and formats are stated on each store page.
-- [Godot 4 addons](https://onefreeman1337.github.io/csaf-releases/godot-addons/): 26 products. Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page.
-- [3D model packs](https://onefreeman1337.github.io/csaf-releases/3d-models/): 29 products. Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page.
+- [Godot 4 addons](https://onefreeman1337.github.io/csaf-releases/godot-addons/): 28 products. Addon packs for Godot 4: 2D VFX and shader presets, procedural systems and themed game kits, shipped as readable GDScript and shader source with a demo scene. Preset counts and renderer support are stated on each store page.
+- [3D model packs](https://onefreeman1337.github.io/csaf-releases/3d-models/): 30 products. Low-poly PlayStation-era 3D character packs: rigged, animated, with 256 px painted textures, three palette skins per character, GLB, FBX, OBJ and Blender files and a PSX shader for Godot 4. Character and clip counts are stated on each store page.
 
 ## Libraries: a whole line on one store page
 
 - [Verdant Interiors Library: All 7 Interior Tileset Packs](https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-interiors-library/): one itch.io page that holds the tileset packs of that set and each new one that joins it. Store page: https://csaf.itch.io/verdant-interiors-library
 - [Verdant Library: All 109 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One](https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/): one itch.io page that holds the tileset packs of that set and each new one that joins it. Store page: https://csaf.itch.io/verdant-library
+- [Verdant Overworld Library: 7 Town & Castle Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-overworld-library/): one itch.io page that holds the tileset packs of that set and each new one that joins it. Store page: https://csaf.itch.io/verdant-overworld-library
 - [Verdant Retro Library: 8 Game Boy, GB Studio & NES Tilesets](https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-retro-library/): one itch.io page that holds the tileset packs of that set and each new one that joins it. Store page: https://csaf.itch.io/verdant-retro-library
 - [Hearthhands Library: 9 Villager Sprite Packs, Every New One](https://onefreeman1337.github.io/csaf-releases/sprite-packs/hearthhands-collection/): one itch.io page that holds the pixel art sprite packs of that set and each new one that joins it. Store page: https://csaf.itch.io/hearthhands-collection
 - [Kithfell Library: 6 Animal Sprite Packs, Every New One](https://onefreeman1337.github.io/csaf-releases/sprite-packs/kithfell-collection/): one itch.io page that holds the pixel art sprite packs of that set and each new one that joins it. Store page: https://csaf.itch.io/kithfell-collection
@@ -47,10 +48,10 @@ Each product page gives the product title, its line, the engines it is made for,
 
 ## Catalogue by engine
 
-- [Godot 4 tilesets](https://onefreeman1337.github.io/csaf-releases/godot-4-tilesets/): 99 tileset packs for Godot 4.
-- [Tiled tilesets](https://onefreeman1337.github.io/csaf-releases/tiled-tilesets/): 99 tileset packs for Tiled.
-- [RPG Maker MZ tilesets](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-tilesets/): 88 tileset packs for RPG Maker MZ.
-- [Unity tilesets](https://onefreeman1337.github.io/csaf-releases/unity-tilesets/): 58 tileset packs for Unity.
+- [Godot 4 tilesets](https://onefreeman1337.github.io/csaf-releases/godot-4-tilesets/): 100 tileset packs for Godot 4.
+- [Tiled tilesets](https://onefreeman1337.github.io/csaf-releases/tiled-tilesets/): 100 tileset packs for Tiled.
+- [RPG Maker MZ tilesets](https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-tilesets/): 89 tileset packs for RPG Maker MZ.
+- [Unity tilesets](https://onefreeman1337.github.io/csaf-releases/unity-tilesets/): 59 tileset packs for Unity.
 - [GameMaker tilesets](https://onefreeman1337.github.io/csaf-releases/gamemaker-tilesets/): 19 tileset packs for GameMaker.
 - [Godot 4 sprite packs](https://onefreeman1337.github.io/csaf-releases/godot-4-sprite-packs/): 3 pixel art sprite packs for Godot 4.
 - [GameMaker UI kits](https://onefreeman1337.github.io/csaf-releases/gamemaker-ui-kits/): 30 game UI kits for GameMaker.
@@ -59,7 +60,7 @@ Each product page gives the product title, its line, the engines it is made for,
 - [Unity UI kits](https://onefreeman1337.github.io/csaf-releases/unity-ui-kits/): 30 game UI kits for Unity.
 - [Unreal Engine UI kits](https://onefreeman1337.github.io/csaf-releases/unreal-engine-ui-kits/): 30 game UI kits for Unreal Engine.
 - [Ren'Py UI kits](https://onefreeman1337.github.io/csaf-releases/ren-py-ui-kits/): 29 game UI kits for Ren'Py.
-- [Blender 3D model packs](https://onefreeman1337.github.io/csaf-releases/blender-3d-models/): 29 3D model packs for Blender.
+- [Blender 3D model packs](https://onefreeman1337.github.io/csaf-releases/blender-3d-models/): 30 3D model packs for Blender.
 
 ## Free browser games by genre
 
