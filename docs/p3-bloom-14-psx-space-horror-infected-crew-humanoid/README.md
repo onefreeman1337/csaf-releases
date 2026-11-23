@@ -22,20 +22,20 @@ Theme: the crew of a deep space mining station after a fungal infection took the
 
 | name | folder | triangles | skins | clips |
 | --- | --- | --- | --- | --- |
-| Infected rigger | `bl_rigger` | 1497 | 3 | 46 |
-| Infected lab technician | `bl_lab_tech` | 1498 | 3 | 46 |
-| Infected security officer | `bl_security` | 1497 | 3 | 46 |
-| Infected medic | `bl_medic` | 1498 | 3 | 46 |
-| Infected captain | `bl_captain` | 1496 | 3 | 46 |
-| Infected galley cook | `bl_galley_cook` | 1497 | 3 | 46 |
-| Infected EVA technician | `bl_eva_tech` | 1499 | 3 | 46 |
-| Infected miner | `bl_miner` | 1499 | 3 | 46 |
-| Infected pilot | `bl_pilot` | 1497 | 3 | 46 |
-| Infected comms officer | `bl_comms` | 1499 | 3 | 46 |
-| Infected reactor tech | `bl_reactor_tech` | 1498 | 3 | 46 |
-| Infected executive | `bl_executive` | 1497 | 3 | 46 |
+| Rigger | `bl_rigger` | 1497 | 3 | 46 |
+| Lab technician | `bl_lab_tech` | 1498 | 3 | 46 |
+| Security officer | `bl_security` | 1497 | 3 | 46 |
+| Medic | `bl_medic` | 1498 | 3 | 46 |
+| Captain | `bl_captain` | 1496 | 3 | 46 |
+| Galley cook | `bl_galley_cook` | 1497 | 3 | 46 |
+| EVA technician | `bl_eva_tech` | 1499 | 3 | 46 |
+| Miner | `bl_miner` | 1499 | 3 | 46 |
+| Pilot | `bl_pilot` | 1497 | 3 | 46 |
+| Comms officer | `bl_comms` | 1499 | 3 | 46 |
+| Reactor tech | `bl_reactor_tech` | 1498 | 3 | 46 |
+| Executive | `bl_executive` | 1497 | 3 | 46 |
 | The first host | `bl_host` | 1500 | 3 | 46 |
-| Infected hydroponics tech | `bl_hydroponics` | 1499 | 3 | 46 |
+| Hydroponics tech | `bl_hydroponics` | 1499 | 3 | 46 |
 
 ## What is in each character's folder (`models/<id>/`)
 
@@ -61,7 +61,7 @@ The rig is the open (CC0) Quaternius Universal humanoid skeleton (53 bones, Rigi
 
 ## Scale and style
 
-Characters stand 1.74-1.92 m tall (Infected rigger 1.88 m, Infected lab technician 1.79 m, Infected security officer 1.90 m, Infected medic 1.77 m, Infected captain 1.85 m, Infected galley cook 1.74 m, Infected EVA technician 1.83 m, Infected miner 1.77 m, Infected pilot 1.83 m, Infected comms officer 1.79 m, Infected reactor tech 1.87 m, Infected executive 1.81 m, The first host 1.92 m, Infected hydroponics tech 1.76 m); the scale sits on the armature object, so the clips scale with it, Z-up in Blender / Y-up in glTF. The look is the mid-1990s console era: low triangle counts, hand-painted 256 px textures, no normal maps. Use nearest filtering and the PSX shader for the full effect (vertex snapping, affine texture warp, dithering, fog - every parameter is a slider).
+Characters stand 1.74-1.92 m tall (Rigger 1.88 m, Lab technician 1.79 m, Security officer 1.90 m, Medic 1.77 m, Captain 1.85 m, Galley cook 1.74 m, EVA technician 1.83 m, Miner 1.77 m, Pilot 1.83 m, Comms officer 1.79 m, Reactor tech 1.87 m, Executive 1.81 m, The first host 1.92 m, Hydroponics tech 1.76 m); the scale sits on the armature object, so the clips scale with it, Z-up in Blender / Y-up in glTF. The look is the mid-1990s console era: low triangle counts, hand-painted 256 px textures, no normal maps. Use nearest filtering and the PSX shader for the full effect (vertex snapping, affine texture warp, dithering, fog - every parameter is a slider).
 
 ## Licence
 
