@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 849 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 850 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T09:26:37.322Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T10:58:08.614Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1414,7 +1414,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 88 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 89 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1461,6 +1461,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/barrage-shmup-bullet-hell-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/barrage-shmup-bullet-hell-sound-effects/ · Paid
 
 Want the whole set? Barrage is 138 shoot em up sound effects for Unity, Godot, GameMaker or any engine, grouped by the mechanic each one serves.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Big Top: 333 Circus and Amusement Park Sound Effects
+
+Store: https://csaf.itch.io/big-top-circus-carnival-amusement-park-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/big-top-circus-carnival-amusement-park-sound-effects/ · Paid
+
+Want the whole set? Big Top is 333 royalty free circus, carnival and amusement park sound effects for Godot, Unity, GameMaker and any engine, in 3 packs.
 
 AI disclosure: AI Assisted, Code, Graphics
 
