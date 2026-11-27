@@ -54,8 +54,8 @@ Body `i` carries the key `StarChart2D.BODY_KEYS[i]` (self, heart, word, love, st
 differ per style (classic names, or a generated calendar's); meanings do not, so your game logic works with any style.
 
 A chart redraws only the strokes still drawing: finished strokes are recorded once and left alone, and a finished chart
-is not redrawn. Many charts drawing at the same moment are costly under Forward+ (fifty at once measured above 100 ms a
-frame on the test machine, under 30 ms under Compatibility); a handful at a time is the intended use.
+is not redrawn. Many charts drawing at the same moment are costly under Forward+ (fifty at once measured over 100 ms a
+frame on the test machine, several times less under Compatibility); a handful at a time is the intended use.
 
 The same `chart_seed`, style and kind always draw the same chart (a saved reading can be redrawn exactly).
 `draw_chart()` with no argument picks a new seed; `draw_chart(1234)` uses that one. Set `use_date` and `date`
