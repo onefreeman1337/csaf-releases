@@ -1,8 +1,8 @@
 # Core Systems Asset Factory (CSAF) catalogue
 
-> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 852 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
+> Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 854 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T22:24:59.743Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-27T07:17:17.114Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1320,7 +1320,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/wayfarer-01-the-green-road · Our page: https://onefreeman1337.github.io/csaf-releases/sprite-packs/wayfarer-01-the-green-road/ · Paid
 
-Wayfarer 01 is 4 top down traveller sprites for RPG Maker MZ, Godot and any 2D engine: 4 directions, a 6 frame walk and an idle, at 128 and 64 px. Commercial use, no royalty.
+Want the whole set? Wayfarer 01 is 4 top down traveller sprites for RPG Maker MZ, Godot and any 2D engine: 4 directions, a 6 frame walk and an idle, at 128 and 64 px.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -1414,7 +1414,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## Sound effect packs
 
-Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 89 products.
+Sound effect packs for games, synthesised procedurally. File formats and counts are stated on each store page. 90 products.
 
 ### Akatsuki — Anime / JRPG Sound Suite
 
@@ -1576,7 +1576,7 @@ Want the whole set? Every hold a game climbs, one hand on all of them 648 climbi
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Concrete — Urban and Liminal Place Beds
+### Concrete: Urban and Liminal Place Beds, Ambient Sound Effects
 
 Store: https://csaf.itch.io/concrete-liminal-place-beds · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/concrete-liminal-place-beds/ · Paid
 
@@ -1660,7 +1660,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/footfall-footstep-sfx · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/footfall-footstep-sfx/ · Paid
 
-Footfall is 576 footstep sound effects for Unity, Godot, Unreal, GameMaker and the web, on 12 surfaces at 4 gaits and 3 weights. Royalty free, with a free demo.
+Want the whole set? Footfall is 576 footstep sound effects for Unity, Godot, Unreal, GameMaker and the web, on 12 surfaces at 4 gaits and 3 weights. Royalty free, with a free demo.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2128,6 +2128,14 @@ One monster, three sizes, one throat 360 monster voice sound effects in WAV and 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Willow and Scrum: 319 Cricket and Rugby Sound Effects
+
+Store: https://csaf.itch.io/willow-and-scrum-cricket-rugby-sound-effects · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/willow-and-scrum-cricket-rugby-sound-effects/ · Paid
+
+Want the whole set? Willow and Scrum is 319 royalty free cricket and rugby sound effects for Godot, Unity, GameMaker and any engine, in 3 packs. A cricket or rugby game needs more than a generic bat and a whistle.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ## Game music packs
 
 Game music packs. Formats and track counts are stated on each store page. 53 products.
@@ -2308,7 +2316,7 @@ Gumshoe is a 44 track noir detective music pack for games: 38 full looping piece
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearthmoot - A Folk Village & Market Score - 42 Tracks
+### Hearthmoot: A Folk Village & Market Score, Music Pack of 42 Tracks
 
 Store: https://csaf.itch.io/hearthmoot · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/hearthmoot/ · Paid
 
@@ -2356,7 +2364,7 @@ CSAF Music Library is 63 royalty free game music albums, 2,856 tracks as OGG and
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Nightglass - A Complete Neon City Score - 42 Tracks
+### Nightglass: A Complete Neon City Score, Music Pack of 42 Tracks
 
 Store: https://csaf.itch.io/nightglass · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/nightglass/ · Paid
 
@@ -2388,7 +2396,7 @@ Want the whole set? Quiet Hours is a 44 track lofi music pack for any game engin
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Saltline - A Voyage & Harbour Score - 42 Tracks
+### Saltline: A Voyage & Harbour Score, Music Pack of 42 Tracks
 
 Store: https://csaf.itch.io/saltline · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/saltline/ · Paid
 
@@ -2440,7 +2448,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/the-common-route · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-common-route/ · Paid
 
-The Common Route is a 44 track slice of life visual novel music pack: 38 full looping pieces and 6 short cues for scene changes, 48:37 of music, as OGG files with sample accurate loop tags plus all 44 editable MIDI sources.
+Want the whole set?
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2468,14 +2476,6 @@ The Keepsake is a 42 track narrative music pack for RPG Maker, Godot, Unity and 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### The Lantern Road - Eastern Fantasy Score - 42 Tracks On One Theme
-
-Store: https://csaf.itch.io/the-lantern-road · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-lantern-road/ · Paid
-
-Forty-two tracks. One road.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### The Lantern Road Vol. II - The Road Home - 42 Tracks
 
 Store: https://csaf.itch.io/the-lantern-road-vol-2 · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-lantern-road-vol-2/ · Paid
@@ -2484,7 +2484,15 @@ Forty-two tracks. The same road, walked back. This is the companion to The Lante
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### The Long Campaign - European High Fantasy Score - 50 Tracks On One Theme
+### The Lantern Road: Eastern Fantasy Score, Music Pack of 42 Tracks On One Theme
+
+Store: https://csaf.itch.io/the-lantern-road · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-lantern-road/ · Paid
+
+Forty-two tracks. One road.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### The Long Campaign: European High Fantasy Score, Music Pack of 50 Tracks On One Theme
 
 Store: https://csaf.itch.io/the-long-campaign · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/the-long-campaign/ · Paid
 
@@ -2540,7 +2548,7 @@ Want the whole set? Wayfarer is a 42 track JRPG overworld and travel music pack 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Wildwood - A Wilderness Exploration Score - 42 Tracks
+### Wildwood: A Wilderness Exploration Score, Music Pack of 42 Tracks
 
 Store: https://csaf.itch.io/wildwood · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/wildwood/ · Paid
 
@@ -2558,7 +2566,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 ## RPG Maker MZ plugins
 
-Plugins for RPG Maker MZ, shipped as readable JavaScript source. 131 products.
+Plugins for RPG Maker MZ, shipped as readable JavaScript source. 132 products.
 
 ### Ajar - Searchable Furniture for RPG Maker MZ: Drawers, Lids, Sacks and Shelves in Your Own Tileset Open
 
@@ -3120,7 +3128,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 144 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 145 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -3173,6 +3181,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/pennant · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/pennant/ · Paid · Engines: RPG Maker
 
 Want the whole set? Capture the flag, played by your own party. What this is, in plain words: Pennant is an RPG Maker MZ plugin (three JavaScript files, MZ 1.x) that adds a real-time capture-the-flag minigame to your game.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Picture Parlour: 4 Minigame Plugins + a Prize Counter for MZ
+
+Store: https://csaf.itch.io/mz-picture-parlour · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-picture-parlour/ · Paid · Engines: RPG Maker
+
+Also inside the MZ Plugin Library: every CSAF MZ plugin in one download, and every new one joins it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3612,27 +3628,11 @@ AI disclosure: AI Assisted, Code, Graphics
 
 GML systems and assets for GameMaker. 86 products.
 
-### Adversary — Multi-Phase Bosses for GameMaker
-
-Store: https://csaf.itch.io/adversary-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/adversary-gamemaker/ · Paid · Engines: GameMaker
-
-Adversary is a boss system for GameMaker, written in pure GML. There is no sprite in it, no spritesheet, and no texture page. Every creature on this page was drawn by the code you are buying.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Affliction: Status Effects and 960 Icons for GameMaker
 
 Store: https://csaf.itch.io/affliction-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/affliction-gamemaker/ · Paid · Engines: GameMaker
 
 Affliction is a status effect system for GameMaker with 960 icons it draws in code: burn, chill, toxin, shock, mind and body. Use it in as many games as you like, commercial or free.
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### Almanac - Calendars and Festivals for GameMaker
-
-Store: https://csaf.itch.io/almanac-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/almanac-gamemaker/ · Paid · Engines: GameMaker
-
-Almanac is a calendar for your game that prints itself.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3652,7 +3652,7 @@ Want the whole set? Arcade Cabinet is 3 complete minigames for GameMaker 2024.14
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Armoury - Weapons That Forge Themselves
+### Armoury: Weapons That Forge Themselves, a GameMaker Weapon Generator
 
 Store: https://csaf.itch.io/armoury-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/armoury-gamemaker/ · Paid · Engines: GameMaker
 
@@ -3660,11 +3660,11 @@ Armoury is a GameMaker weapon system in pure GML: 37 sword, axe, mace, hammer an
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Arras - The Playthrough, Woven, for GameMaker
+### Ashfall: 14 Animated PSX Wasteland Raiders and Survivors
 
-Store: https://csaf.itch.io/arras-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/arras-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/intertitle-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/intertitle-gamemaker/ · Paid · Engines: Blender
 
-Your game tells Arras what happened. Arras weaves it. A recap screen no two players share: the playthrough worked as an embroidered frieze, with a vignette for every act, border bands running the whole length, and a titulus over each panel.
+Want the whole set? Ashfall is also sold on the Fort Vale page, together with 14 PSX modern soldiers on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3700,11 +3700,27 @@ Beacon is a GML renderer with 5 energy effects for GameMaker: lightning, beams, 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Bivouac - Every Enemy Band Stages Its Own Ground, for GameMaker
+### Black Site: 14 Animated PSX Containment Facility Staff
 
-Store: https://csaf.itch.io/bivouac-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/bivouac-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/neon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/neon-gamemaker/ · Paid · Engines: Blender
 
-Every enemy band stages its own ground.
+Want the whole set? Black Site is also sold on the Deep Station page, together with the Deep Station space horror crew on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Blackwater: 14 Animated PSX Zombies and Infected
+
+Store: https://csaf.itch.io/tether-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/tether-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Blackwater is also sold on the Last Shift page, together with 13 PSX survivors on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Bloom: 14 Animated PSX Space Horror Infected Characters
+
+Store: https://csaf.itch.io/tray-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/tray-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Bloom is 14 low poly PS1-style infected crew of a deep space station, the enemies for a science fiction survival horror game, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3716,19 +3732,11 @@ Borough is a GameMaker system that draws a town street from code: 14 building ty
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Bourse - A Living Market That Draws Its Own Goods
+### Bourse: A Living Market That Draws Its Own Goods, a GameMaker Shop Economy
 
 Store: https://csaf.itch.io/bourse-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/bourse-gamemaker/ · Paid · Engines: GameMaker
 
 Every shop asset sets a price in a table and reads it back. This one does not have a price table. Bourse simulates stock and demand, and the price falls out of the two.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
-### Bracket - Shop Signs Composed from What the Shop Sells, for GameMaker
-
-Store: https://csaf.itch.io/bracket-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/bracket-gamemaker/ · Paid · Engines: GameMaker
-
-Every shop, inn and guild in your GameMaker town hangs its own sign, composed from what the shop actually sells: a wrought-iron bracket, a shaped and painted board, a trade mark, the shop's name in carved or gilt capitals, rings and chain, and weathering that follows how prosperous the street is.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -3737,6 +3745,22 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/branchwork-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/branchwork-gamemaker/ · Paid · Engines: GameMaker
 
 Want the whole set? Your branching story already has a shape. Branchwork draws it.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Butcher's Night: 14 Animated PSX Slasher Villains
+
+Store: https://csaf.itch.io/almanac-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/almanac-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Butcher's Night is 14 low poly PS1-style masked villains for a 1980s small town horror game, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Camp Redfern: 14 Animated PSX Summer Camp Cast
+
+Store: https://csaf.itch.io/arras-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/arras-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Camp Redfern is also sold on the Last Shift page, together with 13 PSX survival horror survivors on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3788,14 +3812,6 @@ Want the whole set? Cloudshadow is a GameMaker package that reads your room and 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Colophon - Save Slots That Draw Themselves, for GameMaker
-
-Store: https://csaf.itch.io/colophon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/colophon-gamemaker/ · Paid · Engines: GameMaker
-
-Colophon is a save system whose save screen is drawn from the saves.
-
-AI disclosure: AI Assisted, Code, Graphics
-
 ### Colosseum: Tournament Brackets and Crests for GameMaker
 
 Store: https://csaf.itch.io/colosseum-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/colosseum-gamemaker/ · Paid · Engines: GameMaker
@@ -3804,11 +3820,35 @@ Colosseum runs tournaments for GameMaker 2024 in pure GML: it seeds a field by r
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Cordon: 14 Animated PSX Exclusion Zone Characters
+
+Store: https://csaf.itch.io/strata-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/strata-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Cordon is 14 low poly PS1-style characters of a Soviet era nuclear exclusion zone, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Courtyard: 14 Animated PSX Post-Soviet Residents
+
+Store: https://csaf.itch.io/escapement-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/escapement-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Courtyard is 14 low poly PS1-style residents of a 1990s post-Soviet apartment block courtyard, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Crest: Faction Reputation and Heraldry for GameMaker
 
 Store: https://csaf.itch.io/crest-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/crest-gamemaker/ · Paid · Engines: GameMaker
 
 Crest is a faction and reputation system for GameMaker in pure GML that draws a coat of arms for every faction, from 44 charges and 8 shield shapes. Commercial use.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Crosstown: 14 Animated PSX City Civilians
+
+Store: https://csaf.itch.io/song-sheets-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/song-sheets-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Crosstown is also sold on the Fort Vale page, together with 14 PSX modern soldiers on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3844,13 +3884,13 @@ Effigy is a GameMaker library that draws a portrait for every NPC from its own t
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Escapement - Generated Clockwork Gear Puzzles, for GameMaker
+### Eight Angles: 14 Retro FPS Enemy Sprites and PSX Models
 
-Store: https://csaf.itch.io/escapement-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/escapement-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/hallmark-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/hallmark-gamemaker/ · Paid · Engines: Blender
 
-A locked door is usually a switch and a line of text.
+Want the whole set? Eight Angles is also sold on the Hollow Congregation page, together with the Hollow Congregation cultists and the Saint Oswin asylum cast on the same skeleton.
 
-AI disclosure: AI Assisted, Code, Graphics, Text
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Facet: Playing Card Faces and Deck Logic for GameMaker
 
@@ -3884,11 +3924,11 @@ Every mushroom, herb and berry in this package is drawn at run time from a speci
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Frontispiece - The Title Screen, Generated, for GameMaker
+### Foxhole: 14 Animated PSX WW2 Soldiers, Allied and Axis
 
-Store: https://csaf.itch.io/frontispiece-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/frontispiece-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/bracket-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/bracket-gamemaker/ · Paid · Engines: Blender
 
-The title screen, generated, for GameMaker: your game's name CUT letter by letter into slate, leather, oak or lacquer, framed by a border and a cartouche, crowned with a device read from your game's own words, over a command menu built from the same furniture.
+Want the whole set? Foxhole is also sold on the Fort Vale page, together with the Fort Vale modern soldiers and three more PSX packs on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3916,14 +3956,6 @@ Want the whole set? Halation is a lens flare system for GameMaker 2024.14 with 8
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hallmark - Struck Maker's Marks for Every Item, for GameMaker
-
-Store: https://csaf.itch.io/hallmark-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/hallmark-gamemaker/ · Paid · Engines: GameMaker
-
-Every item your loot system rolls gets its own maker's mark: a round, punched guild stamp struck from the item itself and drawn as vector geometry at any size, from a 16 px inventory icon to a 200 px plate.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
 ### Haversack: 48 Container Grid Inventory for GameMaker
 
 Store: https://csaf.itch.io/haversack-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/haversack-gamemaker/ · Paid · Engines: GameMaker
@@ -3932,11 +3964,27 @@ Haversack is a grid inventory for GameMaker 2024.14 in pure GML: 55 drawn items 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Hearth - Interiors That Furnish Themselves From Purpose And Occupant
+### Hearth: Interiors That Furnish Themselves From Purpose And Occupant, for GameMaker
 
 Store: https://csaf.itch.io/hearth-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/hearth-gamemaker/ · Paid · Engines: GameMaker
 
 You tell Hearth what a room is FOR and WHO LIVES IN IT. It furnishes the room. It chooses the pieces, solves where they stand, decides what is lying about, ages the surfaces, lights the fire, and draws the whole thing in pure GML.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Highcourt: 14 Animated PSX Royal Court and Nobles
+
+Store: https://csaf.itch.io/frontispiece-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/frontispiece-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Highcourt is also sold on the Ironvale page, together with the Ironvale fantasy adventurers and the Oathfall dark knights on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Hollyfrost: 14 Animated PSX Christmas Characters
+
+Store: https://csaf.itch.io/bivouac-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/bivouac-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Hollyfrost is also sold on the Greyhollow page, together with 14 PSX medieval townsfolk.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3953,14 +4001,6 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/hurrah-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/hurrah-gamemaker/ · Paid · Engines: GameMaker
 
 Hurrah is a celebration and reward-feedback system for GameMaker 2024.14 in pure GML, with a runnable demo room.
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### Intertitle - Title Cards for Every Place and Every Boss, for GameMaker
-
-Store: https://csaf.itch.io/intertitle-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/intertitle-gamemaker/ · Paid · Engines: GameMaker
-
-Title cards for GameMaker: every place your player walks into and every boss they face announces itself with a composed card, drawn in pure GML from facts your game already keeps.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3988,6 +4028,14 @@ Want the whole set? Kinetic UI is 8 spring animated interface widgets for GameMa
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Kombinat: 14 Animated PSX Soviet Worker Characters
+
+Store: https://csaf.itch.io/touchpaper-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/touchpaper-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Kombinat is 14 low poly PS1-style workers of a Soviet era industrial town, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Lexicon: Learnable Fantasy Alphabets for GameMaker
 
 Store: https://csaf.itch.io/lexicon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/lexicon-gamemaker/ · Paid · Engines: GameMaker
@@ -3996,7 +4044,7 @@ Want the whole set? Lexicon is a GameMaker system that invents a 36 glyph writin
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Liege - The NPC Day: Townspeople Who Walk To Work And Do It
+### Liege: The NPC Day, Townspeople Who Walk To Work And Do It, for GameMaker
 
 Store: https://csaf.itch.io/liege-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/liege-gamemaker/ · Paid · Engines: GameMaker
 
@@ -4004,7 +4052,7 @@ Your townspeople walk to a station, adopt a real work pose there with a generate
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Livery - Generated Interface Theme Corpus
+### Livery: Generated Interface Theme Corpus for GameMaker
 
 Store: https://csaf.itch.io/livery-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/livery-gamemaker/ · Paid · Engines: GameMaker
 
@@ -4012,7 +4060,7 @@ Forty complete interface themes, drawn in GML. No sprite, no nine-slice, no text
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Lode - Minerals That Draw Themselves
+### Lode: Minerals That Draw Themselves, a GameMaker Mineral Generator
 
 Store: https://csaf.itch.io/lode-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/lode-gamemaker/ · Paid · Engines: GameMaker
 
@@ -4025,14 +4073,6 @@ AI disclosure: AI Assisted, Code, Graphics, Text
 Store: https://csaf.itch.io/loom-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/loom-gamemaker/ · Free · pay what you want · Engines: GameMaker
 
 Loom is a free GameMaker library: capes, hair, tails, ropes, chains and pennants that trail any sprite with real lag, added in 3 lines of GML. rig = new LoomRig(loom_preset_cape()); // Create rig.step(x, y, image_index, image_xscale, delta_time); // Step rig.draw(); // Draw What is inside 6...
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### Loopwork - A Time Loop That Remembers, for GameMaker
-
-Store: https://csaf.itch.io/loopwork-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/loopwork-gamemaker/ · Paid · Engines: GameMaker
-
-The world resets. The player does not. A time-loop engine for GameMaker, with a Loop Ledger drawn as an engraved brass astrolabe.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4076,11 +4116,11 @@ Muster is a tactical battlefield generator for GameMaker: 52 terrain features, 8
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Neon - Signs Made of Light, for GameMaker
+### Oathfall: 14 Animated PSX Dark Fantasy Knights and Undead
 
-Store: https://csaf.itch.io/neon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/neon-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/adversary-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/adversary-gamemaker/ · Paid · Engines: Blender
 
-Neon makes the signs for your night streets.
+Want the whole set? Oathfall is also sold on the Ironvale page, together with the Ironvale fantasy adventurers and the Highcourt royal court on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4092,7 +4132,7 @@ Panoply is a loot and gear system for GameMaker that draws its own item cards: 9
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pastime - A Cabinet Of Minigames, Each One Drawing Its Own Board
+### Pastime: A Cabinet Of Minigames, Each One Drawing Its Own Board, for GameMaker
 
 Store: https://csaf.itch.io/pastime-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/pastime-gamemaker/ · Paid · Engines: GameMaker
 
@@ -4105,6 +4145,14 @@ AI disclosure: AI Assisted, Code, Graphics
 Store: https://csaf.itch.io/pendant-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/pendant-gamemaker/ · Paid · Engines: GameMaker
 
 Any picture in your game becomes a spot-the-difference puzzle, hung as a pair of paintings in a gallery.
+
+AI disclosure: AI Assisted, Code, Graphics
+
+### Plaguewick: 14 Animated PSX Plague Village Characters
+
+Store: https://csaf.itch.io/colophon-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/colophon-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Plaguewick is also sold on the Greyhollow page, together with the Greyhollow medieval townsfolk and the Hollyfrost Christmas characters on the same skeleton.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4148,6 +4196,14 @@ Repast is a cooking system for GameMaker that draws every dish it makes from 46 
 
 AI disclosure: AI Assisted, Code, Graphics
 
+### Saint Oswin: 14 Animated PSX Asylum Staff and Patients
+
+Store: https://csaf.itch.io/unveil-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/unveil-gamemaker/ · Paid · Engines: Blender
+
+Want the whole set? Saint Oswin is also sold on the Hollow Congregation page, together with 14 PSX cultists on the same skeleton.
+
+AI disclosure: AI Assisted, Code, Graphics
+
 ### Sampler: Picross in an Embroidery Hoop for GameMaker
 
 Store: https://csaf.itch.io/sampler-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/sampler-gamemaker/ · Paid · Engines: GameMaker
@@ -4172,21 +4228,13 @@ Shoal is a GameMaker fishing system that draws all 9,600 of its fish in pure GML
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Song Sheets - Every Song Engraved and Played, for GameMaker
+### Showa Dusk: 14 Animated PSX Japanese Horror Townsfolk
 
-Store: https://csaf.itch.io/song-sheets-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/song-sheets-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/table-service-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/table-service-gamemaker/ · Paid · Engines: Blender
 
-Every song your player learns becomes an engraved plate they collect - and the plate plays what it shows. A learnable-songs system for bards, ocarinas, shanties and spells.
+Want the whole set? Showa Dusk is 14 low poly PS1-style residents of a small rural Japanese town after dark, for Godot 4, Unity and Unreal, rigged and animated, with a free sampler on this page.
 
 AI disclosure: AI Assisted, Code, Graphics
-
-### Strata - Generated Excavation Digs for GameMaker
-
-Store: https://csaf.itch.io/strata-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/strata-gamemaker/ · Paid · Engines: GameMaker
-
-Give the player a rock face and two tools. Strata is a generated excavation dig for GameMaker: every blow cuts the rock back a layer or two and puts stress on the face, and somewhere under it lie fossils, relics, crystals or ore.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Swing, Smash and Soar: 3 Action Systems for GameMaker
 
@@ -4196,43 +4244,19 @@ Want the whole set? Swing, Smash and Soar is 3 action-adventure systems for Game
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Table Service - A Restaurant Serving Minigame for GameMaker
+### Syndicate: 14 Animated PSX Gangsters, Hitmen and Enforcers
 
-Store: https://csaf.itch.io/table-service-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/table-service-gamemaker/ · Paid · Engines: GameMaker
+Store: https://csaf.itch.io/loopwork-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/loopwork-gamemaker/ · Paid · Engines: Blender
 
-A restaurant serving minigame for any GameMaker room.
+Want the whole set? Syndicate is also sold on the Fort Vale page, together with the Fort Vale modern soldiers and three more PSX packs on the same skeleton.
 
-AI disclosure: AI Assisted, Code, Graphics, Text
+AI disclosure: AI Assisted, Code, Graphics
 
 ### Taproom: 4 Tavern Board Games with AI for GameMaker
 
 Store: https://csaf.itch.io/taproom-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/taproom-gamemaker/ · Paid · Engines: GameMaker
 
 Taproom puts 4 old board games into GameMaker 2024: Nine Men's Morris, Fox and Geese, Oware and Fanorona, played at a drawn tavern table against an opponent at five strengths, royalty free in commercial games.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
-### Tether - Every Bond Drawn as a Cord, for GameMaker
-
-Store: https://csaf.itch.io/tether-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/tether-gamemaker/ · Paid · Engines: GameMaker
-
-The visual layer above your game's relationship system.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
-### Touchpaper - Elemental Surfaces for GameMaker
-
-Store: https://csaf.itch.io/touchpaper-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/touchpaper-gamemaker/ · Paid · Engines: GameMaker
-
-Touchpaper gives the ground a state, and lets fire, water, frost, oil, lava and lightning argue over it. Every cell of your map carries a material and five numbers - heat, wetness, charge, fuel and flags - and the materials react.
-
-AI disclosure: AI Assisted, Code, Graphics
-
-### Tray - Generated Packing Puzzles in Wood, for GameMaker
-
-Store: https://csaf.itch.io/tray-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/tray-gamemaker/ · Paid · Engines: GameMaker
-
-A packing puzzle for your GameMaker game, every one generated and every one solvable.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -4243,14 +4267,6 @@ Store: https://csaf.itch.io/trove-gamemaker · Our page: https://onefreeman1337.
 Trove is 900 item icons for GameMaker, 75 forms in 12 materials drawn in code, plus a complete animated inventory to show them in. Royalty free in commercial games.
 
 AI disclosure: AI Assisted, Code, Graphics
-
-### Unveil - Reveal Any Picture, a Qix-Style Minigame for GameMaker
-
-Store: https://csaf.itch.io/unveil-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/unveil-gamemaker/ · Paid · Engines: GameMaker
-
-Hide a picture from your game under a veil and let the player cut it away.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
 
 ### Verdure: Plant Growth and Gardens for GameMaker, 48 Species
 
@@ -4292,7 +4308,7 @@ Every bounty in your game prints its own wanted poster.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Welkin - Skies And Weather That Draw Themselves
+### Welkin: Skies And Weather That Draw Themselves, GameMaker Sky Generator
 
 Store: https://csaf.itch.io/welkin-gamemaker · Our page: https://onefreeman1337.github.io/csaf-releases/gamemaker-assets/welkin-gamemaker/ · Paid · Engines: GameMaker
 
@@ -4304,7 +4320,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Editor tools for Unity 6. 40 products.
 
-### Almanac - The Illustrated Year
+### Almanac: The Illustrated Year, a Farming Calendar Generator for Unity
 
 Store: https://csaf.itch.io/almanac · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/almanac/ · Paid · Engines: Unity
 
@@ -4312,7 +4328,7 @@ Your farming sim already knows what the year did. Almanac draws it.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Annals: The Illuminated World Timeline
+### Annals: The Illuminated World Timeline, a Unity Timeline Generator
 
 Store: https://csaf.itch.io/annals · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/annals/ · Paid · Engines: Unity
 
@@ -4328,7 +4344,7 @@ Unity's Animator window cannot lay out a state machine. Arrange does: pick a con
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Assembly Warden
+### Assembly Warden: Unity Editor Tool for asmdef References
 
 Store: https://csaf.itch.io/assembly-warden · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/assembly-warden/ · Paid · Engines: Unity
 
@@ -4336,7 +4352,7 @@ Hand-maintained reference lists are always wrong in one of two directions. Too m
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Ballast
+### Ballast: Unity Build Optimization Tool for the Resources Folder
 
 Store: https://csaf.itch.io/ballast · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/ballast/ · Paid · Engines: Unity
 
@@ -4392,7 +4408,7 @@ Unity is removing Mono in 6.8. Unity calls the move to CoreCLR the most signific
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Descent Chronicle
+### Descent Chronicle: Dynasty and Genealogy Chart Generator for Unity
 
 Store: https://csaf.itch.io/descent-chronicle · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/descent-chronicle/ · Paid · Engines: Unity
 
@@ -4408,7 +4424,7 @@ Your mystery game already knows its suspects, clues and statements. Dossier type
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Drydock: The Loadout Schematic Sheet
+### Drydock: The Loadout Schematic Sheet, a Unity Schematic Generator
 
 Store: https://csaf.itch.io/drydock · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/drydock/ · Paid · Engines: Unity
 
@@ -4424,7 +4440,7 @@ Ductus generates letter tracing lessons from your own font, in Latin, Cyrillic a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Errantry
+### Errantry: Illuminated Quest Journal Page Generator for Unity
 
 Store: https://csaf.itch.io/errantry · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/errantry/ · Paid · Engines: Unity
 
@@ -4432,7 +4448,7 @@ Point it at a quest your game already knows about, and it draws the finished ill
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Escutcheon
+### Escutcheon: Illustrated Character Sheet Generator for Unity
 
 Store: https://csaf.itch.io/escutcheon · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/escutcheon/ · Paid · Engines: Unity
 
@@ -4456,7 +4472,7 @@ Every reference in a Unity project resolves through the GUID in a.meta file.
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Interchange — Octilinear Fast-Travel Diagram
+### Interchange: Octilinear Fast Travel Diagram Generator for Unity
 
 Store: https://csaf.itch.io/interchange · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/interchange/ · Paid · Engines: Unity
 
@@ -4520,11 +4536,11 @@ Armoury plates that know where your equipment came from. You never pick an icon 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 20 Low Poly Packs + Every New One
+### PSX Character Library: 29 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/rekey · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/rekey/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Oathfall: 14 PSX Dark Fantasy Knights and Undead Warriors, added in v1.6.0 (2026-11-17).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Bloom: 14 PSX Space Horror Infected Crew, added in v1.15.0 (2026-11-27).
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -4568,7 +4584,7 @@ Point it at a folder of modular kit prefabs. It reads the meshes and writes the 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Statewright - Animator Controller Authoring Workspace
+### Statewright: Animator Controller Authoring Workspace for Unity
 
 Store: https://csaf.itch.io/statewright · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/statewright/ · Paid · Engines: Unity
 
@@ -4584,7 +4600,7 @@ Your leaderboard already works. It just has nothing to show. Every leaderboard a
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Synthesis Web
+### Synthesis Web: Crafting Screen Generator for Unity
 
 Store: https://csaf.itch.io/synthesis-web · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/synthesis-web/ · Paid · Engines: Unity
 
@@ -4616,7 +4632,7 @@ Vellum — illuminated item cards, drawn from your own item data Every item in y
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Waymark
+### Waymark: Illustrated Save Slot Generator for Unity
 
 Store: https://csaf.itch.io/waymark · Our page: https://onefreeman1337.github.io/csaf-releases/unity-editor-tools/waymark/ · Paid · Engines: Unity
 
@@ -4716,7 +4732,7 @@ Unreal will not let you change a Blueprint-added component's class. ChangeSubobj
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Config Warden
+### Config Warden: Unreal Engine 5 Plugin to Delete Dead Config Lines
 
 Store: https://csaf.itch.io/config-warden · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/config-warden/ · Paid · Engines: Unreal Engine
 
@@ -4756,7 +4772,7 @@ A Revit → 3ds Max → Datasmith import lands ten thousand meshes, and most of 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Enhanced Input Migrator
+### Enhanced Input Migrator: Unreal Engine 5 Plugin for Legacy Input
 
 Store: https://csaf.itch.io/enhanced-input-migrator · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/enhanced-input-migrator/ · Paid · Engines: Unreal Engine
 
@@ -4812,7 +4828,7 @@ It does not just tell you. It writes the fix. Unreal already has a supported, de
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Niagara Bounds Solver
+### Niagara Bounds Solver: Fixed Bounds in Batch, Unreal Engine 5 Plugin
 
 Store: https://csaf.itch.io/niagara-bounds-solver · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/niagara-bounds-solver/ · Paid · Engines: Unreal Engine
 
@@ -4932,7 +4948,7 @@ Sound Cue Forge is a plugin for Unreal Engine 5.8 that ports your Sound Cues to 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Source Link
+### Source Link: Unreal Engine 5 Plugin to Fix Reimport Paths in Bulk
 
 Store: https://csaf.itch.io/source-link · Our page: https://onefreeman1337.github.io/csaf-releases/unreal-engine-plugins/source-link/ · Paid · Engines: Unreal Engine
 
@@ -4976,15 +4992,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Games for desktop and the browser. Where a game is paid, a free browser demo is usually on the same page. 56 products.
 
-### ANATOMIST
-
-Store: https://csaf.itch.io/anatomist · Our page: https://onefreeman1337.github.io/csaf-releases/games/anatomist/ · Paid · free browser demo on the page
-
-ANATOMIST is a Game Boy roguelike where a monster's shape is its stat block: 8,640 creatures drawn by a real 32 KB cartridge. The free browser demo on this page is floors 1 to 4, with no download and no account.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
-### ANATOMIST II: GRAFT
+### ANATOMIST II: GRAFT, a Game Boy roguelike, free demo in your browser
 
 Store: https://csaf.itch.io/anatomist-ii · Our page: https://onefreeman1337.github.io/csaf-releases/games/anatomist-ii/ · Paid · free browser demo on the page
 
@@ -4992,11 +5000,19 @@ In ANATOMIST you read them. In GRAFT you wear them. A real Game Boy cartridge (.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ANTIPOLE
+### ANATOMIST: a Game Boy roguelike, free demo in your browser
+
+Store: https://csaf.itch.io/anatomist · Our page: https://onefreeman1337.github.io/csaf-releases/games/anatomist/ · Paid · free browser demo on the page
+
+ANATOMIST is a Game Boy roguelike where a monster's shape is its stat block: 8,640 creatures drawn by a real 32 KB cartridge. The free browser demo on this page is floors 1 to 4, with no download and no account.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### ANTIPOLE: a one button physics arcade game, free in your browser
 
 Store: https://csaf.itch.io/antipole · Our page: https://onefreeman1337.github.io/csaf-releases/games/antipole/ · Free
 
-You are a charged particle. You cannot steer, you cannot thrust, and you cannot stop. The only thing you control is whether you are positive or negative.
+You are a charged particle. You cannot steer, you cannot thrust, and you cannot stop. From the same studio: THE KEPT YEAR, a pixel art JRPG in development.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5008,7 +5024,7 @@ AUGUR is a vertical shoot 'em up for the browser in which every enemy is built f
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BANNERET
+### BANNERET: a short medieval tactics puzzle, free in your browser
 
 Store: https://csaf.itch.io/banneret · Our page: https://onefreeman1337.github.io/csaf-releases/games/banneret/ · Free
 
@@ -5024,7 +5040,7 @@ Want the whole set? BOLTHOLE is a twin stick action adventure for Windows with a
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BONEFOLD
+### BONEFOLD: a top down necromancer action game for Windows with a free browser demo
 
 Store: https://csaf.itch.io/bonefold · Our page: https://onefreeman1337.github.io/csaf-releases/games/bonefold/ · Paid · free browser demo on the page
 
@@ -5056,11 +5072,11 @@ CRAQUELURE is a Game Boy Color game about catching forged paintings, with 64 gen
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### CRYPTMARCH
+### CRYPTMARCH: a dungeon crawler for Windows, free demo in your browser
 
 Store: https://csaf.itch.io/cryptmarch · Our page: https://onefreeman1337.github.io/csaf-releases/games/cryptmarch/ · Paid · free browser demo on the page
 
-Want the whole set? CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written by hand in HTML5.
+Want the whole set? CRYPTMARCH is a top-down, real-time dungeon crawler for one or two players on one screen, written in HTML5.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5128,7 +5144,7 @@ GLASSWRIGHT is a stained glass workshop management game for Windows with a free 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### GUISER
+### GUISER: a Halloween action adventure for Windows with a free browser demo
 
 Store: https://csaf.itch.io/guiser · Our page: https://onefreeman1337.github.io/csaf-releases/games/guiser/ · Paid · free browser demo on the page
 
@@ -5136,7 +5152,7 @@ Want the whole set? One village. One night. Every costume is a key. It is All Ha
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### HALTER
+### HALTER: a cozy farm logic puzzle for Windows with a free browser demo
 
 Store: https://csaf.itch.io/halter · Our page: https://onefreeman1337.github.io/csaf-releases/games/halter/ · Paid · free browser demo on the page
 
@@ -5160,7 +5176,7 @@ HEDGEMAGE is a short top-down wizard action game for Windows, with a free demo y
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### HOLLOWAY
+### HOLLOWAY: a top down action adventure for Windows with a free browser demo
 
 Store: https://csaf.itch.io/holloway · Our page: https://onefreeman1337.github.io/csaf-releases/games/holloway/ · Paid · free browser demo on the page
 
@@ -5176,7 +5192,7 @@ LANTERNBOUND is a turn based JRPG for a party of 3 and one oil lantern that burn
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### LAST CART OUT
+### LAST CART OUT: a one button retro racing game, free in your browser
 
 Store: https://csaf.itch.io/last-cart-out · Our page: https://onefreeman1337.github.io/csaf-releases/games/last-cart-out/ · Free
 
@@ -5216,7 +5232,7 @@ Créé pour l'Indie Park Game Jam #6 (thème « Voyage »), du 20 au 30 novembre
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### MOONWORT
+### MOONWORT: a short narrative RPG for Windows with a free browser demo
 
 Store: https://csaf.itch.io/moonwort · Our page: https://onefreeman1337.github.io/csaf-releases/games/moonwort/ · Paid · free browser demo on the page
 
@@ -5256,7 +5272,7 @@ PILOTAGE is a puzzle game with 40 anchorages: bring a fishing fleet home at dusk
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PLUMBLINE
+### PLUMBLINE: a short metroidvania for Windows with a free browser demo
 
 Store: https://csaf.itch.io/plumbline · Our page: https://onefreeman1337.github.io/csaf-releases/games/plumbline/ · Paid · free browser demo on the page
 
@@ -5264,11 +5280,19 @@ PLUMBLINE is a short metroidvania for Windows in 4 regions, with no keys, no upg
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### PROOFMARK
+### PROOFMARK: a Game Boy deduction game, free demo in your browser
 
 Store: https://csaf.itch.io/proofmark · Our page: https://onefreeman1337.github.io/csaf-releases/games/proofmark/ · Paid · free browser demo on the page
 
 PROOFMARK is a real 32 KB Game Boy deduction game: work out each day's hidden rule from 5,760 generated coins. The free browser demo is days one and two.
+
+AI disclosure: AI Assisted, Code, Graphics, Text
+
+### RAMBACK: a PS1-style ram charge through five eras
+
+Store: https://csaf.itch.io/sidelong · Our page: https://onefreeman1337.github.io/csaf-releases/games/sidelong/ · Paid · free browser demo on the page · Engines: Three.js
+
+Made for the PS1 Aesthetic Game Jam (theme "Bash to the Past"), November 2026, and built in Bash.tv.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5280,7 +5304,7 @@ Made for the PS1 Aesthetic Game Jam (theme "Bash to the Past"), November 2026, a
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### ROOTWORK
+### ROOTWORK: a logic puzzle for Windows with a free browser demo
 
 Store: https://csaf.itch.io/rootwork · Our page: https://onefreeman1337.github.io/csaf-releases/games/rootwork/ · Paid · free browser demo on the page
 
@@ -5296,19 +5320,11 @@ ROSE ENGINE is a Game Boy arcade survival game with endless play: you stay alive
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SCRUPLE
+### SCRUPLE: a Game Boy deduction puzzle, free demo in your browser
 
 Store: https://csaf.itch.io/scruple · Our page: https://onefreeman1337.github.io/csaf-releases/games/scruple/ · Paid · free browser demo on the page
 
 A tray of sealed packets of metal. Each one is stamped with what it weighs. Exactly one of them is lying. SCRUPLE is a Game Boy ROM containing forty assay problems.
-
-AI disclosure: AI Assisted, Code, Graphics, Text
-
-### SIDELONG
-
-Store: https://csaf.itch.io/sidelong · Our page: https://onefreeman1337.github.io/csaf-releases/games/sidelong/ · Paid · free browser demo on the page
-
-Want the whole set? An action RPG with no attack button. You cut a monster by running into it off centre or from behind. Meet it head on and you both take the blow.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
@@ -5320,7 +5336,7 @@ Lead a skein of geese south through one night. You start alone in the dusk. Some
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### SNOWBANK
+### SNOWBANK: a short finance arcade game, free in your browser
 
 Store: https://csaf.itch.io/snowbank · Our page: https://onefreeman1337.github.io/csaf-releases/games/snowbank/ · Free
 
@@ -5376,7 +5392,7 @@ The Turning Year is a puzzle adventure with 4 lands and one dial that turns the 
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### TINDERBOX
+### TINDERBOX: a firefighting action game for Windows with a free browser demo
 
 Store: https://csaf.itch.io/tinderbox · Our page: https://onefreeman1337.github.io/csaf-releases/games/tinderbox/ · Paid · free browser demo on the page
 
@@ -5384,7 +5400,7 @@ Want the whole set? TINDERBOX is a top-down firefighting action game for Windows
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### WARDLOCK
+### WARDLOCK: a Game Boy logic puzzle, free demo in your browser
 
 Store: https://csaf.itch.io/wardlock · Our page: https://onefreeman1337.github.io/csaf-releases/games/wardlock/ · Paid · free browser demo on the page
 
@@ -5392,15 +5408,15 @@ WARDLOCK is a logic puzzle game on a real Game Boy ROM with 48 warded locks, eac
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### Wicklight
+### Wicklight: a short dark arcade score attack, free in your browser
 
 Store: https://csaf.itch.io/wicklight · Our page: https://onefreeman1337.github.io/csaf-releases/games/wicklight/ · Free
 
-There is one rule, and everything else comes from it. A shade is safe in shadow and dies in light. You are the light.
+From the same studio: THE KEPT YEAR, a pixel art JRPG in development. Follow it now and the free demo reaches you first. There is one rule, and everything else comes from it.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### WINTERING
+### WINTERING: a survival game for Windows with a free browser demo
 
 Store: https://csaf.itch.io/wintering · Our page: https://onefreeman1337.github.io/csaf-releases/games/wintering/ · Paid · free browser demo on the page
 
@@ -5408,7 +5424,7 @@ Want the whole set? WINTERING is a short top-down survival action game for Windo
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### WISPCATCHER
+### WISPCATCHER: a Game Boy logic puzzle, free demo in your browser
 
 Store: https://csaf.itch.io/wispcatcher · Our page: https://onefreeman1337.github.io/csaf-releases/games/wispcatcher/ · Paid · free browser demo on the page
 
@@ -5416,7 +5432,7 @@ A wisp hides in an old tree. Every night it hops one fork. Catch it in the fewes
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### WITNESS MARK
+### WITNESS MARK: a Game Boy deduction game, free demo in your browser
 
 Store: https://csaf.itch.io/witness-mark · Our page: https://onefreeman1337.github.io/csaf-releases/games/witness-mark/ · Paid · free browser demo on the page
 
@@ -6300,11 +6316,11 @@ Phone Line is a pixel art phone and chat UI kit for visual novels, for Ren'Py, G
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pixel Icon Library: 2 Packs, 1,206 RPG Item and UI Icons
+### Pixel Icon Library: 3 Packs, 1,638 Item and UI Icons
 
 Store: https://csaf.itch.io/ui-glyphs-pixel-game-icons · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-glyphs-pixel-game-icons/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Want the whole set? 1,206 pixel game icons in two packs for Godot 4 and RPG Maker MZ: Satchel, 794 fantasy RPG item icons at 32 px, and UI Glyphs, 412 interface icons at 16 and 32 px, with files for Unity, Unreal, GameMaker and Ren'Py.
+Want the whole set? 1,638 pixel game icons in three packs, with files for Godot 4, RPG Maker MZ, Unity, Unreal, GameMaker and Ren'Py. Pocketful: 432 modern-day item icons at 32 px, 378 of them also at 16 px.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6836,19 +6852,19 @@ Want the whole set? Plaguewick is also sold on the Greyhollow page, together wit
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Character Library: 28 Low Poly Packs + Every New One
+### PSX Character Library: 29 Low Poly Packs + Every New One
 
 Store: https://csaf.itch.io/psx-character-library · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-character-library/ · Paid · Engines: Blender
 
-Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Kombinat: 14 PSX Soviet Factory, Rail and Metro Workers, added in v1.14.0 (2026-11-23).
+Every new pack we release is added here on its launch day, free for everyone who owns the Library. Royalty free for commercial games. New here first: Bloom: 14 PSX Space Horror Infected Crew, added in v1.15.0 (2026-11-27).
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### PSX Characters Sampler: 28 Free Low Poly 3D Characters
+### PSX Characters Sampler: 29 Free Low Poly 3D Characters
 
 Store: https://csaf.itch.io/psx-characters-sampler · Our page: https://onefreeman1337.github.io/csaf-releases/3d-models/psx-characters-sampler/ · Free · pay what you want · Engines: Blender
 
-PSX Characters Sampler is 28 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
+PSX Characters Sampler is 29 free low poly PS1 style 3D characters for Godot 4, Unity and Unreal, each rigged with 45 animation clips.
 
 AI disclosure: AI Assisted, Code, Graphics
 
