@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 852 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-23T20:45:40.995Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-23T22:24:59.743Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -744,11 +744,11 @@ Want the whole set? Verdant Iso 01 is 240 isometric pixel art tiles on a 64x32 g
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Verdant Library: All 110 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
+### Verdant Library: All 111 Pixel Art Tileset Packs (16x16 Top Down RPG and More) + Every New One
 
 Store: https://csaf.itch.io/verdant-library · Our page: https://onefreeman1337.github.io/csaf-releases/tilesets/verdant-library/ · Paid · Engines: Unity, Tiled, Godot
 
-Verdant Library is every paid Verdant tileset in one download: 110 packs and 73,011 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
+Verdant Library is every paid Verdant tileset in one download: 111 packs and 73,192 tiles for RPG Maker MZ, Tiled and Godot 4. Commercial use permitted, no attribution required; you may not resell the tiles as a tile pack.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -2348,11 +2348,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 62 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
+### Music Library: 63 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 62 royalty free game music albums, 2,784 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 63 royalty free game music albums, 2,856 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
