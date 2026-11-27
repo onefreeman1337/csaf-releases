@@ -1,0 +1,82 @@
+[
+ {
+  "f": "add_outbreak.png",
+  "bytes": 120633,
+  "sha256": "b2408cd4286669914a12ab53d79d6244ad19abf6c216c1f4c3bf9350a19b008e",
+  "w": 1280,
+  "h": 742,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2478247,
+  "sha256": "43dc5923c2a7d37db70a5b391f9ce9cde38409b26442c0d9df1e0a810125e747",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1421947,
+  "sha256": "2347dcc2a6738c29273d2d03de643176945199da36e8a4016c8ed8bd868c32b5",
+  "w": 1280,
+  "h": 1483,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 378681,
+  "sha256": "b6e24133cce82397d26e38cd758f581de294b0b7e3251fb9eb71e5f433e784cb",
+  "w": 1280,
+  "h": 1472,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 344692,
+  "sha256": "a40a0e0c4dc9acdbd412ca0ae8ad366ce9d898222eaed51a757e2a77a4d5c120",
+  "w": 1280,
+  "h": 1341,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 389956,
+  "sha256": "7e91e1ebaa0d49927446d51d9b8da13af33e3c616cc5cf0ca1b1b8b410598040",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_4_inside_3.png",
+  "bytes": 371277,
+  "sha256": "9fbe43b037fa67044d4be51499b5933bc0768b2ca930aac5b29fa4ee27c0bc69",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 249835,
+  "sha256": "f53c5d7fca0516bf426cb2371244b4eace10aa1ff489179f023413ce39bb3d1f",
+  "w": 1280,
+  "h": 1082,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 107177,
+  "sha256": "e8025f8cd41abc7a34a39653a748ca8ccf0490af0caf2af50389c7dcf41d8365",
+  "w": 1280,
+  "h": 916,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 473307,
+  "sha256": "8dc63067e45fc38982ef8224e925cf397d988dee0463805a342ed154a04f2175",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
