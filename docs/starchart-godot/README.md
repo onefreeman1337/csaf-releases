@@ -53,6 +53,10 @@ secrets, quest, ambition, vision, dreams), and its element is `StarChart2D.ELEME
 Body `i` carries the key `StarChart2D.BODY_KEYS[i]` (self, heart, word, love, strife, fortune, time). Sign and body names
 differ per style (classic names, or a generated calendar's); meanings do not, so your game logic works with any style.
 
+A chart redraws only the strokes still drawing: finished strokes are recorded once and left alone, and a finished chart
+is not redrawn. Many charts drawing at the same moment are costly under Forward+ (fifty at once measured above 100 ms a
+frame on the test machine, under 30 ms under Compatibility); a handful at a time is the intended use.
+
 The same `chart_seed`, style and kind always draw the same chart (a saved reading can be redrawn exactly).
 `draw_chart()` with no argument picks a new seed; `draw_chart(1234)` uses that one. Set `use_date` and `date`
 ({year, month, day, hour}) to draw from a date instead.
