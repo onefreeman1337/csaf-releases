@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 854 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-27T15:42:15.125Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-27T18:31:27.989Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -1992,11 +1992,11 @@ Want the whole set? Slackwater is a pack of 129 fishing sound effects for any ga
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Sound Library: All 157 Royalty Free Game Sound Effects Packs + Every New One
+### Sound Library: All 160 Royalty Free Game Sound Effects Packs + Every New One
 
 Store: https://csaf.itch.io/sound-library · Our page: https://onefreeman1337.github.io/csaf-releases/sound-effects/sound-library/ · Paid
 
-CSAF Sound Library is 21,280 royalty free sound effects in 157 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
+CSAF Sound Library is 21,640 royalty free sound effects in 160 packs for Godot, Unity, GameMaker, RPG Maker and any engine that plays WAV or OGG.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3128,7 +3128,7 @@ Lucidity is 3 RPG Maker MZ plugins for horror games: one sanity value, 5 tiers i
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### MZ Plugin Library: 145 RPG Maker MZ Plugins + Every New One
+### MZ Plugin Library: 146 RPG Maker MZ Plugins + Every New One
 
 Store: https://csaf.itch.io/mz-plugin-library · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/mz-plugin-library/ · Paid · Engines: RPG Maker
 
@@ -6316,11 +6316,11 @@ Phone Line is a pixel art phone and chat UI kit for visual novels, for Ren'Py, G
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Pixel Icon Library: 3 Packs, 1,638 Item and UI Icons
+### Pixel Icon Library: 4 Packs, 1,758 Item, UI and Prompt Icons
 
 Store: https://csaf.itch.io/ui-glyphs-pixel-game-icons · Our page: https://onefreeman1337.github.io/csaf-releases/ui-kits/ui-glyphs-pixel-game-icons/ · Paid · Engines: Ren'Py, Unity, Unreal Engine, GameMaker, RPG Maker, Godot
 
-Want the whole set? 1,638 pixel game icons in three packs, with files for Godot 4, RPG Maker MZ, Unity, Unreal, GameMaker and Ren'Py. Pocketful: 432 modern-day item icons at 32 px, 378 of them also at 16 px.
+Want the whole set? 1,758 pixel game icons in four packs, with files for Godot 4, RPG Maker MZ, Unity, Unreal, GameMaker and Ren'Py. Prompt Keys: 120 keyboard, mouse and gamepad prompts, each with a pressed frame.
 
 AI disclosure: AI Assisted, Code, Graphics
 
