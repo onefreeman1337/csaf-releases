@@ -1,0 +1,82 @@
+[
+ {
+  "f": "add_station.png",
+  "bytes": 116290,
+  "sha256": "36e8d46168da394ef5662bbc58c873dcd1a72a0265a997333019805d903ce149",
+  "w": 1280,
+  "h": 728,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2527035,
+  "sha256": "681f5ae6df2b286491e98035ddfb978e0b3090e5f22f1d0fe15296c77cf81f9f",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1443821,
+  "sha256": "a348f292f8474c7b837687b56863247db83ff5a7b6470d3775ce045b4c5d9f37",
+  "w": 1280,
+  "h": 1483,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 274513,
+  "sha256": "85f95ec070e5c6888137d10db44f655580e0406a389e29e33c95d73036da1360",
+  "w": 1280,
+  "h": 1160,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 344734,
+  "sha256": "b8eeb84d48e2e6e78c7da41aae15dfa3363e2e34d40270791b7cb7fb7e72e276",
+  "w": 1280,
+  "h": 1341,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 389999,
+  "sha256": "4a1e7ff19fa29a44eb39da8a8120f194484cf1eb0a649d4258dad0f94b50acfe",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_4_inside_3.png",
+  "bytes": 371316,
+  "sha256": "eb7490d2048a84519f30a84c62eabb227d1aeb9a1fd86eab06853b0c6a2eda99",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 378726,
+  "sha256": "a7b979e7d22109ed73731f5123b9f8674a6824ead052284ab8916de5bf21c3af",
+  "w": 1280,
+  "h": 1472,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 107585,
+  "sha256": "caff44153a7599669eceab2fd6af06c83c2a863e7b54ff87b54779d3295c92b6",
+  "w": 1280,
+  "h": 916,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 468670,
+  "sha256": "7ee405022c3d637de0f2b54f7350ee363f7d2e23b7b4d1148dd68185052d98e7",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
