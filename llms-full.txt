@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 854 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-28T03:52:30.286Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-28T05:24:00.867Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -5500,11 +5500,11 @@ The coal is easy. The air is the game. BRATTICE is a free colliery incremental f
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
-### BULLET HELL BOTANIST: a pixel art farming roguelite, free in your browser
+### BULLET HELL BOTANIST: a free farming bullet hell roguelite
 
 Store: https://csaf.itch.io/bullet-hell-botanist · Our page: https://onefreeman1337.github.io/csaf-releases/free-browser-games/bullet-hell-botanist/ · Free
 
-You have no weapon. The garden shoots. A plant in flower is both your income and your covering fire. Harvesting it pays you and takes the gun away.
+You have no weapon. The garden shoots. A free browser bullet hell over 10 seasons, where 8 plant species and 28 hybrids do the shooting for you.
 
 AI disclosure: AI Assisted, Code, Graphics, Text
 
