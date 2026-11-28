@@ -1,0 +1,82 @@
+[
+ {
+  "f": "add_quarantine.png",
+  "bytes": 177861,
+  "sha256": "d73e743e7534fadcae8a5b84e2dbe789a33837828b2989bc641bf0c132fd077e",
+  "w": 1280,
+  "h": 736,
+  "kind": "png"
+ },
+ {
+  "f": "gif_1_the_library.gif",
+  "bytes": 2554166,
+  "sha256": "23d443f01b0af802dac5b6e71d6bebe1f433b998a91cfa1554fd0166734c4108",
+  "w": 600,
+  "h": 450,
+  "kind": "gif"
+ },
+ {
+  "f": "shot_1_every_album.png",
+  "bytes": 1460866,
+  "sha256": "a3166394add33cddf69057807f03a24ffa5ea0319a703c16de155fa3f7558e4f",
+  "w": 1280,
+  "h": 1483,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_inside_5.png",
+  "bytes": 296997,
+  "sha256": "f108e03eac26581ff2543a015eef36f9aea61e23558a079e95323700c4a6a47d",
+  "w": 1280,
+  "h": 1238,
+  "kind": "png"
+ },
+ {
+  "f": "shot_2_inside_1.png",
+  "bytes": 344671,
+  "sha256": "4ca072f720d8aefdba710323dfafee3d50716ea40f9b189fb589913b31445a0d",
+  "w": 1280,
+  "h": 1341,
+  "kind": "png"
+ },
+ {
+  "f": "shot_3_inside_2.png",
+  "bytes": 389935,
+  "sha256": "ce38b19626d6c96516928fbc910f08d8f9b1af9a318e1af2f709a7a557b2b620",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_4_inside_3.png",
+  "bytes": 371254,
+  "sha256": "d3f96351b6dbe4c1e74cbfe57fbc99c28726bcb7c6740a377513f9de500e261b",
+  "w": 1280,
+  "h": 1525,
+  "kind": "png"
+ },
+ {
+  "f": "shot_5_inside_4.png",
+  "bytes": 378660,
+  "sha256": "d95258a842773fc9aec958d8184058184858881f0a502a1264b44f35f1e932fc",
+  "w": 1280,
+  "h": 1472,
+  "kind": "png"
+ },
+ {
+  "f": "shot_6_value.png",
+  "bytes": 107211,
+  "sha256": "2a6a7d6b1ec89172381f8ecdd4aef61ba2ae7d7c1ec54a7241ec36a12cd2286c",
+  "w": 1280,
+  "h": 916,
+  "kind": "png"
+ },
+ {
+  "f": "cover.png",
+  "bytes": 469132,
+  "sha256": "65fe7f561d416cb10d34d36356dc844ac3ab6dc76d82f040adb9ea54f19989d6",
+  "w": 630,
+  "h": 500,
+  "kind": "png"
+ }
+]
