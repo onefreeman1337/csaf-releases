@@ -2,7 +2,7 @@
 
 > Core Systems Asset Factory (CSAF) is a game development studio. It sells game assets, engine tools and games: tilesets, sprite packs, sound effect packs, game music, voice packs, UI kits, RPG Maker MZ plugins, GameMaker assets, Godot 4 addons, Unity and Unreal Engine editor tools, and games for desktop and the browser. Every product is made with AI and its listing says so. The store is https://csaf.itch.io/ and this site is the studio's own catalogue of 854 products: one plain page per product, each linking to its store page. No prices are printed here; prices are on the store pages.
 
-Generated from the live store pages, last read 2026-11-28T07:00:09.072Z. Site: https://onefreeman1337.github.io/csaf-releases/
+Generated from the live store pages, last read 2026-11-28T09:18:57.016Z. Site: https://onefreeman1337.github.io/csaf-releases/
 
 ## Tilesets
 
@@ -2356,11 +2356,11 @@ Longships is a 44 track Norse saga score for RPGs: the longhall and the whale ro
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Music Library: 65 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
+### Music Library: 66 Royalty Free Game Music Albums (Loops, OGG + MIDI) + Every New One
 
 Store: https://csaf.itch.io/music-library · Our page: https://onefreeman1337.github.io/csaf-releases/game-music/music-library/ · Paid
 
-CSAF Music Library is 65 royalty free game music albums, 2,944 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
+CSAF Music Library is 66 royalty free game music albums, 2,988 tracks as OGG and MIDI, for Godot, Unity, GameMaker, RPG Maker and any engine. Buy once, keep every album that joins.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -3436,7 +3436,7 @@ AI disclosure: AI Assisted, Code, Graphics
 
 Store: https://csaf.itch.io/table-service · Our page: https://onefreeman1337.github.io/csaf-releases/rpg-maker-mz-plugins/table-service/ · Paid · Engines: RPG Maker
 
-Table Service is a restaurant minigame plugin for RPG Maker MZ: 8 to 15 parties a night sit down at the tables on the map you already built. Royalty free.
+Want the whole set? Table Service is a restaurant minigame plugin for RPG Maker MZ: 8 to 15 parties a night sit down at the tables on the map you already built.
 
 AI disclosure: AI Assisted, Code, Graphics
 
@@ -6504,11 +6504,11 @@ Godot 4 Shader and VFX Sampler: 132 free presets from 11 addons A free download 
 
 AI disclosure: AI Assisted, Code, Graphics
 
-### Godot Collection: All 39 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
+### Godot Collection: All 40 Godot 4 Shader, 2D VFX and Addon Packs + Every New One
 
 Store: https://csaf.itch.io/godot-collection · Our page: https://onefreeman1337.github.io/csaf-releases/godot-addons/godot-collection/ · Paid · Engines: Godot
 
-Every CSAF addon pack for Godot 4 in one project: 39 packs, 2,039 presets for 2D games, royalty free, and every new pack joins on launch day. The other 17 have no page of their own.
+Every CSAF addon pack for Godot 4 in one project: 40 packs, 2,087 presets for 2D games, royalty free, and every new pack joins on launch day. The other 18 have no page of their own.
 
 AI disclosure: AI Assisted, Code, Graphics
 
